@@ -1,4 +1,4 @@
-// v.1.1.12
+// v.1.1.13
 // redirects
 
 var geturl = window.location;
@@ -834,7 +834,7 @@ a.forEach((item, index) => {
 b  += item+ ', ';
  });
 
-document.getElementById('print').innerHTML = '<div class="bg padding border2 light op">Search commands list: '+b+'<br />Example search: "Google n" - news about Google, etc</div>';
+document.getElementById('print').innerHTML = '<div class="bg padding border2 light op">Redirects commands list: '+b+'<br />Example redirects: "Google n" - news about Google, etc</div>';
 
 
 
