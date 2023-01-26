@@ -23,13 +23,22 @@
 
 <link rel="icon" sizes="512x512" href="/img/logo.png" type="image/png">
 
-<link rel="stylesheet" type="text/css" href="/css/light.css">
-<link rel="stylesheet" type="text/css" id="theme">
+<!-- start main css js -->
+<link rel="stylesheet" type="text/css" href="/css/light.css" id="theme">
 <link rel="stylesheet" type="text/css" href="/css/style-main.css">
+
+<script>
+// fixed if offline
+if(String(window.location.href).slice(0, 4) != 'http'){
+document.getElementById('theme').id = 'themeDisable';
+}
+</script>
+
 <script src="/js/main.js"></script>
 
 <script src="/data/adsJsonVar.js"></script>
 <script src="/js/ad.js"></script>
+<!-- end -->
 
 <link rel="stylesheet" type="text/css" href="style.css" />
 

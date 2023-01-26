@@ -1,4 +1,4 @@
-// v.1.2.11
+// v.1.2.12
 
 function insertIcon(id){
 
@@ -130,7 +130,8 @@ let icArr = [];
 iconsArr.forEach((item) => {
 let textIcon = item;
 let icon = icons[textIcon];
-if(linkText.toLowerCase().search(textIcon) != -1&&linkText.toLowerCase().search(icon) == -1){
+//if(linkText.toLowerCase().search(textIcon) != -1&&linkText.toLowerCase().search(icon) == -1){
+if(linkText.toLowerCase()+' '.indexOf(textIcon+' ') >= 0&&linkText.toLowerCase()+''.indexOf(icon+'')){
 icArr.push(icon);
 check = 'exit';
 }

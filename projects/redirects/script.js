@@ -4,7 +4,6 @@
 var geturl = window.location;
 var url = new URL(geturl);
 var q = url.searchParams.get("q");
-q = String(q);
 
 var rUrlGet = url.searchParams.get("rUrl");
 
@@ -739,7 +738,7 @@ sRedirUrl = random;
 
 
 if(sRedirUrl != ''&&sRedirUrl != undefined&&sRedirUrl != null){
-window.location.href = "./search."+confExt+"?rUrl="+sRedirUrl;
+window.location.href = "/projects/redirects/?rUrl="+sRedirUrl;
 }
 
 
@@ -748,6 +747,113 @@ window.location.href = "./search."+confExt+"?rUrl="+sRedirUrl;
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+// print
+
+var print = '';
+
+if(rUrlGet == null||rUrlGet == 'null'||rUrlGet == ''){
+
+}else{
+
+rUrlGet = String(window.location);
+let myArray = rUrlGet.split("rUrl=");
+rUrlGet = myArray[1];
+
+let rUrlGetPrint = decodeURIComponent(rUrlGet);
+rUrlGetPrint = rUrlGetPrint.replace(/</g, "&lt;");
+rUrlGetPrint = rUrlGetPrint.replace(/>/g, "&gt;");
+
+
+var sTimeRedir = 1200;
+
+var sTimeRedirStatus = `redir: `+sTimeRedir / 1000+` sec.`;
+
+if ((''+window.location+'').search("#stopRedir") == -1){ // if back Stop Redir
+setTimeout(function(){
+window.location.href = rUrlGet;
+}, sTimeRedir); 
+}
+
+window.location.href = window.location.href+'#stopRedir'; 
+
+if (rUrlGet.search("#stopRedir") != -1){ 
+sTimeRedirStatus = '  ( redir: off )  ';
+
+}
+
+
+print = `
+
+<div class="tCenter">
+<div class="post bgList borderList op tCenter">`+sTimeRedirStatus+`</div>
+<div class="post bgList borderList h3 orange bold">`+rUrlGetPrint+`</div>
+<a class="block padding light borderList op" href="`+rUrlGet+`">open</a>
+</div>
+
+`;
+
+
+
+document.getElementById("result").innerHTML = print;
+
+}
+
+
+
+
+
+
+
+var a = [
+"bin", "goo", "n", "twi", "red"
+];
+
+var b = '';
+a.forEach((item, index) => { 
+b  += item+ ', ';
+ });
+
+document.getElementById('print').innerHTML = '<div class="bg padding border2 light op">Search commands list: '+b+'<br />Example search: "Google n" - news about Google, etc</div>';
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+//fuWorker('on');
 
 
 

@@ -26,15 +26,24 @@
 <link rel="icon" sizes="512x512" href="/img/logo.png" type="image/png">
 
 
-<link rel="stylesheet" type="text/css" href="/css/light.css"> <!-- for, if Save As -->
-<link rel="stylesheet" type="text/css" id="theme">
+<!-- start main css js -->
+<link rel="stylesheet" type="text/css" href="/css/light.css" id="theme">
 <link rel="stylesheet" type="text/css" href="/css/style-main.css">
+
+<script>
+// fixed if offline
+if(String(window.location.href).slice(0, 4) != 'http'){
+document.getElementById('theme').id = 'themeDisable';
+}
+</script>
+
 <script src="/js/main.js"></script>
 
 <script src="/data/adsJsonVar.js"></script>
 <script src="/js/ad.js"></script>
+<!-- end -->
 
-<script src="/js/search.js"></script>
+
 </head>
 <body>
 
@@ -111,6 +120,8 @@ document.getElementById("dropbtn").innerHTML = '☰ Other';
 <!-- content -->
 <div class="content">
 
+
+
 <div class="center2">
 
 
@@ -156,16 +167,16 @@ function updateValueIn(e) {
 var text = encodeURIComponent(e.target.value);
 
 var a = `
-<a class="tag light border2 op" href="/?q=`+text+` goo">goo</a>
-<a class="tag light border2 op" href="/?q=`+text+` bin">bin</a>
-<a class="tag light border2 op" href="/?q=`+text+` o">o</a>
-<a class="tag light border2 op" href="/?q=`+text+` n">n</a>
-<a class="tag light border2 op" href="/?q=`+text+` twi">twi</a>
-<a class="tag light border2 op" href="/?q=`+text+` red">red</a>
-<a class="tag light border2 op" href="/?q=`+text+` y">y</a>
-<a class="tag light border2 op" href="/?q=`+text+` v">v</a>
-<a class="tag light border2 op" href="/?q=`+text+` t">t</a>
-<a class="tag light border2 op" href="/?q=`+text+` m">mus</a>
+<a class="tag light border2 op" href="/projects/redirects/?q=`+text+` goo">goo</a>
+<a class="tag light border2 op" href="/projects/redirects/?q=`+text+` bin">bin</a>
+<a class="tag light border2 op" href="/projects/redirects/?q=`+text+` o">o</a>
+<a class="tag light border2 op" href="/projects/redirects/?q=`+text+` n">n</a>
+<a class="tag light border2 op" href="/projects/redirects/?q=`+text+` twi">twi</a>
+<a class="tag light border2 op" href="/projects/redirects/?q=`+text+` red">red</a>
+<a class="tag light border2 op" href="/projects/redirects/?q=`+text+` y">y</a>
+<a class="tag light border2 op" href="/projects/redirects/?q=`+text+` v">v</a>
+<a class="tag light border2 op" href="/projects/redirects/?q=`+text+` t">t</a>
+<a class="tag light border2 op" href="/projects/redirects/?q=`+text+` m">mus</a>
 `;
 document.getElementById("hotLinks").innerHTML = a; 
 }
@@ -180,7 +191,9 @@ document.getElementById( 'topHeader' ).style.display = 'block';
 }
 });
 
-}
+} 
+
+
 </script>
 
 
@@ -199,6 +212,47 @@ document.getElementById( 'topHeader' ).style.display = 'block';
 
 
 </div>
+
+
+
+
+
+
+
+
+
+</div>
+
+
+<footer>
+
+<div id="ads2"></div>
+
+
+<div class="wrapper3 padding">
+
+<!--<span><a  class="button" href="../">&#x2190;</a></span>
+-->
+
+<span><a href="/">index</a></span>
+<span id="fTheme"><a href="/theme.html">Themes</a></span>
+<span id="fApp"><a href="/app.html">app: status</a></span>
+<span id="fPrivacy"><a href="/privacy.html">cookie: status</a></span>
+
+<span>author: <a rel="author" href="/about.html">Gabc 2023</a></span>
+<span>license: <a rel="license" title="license" href="https://creativecommons.org/licenses/by-sa/4.0/">CC BY-SA</a></span> <!-- footer, LICENSE.md README.md -->
+
+</div>
+</footer>
+<script src="/js/main.js"></script>
+<script src="/data/adsJsonVar.js"></script>
+<script src="/js/ad.js"></script>
+
+<script> fuAds('', 'ads2', ''); </script>
+
+
+<script src="/js/search.js"></script>
+
 
 
 <script>
@@ -277,43 +331,6 @@ document.getElementById('print').innerHTML = '<div class="bg padding border2 lig
 
 
 </script>
-
-
-
-</div>
-
-<footer>
-
-<div id="ads2"></div>
-<script> fuAds('', 'ads2', ''); </script>
-
-<div class="wrapper3 padding">
-
-<!--<span><a  class="button" href="../">&#x2190;</a></span>
--->
-
-<span><a href="/">index</a></span>
-<span id="fTheme"><a href="/theme.html">Themes</a></span>
-<script>
-document.getElementById("fTheme").innerHTML = '<span><a href="/theme.html">theme: '+theme+' ('+confRealTmpTheme+')</a></span>';
-</script>
-
-<span id="fApp"><a href="/app.html">app: *</a></span>
-<script>
-document.getElementById("fApp").innerHTML = '<a href="/app.html">app: '+confWorkerStatus+'</a>';
-</script>
-
-<span id="fPrivacy"><a href="/privacy.html">cookie: *</a></span>
-<script>
-document.getElementById("fPrivacy").innerHTML = '<a href="/privacy.html">cookie: '+confDataCollection+'</a>';
-</script>
-
-<span>author: <a rel="author" href="/about.html">Gabc 2023</a></span>
-<span>license: <a rel="license" title="license" href="https://creativecommons.org/licenses/by-sa/4.0/">CC BY-SA</a></span> <!-- footer, LICENSE.md README.md -->
-
-</div>
-</footer>
-<!--<script src="/js/main2.js"></script>-->
 
 
 </body>

@@ -2,7 +2,7 @@
 <html lang="">
 <head>
 <meta charset="UTF-8">
-<title>Timer</title>
+<title>tpl</title>
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
 <meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate">
@@ -32,7 +32,8 @@ document.getElementById('theme').id = 'themeDisable';
 </head>
 <body>
 
-<header>
+
+<header class="brand">
 <nav>
 <a href="/">index</a>
 <a href="../">list</a>
@@ -40,36 +41,55 @@ document.getElementById('theme').id = 'themeDisable';
 </header>
 
 
+<!-- content -->
 <div class="content">
+<b class="block tCenter op padding">title</b>
 
-<h3 class="tCenter op">Timer</h3>
+
+
 
 <div class="center2">
-<div id="result"></div>
-<div id="result2"></div>
+
+
+<div class="wrapperL">
+<div id="result">
+
+<form id="form" method="GET" class="block" action="index.html" style="margin:0 auto; style="">
+<input class="padding" type="search" style="text-align: center;" name="q" autofocus="autofocus" autocomplete="off" placeholder="" x-webkit-speech />
+<input type="submit" value="go">
+</form>
+
+</div>
+
+</div>
+</div>
+
+<div class="wrapperL">
+<details>
+<summary class="op" style="text-align: right; color: var(--c); cursor: pointer; font-size: small; "> ?</summary>
+<div id="print"></div>
+</details>
 </div>
 
 
+
 </div>
 
 
 
+
+
+
+
+</div>
+<!-- end content -->
 
 
 
 <footer>
 <div id="ads2"></div>
 <script> fuAds('', 'ads2', ''); </script>
-
-<hr>
-<span id="fApp"></span>
 </footer>
-
-<script src="/js/main.js"></script>
-<script src="/data/adsJsonVar.js"></script>
-
-
-<script src="/js/ad.js"></script>
 
 <script src="script.js"></script>
 

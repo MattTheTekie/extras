@@ -275,7 +275,7 @@ printTagList += postTag+symbolForSplit;
 
 
 
-
+/*
 
 // fixme, option relevant
 // Search 2, if strict search not found
@@ -328,6 +328,7 @@ console.log(sRelevantPoint);
 if(com == 'search'&&comMessage != 'found') { comMessagePrint = `<div class="red block padding">Probably not found</div>`; }
 // end Search 2
 
+*/
 
 
 
@@ -398,8 +399,8 @@ document.getElementById(printId).innerHTML = print;
 
 }
 
-main(q, id);
 
+main(q, id);
 
 
 
