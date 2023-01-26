@@ -1,4 +1,4 @@
-// v.1.3.7
+// v.1.3.8
 
 
 
@@ -691,11 +691,8 @@ let checkEmbedEmpty = item.split('/');
 //if(item.split('/').length > 4){
 if(checkEmbedEmpty[3]){
 var host = item.split('/');
-host = host[2]
-
-var play = '';
-if(host != undefined){
-switch (host) {
+if(host[3] != undefined){
+switch (host[2]) {
 
 case "youtu.be":
 case "m.youtube.com":
