@@ -94,7 +94,13 @@ main(task);
 }
 
 if(mode == 'input'){
-document.getElementsByClassName("input")[0].innerHTML = '<div class="wrapper"><form ><textarea rows="2" name="q" placeholder=" input text for task"></textarea><input type="submit"></form></div><br /><br />';
+document.getElementsByClassName("input")[0].innerHTML = `
+<div class="wrapper">
+<form method="get">
+<textarea rows="2" name="q" placeholder=" input text for task"></textarea>
+<input type="submit">
+</form>
+</div><br /><br />`;
 }else{
 document.getElementsByClassName("input")[0].innerHTML = '';
 }
