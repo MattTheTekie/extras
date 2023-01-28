@@ -25,7 +25,7 @@ var confDataCollection = 'off';
 if(localStorage.getItem('confDataCollection') != null){
 confDataCollection = localStorage.getItem('confDataCollection');
 }
-mainPrintMsg('fPrivacy', `<a href="/privacy.${confExt}">app: ${confDataCollection}</a>`); 
+mainPrintMsg('fPrivacy', `<a href="/privacy.${confExt}">Cookies: ${confDataCollection}</a>`); 
 
 
 

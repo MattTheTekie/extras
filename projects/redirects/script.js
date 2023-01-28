@@ -708,7 +708,8 @@ urlList = [
 "https://www.google.com/search?q="+ q,
 "https://www.google.com/search?q="+ q,
 
-"https://www.bing.com/search?q="+ q
+"https://www.bing.com/search?q="+ q,
+"?q="+q+" o"
 ];
 random = Math.floor(Math.random() * urlList.length);
 random = urlList[random];
@@ -723,7 +724,8 @@ urlList = [
 "https://www.google.com/search?q="+ q,
 "https://www.google.com/search?q="+ q,
 
-"https://www.bing.com/search?q="+ q
+"https://www.bing.com/search?q="+ q,
+"?q="+q+" o"
 ];
 random = Math.floor(Math.random() * urlList.length);
 random = urlList[random];
@@ -819,9 +821,6 @@ document.getElementById("result").innerHTML = print;
 
 
 
-
-
-
 var a = [
 "bin", "goo", "n", "twi", "red"
 ];
@@ -832,18 +831,6 @@ b  += item+ ', ';
  });
 
 document.getElementById('print').innerHTML = '<div class="bg padding border2 light op">Redirects commands list: '+b+'<br />Example redirects: "Google n" - news about Google, etc</div>';
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
