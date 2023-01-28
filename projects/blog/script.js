@@ -1,4 +1,4 @@
-// v.1.3.8
+// v.1.3.9
 
 
 
@@ -360,7 +360,7 @@ print += `
 }
 print += `
 <div class="center tCenter">
-<div class="wrapper3">
+<div class="wrapper4">
 <div class="tagList padding">`+tagList(printTagList)+`</div>
 </div>
 </div>
@@ -553,9 +553,12 @@ tagSize = "85%";
 
 
 
+//https://stackoverflow.com/questions/8996963/how-to-perform-case-insensitive-sorting-array-of-string-in-javascript
+let sortedTags = Object.entries(tagListCount).sort(Intl.Collator().compare)
+
 let hlClassList = '';
 // https://masteringjs.io/tutorials/fundamentals/foreach-object
-Object.entries(tagListCount).forEach(entry => {
+sortedTags.forEach(entry => {
 const [key, value] = entry;
 
 
