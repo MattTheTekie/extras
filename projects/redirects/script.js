@@ -1,4 +1,4 @@
-// v.1.1.13
+// v.1.1.14
 // redirects
 
 var geturl = window.location;
@@ -62,7 +62,6 @@ case 'tag2#':
 q = q3.replace(q2, '');
 q = q.trim();
 
-
 if(q == ''){
 urlList = [
 'Climate Change',
@@ -73,8 +72,7 @@ url = urlList[random];
 url = encodeURIComponent(url);
 urlList = [
 'tag',
-'n',
-'s'
+'n'
 ];
 
 url = '?q='+url+' '+urlList[Math.floor(Math.random() * urlList.length)];
@@ -148,9 +146,8 @@ q = encodeURIComponent(q);
 urlList = [
 "https://twitter.com/search?q="+q,
 "https://www.reddit.com/search/?q="+q+"&t=day&type=link",
-//"https://www.reddit.com/search/?q="+q+"&t=day&type=link&sort=new",
-//"https://www.tumblr.com/search/"+q+"?t=1",
 "https://medium.com/search?q="+q
+//"https://medium.com/tag/"+encodeURIComponent(decodeURIComponent(q.toLowerCase()).replace(' ', '-'))+"/latest"
 ];
 random = Math.floor(Math.random() * urlList.length);
 url = urlList[random];
