@@ -1,4 +1,4 @@
-// v.1.2.12
+// v.1.2.14
 
 function insertIcon(id){
 
@@ -17,11 +17,11 @@ let icons = {
 "dir":"📁️",
 "dev":"💻✏️",
 "document":"📄", "page":"📄",
-"draw":"✏️",
+"draw":"✏️", "drawing":"✏️",
 "file":"🗃️",
 "game":"🎮",
 "geany":"🫖",
-"fox":"🦊",
+"fox":"🦊", "firefox":"🦊",
 "github":"🐱",
 "hello":"👋",
 "hot":"🔥", "fire":"🔥",
@@ -90,14 +90,23 @@ let divId = document.getElementById(id);
 const allLinks = divId.querySelectorAll("a");
 allLinks.forEach((item, index) => {
 
+
+
+
 let linkText = item.innerHTML;
 let check = '';
 let icArr = [];
 
+
 iconsArr.forEach((item) => {
+
+
 let textIcon = item;
 let icon = icons[textIcon];
-if(linkText.toLowerCase().search(textIcon) != -1&&linkText.toLowerCase().search(icon) == -1){
+//console.log((linkText.toLowerCase()+'').indexOf((icon+' ')));
+//if(linkText.toLowerCase()+' '.search(textIcon+' ') != -1&&linkText.toLowerCase().search(icon) == -1&&linkText != ' '){ // main
+if((linkText.toLowerCase()+' ').indexOf((textIcon+' ')) >= 0&&(linkText.toLowerCase()+'').indexOf((icon+'')) == -1){ // main
+
 icArr.push(icon+'');
 check = 'exit';
 }
@@ -131,6 +140,7 @@ iconsArr.forEach((item) => {
 let textIcon = item;
 let icon = icons[textIcon];
 //if(linkText.toLowerCase().search(textIcon) != -1&&linkText.toLowerCase().search(icon) == -1){
+
 if(linkText.toLowerCase()+' '.indexOf(textIcon+' ') >= 0&&linkText.toLowerCase()+''.indexOf(icon+'')){
 icArr.push(icon);
 check = 'exit';
