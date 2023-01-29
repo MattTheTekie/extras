@@ -1,5 +1,20 @@
 /* v.3.2.0 */
 
+
+
+
+// css color fixed if offline
+if(String(window.location.href).slice(0, 4) != 'http'){
+document.getElementById('theme').id = 'themeDisable';
+}
+
+
+
+
+
+
+
+
 var symbolForSplit = 'pwxortuzqu';
 // conf
 var confHost = location.hostname;
@@ -32,13 +47,13 @@ mainPrintMsg('fPrivacy', `<a href="/privacy.${confExt}">Cookies: ${confDataColle
 var lang = 'en';
 
 var confDevice = '';
-if(confDataCollection != 'on'){
+/*if(confDataCollection != 'on'){
 confDevice = '(disabled, privacy)';
-}else{
+}else{}*/
 if(navigator.userAgent.search("iPhone|Android|Opera Mini|Mobile|Lumia|Phone") != -1){ confDevice = 'mobile';  }
 if(navigator.userAgent.search("PlayStation|Xbox|TV|Roku|SmartTV|BRAVIA") != -1){ confDevice = 'tv';  }
 if(confDevice == ''){ confDevice = 'pc'; }
-}
+
 
 confDeviceTheme = 'none';
 if (window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches) { confDeviceTheme = 'dark'; }
@@ -378,6 +393,37 @@ document.getElementById(id).innerHTML = PrintMsg;
 // console.log(id+' not fount');
 }
 }
+
+
+
+
+
+mainPrintMsg('footer', `
+
+<div id="ads2"></div>
+
+
+<div class="wrapper3 padding">
+
+<!--<span><a  class="button" href="../">&#x2190;</a></span>
+-->
+
+<span><a href="/">index</a></span>
+<span id="fTheme"><a href="/theme.${confExt}">Themes</a></span>
+<span id="fApp"><a href="/app.${confExt}">app: status</a></span>
+<span id="fPrivacy"><a href="/privacy.${confExt}">cookie: status</a></span>
+
+<span><a rel="author" href="/about.${confExt}">about</a></span>
+<span>license: <a rel="license" title="license" href="https://creativecommons.org/licenses/by-sa/4.0/">CC BY-SA</a></span> <!-- footer, LICENSE.md README.md -->
+
+</div>
+
+`);
+
+
+
+
+
 
 
 
