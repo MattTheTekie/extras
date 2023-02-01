@@ -51,7 +51,7 @@ let icons = {
 "sleep":"😴💤", "bed":"🛏",
 "store":"🛍️","shop":"🛍️",
 "style":"🎨", "css":"🎨", "color":"🎨", "theme":"🎨", "palette":"🎨",
-"time":"⌛",
+"time":"⌛", "timer":"⌛",
 "tmp":"⏳", "temporary":"⏳",
 "training":"🏃", "run":"🏃",
 "test":"🧪", "demo":"🧪", "lorem":"🧪", "ipsum":"🧪", 
