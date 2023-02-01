@@ -8,7 +8,27 @@ if(String(window.location.href).slice(0, 4) != 'http'){
 document.getElementById('theme').id = 'themeDisable';
 }
 
+mainPrintMsg('footer', `
 
+<div id="ads2"></div>
+
+
+<div class="wrapper3 padding">
+
+<!--<span><a  class="button" href="../">&#x2190;</a></span>
+-->
+
+<span><a href="/">index</a></span>
+<span id="fTheme"><a href="/theme.${confExt}">Themes</a></span>
+<span id="fApp"><a href="/app.${confExt}">app: status</a></span>
+<span id="fPrivacy"><a href="/privacy.${confExt}">cookie: status</a></span>
+
+<span><a rel="author" href="/about.${confExt}">about</a></span>
+<span>license: <a rel="license" title="license" href="https://creativecommons.org/licenses/by-sa/4.0/">CC BY-SA</a></span> <!-- footer, LICENSE.md README.md -->
+
+</div>
+
+`);
 
 
 
@@ -136,8 +156,6 @@ confRealTmpTheme = 'light';
 //document.getElementById('theme').href = '/css/'+confRealTmpTheme+'.css';
 mainPrintTheme(confRealTmpTheme);
 }
-
-
 }
 
 function themeAutoRandom(){
@@ -398,27 +416,7 @@ document.getElementById(id).innerHTML = PrintMsg;
 
 
 
-mainPrintMsg('footer', `
 
-<div id="ads2"></div>
-
-
-<div class="wrapper3 padding">
-
-<!--<span><a  class="button" href="../">&#x2190;</a></span>
--->
-
-<span><a href="/">index</a></span>
-<span id="fTheme"><a href="/theme.${confExt}">Themes</a></span>
-<span id="fApp"><a href="/app.${confExt}">app: status</a></span>
-<span id="fPrivacy"><a href="/privacy.${confExt}">cookie: status</a></span>
-
-<span><a rel="author" href="/about.${confExt}">about</a></span>
-<span>license: <a rel="license" title="license" href="https://creativecommons.org/licenses/by-sa/4.0/">CC BY-SA</a></span> <!-- footer, LICENSE.md README.md -->
-
-</div>
-
-`);
 
 
 

@@ -63,6 +63,7 @@ let icons = {
 "tv":"📺",
 "url":"🔗","link":"🔗","www":"🔗",
 "setting":"⚙️", "custom":"⚙️",
+"snake":"🐍",
 "snow":"❄️", "cold":"❄️", "winter":"❄️", 
 "web":"🕸️", "internet":"🕸️", "browser":"🕸️",
 "wallpaper":"🖼", "picture":"🖼", "image":"🖼", "img":"🖼", "pixel":"🖼","instagram":"🖼","pxlmo":"🖼",

@@ -1,4 +1,5 @@
-// v.1.3.9
+// v.1.3.10
+
 
 
 
@@ -277,7 +278,7 @@ printTagList += postTag+symbolForSplit;
 
 /*
 
-// fixme, option relevant
+// fixme, make option relevant, rm or make
 // Search 2, if strict search not found
 blogJsonVar.forEach((item, key) => {
 
@@ -777,7 +778,7 @@ embed2 = `<a href="${item}"><img class="border3 img" src="${item}" width=""></a>
 
 //if(item.search("http") != -1){
 if(item[0]+item[1]+item[2]+item[3] == 'http'&&item.search("http|://") != -1){ 
-var ico = `https://www.google.com/s2/favicons?domain_url=${host}`;
+var ico = `https://www.google.com/s2/favicons?domain_url=${host[2]}`;
 //let ico = `https://api.statvoo.com/favicon/?url=${host}`;
 //let ico = `https://api.faviconkit.com/${host}/16`;
 if(embedStatus != 'off'){
@@ -1041,10 +1042,24 @@ i++;
 
 
 
+/*
+// if main index js not exit
+if (typeof lang === 'undefined') {
+var lang = 'en';
+}
 
+if (typeof confThemeEmbed === 'undefined') {
+if (window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches) {
+var confThemeEmbed= 'dark';
+}else{
+var confThemeEmbed= 'light';
+}
+}
 
-
-
+if (typeof fuWorker === 'undefined') {
+function fuWorker(){ }
+}
+*/
 
 
 
