@@ -140,9 +140,8 @@ let icArr = [];
 iconsArr.forEach((item) => {
 let textIcon = item;
 let icon = icons[textIcon];
-//if(linkText.toLowerCase().search(textIcon) != -1&&linkText.toLowerCase().search(icon) == -1){
-
-if(linkText.toLowerCase()+' '.indexOf(textIcon+' ') >= 0&&linkText.toLowerCase()+''.indexOf(icon+'')){
+if(linkText.toLowerCase().search(textIcon) != -1&&linkText.toLowerCase().search(icon) == -1){ /* not strict */
+//if(linkText.toLowerCase()+' '.indexOf(textIcon+' ') >= 0&&linkText.toLowerCase()+''.indexOf(icon+'')){ /* strict word */
 icArr.push(icon);
 check = 'exit';
 }

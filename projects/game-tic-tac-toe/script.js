@@ -1,4 +1,4 @@
-// v.1.2.8
+// v.1.2.10
 
 
 
@@ -79,7 +79,7 @@ function fuCheckClick(event) {
 var clickedId = event.target.id;
 var win = '';
 var error = false;
-var pcSmartLevel = 30;
+var pcSmartLevel = 30; /* more high, more smart (random enable predicable)  */
 
 pcSmartLevel = Math.floor(Math.random() * pcSmartLevel);
 //pcSmartLevel = 0;
