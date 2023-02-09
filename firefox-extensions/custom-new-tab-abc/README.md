@@ -1,7 +1,7 @@
 README.md
 
 ### custom new tab for Firefox browser
-### about: costum url, sync, focus on page
+### about: custom url, sync, focus on page
 ### main code:
 <!-- code -->
 ```javascript
