@@ -48,9 +48,8 @@ browser.tabs.create({
 url: rUrl
 });
 window.close();
-
 }
-
+//rUrl - redirect url
 
 
 
