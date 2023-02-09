@@ -1,5 +1,6 @@
 /* v.12.17.38 */
 
+* {  color-scheme: light dark; } /* view-source:about:blank */ /* prevent white splash, but twitter embed white corner */
 
 :root{
 --bodyP: 2vw;
