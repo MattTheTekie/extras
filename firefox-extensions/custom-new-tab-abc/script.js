@@ -55,8 +55,8 @@ window.close();
 
 
 
-//const getting = browser.storage.sync.get("rUrl");
-const getting = browser.storage.local.get("rUrl");
+const getting = browser.storage.sync.get("rUrl");
+//const getting = browser.storage.local.get("rUrl");
 getting.then(onGot, onError);
 
 

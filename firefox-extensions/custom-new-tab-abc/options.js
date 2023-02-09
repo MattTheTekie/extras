@@ -10,8 +10,8 @@
 
 function saveOptions(e) {
   e.preventDefault();
-//browser.storage.sync.set({
-browser.storage.local.set({
+browser.storage.sync.set({
+//browser.storage.local.set({
     rUrl: document.querySelector("#q").value
   });
 //document.querySelector("#msg").innerHTML = 'status: '+document.querySelector("#q").value;
@@ -29,8 +29,8 @@ document.querySelector("#q").value = result.rUrl || "";
     console.log(`Error: ${error}`);
   }
 
-//let getting = browser.storage.sync.get("rUrl");
-let getting = browser.storage.local.get("rUrl");
+let getting = browser.storage.sync.get("rUrl");
+//let getting = browser.storage.local.get("rUrl");
   getting.then(setCurrentChoice, onError);
 }
 
