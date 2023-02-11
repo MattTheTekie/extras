@@ -96,6 +96,7 @@ main(task);
 if(mode == 'input'){
 document.getElementsByClassName("input")[0].innerHTML = `
 <div class="wrapper">
+<br>
 <form method="get">
 <textarea rows="2" name="q" placeholder=" input text for task"></textarea>
 <input type="submit">

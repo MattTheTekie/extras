@@ -2,7 +2,7 @@
 <html lang="">
 <head>
 <meta charset="UTF-8">
-<title>textarea</title>
+<title>tpl</title>
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
 <meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate">
@@ -22,27 +22,42 @@
 <body>
 
 
+<header class="brand">
+<nav>
+<a href="/">index</a>
+<a href="../">list</a>
+</nav>
+</header>
 
 
-<form method="GET" action="mailto:?" target="_blank">
-<textarea rows="3" id="text" name="body" placeholder=" input" autofocus="autofocus"></textarea>
+<!-- content -->
+<div class="content">
+<b class="block tCenter op padding">title</b>
 
 
-<div class="op brand textAnav padding">
-<a class="tag border2 " href="/">index</a>
-<a class="tag  border2 " href="../">list</a>
+
+
+<div id="test"></div>
+
+
+
+
+
+
+
 </div>
+<!-- end content -->
 
-<input class="tLeft" type="submit" value="to email">
 
-</form>
-
-<!--<footer id="footer"></footer>-->
+<footer id="footer"></footer>
 
 
 <script src="/js/main.js"></script>
 <script src="/data/adsJsonVar.js"></script>
 <script src="/js/ad.js"></script>
+<script> fuAds('', 'ads2', ''); </script>
+
+<script src="script.js"></script>
 
 <script>
 fuWorker('off');

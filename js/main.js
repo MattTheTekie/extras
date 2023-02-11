@@ -1,6 +1,15 @@
 /* v.3.2.0 */
 
 
+var symbolForSplit = 'pwxortuzqu';
+// conf
+var confHost = location.hostname;
+if (confHost === "localhost" ||  confHost === "127.0.0.1"||confHost.search("192.168") != -1){
+var confExt = 'php';
+confHost = 'localhost';
+}else{
+var confExt = 'html';
+}
 
 
 // css color fixed if offline
@@ -23,27 +32,18 @@ mainPrintMsg('footer', `
 <span id="fApp"><a href="/app.${confExt}">app: status</a></span>
 <span id="fPrivacy"><a href="/privacy.${confExt}">cookie: status</a></span>
 
-<span><a rel="author" href="/about.${confExt}">about</a></span>
+<div id="fCode"></div>
+<div id="fDownload"></div>
+
+<span><a href="/about.${confExt}">about</a></span>
 <span>license: <a rel="license" title="license" href="https://creativecommons.org/licenses/by-sa/4.0/">CC BY-SA</a></span> <!-- footer, LICENSE.md README.md -->
 
 </div>
 
 `);
 
+//mainPrintMsg('fCode', `<span>`+window.location.href+`</span>`); 
 
-
-
-
-
-var symbolForSplit = 'pwxortuzqu';
-// conf
-var confHost = location.hostname;
-if (confHost === "localhost" ||  confHost === "127.0.0.1"||confHost.search("192.168") != -1){
-var confExt = 'php';
-confHost = 'localhost';
-}else{
-var confExt = 'html';
-}
 
 
 
@@ -54,7 +54,7 @@ var confWorkerStatus = 'off';
 if(localStorage.getItem('confWorkerStatus') != null){
 confWorkerStatus = localStorage.getItem('confWorkerStatus');
 }
-mainPrintMsg('fApp', `<span id="fApp"><a href="/app.${confExt}">app: ${confWorkerStatus}</a></span>`); 
+mainPrintMsg('fApp', `<span><a href="/app.${confExt}">app: ${confWorkerStatus}</a></span>`); 
 
 var confDataCollection = 'off';
 if(localStorage.getItem('confDataCollection') != null){

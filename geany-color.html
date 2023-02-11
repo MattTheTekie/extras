@@ -47,64 +47,13 @@
 
 <a class="brand" href="mini-projects.html">mini-projects</a>
 
-
-<!-- https://www.w3schools.com/howto/howto_js_dropdown.asp -->
-<!-- btn other 1 of 2 -->
-<!--<button onclick="dropdownFunction();" class="dropbtn" id="dropbtn">☰ Other</button>
-
-<div id="myDropdown" class="dropdown-content shadow bg3">
-
-<a class="brand" href="firefox-theme.html">firefox-theme</a>
-
-<a class="active" href="geany-color.html">geany-color</a>
-
-<a class="brand" href="vscode-theme.html">vscode-theme</a>
-
-<a class="brand" href="wallpaper.html">wallpaper</a>
-</div>
--->
-
 <!--<hr />-->
  </nav>
  </header>
 
 </div>
 
-<!-- btn other 2 of 2 -->
-<!--
-<noscript>
-<style>
-.dropdown-content, .dropdown { display: block; position: relative; }
-</style>
-</noscript>
 
-<script>
-// menu click
-function dropdownFunction() {
-  var x = document.getElementById("myDropdown");
- // alert(x.style.display);
-  if (x.style.display === "none"||x.style.display === "") {
-document.getElementById("dropbtn").innerHTML = '☶ Other'; 
-x.style.display = "block";
-  } else {
-x.style.display = "none";
-document.getElementById("dropbtn").innerHTML = '☰ Other'; 
-  }
-
-// out area
-var getclick = document.getElementById('dropbtn');
-document.addEventListener('click', function(event) {
-if (!getclick.contains(event.target)) {
-//alert('out');
-var x = document.getElementById("myDropdown");
-x.style.display = "none";
-document.getElementById("dropbtn").innerHTML = '☰ Other'; 
-    }
-});
-
-}
-</script>
--->
 
 <!-- content -->
 <div class="content">
@@ -127,7 +76,7 @@ document.getElementById("dropbtn").innerHTML = '☰ Other';
 </div>
 <script src="/projects/insert-icon/script.js"></script>
 <script>
-insertIcon("insertIconId");
+//insertIcon("insertIconId");
 </script>
 
 <div class="post bg border3List">
@@ -146,30 +95,12 @@ put theme-name.conf in ~/.config/geany/colorschemes/
 </div>
 
 
-<footer>
-
-<div id="ads2"></div>
+<footer id="footer"></footer>
 
 
-<div class="wrapper3 padding">
-
-<!--<span><a  class="button" href="../">&#x2190;</a></span>
--->
-
-<span><a href="/">index</a></span>
-<span id="fTheme"><a href="/theme.html">Themes</a></span>
-<span id="fApp"><a href="/app.html">app: status</a></span>
-<span id="fPrivacy"><a href="/privacy.html">cookie: status</a></span>
-
-<span>author: <a rel="author" href="/about.html">Gabc 2023</a></span>
-<span>license: <a rel="license" title="license" href="https://creativecommons.org/licenses/by-sa/4.0/">CC BY-SA</a></span> <!-- footer, LICENSE.md README.md -->
-
-</div>
-</footer>
 <script src="/js/main.js"></script>
 <script src="/data/adsJsonVar.js"></script>
 <script src="/js/ad.js"></script>
-
 <script> fuAds('', 'ads2', ''); </script>
 
 

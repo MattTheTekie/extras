@@ -1,4 +1,4 @@
-/* v.12.17.38 */
+/* v.12.17.39 */
 
 * {  color-scheme: light dark; } /* view-source:about:blank */ /* prevent white splash, but twitter embed white corner */
 
@@ -218,30 +218,6 @@ align-content: center;
 text-transform: lowercase;
 }
 .menu a { padding: 9px; margin:0; }
-
- /* Dropdown */
-.dropbtn {
-border: none;
-cursor: pointer;
-background: transparent;
-}
-
-.dropdown {
-/*display: inline-block;*/
-display: block;
-position: relative;
-}
-
-.dropdown-content {
-display: none;
-position: absolute;
-z-index: 7;
-padding: 5px 15px;
-left: var(--bodyP);
-right: var(--bodyP);
-max-width: var(--wrapper);
-margin: 0 auto;
-}
 
 
 /*.buttonToLink {
