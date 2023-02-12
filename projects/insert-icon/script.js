@@ -1,4 +1,4 @@
-// v.1.2.14
+// v.1.2.15
 
 function insertIcon(id){
 
@@ -8,6 +8,7 @@ let icons = {
 "book":"📚", "quiz":"📚",
 "bookmark":"🔖",
 "brain":"🧠", "memory":"🧠",
+"circle":"⭕", "round":"⭕",
 "cut":"✂️",
 "clock":"🕑",
 "cofee":"☕",
@@ -105,8 +106,13 @@ iconsArr.forEach((item) => {
 let textIcon = item;
 let icon = icons[textIcon];
 //console.log((linkText.toLowerCase()+'').indexOf((icon+' ')));
-//if(linkText.toLowerCase()+' '.search(textIcon+' ') != -1&&linkText.toLowerCase().search(icon) == -1&&linkText != ' '){ // main
-if((linkText.toLowerCase()+' ').indexOf((textIcon+' ')) >= 0&&(linkText.toLowerCase()+'').indexOf((icon+'')) == -1){ // main
+
+// main, not strict
+if(linkText.toLowerCase().search(textIcon) != -1&&linkText.toLowerCase().search(icon) == -1&&linkText != ' '){
+
+// main, strict word
+//if((linkText.toLowerCase()+' ').indexOf((textIcon+' ')) >= 0&&(linkText.toLowerCase()+'').indexOf((icon+'')) == -1){
+
 
 icArr.push(icon+'');
 check = 'exit';
@@ -140,8 +146,8 @@ let icArr = [];
 iconsArr.forEach((item) => {
 let textIcon = item;
 let icon = icons[textIcon];
-if(linkText.toLowerCase().search(textIcon) != -1&&linkText.toLowerCase().search(icon) == -1){ /* not strict */
-//if(linkText.toLowerCase()+' '.indexOf(textIcon+' ') >= 0&&linkText.toLowerCase()+''.indexOf(icon+'')){ /* strict word */
+//if(linkText.toLowerCase().search(textIcon) != -1&&linkText.toLowerCase().search(icon) == -1){ 
+if(linkText.toLowerCase()+' '.indexOf(textIcon+' ') >= 0&&linkText.toLowerCase()+''.indexOf(icon+'')){ 
 icArr.push(icon);
 check = 'exit';
 }
