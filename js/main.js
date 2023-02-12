@@ -36,7 +36,7 @@ mainPrintMsg('footer', `
 <div id="fDownload"></div>
 
 <span><a href="/about.${confExt}">about</a></span>
-<span>license: <a rel="license" title="license" href="https://creativecommons.org/licenses/by-sa/4.0/">CC BY-SA</a></span> <!-- footer, LICENSE.md README.md -->
+<span><a rel="license" title="license" href="https://creativecommons.org/licenses/by-sa/4.0/">license: CC BY-SA</a></span> <!-- footer, LICENSE.md README.md -->
 
 </div>
 

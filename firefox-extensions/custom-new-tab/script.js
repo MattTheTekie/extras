@@ -1,4 +1,4 @@
-// v.1.0.2
+// v.1.0.3
 
 
 
@@ -24,7 +24,7 @@ newTabRedir(rUrl);
 
 function newTabRedir(rUrl){
 
-//if(String(window.location.href).indexOf('moz-extension://') >= 0&&String(window.location.href).indexOf('/custom-new-tab-abc.html') >= 0){ // infinite redirect
+//if(String(window.location.href).indexOf('moz-extension://') >= 0&&String(window.location.href).indexOf('/custom-new-tab.html') >= 0){ // prevent infinite redirect
 
 
 // stop infinite redirect current page

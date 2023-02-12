@@ -11,19 +11,30 @@ aspect-ratio: 1 / 1; /* https://stackoverflow.com/questions/21799852/css-width-s
 body { background-color: #d0ceb0; }
 
 .dot11, .dot12, .dot13 { background-color: #DAD8C4; }
-.dot11 { width: 25%; height: auto; left: 60%; top: 10%; }
-.dot12 { width: 10%; height: auto; left: 20%; top: 10%; }
-.dot13 { width: 10%; height: auto; left: 30%; top: 80%; }
+@media (orientation: landscape) { 
+.dot11 { width: 25%; left: 60%; top: 10%; }
+.dot12 { width: 10%; left: 20%; top: 10%; }
+.dot13 { width: 10%; left: 30%; top: 80%; }
+ }
+
+@media (orientation: portrait) { 
+.dot11 { height: 25%; left: 60%; top: 10%; }
+.dot12 { height: 10%; left: 20%; top: 10%; }
+.dot13 { height: 10%; left: 30%; top: 80%; }
+ }
 
 .dot21, .dot22, .dot23 { background-color: #c3c0a2; }
-.dot21 {
-	width: 15%;
-	height: auto;
-	left: 70%;
-	top: 70%;
+@media (orientation: landscape) { 
+.dot21 { width: 15%; left: 70%; top: 70%; }
+.dot22 { width: 15%; left: 30%; top: 40%; }
+.dot23 { width: 10%; left: 10%; top: 80%; }
 }
-.dot22 { width: 15%; height: auto; left: 30%; top: 40%; }
-.dot23 { width: 10%; height: auto; left: 10%; top: 80%; }
+
+@media (orientation: portrait) { 
+.dot21 { height: 15%; left: 70%; top: 70%; }
+.dot22 { height: 15%; left: 30%; top: 40%; }
+.dot23 { height: 10%; left: 10%; top: 80%; }
+}
 
 /*
 @media (orientation: landscape) {  }

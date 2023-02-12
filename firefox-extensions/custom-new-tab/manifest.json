@@ -1,8 +1,8 @@
 {
 
   "manifest_version": 2,
-  "name": "Custom New Tab Abc",
-  "version": "1.15",
+  "name": "Custom New Tab",
+  "version": "1.22",
   "description": "Custom URL For New Tab",
 
 "icons": {
@@ -57,7 +57,7 @@
 }],
 
 "chrome_url_overrides" : {
-    "newtab": "/custom-new-tab-abc.html"
+    "newtab": "/custom-new-tab.html"
   }
 
 
