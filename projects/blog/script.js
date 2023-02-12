@@ -1,4 +1,4 @@
-// v.1.3.12
+// v.1.3.13
 
 
 
@@ -777,8 +777,12 @@ embed2 = `<a href="${item}"><img class="border3 img" src="${item}" width=""></a>
 
 
 //if(item.search("http") != -1){
-if(item[0]+item[1]+item[2]+item[3] == 'http'&&item.search("http|://") != -1){ 
+if(item[0]+item[1]+item[2]+item[3] == 'http'&&item.search("http|://") != -1){
+if(host != undefined){
 var ico = `https://www.google.com/s2/favicons?domain_url=${host[2]}`;
+}else{
+var ico = '';
+}
 //let ico = `https://api.statvoo.com/favicon/?url=${host}`;
 //let ico = `https://api.faviconkit.com/${host}/16`;
 if(embedStatus != 'off'){
