@@ -1,4 +1,4 @@
-// v.1.2.16
+// v.1.2.17
 
 function insertIcon(id){
 
@@ -87,6 +87,7 @@ if(document.getElementById(id) == null){
 console.log('id null');
 }else{
 
+// links
 let divId = document.getElementById(id);
 
 const allLinks = divId.querySelectorAll("a");
@@ -135,6 +136,13 @@ icArr = [];
 });
 
 
+
+
+
+
+
+
+// buttons, dublicated from links
 const allButtons = divId.querySelectorAll("button");
 allButtons.forEach((item, index) => {
 
@@ -169,6 +177,13 @@ divId.getElementsByTagName("button")[index].innerHTML = linkText;
 ckeck = '';
 icArr = [];
 });
+
+
+
+
+
+
+
 
 }
 }
