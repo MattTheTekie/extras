@@ -1,4 +1,4 @@
-// v.1.2.15
+// v.1.2.16
 
 function insertIcon(id){
 
@@ -109,7 +109,6 @@ let icon = icons[textIcon];
 
 // main, not strict
 if(linkText.toLowerCase().search(textIcon) != -1&&linkText.toLowerCase().search(icon) == -1&&linkText != ' '){
-
 // main, strict word
 //if((linkText.toLowerCase()+' ').indexOf((textIcon+' ')) >= 0&&(linkText.toLowerCase()+'').indexOf((icon+'')) == -1){
 
@@ -146,8 +145,10 @@ let icArr = [];
 iconsArr.forEach((item) => {
 let textIcon = item;
 let icon = icons[textIcon];
-//if(linkText.toLowerCase().search(textIcon) != -1&&linkText.toLowerCase().search(icon) == -1){ 
-if(linkText.toLowerCase()+' '.indexOf(textIcon+' ') >= 0&&linkText.toLowerCase()+''.indexOf(icon+'')){ 
+// main2, not strict word
+if(linkText.toLowerCase().search(textIcon) != -1&&linkText.toLowerCase().search(icon) == -1){ 
+// main, strict word
+//if(linkText.toLowerCase()+' '.indexOf(textIcon+' ') >= 0&&linkText.toLowerCase()+''.indexOf(icon+'')){ 
 icArr.push(icon);
 check = 'exit';
 }
