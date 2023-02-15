@@ -85,6 +85,10 @@ var quoteJsonVar =
         "url": ""
     },
     {
+        "text": "One, remember to look up at the stars and not down at your feet. Two, never give up work. Work gives you meaning and purpose and life is empty without it. Three, if you are lucky enough to find love, remember it is there and don't throw it away. Stephen Hawking",
+        "url": "https:\/\/www.goodreads.com\/quotes\/267117-one-remember-to-look-up-at-the-stars-and-not"
+    },
+    {
         "text": "Our doubts are traitors and make us lose the good we oft might win by fearing to attempt. William Shakespeare",
         "url": ""
     },
@@ -121,6 +125,10 @@ var quoteJsonVar =
         "url": ""
     },
     {
+        "text": "The greatest enemy of knowledge is not ignorance, it is the illusion of knowledge. Stephen Hawking",
+        "url": "https:\/\/twitter.com\/i\/topics\/848920371311001600"
+    },
+    {
         "text": "The greatest glory in living lies not in never falling, but in rising every time we fall. Nelson Mandela",
         "url": ""
     },
@@ -135,6 +143,10 @@ var quoteJsonVar =
     {
         "text": "The heart and soul of a company is creativity and innovation. Robert Iger",
         "url": ""
+    },
+    {
+        "text": "The past, like the future, is indefinite and exists only as a spectrum of possibilities. Stephen Hawking",
+        "url": "https:\/\/www.brainyquote.com\/quotes\/stephen_hawking_627106"
     },
     {
         "text": "The way to get started is to quit talking and begin doing. Walt Disney",

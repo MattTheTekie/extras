@@ -9,7 +9,7 @@
 [#theme](https://github.com/topics/theme)
 [#project](https://github.com/topics/project)
 
-license: CC BY-SA
+license: CC BY-SA 4.0
 <!-- footer, LICENSE.md README.md -->
 
 #### Screenshots

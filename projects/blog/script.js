@@ -1,4 +1,4 @@
-// v.1.3.13
+// v.1.3.14
 
 
 
@@ -1047,6 +1047,8 @@ i++;
 
 
 /*
+// without main.js
+
 //https://stackoverflow.com/questions/5409641/set-a-variable-if-undefined-in-javascript
 // if main index js not exit
 if (typeof lang === 'undefined') {

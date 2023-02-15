@@ -1,4 +1,4 @@
-// v.1.0.9
+// v.1.0.10
 
 
 
@@ -28,6 +28,8 @@ document.getElementsByClassName("result")[0].innerHTML =  ''
 +'<span class="op">window.screen.pixelDepth</span><br />'+window.screen.pixelDepth+'<hr />'
 +'<span class="op">'+"window.outerHeight"+'</span><br />'+window.outerHeight+'<hr />'
 +'<span class="op">'+"window.outerWidth"+'</span><br />'+window.outerWidth+'<hr />'
++'<span class="op">'+"screen.orientation.type"+'</span><br />'+screen.orientation.type+'<hr />'
+
 
 +'<span class="op">'+"window.matchMedia('(prefers-color-scheme: dark)').matches"+'</span><br />'+window.matchMedia('(prefers-color-scheme: dark)').matches+'<hr />'
 +'<span class="op">document.referrer</span><br />'+document.referrer+'<hr />'
