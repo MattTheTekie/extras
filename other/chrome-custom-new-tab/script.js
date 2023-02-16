@@ -1,4 +1,4 @@
-// v.1.0.0
+// v.1.0.1
 
 
 
@@ -37,17 +37,17 @@ rUrl = 'options.html';
 
 
 
-
+/*
 // first 1 redirect
 //https://stackoverflow.com/questions/10982593/open-link-in-new-window-or-focus-to-it-if-already-open
 //window.open('http://localhost/','mywindow').focus();
 window.open(rUrl,'newTab').focus();
 //window.location.replace("http://localhost/");
 window.close();
+*/
 
 
-/*
-// second 2 redirect (fixme, error)
+// second 2 redirect
 //https://developer.mozilla.org/docs/Mozilla/Add-ons/WebExtensions/Add_a_button_to_the_toolbar
 //browser.tabs.create({
 // https://developer.chrome.com/docs/extensions/reference/tabs/
@@ -55,7 +55,7 @@ chrome.tabs.create({
 url: rUrl
 });
 window.close();
-*/
+
 
 
 
