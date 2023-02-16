@@ -24,7 +24,7 @@ newTabRedir(rUrl);
 
 function newTabRedir(rUrl){
 
-//if(String(window.location.href).indexOf('moz-extension://') >= 0&&String(window.location.href).indexOf('/custom-new-tab.html') >= 0){ // prevent infinite redirect
+//if(String(window.location.href).indexOf('moz-extension://') >= 0&&String(window.location.href).indexOf('/custom-new-tab.html') >= 0){ 
 
 
 // stop infinite redirect current page
