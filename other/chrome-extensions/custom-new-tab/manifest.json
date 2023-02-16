@@ -1,0 +1,65 @@
+{
+
+  "manifest_version": 3,
+  "name": "Custom New Tab",
+  "version": "1.22",
+  "description": "Custom URL For New Tab",
+
+"action": {
+    "default_icon": {              // optional
+      "96": "icon96x96.png"
+    },
+    "default_title": "options",   // optional, shown in tooltip
+    "default_popup": "/options.html"  // optional
+  },
+
+
+
+
+
+"icons": {
+  "96": "icon96x96.png"
+},
+
+"permissions":
+[
+"storage",
+"activeTab",
+"tabs",
+"contextMenus"
+],
+ 
+
+
+
+
+
+
+"options_ui": {
+  "page": "/options.html"
+},
+
+
+
+
+
+
+
+
+
+
+
+
+"content_scripts": [{
+"matches": ["<all_urls>", "*://*/*"],
+
+"js":["empty.js"]
+}],
+
+"chrome_url_overrides" : {
+    "newtab": "/custom-new-tab.html"
+  }
+
+
+  
+}
