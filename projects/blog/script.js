@@ -276,10 +276,11 @@ printTagList += postTag+symbolForSplit;
 
 
 
-/*
 
-// fixme, make option relevant, rm or make
+
 // Search 2, if strict search not found
+// fixme, make option relevant
+if(com == 'search'&&comMessage != 'found'){
 blogJsonVar.forEach((item, key) => {
 
 postId = '';
@@ -296,7 +297,7 @@ if(item['time'] != null){ postTime = item['time']; }
 
 postText = (postText+' '+postUrl).trim();
 
-if(com == 'search'&&comMessage != 'found'){
+
 
 if(i <= postLimit -1){
 //qSearch = String(q.toLowerCase()).replace(/ /g, "|"); //if((qData).search(qSearch) != -1){}
@@ -322,14 +323,24 @@ sRelevantPoint++
 
 console.log(sRelevantPoint);
 }
-}
+
 
 });
 
 if(com == 'search'&&comMessage != 'found') { comMessagePrint = `<div class="red block padding">Probably not found</div>`; }
 // end Search 2
 
-*/
+}
+
+
+
+
+
+
+
+
+
+
 
 
 

@@ -377,7 +377,7 @@ printMsg('fApp', `<a href="/app.${confExt}">app: Install in progress</a>`);
 printMsg('fApp', `<a href="/app.${confExt}">app: User accepted the app prompt</a>`); 
       } else {
 //        console.log('app: User dismissed the app prompt');
-addBtn.innerHTML = '<span id="fApp"><a href="/app.${confExt}"app: User dismissed the app prompt</a></span>';
+printMsg('fApp', `<a href="/app.${confExt}"app: User dismissed the app prompt</a>`); 
       }
       deferredPrompt = null;
     });

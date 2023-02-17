@@ -7,9 +7,7 @@ var allIdOnPage = '';
 let allDivId = document.querySelectorAll('div');
 allDivId.forEach((item, index) => {
 if(item.id != ''){
-allIdOnPage += `
-<a class="tag border2 op" href="#`+item.id+`">`+item.id+`</a>
-`
+allIdOnPage += `<a class="tag h3 border2 op light" href="#`+item.id+`">`+item.id+`</a>`
 }
 });
 allIdOnPage = `
