@@ -22,6 +22,10 @@ document.getElementById(printId).innerHTML = allIdOnPage;
 }
 }
 
+
+
+
+
 window.onload = divIdToTag('print'); //https://stackoverflow.com/questions/191157/window-onload-vs-body-onload
 
 
