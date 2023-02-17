@@ -61,14 +61,14 @@ adsPrint  += '<div class="post brand  border4List">'+ads[index]['text']+' <a tar
 if(localStorage.getItem('confDataCollection') == 'on'){
 var scriptStat = document.createElement('script');
 scriptStat.type='text/javascript';
-scriptStat.src = 'https://www.googletagmanager.com/gtag/js?id=G-D0LBEE4Q77';      
+scriptStat.src = 'https://www.googletagmanager.com/gtag/js?id=G-DV2VRTWS4N';      
 document.getElementsByTagName('head')[0].appendChild(scriptStat);
 
   window.dataLayer = window.dataLayer || [];
   function gtag(){dataLayer.push(arguments);}
   gtag('js', new Date());
 
-  gtag('config', 'G-D0LBEE4Q77');
+  gtag('config', 'G-DV2VRTWS4N');
   
 }
 
