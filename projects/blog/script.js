@@ -1,4 +1,4 @@
-// v.1.3.14
+// v.1.3.15
 
 
 
@@ -746,6 +746,16 @@ play = play[play.length - 1];
 embed = `<p class="codepen" data-height="420" data-default-tab="result" data-theme-id="${confThemeEmbed}" data-slug-hash="${play}" data-user="" style="height: 420px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;"></p><!--<script async src="https://cpwebassets.codepen.io/assets/embed/ei.js"></script>-->`;
 break;
 
+
+case `${confWebpageUrl}`:
+embed = `<iframe width="${w}" height="360" scrolling="yes" frameborder="yes" src="${item}"></iframe>`;
+break;
+
+/*
+default:
+embed = `<iframe width="${w}" height="${h}" scrolling="no" frameborder="no" src="${item}"></iframe>`;
+break;
+*/
 
 //default:
 

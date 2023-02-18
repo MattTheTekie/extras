@@ -1,5 +1,6 @@
 /* v.3.2.0 */
 
+var confWebpageUrl = 'gabc.tk';
 
 var symbolForSplit = 'pwxortuzqu';
 // conf
@@ -7,6 +8,7 @@ var confHost = location.hostname;
 if (confHost === "localhost" ||  confHost === "127.0.0.1"||confHost.search("192.168") != -1){
 var confExt = 'php';
 confHost = 'localhost';
+confWebpageUrl = confHost;
 }else{
 var confExt = 'html';
 }

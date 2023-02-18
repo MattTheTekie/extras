@@ -19,6 +19,9 @@ adsURL = ads[random]['url'];	if(adsURL == null){ adsURL = ''; }
 
 
 
+
+
+
 // privacy
 if(adsText.search("src=") != -1&&localStorage.getItem('confDataCollection') != 'on'){ adsText = ''; }
 
