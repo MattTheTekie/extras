@@ -37,6 +37,10 @@ var quoteJsonVar =
         "url": ""
     },
     {
+        "text": "I don't think the human race will survive the next thousand years, unless we spread into space. There are too many accidents that can befall life on a single planet. But I'm an optimist. We will reach out to the stars. Stephen Hawking",
+        "url": ""
+    },
+    {
         "text": "If education is always to be conceived along the same antiquated lines of a mere transmission of knowledge, there is little to be hoped from it in the bettering of man's future. Maria Montessori",
         "url": ""
     },

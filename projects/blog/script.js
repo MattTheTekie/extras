@@ -1,5 +1,5 @@
-// v.1.3.15
-
+// v.1.3.17
+// task: selection for search. relevant search
 
 
 
@@ -173,41 +173,13 @@ postText = (postText+' '+postUrl).trim();
 switch (com){
 
 case 'search':
-
+// search start
 if(i <= postLimit -1){
 //qSearch = String(q.toLowerCase()).replace(/ /g, "|"); //if((qData).search(qSearch) != -1){}
 qSearch = decodeURIComponent(q);
 qSearch = String(qSearch).toLowerCase();
 let qData = String(postText+' '+postTag).toLowerCase();
 
-/*
-// if Quote strict search
-if(qSearch[0] == '"'&&qSearch[qSearch.length - 1] == '"'||qSearch[0] == '%23'//||(qSearch).split(' ').length >= 5
-){
-// rm quote
-qSearch = qSearch.substring(1); //https://stackoverflow.com/questions/4564414/delete-first-character-of-string-if-it-is-0
-qSearch = qSearch.slice(0, -1); //https://stackoverflow.com/questions/952924/how-do-i-chop-slice-trim-off-last-character-in-string-using-javascript
-
-//if((qData.split(qSearch)).length > 1){
-if((qData.indexOf(qSearch)) > 0){
-print += fuPrintPost(postId, postText, postTag, postTime);
-i++;
-comMessagePrint = `${q} ${i}`;
-qData = '';
-}
-}else{
-// many words from space split
-qSearch = (qSearch+' ').split(' ');
-qSearch.forEach(function (item) {
-//if((qData.split(item)).length > 1&&item != ''){
-if((qData.indexOf(item)) > 0){
-print += fuPrintPost(postId, postText, postTag, postTime);
-i++;
-comMessagePrint = `${q} ${i}`;
-qData = '';
-}
-});
-}*/
 
 
 // if tag
@@ -222,6 +194,8 @@ comMessage = 'found';
 }else if(qData.indexOf(qSearch) >= 0){
 print += fuPrintPost(postId, postText, postTag, postTime);
 i++;
+
+
 comMessagePrint = `${q} ${i} (searchLimit:${searchLimit})`;
 comMessage = 'found';
 }
@@ -278,9 +252,8 @@ printTagList += postTag+symbolForSplit;
 
 
 
+// fixme, make option relevant, rm or make
 // Search 2, if strict search not found
-// fixme, make option relevant
-if(com == 'search'&&comMessage != 'found'){
 blogJsonVar.forEach((item, key) => {
 
 postId = '';
@@ -297,7 +270,7 @@ if(item['time'] != null){ postTime = item['time']; }
 
 postText = (postText+' '+postUrl).trim();
 
-
+if(com == 'search'&&comMessage != 'found'){
 
 if(i <= postLimit -1){
 //qSearch = String(q.toLowerCase()).replace(/ /g, "|"); //if((qData).search(qSearch) != -1){}
@@ -311,7 +284,8 @@ qSearch = (qSearch+' ').split(' ');
 qSearch.forEach(function (item) {
 //if((qData.split(item)).length > 1&&item != ''){
 if((qData.indexOf(item)) > 0){
-print += fuPrintPost(postId, postText, postTag, postTime);
+let print2 = fuPrintPost(postId, postText, postTag, postTime);
+print += print2.replace(qSearch, `<span style="background: var(--orange); color: #fff;">${qSearch}</span>`);
 i++;
 comMessagePrint = `${q} ${i} (searchLimit:${searchLimit})`;
 qData = '';
@@ -323,22 +297,12 @@ sRelevantPoint++
 
 console.log(sRelevantPoint);
 }
-
+}
 
 });
 
 if(com == 'search'&&comMessage != 'found') { comMessagePrint = `<div class="red block padding">Probably not found</div>`; }
 // end Search 2
-
-}
-
-
-
-
-
-
-
-
 
 
 
@@ -384,7 +348,7 @@ print += `
 <div id="form" class="wrapperL">
 <form method="GET" style="margin-top: 0px;" action="./">
 
-<input class="padding" type="search" style="text-align: center;" name="q"  autocomplete="off" placeholder="">
+<input id="input" class="padding op" type="search" style="text-align: center;" name="q"  autocomplete="off" placeholder="">
 
 <input class="op" style="padding: 0; min-height: 1px; height: 24px; font-size: 12px;" type="submit" value="search">
 
@@ -392,6 +356,13 @@ print += `
 
 </div>
 `;
+
+
+
+
+
+
+
 }
 
 
@@ -399,7 +370,7 @@ print += `
 // echo all
 document.getElementById(printId).innerHTML = print;
 
-
+//if(q != null){ document.getElementById("input").value = q; }
 
 
 
@@ -747,16 +718,6 @@ embed = `<p class="codepen" data-height="420" data-default-tab="result" data-the
 break;
 
 
-case `${confWebpageUrl}`:
-embed = `<iframe width="${w}" height="360" scrolling="yes" frameborder="yes" src="${item}"></iframe>`;
-break;
-
-/*
-default:
-embed = `<iframe width="${w}" height="${h}" scrolling="no" frameborder="no" src="${item}"></iframe>`;
-break;
-*/
-
 //default:
 
 
@@ -787,8 +748,13 @@ embed2 = `<audio controls style="width:100%; opacity:0.8"><source src="${item}" 
 
 if(itemCheck.search("${symbolForSplit}jpg|${symbolForSplit}jpeg|${symbolForSplit}png|${symbolForSplit}gif|${symbolForSplit}img|${symbolForSplit}ico") != -1) {
 //echo 'test';
-embed2 = `<a href="${item}"><img class="border3 img" src="${item}" width=""></a>pppppp`;
+embed2 = `<a href="${item}"><img class="border3 img" src="${item}" width=""></a>`;
 }
+
+if(itemCheck.search(".html") != -1&&itemCheck.search("http") == -1) {
+embed2 = `<iframe width="${w}" height="400" src="${item}"></iframe>`;
+}
+
 
 
 }
@@ -798,12 +764,8 @@ embed2 = `<a href="${item}"><img class="border3 img" src="${item}" width=""></a>
 
 
 //if(item.search("http") != -1){
-if(item[0]+item[1]+item[2]+item[3] == 'http'&&item.search("http|://") != -1){
-if(host != undefined){
+if(item[0]+item[1]+item[2]+item[3] == 'http'&&item.search("http|://")){ 
 var ico = `https://www.google.com/s2/favicons?domain_url=${host[2]}`;
-}else{
-var ico = '';
-}
 //let ico = `https://api.statvoo.com/favicon/?url=${host}`;
 //let ico = `https://api.faviconkit.com/${host}/16`;
 if(embedStatus != 'off'){
@@ -814,6 +776,9 @@ item = `<a target="_blank" href="${item}">${item}</a>`;
 }
 
 
+if(item.search("./") != -1&&item.search(".htm") != -1){ 
+item = `<a target="_blank" href="${item}">${item}</a>`;
+}
 
 
 //add tag
@@ -1068,8 +1033,6 @@ i++;
 
 
 /*
-// without main.js
-
 //https://stackoverflow.com/questions/5409641/set-a-variable-if-undefined-in-javascript
 // if main index js not exit
 if (typeof lang === 'undefined') {
@@ -1088,6 +1051,18 @@ if (typeof fuWorker === 'undefined') {
 function fuWorker(){ }
 }
 */
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
