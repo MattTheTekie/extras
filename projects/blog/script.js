@@ -1,4 +1,4 @@
-// v.1.3.18
+// v.1.3.20
 // task: selection for search. relevant search
 
 
@@ -284,8 +284,7 @@ qSearch = (qSearch+' ').split(' ');
 qSearch.forEach(function (item) {
 //if((qData.split(item)).length > 1&&item != ''){
 if((qData.indexOf(item)) > 0){
-let print2 = fuPrintPost(postId, postText, postTag, postTime);
-print += print2.replace(qSearch, `<span style="background: var(--orange); color: #fff;">${qSearch}</span>`);
+print += fuPrintPost(postId, postText, postTag, postTime);
 i++;
 comMessagePrint = `${q} ${i} (searchLimit:${searchLimit})`;
 qData = '';
@@ -464,10 +463,6 @@ tagListCount = Object.keys(tagListCountLimited).sort().reduce(
 
 
 
-
-
-
-// continue from this place, editme
 
 /*tagAverage = (Math.min(...Object.values(tagListCount))+Math.max(...Object.values(tagListCount)))/2;
 //console.log(tagAverage);*/
@@ -765,10 +760,10 @@ embed2 = `<iframe width="${w}" height="400" src="${item}"></iframe>`;
 
 //if(item.search("http") != -1){
 if(item[0]+item[1]+item[2]+item[3] == 'http'&&item.search("http|://") != -1){
+if(embedStatus == 'on'&&host != undefined){
 var ico = `https://www.google.com/s2/favicons?domain_url=${host[2]}`;
 //var ico = `https://api.statvoo.com/favicon/?url=${host[2]}`;
 //var ico = `https://api.faviconkit.com/${host[2]}/16`;
-if(embedStatus != 'off'){
 item = `<a target="_blank" href="${item}"><img class="ico op" src="${ico}" width="14px" alt="ico"> ${item}</a>`;
 }else{
 item = `<a target="_blank" href="${item}">${item}</a>`;
@@ -776,7 +771,7 @@ item = `<a target="_blank" href="${item}">${item}</a>`;
 }
 
 
-if(item.search("./") != -1&&item.search(".htm") != -1){
+if(item.search("./") != -1&&item.search(".htm") != -1&&item.search("http") == -1){
 item = `<a target="_blank" href="${item}">${item}</a>`;
 }
 
