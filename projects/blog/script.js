@@ -1,4 +1,4 @@
-// v.1.3.17
+// v.1.3.18
 // task: selection for search. relevant search
 
 
@@ -764,10 +764,10 @@ embed2 = `<iframe width="${w}" height="400" src="${item}"></iframe>`;
 
 
 //if(item.search("http") != -1){
-if(item[0]+item[1]+item[2]+item[3] == 'http'&&item.search("http|://")){ 
+if(item[0]+item[1]+item[2]+item[3] == 'http'&&item.search("http|://") != -1){
 var ico = `https://www.google.com/s2/favicons?domain_url=${host[2]}`;
-//let ico = `https://api.statvoo.com/favicon/?url=${host}`;
-//let ico = `https://api.faviconkit.com/${host}/16`;
+//var ico = `https://api.statvoo.com/favicon/?url=${host[2]}`;
+//var ico = `https://api.faviconkit.com/${host[2]}/16`;
 if(embedStatus != 'off'){
 item = `<a target="_blank" href="${item}"><img class="ico op" src="${ico}" width="14px" alt="ico"> ${item}</a>`;
 }else{
@@ -776,7 +776,7 @@ item = `<a target="_blank" href="${item}">${item}</a>`;
 }
 
 
-if(item.search("./") != -1&&item.search(".htm") != -1){ 
+if(item.search("./") != -1&&item.search(".htm") != -1){
 item = `<a target="_blank" href="${item}">${item}</a>`;
 }
 
@@ -879,10 +879,6 @@ return time;
 
 fuPostTime();
 var tmp = setInterval(fuPostTime, 1000);
-
-
-
-
 
 
 
