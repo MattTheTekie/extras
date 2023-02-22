@@ -1,4 +1,4 @@
-// v.1.3.20
+// v.1.3.21
 // task: selection for search. relevant search
 
 
@@ -118,6 +118,7 @@ var comMessagePrint = '';
 postLimit = Number(postLimit);
 
 
+var com = '';
 
 
 
@@ -127,7 +128,6 @@ postLimit = Number(postLimit);
 function main(){
 
 
-let com = '';
 
 if(q != null){
 com = 'search';
@@ -599,10 +599,20 @@ return tagList;
 
 
 function fuPrintPost(id, post, tag, time){
-post = highlightText(post, 'out');
+
 tag = highlightText(tag);
 //time = new Date(time).getTime();
 time = `<a href="${scriptDir}?id=${id}">&nbsp;`+fuPostTime(time)+`&nbsp;</a>`;
+
+// selected orange word when search
+if(q != null&&com == 'search'){
+// https://stackoverflow.com/questions/7313395/case-insensitive-replace-all
+var regEx = new RegExp(q, "ig");
+post = post.replace(regEx, `<span style="background: var(--orange); color: #fff;">${q}</span>`); // fixme lower upper case
+//post = post.replaceAll(q, 
+}else{
+post = highlightText(post, 'out');
+}
 
 return `
 
