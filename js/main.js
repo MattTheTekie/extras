@@ -1,6 +1,8 @@
-/* v.3.2.0 */
+/* v.3.2.1 */
 
 var confWebpageUrl = 'gabc.tk';
+var confAuthor = 'gabc';
+
 
 var symbolForSplit = 'pwxortuzqu';
 // conf
@@ -37,8 +39,9 @@ mainPrintMsg('footer', `
 <div id="fCode"></div>
 <div id="fDownload"></div>
 
-<span><a href="/about.${confExt}">about</a></span>
-<span><a rel="license" title="license" href="https://creativecommons.org/licenses/by-sa/4.0/">license: CC BY-SA</a></span> <!-- footer, LICENSE.md README.md -->
+<span id="fAbout"><a href="/about.${confExt}">about</a></span>
+
+<span><a rel="license" title="license" href="https://creativecommons.org/licenses/by-sa/4.0/">license: CC BY-SA 4.0</a></span> <!-- footer, LICENSE.md README.md -->
 
 </div>
 
@@ -46,8 +49,9 @@ mainPrintMsg('footer', `
 
 //mainPrintMsg('fCode', `<span>`+window.location.href+`</span>`); 
 
-
-
+// about link
+// https://stackoverflow.com/questions/6002254/get-the-current-year-in-javascript
+document.getElementById("fAbout").innerHTML = `<a href="/about.${confExt}">author: ${confAuthor} <!--2019---!>`+new Date().getFullYear()+`</a>`;
 
 
 
@@ -56,7 +60,7 @@ var confWorkerStatus = 'off';
 if(localStorage.getItem('confWorkerStatus') != null){
 confWorkerStatus = localStorage.getItem('confWorkerStatus');
 }
-mainPrintMsg('fApp', `<span><a href="/app.${confExt}">app: ${confWorkerStatus}</a></span>`); 
+mainPrintMsg('fApp', `<a href="/app.${confExt}">app: ${confWorkerStatus}</a>`); 
 
 var confDataCollection = 'off';
 if(localStorage.getItem('confDataCollection') != null){
@@ -399,7 +403,7 @@ printInstallAppLink();
 
 
 if(document.getElementById('fTheme') != null){
-document.getElementById("fTheme").innerHTML = '<span><a href="/theme.'+confExt+'">theme: '+theme+' ('+confRealTmpTheme+')</a></span>';
+document.getElementById("fTheme").innerHTML = '<a href="/theme.'+confExt+'">theme: '+theme+' ('+confRealTmpTheme+')</a>';
 }
 
 function fuReload(){ location.reload(); }
