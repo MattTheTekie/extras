@@ -1,4 +1,4 @@
-// v.3.7.25
+// v.3.7.26
 
 
 
@@ -6,12 +6,16 @@
 
 function mainAll(mode33){
 
+
+
 document.getElementById("win").innerHTML = ``;
 document.getElementById("win2").innerHTML = ``;
 document.getElementById("stat").innerHTML = `stat`;
 document.getElementById("countSymbolTask").innerHTML = `count symbol`;
 
 document.getElementById('text').value = '';
+
+var allowError = 10;
 
 var task = '';
 var  geturl = window.location;
@@ -153,7 +157,7 @@ document.getElementById('text').rows = '';
 //setTimeout(function () {
 function main(task){
 
-console.log(task);
+//console.log(task);
 task = task.replace(/%/g, "%25"); // not show text, percentage
 
 
@@ -526,8 +530,8 @@ acurancy =  100 - acurancy.toFixed(0);
 
 //document.getElementById("stat").innerHTML = sec+' | '+timeAverage.toFixed(2)+' sec. || '+error+' <span class="'+errorColor+'">error</span>';
 document.getElementById("stat").innerHTML = 
-'<span>wpm:</span> <!--'+wpmRecord+'/ --><span>' +wpm+'</span> || <span title="Total Error">error: ≈'
-+totalError+'</span>/<span  class="'+errorColor+'">'+error+'</span> || acurancy: ≈'+acurancy+'%'
+'<div><span>wpm:</span> <!--'+wpmRecord+'/ --><span>' +wpm+'</span> || <span title="allowError: '+allowError+'">error: ≈'
++totalError+'</span>/<span  class="'+errorColor+'">'+error+'</span> || acurancy: ≈'+acurancy+'%</div><br>'
 ;
 
 /*scrollTo();
@@ -544,7 +548,7 @@ document.getElementById("scrollTo").scrollIntoView(true);
 
 
 
-if(letters.length == answerArr.length && error <= 0&&mode != 'free'&&task.length >= 3){
+if(letters.length == answerArr.length && error <= allowError&&mode != 'free'&&task.length >= 3){
 
 
 
