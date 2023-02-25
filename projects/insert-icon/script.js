@@ -1,8 +1,10 @@
-// v.1.2.17
+// v.1.2.18
 
 function insertIcon(id){
 
 let icons = {
+"angel":"😇",
+"angle":"🔺",
 "bird":"🐦", "twitter":"🐦",
 "blog":"📝", "todo":"📝", "task":"📝", "note":"📝", "reminde":"📝", "paper":"📝",
 "book":"📚", "quiz":"📚",
@@ -59,6 +61,7 @@ let icons = {
 "play":"▶️",
 "progress":"█░░",
 "rain":"💧",
+"smoking":"🚭",
 "sun":"🌞",
 "tool":"🔨",
 "tv":"📺",
