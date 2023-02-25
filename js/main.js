@@ -51,7 +51,7 @@ mainPrintMsg('footer', `
 
 // about link
 // https://stackoverflow.com/questions/6002254/get-the-current-year-in-javascript
-document.getElementById("fAbout").innerHTML = `<a href="/about.${confExt}">author: ${confAuthor} <!--2019---!>`+new Date().getFullYear()+`</a>`;
+document.getElementById("fAbout").innerHTML = `<a href="/about.${confExt}">about<!--author: ${confAuthor} 2019`+new Date().getFullYear()+`---!></a>`;
 
 
 
