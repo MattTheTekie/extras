@@ -1,4 +1,4 @@
-// v.3.7.26
+// v.3.7.27
 
 
 
@@ -15,7 +15,7 @@ document.getElementById("countSymbolTask").innerHTML = `count symbol`;
 
 document.getElementById('text').value = '';
 
-var allowError = 10;
+var allowError = 0;
 
 var task = '';
 var  geturl = window.location;
