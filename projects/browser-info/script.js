@@ -22,6 +22,8 @@ document.getElementsByClassName("result")[0].innerHTML =  ''
 +'<span class="op">'+"navigator.onLine"+'</span><br />'+navigator.onLine+'<hr />'
 +'<span class="op">'+"navigator.pdfViewerEnabled"+'</span><br />'+navigator.pdfViewerEnabled+'<hr />'
 
+
+
 +'<span class="op">window.screen.width, window.screen.height</span><br />'+window.screen.width+"/"+window.screen.height + '<hr />'
 +'<span class="op">window.screen.availWidth, window.screen.availHeight</span><br />'+window.screen.availWidth+'/'+window.screen.availHeight+'<hr />'
 +'<span class="op">self.innerWidth, self.innerHeight </span><br />'+self.innerWidth+'/'+self.innerHeight+' <hr />'

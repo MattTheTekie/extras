@@ -1,4 +1,4 @@
-// v.1.1.14
+// v.1.1.15
 // redirects
 
 var geturl = window.location;
@@ -343,7 +343,7 @@ urlList = [
 "https://flipboard.com/topic/technology",
 "https://news.ycombinator.com/",
 "https://news.google.com/topics/CAAqJggKIiBDQkFTRWdvSUwyMHZNRGRqTVhZU0FtVnVHZ0pWVXlnQVAB",
-"https://www.bing.com/news/search?q=Sci/Tech",
+"https://www.bing.com/news/search?q=Technology",
 "https://getpocket.com/explore/technology",
 "https://twitter.com/i/topics/848920371311001600",
 "https://www.reddit.com/r/technology/",
