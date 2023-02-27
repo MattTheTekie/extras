@@ -327,9 +327,11 @@ print += `<div class="${postClass}">`+blogNav(com)+`</div>`;
 }
 if(com == 'search'){
 print += `
-<div class="block tCenter padding">
+<div class="wrapper">
+<div class="block tRight padding">
 <a class="op border2 button light" href="#" onclick="history.back()" title="history back">back</a>
 <a class="op border2 button light" href="./">main</a>
+</div>
 </div>
 `;
 }
@@ -910,9 +912,9 @@ if(com == 'id'||com == 'random'){
 navMode = 'p2';
 nav2Print = `
 
-<div style="text-align: right;">
-<a class="op border2List button light" href="?p=`+Math.floor(getP)+`">list</a>
-<a class="op border2List button light" href="?id=">rand</a>
+<div class="tRight">
+<a class="op border2 button light" href="?p=`+Math.floor(getP)+`">list</a>
+<a class="op border2 button light" href="?id=">rand</a>
 </div>
 
 <!--<a class="op border2 button light" style="width: 49%;" href="#" onclick="history.back()">back</a>-->
