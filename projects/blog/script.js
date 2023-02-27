@@ -1,4 +1,4 @@
-// v.1.3.21
+// v.1.3.23
 // task: selection for search. relevant search
 
 
@@ -910,7 +910,7 @@ if(com == 'id'||com == 'random'){
 navMode = 'p2';
 nav2Print = `
 
-<div style="display: grid; grid-template-columns: 1fr 1fr; grid-gap: 3px 3px;">
+<div style="text-align: right;">
 <a class="op border2List button light" href="?p=`+Math.floor(getP)+`">list</a>
 <a class="op border2List button light" href="?id=">rand</a>
 </div>
