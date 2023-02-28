@@ -1,4 +1,4 @@
-/* v.3.2.1 */
+/* v.3.2.2 */
 
 var confWebpageUrl = 'gabc.tk';
 var confAuthor = 'gabc';
@@ -51,9 +51,8 @@ mainPrintMsg('footer', `
 
 // about link
 // https://stackoverflow.com/questions/6002254/get-the-current-year-in-javascript
-document.getElementById("fAbout").innerHTML = `<a href="/about.${confExt}">about<!--author: ${confAuthor} 2019`+new Date().getFullYear()+`---!></a>`;
 
-
+mainPrintMsg('fAbout', `<a href="/about.${confExt}">about<!--author: ${confAuthor} 2019`+new Date().getFullYear()+`---!></a>`); 
 
 
 var confWorkerStatus = 'off';

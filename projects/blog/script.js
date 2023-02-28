@@ -611,7 +611,6 @@ if(q != null&&com == 'search'){
 // https://stackoverflow.com/questions/7313395/case-insensitive-replace-all
 var regEx = new RegExp(q, "ig");
 post = post.replace(regEx, `<span style="background: var(--orange); color: #fff;">${q}</span>`); // fixme lower upper case
-//post = post.replaceAll(q, 
 }else{
 post = highlightText(post, 'out');
 }

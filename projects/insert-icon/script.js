@@ -11,6 +11,7 @@ let icons = {
 "bookmark":"🔖",
 "brain":"🧠", "memory":"🧠",
 "circle":"⭕", "round":"⭕",
+"cookie":"🍪",
 "cut":"✂️",
 "clock":"🕑",
 "cofee":"☕",
