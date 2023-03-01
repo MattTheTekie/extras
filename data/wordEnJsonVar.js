@@ -24307,6 +24307,9 @@ var wordEnJsonVar =
         "en": "conspiring"
     },
     {
+        "en": "const"
+    },
+    {
         "en": "constable"
     },
     {
@@ -106211,6 +106214,9 @@ var wordEnJsonVar =
     },
     {
         "en": "series"
+    },
+    {
+        "en": "serif"
     },
     {
         "en": "serifs"

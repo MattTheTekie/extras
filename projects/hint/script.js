@@ -1,5 +1,4 @@
-// v.1.0.0
-// fixme insert
+// v.1.0.1
 
 function hint(printId, hintJsonVar){
 var hintLimit = 35;
@@ -26,18 +25,7 @@ var q2 = (' '+q).split(' ');
 
 var lastInputSymbol = q2[q2.length - 1];
 
-
-/*wordEnJsonVar.forEach((item) => {
-
-//console.log(item['en']);
-if(lastInputSymbol.indexOf(item['en']) >= 0){
-console.log(item['en']);
-break;
-}
-
-});*/
-
-
+if(lastInputSymbol.length >= 1){
 
 var count = 0;
 for (let index = 0; index < hintJsonVar.length; index++) {  
@@ -72,7 +60,7 @@ ${print}
 document.getElementById(printId).innerHTML = print;
 print = '';
 
-
+}
 
 
 
