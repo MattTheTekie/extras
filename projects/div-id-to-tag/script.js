@@ -2,12 +2,17 @@
 
 
 
-function divIdToTag(printId){
+function divIdToTag(printId, fromId){
+
+
 var allIdOnPage = '';
-let allDivId = document.querySelectorAll('div');
+
+let divId = document.getElementById(fromId);
+
+let allDivId = divId.querySelectorAll('div');
 allDivId.forEach((item, index) => {
 if(item.id != ''){
-allIdOnPage += `<a class="tag h3 border2 op light" href="#`+item.id+`">`+item.id+`</a>`
+allIdOnPage += `<a class="tag2 border2 op light" href="#`+item.id+`">`+item.id+`</a>`
 }
 });
 allIdOnPage = `
@@ -18,15 +23,19 @@ allIdOnPage = `
 if(document.getElementById(printId) == null){
 console.log('id for print null');
 }else{
+document.addEventListener("DOMContentLoaded", (event) => {
 document.getElementById(printId).innerHTML = allIdOnPage;
+});
+
 }
+
+
 }
 
 
 
 
 
-window.onload = divIdToTag('print'); //https://stackoverflow.com/questions/191157/window-onload-vs-body-onload
 
 
 

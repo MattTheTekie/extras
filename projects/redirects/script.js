@@ -830,8 +830,9 @@ a.forEach((item, index) => {
 b  += item+ ', ';
  });
 
+if(document.getElementById('print') != null){
 document.getElementById('print').innerHTML = '<div class="bg padding border2 light op">Redirects commands list: '+b+'<br />Example redirects: "Google n" - news about Google, etc</div>';
-
+}
 
 
 

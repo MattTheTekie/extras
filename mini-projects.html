@@ -70,44 +70,10 @@
 
 
 
-<div class="idTagList"></div>
-
-<script>
-
-function idToTag(){
-var allIdOnPage = '';
-let allDivId = document.querySelectorAll('label');
-if(allDivId.length >= 2){
-allDivId.forEach((item, index) => {
-//alert(item.className); //https://stackoverflow.com/questions/11487258/how-to-get-html-elements-class-tags
-//alert(item.htmlFor); //for https://www.w3schools.com/jsref/dom_obj_label.asp
-if(item.htmlFor != ''&&item.className[0]+item.className[1]+item.className[2]+item.className[3] == 'menu'){
-
-allIdOnPage += `
-<a class="tag border2 op light" href="#`+item.htmlFor+`"><span class="ico" style="font-size: 10px; width:8px;">#</span>`+item.htmlFor+`</a>
-`;
-}
-});
-allIdOnPage = `
-<div class="block tagList tCenter">`+allIdOnPage+`</div>
-`;
-if(document.getElementsByClassName('idTagList')[0] != null){
-document.getElementsByClassName('idTagList')[0].innerHTML = allIdOnPage;
-}else{
-console.log('idTagList == null');
-}
-}
-
-}
-
-//https://stackoverflow.com/questions/191157/window-onload-vs-body-onload
-window.onload = idToTag; 
 
 
 
-</script>
-
-<!-- <style> html { scroll-padding-top: 35px; } </style>--><label class="menuLabel block tCenter" style="margin: 9px 0; margin-top: 25px; color: var(--c);" for="mini-projects">Mini-projects:</label>
+<!-- <style> html { scroll-padding-top: 35px; } </style>--><div class="menuLabel block tCenter" style="margin: 9px 0; margin-top: 25px; color: var(--c);">Mini-projects:</div>
 
 <div class="menu" id="mini-projects">
 <a class="button light3 border3" tabindex="0" href="/mini-projects/angled/">angled</a>
@@ -123,10 +89,16 @@ window.onload = idToTag;
 <a class="button light3 border3" tabindex="0" href="/mini-projects/textarea/">textarea</a>
 <a class="button light3 border3" tabindex="0" href="/mini-projects/tpl-project-mini/">tpl project mini</a>
 </div>
+
+
 <script src="/projects/insert-icon/script.js"></script>
 <script>
 insertIcon("mini-projects");
 </script>
+
+
+
+
 
 <!-- end menu -->
 </div>
