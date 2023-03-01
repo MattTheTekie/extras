@@ -2287,6 +2287,9 @@ var wordEnJsonVar =
         "en": "afro"
     },
     {
+        "en": "afrofuturism"
+    },
+    {
         "en": "after"
     },
     {
@@ -46213,6 +46216,9 @@ var wordEnJsonVar =
         "en": "fleshes"
     },
     {
+        "en": "fleshing"
+    },
+    {
         "en": "fleshy"
     },
     {
@@ -49147,6 +49153,9 @@ var wordEnJsonVar =
         "en": "g'morning"
     },
     {
+        "en": "g'night"
+    },
+    {
         "en": "g\/km\ufeff"
     },
     {
@@ -51119,6 +51128,9 @@ var wordEnJsonVar =
     },
     {
         "en": "gobblers"
+    },
+    {
+        "en": "gobbles"
     },
     {
         "en": "gobbling"
@@ -69346,6 +69358,9 @@ var wordEnJsonVar =
         "en": "loveless"
     },
     {
+        "en": "lovelies"
+    },
+    {
         "en": "loveliest"
     },
     {
@@ -76331,6 +76346,9 @@ var wordEnJsonVar =
     },
     {
         "en": "multicultural"
+    },
+    {
+        "en": "multiculturalism"
     },
     {
         "en": "multidevice"
@@ -94525,6 +94543,9 @@ var wordEnJsonVar =
         "en": "radiates"
     },
     {
+        "en": "radiating"
+    },
+    {
         "en": "radiation"
     },
     {
@@ -107411,6 +107432,9 @@ var wordEnJsonVar =
     },
     {
         "en": "shopping"
+    },
+    {
+        "en": "shopping's"
     },
     {
         "en": "shops"
