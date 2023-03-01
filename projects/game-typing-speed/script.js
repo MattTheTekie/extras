@@ -106,6 +106,8 @@ document.getElementsByClassName("input")[0].innerHTML = `
 <input type="submit">
 </form>
 </div><br /><br />`;
+
+
 }else{
 document.getElementsByClassName("input")[0].innerHTML = '';
 }
