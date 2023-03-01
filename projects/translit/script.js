@@ -141,7 +141,9 @@ inputA.addEventListener('input', updateValueInput);
 function updateValueInput(e) {
 //q = encodeURIComponent(e.target.value);
 q = e.target.value;
-document.getElementById("result").innerHTML = transliterate(q).trim(); 
+document.getElementById("result").innerHTML = transliterate(q).trim()+'</span><span id="scrollTo"></span>';
+document.getElementById("scrollTo").scrollIntoView(true);
+
 }
 
 fuWorker('on');
