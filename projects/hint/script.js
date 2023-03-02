@@ -30,7 +30,7 @@ if(lastInputSymbol.length >= 1){
 var count = 0;
 for (let index = 0; index < hintJsonVar.length; index++) {  
 const item = wordEnJsonVar[index];  
-var item2 = item['en'];
+var item2 = item['text']; // from json  var
 //if(item2.search(lastInputSymbol) != -1){
 //if(item2.indexOf(lastInputSymbol) >= 0){
 if(item2.slice(0, lastInputSymbol.length) == lastInputSymbol){
