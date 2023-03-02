@@ -1,4 +1,4 @@
-// v.1.1.0
+// v.1.1.1
 // not for large json files like in this example ! 
 
 function hint(printId, hintJsonVar, hintLimit, inputId){
@@ -35,8 +35,8 @@ var print = '';
 
 
 function updateValueInput(e) {
-//var q = encodeURIComponent(e.target.value);
-var q = e.target.value;
+var q = encodeURIComponent(e.target.value);
+//var q = e.target.value;
 
 
 var q2 = (' '+q).split(' ');
@@ -55,8 +55,10 @@ if(item2.slice(0, lastInputSymbol.length) == lastInputSymbol){
 //console.log(lastInputSymbol);
 //console.log(item2);
 
+var item3 = item2.replace(/'/g, "\\'"); // https://stackoverflow.com/questions/15087497/escaping-single-quotes-in-javascript-string-for-javascript-evaluation
+
 print += `
-<a class="tag light border2" onclick="insertText('${q}', '${item2}', '${com}', '${inputId}');" style="cursor:pointer;">${item2}</a>
+<a class="tag light border2" onclick="insertText('${q}', '${item3}', '${com}', '${inputId}');" style="cursor:pointer;">${item2}</a>
 `;
 count++;
 if(count >= hintLimit){
@@ -95,6 +97,8 @@ function insertText(q, text, com, inputId){
 q = q.split(' ');
 q.pop();
 q = q.join(" ");
+
+
 
 if(com == 'textarea'){
 document.querySelectorAll('textarea')[0].value = (q+' '+text).trim();
