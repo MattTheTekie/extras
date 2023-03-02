@@ -1,14 +1,32 @@
-// v.1.0.1
+// v.1.1.0
+// not for large json files like in this example ! 
 
-function hint(printId, hintJsonVar){
-var hintLimit = 35;
+function hint(printId, hintJsonVar, hintLimit, inputId){
 
-
+if(hintLimit == undefined||hintLimit == ''){ hintLimit = 35; }
+var com = '';
+var inputA = '';
 
 // input
 if(document.querySelectorAll('textarea').length >= 1){
-var inputA = document.querySelectorAll('textarea')[0];
+inputA = document.querySelectorAll('textarea')[0];
 inputA.addEventListener('input', updateValueInput);
+com = 'textarea';
+}
+
+
+
+if(document.querySelectorAll('input').length >= 1){
+inputA = document.querySelectorAll('input')[0];
+inputA.addEventListener('input', updateValueInput);
+com = 'input';
+}
+
+
+if(document.getElementById(inputId) != null){
+inputA = document.getElementById(inputId);
+inputA.addEventListener('input', updateValueInput);
+com = 'inputId';
 }
 
 
@@ -38,7 +56,7 @@ if(item2.slice(0, lastInputSymbol.length) == lastInputSymbol){
 //console.log(item2);
 
 print += `
-<a class="tag light border2" onclick="insertText('${q}', '${item2}');" style="cursor:pointer;">${item2}</a>
+<a class="tag light border2" onclick="insertText('${q}', '${item2}', '${com}', '${inputId}');" style="cursor:pointer;">${item2}</a>
 `;
 count++;
 if(count >= hintLimit){
@@ -73,12 +91,26 @@ print = '';
 
 }
 
-function insertText(q, text){
+function insertText(q, text, com, inputId){
 q = q.split(' ');
 q.pop();
-q = q.join(" ")
+q = q.join(" ");
+
+if(com == 'textarea'){
 document.querySelectorAll('textarea')[0].value = (q+' '+text).trim();
 document.querySelectorAll('textarea')[0].focus();
+}
+
+if(com == 'input'){
+document.querySelectorAll('input')[0].value = (q+' '+text).trim();
+document.querySelectorAll('input')[0].focus();
+}
+
+if(com == 'inputId'){
+document.getElementById(inputId).value = (q+' '+text).trim();
+document.getElementById(inputId).focus();
+}
+
 }
 
 //fuWorker('on');

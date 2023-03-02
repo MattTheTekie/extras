@@ -1,4 +1,5 @@
 // v.1.3.23
+// not for large json files !
 // task: selection for search. relevant search
 
 

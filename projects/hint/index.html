@@ -40,7 +40,7 @@
 <form id="form" action="#result" method="GET">
 
 
-<textarea id="text" class="padding" name="text" rows="3" cols="" placeholder="textarea" autofocus></textarea>
+<textarea id="test" class="padding" name="text" rows="3" cols="" placeholder="textarea" autofocus></textarea>
 <div id="hint" style="margin-top: 10px;">hint</div>
 
 
@@ -69,8 +69,8 @@
 <script>
 //fuWorker('off');
 
-hint('hint', wordEnJsonVar);
-
+hint('hint', wordEnJsonVar, '50', 'test');
+// hint(printId, hintJsonVar, hintLimit, inputId){
 
 
 
