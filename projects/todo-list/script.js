@@ -480,7 +480,7 @@ print2 = `
 
 <label class="block tRight bold padding h3 op">+</label>
 <form id="anchorIdFrom" action="./?#anchorIdFrom" style="min-height: 95px; /*border: 1px solid red;*/">
-<input id="inputTask" class="padding" type="text" name="q" autofocus="" autocomplete="off" placeholder=" task">
+<input id="inputTask" class="padding" type="text" name="q" autofocus="" autocomplete="off" placeholder=" input task">
 <input type="hidden" name="com" value="add">
 <div id="option"></div>
 </form>
