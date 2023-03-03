@@ -413,12 +413,6 @@ document.getElementById("alert").innerHTML = '<audio style="display:none" autopl
 
 
 
-fuWorker('on');
-
-
-
-
-
 
 
 

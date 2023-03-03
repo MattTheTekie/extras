@@ -1,8 +1,8 @@
-##### README.md
+README.md
 
 
-### Homepage and other projects: tpl,  🧠🎮 game memory symbol 🎮 game tic tac toe 🎮⌨️ game typing speed  📝 todo list ...
-### [https://gabc.tk](https://gabc.tk)
+Homepage and other projects: tpl,  🧠🎮 game memory symbol 🎮 game tic tac toe 🎮⌨️ game typing speed  📝 todo list ...
+[https://gabc.tk](https://gabc.tk)
 
 [#website](https://github.com/topics/website?s=updated)
 [#homepage](https://github.com/topics/homepage?s=updated)
@@ -12,6 +12,6 @@
 license: CC BY-SA 4.0
 <!-- footer, LICENSE.md README.md -->
 
-#### Screenshots
+Screenshots
 ![screenshot](/img/screenshot.png)
 ![screenshot2](/img/screenshot2.png)
