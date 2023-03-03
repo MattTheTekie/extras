@@ -1,8 +1,10 @@
 README.md
 
 ### custom new tab for Firefox browser
-### about: custom url, sync, focus on page
-### main code:
+Any webpage in New Tab.
+This extension opens own URL (website) when click new tab button (focused on page)
+about: custom url, sync, focus on page
+main code:
 <!-- code -->
 ```javascript
 // second 2 redirect
@@ -15,7 +17,7 @@ window.close();
 //rUrl - redirect url
 ```
 
-#### Screenshots:
+Screenshots:
 ![screenshot](screenshot.png)
 ![screenshot2](screenshot2.png)
 ![screenshot3](screenshot3.png)

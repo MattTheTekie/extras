@@ -73,6 +73,10 @@ var adsJsonVar =
         "url": "https:\/\/color.firefox.com\/"
     },
     {
+        "text": "Flameshot | Open Source Screenshot Software",
+        "url": "https:\/\/flameshot.org\/"
+    },
+    {
         "text": "Flipboard: Your Social Magazine",
         "url": "https:\/\/flipboard.com\/"
     },
