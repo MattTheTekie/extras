@@ -283,7 +283,8 @@ insertIcon("mini-projects");
 divIdToTag('idTagList', 'getId')
 </script>
 
-<br><div id="echoBlog">echoBlog</div></div>
+<br><div id="echoBlog">echoBlog</div><br>
+<div id="echoBlog2">echoBlog2</div></div>
 
 </div>
 </div>
@@ -313,41 +314,19 @@ divIdToTag('idTagList', 'getId')
 
 
 <script src="/data/blogJsonVar.js"></script>
+<script src="/data/blog2JsonVar.js"></script>
+
 <script src="/projects/blog/script.js"></script>
 
 
+
 <script>
-if(blogJsonVar == undefined||blogJsonVar == ''){
-var blogJsonVar = 
-
-
-[
-    {
-        "id": 251,
-        "text": "test2 text2",
-        "url": "https:\/\/test2.com",
-        "tag": "#test2 #tag",
-        "time": 1671480576
-    },
-    {
-        "id": 250,
-        "text": "test text",
-        "url": "https:\/\/test.com",
-        "tag": "#test #tag",
-        "time": 1668444918
-    }
-]
-
-
-
-}
+blog("echoBlog", blogJsonVar, 'post', 'off', 'off', '1', 'blog.html', 'off', '500');
+// printId, blogJsonVar, postClass, embedStatus, tagListStatus, postLimit, scriptDir, multiEmbedStatus tagListLimit
 </script>
 
-
-
-
 <script>
-blog("echoBlog", blogJsonVar, 'post', 'off', 'off', '1', '/projects/blog/', 'off', '500');
+blog("echoBlog2", blog2JsonVar, 'post', 'off', 'off', '1', 'blog2.html', 'off', '500');
 // printId, blogJsonVar, postClass, embedStatus, tagListStatus, postLimit, scriptDir, multiEmbedStatus tagListLimit
 </script>
 
