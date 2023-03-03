@@ -3,7 +3,7 @@
 <head>
 
 <meta charset="UTF-8">
-<title>Firefox-extensions</title>
+<title>Blog</title>
 <link rel="alternate" type="application/rss+xml" title="gabc RSS" href="/rss.xml">
 <link rel="alternate" type="application/rss+xml" title="gabc RSS2" href="/rss2.xml">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -60,39 +60,50 @@
 
 <!-- content -->
 <div class="content">
-<h3 class="tCenter op">Firefox-extensions</h3>
+<b class="block tCenter op">Blog</b>
 
 
+<header class="brand">
+<nav>
+<a href="./">main</a>
+<a href="?id=">random</a>
+</nav>
+</header>
 
-<div id="insertIconId">
 
-<div class="post bgList border3List brand"><a href="https://github.com/gabc123123/gabc123123.github.io/tree/main/firefox-extensions/firefox-custom-new-tab/">[ firefox-custom-new-tab ]<span class="op sup xxsmall">⇗</span></a>
-</div>
-<div class="post bgList border3List brand"><a href="https://github.com/gabc123123/gabc123123.github.io/tree/main/firefox-extensions/firefox-search-localhost-http/">[ firefox-search-localhost-http ]<span class="op sup xxsmall">⇗</span></a>
-</div>
-<div class="post bgList border3List brand"><a href="https://github.com/gabc123123/gabc123123.github.io/tree/main/firefox-extensions/firefox-search-localhost-https/">[ firefox-search-localhost-https ]<span class="op sup xxsmall">⇗</span></a>
-</div>
-<div class="post bgList border3List brand"><a href="https://github.com/gabc123123/gabc123123.github.io/tree/main/firefox-extensions/firefox-search-localhost-icons/">[ firefox-search-localhost-icons ]<span class="op sup xxsmall">⇗</span></a>
-</div>
-</div>
-<script src="/projects/insert-icon/script.js"></script>
+<script src="/data/blogJsonVar.js"></script>
 <script>
-//insertIcon("insertIconId");
+if(blogJsonVar == undefined||blogJsonVar == ''){
+var blogJsonVar = 
+
+
+[
+    {
+        "id": 251,
+        "text": "test2 text2",
+        "url": "https:\/\/test2.com",
+        "tag": "#test2 #tag",
+        "time": 1671480576
+    },
+    {
+        "id": 250,
+        "text": "test text",
+        "url": "https:\/\/test.com",
+        "tag": "#test #tag",
+        "time": 1668444918
+    }
+]
+
+
+
+}
 </script>
 
-<div id="insertIcon" class="post bg border3List">
 
-<a class="block padding light border3List b" href="https://addons.mozilla.org/firefox/user/17469135/">Install from Store</a>
-
-</div>
+<div id="echoBlog">echoBlog</div>
 
 
 
-
-<script src="/projects/insert-icon/script.js"></script>
-<script>
-insertIcon("insertIcon");
-</script>
 
 
 
@@ -112,6 +123,11 @@ insertIcon("insertIcon");
 <script src="/js/ad.js"></script>
 <script> fuAds('', 'ads2', ''); </script>
 
+<script src="/projects/blog/script.js"></script>
 
+<script>
+blog("echoBlog", blogJsonVar, 'post', 'on', 'on', '10', 'blog.html', 'off','500');
+// printId, blogJsonVar, postClass, embedStatus, tagListStatus, postLimit, scriptDir, multiEmbedStatus, tagListLimit
+</script>
 </body>
 </html>
