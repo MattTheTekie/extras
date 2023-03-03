@@ -65863,6 +65863,9 @@ var wordEnJsonVar =
         "text": "labour"
     },
     {
+        "text": "labourer"
+    },
+    {
         "text": "labouring"
     },
     {
