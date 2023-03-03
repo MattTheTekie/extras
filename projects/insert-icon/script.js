@@ -1,4 +1,4 @@
-// v.1.2.18
+// v.1.2.19
 
 function insertIcon(id){
 
@@ -53,7 +53,7 @@ let icons = {
 "script":"📜", "code":"📜", "history":"📜",
 "search": "🔎",
 "sleep":"😴💤", "bed":"🛏",
-"store":"🛍️","shop":"🛍️",
+"store":"🛍️","shop":"🛍️", "extension":"🛍️",
 "style":"🎨", "css":"🎨", "color":"🎨", "theme":"🎨", "palette":"🎨",
 "time":"⌛", "timer":"⌛",
 "tmp":"⏳", "temporary":"⏳",
