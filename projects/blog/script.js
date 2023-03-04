@@ -1,4 +1,4 @@
-// v.1.3.24
+// v.1.3.26
 // not for large json files !
 // task: selection for search. relevant search
 
@@ -602,7 +602,6 @@ return tagList;
 
 
 function fuPrintPost(id, post, tag, time){
-
 tag = highlightText(tag);
 //time = new Date(time).getTime();
 time = `<a href="${scriptDir}?id=${id}">&nbsp;`+fuPostTime(time)+`&nbsp;</a>`;
@@ -612,6 +611,8 @@ if(q != null&&com == 'search'){
 // https://stackoverflow.com/questions/7313395/case-insensitive-replace-all
 var regEx = new RegExp(q, "ig");
 post = post.replace(regEx, `<span style="background: var(--orange); color: #fff;">${q}</span>`); // fixme lower upper case
+}else if(com == 'id'){
+post = highlightText2(post, 'out');
 }else{
 post = highlightText(post, 'out');
 }
@@ -723,7 +724,6 @@ play = item.split('/');
 play = play[play.length - 2];
 play = play.split('-');
 play = play[play.length - 1];
-alert(play);
 embed = `<iframe src="https://tunein.com/embed/player/${play}/?autoplay=false&background=${confThemeEmbed}" style="height:100px;" scrolling="no" frameborder="no" sandbox="allow-same-origin allow-scripts allow-popups allow-forms"></iframe>`;
 break;
 
@@ -833,6 +833,226 @@ if(multiEmbedStatus != 'on'&&embedStatus != 'off'){ text += embed+embed2; }
 
 return text;
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+// highlight Text2 with autoplay when pressed id (date)
+function highlightText2(text, hrefInOut){
+//text = decodeURIComponent(text); // error sometimes
+
+// if code
+text = text.replace(/</g, "&lt;");
+text = text.replace(/>/g, "&gt;");
+
+let text2 = '';
+let embed = '';
+let embed2 = '';
+
+let w = '100%';
+let h = '190px'; 
+
+text = [...text];
+let forSplit = [`
+`, " "
+]
+text.forEach((item) => {
+forSplit.forEach((item2) => { // foreach
+if(item == item2){
+item = item+symbolForSplit;
+}
+});
+text2 += item;
+});
+
+//return text = text.toString();
+//return text = text.join("");
+
+//return text = text2;
+//text = [...text];
+
+text = '';
+const myArray = text2.split(symbolForSplit);
+myArray.forEach((item) => {
+//text += item.hostname;
+//if(item.search("http") != -1){ 
+/*if(item[0]+item[1]+item[2]+item[3] == 'http'&&item.search("http|://") != -1){ 
+var host = new URL(item).hostname; // stop working when error
+}
+*/
+
+let checkEmbedEmpty = item.split('/');
+//if(item.split('/').length > 4){
+if(checkEmbedEmpty[3]){
+var host = item.split('/');
+if(host[3] != undefined){
+switch (host[2]) {
+
+case "youtu.be":
+case "m.youtube.com":
+case "www.youtube.com":
+case "music.youtube.com":
+play = item.split('v=').pop();
+if(play != ''){
+embed = `<!--<iframe id="player" style="border:0;" height="${h}" width="${w}" src="https://www.youtube.com/embed/${play}"></iframe>--><iframe width="${w}" height="${h}" src="https://www.youtube.com/embed/${play}?&autoplay=1" title="YouTube video player" frameborder="0" allow="autoplay; clipboard-write; encrypted-media; gyroscope; autoplay; picture-in-picture" allowfullscreen></iframe>`;
+}
+break;
+
+case 'vimeo.com':
+play = item.split('/');
+embed = `<iframe src="https://player.vimeo.com/video/`+play[play.length-1]+`?badge=0&autoplay=1" height="${h}"  frameborder="0"></iframe>`;
+break;
+
+case "twitter.com":
+case "mobile.twitter.com":
+embed = `<style>.twitter-tweet { margin-top: 0px !important; }</style><div style="display: block; width: 100%; max-width: 550px; margin: 0 auto;"><blockquote class="twitter-tweet" data-lang="${lang}" data-theme="${confThemeEmbed}"><a href="${item}"></a></blockquote></div><!--<script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>-->`;
+break;
+
+case "www.reddit.com":
+if(item.split('/').length >= 9){
+play = item.replace('reddit.com/r/', "redditmedia.com/r/");
+embed = `<iframe style="border-radius: 0 !important;" id="reddit-embed" src="${play}?ref_source=embed&amp;ref=share&amp;embed=true&amp;theme=${confThemeEmbed}" sandbox="allow-scripts allow-same-origin allow-popups" style="border: none;" scrolling="yes" width="640" height="320px"></iframe>`;
+}
+break;
+
+case "soundcloud.com":
+embed = `<iframe width="${w}" height="${h}" scrolling="no" frameborder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=${item}&color=%23ff5500&auto_play=true&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=true"></iframe>`;
+break;
+
+case "tunein.com":
+play = item.split('/');
+play = play[play.length - 2];
+play = play.split('-');
+play = play[play.length - 1];
+embed = `<iframe src="https://tunein.com/embed/player/${play}/?autoplay=true&background=${confThemeEmbed}" style="height:100px;" scrolling="no" frameborder="no" sandbox="allow-same-origin allow-scripts allow-popups allow-forms"></iframe>`;
+break;
+
+case "codepen.io":
+play = item.split('/');
+play = play[play.length - 1];
+embed = `<p class="codepen" data-height="420" data-default-tab="result" data-theme-id="${confThemeEmbed}" data-slug-hash="${play}" data-user="" style="height: 420px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;"></p><!--<script async src="https://cpwebassets.codepen.io/assets/embed/ei.js"></script>-->`;
+break;
+
+
+//default:
+
+
+
+}
+}
+}
+
+/*
+if(item.search(".jpg|.jpeg|.png|.gif|.img|.ico") != -1item.search(".jpg|.jpeg|.png|.gif|.img|.ico") != -1){ 
+embed = `<a href="${item}"><img class="border3" src="${item}" width=""></a>`
+}*/
+
+if(embedStatus != 'off'){
+
+
+itemCheck = item.replace(".", symbolForSplit); 
+
+if(itemCheck.search(`${symbolForSplit}mp4|${symbolForSplit}webm|${symbolForSplit}avi`) != -1) {
+embed2 = `<video height="${h}" controls style="width:100%"><source src="${item}" type="video/mp4">
+<source src="${item}" type="video/ogg">Your browser does not support HTML5 video.</video>`;
+}
+
+if(itemCheck.search("${symbolForSplit}mp3|${symbolForSplit}wav|${symbolForSplit}ogg|${symbolForSplit}m3u") != -1) {
+embed2 = `<audio controls style="width:100%; opacity:0.8"><source src="${item}" type="audio/ogg"><source src="${item}" type="audio/mpeg">Your browser does not support the audio element.</audio>`;
+}
+
+
+if(itemCheck.search("${symbolForSplit}jpg|${symbolForSplit}jpeg|${symbolForSplit}png|${symbolForSplit}gif|${symbolForSplit}img|${symbolForSplit}ico") != -1) {
+//echo 'test';
+embed2 = `<a href="${item}"><img class="border3 img" src="${item}" width=""></a>`;
+}
+
+if(itemCheck.search(".html") != -1&&itemCheck.search("http") == -1) {
+embed2 = `<iframe width="${w}" height="400" src="${item}"></iframe>`;
+}
+
+
+
+}
+
+
+
+
+
+//if(item.search("http") != -1){
+if(item[0]+item[1]+item[2]+item[3] == 'http'&&item.search("http|://") != -1){
+if(embedStatus == 'on'&&host != undefined){
+var ico = `https://www.google.com/s2/favicons?domain_url=${host[2]}`;
+//var ico = `https://api.statvoo.com/favicon/?url=${host[2]}`;
+//var ico = `https://api.faviconkit.com/${host[2]}/16`;
+item = `<a target="_blank" href="${item}"><img class="ico op" src="${ico}" width="14px" alt="ico"> ${item}</a>`;
+}else{
+item = `<a target="_blank" href="${item}">${item}</a>`;
+}
+}
+
+
+if(item.search("./") != -1&&item.search(".htm") != -1&&item.search("http") == -1){
+item = `<a target="_blank" href="${item}">${item}</a>`;
+}
+
+
+//add tag
+if(item[0] == '#'){
+item = item.replace(/#/g, "");
+if(hrefInOut == 'out'){
+/*item = `<a rel="nofollow" href="/projects/blog-in-progress/?q=${item} tag">#${item} <span class="sup">⇗</span></a>`;*/
+item = `<a rel="nofollow" href="${scriptDir}?q=%23${item}">#${item}</a>`;
+}else{
+item = `<a rel="nofollow" href="${scriptDir}?q=%23${item}">#${item}</a>`;
+}
+}
+
+
+
+text += item;
+
+
+
+// multi embed
+if(multiEmbedStatus == 'on'&&embedStatus != 'off'){
+text += embed+embed2;
+embed = '';
+embed2 = '';
+}
+
+// multi embed end
+
+
+});
+
+// single embed
+if(multiEmbedStatus != 'on'&&embedStatus != 'off'){ text += embed+embed2; }
+
+
+
+return text;
+}
+
+
+
+
+
+
+
+
+
 
 
 
@@ -1004,7 +1224,6 @@ script2.async = true;
 script2.charset = 'utf-8';
 script2.src = 'https://cpwebassets.codepen.io/assets/embed/ei.js';
 document.getElementsByTagName('head')[0].appendChild(script2);
-
 
 }
 
