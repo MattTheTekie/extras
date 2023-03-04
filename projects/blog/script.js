@@ -1,4 +1,4 @@
-// v.1.3.23
+// v.1.3.24
 // not for large json files !
 // task: selection for search. relevant search
 
@@ -716,6 +716,15 @@ break;
 
 case "soundcloud.com":
 embed = `<iframe width="${w}" height="${h}" scrolling="no" frameborder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=${item}&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=true"></iframe>`;
+break;
+
+case "tunein.com":
+play = item.split('/');
+play = play[play.length - 2];
+play = play.split('-');
+play = play[play.length - 1];
+alert(play);
+embed = `<iframe src="https://tunein.com/embed/player/${play}/?autoplay=false&background=${confThemeEmbed}" style="height:100px;" scrolling="no" frameborder="no" sandbox="allow-same-origin allow-scripts allow-popups allow-forms"></iframe>`;
 break;
 
 case "codepen.io":

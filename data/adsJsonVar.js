@@ -245,6 +245,10 @@ var adsJsonVar =
         "url": "https:\/\/soundcloud.com\/"
     },
     {
+        "text": "Syncthing",
+        "url": "https:\/\/syncthing.net\/"
+    },
+    {
         "text": "The Fantasy Sandbox MMORPG | Albion Online",
         "url": "https:\/\/albiononline.com\/"
     },
