@@ -1,4 +1,4 @@
-// v.1.3.26
+// v.1.3.27
 // not for large json files !
 // task: selection for search. relevant search
 
@@ -607,14 +607,15 @@ tag = highlightText(tag);
 time = `<a href="${scriptDir}?id=${id}">&nbsp;`+fuPostTime(time)+`&nbsp;</a>`;
 
 // selected orange word when search
-if(q != null&&com == 'search'){
+if(q != null&&com == 'search'){ // without embed, normal text
 // https://stackoverflow.com/questions/7313395/case-insensitive-replace-all
 var regEx = new RegExp(q, "ig");
 post = post.replace(regEx, `<span style="background: var(--orange); color: #fff;">${q}</span>`); // fixme lower upper case
-}else if(com == 'id'){
+alert(com);
+}else if(com == 'id'||com == 'random'){ // autoplay embed when id or random
 post = highlightText2(post, 'out');
 }else{
-post = highlightText(post, 'out');
+post = highlightText(post, 'out'); // embed without autoplay
 }
 
 return `
