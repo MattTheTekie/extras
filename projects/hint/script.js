@@ -1,4 +1,4 @@
-// v.1.1.2
+// v.1.1.3
 // not for large json files like in this example ! 
 
 function hint(printId, hintJsonVar, hintLimit, inputId){
