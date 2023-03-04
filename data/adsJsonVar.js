@@ -69,6 +69,10 @@ var adsJsonVar =
         "url": "https:\/\/getfedora.org\/"
     },
     {
+        "text": "Feedly",
+        "url": "https:\/\/feedly.com\/"
+    },
+    {
         "text": "Firefox Color",
         "url": "https:\/\/color.firefox.com\/"
     },

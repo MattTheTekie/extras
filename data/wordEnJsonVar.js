@@ -129541,6 +129541,9 @@ var wordEnJsonVar =
         "text": "ushering"
     },
     {
+        "text": "ushers"
+    },
+    {
         "text": "using"
     },
     {

@@ -1,7 +1,7 @@
 README.md
 
 
-Homepage and other projects: tpl,  🧠🎮 game memory symbol 🎮 game tic tac toe 🎮⌨️ game typing speed  📝 todo list ...
+Homepage and other projects: Extenstios: costum new tab. TPL (website templates).  🎮 Game: memory symbol, tic tac toe, typing speed. Todo list. Themes for firefox, IDE color ...
 [https://gabc.tk](https://gabc.tk)
 
 [#website](https://github.com/topics/website?s=updated)
