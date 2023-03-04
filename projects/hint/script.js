@@ -1,4 +1,4 @@
-// v.1.1.1
+// v.1.1.2
 // not for large json files like in this example ! 
 
 function hint(printId, hintJsonVar, hintLimit, inputId){
@@ -23,7 +23,7 @@ com = 'input';
 }
 
 
-if(document.getElementById(inputId) != null){
+if(document.getElementById(inputId) != null&&document.getElementById(inputId) == ''){
 inputA = document.getElementById(inputId);
 inputA.addEventListener('input', updateValueInput);
 com = 'inputId';
@@ -47,11 +47,11 @@ if(lastInputSymbol.length >= 1){
 
 var count = 0;
 for (let index = 0; index < hintJsonVar.length; index++) {  
-const item = wordEnJsonVar[index];  
+const item = hintJsonVar[index];  
 var item2 = item['text']; // from json  var
 //if(item2.search(lastInputSymbol) != -1){
 //if(item2.indexOf(lastInputSymbol) >= 0){
-if(item2.slice(0, lastInputSymbol.length) == lastInputSymbol){
+if(item2 != undefined&&item2.slice(0, lastInputSymbol.length) == lastInputSymbol){
 //console.log(lastInputSymbol);
 //console.log(item2);
 
