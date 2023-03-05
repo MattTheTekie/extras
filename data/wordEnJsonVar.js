@@ -85030,6 +85030,9 @@ var wordEnJsonVar =
         "text": "pc"
     },
     {
+        "text": "pdf's"
+    },
+    {
         "text": "pea"
     },
     {
