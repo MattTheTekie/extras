@@ -114790,6 +114790,9 @@ var wordEnJsonVar =
         "text": "stowed"
     },
     {
+        "text": "stowing"
+    },
+    {
         "text": "straddle"
     },
     {
