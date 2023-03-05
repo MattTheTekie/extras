@@ -1,4 +1,4 @@
-// v.1.1.16
+// v.1.1.17
 // redirects
 
 var geturl = window.location;
@@ -194,7 +194,17 @@ q = q3.replace(q2, '');
 q = q.trim();
 q = encodeURIComponent(q);
 url = "https://www.reddit.com/search/?q=" + q+"&type=link";
-if(q == ''){ url = "https://www.reddit.com/rpan/"; }
+if(q == ''){ url = "https://www.reddit.com/r/popular/"; }
+sRedirUrl = url;
+break;
+
+case 'red2#':
+case 'redd#':
+q = q3.replace(q2, '');
+q = q.trim();
+q = encodeURIComponent(q);
+url = "?q=www.reddit.com" + q+" www";
+if(q == ''){ url = "https://www.reddit.com/r/popular/"; }
 sRedirUrl = url;
 break;
 
@@ -203,7 +213,7 @@ q = q3.replace(q2, '');
 q = q.trim();
 q = encodeURIComponent(q);
 url = "https://www.reddit.com/search/?q="+q+"&t=day&type=link&sort=hot";
-if(q == ''){ url = "https://www.reddit.com/rpan/"; }
+if(q == ''){ url = "https://www.reddit.com/r/popular/"; }
 sRedirUrl = url;
 break;
 
@@ -339,8 +349,10 @@ random = Math.floor(Math.random() * urlList.length);
 url = urlList[random];
 if(q == ''){
 urlList = [
-"https://slashdot.org/",
 "https://flipboard.com/topic/technology",
+"https://flipboard.com/topic/technology",
+"https://flipboard.com/topic/technology",
+"https://slashdot.org/",
 "https://news.ycombinator.com/",
 "https://news.google.com/topics/CAAqJggKIiBDQkFTRWdvSUwyMHZNRGRqTVhZU0FtVnVHZ0pWVXlnQVAB",
 "https://www.bing.com/news/search?q=Technology",
@@ -373,6 +385,8 @@ url = urlList[random];
 if(q == ''){
 urlList = [
 "https://flipboard.com/topic/science",
+"https://flipboard.com/topic/science",
+"https://flipboard.com/topic/science",
 "https://news.google.com/topics/CAAqJggKIiBDQkFTRWdvSUwyMHZNRFp0Y1RjU0FtVnVHZ0pWVXlnQVAB",
 "https://www.bing.com/news/search?q=Science",
 "https://getpocket.com/explore/science",
@@ -401,8 +415,10 @@ random = Math.floor(Math.random() * urlList.length);
 url = urlList[random];
 if(q == ''){
 urlList = [
-"https://www.reddit.com/r/programming/",
 "https://flipboard.com/topic/computerscience",
+"https://flipboard.com/topic/computerscience",
+"https://flipboard.com/topic/computerscience",
+"https://www.reddit.com/r/programming/",
 "https://news.google.com/topics/CAAqIQgKIhtDQkFTRGdvSUwyMHZNREZ0YTNFU0FtVnVLQUFQAQ",
 "https://www.reddit.com/r/computerscience/",
 "https://www.reddit.com/r/compsci/",
@@ -562,6 +578,7 @@ q = q3.replace(q2, '');
 q = q.trim();
 q = encodeURIComponent(q);
 urlList = [
+"https://www.bbc.co.uk/sounds/play/live:bbc_radio_one_dance",
 "https://www.bbc.co.uk/sounds/play/live:bbc_radio_one",
 "https://www.bbc.co.uk/sounds/play/live:bbc_1xtra"
 ];
