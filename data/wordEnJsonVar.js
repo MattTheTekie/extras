@@ -82795,6 +82795,9 @@ var wordEnJsonVar =
         "text": "override"
     },
     {
+        "text": "override's"
+    },
+    {
         "text": "overrides"
     },
     {

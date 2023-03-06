@@ -1,4 +1,4 @@
-// v.3.8.1
+// v.3.8.2
 
 
 
@@ -108,6 +108,7 @@ document.getElementsByClassName("input")[0].innerHTML = `
 </div><br /><br />`;
 
 
+// input from input in bottom 2 textarea
 // input listener and print result
 if(document.querySelectorAll('textarea').length >= 1){
 var inputA = document.querySelectorAll('textarea')[1];
@@ -120,12 +121,35 @@ localStorage.setItem("input", e.target.value);
 main(e.target.value);
 }
 
-
 task = localStorage.getItem("input");
 main(task);
 let taskgo1 = encodeURIComponent(task);
 //let taskgo2 = decodeURIComponent(task);
 document.getElementById("mode2").innerHTML = ' <a href="../../?q='+taskgo1+' tg">tg</a>';
+
+
+
+
+
+// input from Get
+input = url.searchParams.get("q");
+if(input != null){
+document.getElementById("bookmarklet").style.display = "inline-block";
+
+if(input != null){ input = input.replace(/%/g, "%25"); localStorage.setItem("input", input); task = input; }else{
+if(localStorage.getItem("input")){ task = localStorage.getItem("input"); }
+}
+
+let taskgo1 = encodeURIComponent(task);
+//let taskgo2 = decodeURIComponent(task);
+document.getElementById("mode2").innerHTML = ' <a href="../../?q='+taskgo1+' tg">tg</a>';
+main(task);
+}
+
+
+
+
+
 
 
 
