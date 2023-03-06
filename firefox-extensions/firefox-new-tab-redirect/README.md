@@ -1,6 +1,6 @@
 README.md
 
-Any webpage when open New Tab
+Any webpage in New Tab
 
 How it works: when you open a new tab, the extension creates a new tab with the specified address and closes the current one (redirect)
 
