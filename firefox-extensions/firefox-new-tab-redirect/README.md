@@ -4,7 +4,7 @@ Any webpage in New Tab
 
 How it works: when you open a new tab, the extension creates a new tab with the specified address and closes the current one (redirect)
 
-Broken functionality: when selected "Bookmarks Toolbar -> Only Show on New Tab" that not showing, because opened extension in new tab make redirect (creating a new tab) and immediately closed
+Broken functionality: when selected "Bookmarks Toolbar -> Only Show on New Tab" that not showing, because opened extension in new tab make redirect (creating a new tab) and immediately closed. One solution: Bookmarks Toolbar -> Always Show.
 
 main code:
 <!-- code -->
