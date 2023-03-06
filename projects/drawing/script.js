@@ -1,4 +1,4 @@
-/* v.1.1.0 */
+/* v.1.1.1 */
 // https://developer.mozilla.org/docs/Web/API/Element/mousemove_event
 
 
@@ -44,6 +44,9 @@ context.fillRect(0,0,window.innerWidth, window.innerHeight);
 
 
 context.closePath();
+
+
+
 
 
 const resize = () => {
@@ -171,6 +174,13 @@ y = 0;
 
 
 
+
+
+
+
+
+
+
 function drawLine(context, x1, y1, x2, y2) {
 
 
@@ -224,7 +234,6 @@ var time = Math.floor(new Date().getTime() / 1000);
  //<img src="'+dataURL+'" name="Flamingo" />
 
 
-
 if (xxx.style.display === "none"||xxx.style.display === "") {
 xxx.style.display = "block";
 xxx2.style.display = "block";
@@ -234,7 +243,19 @@ xxx2.style.display = "none";
   }
 
 
+
 }
+
+
+
+
+
+function clearDrawing(){
+context.beginPath();
+context.fillStyle = bg;
+context.fillRect(0,0,window.innerWidth, window.innerHeight);
+}
+
 
 fuWorker('on');
 
