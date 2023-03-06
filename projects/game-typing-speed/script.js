@@ -1,4 +1,4 @@
-// v.3.7.27
+// v.3.8.0
 
 
 
@@ -103,35 +103,43 @@ document.getElementsByClassName("input")[0].innerHTML = `
 <br>
 <form method="get">
 <textarea rows="2" name="q" placeholder=" input text for task"></textarea>
-<input type="submit">
+<!--<input type="submit">-->
 </form>
 </div><br /><br />`;
 
 
-}else{
-document.getElementsByClassName("input")[0].innerHTML = '';
+// input listener and print result
+if(document.querySelectorAll('textarea').length >= 1){
+var inputA = document.querySelectorAll('textarea')[1];
+inputA.addEventListener('input', updateValueInput);
 }
 
+function updateValueInput(e) {
+//q = encodeURIComponent(e.target.value);
 
-if(mode == 'input'){
-var input = url.searchParams.get("q");
+localStorage.setItem("input", e.target.value);
+main(e.target.value);
 
 
-document.getElementById("bookmarklet").style.display = "inline-block";
 
-if(input != null){ input = input.replace(/%/g, "%25"); localStorage.setItem("input", input); task = input; }else{
-if(localStorage.getItem("input")){ task = localStorage.getItem("input"); }
+
+
+
+
+
 }
 
-
+task = localStorage.getItem("input");
+main(task);
 let taskgo1 = encodeURIComponent(task);
 //let taskgo2 = decodeURIComponent(task);
 document.getElementById("mode2").innerHTML = ' <a href="../../?q='+taskgo1+' tg">tg</a>';
 
 
-main(task);
-}
 
+}else{
+document.getElementsByClassName("input")[0].innerHTML = '';
+}
 
 
 
