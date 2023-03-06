@@ -1,10 +1,9 @@
 // v.1.0.11
 
 
+function fuShareMain(){
 var  qget = window.location;
 qget = new URL(qget);
-
-
 
 var q = qget.searchParams.get("q");
 if(q != null){
@@ -50,6 +49,14 @@ document.getElementById("share").innerHTML = fuShare(qShare+textShare, urlShare)
     reader.readAsDataURL(event.target.files[0]);
   };*/
 
+}
+
+
+fuShareMain();
+
+
+
+
 
 
 
@@ -81,11 +88,13 @@ share += `<input type="button" class="dropbtn border1 tag light" style="display:
 }
 
 share += `
+<a class="border2 tag light" href="`+host+`./projects/game-typing-speed/?mode=input&q=`+tshare+`">input</a>
+<hr>
 <a $target class="border2 tag light" href="https://twitter.com/intent/tweet?text=`+tshare+' '+ushare+`">twitter</a>
 <a $target class="border2 tag light" href="https://tumblr.com/widgets/share/tool?canonicalUrl=`+ushare+`">tumblr</a>
 <a $target class="border2 tag light" href="mailto:?subject=`+tshare+`&body=`+ushare+`">email</a>
 <a $target class="border2 tag light" href="https://validator.w3.org/nu/?doc=`+ushare+`">w3.org</a>
-<a class="border2 tag light" href="`+host+`projects/game-typing-speed/?mode=input&q=`+tshare+`">input</a>
+
 `;
 
 share = `
