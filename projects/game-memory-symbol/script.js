@@ -1,7 +1,7 @@
-// v.3.0.1
+// v.3.1.0
 
 
-const limitMaintl = 20;
+var limitMaintl = 20;
 
 var i = 0;
 var i2 = 0;
@@ -17,8 +17,7 @@ var arrLastTwo = [];
 
 
 
-
-const counts =[];
+var counts =[];
 
 var symbolList = '';
 
@@ -57,7 +56,7 @@ symbolList = decodeURIComponent(symbolList);
 
 symbolList = [...symbolList];
 symbolList = [...new Set(symbolList)]; // rm dublicate
-console.log(symbolList); 
+//console.log(symbolList); 
 /*
 // https://stackoverflow.com/questions/281264/remove-empty-elements-from-an-array-in-javascript
 symbolList = symbolList.filter(function (el) {
@@ -220,6 +219,16 @@ result = '';
 
 
 
+
+
+
+
+
+
+
+
+
+
 function drawResult(aaa, maintl, printPlace){
 i2 = 1;
 print = '';
@@ -290,10 +299,10 @@ print = '';
 
 
 
-let arrInputHistoryPrint = [];
+
 
 function main(index) {
-
+let arrInputHistoryPrint = [];
 var checkSound = '';
 
 arrInputHistory.push(index);
@@ -411,9 +420,12 @@ document.getElementById("alert").innerHTML = '<audio style="display:none" autopl
 }
 
 
-
-
-
+function refresh(){ //https://stackoverflow.com/questions/39880242/how-to-reload-javascript-without-refreshing-the-page
+// bad practic
+var s = document.createElement('script');
+s.src = 'script.js';
+document.body.appendChild(s);
+}
 
 
 
