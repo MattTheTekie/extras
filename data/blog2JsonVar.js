@@ -1,6 +1,13 @@
 var blog2JsonVar = 
 [
     {
+        "id": 6,
+        "text": "I made a list of FREE sites and apps to learn programming : learnprogramming",
+        "url": "https:\/\/www.reddit.com\/r\/learnprogramming\/comments\/syyhu6\/i_made_a_list_of_free_sites_and_apps_to_learn\/",
+        "tag": "#learning",
+        "time": 1678106338
+    },
+    {
         "id": 5,
         "text": "What's the biggest mistake you've ever made while coding? - DEV Community",
         "url": "https:\/\/dev.to\/michaeltharrington\/whats-the-biggest-mistake-youve-ever-made-while-coding-12n2",

@@ -23,3 +23,7 @@ overflow-y: auto;
 	min-width: 50%;
 	
 }
+
+textarea {
+border-top: 5px solid var(--d2);
+}
