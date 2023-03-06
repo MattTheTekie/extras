@@ -1,5 +1,5 @@
 // v.1.0.3
-// firefox custom new tab
+// firefox
 
 
 
@@ -24,7 +24,7 @@ newTabRedir(rUrl);
 
 function newTabRedir(rUrl){
 
-//if(String(window.location.href).indexOf('moz-extension://') >= 0&&String(window.location.href).indexOf('/custom-new-tab.html') >= 0){ 
+//if(String(window.location.href).indexOf('moz-extension://') >= 0&&String(window.location.href).indexOf('/new-tab-redirect.html') >= 0){ 
 
 
 // stop infinite redirect current page

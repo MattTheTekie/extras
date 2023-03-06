@@ -1,9 +1,5 @@
 // v.1.0.2
-// chrome custom new tab
-
-
-
-
+// chrome
 
 //https://developer.mozilla.org/docs/Mozilla/Add-ons/WebExtensions/Implement_a_settings_page
 function onError(error) {
@@ -20,11 +16,8 @@ newTabRedir(rUrl);
 
 
 
-
 function newTabRedir(rUrl){
-
-//if(String(window.location.href).indexOf('moz-extension://') >= 0&&String(window.location.href).indexOf('/custom-new-tab.html') >= 0){ 
-
+//if(String(window.location.href).indexOf('moz-extension://') >= 0&&String(window.location.href).indexOf('/new-tab-redirect.html') >= 0){ 
 
 // stop infinite redirect current page
 let stopRedirect = window.location.href.split('/');
@@ -33,7 +26,6 @@ if(String(rUrl).indexOf(stopRedirect) >= 0){
 console.log(`redirect stoped for ${rUrl}`);
 rUrl = 'options.html';
 }
-
 
 
 /*
