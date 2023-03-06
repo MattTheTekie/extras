@@ -1,4 +1,4 @@
-// v.1.2.1
+// v.1.2.2
 
 
 
@@ -18,8 +18,8 @@ var pointsPlayer = '0';
 var pointsPc = '0';
 
 
-const diceKeyArr = Object.keys(dice);
-const diceValArr = Object.values(dice);
+var diceKeyArr = Object.keys(dice);
+var diceValArr = Object.values(dice);
 
 function randomDice(){
 let random = Math.floor(Math.random() * (diceKeyArr.length));
@@ -32,7 +32,8 @@ var colorPcWin = '';
 
 document.getElementById("panel").innerHTML = `
 <button class="gDbtn light border2"  id="myBtn">roll</button>
-<button class="gDbtn light border2 op" onclick="reload()">reload</button>
+<!--<button class="gDbtn light border2 op" onclick="reload()">reload</button>-->
+<button class="gDbtn light border2 op" onclick="refresh()">refresh</button>
 `;
 document.getElementById("myBtn").addEventListener("click", displayResult); 
 
@@ -88,7 +89,14 @@ document.getElementById("result").innerHTML = `
 document.getElementById("result2").innerHTML = '<span>'+win+'</span>';
 }
  
+function refresh(){ //https://stackoverflow.com/questions/39880242/how-to-reload-javascript-without-refreshing-the-page
+// bad practic
 
+var s = document.createElement('script');
+s.src = 'script.js';
+document.body.appendChild(s);
+document.body.removeChild(s);
+}
 
 fuWorker('on');
 
