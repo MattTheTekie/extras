@@ -1,4 +1,4 @@
-// v.3.8.0
+// v.3.8.1
 
 
 
@@ -116,18 +116,10 @@ inputA.addEventListener('input', updateValueInput);
 
 function updateValueInput(e) {
 //q = encodeURIComponent(e.target.value);
-
 localStorage.setItem("input", e.target.value);
 main(e.target.value);
-
-
-
-
-
-
-
-
 }
+
 
 task = localStorage.getItem("input");
 main(task);
@@ -167,9 +159,10 @@ document.getElementById('text').rows = '';
 //setTimeout(function () {
 function main(task){
 
+if(task != null){
 //console.log(task);
 task = task.replace(/%/g, "%25"); // not show text, percentage
-
+}
 
 
 task = decodeURIComponent(task);
