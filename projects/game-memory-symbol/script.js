@@ -419,7 +419,6 @@ document.getElementById("alert").innerHTML = '<audio style="display:none" autopl
 
 }
 
-
 function refresh(){ //https://stackoverflow.com/questions/39880242/how-to-reload-javascript-without-refreshing-the-page
 // bad practic
 var s = document.createElement('script');
