@@ -1,4 +1,4 @@
-/* v.1.1.1 */
+// v.1.1.2
 // https://developer.mozilla.org/docs/Web/API/Element/mousemove_event
 
 
