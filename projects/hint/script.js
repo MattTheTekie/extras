@@ -1,4 +1,4 @@
-// v.1.1.7
+// v.1.1.8
 // not for large json files like in this example ! 
 
 function hint(printId, hintJsonVar, hintLimit, inputId){
@@ -69,7 +69,7 @@ break;
 }
 
 print = `
-<div class="tagList">
+<div class="tagList op padding" >
 ${print}
 </div>
 <!-- https://developer.mozilla.org/en-US/docs/Web/HTML/Element/datalist -->

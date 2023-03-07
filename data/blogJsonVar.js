@@ -1,6 +1,13 @@
 var blogJsonVar = 
 [
     {
+        "id": 260,
+        "text": "NASA Webb Telescope on Twitter: \"Triples is best. This Webb image features a special galaxy that appears 3 times. Why? There's a galaxy cluster here whose mass and gravity are so great that time and space around it gets warped. This magnifies, multiplies, and distorts galaxies behind it: https:\/\/t.co\/ftRTPC4bDr https:\/\/t.co\/fzTjUGc5UO\" \/ Twitter",
+        "url": "https:\/\/twitter.com\/NASAWebb\/status\/1630591812204109832",
+        "tag": "#space",
+        "time": 1678162199
+    },
+    {
         "id": 258,
         "text": "HUBBLE on Twitter: \"Our #HubbleTopImage shows a pair of space oddities \ud83c\udf00\ud83c\udf00\ud83c\udf00 also known as Wild's Triplet, around 200 million light-years from Earth in the constellation Virgo. Read more about these galaxies here: https:\/\/t.co\/AzHqkqM4PZ https:\/\/t.co\/x5sP6dWofe\" \/ Twitter",
         "url": "https:\/\/twitter.com\/HUBBLE_space\/status\/1626235250060988418",
