@@ -426,6 +426,8 @@ var s = document.createElement('script');
 s.src = 'script.js';
 document.body.appendChild(s);
 document.body.removeChild(s);
+
+document.getElementById("win").innerHTML = '';
 }
 
 

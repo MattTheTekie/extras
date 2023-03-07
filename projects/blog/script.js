@@ -1,4 +1,4 @@
-// v.1.3.28
+// v.1.3.29
 // not for large json files !
 // task: selection for search. relevant search
 
@@ -331,7 +331,7 @@ print += `
 <div class="wrapper">
 <div class="block tRight padding">
 <a class="op border2 button light" href="#" onclick="history.back()" title="history back">back</a>
-<a class="op border2 button light" href="./">main</a>
+<a class="op border2 button light" href="?">main</a>
 </div>
 </div>
 `;
@@ -348,7 +348,7 @@ print += `
 print += `
 <br>
 <div id="form" class="wrapperL">
-<form method="GET" style="margin-top: 0px;" action="./">
+<form method="GET" style="margin-top: 0px;" action="?">
 
 <input id="input" class="padding op" type="search" style="text-align: center;" name="q"  autocomplete="off" placeholder="">
 
@@ -606,11 +606,38 @@ tag = highlightText(tag);
 //time = new Date(time).getTime();
 time = `<a href="${scriptDir}?id=${id}">&nbsp;`+fuPostTime(time)+`&nbsp;</a>`;
 
+
 // selected orange word when search
-if(q != null&&com == 'search'){ // without embed, normal text
-// https://stackoverflow.com/questions/7313395/case-insensitive-replace-all
+if(q != null&&com == 'search'){
+
+// 1 
+/*// https://stackoverflow.com/questions/7313395/case-insensitive-replace-all
 var regEx = new RegExp(q, "ig");
-post = post.replace(regEx, `<span style="background: var(--orange); color: #fff;">${q}</span>`); // fixme lower upper case
+post = post.replace(regEx, `<span style="background: var(--orange); color: #fff;">${q}</span>`); 
+*/
+
+/*
+// 2 
+//post = highlightText(post, 'out');
+//orange selected in found
+text = post.split(' ');
+post = '';
+text.forEach((item) => {
+if(item.toLowerCase().search(q.toLowerCase()) != -1) == -1){
+post += ` <span style="background: var(--orange); color: #fff;">${item}</span>`;
+}else{
+post += ' '+item;
+}
+});
+post = post.trim();
+*/
+
+//3
+embedStatus = 'off';
+post = highlightText2(post, 'out');
+
+
+
 }else if(com == 'id'||com == 'random'){ // autoplay embed when id or random
 post = highlightText2(post, 'out');
 }else{
@@ -780,7 +807,7 @@ embed2 = `<iframe width="${w}" height="400" src="${item}"></iframe>`;
 
 
 //if(item.search("http") != -1){
-if(item[0]+item[1]+item[2]+item[3] == 'http'&&item.search("http|://") != -1){
+if(item.slice(0, 4) == 'http'&&item.search("http|://") != -1){
 if(embedStatus == 'on'&&host != undefined){
 var ico = `https://www.google.com/s2/favicons?domain_url=${host[2]}`;
 //var ico = `https://api.statvoo.com/favicon/?url=${host[2]}`;
@@ -828,7 +855,6 @@ embed2 = '';
 
 // single embed
 if(multiEmbedStatus != 'on'&&embedStatus != 'off'){ text += embed+embed2; }
-
 
 
 return text;
@@ -1168,7 +1194,7 @@ justify-content: center;
 }
 </style>
 
-<form id="form" data-ajax="false">
+<form id="form">
 <input  name="${navMode}" style="
 /*-webkit-transform: rotateY(180deg);
 -moz-transform: rotateY(180deg);
