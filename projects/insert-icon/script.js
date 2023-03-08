@@ -1,4 +1,4 @@
-// v.1.2.19
+// v.1.2.20
 
 function insertIcon(id){
 
@@ -40,6 +40,7 @@ let icons = {
 "like":"❤","love":"❤","fav":"❤",
 "mammoth ":"🦣", "mastodon":"🦣",
 "mail":"📧",
+"movie":"🎥",
 "music": "🎶",
 "network":"📶",
 "news":"📰",

@@ -5629,6 +5629,9 @@ var wordEnJsonVar =
         "text": "aqueducts"
     },
     {
+        "text": "aquifer"
+    },
+    {
         "text": "aquifers"
     },
     {
@@ -119471,6 +119474,9 @@ var wordEnJsonVar =
     },
     {
         "text": "tattered"
+    },
+    {
+        "text": "tattle"
     },
     {
         "text": "tattoo"
