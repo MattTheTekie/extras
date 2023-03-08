@@ -424,12 +424,12 @@ urlList = [
 "https://flipboard.com/topic/computerscience",
 "https://flipboard.com/topic/computerscience",
 "https://flipboard.com/topic/computerscience",
-"https://www.reddit.com/r/programming/",
+
 "https://news.google.com/topics/CAAqIQgKIhtDQkFTRGdvSUwyMHZNREZ0YTNFU0FtVnVLQUFQAQ",
 "https://www.reddit.com/r/computerscience/",
 "https://www.reddit.com/r/compsci/",
 "https://www.reddit.com/r/programming/",
-"https://www.reddit.com/r/learnprogramming/"
+"https://www.reddit.com/r/learnprogramming/",
 "https://www.reddit.com/r/webdev/",
 "https://www.reddit.com/r/web_design/",
 "https://www.reddit.com/r/artificial/",
