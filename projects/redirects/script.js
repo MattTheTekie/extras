@@ -1,4 +1,4 @@
-// v.1.1.19
+// v.1.1.20
 // redirects
 
 var geturl = window.location;
@@ -429,6 +429,7 @@ urlList = [
 "https://www.reddit.com/r/computerscience/",
 "https://www.reddit.com/r/compsci/",
 "https://www.reddit.com/r/programming/",
+"https://www.reddit.com/r/learnprogramming/"
 "https://www.reddit.com/r/webdev/",
 "https://www.reddit.com/r/web_design/",
 "https://www.reddit.com/r/artificial/",
