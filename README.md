@@ -9,7 +9,7 @@ Homepage and other projects: Extensions: new tab redirect (for Firefox, Chrome).
 [#theme](https://github.com/topics/theme?s=updated)
 [#project](https://github.com/topics/project?s=updated)
 
-license: CC BY-SA 4.0
+License for all: CC BY-SA 4.0
 <!-- footer, LICENSE.md README.md -->
 
 Screenshots
