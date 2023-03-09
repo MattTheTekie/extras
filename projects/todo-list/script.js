@@ -456,6 +456,9 @@ ${printTmp}
 </div>
 
 `;
+
+
+
 cursor.continue();  
 			  }  
 			  else {  
@@ -557,6 +560,31 @@ textInput = encodeURIComponent(textInput);
 runDb('update', idInput, textInput);
 //document.getElementById("inputTaskEdit").value = '';
 }
+
+
+
+
+
+
+
+/*
+function backupInJson(printId, jsonArr, jsonName){
+// https://stackoverflow.com/questions/26158468/create-json-file-using-blob
+var jsonse = JSON.stringify(jsonArr);
+var blob = new Blob([jsonse], {type: "application/json"});
+var url  = URL.createObjectURL(blob);
+
+var a = document.createElement('a');
+a.href        = url;
+a.download    = jsonName+".json";
+a.textContent = "Download backup json";
+
+document.getElementById(printId).appendChild(a);
+}
+
+*/
+
+
 
 
 
