@@ -44263,6 +44263,9 @@ var wordEnJsonVar =
         "text": "favoritism"
     },
     {
+        "text": "favorits"
+    },
+    {
         "text": "favors"
     },
     {
@@ -58028,6 +58031,9 @@ var wordEnJsonVar =
     },
     {
         "text": "idealistic"
+    },
+    {
+        "text": "idealists"
     },
     {
         "text": "idealization"

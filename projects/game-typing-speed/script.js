@@ -1,4 +1,4 @@
-// v.3.8.2
+// v.3.8.3
 
 
 
@@ -601,7 +601,7 @@ printMsgWinColor = 'blue';
 }
 
 if(wpm > wpmRecord){
-recordMsg = ' <span class="red"> New Record</span>';
+recordMsg = ' <span class="orange"> New Record</span>';
 localStorage.setItem("wpmRecord", wpm);
 printMsgWin = 'win';
 printMsgWinColor = 'orange';
@@ -668,11 +668,14 @@ document.getElementById("sound").innerHTML = '<audio style="display:none" autopl
 }
 
 let winMsg = `
-<div class="button light border2 padding" style="text-align: center; width: 100%;"><div>
+<div class="block light border2 padding" style="text-align: center; width: 100%;">
 
-<b class="${printMsgWinColor} padding">${printMsgWin} </b>
+<!--<b class="${printMsgWinColor} padding">${printMsgWin}</b>-->
 
-<span  title="word per minute" style="color: var(--c3);">WPM: <span class="">${wpm}</span>${recordMsg}</span> ${wpmProgress} <span>acurancy: ≈<span class="">${acurancy}</span>%</span> ${acurancyProgress}</div></div>`;
+<div class="pre"><span title="word per minute" style="color: var(--c3);">WPM: <span class="">${wpm}</span>${recordMsg}</span> ${wpmProgress} </div>
+
+<span> acurancy: ≈<span class="">${acurancy}</span>%</span> ${acurancyProgress}
+</div>`;
 
 document.getElementsByClassName("win")[0].innerHTML = winMsg;
 //document.getElementsByClassName("win")[1].innerHTML = winMsg;
