@@ -1,4 +1,4 @@
-// v.3.8.3
+// v.3.8.4
 
 
 
@@ -678,7 +678,7 @@ let winMsg = `
 </div>`;
 
 document.getElementsByClassName("win")[0].innerHTML = winMsg;
-//document.getElementsByClassName("win")[1].innerHTML = winMsg;
+document.getElementsByClassName("win")[1].innerHTML = winMsg;
 
 }else {
 document.getElementsByClassName("win")[0].innerHTML = '';
