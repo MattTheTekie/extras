@@ -1204,9 +1204,9 @@ transform: rotateY(180deg);*/" id="rangeinput" class="slider" value="${getP}" ty
 </form>
 
 <div class="grid">
-<a class="op border2 button light" href="?${navMode}=${prev}">&#8592;</a>
-<div class="button border1"><span class="op pre">${navMode}: </span>`+Math.floor(getP/postLimit)+`</div>
-<a class="op border2 button light" href="?${navMode}=${next}">&#8594;</a>
+<a class="op border button light" href="?${navMode}=${prev}">&#8592;</a>
+<div class="button border"><span class="op pre">${navMode}: </span>`+Math.floor(getP/postLimit)+`</div>
+<a class="op border button light" href="?${navMode}=${next}">&#8594;</a>
 
 
 

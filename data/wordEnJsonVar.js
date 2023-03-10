@@ -15541,6 +15541,9 @@ var wordEnJsonVar =
         "text": "bytes"
     },
     {
+        "text": "c"
+    },
+    {
         "text": "c'mon"
     },
     {
@@ -97505,6 +97508,9 @@ var wordEnJsonVar =
     },
     {
         "text": "refresher"
+    },
+    {
+        "text": "refreshers"
     },
     {
         "text": "refreshes"
