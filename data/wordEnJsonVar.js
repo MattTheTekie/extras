@@ -7174,6 +7174,9 @@ var wordEnJsonVar =
         "text": "attack"
     },
     {
+        "text": "attacke"
+    },
+    {
         "text": "attacked"
     },
     {
@@ -119482,6 +119485,9 @@ var wordEnJsonVar =
         "text": "tasty"
     },
     {
+        "text": "tata"
+    },
+    {
         "text": "tatoo"
     },
     {
@@ -135380,6 +135386,9 @@ var wordEnJsonVar =
     },
     {
         "text": "ya'll"
+    },
+    {
+        "text": "yaa"
     },
     {
         "text": "yacht"

@@ -1,7 +1,9 @@
-// v.1.1.8
+// v.1.2.0
 // not for large json files like in this example ! 
 
 function hint(printId, hintJsonVar, hintLimit, inputId){
+
+
 
 if(hintLimit == null||hintLimit == undefined||hintLimit == ''){ hintLimit = 35; }
 if(inputId == null||inputId == undefined||inputId == ''){ inputId = ''; }
@@ -37,7 +39,6 @@ var print = '';
 
 
 function updateValueInput(e){
-//var qInput = encodeURIComponent(e.target.value);
 var qInput = (e.target.value);
 //var qInput = e.target.value;
 var q2 = (' '+qInput).split(' ');
@@ -48,6 +49,7 @@ for (let index = 0; index < hintJsonVar.length; index++) {
 const item = hintJsonVar[index];  
 var item2 = item['text']; // from json  var
 
+
 //if(item2.search(lastInputSymbol) != -1){
 //if(item2.indexOf(lastInputSymbol) >= 0){
 // search word (hint with first letter)
@@ -55,10 +57,15 @@ if(item2 != undefined&&item2.slice(0, lastInputSymbol.length).toLowerCase() == l
 //console.log(lastInputSymbol);
 //console.log(item2);
 
-var item3 = item2.replace(/'/g, "\\'"); // https://stackoverflow.com/questions/15087497/escaping-single-quotes-in-javascript-string-for-javascript-evaluation
+// https://stackoverflow.com/questions/15087497/escaping-single-quotes-in-javascript-string-for-javascript-evaluation
+var item3 = item2.replace(/'/g, "\\'"); 
+var qInput3 = qInput.replace(/'/g, "\\'"); 
+
+item3 = item3.replace(/'/g, "\'"); 
+qInput3 = qInput3.replace(/'/g, "\'"); 
 
 print += `
-<a class="tag light border2" onclick="insertText('${qInput}', '${item3}', '${com}', '${inputId}');" style="cursor:pointer;">${item2}</a>
+<a class="tag light border2" onclick="insertText('${qInput3}', '${item3}', '${com}', '${inputId}');" style="cursor:pointer;">${item2}</a>
 `;
 count++;
 if(count >= hintLimit){
@@ -97,9 +104,12 @@ print = '';
 
 
 function insertText(q, text, com, inputId){
+
+
 q = q.split(' ');
 q.pop();
 q = q.join(" ");
+
 
 
 if(com == 'textarea'){
