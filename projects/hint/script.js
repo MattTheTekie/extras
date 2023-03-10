@@ -1,4 +1,4 @@
-// v.1.2.1
+// v.1.2.2
 // not for large file
 
 function hint(printId, hintJsonVar, hintLimit, inputId){
@@ -126,9 +126,10 @@ break;
 
 
 print = `
-<div class="tagList op padding" >
+<div class="tCenter">
+<div class="tagList padding op padding tCenter" >
 ${print}
-</div>
+</div></div>
 <!-- https://developer.mozilla.org/en-US/docs/Web/HTML/Element/datalist -->
 `;
 

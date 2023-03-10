@@ -1,4 +1,4 @@
-// v.1.3.29
+// v.1.3.30
 // not for large json files !
 // task: selection for search. relevant search
 
@@ -589,7 +589,7 @@ hlClassList += `
 `;
 });
 
-tagList += `<div class="block padding">${hlClassList}</div>`;
+tagList += `<div class="block padding tCenter">${hlClassList}</div>`;
 
 
 return tagList;
