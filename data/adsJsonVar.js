@@ -34,7 +34,7 @@ var adsJsonVar =
     },
     {
         "text": "Dailymotion - the home for videos that matter",
-        "url": "https:\/\/www.dailymotion.com\/us"
+        "url": "https:\/\/www.dailymotion.com\/"
     },
     {
         "text": "DeviantArt - The Largest Online Art Gallery and Community",
@@ -42,18 +42,22 @@ var adsJsonVar =
     },
     {
         "text": "Discover stories on Pocket",
-        "url": "https:\/\/getpocket.com\/explore"
+        "url": "https:\/\/getpocket.com\/"
     },
     {
-        "text": "Download Firefox Browser \u2014 Fast, Private & Free \u2014 from Mozilla",
-        "url": "https:\/\/www.mozilla.org\/firefox\/new\/"
+        "text": "Discover the top streamed music and songs online on Soundcloud",
+        "url": "https:\/\/soundcloud.com\/"
+    },
+    {
+        "text": "Download Firefox for Desktop, Mobile, or Enterprise \u2014 Mozilla",
+        "url": "https:\/\/www.mozilla.org\/firefox\/browsers\/"
     },
     {
         "text": "Download Ubuntu Desktop | Download | Ubuntu",
         "url": "https:\/\/ubuntu.com\/download\/desktop"
     },
     {
-        "text": "Dropbox",
+        "text": "Dropbox.com",
         "url": "https:\/\/www.dropbox.com\/"
     },
     {
@@ -69,7 +73,7 @@ var adsJsonVar =
         "url": "https:\/\/getfedora.org\/"
     },
     {
-        "text": "Feedly",
+        "text": "Feedly \u2013 Keep up with the topics and trends you care about",
         "url": "https:\/\/feedly.com\/"
     },
     {
@@ -85,7 +89,7 @@ var adsJsonVar =
         "url": "https:\/\/flipboard.com\/"
     },
     {
-        "text": "Freesound - Freesound",
+        "text": "Freesound is out for lunch...",
         "url": "https:\/\/freesound.org\/"
     },
     {
@@ -118,7 +122,7 @@ var adsJsonVar =
     },
     {
         "text": "Google News",
-        "url": "https:\/\/news.google.com\/"
+        "url": "https:\/\/news.google.com\/home?hl=en-US&gl=US&ceid=US:en"
     },
     {
         "text": "Hacker News",
@@ -134,7 +138,7 @@ var adsJsonVar =
     },
     {
         "text": "Home \/ Twitter",
-        "url": "https:\/\/twitter.com\/home"
+        "url": "https:\/\/twitter.com\/"
     },
     {
         "text": "Home | Geany",
@@ -146,7 +150,7 @@ var adsJsonVar =
     },
     {
         "text": "Home | Viber",
-        "url": "https:\/\/www.viber.com\/"
+        "url": "https:\/\/www.viber.com\/en\/"
     },
     {
         "text": "Imgur: The magic of the Internet",
@@ -158,47 +162,47 @@ var adsJsonVar =
     },
     {
         "text": "Kiwix lets you access free knowledge \u2013 even offline",
-        "url": "https:\/\/www.kiwix.org\/"
+        "url": "https:\/\/www.kiwix.org\/en\/"
     },
     {
         "text": "Krita | Digital Painting. Creative Freedom.",
-        "url": "https:\/\/krita.org\/"
+        "url": "https:\/\/krita.org\/en\/"
     },
     {
         "text": "MDN Web Docs",
-        "url": "https:\/\/developer.mozilla.org\/"
+        "url": "https:\/\/developer.mozilla.org\/en-US\/"
     },
     {
         "text": "MediBang Paint - the free digital painting and manga creation software",
-        "url": "https:\/\/medibangpaint.com\/en\/"
+        "url": "https:\/\/medibangpaint.com\/"
     },
     {
         "text": "Medium",
         "url": "https:\/\/medium.com\/"
     },
     {
-        "text": "Microsoft Edge",
-        "url": "https:\/\/www.microsoft.com\/edge"
-    },
-    {
-        "text": "Microsoft Edge",
-        "url": "https:\/\/www.microsoft.com\/edge"
-    },
-    {
-        "text": "Microsoft Office Home",
+        "text": "Microsoft 365",
         "url": "https:\/\/www.office.com\/"
+    },
+    {
+        "text": "Microsoft Edge",
+        "url": "https:\/\/www.microsoft.com\/edge"
     },
     {
         "text": "Most Secure Collaboration Platform \u00b7 Work Anywhere \u00b7 Stay Secure | Wire",
         "url": "https:\/\/wire.com\/en\/"
     },
     {
-        "text": "Official Adobe Photoshop | Photo and design software",
+        "text": "Official Adobe Photoshop - Photo & design software",
         "url": "https:\/\/www.adobe.com\/products\/photoshop.html"
     },
     {
         "text": "Official download of VLC media player, the best Open Source player - VideoLAN",
         "url": "https:\/\/www.videolan.org\/vlc\/"
+    },
+    {
+        "text": "OneDrive",
+        "url": "https:\/\/onedrive.live.com\/"
     },
     {
         "text": "Open Broadcaster Software | OBS",
@@ -211,10 +215,6 @@ var adsJsonVar =
     {
         "text": "Personal Cloud Storage & File Sharing Platform - Google",
         "url": "https:\/\/www.google.com\/drive\/"
-    },
-    {
-        "text": "Personal Cloud Storage \u2013 Microsoft OneDrive",
-        "url": "https:\/\/www.microsoft.com\/onedrive\/"
     },
     {
         "text": "Professional video editing software | Adobe Premiere Pro",
@@ -241,12 +241,12 @@ var adsJsonVar =
         "url": "https:\/\/stackoverflow.com\/"
     },
     {
-        "text": "Stream and listen to music online for free with SoundCloud",
-        "url": "https:\/\/soundcloud.com\/"
-    },
-    {
         "text": "Syncthing",
         "url": "https:\/\/syncthing.net\/"
+    },
+    {
+        "text": "The DevSecOps Platform | GitLab",
+        "url": "https:\/\/about.gitlab.com\/"
     },
     {
         "text": "The Fantasy Sandbox MMORPG | Albion Online",
@@ -255,10 +255,6 @@ var adsJsonVar =
     {
         "text": "The FreeBSD Project",
         "url": "https:\/\/www.freebsd.org\/"
-    },
-    {
-        "text": "The One DevOps Platform | GitLab",
-        "url": "https:\/\/about.gitlab.com\/"
     },
     {
         "text": "Tumblr",
@@ -273,10 +269,6 @@ var adsJsonVar =
         "url": "https:\/\/code.visualstudio.com\/"
     },
     {
-        "text": "Vivaldi Browser | Now with built-in Translate, Mail, and Calendar",
-        "url": "https:\/\/vivaldi.com\/"
-    },
-    {
         "text": "W3Schools Online Web Tutorials",
         "url": "https:\/\/www.w3schools.com\/"
     },
@@ -289,12 +281,12 @@ var adsJsonVar =
         "url": "https:\/\/www.whatsapp.com\/"
     },
     {
-        "text": "WordPress.com: Create a Free Website or Blog",
+        "text": "WordPress.com: Build a Site, Sell Your Stuff, Start a Blog & More",
         "url": "https:\/\/wordpress.com\/"
     },
     {
         "text": "World of Warcraft",
-        "url": "https:\/\/worldofwarcraft.com\/"
+        "url": "https:\/\/worldofwarcraft.blizzard.com\/"
     },
     {
         "text": "World Wide Web Consortium (W3C)",

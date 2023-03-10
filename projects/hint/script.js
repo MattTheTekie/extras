@@ -1,5 +1,5 @@
-// v.1.2.0
-// not for large json files like in this example ! 
+// v.1.2.1
+// not for large file
 
 function hint(printId, hintJsonVar, hintLimit, inputId){
 
@@ -45,6 +45,11 @@ var q2 = (' '+qInput).split(' ');
 var lastInputSymbol = q2[q2.length - 1];
 if(lastInputSymbol.length >= 1){
 var count = 0;
+
+
+
+
+// search 1
 for (let index = 0; index < hintJsonVar.length; index++) {  
 const item = hintJsonVar[index];  
 var item2 = item['text']; // from json  var
@@ -73,6 +78,52 @@ break;
 }
 //console.log(item['en']);
 }
+
+
+
+
+
+
+// search 2
+if(print == ''){
+for (let index = 0; index < hintJsonVar.length; index++) {  
+const item = hintJsonVar[index];  
+var item2 = item['text']; // from json  var
+
+
+if(item2.search(lastInputSymbol) != -1){
+//if(item2.indexOf(lastInputSymbol) >= 0){
+// search word (hint with first letter)
+//if(item2 != undefined&&item2.slice(0, lastInputSymbol.length).toLowerCase() == lastInputSymbol.toLowerCase()){
+//console.log(lastInputSymbol);
+//console.log(item2);
+
+// https://stackoverflow.com/questions/15087497/escaping-single-quotes-in-javascript-string-for-javascript-evaluation
+var item3 = item2.replace(/'/g, "\\'"); 
+var qInput3 = qInput.replace(/'/g, "\\'"); 
+item3 = item3.replace(/'/g, "\'"); 
+qInput3 = qInput3.replace(/'/g, "\'"); 
+
+print += `
+<a class="tag light border2" onclick="insertText('${qInput3}', '${item3}', '${com}', '${inputId}');" style="cursor:pointer;">${item2}</a>
+`;
+count++;
+if(count >= hintLimit){
+break;
+}
+}
+//console.log(item['en']);
+}
+}
+
+
+
+
+
+
+
+
+
 
 print = `
 <div class="tagList op padding" >

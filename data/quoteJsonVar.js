@@ -33,6 +33,10 @@ var quoteJsonVar =
         "url": ""
     },
     {
+        "text": "Educating the mind without educating the heart is no education at all.- Aristotle",
+        "url": ""
+    },
+    {
         "text": "Everyone wants to ride with you in the limo, but what you want is someone who will take the bus with you when the limo breaks down. Oprah Winfrey",
         "url": ""
     },
@@ -42,6 +46,10 @@ var quoteJsonVar =
     },
     {
         "text": "If education is always to be conceived along the same antiquated lines of a mere transmission of knowledge, there is little to be hoped from it in the bettering of man's future. Maria Montessori",
+        "url": ""
+    },
+    {
+        "text": "If life were predictable it would cease to be life and be without flavor. Eleanor Roosevelt",
         "url": ""
     },
     {
@@ -90,7 +98,7 @@ var quoteJsonVar =
     },
     {
         "text": "One, remember to look up at the stars and not down at your feet. Two, never give up work. Work gives you meaning and purpose and life is empty without it. Three, if you are lucky enough to find love, remember it is there and don't throw it away. Stephen Hawking",
-        "url": "https:\/\/www.goodreads.com\/quotes\/267117-one-remember-to-look-up-at-the-stars-and-not"
+        "url": ""
     },
     {
         "text": "Our doubts are traitors and make us lose the good we oft might win by fearing to attempt. William Shakespeare",
@@ -130,10 +138,6 @@ var quoteJsonVar =
     },
     {
         "text": "The greatest enemy of knowledge is not ignorance, it is the illusion of knowledge. Stephen Hawking",
-        "url": "https:\/\/twitter.com\/i\/topics\/848920371311001600"
-    },
-    {
-        "text": "The greatest glory in living lies not in never falling, but in rising every time we fall. Nelson Mandela",
         "url": ""
     },
     {
@@ -150,7 +154,7 @@ var quoteJsonVar =
     },
     {
         "text": "The past, like the future, is indefinite and exists only as a spectrum of possibilities. Stephen Hawking",
-        "url": "https:\/\/www.brainyquote.com\/quotes\/stephen_hawking_627106"
+        "url": ""
     },
     {
         "text": "The way to get started is to quit talking and begin doing. Walt Disney",

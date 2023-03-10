@@ -17,16 +17,12 @@ var musicFPJsonVar =
         "url": "https:\/\/www.youtube.com\/watch?v=p0mRIhK9seg"
     },
     {
-        "text": "Daft Punk - Get Lucky (Official Audio) ft. Pharrell Williams, Nile Rodgers - YouTube",
-        "url": "https:\/\/www.youtube.com\/watch?v=5NV6Rdv1a3I"
+        "text": "Dean Martin - Let It Snow! Let It Snow! Let It Snow! - YouTube",
+        "url": "https:\/\/www.youtube.com\/watch?v=Rnil5LyK_B0"
     },
     {
         "text": "Garbage - Cherry Lips - YouTube",
         "url": "https:\/\/www.youtube.com\/watch?v=Cy1LdAaGASw"
-    },
-    {
-        "text": "Gwen Stefani - Last Christmas (Live From The Orange Grove) - YouTube",
-        "url": "https:\/\/www.youtube.com\/watch?v=G5vUx2-XiK4"
     },
     {
         "text": "It's Oh So Quiet \u00b7 Bj\u00f6rk",
@@ -35,10 +31,6 @@ var musicFPJsonVar =
     {
         "text": "Jain - Alright (Official Video) - YouTube",
         "url": "https:\/\/www.youtube.com\/watch?v=MARsW26KXQg"
-    },
-    {
-        "text": "Jingle Bells \u00b7 Gwen Stefani",
-        "url": "https:\/\/www.youtube.com\/watch?v=5JGfvDqZEgM"
     },
     {
         "text": "Lilly Wood & The Prick and Robin Schulz - Prayer In C (Robin Schulz Remix) (Official) - YouTube",
@@ -59,10 +51,6 @@ var musicFPJsonVar =
     {
         "text": "Nelly Furtado - Turn Off The Light (Official Music Video) - YouTube",
         "url": "https:\/\/www.youtube.com\/watch?v=kOL7aeIDruA"
-    },
-    {
-        "text": "Rihanna - Don't Stop The Music - YouTube",
-        "url": "https:\/\/www.youtube.com\/watch?v=yd8jh9QYfEs"
     },
     {
         "text": "Robyn - Cobrastyle - YouTube",
