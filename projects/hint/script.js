@@ -26,13 +26,13 @@ inputA.addEventListener('input', updateValueInput);
 com = 'input';
 }
 
-
-if(document.getElementById(inputId) != null&&document.getElementById(inputId) != ''&&inputId != ''){ 
+if(inputId != ''){
+if(document.getElementById(inputId) != null&&document.getElementById(inputId) != ''){ 
 inputA = document.getElementById(inputId);
 inputA.addEventListener('input', updateValueInput);
 com = 'inputId';
 }
-
+}
 
 
 var print = '';
@@ -60,7 +60,6 @@ if(item2 != undefined&&item2.slice(0, lastInputSymbol.length).toLowerCase() == l
 // https://stackoverflow.com/questions/15087497/escaping-single-quotes-in-javascript-string-for-javascript-evaluation
 var item3 = item2.replace(/'/g, "\\'"); 
 var qInput3 = qInput.replace(/'/g, "\\'"); 
-
 item3 = item3.replace(/'/g, "\'"); 
 qInput3 = qInput3.replace(/'/g, "\'"); 
 
@@ -106,10 +105,10 @@ print = '';
 function insertText(q, text, com, inputId){
 
 
+
 q = q.split(' ');
 q.pop();
 q = q.join(" ");
-
 
 
 if(com == 'textarea'){
