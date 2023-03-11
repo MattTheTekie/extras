@@ -1,4 +1,4 @@
-// v.3.8.4
+// v.3.8.5
 
 
 
@@ -122,7 +122,9 @@ main(e.target.value);
 }
 
 task = localStorage.getItem("input");
+if(task != null){
 main(task);
+}
 let taskgo1 = encodeURIComponent(task);
 //let taskgo2 = decodeURIComponent(task);
 document.getElementById("mode2").innerHTML = ' <a href="../../?q='+taskgo1+' tg">tg</a>';
@@ -143,6 +145,7 @@ if(localStorage.getItem("input")){ task = localStorage.getItem("input"); }
 let taskgo1 = encodeURIComponent(task);
 //let taskgo2 = decodeURIComponent(task);
 document.getElementById("mode2").innerHTML = ' <a href="../../?q='+taskgo1+' tg">tg</a>';
+
 main(task);
 }
 
