@@ -1,6 +1,7 @@
-/* v.12.18.00 */
+/* v.12.18.1 */
 
-* {  color-scheme: light dark; } /* view-source:about:blank */ /* prevent white splash, but twitter embed white corner */
+* {  color-scheme: light dark; } /* view-source:about:blank */ 
+iframe {  color-scheme: none; } /* fix twitter white corner */
 
 :root{
 --bodyP: 2vw;
@@ -428,5 +429,7 @@ html { scroll-padding-top: 35px; }
 
 html { scrollbar-width: thin; }
 ::-webkit-scrollbar { width: 7px; }
+
+
 
 
