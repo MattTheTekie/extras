@@ -9748,6 +9748,9 @@ var wordEnJsonVar =
         "text": "bay"
     },
     {
+        "text": "baying"
+    },
+    {
         "text": "bayonet"
     },
     {
@@ -14996,8 +14999,5 @@ var wordEnJsonVar =
     },
     {
         "text": "bungle"
-    },
-    {
-        "text": "bungling"
     }
 ]

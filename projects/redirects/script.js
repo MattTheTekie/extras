@@ -69,7 +69,7 @@ urlList = [
 ];
 random = Math.floor(Math.random() * urlList.length);
 url = urlList[random];
-url = encodeURIComponent(url);
+//url = encodeURIComponent(url);
 urlList = [
 'tag',
 'n'
@@ -77,7 +77,7 @@ urlList = [
 
 url = '?q='+url+' '+urlList[Math.floor(Math.random() * urlList.length)];
 }else{
-q = encodeURIComponent(q);
+//q = encodeURIComponent(q);
 url = '?q='+q+' tag';
 }
 
@@ -257,9 +257,9 @@ q = q3.replace(q2, '');
 q = q.trim();
 q = encodeURIComponent(q);
 urlList = [
-"https://translate.google.com/#auto/auto/" + q,
-"https://translate.google.com/#auto/auto/" + q,
-"https://translate.google.com/#auto/auto/" + q,
+"https://translate.google.com/?sl=auto&tl=auto&text="+q+"&op=translate",
+"https://translate.google.com/?sl=auto&tl=auto&text="+q+"&op=translate",
+"https://translate.google.com/?sl=auto&tl=auto&text="+q+"&op=translate",
 "https://www.deepl.com/translator#auto/auto/"+q,
 "https://www.bing.com/translator/?text="+q+"&from=auto&to=auto"
 ];
@@ -273,10 +273,10 @@ q = q3.replace(q2, '');
 q = q.trim();
 q = encodeURIComponent(q);
 urlList = [
-"https://translate.google.com/#auto/en/" + q,
-"https://translate.google.com/#auto/en/" + q,
-"https://translate.google.com/#auto/en/" + q,
-"https://www.deepl.com/translator#auto/en/"+q,
+"https://translate.google.com/?sl=auto&tl=en&text="+q+"&op=translate",
+"https://translate.google.com/?sl=auto&tl=en&text="+q+"&op=translate",
+"https://translate.google.com/?sl=auto&tl=en&text="+q+"&op=translate",
+"https://translate.google.com/?sl=auto&tl=en&text="+q+"&op=translate",
 "https://www.bing.com/translator/?text="+q+"&from=auto&to=en"
 ];
 random = Math.floor(Math.random() * urlList.length);
@@ -289,7 +289,7 @@ q = q3.replace(q2, '');
 q = q.trim();
 q = encodeURIComponent(q);
 urlList = [
-"https://translate.google.com/#auto/auto/"+q
+"https://translate.google.com/?sl=auto&tl=auto&text="+q+"&op=translate"
 ];
 random = Math.floor(Math.random() * urlList.length);
 url = urlList[random];

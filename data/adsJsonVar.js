@@ -37,6 +37,10 @@ var adsJsonVar =
         "url": "https:\/\/www.dailymotion.com\/"
     },
     {
+        "text": "Deezer | Listen to music | Online music streaming platform",
+        "url": "https:\/\/www.deezer.com\/"
+    },
+    {
         "text": "DeviantArt - The Largest Online Art Gallery and Community",
         "url": "https:\/\/www.deviantart.com\/"
     },
@@ -189,6 +193,10 @@ var adsJsonVar =
         "url": "https:\/\/www.microsoft.com\/edge"
     },
     {
+        "text": "Mixcloud - This is Audio Culture | Mixcloud",
+        "url": "https:\/\/www.mixcloud.com\/"
+    },
+    {
         "text": "Most Secure Collaboration Platform \u00b7 Work Anywhere \u00b7 Stay Secure | Wire",
         "url": "https:\/\/wire.com\/en\/"
     },
@@ -259,6 +267,10 @@ var adsJsonVar =
     {
         "text": "Tumblr",
         "url": "https:\/\/www.tumblr.com\/"
+    },
+    {
+        "text": "Twitch",
+        "url": "https:\/\/www.twitch.tv\/"
     },
     {
         "text": "Vimeo | The world's only all-in-one video solution",

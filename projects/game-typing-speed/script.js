@@ -119,15 +119,19 @@ function updateValueInput(e) {
 //q = encodeURIComponent(e.target.value);
 localStorage.setItem("input", e.target.value);
 main(e.target.value);
+
 }
 
 task = localStorage.getItem("input");
 if(task != null){
 main(task);
-}
+
 let taskgo1 = encodeURIComponent(task);
 //let taskgo2 = decodeURIComponent(task);
 document.getElementById("mode2").innerHTML = ' <a href="../../?q='+taskgo1+' tg">tg</a>';
+}
+
+
 
 
 

@@ -13,6 +13,10 @@ var quoteJsonVar =
         "url": ""
     },
     {
+        "text": "Be yourself, everyone else is already taken. Oscar Wilde",
+        "url": "https:\/\/www.goodreads.com\/quotes\/19884-be-yourself-everyone-else-is-already-taken"
+    },
+    {
         "text": "Dogs laugh, but they laugh with their tails. Max Eastman",
         "url": ""
     },

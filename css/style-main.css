@@ -1,4 +1,4 @@
-/* v.12.18.2 */
+/* v.12.18.3 */
 * {  color-scheme: light dark; } /* view-source:about:blank */ 
 
 :root{
@@ -427,7 +427,6 @@ html { scroll-padding-top: 35px; }
 
 html { scrollbar-width: thin; }
 ::-webkit-scrollbar { width: 7px; }
-
 
 
 iframe {  color-scheme: none; } /* prevent twitter white corner */
