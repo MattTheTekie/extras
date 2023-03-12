@@ -18,17 +18,21 @@ let result = '';
 while (n < max) {
 let randTop = randomIntFromInterval(-20, 100);
 let randTop2 = randomIntFromInterval(-20, 100);
+let randTop3 = randomIntFromInterval(-20, 100);
 
 let randLeft = randomIntFromInterval(-20, 100);
 let randLeft2 = randomIntFromInterval(-20, 100);
+let randLeft3 = randomIntFromInterval(-20, 100);
 
 let randRotate = randomIntFromInterval(-90, 90);
 let randRotate2 = randomIntFromInterval(-90, 90);
+let randRotate3 = randomIntFromInterval(-90, 90);
 
 
 result += `
 <div class="triangle" style="top: ${randTop}%; left: ${randLeft}%; transform: rotate(${randRotate}deg);"></div>
 <div class="triangle2" style="top: ${randTop2}%; left: ${randLeft2}%; transform: rotate(${randRotate2}deg);"></div>
+<div class="triangle3" style="top: ${randTop2}%; left: ${randLeft2}%; transform: rotate(${randRotate3}deg);"></div>
 `;
 n++;
 }

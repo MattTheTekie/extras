@@ -1,4 +1,4 @@
-// v.1.1.20
+// v.1.1.21
 // redirects
 
 var geturl = window.location;
@@ -102,7 +102,7 @@ q = encodeURIComponent(q);
 url = "https://you.com/search?q=!"+q; // quik open website https://about.you.com/bangs/
 urlList = [
 "https://you.com/search?q=!"+q,
-"https://duckduckgo.com/?q=!"+q
+//"https://duckduckgo.com/?q=!"+q
 ];
 random = Math.floor(Math.random() * urlList.length);
 url = urlList[random];

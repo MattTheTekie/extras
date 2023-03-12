@@ -24,8 +24,8 @@ margin: 0 auto;
 #cat, #toy { display: inline-block; padding: 3rem 0; }
  
 /* https://stackoverflow.com/questions/16771225/css3-rotate-animation */
-.ani {
-animation:spin 2s linear;
+.ani, .ani2 {
+animation: spin 2s linear;
 }
 
 @keyframes spin { 

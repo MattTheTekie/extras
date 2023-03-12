@@ -1,4 +1,5 @@
 /* v.12.18.2 */
+* {  color-scheme: light dark; } /* view-source:about:blank */ 
 
 :root{
 --bodyP: 2vw;
@@ -428,6 +429,6 @@ html { scrollbar-width: thin; }
 ::-webkit-scrollbar { width: 7px; }
 
 
-* {  color-scheme: light dark; } /* view-source:about:blank, white splash */ 
-iframe {  color-scheme: none; } /* twitter white corner */
+
+iframe {  color-scheme: none; } /* prevent twitter white corner */
 

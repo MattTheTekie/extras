@@ -258,6 +258,7 @@ letters = transliterate(letters);
 letters = letters.replace(/%0A/g, "\n");
 
 
+letters = letters.replace(/%E2%80%AF/g, " ");
 letters = letters.replace(/%E2%80%8C/g, ""); //ZERO WIDTH SPACE
 letters = letters.replace(/%0D%0A/g, "\n");
 letters = letters.replace(/%0A/g, "\n");
