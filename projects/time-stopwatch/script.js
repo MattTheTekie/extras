@@ -85,10 +85,10 @@ time2 = new Date(time2);
 let hours2 = normalize(time2.getHours());
 let minutes2 = normalize(time2.getMinutes());
 let seconds2 = normalize(time2.getSeconds());
-let time = hours2+':'+minutes2;
+
 
 document.getElementById('result').innerHTML = hours+':'+minutes+':'+seconds;
-document.getElementById('result2').innerHTML = time;
+//document.getElementById('result2').innerHTML = hours2+':'+minutes2; // result 2 standart clock time
 document.getElementsByTagName('title')[0].innerHTML = hours+':'+minutes+':'+seconds;
 
 
