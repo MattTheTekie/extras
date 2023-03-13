@@ -18,14 +18,14 @@ document.getElementById('panel').innerHTML = `
 
 if(comArr[0] == 'stop'){
 document.getElementById('panel').innerHTML = `
-<a class="padding margin" onclick="fuStopwatchCom('resum')" href="#">resum</a>
+<a class="padding margin" onclick="fuStopwatchCom('continue')" href="#">continue</a>
 <a class="padding margin" onclick="fuStopwatchCom('refresh')" href="#">refresh</a>
 `;
 }
 
 function fuStopwatchCom(com){
 if(com == 'stop'){ comArr[0] = 'stop'; }
-if(com == 'resum'){ comArr[0] = 'resum'; }
+if(com == 'continue'){ comArr[0] = 'continue'; }
 if(com == 'refresh'){ secArr[0] = 0;  comArr[0] = 'refresh'; }
 // https://stackoverflow.com/questions/457826/pass-parameters-in-setinterval-function
 //fuStopwatch(com, sec);
@@ -39,7 +39,7 @@ document.getElementById('panel').innerHTML = `
 
 if(comArr[0] == 'stop'){
 document.getElementById('panel').innerHTML = `
-<a class="padding margin" onclick="fuStopwatchCom('resum')" href="#">resum</a>
+<a class="padding margin" onclick="fuStopwatchCom('continue')" href="#">continue</a>
 <a class="padding margin" onclick="fuStopwatchCom('refresh')" href="#">refresh</a>
 `;
 }
