@@ -5,18 +5,6 @@
   "version": "1.24",
   "description": "Any webpage in New Tab",
 
-"action": {
-    "default_icon": {              // optional
-      "96": "icon96x96.png"
-    },
-    "default_title": "options",   // optional, shown in tooltip
-    "default_popup": "/options.html"  // optional
-  },
-
-
-
-
-
 "icons": {
   "96": "icon96x96.png"
 },
@@ -30,35 +18,21 @@
  
 
 
-
-
-
+"action": {
+    "default_icon": {              // optional
+      "96": "icon96x96.png"
+    },
+    "default_title": "options",   // optional, shown in tooltip
+    "default_popup": "/options.html"  // optional
+  },
 
 "options_ui": {
   "page": "/options.html"
 },
 
-
-
-
-
-
-
-
-
-
-
-
-"content_scripts": [{
-"matches": ["<all_urls>", "*://*/*"],
-
-"js":["empty.js"]
-}],
-
 "chrome_url_overrides" : {
-    "newtab": "/new-tab-redirect.html"
-  }
+"newtab": "/new-tab-redirect.html"
+}
 
-
-  
+ 
 }

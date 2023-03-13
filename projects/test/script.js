@@ -1,5 +1,6 @@
 // v.1.0.0
 
+alert(test);
 
 //https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/while
 let n = 0;

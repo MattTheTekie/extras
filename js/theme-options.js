@@ -52,3 +52,12 @@ localStorage.setItem('theme', item);
 
 
 document.getElementById("confTheme").innerHTML =  'device theme: <b>'+confDeviceTheme+' </b>';
+
+
+
+
+
+
+
+
+
