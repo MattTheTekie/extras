@@ -1,4 +1,4 @@
-/* v.12.18.3 */
+/* v.12.18.4 */
 * {  color-scheme: light dark; } /* view-source:about:blank */ 
 
 :root{
@@ -59,7 +59,6 @@ nav, footer { text-align: center; padding: 14px 0; max-width: 100%; z-index: 5; 
 nav a, nav button, footer span { display: inline-block; padding: 5px; }
 nav button:hover { background: none;  }
 /*nav a::first-letter { font-weight: bolder; }*/
-footer { text-transform: lowercase; }
 
 h1, .h1 { font-size: calc(100% + 60%); }
 h2, .h2 { font-size: calc(100% + 40%); }

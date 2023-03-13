@@ -70,7 +70,6 @@ sec = secArr[0];
 
 
 if(comArr[0] != 'stop'){ secArr[0]++; }
-
 if(comArr[0] == 'stop'){ sec = secArr[0]; }
 
 
@@ -90,16 +89,6 @@ let seconds2 = normalize(time2.getSeconds());
 document.getElementById('result').innerHTML = hours+':'+minutes+':'+seconds;
 //document.getElementById('result2').innerHTML = hours2+':'+minutes2; // result 2 standart clock time
 document.getElementsByTagName('title')[0].innerHTML = hours+':'+minutes+':'+seconds;
-
-
-
-
-
-// https://developer.mozilla.org/docs/Web/JavaScript/Reference/Statements/switch
-
-
-
-
 
 
 }
