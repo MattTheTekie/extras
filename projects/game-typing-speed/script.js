@@ -1,4 +1,4 @@
-// v.3.8.5
+// v.3.8.7
 
 
 
@@ -98,6 +98,9 @@ main(task);
 }
 
 if(mode == 'input'){
+var tg = '';
+document.getElementById("bookmarklet").style.display = "inline-block";
+
 document.getElementsByClassName("input")[0].innerHTML = `
 <div class="wrapper">
 <br>
@@ -120,15 +123,16 @@ function updateValueInput(e) {
 localStorage.setItem("input", e.target.value);
 main(e.target.value);
 
+tg = encodeURIComponent(e.target.value);
+document.getElementById("mode2").innerHTML = ' <a href="/?q='+tg+' t">tr</a>';
 }
 
 task = localStorage.getItem("input");
 if(task != null){
 main(task);
 
-let taskgo1 = encodeURIComponent(task);
-//let taskgo2 = decodeURIComponent(task);
-document.getElementById("mode2").innerHTML = ' <a href="../../?q='+taskgo1+' tg">tg</a>';
+tg = encodeURIComponent(task);
+document.getElementById("mode2").innerHTML = ' <a href="/?q='+tg+' t">tr</a>';
 }
 
 
@@ -140,15 +144,12 @@ document.getElementById("mode2").innerHTML = ' <a href="../../?q='+taskgo1+' tg"
 // input from Get
 input = url.searchParams.get("q");
 if(input != null){
-document.getElementById("bookmarklet").style.display = "inline-block";
-
 if(input != null){ input = input.replace(/%/g, "%25"); localStorage.setItem("input", input); task = input; }else{
 if(localStorage.getItem("input")){ task = localStorage.getItem("input"); }
 }
 
-let taskgo1 = encodeURIComponent(task);
-//let taskgo2 = decodeURIComponent(task);
-document.getElementById("mode2").innerHTML = ' <a href="../../?q='+taskgo1+' tg">tg</a>';
+tg = encodeURIComponent(task);
+document.getElementById("mode2").innerHTML = ' <a href="/?q='+tg+' t">tr</a>';
 
 main(task);
 }
@@ -162,6 +163,8 @@ main(task);
 
 }else{
 document.getElementsByClassName("input")[0].innerHTML = '';
+document.getElementById("mode2").innerHTML = '';
+document.getElementById("bookmarklet").style.display = "none";
 }
 
 

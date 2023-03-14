@@ -1,0 +1,38 @@
+{
+
+  "manifest_version": 3,
+  "name": "Badge Count Up Timer",
+  "version": "1.0.1",
+  "description": "Badge Count Up Timer (hours and minutes in 24 format, example: 2359)",
+
+"icons": {
+"96": "icon96x96.png",
+"512": "icon512x512.png"
+},
+
+"permissions":
+[
+"storage",
+"activeTab",
+"tabs",
+"nativeMessaging"
+],
+  
+
+  
+"action": {
+    "default_icon": {              // optional
+"96": "icon96x96.png",
+"512": "icon512x512.png"
+    },
+    "default_title": "refresh",   // optional, shown in tooltip
+    "default_popup": "popup.html"  // optional
+  },
+  
+
+
+  
+"background": {
+"service_worker": "background.js"
+}
+}

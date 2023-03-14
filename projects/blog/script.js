@@ -1163,17 +1163,37 @@ if(prev <= 0){ prev = 0; }
 
 let nav2Print = '';
 let navMode = 'p';
-if(com == 'id'||com == 'random'){
+if(com == 'random'){
 navMode = 'p2';
+
 nav2Print = `
-
 <div class="tRight">
-<a class="op border2 button light" href="?p=`+Math.floor(getP)+`">list</a>
-<a class="op border2 button light" href="?id=">rand</a>
+<a class="op borderList button light block" href="?p=`+Math.floor(getP)+`">list</a>
+<a class="op borderList button light block" href="?id=">rand</a>
 </div>
-
 <!--<a class="op border2 button light" style="width: 49%;" href="#" onclick="history.back()">back</a>-->
+`;
+}
 
+if(com == 'id'){
+navMode = 'p2';
+
+nav2Print = `
+<div class="tRight">
+<a class="op borderList button light" href="?p=`+Math.floor(getP)+`">list</a>
+<a class="op borderList button light" href="?id=">random</a>
+</div>
+<!--<a class="op border2 button light" style="width: 49%;" href="#" onclick="history.back()">back</a>-->
+`;
+}
+
+if(com == ''){
+
+nav2Print = `
+<div class="tRight">
+<a class="op borderList button light" href="?id=">random</a>
+</div>
+<!--<a class="op border2 button light" style="width: 49%;" href="#" onclick="history.back()">back</a>-->
 `;
 }
 
@@ -1194,6 +1214,8 @@ justify-content: center;
 }
 </style>
 
+
+
 <form id="form">
 <input  name="${navMode}" style="
 /*-webkit-transform: rotateY(180deg);
@@ -1207,10 +1229,6 @@ transform: rotateY(180deg);*/" id="rangeinput" class="slider" value="${getP}" ty
 <a class="op border button light" href="?${navMode}=${prev}">&#8592;</a>
 <div class="button border"><span class="op pre">${navMode}: </span>`+Math.floor(getP/postLimit)+`</div>
 <a class="op border button light" href="?${navMode}=${next}">&#8594;</a>
-
-
-
-
 </div>
 
 ${nav2Print}

@@ -1,6 +1,8 @@
 // v.1.2.20
 
-function insertIcon(id){
+function insertIcon(id, mode){
+// mode: "strict" by word or not sctirct, example: insertIcon(idDivWrapper, 'strict');
+if(mode != 'strict'){ mode = ''; }
 
 let icons = {
 "angel":"😇",
@@ -14,7 +16,7 @@ let icons = {
 "cookie":"🍪",
 "cut":"✂️",
 "clock":"🕑",
-"cofee":"☕",
+"cofee":"☕", "coffee":"☕",
 "comment":"💬","talk":"💬","chat":"💬",
 "css":"🖥️", "php":"🖥️", "java":"🖥️", "code":"🖥️", "unicorn":"🦄",
 "db":"💾", "data":"💾", "database":"💾", "keep":"💾", "save":"💾",
@@ -114,15 +116,20 @@ let textIcon = item;
 let icon = icons[textIcon];
 //console.log((linkText.toLowerCase()+'').indexOf((icon+' ')));
 
+if(mode != 'strict'){
 // main, not strict
 if(linkText.toLowerCase().search(textIcon) != -1&&linkText.toLowerCase().search(icon) == -1&&linkText != ' '){
-// main, strict word
-//if((linkText.toLowerCase()+' ').indexOf((textIcon+' ')) >= 0&&(linkText.toLowerCase()+'').indexOf((icon+'')) == -1){
-
-
 icArr.push(icon+'');
 check = 'exit';
 }
+}else{
+// main, strict word
+if((linkText.toLowerCase()+' ').indexOf((textIcon+' ')) >= 0&&(linkText.toLowerCase()+'').indexOf((icon+'')) == -1){
+icArr.push(icon+'');
+check = 'exit';
+}
+}
+
 });
 
 if(check == 'exit'){
