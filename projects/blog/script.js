@@ -1,4 +1,4 @@
-// v.1.4.0
+// v.1.4.1
 // not for large json files !
 // task: selection for search. relevant search
 
@@ -779,25 +779,26 @@ embed = `<a href="${item}"><img class="border3" src="${item}" width=""></a>`
 
 if(embedStatus != 'off'){
 
+//https://stackoverflow.com/questions/2390789/how-to-replace-all-dots-in-a-string-using-javascript
+itemCheck = item.replace(/\./g, symbolForSplit);
 
-itemCheck = item; 
-
-if(itemCheck.search(`.mp4|.webm|.avi`) != -1) {
+if(itemCheck.search(`${symbolForSplit}mp4|${symbolForSplit}webm|${symbolForSplit}avi`) != -1) {
 embed2 = `<video height="${h}" controls style="width:100%"><source src="${item}" type="video/mp4">
 <source src="${item}" type="video/ogg">Your browser does not support HTML5 video.</video>`;
 }
 
-if(itemCheck.search(".mp3|.wav|.ogg|.m3u") != -1) {
+if(itemCheck.search("${symbolForSplit}mp3|${symbolForSplit}wav|${symbolForSplit}ogg|${symbolForSplit}m3u") != -1) {
 embed2 = `<audio controls style="width:100%; opacity:0.8"><source src="${item}" type="audio/ogg"><source src="${item}" type="audio/mpeg">Your browser does not support the audio element.</audio>`;
 }
 
 
-if(itemCheck.search(".jpg|.jpeg|.png|.gif|.img|.ico") != -1) {
+if(itemCheck.search(
+`${symbolForSplit}jpg|${symbolForSplit}jpeg|${symbolForSplit}png|${symbolForSplit}gif|${symbolForSplit}img|${symbolForSplit}ico`) != -1) {
 //echo 'test';
 embed2 = `<a href="${item}"><img class="border3 img" src="${item}" width=""></a>`;
 }
 
-if(itemCheck.search(".html") != -1&&itemCheck.search("http") == -1) {
+if(itemCheck.search("${symbolForSplit}html") != -1&&itemCheck.search("http") == -1) {
 embed2 = `<iframe width="${w}" height="400" src="${item}"></iframe>`;
 }
 
@@ -992,24 +993,24 @@ if(embedStatus != 'off'){
 
 
 
-itemCheck = item; 
+itemCheck = item.replace(/\./g, symbolForSplit);
 
-if(itemCheck.search(`.mp4|.webm|.avi`) != -1) {
+if(itemCheck.search(`${symbolForSplit}mp4|${symbolForSplit}webm|${symbolForSplit}avi`) != -1) {
 embed2 = `<video height="${h}" controls autoplay style="width:100%"><source src="${item}" type="video/mp4">
 <source src="${item}" type="video/ogg">Your browser does not support HTML5 video.</video>`;
 }
 
-if(itemCheck.search(".mp3|.wav|.ogg|.m3u") != -1) {
+if(itemCheck.search("${symbolForSplit}mp3|${symbolForSplit}wav|${symbolForSplit}ogg|${symbolForSplit}m3u") != -1) {
 embed2 = `<audio controls autoplay style="width:100%; opacity:0.8"><source src="${item}" type="audio/ogg"><source src="${item}" type="audio/mpeg">Your browser does not support the audio element.</audio>`;
 }
 
 
-if(itemCheck.search(".jpg|.jpeg|.png|.gif|.img|.ico") != -1) {
+if(itemCheck.search(`${symbolForSplit}jpg|${symbolForSplit}jpeg|${symbolForSplit}png|${symbolForSplit}gif|${symbolForSplit}img|${symbolForSplit}ico`) != -1) {
 //echo 'test';
 embed2 = `<a href="${item}"><img class="border3 img" src="${item}" width=""></a>`;
 }
 
-if(itemCheck.search(".html") != -1&&itemCheck.search("http") == -1) {
+if(itemCheck.search("${symbolForSplit}html") != -1&&itemCheck.search("http") == -1) {
 embed2 = `<iframe width="${w}" height="400" src="${item}"></iframe>`;
 }
 
