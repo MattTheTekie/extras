@@ -1,4 +1,4 @@
-/* v.12.18.4 */
+/* v.12.18.5 */
 * {  color-scheme: light dark; } /* view-source:about:blank */ 
 
 :root{
@@ -135,7 +135,7 @@ overflow: auto;
 
 /* pre for post */
 iframe, .pre iframe, .pre video, .pre audio { display: block; margin-top: 7px; border-radius: 5px; width: 100%; }
-.pre .img { margin-bottom: 7px; margin-top: 7px; }
+.pre .img { margin-bottom: 5px; margin-top: 5px; }
 
 .postFooter { margin-top: 7px; }
 .postTaglist { display: inline-block; width: 70%; text-align: left; }
