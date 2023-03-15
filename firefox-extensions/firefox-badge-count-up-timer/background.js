@@ -1,4 +1,4 @@
-// v1.0.0
+// v1.0.1
 
 
 // https://developer.mozilla.org/docs/Mozilla/Add-ons/WebExtensions/API/runtime/onStartup
@@ -30,6 +30,7 @@ if(request.greeting == 'refresh'){
 sec = 0;
 sendResponse({ response: "refreshed" });
 }
+sec = 0;
 
 // update mode
 if(request.greeting2){
@@ -87,18 +88,22 @@ var time2 = String(h+''+m);
 // https://developer.mozilla.org/docs/Web/JavaScript/Reference/Statements/switch
 switch (mode) {
 case 'hour':
+//printBage = String(h)+':'+m.slice(0, 1);
 printBage = String(h);
 break;
 
 case 'minute':
+//printBage = String(h.slice(1, 2))+':'+m;
 printBage = String(m);
 break;
 
 case 'second':
+//printBage = String(m.slice(1, 2))+':'+s;
 printBage = String(s);
 break;
 
 default:
+//printBage = String(h.slice(1, 2))+':'+m;
 printBage = String(m);
 }
 
