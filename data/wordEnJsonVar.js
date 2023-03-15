@@ -4111,6 +4111,9 @@ var wordEnJsonVar =
         "text": "anchors"
     },
     {
+        "text": "anchovy"
+    },
+    {
         "text": "ancient"
     },
     {
@@ -11551,6 +11554,9 @@ var wordEnJsonVar =
         "text": "bittersweet"
     },
     {
+        "text": "bittersweetness"
+    },
+    {
         "text": "bitting"
     },
     {
@@ -14993,11 +14999,5 @@ var wordEnJsonVar =
     },
     {
         "text": "bungalows"
-    },
-    {
-        "text": "bungee"
-    },
-    {
-        "text": "bungle"
     }
 ]
