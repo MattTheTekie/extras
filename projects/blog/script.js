@@ -1,4 +1,4 @@
-// v.1.3.30
+// v.1.4.0
 // not for large json files !
 // task: selection for search. relevant search
 
@@ -32,6 +32,7 @@ if(multiEmbedStatus == undefined||multiEmbedStatus == ''){ multiEmbedStatus = 'o
 if(tagListLimit == undefined||tagListLimit == ''){ tagListLimit = '500'; }
 
 var searchLimit = 300;
+
 
 if(blogJsonVar == ''){
 var blogJsonVar = 
@@ -664,7 +665,7 @@ return `
 
 
 
-
+// 1
 function highlightText(text, hrefInOut){
 //text = decodeURIComponent(text); // error sometimes
 
@@ -683,6 +684,7 @@ text = [...text];
 let forSplit = [`
 `, " "
 ]
+
 text.forEach((item) => {
 forSplit.forEach((item2) => { // foreach
 if(item == item2){
@@ -691,6 +693,7 @@ item = item+symbolForSplit;
 });
 text2 += item;
 });
+
 
 //return text = text.toString();
 //return text = text.join("");
@@ -777,19 +780,19 @@ embed = `<a href="${item}"><img class="border3" src="${item}" width=""></a>`
 if(embedStatus != 'off'){
 
 
-itemCheck = item.replace(".", symbolForSplit); 
+itemCheck = item; 
 
-if(itemCheck.search(`${symbolForSplit}mp4|${symbolForSplit}webm|${symbolForSplit}avi`) != -1) {
+if(itemCheck.search(`.mp4|.webm|.avi`) != -1) {
 embed2 = `<video height="${h}" controls style="width:100%"><source src="${item}" type="video/mp4">
 <source src="${item}" type="video/ogg">Your browser does not support HTML5 video.</video>`;
 }
 
-if(itemCheck.search("${symbolForSplit}mp3|${symbolForSplit}wav|${symbolForSplit}ogg|${symbolForSplit}m3u") != -1) {
+if(itemCheck.search(".mp3|.wav|.ogg|.m3u") != -1) {
 embed2 = `<audio controls style="width:100%; opacity:0.8"><source src="${item}" type="audio/ogg"><source src="${item}" type="audio/mpeg">Your browser does not support the audio element.</audio>`;
 }
 
 
-if(itemCheck.search("${symbolForSplit}jpg|${symbolForSplit}jpeg|${symbolForSplit}png|${symbolForSplit}gif|${symbolForSplit}img|${symbolForSplit}ico") != -1) {
+if(itemCheck.search(".jpg|.jpeg|.png|.gif|.img|.ico") != -1) {
 //echo 'test';
 embed2 = `<a href="${item}"><img class="border3 img" src="${item}" width=""></a>`;
 }
@@ -873,12 +876,13 @@ return text;
 
 
 
-
+// 2
 // highlight Text2 with autoplay when pressed id (date)
 function highlightText2(text, hrefInOut){
 //text = decodeURIComponent(text); // error sometimes
 
 // if code
+
 text = text.replace(/</g, "&lt;");
 text = text.replace(/>/g, "&gt;");
 
@@ -987,19 +991,20 @@ embed = `<a href="${item}"><img class="border3" src="${item}" width=""></a>`
 if(embedStatus != 'off'){
 
 
-itemCheck = item.replace(".", symbolForSplit); 
 
-if(itemCheck.search(`${symbolForSplit}mp4|${symbolForSplit}webm|${symbolForSplit}avi`) != -1) {
-embed2 = `<video height="${h}" controls style="width:100%"><source src="${item}" type="video/mp4">
+itemCheck = item; 
+
+if(itemCheck.search(`.mp4|.webm|.avi`) != -1) {
+embed2 = `<video height="${h}" controls autoplay style="width:100%"><source src="${item}" type="video/mp4">
 <source src="${item}" type="video/ogg">Your browser does not support HTML5 video.</video>`;
 }
 
-if(itemCheck.search("${symbolForSplit}mp3|${symbolForSplit}wav|${symbolForSplit}ogg|${symbolForSplit}m3u") != -1) {
-embed2 = `<audio controls style="width:100%; opacity:0.8"><source src="${item}" type="audio/ogg"><source src="${item}" type="audio/mpeg">Your browser does not support the audio element.</audio>`;
+if(itemCheck.search(".mp3|.wav|.ogg|.m3u") != -1) {
+embed2 = `<audio controls autoplay style="width:100%; opacity:0.8"><source src="${item}" type="audio/ogg"><source src="${item}" type="audio/mpeg">Your browser does not support the audio element.</audio>`;
 }
 
 
-if(itemCheck.search("${symbolForSplit}jpg|${symbolForSplit}jpeg|${symbolForSplit}png|${symbolForSplit}gif|${symbolForSplit}img|${symbolForSplit}ico") != -1) {
+if(itemCheck.search(".jpg|.jpeg|.png|.gif|.img|.ico") != -1) {
 //echo 'test';
 embed2 = `<a href="${item}"><img class="border3 img" src="${item}" width=""></a>`;
 }
