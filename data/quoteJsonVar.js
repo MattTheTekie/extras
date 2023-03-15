@@ -33,7 +33,7 @@ var quoteJsonVar =
         "url": ""
     },
     {
-        "text": "Don\u2019t worry about failures; worry about the chances you miss when you don\u2019t even try. Jack Canfield",
+        "text": "Don\u2019t worry about failure, worry about the chances you miss when you don\u2019t even try. Jack Canfield",
         "url": ""
     },
     {
@@ -86,10 +86,6 @@ var quoteJsonVar =
     },
     {
         "text": "Its just human nature. People forget past and only care about their present and don't think what will happen in future... Taimoor Madni",
-        "url": ""
-    },
-    {
-        "text": "Love is a strange feeling! And you cannot understand what happens to you when it does happen to you. Avijeet Das",
         "url": ""
     },
     {
