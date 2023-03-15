@@ -12,7 +12,7 @@ function onError(error) {
 
 function onGot(item) {
   let rUrl = "options.html";
-  if (item.rUrl) {
+if(item.rUrl) {
     rUrl = item.rUrl; 
   }
 newTabRedir(rUrl);

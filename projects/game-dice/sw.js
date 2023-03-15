@@ -5,13 +5,14 @@
 self.addEventListener('install', (e) => {
   e.waitUntil(
 
-caches.open('v3').then((cache) => cache.addAll([
+caches.open('v1').then((cache) => cache.addAll([
 
 '/',
 '/js/main.js',
 '/js/ad.js',
 '/data/adsJsonVar.js',
 '/css/light.css',
+'/css/dark.css',
 '/css/style-main.css',
 
 '/audio/click.ogg',

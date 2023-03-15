@@ -24,13 +24,14 @@ self.addEventListener('install', (e) => {
 
 
     caches.open('test-webapp-store').then((cache) => cache.addAll([
-
+'/',
 'index.html',
 
 '/js/main.js',
 '/js/ad.js',
 '/data/adsJsonVar.js',
 '/css/light.css',
+'/css/dark.css',
 '/css/style-main.css',
 
 'script.js',

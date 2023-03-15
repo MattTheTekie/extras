@@ -7,11 +7,12 @@ if (navigator.serviceWorker) {
   navigator.serviceWorker.addEventListener("message", (event) => {
     // event is a MessageEvent object
     console.log(`The service worker sent me a message: ${event.data}`);
-if(event.data == 'refreshed'){
+
+/*if(event.data == 'refreshed'){
 document.getElementById('msg').innerHTML = 'refreshed';
 }else{
 document.getElementById('msg').innerHTML = 'maybe error';
-}
+}*/
 
 
 });

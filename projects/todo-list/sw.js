@@ -12,6 +12,7 @@ caches.open('v1').then((cache) => cache.addAll([
 '/js/ad.js',
 '/data/adsJsonVar.js',
 '/css/light.css',
+'/css/dark.css',
 '/css/style-main.css',
 
 'index.html',
