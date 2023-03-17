@@ -10,7 +10,7 @@ Homepage and other projects: Extensions: new tab redirect (for Firefox, Chrome).
 [#project](https://github.com/topics/project?s=updated)
 [#project](https://github.com/topics/game?s=updated)
 
-[ZIP](https://github.com/gabc123123/gabc123123.github.io/archive/refs/heads/main.zip)
+[Download Website ZIP](https://github.com/gabc123123/gabc123123.github.io/archive/refs/heads/main.zip)
 
 License: CC BY-SA 4.0
 <!-- footer, LICENSE.md README.md -->

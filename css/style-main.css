@@ -411,12 +411,12 @@ input, textarea { display: block; }
 
 @media(max-width: 500px) { .topNav nav { text-align: left; }}
 
-.over a{
+.over, .over a{
 overflow: hidden;
 white-space: nowrap;
-display: inline-flex; /* display: inline-block; */
+display: inline-flex; /* display: block; display: inline-block; */
 max-width: 100%;
-text-overflow: ellipsis " [..]";
+text-overflow: ellipsis;
 }
 
 iframe { border: none; }

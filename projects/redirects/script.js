@@ -1,4 +1,4 @@
-// v.1.1.21
+// v.1.1.23
 // redirects
 
 var geturl = window.location;
@@ -49,7 +49,7 @@ q = encodeURIComponent(q);
 url = "?q="+q; // quik open website https://about.you.com/bangs/
 if(q == ''){
 urlList = [
-'tec', 'tec', 'tec', 'sci', 'sci', 'dev', 'tag2'
+'tec', 'tec', 'tec', 'sci', 'sci', 'tag2'
 ];
 random = Math.floor(Math.random() * urlList.length);
 url = '?q='+urlList[random];
@@ -57,6 +57,22 @@ url = '?q='+urlList[random];
 sRedirUrl = url;
 break;
 
+case 'c#':
+q = q3.replace(q2, '');
+q = q.trim();
+q = encodeURIComponent(q);
+url = "?q="+q; // quik open website https://about.you.com/bangs/
+if(q == ''){
+urlList = [
+'dev'
+];
+random = Math.floor(Math.random() * urlList.length);
+url = '?q='+urlList[random];
+}else{
+url = '?q='+q+' cod';
+}
+sRedirUrl = url;
+break;
 
 case 'tag2#':
 q = q3.replace(q2, '');
@@ -414,8 +430,8 @@ q = q3.replace(q2, '');
 q = q.trim();
 q = encodeURIComponent(q);
 urlList = [
-"https://github.com/search?q="+q+"&type=code",
-"https://beta.sayhello.so/search?q="+q
+"https://github.com/search?q="+q+"&type=code"
+//"https://beta.sayhello.so/search?q="+q
 ];
 random = Math.floor(Math.random() * urlList.length);
 url = urlList[random];

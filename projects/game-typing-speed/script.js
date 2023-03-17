@@ -1,4 +1,4 @@
-// v.3.8.7
+// v.3.8.8
 
 
 
@@ -157,10 +157,10 @@ main(task);
 
 
 
-
-
-
-
+tg = encodeURIComponent(task);
+if(tg != 'null'){
+document.getElementById("mode2").innerHTML = ' <a class="tag" href="/?q='+tg+' t">tr</a>';
+}
 }else{
 document.getElementsByClassName("input")[0].innerHTML = '';
 document.getElementById("mode2").innerHTML = '';
