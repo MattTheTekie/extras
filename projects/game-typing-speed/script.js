@@ -93,6 +93,7 @@ main(task);
 
 /*
 // fixme remove this from other mode
+// source code none
 if(mode === 'none'){
 document.querySelectorAll('textarea')[0].addEventListener('input', updateValue3333);
 
