@@ -70,21 +70,24 @@
 <img class="headerBannerImg" src="/img/header-banner.png" alt="img">
 <img class="logo" src="/img/logo.png" alt="logo">
 
-<div class="" style="position: absolute; right: 0; bottom: 0px;">
+<div class="m bg border3" style="position: absolute; right: 0; bottom: 0px;">
 <a rel="nofollow" class="tag op" href="/projects/redirects/?q=3.14159265359">π</a>
 <a rel="nofollow" class="tag op" href="/projects/redirects/?q=c">c</a>
+<span id="urlDayNow"></span>
 </div>
 </header>
 
 <script>
+var monthsEn = ['', 'January', 'February', 'March', 'April', 'May', 'June', 'July', 'August', 'September', 'October', 'November', 'December'];
+
+//https://stackoverflow.com/questions/50922593/function-getutcdate-returns-a-month
 var dateObj = new Date();
 var month = dateObj.getUTCMonth() + 1; //months from 1-12
 var day = dateObj.getUTCDate();
 var year = dateObj.getUTCFullYear();
 
-var version = year + "." + normalize(month) + "." + normalize(day);
-
-console.log(version);
+var urlDayNow = 'https://en.wikipedia.org/wiki/'+monthsEn[month]+'_'+day;
+document.getElementById('urlDayNow').innerHTML = `<a rel="nofollow" class="tag op xxSmall" href="`+urlDayNow+`">`+day+` `+monthsEn[month]+`</a>`;
 </script>
 
 <br>
