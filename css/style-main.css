@@ -1,4 +1,4 @@
-/* v.12.18.5 */
+/* v.12.18.6 */
 * {  color-scheme: light dark; } /* view-source:about:blank */ 
 
 :root{
@@ -81,7 +81,7 @@ select, input[type="color"], input[type="date"], input[type="time"]{ padding: 5p
 input[type=checkbox]{ cursor: pointer; margin: 0; padding: 5px; line-height: normal; }
 textarea { outline-color:transparent; outline-style:none; resize: vertical; }
 input[type=submit] { cursor:pointer;  }
-input:focus{ outline: none }
+
 
 
 
@@ -429,4 +429,4 @@ html { scrollbar-width: thin; }
 
 
 iframe {  color-scheme: none; } /* prevent twitter white corner */
-
+input:focus{ outline: none }
