@@ -1,4 +1,4 @@
-// v.1.1.23
+// v.1.1.24
 // redirects
 
 var geturl = window.location;
@@ -202,6 +202,8 @@ if(q == ''){ url = "https://twitter.com/explore"; }
 sRedirUrl = url;
 break;
 
+
+
 case 'twii#':
 q = q3.replace(q2, '');
 q = q.trim();
@@ -264,6 +266,35 @@ q = encodeURIComponent(q);
 url = "https://www.tumblr.com/search/"+q;
 if(q == ''){ url = "https://www.tumblr.com/explore/"; }
 sRedirUrl = url;
+break;
+
+
+
+case 'cc#':
+q = q3.replace(q2, '');
+q = q.trim();
+q = encodeURIComponent(q);
+urlList = [
+"https://search.creativecommons.org/search?q="+q+"&license=cc0,pdm",
+"https://www.google.com/search?q="+q+"&tbm=isch&tbs=il:cl",
+"https://www.bing.com/images/search?q="+q+"&setlang=en&cc=us&qft=+filterui:license-L1"
+];
+random = Math.floor(Math.random() * urlList.length);
+random = urlList[random];
+sRedirUrl= random;
+break;
+
+case 'i#':
+q = q3.replace(q2, '');
+q = q.trim();
+q = encodeURIComponent(q);
+urlList = [
+"https://www.google.com/search?q="+q+"&newwindow=1&source=lnms&tbm=isch",
+"https://www.bing.com/images/search?q="+q
+];
+random = Math.floor(Math.random() * urlList.length);
+random = urlList[random];
+sRedirUrl= random;
 break;
 
 case 't#':
