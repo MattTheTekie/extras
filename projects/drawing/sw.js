@@ -21,7 +21,7 @@ if(a <= 9){ a = '0'+a; }
 return a;
 }
 
-
+//https://stackoverflow.com/questions/50922593/function-getutcdate-returns-a-month
 var dateObj = new Date();
 var month = dateObj.getUTCMonth() + 1; //months from 1-12
 var day = dateObj.getUTCDate();

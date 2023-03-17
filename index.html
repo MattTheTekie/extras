@@ -76,7 +76,16 @@
 </div>
 </header>
 
+<script>
+var dateObj = new Date();
+var month = dateObj.getUTCMonth() + 1; //months from 1-12
+var day = dateObj.getUTCDate();
+var year = dateObj.getUTCFullYear();
 
+var version = year + "." + normalize(month) + "." + normalize(day);
+
+console.log(version);
+</script>
 
 <br>
 <div id="form" class="wrapperL">
