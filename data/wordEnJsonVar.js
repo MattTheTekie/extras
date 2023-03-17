@@ -7,6 +7,9 @@ var wordEnJsonVar =
         "text": "aaanyway"
     },
     {
+        "text": "aardvarks"
+    },
+    {
         "text": "aback"
     },
     {
@@ -1786,6 +1789,9 @@ var wordEnJsonVar =
         "text": "adrenaline"
     },
     {
+        "text": "adrenocorticotropic"
+    },
+    {
         "text": "adressing"
     },
     {
@@ -2519,6 +2525,9 @@ var wordEnJsonVar =
     },
     {
         "text": "agnostic"
+    },
+    {
+        "text": "agnosticit"
     },
     {
         "text": "ago"
@@ -5632,6 +5641,9 @@ var wordEnJsonVar =
         "text": "aqueducts"
     },
     {
+        "text": "aqueous"
+    },
+    {
         "text": "aquifer"
     },
     {
@@ -7886,6 +7898,9 @@ var wordEnJsonVar =
     },
     {
         "text": "automotive"
+    },
+    {
+        "text": "autonomic"
     },
     {
         "text": "autonomous"
@@ -14984,20 +14999,5 @@ var wordEnJsonVar =
     },
     {
         "text": "bundlers"
-    },
-    {
-        "text": "bundles"
-    },
-    {
-        "text": "bundleware"
-    },
-    {
-        "text": "bundling"
-    },
-    {
-        "text": "bungalow"
-    },
-    {
-        "text": "bungalows"
     }
 ]

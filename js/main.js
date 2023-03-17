@@ -328,7 +328,21 @@ if ('serviceWorker' in navigator) {
 console.log('Service worker registration succeeded:', registration);
 
 //https://developer.mozilla.org/en-US/docs/Web/API/ServiceWorkerRegistration/update
-registration.update();
+//registration.update();
+
+
+
+//https://developer.mozilla.org/en-US/docs/Web/API/ServiceWorkerGlobalScope/message_event
+ navigator.serviceWorker.addEventListener("message", (event) => {
+    // event is a MessageEvent object
+    console.log(`The service worker sent me a message: ${event.data}`);
+
+
+  });
+
+  navigator.serviceWorker.ready.then((registration) => {
+    registration.active.postMessage("Hi service worker");
+  });
 
 
 
@@ -341,10 +355,22 @@ console.error(`Service worker registration failed: ${error}`);
 }
 
 
+
+
+
+
+
+
+
+
+
 let element = document.createElement('link'); 
 element.setAttribute('rel', 'manifest'); 
 element.setAttribute('href', "manifest.webmanifest"); 
 document.querySelector('head').appendChild(element);
+
+
+
 
 
 
@@ -368,21 +394,21 @@ window.addEventListener('beforeinstallprompt', (e) => {
   deferredPrompt = e;
   // Update UI to notify the user they can add to home screen
 // addBtn.style.display = 'block';
-printMsg('fApp', `<a href="/app.${confExt}">app: Install app</a>`); 
+mainPrintMsg('fApp', `<a href="#">app: Install app</a>`); 
 addBtn.addEventListener('click', () => {
     // hide our user interface that shows our A2HS button
 //addBtn.style.display = 'none';
-printMsg('fApp', `<a href="/app.${confExt}">app: Install in progress</a>`); 
+mainPrintMsg('', `<a href="#">app: Install in progress</a>`); 
     // Show the prompt
     deferredPrompt.prompt();
     // Wait for the user to respond to the prompt
     deferredPrompt.userChoice.then((choiceResult) => {
       if (choiceResult.outcome === 'accepted') {
 //        console.log('app: User accepted the app prompt');
-printMsg('fApp', `<a href="/app.${confExt}">app: User accepted the app prompt</a>`); 
+mainPrintMsg('fApp', `<a href="#">app: installed</a>`); 
       } else {
 //        console.log('app: User dismissed the app prompt');
-printMsg('fApp', `<a href="/app.${confExt}"app: User dismissed the app prompt</a>`); 
+mainPrintMsg('fApp', `<a href="#"app: install cancelled</a>`); 
       }
       deferredPrompt = null;
     });
@@ -416,11 +442,6 @@ document.getElementById(id).innerHTML = PrintMsg;
 // console.log(id+' not fount');
 }
 }
-
-
-
-
-
 
 
 

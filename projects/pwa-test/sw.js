@@ -23,7 +23,7 @@ self.addEventListener('install', (e) => {
 
 
 
-    caches.open('test-webapp-store').then((cache) => cache.addAll([
+    caches.open('v.1.0.0').then((cache) => cache.addAll([
 '/',
 'index.html',
 
