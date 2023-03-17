@@ -1,4 +1,4 @@
-// v.3.8.8
+// v.3.8.9
 
 
 
@@ -33,7 +33,7 @@ if(localStorage.getItem("mode")){ mode = localStorage.getItem("mode"); }
 if(mode == null){ mode = 'quote'; }
 
 
-document.getElementById("refresh").innerHTML = `<a href="#" onclick="modeGet('`+mode+`');">refresh</a>`;
+document.getElementById("refresh").innerHTML = `<a href="#" onclick="localRefresh('`+mode+`');">refresh</a>`;
 
 
 
@@ -42,7 +42,7 @@ document.getElementById("refresh").innerHTML = `<a href="#" onclick="modeGet('`+
 
 
 
-var modeList = Array("abc", "quote", "input", "free");
+var modeList = Array("abc", "quote", "input", "free", "none");
 var modeListPrint = '';
 modeList.forEach(FunctionModeList);
 function FunctionModeList(item, index) {
@@ -52,7 +52,7 @@ modeListPrint += `
 `;
 }else{
 modeListPrint += `
-<a class="tag op light border2" href="#" onclick="modeGet('`+item+`');">`+item+`</a>
+<a class="tag op light border2" href="#" onclick="localRefresh('`+item+`');">`+item+`</a>
 `;
 }
 }
@@ -91,13 +91,52 @@ main(task);
 
 
 
+/*
+// fixme remove this from other mode
+if(mode === 'none'){
+document.querySelectorAll('textarea')[0].addEventListener('input', updateValue3333);
+
+function updateValue3333(e) {
+let text = encodeURIComponent(e.target.value);
+let http = new XMLHttpRequest();
+let url2 = '/fu/fuTranslate.php';
+let params = 'text='+text;
+//alert(params);
+http.open('POST', url2, true);
+//Send the proper header information along with the request
+http.setRequestHeader('Content-type', 'application/x-www-form-urlencoded');
+http.onreadystatechange = function() {//Call a function when the state changes.
+if(http.readyState == 4 && http.status == 200) {
+// alert(http.responseText);
+
+document.getElementById("localPrintTr").innerHTML=http.responseText+'';
+
+}
+}
+http.send(params);
+}
+
+}else{
+document.getElementById("localPrintTr").innerHTML = '';
+}
+*/
+
+
+
+
+
+
+
+
+
+
 
 if(mode == 'abc'){
 task = "           abcdefghijklmnopqrstuvwxyz";
 main(task);
 }
 
-if(mode == 'input'){
+if(mode == 'input'||mode == 'none'){
 var tg = '';
 document.getElementById("bookmarklet").style.display = "inline-block";
 
@@ -161,11 +200,32 @@ tg = encodeURIComponent(task);
 if(tg != 'null'){
 document.getElementById("mode2").innerHTML = ' <a class="tag" href="/?q='+tg+' t">tr</a>';
 }
+
+
+
+
+
+
+
+
+
+
 }else{
 document.getElementsByClassName("input")[0].innerHTML = '';
 document.getElementById("mode2").innerHTML = '';
 document.getElementById("bookmarklet").style.display = "none";
 }
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -188,8 +248,7 @@ document.getElementById('text').rows = '';
 
 
 
-
-
+// main
 //setTimeout(function () {
 function main(task){
 
@@ -199,7 +258,15 @@ task = task.replace(/%/g, "%25"); // not show text, percentage
 }
 
 
+
 task = decodeURIComponent(task);
+
+
+
+
+
+
+
 
 var letters = [...task]; 
 
@@ -223,6 +290,7 @@ function shuffleArray(arr) {
 shuffleArray(letters);
 
 }
+
 
 
 
@@ -488,6 +556,9 @@ text = '<span class="green">'+text11+'</span><span id="scrollTo"></span>'+replac
 document.getElementById("result").innerHTML = text;
 document.getElementById("scrollTo").scrollIntoView(true);
 
+if(document.getElementById("scrollTo2") != null){
+document.getElementById("scrollTo2").scrollIntoView(true);
+}
 
 
 
@@ -586,7 +657,8 @@ document.getElementById("scrollTo").scrollIntoView(true);
 
 
 
-if(letters.length == answerArr.length && error <= allowError&&mode != 'free'&&task.length >= 3){
+//if(letters.length == answerArr.length && error <= allowError&&mode != 'free'&&task.length >= 5){
+if(task.length == answerArr.length && error <= allowError&&mode != 'free'&&task.length >= 5){
 
 
 
@@ -708,13 +780,18 @@ document.getElementById('countSymbolTask').innerHTML = 'task: '+task.length+' in
 }
 
 
+
+
+
+
+
 }
 
 
 
 
 
-function modeGet(mode){
+function localRefresh(mode){
 mainAll(mode);
 }
 
