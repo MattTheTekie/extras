@@ -1,4 +1,4 @@
-// v.1.1.0
+// v.1.1.2
 
 
 
@@ -7,21 +7,6 @@ var secArr = [];
 secArr[0] = 0;
 var comArr = [];
 comArr[0] = 'start';
-
-
-if(comArr[0] != 'stop'){
-document.getElementById('panel').innerHTML = `
-<a class="padding margin" onclick="fuStopwatchCom('stop')" href="#">stop</a>
-<a class="padding margin" onclick="fuStopwatchCom('refresh')" href="#">refresh</a>
-`;
-}
-
-if(comArr[0] == 'stop'){
-document.getElementById('panel').innerHTML = `
-<a class="padding margin" onclick="fuStopwatchCom('continue')" href="#">continue</a>
-<a class="padding margin" onclick="fuStopwatchCom('refresh')" href="#">refresh</a>
-`;
-}
 
 function fuStopwatchCom(com){
 if(com == 'stop'){ comArr[0] = 'stop'; }
@@ -32,15 +17,17 @@ if(com == 'refresh'){ secArr[0] = 0;  comArr[0] = 'refresh'; }
 
 if(comArr[0] != 'stop'){
 document.getElementById('panel').innerHTML = `
-<a class="padding margin" onclick="fuStopwatchCom('stop')" href="#">stop</a>
 <a class="padding margin" onclick="fuStopwatchCom('refresh')" href="#">refresh</a>
+<a class="padding margin" onclick="fuStopwatchCom('stop')" href="#">stop</a>
+
 `;
 }
 
 if(comArr[0] == 'stop'){
 document.getElementById('panel').innerHTML = `
-<a class="padding margin" onclick="fuStopwatchCom('continue')" href="#">continue</a>
 <a class="padding margin" onclick="fuStopwatchCom('refresh')" href="#">refresh</a>
+<a class="padding margin" onclick="fuStopwatchCom('continue')" href="#">continue</a>
+
 `;
 }
 

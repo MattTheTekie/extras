@@ -40,13 +40,6 @@ caches.open(version).then((cache) => cache.addAll([
 '/css/dark.css',
 '/css/style-main.css',
 
-'/audio/click.ogg',
-'/audio/error.ogg',
-'/audio/game-over.ogg',
-'/audio/neutral.ogg',
-'/audio/ok.ogg',
-'/audio/win.ogg',
-
 'index.html',
 'style.css',
 'script.js'
