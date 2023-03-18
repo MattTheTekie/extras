@@ -112,19 +112,19 @@ http.onreadystatechange = function() {//Call a function when the state changes.
 if(http.readyState == 4 && http.status == 200) {
 // alert(http.responseText);
 
-document.getElementById("localPrintTr").innerHTML=http.responseText+'';
+document.getElementById("lPrintTr").innerHTML=http.responseText+'';
 
 }
 }
 http.send(params);
 }else{
 document.querySelectorAll('textarea')[0].removeEventListener('input', updateValue3333);
-document.getElementById("localPrintTr").innerHTML = '';
+document.getElementById("lPrintTr").innerHTML = '';
 }
 }
 }else{
 document.querySelectorAll('textarea')[0].removeEventListener('input', updateValue3333);
-document.getElementById("localPrintTr").innerHTML = '';
+document.getElementById("lPrintTr").innerHTML = '';
 }
 
 

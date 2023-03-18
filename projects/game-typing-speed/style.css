@@ -31,10 +31,11 @@ overflow-y: auto;
 scroll-padding-top: 16px;
 padding: 0 15px;
 }
-.scroll2 a{
+
+#lPrintTr, #lPrintTr a{
 font-size: 120%; font-size: 1.3em; font-size: medium;
 }
-
+#lPrintTr { padding: 0 15px; }
 
 .stat { text-align: right; }
-#text { border-top: 7px solid var(--d2); }
+#text, #lPrintTr { border-top: 4px solid var(--d2); }
