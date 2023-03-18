@@ -1,4 +1,4 @@
-/* v.1.1.4 */
+/* v.1.1.5 */
 
 .result,  textarea {
 margin: 0 auto;
@@ -15,7 +15,17 @@ padding: 15px;
 overflow-y: hidden;
 white-space: nowrap;*/
 max-height: 120px;
-padding-bottom: 30px;
+padding-bottom: 10px;
+overflow-x: hidden;
+overflow-y: auto;
+scroll-padding-top: 16px;
+}
+
+.scroll2 {
+/*overflow-x: auto;
+overflow-y: hidden;
+white-space: nowrap;*/
+max-height: 70px;
 overflow-x: hidden;
 overflow-y: auto;
 scroll-padding-top: 16px;

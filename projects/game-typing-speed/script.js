@@ -1,4 +1,4 @@
-// v.3.8.9
+// v.3.8.10
 
 
 
@@ -42,7 +42,7 @@ document.getElementById("refresh").innerHTML = `<a href="#" onclick="localRefres
 
 
 
-var modeList = Array("abc", "quote", "input", "free", "none");
+var modeList = Array("abc", "quote", "input", "none", "free");
 var modeListPrint = '';
 modeList.forEach(FunctionModeList);
 function FunctionModeList(item, index) {
@@ -91,13 +91,15 @@ main(task);
 
 
 
-/*
-// fixme remove this from other mode
-// source code none
+mode300 = mode; // fixed without var
+
 if(mode === 'none'){
 document.querySelectorAll('textarea')[0].addEventListener('input', updateValue3333);
 
 function updateValue3333(e) {
+//console.log(mode300);
+if(mode300 == 'none'){
+// source code none
 let text = encodeURIComponent(e.target.value);
 let http = new XMLHttpRequest();
 let url2 = '/fu/fuTranslate.php';
@@ -115,12 +117,16 @@ document.getElementById("localPrintTr").innerHTML=http.responseText+'';
 }
 }
 http.send(params);
-}
-
 }else{
+document.querySelectorAll('textarea')[0].removeEventListener('input', updateValue3333);
 document.getElementById("localPrintTr").innerHTML = '';
 }
-*/
+}
+}else{
+document.querySelectorAll('textarea')[0].removeEventListener('input', updateValue3333);
+document.getElementById("localPrintTr").innerHTML = '';
+}
+
 
 
 
