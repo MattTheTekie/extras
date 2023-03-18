@@ -1,4 +1,4 @@
-// v.1.1.24
+// v.1.1.25
 // redirects
 
 var geturl = window.location;
@@ -81,6 +81,8 @@ q = q.trim();
 if(q == ''){
 urlList = [
 'Climate Change',
+'Global Poverty',
+'Global Unemployment',
 'AI'
 ];
 random = Math.floor(Math.random() * urlList.length);

@@ -1,4 +1,4 @@
-/* v.1.1.5 */
+/* v.1.1.6 */
 
 .result,  textarea {
 margin: 0 auto;
@@ -29,7 +29,12 @@ max-height: 70px;
 overflow-x: hidden;
 overflow-y: auto;
 scroll-padding-top: 16px;
+padding: 0 15px;
 }
+.scroll2 a{
+font-size: 120%; font-size: 1.3em; font-size: medium;
+}
+
 
 .stat { text-align: right; }
 #text { border-top: 7px solid var(--d2); }
