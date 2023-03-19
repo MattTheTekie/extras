@@ -1,4 +1,4 @@
-// v.3.8.10
+// v.3.8.11
 
 
 
@@ -308,6 +308,7 @@ text = letters.join("");
 
 //console.log(letters);
 var a = {
+"½":"1/2",
 "…":"...",
 "`":"'", "·":"*", "•":"*", "›":">",
 "’":"'", "—":"-", "«":'"', "»":'"',
@@ -772,7 +773,8 @@ document.getElementsByClassName("win")[1].innerHTML = winMsg;
 
 }else {
 document.getElementsByClassName("win")[0].innerHTML = '';
-//document.getElementsByClassName("win")[1].innerHTML = '';
+document.getElementsByClassName("win")[1].innerHTML = '';
+document.getElementById("sound").innerHTML = '';
 }
 
 
