@@ -1,4 +1,4 @@
-// v.3.8.11
+// v.3.8.12
 
 
 
@@ -248,16 +248,44 @@ document.getElementById("bookmarklet").style.display = "none";
 
 if(mode == 'free'){
 document.getElementById('text').rows = '7';
-main(task);
+task = '';
+main('');
 }else{
 document.getElementById('text').rows = '';
 }
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 // main
 //setTimeout(function () {
 function main(task){
+
+if(mode33 != ''){
+document.getElementsByName("input2")[0].removeEventListener('input', inputCheck);
+}
+
 
 if(task != null){
 //console.log(task);
@@ -420,13 +448,20 @@ document.getElementsByName("input2")[0].addEventListener('input', inputCheck);
 var dateArr = [];
 var secArr= [];
 var totalError = 0;
-
-
 var lastMaxInputlength = 0;
 
 
+
+
+
+
+
+
+
+
+
 function inputCheck(e){
-document.getElementsByClassName("input")[0].innerHTML = '';
+//document.getElementsByClassName("input")[0].innerHTML = '';
 
 var error = 0;
 
@@ -471,15 +506,16 @@ if(scrollToVar !=  ''){ document.getElementById("scrollTo").scrollIntoView(true)
 
 
 
-
+if(mode != 'free'){
 letters.forEach(myFunctionCheckAll);
+}
 function myFunctionCheckAll(item, index) {
 
 
 //console.log(answerArr[index]+'=['+item+']');
 
 
-if( answerArr.length >= lastMaxInputlength){ 	lastMaxInputlength = answerArr.length; }
+if(answerArr.length >= lastMaxInputlength){ 	lastMaxInputlength = answerArr.length; }
 
 
 
@@ -552,12 +588,18 @@ error++;
 
 }
 
+
 if(check == 'no'){
 text33 += item; 
 }
 
 check = '';
 
+}
+
+
+if(error >= errorLimit){
+document.getElementsByName("input2")[0].removeEventListener('input', inputCheck);
 }
 
 text = '<span class="green">'+text11+'</span><span id="scrollTo"></span>'+replaceCode(text33);
@@ -573,7 +615,7 @@ document.getElementById("scrollTo2").scrollIntoView(true);
 /* stat */
 
 
-if(letters.length >= answerArr.length&&mode != 'free'||mode == 'free'){
+if(letters.length >= answerArr.length||mode == 'free'){
 
 //if(key2 == 'Backspace'||key2 == 'Delete'){ }else{}
 dateArr.push(Date.now());
@@ -608,6 +650,7 @@ wpm = wpm.toFixed(0);
 
 }
 
+
 if(isNaN(wpm)){ wpm = 0; }
 
 if(error >= 1) { errorColor = 'red'; }else{ errorColor = 'green'; }
@@ -624,9 +667,9 @@ if(lastMaxInputlength == answerArr.length){ totalError++; } // only last new err
 
 lastEror = 'none';
 document.getElementById("text").style.borderTop = "9px solid var(--red)";
-if(error <= 60){
+/*if(error <= 60){
 //document.getElementById("sound").innerHTML = '<audio style="display:none" autoplay="false" src="/audio/error.ogg">'; 
-}
+}*/
 
 }else{
 document.getElementById("text").style.borderTop = "9px solid var(--d2)";
@@ -640,7 +683,7 @@ document.getElementById("text").style.borderTop = "9px solid var(--d2)";
 
 
 
-if(answerArr.length <= letters.length){
+if(answerArr.length <= letters.length&&mode != 'free'){
 acurancy = totalError * 100 / answerArr.length;
 acurancy =  100 - acurancy.toFixed(0);
 }else{ acurancy = '0 '; }
@@ -718,6 +761,7 @@ wpmProgress = ' (<span class="green">+'+wpmProgress+'</span>)';
 }
 
 
+
 var acurancyProgress = "0";
 var prevAcurancy = localStorage.getItem("prevAcurancy");
 localStorage.setItem("prevAcurancy", acurancy);
@@ -758,6 +802,8 @@ printMsgWin = '';
 document.getElementById("sound").innerHTML = '<audio style="display:none" autoplay="false" src="/audio/click.ogg">';
 }
 
+
+
 let winMsg = `
 <div class="block light border2 padding" style="text-align: center; width: 100%;">
 
@@ -770,7 +816,7 @@ let winMsg = `
 
 document.getElementsByClassName("win")[0].innerHTML = winMsg;
 document.getElementsByClassName("win")[1].innerHTML = winMsg;
-
+document.getElementsByName("input2")[0].removeEventListener('input', inputCheck);
 }else {
 document.getElementsByClassName("win")[0].innerHTML = '';
 document.getElementsByClassName("win")[1].innerHTML = '';
@@ -782,6 +828,18 @@ document.getElementById("sound").innerHTML = '';
 document.getElementById('countSymbolTask').innerHTML = 'task: '+task.length+' input: '+answerArr.length+'';
 
 }
+
+
+
+
+
+
+
+answerArr = [];
+dateArr = [];
+secArr = [];
+
+
 
 
 
