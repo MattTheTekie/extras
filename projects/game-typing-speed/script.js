@@ -34,7 +34,7 @@ if(mode == null){ mode = 'quote'; }
 
 
 
-document.getElementById("refresh").innerHTML = `<a href="#" onclick="localRefresh('`+mode+`');">refresh</a>`;
+//document.getElementById("refresh").innerHTML = `<a href="#" onclick="localRefresh('`+mode+`');">refresh</a>`;
 
 
 
@@ -95,9 +95,7 @@ main(task);
 mode300 = mode; // fixed without var
 
 if(mode === 'none'){
-if(mode33 != ''){
 document.querySelectorAll('textarea')[0].removeEventListener('input', updateValue3333);
-}
 document.querySelectorAll('textarea')[0].addEventListener('input', updateValue3333);
 
 function updateValue3333(e) {
@@ -165,7 +163,7 @@ document.getElementsByClassName("input")[0].innerHTML = `
 // input listener and print result
 if(document.querySelectorAll('textarea').length >= 1){
 var inputA = document.querySelectorAll('textarea')[1];
-if(mode33 != ''){ inputA.removeEventListener('input', updateValueInput); }
+inputA.removeEventListener('input', updateValueInput);
 inputA.addEventListener('input', updateValueInput);
 }
 
@@ -441,7 +439,7 @@ key = e.keyCode || e.charCode;
 key2 = e.key; 
 }
 
-if(mode33 != ''){ document.getElementsByName("input2")[0].removeEventListener('input', inputCheck); }
+document.getElementsByName("input2")[0].removeEventListener('input', inputCheck);
 document.getElementsByName("input2")[0].addEventListener('input', inputCheck);
 var dateArr = [];
 var secArr= [];
