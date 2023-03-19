@@ -1,4 +1,4 @@
-// v.3.8.12
+// v.3.8.14
 
 
 
@@ -31,6 +31,7 @@ if(mode != null){ localStorage.setItem("mode", mode); }else{
 if(localStorage.getItem("mode")){ mode = localStorage.getItem("mode"); }
 }
 if(mode == null){ mode = 'quote'; }
+
 
 
 document.getElementById("refresh").innerHTML = `<a href="#" onclick="localRefresh('`+mode+`');">refresh</a>`;
@@ -94,6 +95,9 @@ main(task);
 mode300 = mode; // fixed without var
 
 if(mode === 'none'){
+if(mode33 != ''){
+document.querySelectorAll('textarea')[0].removeEventListener('input', updateValue3333);
+}
 document.querySelectorAll('textarea')[0].addEventListener('input', updateValue3333);
 
 function updateValue3333(e) {
@@ -161,6 +165,7 @@ document.getElementsByClassName("input")[0].innerHTML = `
 // input listener and print result
 if(document.querySelectorAll('textarea').length >= 1){
 var inputA = document.querySelectorAll('textarea')[1];
+if(mode33 != ''){ inputA.removeEventListener('input', updateValueInput); }
 inputA.addEventListener('input', updateValueInput);
 }
 
@@ -244,8 +249,6 @@ document.getElementById("bookmarklet").style.display = "none";
 
 
 
-
-
 if(mode == 'free'){
 document.getElementById('text').rows = '7';
 task = '';
@@ -281,11 +284,6 @@ document.getElementById('text').rows = '';
 // main
 //setTimeout(function () {
 function main(task){
-
-if(mode33 != ''){
-document.getElementsByName("input2")[0].removeEventListener('input', inputCheck);
-}
-
 
 if(task != null){
 //console.log(task);
@@ -443,7 +441,7 @@ key = e.keyCode || e.charCode;
 key2 = e.key; 
 }
 
-
+if(mode33 != ''){ document.getElementsByName("input2")[0].removeEventListener('input', inputCheck); }
 document.getElementsByName("input2")[0].addEventListener('input', inputCheck);
 var dateArr = [];
 var secArr= [];
@@ -460,8 +458,14 @@ var lastMaxInputlength = 0;
 
 
 
+
+
+
+
 function inputCheck(e){
 //document.getElementsByClassName("input")[0].innerHTML = '';
+
+document.getElementsByClassName("input")[0].innerHTML = '';
 
 var error = 0;
 
@@ -598,9 +602,6 @@ check = '';
 }
 
 
-if(error >= errorLimit){
-document.getElementsByName("input2")[0].removeEventListener('input', inputCheck);
-}
 
 text = '<span class="green">'+text11+'</span><span id="scrollTo"></span>'+replaceCode(text33);
 document.getElementById("result").innerHTML = text;
@@ -816,7 +817,7 @@ let winMsg = `
 
 document.getElementsByClassName("win")[0].innerHTML = winMsg;
 document.getElementsByClassName("win")[1].innerHTML = winMsg;
-document.getElementsByName("input2")[0].removeEventListener('input', inputCheck);
+
 }else {
 document.getElementsByClassName("win")[0].innerHTML = '';
 document.getElementsByClassName("win")[1].innerHTML = '';
