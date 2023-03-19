@@ -1,4 +1,4 @@
-// v.3.1.0
+// v.3.1.1
 
 
 var limitMaintl = 20;
@@ -213,7 +213,9 @@ result = '';
 
 
 
-print = `<button  class="op light button border2 small">history</button>`;
+
+
+//print = `<button  class="op light button border2 small">history</button>`;
 document.getElementById('inputHistory').innerHTML = print;
 result = '';
 
@@ -272,7 +274,7 @@ aaa.forEach(myFunction33);
 function myFunction33(index, item) {
 //if(item == undefined){ print += ''; } else {}
 
-print += `<button  class="op light button border2">`+symbol[index]+`</button>`;
+//print += `<button  class="op light button border2">`+symbol[index]+`</button>`;
 }
 }
 
