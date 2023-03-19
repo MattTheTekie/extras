@@ -573,8 +573,6 @@ item = replaceCode(item);
 
 switch(item) {
 case '\r\n':
-case '\r':
-case '\n':
 text11 += `<span class="red">⏎\n</span>`;
 break;
 case ' ':
