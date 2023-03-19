@@ -81,8 +81,6 @@ q = q.trim();
 if(q == ''){
 urlList = [
 'Climate Change',
-'Global Poverty',
-'Global Unemployment',
 'Artificial General Intelligence'
 ];
 random = Math.floor(Math.random() * urlList.length);
