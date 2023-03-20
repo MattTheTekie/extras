@@ -1,4 +1,4 @@
-// v.1.4.2
+// v.1.4.3
 // not for large json files !
 // task: selection for search. relevant search
 
@@ -795,10 +795,11 @@ embed2 = `<audio controls style="width:100%; opacity:0.8"><source src="${item}" 
 if(itemCheck.search(
 `${symbolForSplit}jpg|${symbolForSplit}jpeg|${symbolForSplit}png|${symbolForSplit}gif|${symbolForSplit}img|${symbolForSplit}ico`) != -1) {
 //echo 'test';
-embed2 = `<a href="${item}"><img class="border3 img" src="${item}" width=""></a>`;
+embed2 = `
+<a href="${item}"><img class="border3 img" src="${item}" width=""></a>`;
 }
 
-if(itemCheck.search("${symbolForSplit}html") != -1&&itemCheck.search("http") == -1) {
+if(item.search(".html") != -1&&item.search("http") == -1) {
 embed2 = `<iframe width="${w}" height="400" src="${item}"></iframe>`;
 }
 
@@ -823,7 +824,7 @@ item = `<a target="_blank" href="${item}">${item}</a>`;
 }
 
 
-if(item.search("./") != -1&&item.search(".htm") != -1&&item.search("http") == -1){
+if(item.search("./") != -1&&item.search("${symbolForSplit}htm") != -1&&item.search("http") == -1){
 item = `<a target="_blank" href="${item}">${item}</a>`;
 }
 
@@ -1007,10 +1008,11 @@ embed2 = `<audio controls autoplay style="width:100%; opacity:0.8"><source src="
 
 if(itemCheck.search(`${symbolForSplit}jpg|${symbolForSplit}jpeg|${symbolForSplit}png|${symbolForSplit}gif|${symbolForSplit}img|${symbolForSplit}ico`) != -1) {
 //echo 'test';
-embed2 = `<a href="${item}"><img class="border3 img" src="${item}" width=""></a>`;
+embed2 = `
+<a href="${item}"><img class="border3 img" src="${item}" width=""></a>`;
 }
 
-if(itemCheck.search("${symbolForSplit}html") != -1&&itemCheck.search("http") == -1) {
+if(item.search(".html") != -1&&item.search("http") == -1) {
 embed2 = `<iframe width="${w}" height="400" src="${item}"></iframe>`;
 }
 
@@ -1035,7 +1037,7 @@ item = `<a target="_blank" href="${item}">${item}</a>`;
 }
 
 
-if(item.search("./") != -1&&item.search(".htm") != -1&&item.search("http") == -1){
+if(item.search("./") != -1&&item.search("${symbolForSplit}htm") != -1&&item.search("http") == -1){
 item = `<a target="_blank" href="${item}">${item}</a>`;
 }
 
