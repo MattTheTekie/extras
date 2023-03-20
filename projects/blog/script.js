@@ -1,4 +1,4 @@
-// v.1.4.1
+// v.1.4.2
 // not for large json files !
 // task: selection for search. relevant search
 
@@ -787,7 +787,7 @@ embed2 = `<video height="${h}" controls style="width:100%"><source src="${item}"
 <source src="${item}" type="video/ogg">Your browser does not support HTML5 video.</video>`;
 }
 
-if(itemCheck.search("${symbolForSplit}mp3|${symbolForSplit}wav|${symbolForSplit}ogg|${symbolForSplit}m3u") != -1) {
+if(itemCheck.search(`${symbolForSplit}mp3|${symbolForSplit}wav|${symbolForSplit}ogg|${symbolForSplit}m3u`) != -1) {
 embed2 = `<audio controls style="width:100%; opacity:0.8"><source src="${item}" type="audio/ogg"><source src="${item}" type="audio/mpeg">Your browser does not support the audio element.</audio>`;
 }
 
@@ -1000,7 +1000,7 @@ embed2 = `<video height="${h}" controls autoplay style="width:100%"><source src=
 <source src="${item}" type="video/ogg">Your browser does not support HTML5 video.</video>`;
 }
 
-if(itemCheck.search("${symbolForSplit}mp3|${symbolForSplit}wav|${symbolForSplit}ogg|${symbolForSplit}m3u") != -1) {
+if(itemCheck.search(`${symbolForSplit}mp3|${symbolForSplit}wav|${symbolForSplit}ogg|${symbolForSplit}m3u`) != -1) {
 embed2 = `<audio controls autoplay style="width:100%; opacity:0.8"><source src="${item}" type="audio/ogg"><source src="${item}" type="audio/mpeg">Your browser does not support the audio element.</audio>`;
 }
 

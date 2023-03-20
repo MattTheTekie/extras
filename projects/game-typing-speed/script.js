@@ -1,4 +1,4 @@
-// v.3.8.15
+// v.3.8.16
 
 
 
@@ -104,7 +104,7 @@ if(mode300 == 'none'){
 // source code none
 let text = encodeURIComponent(e.target.value);
 let http = new XMLHttpRequest();
-let url2 = '/fu/fuTranslate.php';
+let url2 = '/fu/fuTranslateExt.php';
 let params = 'text='+text;
 //alert(params);
 http.open('POST', url2, true);
@@ -372,7 +372,7 @@ letters = removeEmojis(letters);
 
 
 letters = transliterate(letters);
-letters = decodeURIComponent(letters);
+//letters = decodeURIComponent(letters);
 
 
 letters = encodeURIComponent(letters);

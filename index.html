@@ -79,6 +79,8 @@
 
 <script>
 var monthsEn = ['', 'January', 'February', 'March', 'April', 'May', 'June', 'July', 'August', 'September', 'October', 'November', 'December'];
+//var dayEn = ['sunday', 'monday', 'tuesday', 'wednesday', 'thursday', 'friday', "saturday"];
+var dayEn = ['Sun', 'Mon', 'Tue', 'Wed', 'Thu', 'Fri', 'Sat'];
 
 //https://stackoverflow.com/questions/50922593/function-getutcdate-returns-a-month
 var dateObj = new Date();
@@ -86,8 +88,11 @@ var month = dateObj.getUTCMonth() + 1; //months from 1-12
 var day = dateObj.getUTCDate();
 var year = dateObj.getUTCFullYear();
 
+//https://www.w3schools.com/jsref/jsref_getday.asp
+let d = dateObj.getDay();
+
 var urlDayNow = 'https://en.wikipedia.org/wiki/'+monthsEn[month]+'_'+day+'#Holidays_and_observances';
-document.getElementById('urlDayNow').innerHTML = `<a rel="nofollow" class="tag op xxSmall" href="`+urlDayNow+`">`+day+` `+monthsEn[month]+`</a>`;
+document.getElementById('urlDayNow').innerHTML = `<a rel="nofollow" class="tag op xSmall" href="`+urlDayNow+`">`+dayEn[d].toLowerCase()+' '+day+` `+monthsEn[month].toLowerCase()+`</a>`;
 </script>
 
 <br>
