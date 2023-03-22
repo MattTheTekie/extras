@@ -1,4 +1,4 @@
-// v.3.8.16
+// v.3.8.17
 
 
 
@@ -288,11 +288,11 @@ document.getElementById('text').rows = '';
 function main(task){
 
 
-
+/*
 if(task != null){
 //console.log(task);
 task = task.replace(/%/g, "%25"); // not show text, percentage
-}
+}*/
 
 
 
