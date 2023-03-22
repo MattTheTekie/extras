@@ -1,4 +1,4 @@
-// v.1.4.3
+// v.1.5.0
 // not for large json files !
 // task: selection for search. relevant search
 
@@ -824,7 +824,7 @@ item = `<a target="_blank" href="${item}">${item}</a>`;
 }
 
 
-if(item.search("./") != -1&&item.search("${symbolForSplit}htm") != -1&&item.search("http") == -1){
+if(item.search("./") != -1&&item.search(".htm") != -1&&item.search("http") == -1){
 item = `<a target="_blank" href="${item}">${item}</a>`;
 }
 
@@ -1025,7 +1025,7 @@ embed2 = `<iframe width="${w}" height="400" src="${item}"></iframe>`;
 
 
 //if(item.search("http") != -1){
-if(item[0]+item[1]+item[2]+item[3] == 'http'&&item.search("http|://") != -1){
+if(item.slice(0, 4) == 'http'&&item.search("http|://") != -1){
 if(embedStatus == 'on'&&host != undefined){
 var ico = `https://www.google.com/s2/favicons?domain_url=${host[2]}`;
 //var ico = `https://api.statvoo.com/favicon/?url=${host[2]}`;
@@ -1037,7 +1037,7 @@ item = `<a target="_blank" href="${item}">${item}</a>`;
 }
 
 
-if(item.search("./") != -1&&item.search("${symbolForSplit}htm") != -1&&item.search("http") == -1){
+if(item.search("./") != -1&&item.search(".htm") != -1&&item.search("http") == -1){
 item = `<a target="_blank" href="${item}">${item}</a>`;
 }
 

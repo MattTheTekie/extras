@@ -1648,6 +1648,9 @@ var wordEnJsonVar =
         "text": "admirable"
     },
     {
+        "text": "admirably"
+    },
+    {
         "text": "admiral"
     },
     {
@@ -14996,8 +14999,5 @@ var wordEnJsonVar =
     },
     {
         "text": "bundle"
-    },
-    {
-        "text": "bundled"
     }
 ]
