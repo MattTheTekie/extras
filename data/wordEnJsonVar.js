@@ -13633,6 +13633,9 @@ var wordEnJsonVar =
         "text": "braille"
     },
     {
+        "text": "brails"
+    },
+    {
         "text": "brain"
     },
     {
@@ -14926,6 +14929,9 @@ var wordEnJsonVar =
         "text": "bulwark"
     },
     {
+        "text": "bulwarks"
+    },
+    {
         "text": "bum"
     },
     {
@@ -14993,11 +14999,5 @@ var wordEnJsonVar =
     },
     {
         "text": "bundled"
-    },
-    {
-        "text": "bundler"
-    },
-    {
-        "text": "bundlers"
     }
 ]

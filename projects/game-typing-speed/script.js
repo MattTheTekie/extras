@@ -95,6 +95,8 @@ main(task);
 mode300 = mode; // fixed without var
 
 if(mode === 'none'){
+document.getElementById("lPrintTr").style.display = "block";
+
 document.querySelectorAll('textarea')[0].removeEventListener('input', updateValue3333);
 document.querySelectorAll('textarea')[0].addEventListener('input', updateValue3333);
 
@@ -122,11 +124,13 @@ http.send(params);
 }else{
 document.querySelectorAll('textarea')[0].removeEventListener('input', updateValue3333);
 document.getElementById("lPrintTr").innerHTML = '';
+document.getElementById("lPrintTr").style.display = "none";
 }
 }
 }else{
 document.querySelectorAll('textarea')[0].removeEventListener('input', updateValue3333);
 document.getElementById("lPrintTr").innerHTML = '';
+document.getElementById("lPrintTr").style.display = "none";
 }
 
 

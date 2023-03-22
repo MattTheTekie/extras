@@ -487,7 +487,8 @@ urlList = [
 "https://medium.com/tag/programming",
 "https://medium.com/tag/computer-science",
 "https://medium.com/tag/ai",
-"https://dev.to/"
+"https://dev.to/",
+"https://hashnode.com/community"
 
 /* redirect app "https://www.newsbreak.com/channels/computers",
 "https://www.newsbreak.com/channels/internet",

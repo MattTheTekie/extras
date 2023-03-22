@@ -99,6 +99,7 @@ document.getElementById('theme').href = '/css/'+theme+'.css';
 var theme = localStorage.getItem('theme');
 var themeListLight = [
 "light",
+"l-olive",
 "l-green",
 "l-blue",
 "l-violet"
