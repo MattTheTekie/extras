@@ -6631,6 +6631,9 @@ var wordEnJsonVar =
         "text": "assaults"
     },
     {
+        "text": "assaultsin"
+    },
+    {
         "text": "asscrack"
     },
     {
@@ -14996,8 +14999,5 @@ var wordEnJsonVar =
     },
     {
         "text": "bunches"
-    },
-    {
-        "text": "bundle"
     }
 ]
