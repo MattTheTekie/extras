@@ -76,22 +76,21 @@
 
 <div id="insertIcon" class="padding brand  border3 bg" style="max-width: 300px;">
 
-<span class="block padding pre margin op">links:</span>
+<span id="links" class="block padding pre margin">Profile links:</span>
 <a class="block padding light border3 pre margin" href="https://codepen.io/gabc123123">Codepen</a>
 <a class="block padding light border3 pre margin" href="https://www.deviantart.com/gabc123123">Deviantart</a>
-
 <a class="block padding light border3 pre margin" href="https://github.com/gabc123123">Github & Code</a>
-<a class="block padding light border3 pre margin" href="https://pages.github.com/">hosting: pages.github.com</a>
-
-<span class="block padding pre margin op">donate:</span>
 
 
+
+<br>
+<span id="donate" class="block padding pre margin">Donate:<br>(for coffee and an upcoming new mouse):</span>
 <a class="block padding light border3 pre margin" href="privacy.html">Allow Cookies</a>
 <span class="padding light border3 pre margin block op"><a href="https://www.buymeacoffee.com/gabc123123">Buy Me a coffee</a></span>
 
 
-
-<span class="block padding pre margin op">contact:</span>
+<br>
+<span id="contact" class="block padding pre margin">contact:</span>
 <a class="block padding light border3 pre margin" href="mailto:gabc123123@gmail.com">E-mail</a>
 
 
@@ -104,6 +103,15 @@
 insertIcon("insertIcon", '');
 </script>
 
+<style>
+/*
+https://stackoverflow.com/questions/11142125/css-highlight-a-div-when-the-id-is-linked-to-using-an-anchor
+*/
+#donate:target, #links:target, #contact:target {
+border-bottom: 4px solid var(--orange);
+}
+
+</style>
 
 
 </div>
