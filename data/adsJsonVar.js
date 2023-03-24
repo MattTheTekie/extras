@@ -1,7 +1,7 @@
 var adsJsonVar = 
 [
     {
-        "text": "<a href=\"https:\/\/a-ads.com?partner=2189631\">Advertise with Anonymous Ads<\/a>",
+        "text": "<a href=\"https:\/\/a-ads.com?partner=2189630\">Advertise with Anonymous Ads<\/a>",
         "url": ""
     },
     {
@@ -9,7 +9,7 @@ var adsJsonVar =
         "url": ""
     },
     {
-        "text": "<a href=\"https:\/\/www.dropbox.com\/referrals\/AACdj28r_BGeykuiCCf0i7YEfTQTDdNI7aI?src=global9\">Install Dropbox, Cloud Storage<\/a>",
+        "text": "<a href=\"https:\/\/www.dropbox.com\/referrals\/AACdj28r_BGeykuiCCf0i7YEfTQTDdNI7aI?src=global9\">Install Dropbox, Cloud Storage | Free Storage<\/a>",
         "url": ""
     },
     {
@@ -27,10 +27,6 @@ var adsJsonVar =
     {
         "text": "Bing News",
         "url": "https:\/\/www.bing.com\/news"
-    },
-    {
-        "text": "Bitcoin Advertising Network | A-ADS <a href=\"https:\/\/a-ads.com?partner=2189630\">Bitcoin Advertising Network | A-ADS || https:\/\/a-ads.com<\/a>",
-        "url": ""
     },
     {
         "text": "blender.org - Home of the Blender project - Free and Open 3D Creation Software",
