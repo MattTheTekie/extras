@@ -47,9 +47,9 @@ ads.forEach((item, index) => {
 ads[index]['text'] = `<span class="op" title="hidden, because: Data Collection = off">hidden (privacy)</span>`;
 }*/
 
-adsPrint  += '<div class="post brand  border4List">'+ads[index]['text']+' <a target="blank" href="'+ads[index]['url']+'">'+ads[index]['url']+'</a></div>';
+adsPrint  += '<div class="post2 brand  border4List">'+ads[index]['text']+' <a target="blank" href="'+ads[index]['url']+'">'+ads[index]['url']+'</a></div>';
  });
- document.getElementById(idAds).innerHTML = '<div class="center"><div class="post border3 light">'+adsPrint+'</div></div>';
+ document.getElementById(idAds).innerHTML = '<div class="center"><div class="post2 border3 light">'+adsPrint+'</div></div>';
  }
 
 
