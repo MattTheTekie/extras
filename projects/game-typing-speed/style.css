@@ -8,8 +8,6 @@ padding: 15px;
 .win { font-size: 120% !important; }
 .stat, .win { font-size: calc(var(--fontSize) + 10%); font-weight: bold; }
 
-/*.height{ min-height: 38px; }*/
-
 .scroll {
 /*overflow-x: auto;
 overflow-y: hidden;

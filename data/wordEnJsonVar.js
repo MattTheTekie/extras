@@ -1882,6 +1882,9 @@ var wordEnJsonVar =
         "text": "adventures"
     },
     {
+        "text": "adventuress"
+    },
+    {
         "text": "adventuring"
     },
     {
@@ -6907,6 +6910,9 @@ var wordEnJsonVar =
         "text": "astoundingly"
     },
     {
+        "text": "astrakhan"
+    },
+    {
         "text": "astral"
     },
     {
@@ -10682,6 +10688,9 @@ var wordEnJsonVar =
     },
     {
         "text": "berths"
+    },
+    {
+        "text": "beryl"
     },
     {
         "text": "beryllium"
@@ -14990,14 +14999,5 @@ var wordEnJsonVar =
     },
     {
         "text": "bunch"
-    },
-    {
-        "text": "buncha"
-    },
-    {
-        "text": "bunched"
-    },
-    {
-        "text": "bunches"
     }
 ]

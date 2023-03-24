@@ -1,4 +1,4 @@
-// v.3.8.17
+// v.3.8.18
 
 
 
@@ -57,8 +57,11 @@ modeListPrint += `
 `;
 }
 }
-document.getElementById("mode").innerHTML = modeListPrint;
-
+document.getElementById("mode").innerHTML = `
+<div class="tagList">
+`+modeListPrint+`
+</div>
+`;
 
 
 /*window.onload = function() {
@@ -714,7 +717,7 @@ acurancy =  100 - acurancy.toFixed(0);
 //document.getElementById("stat").innerHTML = sec+' | '+timeAverage.toFixed(2)+' sec. || '+error+' <span class="'+errorColor+'">error</span>';
 document.getElementById("stat").innerHTML = 
 '<div><span>wpm:</span> <!--'+wpmRecord+'/ --><span>' +wpm+'</span> || <span title="allowError: '+allowError+'">error: ≈'
-+totalError+'</span>/<span  class="'+errorColor+'">'+error+'</span> || acurancy: ≈'+acurancy+'%</div><br>'
++totalError+'</span>/<span  class="'+errorColor+'">'+error+'</span> || acurancy: ≈'+acurancy+'%</div>'
 ;
 
 /*scrollTo();
