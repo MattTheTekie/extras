@@ -5,6 +5,10 @@ var adsJsonVar =
         "url": "https:\/\/vivaldi.com\/"
     },
     {
+        "text": "<a href=\"https:\/\/www.dropbox.com\/referrals\/AACdj28r_BGeykuiCCf0i7YEfTQTDdNI7aI?src=global9\">Install Dropbox, Cloud Storage<\/a>",
+        "url": "https:\/\/www.dropbox.com\/account\/referrals"
+    },
+    {
         "text": "<script type=\"text\/javascript\">\r\n\tatOptions = {\r\n\t\t'key' : 'f4727535a784439dcfb6e95feab0e495',\r\n\t\t'format' : 'iframe',\r\n\t\t'height' : 60,\r\n\t\t'width' : 468,\r\n\t\t'params' : {}\r\n\t};\r\n\tdocument.write('<scr' + 'ipt type=\"text\/javascript\" src=\"http' + (location.protocol === 'https:' ? 's' : '') + ':\/\/www.profitabledisplaynetwork.com\/f4727535a784439dcfb6e95feab0e495\/invoke.js\"><\/scr' + 'ipt>');\r\n<\/script>",
         "url": "https:\/\/beta.publishers.adsterra.com\/websites"
     },
@@ -167,10 +171,6 @@ var adsJsonVar =
     {
         "text": "Instagram",
         "url": "https:\/\/www.instagram.com\/"
-    },
-    {
-        "text": "Install Dropbox, Cloud Storage https:\/\/www.dropbox.com\/referrals\/AACdj28r_BGeykuiCCf0i7YEfTQTDdNI7aI?src=global9",
-        "url": "https:\/\/www.dropbox.com\/account\/referrals"
     },
     {
         "text": "Kiwix lets you access free knowledge \u2013 even offline",
