@@ -16,6 +16,7 @@ border-style: solid;
 border-width: 0 100px 100px 100px;
 border-color: transparent transparent #F2F2F2 transparent;
 position: absolute;
+z-index: -1;
 }
 
 .triangle2 {
