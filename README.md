@@ -8,7 +8,9 @@ Homepage and other projects: Extensions: new tab redirect (for Firefox, Chrome).
 [#homepage](https://github.com/topics/homepage?s=updated)
 [#theme](https://github.com/topics/theme?s=updated)
 [#project](https://github.com/topics/project?s=updated)
+[#website-template](https://github.com/topics/website-template?s=updated)
 [#game](https://github.com/topics/game?s=updated)
+
 
 [Download Website ZIP](https://github.com/gabc123123/gabc123123.github.io/archive/refs/heads/main.zip)
 

@@ -41,7 +41,7 @@ mainPrintMsg('footer', `
 <span><a href="https://pages.github.com/">hosting: pages.github.com</a></span>
 <span id="fAbout"><a href="/about.${confExt}">about</a></span>
 
-<span><a rel="license" title="license" href="https://creativecommons.org/licenses/by-sa/4.0/">license: CC BY-SA 4.0</a></span> <!-- footer, LICENSE.md README.md -->
+<span><a rel="license" style="text-transform: lowercase;" title="license" href="https://creativecommons.org/licenses/by-sa/4.0/">license: CC BY-SA 4.0</a></span> <!-- footer, LICENSE.md README.md -->
 
 </div>
 
@@ -65,7 +65,7 @@ var confDataCollection = 'off';
 if(localStorage.getItem('confDataCollection') != null){
 confDataCollection = localStorage.getItem('confDataCollection');
 }
-mainPrintMsg('fPrivacy', `<a href="/privacy.${confExt}">Cookies: ${confDataCollection}</a>`); 
+mainPrintMsg('fPrivacy', `<a href="/privacy.${confExt}">cookies: ${confDataCollection}</a>`); 
 
 
 
