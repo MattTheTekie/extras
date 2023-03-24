@@ -45,7 +45,7 @@ ads.forEach((item, index) => {
 
 // privacy
 if(ads[index]['text'].search("src=") != -1&&localStorage.getItem('confDataCollection') != 'on'){
-ads[index]['text'] = `<span class="op" title=""><a class="brand" href="/privacy.${confExt}">hidden (privacy), need enabale cookie</a></span>`;
+ads[index]['text'] = `<span class="op" title=""><a class="brand" href="/privacy.${confExt}">hidden (privacy), need allow cookie</a></span>`;
 }
 
 adsPrint  += '<div class="post2 brand  border4List">'+ads[index]['text']+' <a target="blank" href="'+ads[index]['url']+'">'+ads[index]['url']+'</a></div>';
@@ -65,7 +65,7 @@ adsPrint  += '<div class="post2 brand  border4List">'+ads[index]['text']+' <a ta
 
 // Google Analytics 
 // privacy part
-if(localStorage.getItem('confDataCollection') == 'onlll'){
+if(localStorage.getItem('confDataCollection') == 'on'){
 var scriptStat = document.createElement('script');
 scriptStat.type='text/javascript';
 scriptStat.src = 'https://www.googletagmanager.com/gtag/js?id=G-DV2VRTWS4N';      
@@ -77,12 +77,12 @@ gtag('js', new Date());
 gtag('config', 'G-DV2VRTWS4N');
 
 
-
+/*
 var scriptGads = document.createElement('script');
 scriptGads.type='text/javascript';
 scriptGads.src = 'https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-9615069178907251'; scriptGads.crossOrigin = 'anonymous';
 document.getElementsByTagName('head')[0].appendChild(scriptGads);
-
+*/
 
 
   
