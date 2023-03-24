@@ -2,11 +2,15 @@ var adsJsonVar =
 [
     {
         "text": "<a href=\"https:\/\/vivaldi.com?pk_campaign=Banners&pk_kwd=728x90\"><img src=\"https:\/\/vivaldi.com\/buttons\/files\/vivaldi_browser_lg-alt-b.png\" alt=\"Get Vivaldi Browser\" style=\"border:0\"><\/a>",
-        "url": "https:\/\/vivaldi.com\/"
+        "url": ""
     },
     {
         "text": "<a href=\"https:\/\/www.dropbox.com\/referrals\/AACdj28r_BGeykuiCCf0i7YEfTQTDdNI7aI?src=global9\">Install Dropbox, Cloud Storage<\/a>",
-        "url": "https:\/\/www.dropbox.com\/account\/referrals"
+        "url": ""
+    },
+    {
+        "text": "<iframe data-aa='2189631' src='\/\/ad.a-ads.com\/2189631?size=468x60' style='width:468px; height:60px; border:0px; padding:0; overflow:hidden; background-color: transparent;'><\/iframe>",
+        "url": ""
     },
     {
         "text": "Arch Linux",
@@ -19,6 +23,10 @@ var adsJsonVar =
     {
         "text": "Bing News",
         "url": "https:\/\/www.bing.com\/news"
+    },
+    {
+        "text": "Bitcoin Advertising Network | A-ADS <a href=\"https:\/\/a-ads.com?partner=2189630\">Bitcoin Advertising Network | A-ADS || https:\/\/a-ads.com<\/a>",
+        "url": ""
     },
     {
         "text": "blender.org - Home of the Blender project - Free and Open 3D Creation Software",
