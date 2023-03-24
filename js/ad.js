@@ -77,12 +77,12 @@ gtag('js', new Date());
 gtag('config', 'G-DV2VRTWS4N');
 
 
-
+/*
 var scriptGads = document.createElement('script');
 scriptGads.type='text/javascript';
 scriptGads.src = 'https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-9615069178907251'; scriptGads.crossOrigin = 'anonymous';
 document.getElementsByTagName('head')[0].appendChild(scriptGads);
-
+*/
 
 
   
