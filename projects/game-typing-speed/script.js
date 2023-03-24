@@ -831,7 +831,7 @@ document.getElementById("sound").innerHTML = '<audio style="display:none" autopl
 
 
 let winMsg = `
-<div class="block light border2 padding" style="text-align: center; width: 100%;">
+<div class="block light border2 padding margin" style="text-align: center; width: 100%;">
 
 <!--<b class="${printMsgWinColor} padding">${printMsgWin}</b>-->
 
