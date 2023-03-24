@@ -23,7 +23,7 @@ adsURL = ads[random]['url'];	if(adsURL == null){ adsURL = ''; }
 
 
 // privacy
-//if(adsText.search("src=") != -1&&localStorage.getItem('confDataCollection') != 'on'){ adsText = ''; }
+if(adsText.search("src=") != -1&&localStorage.getItem('confDataCollection') != 'on'){ adsText = ''; }
 if(adsText.search("src=") != -1){
 adsPrint = '<a class="tag zero op" style="float: right; margin-bottom: 5px;" href="/ads.'+confExt+'">ads, links</a><br />'+adsText+' <br /><a target="blank" href="'+adsURL+'">'+adsURL+'</a>';
 }else{
@@ -43,14 +43,15 @@ if(comAds == 'all'){
 adsPrint = '';
 ads.forEach((item, index) => {
 
-/*if(ads[index]['text'].search("src=") != -1&&localStorage.getItem('confDataCollection') != 'on'){
-ads[index]['text'] = `<span class="op" title="hidden, because: Data Collection = off">hidden (privacy)</span>`;
-}*/
+// privacy
+if(ads[index]['text'].search("src=") != -1&&localStorage.getItem('confDataCollection') != 'on'){
+ads[index]['text'] = `<span class="op" title=""><a class="brand" href="/privacy.${confExt}">hidden (privacy), need enabale cookie</a></span>`;
+}
 
 adsPrint  += '<div class="post2 brand  border4List">'+ads[index]['text']+' <a target="blank" href="'+ads[index]['url']+'">'+ads[index]['url']+'</a></div>';
  });
  document.getElementById(idAds).innerHTML = '<div class="center"><div class="post2 border3 light">'+adsPrint+'</div></div>';
- }
+}
 
 
 
