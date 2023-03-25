@@ -1,6 +1,13 @@
 var blog2JsonVar = 
 [
     {
+        "id": "12",
+        "text": "Customer: Hi, good afternoon, this is Martha, I can't print. Every time I try, it says 'Can't find printer'. I've even lifted the printer and placed it in front of the monitor, but the computer still says he can't find it.",
+        "url": "https:\/\/www.quora.com\/What-are-the-funniest-tech-support-stories-youve-ever-heard",
+        "tag": "#funny",
+        "time": 1679757279
+    },
+    {
         "id": "11",
         "text": "The Adventures of Sherlock Holmes by Arthur Conan Doyle - Free Ebook",
         "url": "https:\/\/www.gutenberg.org\/ebooks\/1661",
