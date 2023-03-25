@@ -33,10 +33,6 @@ var musicFPJsonVar =
         "url": "https:\/\/www.youtube.com\/watch?v=MARsW26KXQg"
     },
     {
-        "text": "Lilly Wood & The Prick and Robin Schulz - Prayer In C (Robin Schulz Remix) (Official) - YouTube",
-        "url": "https:\/\/www.youtube.com\/watch?v=fiore9Z5iUg"
-    },
-    {
         "text": "Lou Reed - Walk on the Wild Side (audio) - YouTube",
         "url": "https:\/\/www.youtube.com\/watch?v=oG6fayQBm9w"
     },
