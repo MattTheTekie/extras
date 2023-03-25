@@ -25,10 +25,6 @@ var musicFPJsonVar =
         "url": "https:\/\/www.youtube.com\/watch?v=Cy1LdAaGASw"
     },
     {
-        "text": "It's Oh So Quiet \u00b7 Bj\u00f6rk",
-        "url": "https:\/\/www.youtube.com\/watch?v=XxohzqH_Q78"
-    },
-    {
         "text": "Jain - Alright (Official Video) - YouTube",
         "url": "https:\/\/www.youtube.com\/watch?v=MARsW26KXQg"
     },
