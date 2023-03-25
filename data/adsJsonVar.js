@@ -134,7 +134,7 @@ var adsJsonVar =
     },
     {
         "text": "Google News",
-        "url": "https:\/\/news.google.com\/home?hl=en-US&gl=US&ceid=US:en"
+        "url": "https:\/\/news.google.com\/"
     },
     {
         "text": "Hacker News",
