@@ -10816,6 +10816,9 @@ var wordEnJsonVar =
         "text": "betrays"
     },
     {
+        "text": "betrothal"
+    },
+    {
         "text": "betrothed"
     },
     {
@@ -14996,8 +14999,5 @@ var wordEnJsonVar =
     },
     {
         "text": "bums"
-    },
-    {
-        "text": "bun"
     }
 ]
