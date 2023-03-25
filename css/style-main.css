@@ -1,4 +1,4 @@
-/* v.12.18.6 */
+/* v.12.18.7 */
 * {  color-scheme: light dark; } /* view-source:about:blank */ 
 
 :root{
@@ -9,6 +9,9 @@
 --wrapper4: 100%;
 --wrapperTv: 100%;
 --wrapperL: 430px;
+--wrapperM: 330px;
+--wrapperS: 230px;
+--wrapperXs: 130px;
 --inputH: 43px;
 }
 
@@ -98,6 +101,10 @@ td { padding: 5px; }
 .wrapper4 {  max-width: var(--wrapper4);  }
 .wrapperTv {  max-width: var(--wrapper4);  }
 .wrapperL {  max-width: var(--wrapperL);  }
+.wrapperM {  max-width: var(--wrapperM);  }
+.wrapperS {  max-width: var(--wrapperS);  }
+.wrapperXs {  max-width: var(--wrapperXs);  }
+
 
 .op { opacity: 0.75; } 
 .op:hover { opacity: 1; }
