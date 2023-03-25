@@ -73,7 +73,18 @@ animation: ani2 45s linear infinite;
 }*/
 
 
-
+#snow {
+padding: 0;
+margin: 0;
+position: absolute;
+top: 0;
+left: 0;
+width: 100vw;
+height: 100vh;
+z-index: -1;
+overflow: hidden;
+}
+body { overflow: hidden; }
 
 
 

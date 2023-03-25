@@ -17,8 +17,8 @@ border-style: solid;
 border-width: 0 100px 100px 100px;
 border-color: transparent transparent tan transparent;
 position: absolute;
-z-index: -1;
 }
+
 
 
 .triangle2 {
@@ -26,9 +26,18 @@ border-color: transparent transparent #C1975F transparent;
 }
 
 
-body {
+#result {
+padding: 0;
+margin: 0;
+position: absolute;
+top: 0;
+left: 0;
+width: 100vw;
+height: 100vh;
+z-index: -1;
 overflow: hidden;
 }
+body { overflow: hidden; }
 
 
 

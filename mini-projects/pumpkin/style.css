@@ -1,4 +1,4 @@
-/* v.2.0.0 */
+/* v.2.1.0 */
 
 /*
 body {
@@ -60,10 +60,10 @@ opacity: 0.5;
 .pPumpkinLine2 {
 display: block;
 position: absolute;
-top: 5%;
-left: 5%;
-width: 90%;
-height: 90%;
+top: 10%;
+left: 10%;
+width: 80%;
+height: 80%;
 border: 7px dotted #955913;
 border-radius: 45% 45% 34% 34%;
 z-index: 2;
