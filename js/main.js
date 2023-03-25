@@ -36,11 +36,7 @@ mainPrintMsg('footer', `
 <span id="fApp"><a href="/app.${confExt}">app: status</a></span>
 <span id="fPrivacy"><a href="/privacy.${confExt}">cookie: status</a></span>
 
-<div id="fCode"></div>
-<div id="fDownload"></div>
-<span><a href="https://pages.github.com/">hosting: pages.github.com</a></span>
 <span id="fAbout"><a href="/about.${confExt}">about</a></span>
-<span id="fDonate"><a href="/about.${confExt}#donate">donate</a></span>
 
 <span><a rel="license" style="text-transform: lowercase;" title="license" href="https://creativecommons.org/licenses/by-sa/4.0/">license: CC BY-SA 4.0</a></span> <!-- footer, LICENSE.md README.md -->
 
@@ -433,8 +429,8 @@ if(document.getElementById('fTheme') != null){
 document.getElementById("fTheme").innerHTML = '<a href="/theme.'+confExt+'">theme: '+theme+' ('+confRealTmpTheme+')</a>';
 }
 
-function fuReload(){ location.reload(); }
-function reload(){ location.reload(); }
+function fuReload(){ location.reload(true); }
+function reload(){ location.reload(true); }
 
 
 function mainPrintMsg(id, PrintMsg){
