@@ -91,16 +91,18 @@ var year = dateObj.getUTCFullYear();
 //https://www.w3schools.com/jsref/jsref_getday.asp
 let d = dateObj.getDay();
 
-let i = 0;
+let i = 1;
 let text = '';
-while (i < 7) {
+while (i < 6) {
 if(d == i){
-text += ``+(d + 1)+``;
+text += ``+(d)+``;
 }else{
 text += ".";
 }
+
 i++;
 }
+if(d == 0){ text += `7`; }
 
 var urlDayNow = 'https://en.wikipedia.org/wiki/'+monthsEn[month]+'_'+day+'';
 //document.getElementById('urlDayNow').innerHTML = `<a rel="nofollow" class="tag op xSmall" href="`+urlDayNow+`">`+dayEn[d]+` `+day+` `+monthsEn[month]+`</a>`;
