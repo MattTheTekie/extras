@@ -60,7 +60,11 @@
 
 <!-- content -->
 <div class="content">
+
+<script src="/js/main.js"></script>
+
 <h3 class="tCenter op">Privacy</h3>
+
 <div style="text-align:center;" class="center2">
 
 <h3 class="">Allow Cookies for third parties? <br><br>(for Ads Services, Statistics)</h3>
@@ -81,8 +85,8 @@ Some services still collect visit information)</span>
 
 
 if(localStorage.getItem('confDataCollection') == null){
-localStorage.setItem('confDataCollection', 'off');
-document.getElementById("result").innerHTML = 'status cookie: off';
+localStorage.setItem('confDataCollection', confDataCollection);
+document.getElementById("result").innerHTML = 'status cookie: '+confDataCollection;
 }else{
 document.getElementById("result").innerHTML = 'status cookie: ' +localStorage.getItem('confDataCollection');
 }
