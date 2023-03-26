@@ -66,6 +66,9 @@ adsPrint  += '<div class="post2 brand  border4List">'+ads[index]['text']+' <a ta
 // Google Analytics 
 // privacy part
 if(localStorage.getItem('confDataCollection') == 'on'){
+
+/*
+// analytics
 var scriptStat = document.createElement('script');
 scriptStat.type='text/javascript';
 scriptStat.src = 'https://www.googletagmanager.com/gtag/js?id=G-DV2VRTWS4N';      
@@ -75,7 +78,7 @@ window.dataLayer = window.dataLayer || [];
 function gtag(){dataLayer.push(arguments);}
 gtag('js', new Date());
 gtag('config', 'G-DV2VRTWS4N');
-
+*/
 
 /*
 var scriptGads = document.createElement('script');
