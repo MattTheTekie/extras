@@ -14668,6 +14668,9 @@ var wordEnJsonVar =
         "text": "buckled"
     },
     {
+        "text": "buckles"
+    },
+    {
         "text": "buckling"
     },
     {
@@ -14996,8 +14999,5 @@ var wordEnJsonVar =
     },
     {
         "text": "bumpy"
-    },
-    {
-        "text": "bums"
     }
 ]
