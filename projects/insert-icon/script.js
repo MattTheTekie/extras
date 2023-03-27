@@ -1,4 +1,4 @@
-// v.1.2.20
+// v.1.2.21
 
 function insertIcon(id, mode){
 // mode: "strict" by word or not sctirct, example: insertIcon(idDivWrapper, 'strict');
@@ -7,6 +7,7 @@ if(mode != 'strict'){ mode = ''; }
 let icons = {
 "angel":"😇",
 "angle":"🔺",
+"antilope":"🦌", "gnu":"🦌",
 "bird":"🐦", "twitter":"🐦",
 "blog":"📝", "todo":"📝", "task":"📝", "note":"📝", "reminde":"📝", "paper":"📝",
 "book":"📚", "quiz":"📚",
@@ -63,6 +64,7 @@ let icons = {
 "training":"🏃", "run":"🏃",
 "test":"🧪", "demo":"🧪", "lorem":"🧪", "ipsum":"🧪", 
 "play":"▶️",
+"pleroma":"🟧️",
 "progress":"█░░",
 "rain":"💧",
 "smoking":"🚭",
