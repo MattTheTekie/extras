@@ -1,4 +1,4 @@
-/* v.1.1.16*/
+/* v.1.1.17 */
 
 function fuAds(themeAds, idAds, maxAds, comAds){
 
@@ -23,7 +23,7 @@ adsURL = ads[random]['url'];	if(adsURL == null){ adsURL = ''; }
 
 
 // privacy
-if(adsText.search("src=") != -1&&localStorage.getItem('confDataCollection') != 'on'){ adsText = ''; }
+if(adsText.search("src=") != -1&&confDataCollection != 'on'){ adsText = ''; }
 if(adsText.search("src=") != -1){
 adsPrint = '<a class="tag zero op" style="float: right; margin-bottom: 5px;" href="/ads.'+confExt+'">ads, links</a><br />'+adsText+' <br /><a target="blank" href="'+adsURL+'">'+adsURL+'</a>';
 }else{
@@ -44,7 +44,7 @@ adsPrint = '';
 ads.forEach((item, index) => {
 
 // privacy
-if(ads[index]['text'].search("src=") != -1&&localStorage.getItem('confDataCollection') != 'on'){
+if(ads[index]['text'].search("src=") != -1&&confDataCollection != 'on'){
 ads[index]['text'] = `<span class="op" title=""><a class="brand" href="/privacy.${confExt}">hidden (privacy), need allow cookie</a></span>`;
 }
 
@@ -65,9 +65,9 @@ adsPrint  += '<div class="post2 brand  border4List">'+ads[index]['text']+' <a ta
 
 // Google Analytics 
 // privacy part
-if(localStorage.getItem('confDataCollection') == 'on'){
+if(confDataCollection == 'on'){
 
-/*
+
 // analytics
 var scriptStat = document.createElement('script');
 scriptStat.type='text/javascript';
@@ -78,7 +78,7 @@ window.dataLayer = window.dataLayer || [];
 function gtag(){dataLayer.push(arguments);}
 gtag('js', new Date());
 gtag('config', 'G-DV2VRTWS4N');
-*/
+
 
 /*
 var scriptGads = document.createElement('script');
