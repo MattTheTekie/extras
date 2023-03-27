@@ -169,7 +169,11 @@ urlList = [
 "https://twitter.com/search?q="+q,
 "https://www.reddit.com/search/?q="+q+"&t=day&type=link",
 "https://medium.com/search?q="+q,
-"https://medium.com/tag/"+encodeURIComponent(decodeURIComponent(q.toLowerCase()).replace(' ', '-'))+"/latest"
+"https://medium.com/tag/"+encodeURIComponent(decodeURIComponent(q.toLowerCase()).replace(' ', '-'))+"/latest",
+
+"https://gnusocial.net/search/notice?q="+q,
+"https://cawfee.club/search?query="+q,
+"https://nerdica.net/search?q="+q
 ];
 random = Math.floor(Math.random() * urlList.length);
 url = urlList[random];

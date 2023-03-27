@@ -5086,6 +5086,9 @@ var wordEnJsonVar =
         "text": "aphasia"
     },
     {
+        "text": "aphid"
+    },
+    {
         "text": "aphoristic"
     },
     {
@@ -14996,8 +14999,5 @@ var wordEnJsonVar =
     },
     {
         "text": "bumpkin"
-    },
-    {
-        "text": "bumps"
     }
 ]
