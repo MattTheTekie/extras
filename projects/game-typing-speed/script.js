@@ -95,6 +95,8 @@ main(task);
 
 
 
+
+// https://stackoverflow.com/questions/9713058/send-post-data-using-xmlhttprequest
 mode300 = mode; // fixed without var
 
 if(mode === 'none'){
