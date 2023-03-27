@@ -3,7 +3,7 @@
 var  geturl = window.location;
 var url = new URL(geturl);
 var q = url.searchParams.get("q");
-if(q == null){ q = 5; }
+if(q == null){ q = 7; }
 
 let letter = "abcdefghijklmnopqrstuvwxyz";
 letter = [...letter];
