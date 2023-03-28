@@ -1,4 +1,4 @@
-/* v.1.1.17 */
+/* v.1.1.18 */
 
 function fuAds(themeAds, idAds, maxAds, comAds){
 
@@ -81,6 +81,7 @@ gtag('config', 'G-DV2VRTWS4N');
 
 
 /*
+// Google Ads 
 var scriptGads = document.createElement('script');
 scriptGads.type='text/javascript';
 scriptGads.src = 'https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-9615069178907251'; scriptGads.crossOrigin = 'anonymous';

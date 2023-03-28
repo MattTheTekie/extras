@@ -25,10 +25,6 @@ var musicFPJsonVar =
         "url": "https:\/\/www.youtube.com\/watch?v=Cy1LdAaGASw"
     },
     {
-        "text": "Jain - Alright (Official Video) - YouTube",
-        "url": "https:\/\/www.youtube.com\/watch?v=MARsW26KXQg"
-    },
-    {
         "text": "Lou Reed - Walk on the Wild Side (audio) - YouTube",
         "url": "https:\/\/www.youtube.com\/watch?v=oG6fayQBm9w"
     },
