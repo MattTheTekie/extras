@@ -26,7 +26,6 @@ document.getElementById('panel').innerHTML = `
 <a class="padding margin" onclick="fuStopwatchCom('refresh')" href="#">refresh</a>
 <a class="padding margin" onclick="fuStopwatchCom('pause')" href="#">pause</a>
 <a class="padding margin" onclick="fuStopwatchCom('stop')" href="#">stop</a>
-
 `;
 }
 
@@ -34,8 +33,6 @@ if(comArr[0] == 'pause'){
 document.getElementById('panel').innerHTML = `
 <a class="padding margin" onclick="fuStopwatchCom('refresh')" href="#">refresh</a>
 <a class="padding margin" onclick="fuStopwatchCom('continue')" href="#">continue</a>
-<a class="padding margin" onclick="fuStopwatchCom('stop')" href="#">stop</a>
-
 `;
 }
 
@@ -96,7 +93,7 @@ lResult +=
 `;
 });
 document.getElementById('result3').innerHTML = `
-<div class="scroll wrapper3 op" style="display: grid; grid-template-columns: 1fr 1fr 1fr; gap: 10px 20px;">${lResult}</div>
+<div class="scroll wrapper3 padding op lPrint3">${lResult}</div>
 `;
 comArr[0] = 'stoped';
 }
