@@ -1,6 +1,4 @@
-// v.1.1.2
-
-
+// v.1.2.1
 
 
 var secArr = [];
@@ -8,28 +6,41 @@ secArr[0] = 0;
 var comArr = [];
 comArr[0] = 'start';
 
+var lStopArr = [];
+
 function fuStopwatchCom(com){
-if(com == 'stop'){ comArr[0] = 'stop'; }
+
+if(com == 'pause'){ comArr[0] = 'pause'; }
+if(com == 'stop'&&comArr[0] != 'pause'){ comArr[0] = 'stop'; }
 if(com == 'continue'){ comArr[0] = 'continue'; }
-if(com == 'refresh'){ secArr[0] = 0;  comArr[0] = 'refresh'; }
+if(com == 'refresh'){
+secArr[0] = 0;  comArr[0] = 'refresh'; lStopArr = [];
+document.getElementById('result3').innerHTML = '';
+}
+
 // https://stackoverflow.com/questions/457826/pass-parameters-in-setinterval-function
 //fuStopwatch(com, sec);
 
-if(comArr[0] != 'stop'){
+if(comArr[0] != 'pause'){
 document.getElementById('panel').innerHTML = `
 <a class="padding margin" onclick="fuStopwatchCom('refresh')" href="#">refresh</a>
+<a class="padding margin" onclick="fuStopwatchCom('pause')" href="#">pause</a>
 <a class="padding margin" onclick="fuStopwatchCom('stop')" href="#">stop</a>
 
 `;
 }
 
-if(comArr[0] == 'stop'){
+if(comArr[0] == 'pause'){
 document.getElementById('panel').innerHTML = `
 <a class="padding margin" onclick="fuStopwatchCom('refresh')" href="#">refresh</a>
 <a class="padding margin" onclick="fuStopwatchCom('continue')" href="#">continue</a>
+<a class="padding margin" onclick="fuStopwatchCom('stop')" href="#">stop</a>
 
 `;
 }
+
+
+
 
 }
 
@@ -56,8 +67,8 @@ function fuStopwatch(){
 sec = secArr[0];
 
 
-if(comArr[0] != 'stop'){ secArr[0]++; }
-if(comArr[0] == 'stop'){ sec = secArr[0]; }
+if(comArr[0] != 'pause'){ secArr[0]++; }
+if(comArr[0] == 'pause'){ sec = secArr[0]; }
 
 
 
@@ -73,9 +84,27 @@ let minutes2 = normalize(time2.getMinutes());
 let seconds2 = normalize(time2.getSeconds());
 
 
+if(comArr[0] == 'stop'){
+let lResult = '';
+lStopArr.push(hours+':'+minutes+':'+seconds);
+document.getElementById('result3').innerHTML = '';
+//https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Array/forEach
+lStopArr.sort().reverse().forEach((element) => {
+lResult += 
+`
+<span>${element}</span>
+`;
+});
+document.getElementById('result3').innerHTML = `
+<div class="scroll wrapper3 op" style="display: grid; grid-template-columns: 1fr 1fr 1fr; gap: 10px 20px;">${lResult}</div>
+`;
+comArr[0] = 'stoped';
+}
+
 document.getElementById('result').innerHTML = hours+':'+minutes+':'+seconds;
 //document.getElementById('result2').innerHTML = hours2+':'+minutes2; // result 2 standart clock time
 document.getElementsByTagName('title')[0].innerHTML = hours+':'+minutes+':'+seconds;
+
 
 
 }
