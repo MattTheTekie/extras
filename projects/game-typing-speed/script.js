@@ -1,4 +1,4 @@
-// v.3.9.3
+// v.3.9.4
 
 
 
@@ -232,7 +232,9 @@ document.getElementById("mode2").innerHTML = ' <a class="tag" href="/?q='+tg+' t
 // input from Get
 input = url.searchParams.get("q");
 if(input != null){
-if(input != null){ input = input.replace(/%/g, "%25"); localStorage.setItem("input", input); task = input; }else{
+if(input != null){
+localStorage.setItem("input", input); task = input;
+}else{
 if(localStorage.getItem("input")){ task = localStorage.getItem("input"); }
 }
 
