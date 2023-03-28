@@ -1,4 +1,4 @@
-// v.3.9.1
+// v.3.9.2
 
 
 
@@ -424,6 +424,24 @@ letters = letters.replace(/  +/g, ' ');
 letters = encodeURIComponent(letters);
 
 letters = transliterate(letters);
+
+
+//https://www.charset.org/utf-8/66
+//Variation Selector
+letters = letters.replace(/%EF%B8%82/g, "");
+letters = letters.replace(/%EF%B8%83/g, "");
+letters = letters.replace(/%EF%B8%84/g, "");
+letters = letters.replace(/%EF%B8%85/g, "");
+letters = letters.replace(/%EF%B8%86/g, "");
+letters = letters.replace(/%EF%B8%87/g, "");
+letters = letters.replace(/%EF%B8%88/g, "");
+letters = letters.replace(/%EF%B8%89/g, "");
+letters = letters.replace(/%EF%B8%8A/g, "");
+letters = letters.replace(/%EF%B8%8B/g, "");
+letters = letters.replace(/%EF%B8%8C/g, "");
+letters = letters.replace(/%EF%B8%8D/g, "");
+letters = letters.replace(/%EF%B8%8E/g, "");
+letters = letters.replace(/%EF%B8%8F/g, "");
 
 
 
