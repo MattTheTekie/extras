@@ -1,4 +1,5 @@
-// v.1.5.0
+// v.1.5.1
+// inspired by Twitter, Fediverse
 // not for large json files !
 // task: selection for search. relevant search
 

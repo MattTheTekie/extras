@@ -1,5 +1,5 @@
-// v.1.2.1
-
+// v.1.2.2
+// inspired by Google Clock
 
 var secArr = [];
 secArr[0] = 0;
