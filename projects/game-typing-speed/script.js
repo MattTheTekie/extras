@@ -1,4 +1,4 @@
-// v.3.9.2
+// v.3.9.3
 
 
 
@@ -417,7 +417,8 @@ letters = transliterate(letters);
 
 
 //https://stackoverflow.com/questions/22962220/remove-multiple-line-breaks-n-in-javascript
-letters = letters.replace(/(\r\n|\r|\n){2}/g, '$1').replace(/(\r\n|\r|\n){3,}/g, '$1\n');
+//letters = letters.replace(/(\r\n|\r|\n){2}/g, '$1').replace(/(\r\n|\r|\n){3,}/g, '$1\n');
+letters = letters.replace(/(\r\n|\r|\n){2,}/g, '$1\n');
 //https://stackoverflow.com/questions/1981349/regex-to-replace-multiple-spaces-with-a-single-space
 letters = letters.replace(/  +/g, ' ');
 
