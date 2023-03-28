@@ -1,4 +1,4 @@
-// v.3.8.19
+// v.3.9.0
 
 
 
@@ -43,7 +43,7 @@ if(mode == null){ mode = 'quote'; }
 
 
 
-var modeList = Array("abc", "quote", "input", "none", "free");
+var modeList = Array("abc", "quote", "book", "input", "none", "free");
 var modeListPrint = '';
 modeList.forEach(FunctionModeList);
 function FunctionModeList(item, index) {
@@ -77,10 +77,7 @@ document.getElementById("mode").innerHTML = `
 
 if(mode == 'quote'){
 
-var quote;
-
-
-
+var quote = '';
 quote = quoteJsonVar;
 
 if(quote != null){
@@ -88,6 +85,39 @@ const random = Math.floor(Math.random() * quote.length);
 //console.log(quote[random]['text']);
 task = quote[random]['text'];
 
+}
+
+main(task);
+}
+
+
+
+
+
+if(mode == 'book'){
+
+var book = '';
+var bookLength = 1000;
+
+
+book = bookJsonVar;
+
+if(book != null){
+const random = Math.floor(Math.random() * book.length);
+//console.log(book[random]['text']);
+task = book[random]['text'];
+
+
+
+//https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Math/random
+function getRandomArbitrary(min, max) {
+  return Math.random() * (max - min) + min;
+}
+
+var bookStart = task.length - bookLength;
+bookStart = getRandomArbitrary(0, bookStart);
+task = task.slice(bookStart);
+task = task.slice(0, bookLength);
 }
 
 main(task);
@@ -301,7 +331,7 @@ task = task.replace(/%/g, "%25"); // not show text, percentage
 
 
 
-task = decodeURIComponent(task);
+//task = decodeURIComponent(task); //Uncaught URIError: malformed URI sequence
 
 
 

@@ -129,8 +129,8 @@ margin: 0 var(--bodyP);
 padding: 11px;
 padding-bottom: 10px;
 border-radius: 5px;
-display: block;
 width: 100%;
+display: block;
 margin: 0 auto;
 overflow: auto;
 }
@@ -390,6 +390,16 @@ td { background-color: var(--l2); }
 .xSmall, .xSmall a { font-size: x-small !important; }
 .xxSmall, .xxSmall a { font-size: xx-small !important; }
 .cursorNone { pointer-events: none; }
+.scroll {
+/*overflow-x: auto;
+overflow-y: hidden;
+white-space: nowrap;*/
+display: block;
+max-height: 600px;
+overflow-x: hidden;
+overflow-y: auto;
+scroll-padding-top: 16px;
+}
 
 
 /* fix */

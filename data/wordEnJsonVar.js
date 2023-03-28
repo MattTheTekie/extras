@@ -11677,6 +11677,9 @@ var wordEnJsonVar =
         "text": "blackened"
     },
     {
+        "text": "blackest"
+    },
+    {
         "text": "blackface"
     },
     {
@@ -14996,8 +14999,5 @@ var wordEnJsonVar =
     },
     {
         "text": "bumping"
-    },
-    {
-        "text": "bumpkin"
     }
 ]
