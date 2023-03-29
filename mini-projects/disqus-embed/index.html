@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="">
+<head>
+<meta charset="UTF-8">
+<title>disqus Embed</title>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate">
+<meta http-equiv="Pragma" content="no-cache">
+<meta http-equiv="Expires" content="-1">
+
+<!-- start main css -->
+<link rel="stylesheet" type="text/css" id="theme">
+<link rel="stylesheet" type="text/css" href="/css/style-main.css">
+<noscript><link rel="stylesheet" type="text/css" href="/css/light.css"></noscript>
+<!-- end -->
+
+<link rel="stylesheet" type="text/css" href="style.css" />
+
+</head>
+<script id="dsq-count-scr" src="//https-gabc-tk.disqus.com/count.js" async></script>
+<body>
+
+
+<header class="brand">
+<nav>
+<a href="/">index</a>
+<a href="../">list</a>
+</nav>
+</header>
+
+
+<!-- content -->
+<div class="content">
+
+<h3 class="tCenter op">disqus Embed</h3>
+
+
+
+
+<div class="center2">
+<div class="wrapper">
+
+
+<div class="post2 light border3List">
+
+<a href="http://foo.com/bar2.html#disqus_thread">Link</a>
+<span class="disqus-comment-count" data-disqus-identifier="test">First article</span>
+
+<div id="disqus_thread"></div>
+<script>
+    /**
+    *  RECOMMENDED CONFIGURATION VARIABLES: EDIT AND UNCOMMENT THE SECTION BELOW TO INSERT DYNAMIC VALUES FROM YOUR PLATFORM OR CMS.
+    *  LEARN WHY DEFINING THESE VARIABLES IS IMPORTANT: https://disqus.com/admin/universalcode/#configuration-variables    */
+    /*
+    var disqus_config = function () {
+    this.page.url = PAGE_URL;  // Replace PAGE_URL with your page's canonical URL variable
+    this.page.identifier = PAGE_IDENTIFIER; // Replace PAGE_IDENTIFIER with your page's unique identifier variable
+    };
+    */
+
+    var disqus_config = function () {
+    this.page.identifier = 'test'; // Replace PAGE_IDENTIFIER with your page's unique identifier variable
+    };
+
+    (function() { // DON'T EDIT BELOW THIS LINE
+    var d = document, s = d.createElement('script');
+    s.src = 'https://test.disqus.com/embed.js';
+    s.setAttribute('data-timestamp', +new Date());
+    (d.head || d.body).appendChild(s);
+    })();
+</script>
+<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+
+
+<script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+
+
+</div>
+
+
+</div>
+</div>
+
+
+
+
+
+
+
+
+</div>
+<!-- end content -->
+
+
+<footer id="footer"></footer>
+
+<script src="/js/main.js"></script>
+<script src="/data/adsJsonVar.js"></script>
+<script src="/js/ad.js"></script>
+<script> fuAds('', 'ads2', ''); </script>
+
+<script src="script.js"></script>
+
+<script>
+fuWorker('off');
+</script>
+
+
+</body>
+</html>
