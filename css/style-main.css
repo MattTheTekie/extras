@@ -395,7 +395,7 @@ td { background-color: var(--l2); }
 overflow-y: hidden;
 white-space: nowrap;*/
 display: block;
-max-height: 600px;
+max-height: 1300px;
 overflow-x: hidden;
 overflow-y: auto;
 scroll-padding-top: 16px;
@@ -445,5 +445,5 @@ html { scrollbar-width: thin; }
 ::-webkit-scrollbar { width: 7px; }
 
 
-iframe {  color-scheme: none; } /* prevent twitter white corner */
+iframe {  color-scheme: none; } /* not work anymore, rm me */
 input:focus{ outline: none }

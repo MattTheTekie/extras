@@ -1,6 +1,13 @@
 var blogJsonVar = 
 [
     {
+        "id": "235",
+        "text": "Hubble on Twitter: \"A pulse of intense radiation swept through our solar system that astronomers called the BOAT: the brightest of all time. Several @NASA missions, including Hubble, have followed up to study this gamma-ray burst, likely caused by the birth of a black hole: https:\/\/t.co\/zCPiiamLL8 https:\/\/t.co\/xSRRLzD0dy\" \/ Twitter",
+        "url": "https:\/\/twitter.com\/NASAHubble\/status\/1640791835760119808",
+        "tag": "#space",
+        "time": 1680060873
+    },
+    {
         "id": "234",
         "text": "SpaceX on Twitter: \"Falcon 9\u2019s first stage has landed on the A Shortfall of Gravitas droneship https:\/\/t.co\/34f8zYCKbz\" \/ Twitter",
         "url": "https:\/\/twitter.com\/SpaceX\/status\/1639294066688163842",
