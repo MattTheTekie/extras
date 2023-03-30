@@ -1,4 +1,4 @@
-/* v.1.1.7 */
+/* v.1.1.8 */
 
 .result,  textarea {
 margin: 0 auto;
@@ -27,7 +27,6 @@ max-height: 80px;
 overflow-x: hidden;
 overflow-y: auto;
 scroll-padding-top: 16px;
-padding: 0 15px;
 }
 
 #lPrintTr, #lPrintTr a{
