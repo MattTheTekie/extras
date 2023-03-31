@@ -212,7 +212,7 @@ localStorage.setItem("input", e.target.value);
 main(e.target.value);
 
 tg = encodeURIComponent(e.target.value);
-document.getElementById("mode2").innerHTML = ' <a class="tag" href="/?q='+tg+' t">tr</a>';
+document.getElementById("mode2").innerHTML = ' <a class="tag" href="/?q='+tg+'  t">tr</a>';
 }
 
 task = localStorage.getItem("input");
@@ -220,7 +220,7 @@ if(task != null){
 main(task);
 
 tg = encodeURIComponent(task);
-document.getElementById("mode2").innerHTML = ' <a class="tag" href="/?q='+tg+' t">tr</a>';
+document.getElementById("mode2").innerHTML = ' <a class="tag" href="/?q='+tg+'  t">tr</a>';
 }
 
 
@@ -239,7 +239,7 @@ if(localStorage.getItem("input")){ task = localStorage.getItem("input"); }
 }
 
 tg = encodeURIComponent(task);
-document.getElementById("mode2").innerHTML = ' <a class="tag" href="/?q='+tg+' t">tr</a>';
+document.getElementById("mode2").innerHTML = ' <a class="tag" href="/?q='+tg+'  t">tr</a>';
 
 main(task);
 }
@@ -249,7 +249,7 @@ main(task);
 
 tg = encodeURIComponent(task);
 if(tg != 'null'){
-document.getElementById("mode2").innerHTML = ' <a class="tag" href="/?q='+tg+' t">tr</a>';
+document.getElementById("mode2").innerHTML = ' <a class="tag" href="/?q='+tg+'  t">tr</a>';
 }
 
 

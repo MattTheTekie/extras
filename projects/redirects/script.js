@@ -171,9 +171,7 @@ urlList = [
 "https://medium.com/search?q="+q,
 "https://medium.com/tag/"+encodeURIComponent(decodeURIComponent(q.toLowerCase()).replace(' ', '-'))+"/latest",
 
-"https://gnusocial.net/search/notice?q="+q,
-"https://cawfee.club/search?query="+q,
-"https://nerdica.net/search?q="+q
+"https://www.minds.com/discovery/search?q="+q+"&f=top&t=all"
 ];
 random = Math.floor(Math.random() * urlList.length);
 url = urlList[random];
@@ -182,7 +180,8 @@ urlList = [
 "https://twitter.com/explore",
 //"https://www.tumblr.com/explore/",
 "https://medium.com/",
-"https://gnusocial.net/favorited/"
+
+"https://www.minds.com/discovery/top"
 ];
 random = Math.floor(Math.random() * urlList.length);
 url = urlList[random];
