@@ -30,10 +30,10 @@ var host = tmp.hostname;
 
 document.getElementById("lPrint").innerHTML = `
 <div class="center2">
-<div class="wrapper">
+<div class="wrapper2">
 
 <!-- post -->
-<div class="post bgList brand border3List" id="`+id+`">
+<div class="post2 bgList brand border3List" id="`+id+`">
 <span class="pre">`+highlightText2(randomTitle+` `+randomURL)+`</span>
 <a class="tag padding light border2 margin" onclick="reload()"  style="display: block; text-align: center;" href="#">reload</a>
 </div>
@@ -129,7 +129,7 @@ embed = `<a href="${item}"><img class="border3" src="${item}" width=""></a>`
 
 
 if(item.search("tunein.com") == -1&&item.slice(0, 4) == 'http'&&item.search("http|://") != -1) {
-embed2 = `<iframe width="${w}" height="400" src="${item}"></iframe>`;
+embed2 = `<iframe width="${w}" height="600" src="${item}"></iframe>`;
 }
 
 
