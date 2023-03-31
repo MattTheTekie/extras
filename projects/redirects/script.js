@@ -170,9 +170,9 @@ q = encodeURIComponent(q);
 urlList = [
 "https://twitter.com/search?q="+q,
 "https://www.reddit.com/search/?q="+q+"&t=day&type=link",
-"https://medium.com/tag/"+encodeURIComponent(decodeURIComponent(q.toLowerCase()).replace(' ', '-'))+"/latest",
+"https://medium.com/tag/"+encodeURIComponent(decodeURIComponent(q.toLowerCase()).replace(' ', '-'))+"/latest"
 
-"https://www.tumblr.com/search/"+q+"/text"
+//"https://www.tumblr.com/search/"+q+"/text" // need login
 ];
 random = Math.floor(Math.random() * urlList.length);
 url = urlList[random];

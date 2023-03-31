@@ -1,6 +1,13 @@
 var blogJsonVar = 
 [
     {
+        "id": "236",
+        "text": "Hubble on Twitter: \"Saturn is known for its iconic rings. And with Hubble's help, now we know that these rings are also heating the giant planet's upper atmosphere! This could provide a tool for predicting if planets around other stars have ring systems as well. Learn more: https:\/\/t.co\/mvNUIzMwjF https:\/\/t.co\/nu2QE3HqPj\" \/ Twitter",
+        "url": "https:\/\/twitter.com\/NASAHubble\/status\/1641442081897058313",
+        "tag": "#space",
+        "time": 1680287047
+    },
+    {
         "id": "235",
         "text": "Hubble on Twitter: \"A pulse of intense radiation swept through our solar system that astronomers called the BOAT: the brightest of all time. Several @NASA missions, including Hubble, have followed up to study this gamma-ray burst, likely caused by the birth of a black hole: https:\/\/t.co\/zCPiiamLL8 https:\/\/t.co\/xSRRLzD0dy\" \/ Twitter",
         "url": "https:\/\/twitter.com\/NASAHubble\/status\/1640791835760119808",
