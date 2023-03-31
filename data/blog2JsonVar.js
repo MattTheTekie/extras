@@ -1,6 +1,13 @@
 var blog2JsonVar = 
 [
     {
+        "id": "13",
+        "text": "Lorenzo Green \u3030\ufe0f on Twitter: \"BREAKING: A petition is circulating to PAUSE all major AI developments. e.g. No more ChatGPT upgrades & many others. Signed by Elon Musk, Steve Wozniak, Stability AI CEO & 1000s of other tech leaders. Here's the breakdown: \ud83d\udc47 https:\/\/t.co\/jR4Z3sNdDw\" \/ Twitter",
+        "url": "https:\/\/twitter.com\/mrgreen\/status\/1641056545524838405",
+        "tag": "#tech #news",
+        "time": 1680232458
+    },
+    {
         "id": "11",
         "text": "The Adventures of Sherlock Holmes by Arthur Conan Doyle - Free Ebook",
         "url": "https:\/\/www.gutenberg.org\/ebooks\/1661",
