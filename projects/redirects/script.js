@@ -181,7 +181,8 @@ if(q == ''){
 urlList = [
 "https://twitter.com/explore",
 //"https://www.tumblr.com/explore/",
-"https://medium.com/"
+"https://medium.com/",
+"https://gnusocial.net/favorited/"
 ];
 random = Math.floor(Math.random() * urlList.length);
 url = urlList[random];

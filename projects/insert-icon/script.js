@@ -28,6 +28,7 @@ let icons = {
 "file":"🗃️",
 "game":"🎮",
 "geany":"🫖",
+"friendica":"🇫",
 "fox":"🦊", "firefox":"🦊",
 "github":"🐱",
 "hello":"👋",

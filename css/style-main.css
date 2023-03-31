@@ -375,7 +375,7 @@ td { background-color: var(--l2); }
 
 
 /* other */
-.padding { padding: 11px !important; }
+.padding { padding: 9px !important; }
 .block { display: block !important; width: 100%; max-width: 100%; box-sizing: border-box; }
 .zero { margin: 0; padding: 0; }
 .margin, .margin a { margin: 1px !important; }

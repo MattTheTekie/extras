@@ -1465,6 +1465,9 @@ var wordEnJsonVar =
         "text": "adds"
     },
     {
+        "text": "adduce"
+    },
+    {
         "text": "adduced"
     },
     {
@@ -2996,8 +2999,5 @@ var wordEnJsonVar =
     },
     {
         "text": "algebra"
-    },
-    {
-        "text": "algebraic"
     }
 ]
