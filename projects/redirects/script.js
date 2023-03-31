@@ -171,6 +171,7 @@ urlList = [
 "https://medium.com/search?q="+q,
 "https://medium.com/tag/"+encodeURIComponent(decodeURIComponent(q.toLowerCase()).replace(' ', '-'))+"/latest",
 
+"https://www.tumblr.com/search/"+q+"/text",
 "https://www.minds.com/discovery/search?q="+q+"&f=top&t=all"
 ];
 random = Math.floor(Math.random() * urlList.length);
