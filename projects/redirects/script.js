@@ -1,5 +1,7 @@
-// v.1.1.26
-// redirects
+// v.1.1.27
+
+
+
 
 var geturl = window.location;
 var url = new URL(geturl);
@@ -168,11 +170,9 @@ q = encodeURIComponent(q);
 urlList = [
 "https://twitter.com/search?q="+q,
 "https://www.reddit.com/search/?q="+q+"&t=day&type=link",
-"https://medium.com/search?q="+q,
 "https://medium.com/tag/"+encodeURIComponent(decodeURIComponent(q.toLowerCase()).replace(' ', '-'))+"/latest",
 
-"https://www.tumblr.com/search/"+q+"/text",
-"https://www.minds.com/discovery/search?q="+q+"&f=top&t=all"
+"https://www.tumblr.com/search/"+q+"/text"
 ];
 random = Math.floor(Math.random() * urlList.length);
 url = urlList[random];
