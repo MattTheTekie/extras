@@ -199,5 +199,281 @@ var musJsonVar =
     {
         "text": "LifeGate Radio, 105.3 FM, Lombardy, Italy | Free Internet Radio | TuneIn",
         "url": "https:\/\/tunein.com\/radio\/LifeGate-Radio-1053-s8868\/"
+    },
+    {
+        "text": "Lightning 100, WRLT 100.1 FM, Nashville, US | Free Internet Radio | TuneIn",
+        "url": "https:\/\/tunein.com\/radio\/Lightning-100-1001-s22480\/"
+    },
+    {
+        "text": "Live - ALT:XL RADIO (6.8K Favorites) TuneIn",
+        "url": "https:\/\/tunein.com\/radio\/ALTXL-RADIO-s142285\/"
+    },
+    {
+        "text": "Live - Cheesy FM (13.9K Favorites) TuneIn",
+        "url": "https:\/\/tunein.com\/radio\/Cheesy-FM-s240329\/"
+    },
+    {
+        "text": "Live - ENERGY Hits (42.1K Favorites) TuneIn",
+        "url": "https:\/\/tunein.com\/radio\/ENERGY-Hits-s96837\/"
+    },
+    {
+        "text": "Live - Hot 97.7 (209.4K Favorites) TuneIn",
+        "url": "https:\/\/tunein.com\/radio\/Hot-977-s123480\/"
+    },
+    {
+        "text": "Live - ON Indie (201 Favorites) TuneIn",
+        "url": "https:\/\/tunein.com\/radio\/ON-Indie-s307213\/"
+    },
+    {
+        "text": "Live - QCIndie (508 Favorites) TuneIn",
+        "url": "https:\/\/tunein.com\/radio\/QCIndie-s253577\/"
+    },
+    {
+        "text": "Live - SLAM! Non Stop (28.3K Favorites) TuneIn",
+        "url": "https:\/\/tunein.com\/radio\/SLAM-Non-Stop-s253879\/"
+    },
+    {
+        "text": "Live - The Independent FM (6.2K Favorites) TuneIn",
+        "url": "https:\/\/tunein.com\/radio\/The-Independent-FM-s165640\/"
+    },
+    {
+        "text": "Live - Total Hits (3.5K Favorites) TuneIn",
+        "url": "https:\/\/tunein.com\/radio\/Total-Hits-s289247\/"
+    },
+    {
+        "text": "Live 101.7 FM - CKNX-FM (13.0K Favorites) TuneIn",
+        "url": "https:\/\/tunein.com\/radio\/1017-The-One-s31273\/"
+    },
+    {
+        "text": "Live 103.4 FM - ENERGY Berlin (129.3K Favorites) TuneIn",
+        "url": "https:\/\/tunein.com\/radio\/ENERGY-Berlin-1034-s11067\/"
+    },
+    {
+        "text": "Live 103.8 FM - Juice Belfast Belfast: (2.1K Favorites) TuneIn",
+        "url": "https:\/\/tunein.com\/radio\/Juice-Belfast-1038-s297336\/"
+    },
+    {
+        "text": "Live 106.1 FM - XS Manchester Manchester: (76.5K Favorites) TuneIn",
+        "url": "https:\/\/tunein.com\/radio\/XS-Manchester-1061-s91723\/"
+    },
+    {
+        "text": "Live 106.7 FM - Europa FM (236.4K Favorites) TuneIn",
+        "url": "https:\/\/tunein.com\/radio\/Europa-FM-1067-s8334\/"
+    },
+    {
+        "text": "Live 73 Stream - 100hitz Hot Hitz : Today's Hitz without rap! (116.8K Favorites) TuneIn",
+        "url": "https:\/\/tunein.com\/radio\/100hitz-Hot-Hitz--Todays-Hitz-without-rap-s111388\/"
+    },
+    {
+        "text": "Live 99.6 FM - SWR3 (635.8K Favorites) TuneIn",
+        "url": "https:\/\/tunein.com\/radio\/SWR3-996-s24896\/"
+    },
+    {
+        "text": "Live 99.9 FM - CFGX-FM (13.4K Favorites) TuneIn",
+        "url": "https:\/\/tunein.com\/radio\/The-Fox-999-s31121\/"
+    },
+    {
+        "text": "Loudspeaker One | Free Internet Radio | TuneIn",
+        "url": "https:\/\/tunein.com\/radio\/Loudspeaker-One-s302839\/"
+    },
+    {
+        "text": "Loutraki FM, 96.9 FM, Corinth, Greece | Free Internet Radio | TuneIn",
+        "url": "https:\/\/tunein.com\/radio\/Loutraki-FM-969-s103776\/"
+    },
+    {
+        "text": "Love Brothers Band Radio | Free Internet Radio | TuneIn",
+        "url": "https:\/\/tunein.com\/radio\/Love-Brothers-Band-Radio-s253404\/"
+    },
+    {
+        "text": "LRT OPUS, 98.3 FM, Vilnius county, Lithuania | Free Internet Radio | TuneIn",
+        "url": "https:\/\/tunein.com\/radio\/LRT-OPUS-983-s15908\/"
+    },
+    {
+        "text": "LuxuriaMusic | Free Internet Radio | TuneIn",
+        "url": "https:\/\/tunein.com\/radio\/LuxuriaMusic-s98681\/"
+    },
+    {
+        "text": "Majestic Jukebox Radio | Free Internet Radio | TuneIn",
+        "url": "https:\/\/tunein.com\/radio\/Majestic-Jukebox-Radio-s302456\/"
+    },
+    {
+        "text": "NME 1 | Free Internet Radio | TuneIn",
+        "url": "https:\/\/tunein.com\/radio\/NME-1-s159857\/"
+    },
+    {
+        "text": "NME 2 | Free Internet Radio | TuneIn",
+        "url": "https:\/\/tunein.com\/radio\/NME-2-s155539\/"
+    },
+    {
+        "text": "Nova FM, 97.5 FM, Newport, UK | Free Internet Radio | TuneIn",
+        "url": "https:\/\/tunein.com\/radio\/Nova-FM-975-s157009\/"
+    },
+    {
+        "text": "NPO 3FM KX Radio | Free Internet Radio | TuneIn",
+        "url": "https:\/\/tunein.com\/radio\/NPO-3FM-KX-Radio-s86629\/"
+    },
+    {
+        "text": "ON 60s | Free Internet Radio | TuneIn",
+        "url": "https:\/\/tunein.com\/radio\/ON-60s-s307180\/"
+    },
+    {
+        "text": "OpenLab",
+        "url": "https:\/\/openlab.fm\/"
+    },
+    {
+        "text": "ORF Radio FM4, ORF FM 4 103.8 FM, Wien, Austria | Free Internet Radio | TuneIn",
+        "url": "https:\/\/tunein.com\/radio\/ORF-Radio-FM4-1038-s8235\/"
+    },
+    {
+        "text": "Philosopher \u00b7 San Fermin",
+        "url": "https:\/\/www.youtube.com\/watch?v=A5KEVub9KSs"
+    },
+    {
+        "text": "Player | Nexus Radio | Internet Radio",
+        "url": "https:\/\/player.nexus.radio\/index.php?start=9&mode=pop"
+    },
+    {
+        "text": "Radio 1 Dance - Listen Live - BBC Sounds",
+        "url": "https:\/\/www.bbc.co.uk\/sounds\/play\/live:bbc_radio_one_dance"
+    },
+    {
+        "text": "Radio 6 Music - Listen Live - BBC Sounds",
+        "url": "https:\/\/www.bbc.co.uk\/sounds\/play\/live:bbc_6music"
+    },
+    {
+        "text": "Radio Alternativemusic.com | Free Internet Radio | TuneIn",
+        "url": "https:\/\/tunein.com\/radio\/Radio-Alternativemusiccom-s227780\/"
+    },
+    {
+        "text": "Radio BurgerFuel | Free Internet Radio | TuneIn",
+        "url": "https:\/\/tunein.com\/radio\/Radio-BurgerFuel-s178759\/"
+    },
+    {
+        "text": "Radio Byron | Free Internet Radio | TuneIn",
+        "url": "https:\/\/tunein.com\/radio\/Radio-Byron-s243820\/"
+    },
+    {
+        "text": "Radio Darkitalia | Free Internet Radio | TuneIn",
+        "url": "https:\/\/tunein.com\/radio\/Radio-Darkitalia-s305616\/"
+    },
+    {
+        "text": "Radio Nova, 99.3 FM, Oslo, Norway | Free Internet Radio | TuneIn",
+        "url": "https:\/\/tunein.com\/radio\/Radio-Nova-993-s15237\/"
+    },
+    {
+        "text": "Radio Paradise | Free Internet Radio | TuneIn",
+        "url": "https:\/\/tunein.com\/radio\/Radio-Paradise-s13606\/"
+    },
+    {
+        "text": "Radio Phoenix | Free Internet Radio | TuneIn",
+        "url": "https:\/\/tunein.com\/radio\/Radio-Phoenix-s109023\/"
+    },
+    {
+        "text": "radio skovoroda | Free Internet Radio | TuneIn",
+        "url": "https:\/\/tunein.com\/radio\/radio-skovoroda-s248591\/"
+    },
+    {
+        "text": "Radio X, 94.5 FM, Basel, Switzerland | Free Internet Radio | TuneIn",
+        "url": "https:\/\/tunein.com\/radio\/Radio-X-945-s15444\/"
+    },
+    {
+        "text": "RadioGente.CL, Radio Gente 105.7 FM, Iquique, Chile | Free Internet Radio | TuneIn",
+        "url": "https:\/\/tunein.com\/radio\/RadioGenteCL-1057-s84259\/"
+    },
+    {
+        "text": "Real Punk Radio | Free Internet Radio | TuneIn",
+        "url": "https:\/\/tunein.com\/radio\/Real-Punk-Radio-s117580\/"
+    },
+    {
+        "text": "Retro Hit Radio, 88.1 FM, Auckland, New Zealand | Free Internet Radio | TuneIn",
+        "url": "https:\/\/tunein.com\/radio\/Retro-Hit-Radio-881-s113357\/"
+    },
+    {
+        "text": "ROCK ANTENNE Alternative | Free Internet Radio | TuneIn",
+        "url": "https:\/\/tunein.com\/radio\/ROCK-ANTENNE-Alternative-s125936\/"
+    },
+    {
+        "text": "Sanctuary Radio - Dark Electro Channel | Free Internet Radio | TuneIn",
+        "url": "https:\/\/tunein.com\/radio\/Sanctuary-Radio---Dark-Electro-Channel-s121323\/"
+    },
+    {
+        "text": "Slammin Tunes | Free Internet Radio | TuneIn",
+        "url": "https:\/\/tunein.com\/radio\/Slammin-Tunes-s164266\/"
+    },
+    {
+        "text": "SomaFM: Indie Pop Rocks! | Free Internet Radio | TuneIn",
+        "url": "https:\/\/tunein.com\/radio\/SomaFM-Indie-Pop-Rocks-s2592\/"
+    },
+    {
+        "text": "SomaFM: PopTron | Free Internet Radio | TuneIn",
+        "url": "https:\/\/tunein.com\/radio\/SomaFM-PopTron-s112350\/"
+    },
+    {
+        "text": "Superfly.fm, Superfly FM 98.3 FM, Vienna, Austria | Free Internet Radio | TuneIn",
+        "url": "https:\/\/tunein.com\/radio\/Superflyfm-983-s68225\/"
+    },
+    {
+        "text": "The Bridge, KTBG 90.9 FM, Kansas City, US | Free Internet Radio | TuneIn",
+        "url": "https:\/\/tunein.com\/radio\/The-Bridge-909-s35581\/"
+    },
+    {
+        "text": "The Current, KCMP 89.3 FM, Saint Paul, US | Free Internet Radio | TuneIn",
+        "url": "https:\/\/tunein.com\/radio\/The-Current-893-s20620\/"
+    },
+    {
+        "text": "The Dump - Internet Radio | Free Internet Radio | TuneIn",
+        "url": "https:\/\/tunein.com\/radio\/The-Dump---Internet-Radio-s140358\/"
+    },
+    {
+        "text": "The Rebel-HD2, KUNV-HD2 91.5 FM, Las Vegas, US | Free Internet Radio | TuneIn",
+        "url": "https:\/\/tunein.com\/radio\/The-Rebel-HD2-915-s137229\/"
+    },
+    {
+        "text": "The Spy FM | Free Internet Radio | TuneIn",
+        "url": "https:\/\/tunein.com\/radio\/The-Spy-FM-s137971\/"
+    },
+    {
+        "text": "The Zone - Dublin - Internet Radio",
+        "url": "https:\/\/www.internet-radio.com\/station\/thezone\/"
+    },
+    {
+        "text": "triple j, 2JJJ 105.7 FM, Sydney, Australia | Free Internet Radio | TuneIn",
+        "url": "https:\/\/tunein.com\/radio\/triple-j-1057-s25508\/"
+    },
+    {
+        "text": "VRT Studio Brussel, 100.6 FM, Brussels, Belgium | Free Internet Radio | TuneIn",
+        "url": "https:\/\/tunein.com\/radio\/VRT-Studio-Brussel-1006-s2611\/"
+    },
+    {
+        "text": "WERS, 88.9 FM, Boston, US | Free Internet Radio | TuneIn",
+        "url": "https:\/\/tunein.com\/radio\/WERS-889-s28589\/"
+    },
+    {
+        "text": "WKNC Raleigh, WKNC-FM 88.1 FM, Raleigh-Durham, US | Free Internet Radio | TuneIn",
+        "url": "https:\/\/tunein.com\/radio\/WKNC-Raleigh-881-s30302\/"
+    },
+    {
+        "text": "WLUW-FM, 88.7 FM, Chicago, US | Free Internet Radio | TuneIn",
+        "url": "https:\/\/tunein.com\/radio\/WLUW-FM-887-s30828\/"
+    },
+    {
+        "text": "WMXM, 88.9 FM, Chicago, US | Free Internet Radio | TuneIn",
+        "url": "https:\/\/tunein.com\/radio\/WMXM-889-s21320\/"
+    },
+    {
+        "text": "WNRN, 91.9 FM, Charlottesville, US | Free Internet Radio | TuneIn",
+        "url": "https:\/\/tunein.com\/radio\/WNRN-919-s21535\/"
+    },
+    {
+        "text": "Womenincharg3 Radio | Free Internet Radio | TuneIn",
+        "url": "https:\/\/tunein.com\/radio\/Womenincharg3-Radio-s238892\/"
+    },
+    {
+        "text": "WUMB-FM, 91.9 FM, Boston, US | Free Internet Radio | TuneIn",
+        "url": "https:\/\/tunein.com\/radio\/WUMB-FM-919-s23389\/"
+    },
+    {
+        "text": "WXRV\/92.5 the River, 92.5 FM, Andover, US | Free Internet Radio | TuneIn",
+        "url": "https:\/\/tunein.com\/radio\/WXRV925-the-River-s24062\/"
     }
 ]
