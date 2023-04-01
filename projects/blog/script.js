@@ -1,4 +1,4 @@
-// v.1.6.0
+// v.1.6.1
 // inspired by Twitter, Fediverse
 // not for large json files !
 // task: selection for search. relevant search
@@ -195,7 +195,7 @@ comMessagePrint = `${q} ${i} (searchLimit:${searchLimit})`;
 comMessage = 'found';
 }
 }else if(qData.indexOf(qSearch) >= 0){
-let qData2 = qData.replace(q, `<span style="background: var(--orange);">${q}</span>`);
+let qData2 = qData.replace(q, `<span style="background: var(--orange); color: white;">${q}</span>`);
 qData2 = `<div class="${postClass} xSmall">${qData2}</div>`;
 print += fuPrintPost(postId, postText, postTag, postTime)+''+qData2;
 i++;
@@ -289,7 +289,7 @@ qSearch = (qSearch+' ').split(' ');
 qSearch.forEach(function (item) {
 //if((qData.split(item)).length > 1&&item != ''){
 if((qData.indexOf(item)) > 0){
-let qData2 = qData.replace(item, `<span style="background: var(--orange);">${item}</span>`);
+let qData2 = qData.replace(item, `<span style="background: var(--orange); color: white;">${item}</span>`);
 qData2 = `<div class="${postClass} xSmall">${qData2}</div>`;
 print += fuPrintPost(postId, postText, postTag, postTime)+''+qData2;
 i++;
