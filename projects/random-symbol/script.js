@@ -1,15 +1,19 @@
-// v.1.0.0
+// v.1.1.0
 
 var  geturl = window.location;
 var url = new URL(geturl);
 var q = url.searchParams.get("q");
 if(q == null){ q = 7; }
 
-let letter = "abcdefghijklmnopqrstuvwxyz";
+let letter = "abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMBOPQRSTUWXYZ";
 letter = [...letter];
 
-let number = "01234567890123456789";
+
+let number = "0123456789012345678901234567890123456789";
 number = [...number];
+
+let symbol = "!@#$%&*!@#$%&*!@#$%&*!@#$%&*!@#$%&*!@#$%&*";
+symbol = [...symbol];
 
 // https://medium.com/@khaledhassan45/how-to-shuffle-an-array-in-javascript-6ca30d53f772
 // https://stackoverflow.com/questions/2450954/how-to-randomize-shuffle-a-javascript-array
@@ -41,8 +45,9 @@ result += arr[i];
 return result;
 }
 
-letter = dublicate(letter, 100);
-number = dublicate(number, 100);
+letter = dublicate(letter, q);
+number = dublicate(number, q);
+symbol = dublicate(symbol, q);
 
 shuffle(letter);
 result = printarr(letter);
@@ -60,11 +65,20 @@ result = printarr(letternumber);
 result = cuttext(result, q);
 document.getElementById("letternumber").innerHTML = result; 
 
+letternumbersymbol = [];
+letternumbersymbol = letternumber.concat(letter);
+letternumbersymbol = letternumber.concat(number);
+letternumbersymbol = letternumber.concat(symbol);
+shuffle(letternumbersymbol);
+result = printarr(letternumbersymbol);
+result = cuttext(result, q);
+document.getElementById("letternumbersymbol").innerHTML = result; 
+
 
 
 
 result = '';
-var nav = "5,6,7,8,9,10,50,100,300,500,1000";
+var nav = "5,6,7,8,9,10,50,100,300,500,1000,10000";
 nav = nav.split(",");
 for(let i = 0; i < nav.length; i++){
 if(q == nav[i]){

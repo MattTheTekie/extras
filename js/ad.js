@@ -69,6 +69,7 @@ if(confDataCollection == 'on'){
 
 
 // analytics
+//<!-- Google tag (gtag.js) -->
 var scriptStat = document.createElement('script');
 scriptStat.type='text/javascript';
 scriptStat.src = 'https://www.googletagmanager.com/gtag/js?id=G-DV2VRTWS4N';      
