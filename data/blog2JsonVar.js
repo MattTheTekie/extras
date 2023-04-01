@@ -1,6 +1,13 @@
 var blog2JsonVar = 
 [
     {
+        "id": "14",
+        "text": "Elon Musk on Twitter: \"Don\u2019t Look Up \u2026 but AGI instead of comet\" \/ Twitter",
+        "url": "https:\/\/twitter.com\/elonmusk\/status\/1642026231766953985",
+        "tag": "#human #AI #tech",
+        "time": 1680327964
+    },
+    {
         "id": "13",
         "text": "Lorenzo Green \u3030\ufe0f on Twitter: \"BREAKING: A petition is circulating to PAUSE all major AI developments. e.g. No more ChatGPT upgrades & many others. Signed by Elon Musk, Steve Wozniak, Stability AI CEO & 1000s of other tech leaders. Here's the breakdown: \ud83d\udc47 https:\/\/t.co\/jR4Z3sNdDw\" \/ Twitter",
         "url": "https:\/\/twitter.com\/mrgreen\/status\/1641056545524838405",
