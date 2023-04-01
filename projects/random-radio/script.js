@@ -34,8 +34,8 @@ document.getElementById("lPrint").innerHTML = `
 
 <!-- post -->
 <div class="post2 bgList brand border3List" id="`+id+`">
-<span class="pre">`+highlightText2(randomTitle+` `+randomURL)+`</span>
-<a class="tag padding light border2 margin" onclick="reload()"  style="display: block; text-align: center;" href="#">reload</a>
+<span class="pre">`+highlightText2(randomTitle+` `+randomURL)+`</span><br>
+<a class="tag padding light border margin" onclick="reload()"  style="display: block; text-align: center;" href="#">reload</a>
 </div>
 <!-- // post -->
 
