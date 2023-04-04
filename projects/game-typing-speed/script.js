@@ -1,4 +1,4 @@
-// v.3.9.5
+// v.3.9.6
 
 
 
@@ -210,17 +210,11 @@ function updateValueInput(e) {
 //q = encodeURIComponent(e.target.value);
 localStorage.setItem("input", e.target.value);
 main(e.target.value);
-
-tg = encodeURIComponent(e.target.value);
-document.getElementById("mode2").innerHTML = ' <a class="tag" href="/?q='+tg+'  t">tr</a>';
 }
 
 task = localStorage.getItem("input");
 if(task != null){
 main(task);
-
-tg = encodeURIComponent(task);
-document.getElementById("mode2").innerHTML = ' <a class="tag" href="/?q='+tg+'  t">tr</a>';
 }
 
 
@@ -238,18 +232,8 @@ localStorage.setItem("input", input); task = input;
 if(localStorage.getItem("input")){ task = localStorage.getItem("input"); }
 }
 
-tg = encodeURIComponent(task);
-document.getElementById("mode2").innerHTML = ' <a class="tag" href="/?q='+tg+'  t">tr</a>';
 
 main(task);
-}
-
-
-
-
-tg = encodeURIComponent(task);
-if(tg != 'null'){
-document.getElementById("mode2").innerHTML = ' <a class="tag" href="/?q='+tg+'  t">tr</a>';
 }
 
 
@@ -263,7 +247,7 @@ document.getElementById("mode2").innerHTML = ' <a class="tag" href="/?q='+tg+'  
 
 }else{
 document.getElementsByClassName("input")[0].innerHTML = '';
-document.getElementById("mode2").innerHTML = '';
+//document.getElementById("mode2").innerHTML = '';
 document.getElementById("bookmarklet").style.display = "none";
 }
 
@@ -324,6 +308,11 @@ document.getElementById('text').rows = '';
 //setTimeout(function () {
 function main(task){
 
+if(mode != 'abc'&&mode&&mode != 'free'){
+document.getElementById("mode2").innerHTML = ' <a class="tag" href="/projects/redirects/?q='+encodeURIComponent(task)+'  t">tr</a>';
+}else{
+document.getElementById("mode2").innerHTML = '';
+}
 
 /*
 if(task != null){
