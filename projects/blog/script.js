@@ -1,4 +1,4 @@
-// v.1.6.1
+// v.1.6.2
 // inspired by Twitter, Fediverse
 // not for large json files !
 // task: selection for search. relevant search
@@ -195,9 +195,7 @@ comMessagePrint = `${q} ${i} (searchLimit:${searchLimit})`;
 comMessage = 'found';
 }
 }else if(qData.indexOf(qSearch) >= 0){
-let qData2 = qData.replace(q, `<span style="background: var(--orange); color: white;">${q}</span>`);
-qData2 = `<div class="${postClass} xSmall">${qData2}</div>`;
-print += fuPrintPost(postId, postText, postTag, postTime)+''+qData2;
+print += fuPrintPost(postId, postText, postTag, postTime);
 i++;
 
 
@@ -289,9 +287,7 @@ qSearch = (qSearch+' ').split(' ');
 qSearch.forEach(function (item) {
 //if((qData.split(item)).length > 1&&item != ''){
 if((qData.indexOf(item)) > 0){
-let qData2 = qData.replace(item, `<span style="background: var(--orange); color: white;">${item}</span>`);
-qData2 = `<div class="${postClass} xSmall">${qData2}</div>`;
-print += fuPrintPost(postId, postText, postTag, postTime)+''+qData2;
+print += fuPrintPost(postId, postText, postTag, postTime);
 i++;
 comMessagePrint = `${q} ${i} (searchLimit:${searchLimit})`;
 qData = '';
@@ -640,7 +636,7 @@ post = post.trim();
 
 //3
 embedStatus = 'off';
-post = highlightText2(post, 'out');
+post = highlightText(post, 'out');
 
 
 
@@ -670,9 +666,20 @@ return `
 
 
 
-// 1
+
+
+
+
+
+
+
+
+var checkText = true;
+
+// 1 highlightText
 function highlightText(text, hrefInOut){
 //text = decodeURIComponent(text); // error sometimes
+
 
 // if code
 text = text.replace(/</g, "&lt;");
@@ -721,6 +728,9 @@ let checkEmbedEmpty = item.split('/');
 if(checkEmbedEmpty[3]){
 var host = item.split('/');
 if(host[3] != undefined){
+
+checkText = false;
+
 switch (host[2]) {
 
 case "youtu.be":
@@ -788,23 +798,31 @@ if(embedStatus != 'off'){
 itemCheck = item.replace(/\./g, symbolForSplit);
 
 if(itemCheck.search(`${symbolForSplit}mp4|${symbolForSplit}webm|${symbolForSplit}avi`) != -1) {
+checkText = false;
+
 embed2 = `<video height="${h}" controls style="width:100%"><source src="${item}" type="video/mp4">
 <source src="${item}" type="video/ogg">Your browser does not support HTML5 video.</video>`;
 }
 
 if(itemCheck.search(`${symbolForSplit}mp3|${symbolForSplit}wav|${symbolForSplit}ogg|${symbolForSplit}m3u`) != -1) {
+checkText = false;
+
 embed2 = `<audio controls style="width:100%; opacity:0.8"><source src="${item}" type="audio/ogg"><source src="${item}" type="audio/mpeg">Your browser does not support the audio element.</audio>`;
 }
 
 
 if(itemCheck.search(
 `${symbolForSplit}jpg|${symbolForSplit}jpeg|${symbolForSplit}png|${symbolForSplit}gif|${symbolForSplit}img|${symbolForSplit}ico`) != -1) {
+checkText = false;
+
 //echo 'test';
 embed2 = `
 <a href="${item}"><img class="border3 img" src="${item}" width=""></a>`;
 }
 
 if(item.search(".html") != -1&&item.search("http") == -1) {
+checkText = false;
+
 embed2 = `<iframe width="${w}" height="400" src="${item}"></iframe>`;
 }
 
@@ -818,24 +836,33 @@ embed2 = `<iframe width="${w}" height="400" src="${item}"></iframe>`;
 
 //if(item.search("http") != -1){
 if(item.slice(0, 4) == 'http'&&item.search("http|://") != -1){
+checkText = false;
+
 if(embedStatus == 'on'&&host != undefined){
+checkText = false;
+
 var ico = `https://www.google.com/s2/favicons?domain_url=${host[2]}`;
 //var ico = `https://api.statvoo.com/favicon/?url=${host[2]}`;
 //var ico = `https://api.faviconkit.com/${host[2]}/16`;
 item = `<a target="_blank" href="${item}"><img class="ico op" src="${ico}" width="14px" alt="ico"> ${item}</a>`;
 }else{
+checkText = false;
+
 item = `<a target="_blank" href="${item}">${item}</a>`;
 }
 }
 
 
 if(item.search("./") != -1&&item.search(".htm") != -1&&item.search("http") == -1){
+checkText = false;
 item = `<a target="_blank" href="${item}">${item}</a>`;
 }
 
 
 //add tag
 if(item[0] == '#'){
+checkText = false;
+
 item = item.replace(/#/g, "");
 if(hrefInOut == 'out'){
 /*item = `<a rel="nofollow" href="/projects/blog-in-progress/?q=${item} tag">#${item} <span class="sup">⇗</span></a>`;*/
@@ -846,7 +873,13 @@ item = `<a rel="nofollow" href="${scriptDir}?q=%23${item}">#${item}</a>`;
 }
 
 
+if(checkText == true){
+if(q != ''&&q != null){
+item = item.toLowerCase().replace(q.toLowerCase(), `<span style="border-bottom: 3px solid  var(--orange);">${q}</span>`);
+}
+}
 
+checkText = true;
 text += item;
 
 
@@ -883,7 +916,7 @@ return text;
 
 
 
-// 2
+// 2 highlightText
 // highlight Text2 with autoplay when pressed id (date)
 function highlightText2(text, hrefInOut){
 //text = decodeURIComponent(text); // error sometimes
@@ -1031,6 +1064,8 @@ embed2 = `<iframe width="${w}" height="400" src="${item}"></iframe>`;
 
 //if(item.search("http") != -1){
 if(item.slice(0, 4) == 'http'&&item.search("http|://") != -1){
+checkText = false;
+
 if(embedStatus == 'on'&&host != undefined){
 var ico = `https://www.google.com/s2/favicons?domain_url=${host[2]}`;
 //var ico = `https://api.statvoo.com/favicon/?url=${host[2]}`;
@@ -1043,12 +1078,16 @@ item = `<a target="_blank" href="${item}">${item}</a>`;
 
 
 if(item.search("./") != -1&&item.search(".htm") != -1&&item.search("http") == -1){
+
+
 item = `<a target="_blank" href="${item}">${item}</a>`;
 }
 
 
 //add tag
 if(item[0] == '#'){
+
+
 item = item.replace(/#/g, "");
 if(hrefInOut == 'out'){
 /*item = `<a rel="nofollow" href="/projects/blog-in-progress/?q=${item} tag">#${item} <span class="sup">⇗</span></a>`;*/
@@ -1057,7 +1096,6 @@ item = `<a rel="nofollow" href="${scriptDir}?q=%23${item}">#${item}</a>`;
 item = `<a rel="nofollow" href="${scriptDir}?q=%23${item}">#${item}</a>`;
 }
 }
-
 
 
 text += item;
