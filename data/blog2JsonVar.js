@@ -1,6 +1,13 @@
 var blog2JsonVar = 
 [
     {
+        "id": "15",
+        "text": "CSS Feature Queries \u2013 DWR.IO",
+        "url": "https:\/\/dwr.io\/css-feature-queries\/",
+        "tag": "#CSS",
+        "time": 1680569531
+    },
+    {
         "id": "14",
         "text": "Elon Musk on Twitter: \"Don\u2019t Look Up \u2026 but AGI instead of comet\" \/ Twitter",
         "url": "https:\/\/twitter.com\/elonmusk\/status\/1642026231766953985",
