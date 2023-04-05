@@ -1,6 +1,13 @@
 var blog2JsonVar = 
 [
     {
+        "id": "16",
+        "text": "Elon Musk on Twitter: \"Summary of argument against AI safety https:\/\/t.co\/Vmg4yJm22Y\" \/ Twitter",
+        "url": "https:\/\/twitter.com\/elonmusk\/status\/1643391764064256000",
+        "tag": "#AI #tech",
+        "time": 1680675093
+    },
+    {
         "id": "15",
         "text": "CSS Feature Queries \u2013 DWR.IO",
         "url": "https:\/\/dwr.io\/css-feature-queries\/",
@@ -11,7 +18,7 @@ var blog2JsonVar =
         "id": "14",
         "text": "Elon Musk on Twitter: \"Don\u2019t Look Up \u2026 but AGI instead of comet\" \/ Twitter",
         "url": "https:\/\/twitter.com\/elonmusk\/status\/1642026231766953985",
-        "tag": "#human #AI #tech",
+        "tag": "#AI #tech",
         "time": 1680327964
     },
     {
