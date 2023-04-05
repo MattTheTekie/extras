@@ -9,10 +9,6 @@ var adsJsonVar =
         "url": ""
     },
     {
-        "text": "<script async src=\"https:\/\/pagead2.googlesyndication.com\/pagead\/js\/adsbygoogle.js?client=ca-pub-9615069178907251\"\r\n     crossorigin=\"anonymous\"><\/script>\r\n<!-- horizontal responsive -->\r\n<ins class=\"adsbygoogle\"\r\n     style=\"display:block\"\r\n     data-ad-client=\"ca-pub-9615069178907251\"\r\n     data-ad-slot=\"1506893835\"\r\n     data-ad-format=\"auto\"\r\n     data-full-width-responsive=\"true\"><\/ins>\r\n<script>\r\n     (adsbygoogle = window.adsbygoogle || []).push({});\r\n<\/script>",
-        "url": ""
-    },
-    {
         "text": "Arch Linux",
         "url": "https:\/\/archlinux.org\/"
     },
