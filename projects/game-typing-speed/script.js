@@ -1,4 +1,4 @@
-// v.3.9.6
+// v.3.9.7
 
 
 
@@ -392,6 +392,23 @@ letters = text;
 // clean text
 
 
+//https://www.charset.org/utf-8/66
+//Variation Selector
+letters = letters.replace(/%EF%B8%82/g, "");
+letters = letters.replace(/%EF%B8%83/g, "");
+letters = letters.replace(/%EF%B8%84/g, "");
+letters = letters.replace(/%EF%B8%85/g, "");
+letters = letters.replace(/%EF%B8%86/g, "");
+letters = letters.replace(/%EF%B8%87/g, "");
+letters = letters.replace(/%EF%B8%88/g, "");
+letters = letters.replace(/%EF%B8%89/g, "");
+letters = letters.replace(/%EF%B8%8A/g, "");
+letters = letters.replace(/%EF%B8%8B/g, "");
+letters = letters.replace(/%EF%B8%8C/g, "");
+letters = letters.replace(/%EF%B8%8D/g, "");
+letters = letters.replace(/%EF%B8%8E/g, "");
+letters = letters.replace(/%EF%B8%8F/g, "");
+letters = letters.replace(/ ️/g, ' '); //Variation Selector
 
 //https://stackoverflow.com/questions/18862256/how-to-detect-emoji-using-javascript
 function removeEmojis (string) {
@@ -400,8 +417,10 @@ function removeEmojis (string) {
   return string.replace(regex, '');
 }
 
-letters = removeEmojis(letters);
 
+
+
+letters = removeEmojis(letters);
 
 letters = transliterate(letters);
 //letters = decodeURIComponent(letters);
@@ -413,7 +432,12 @@ letters = letters.replace(/(\r\n|\r|\n){2,}/g, '$1\n');
 //https://stackoverflow.com/questions/1981349/regex-to-replace-multiple-spaces-with-a-single-space
 letters = letters.replace(/  +/g, ' ');
 
+
+
+
+
 letters = encodeURIComponent(letters);
+
 
 letters = transliterate(letters);
 
