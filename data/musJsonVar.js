@@ -341,10 +341,6 @@ var musJsonVar =
         "url": "https:\/\/www.bbc.co.uk\/sounds\/play\/live:bbc_6music"
     },
     {
-        "text": "Radio Alternativemusic.com | Free Internet Radio | TuneIn",
-        "url": "https:\/\/tunein.com\/radio\/Radio-Alternativemusiccom-s227780\/"
-    },
-    {
         "text": "Radio BurgerFuel | Free Internet Radio | TuneIn",
         "url": "https:\/\/tunein.com\/radio\/Radio-BurgerFuel-s178759\/"
     },
