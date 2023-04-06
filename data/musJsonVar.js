@@ -329,10 +329,6 @@ var musJsonVar =
         "url": "https:\/\/www.youtube.com\/watch?v=A5KEVub9KSs"
     },
     {
-        "text": "Player | Nexus Radio | Internet Radio",
-        "url": "https:\/\/player.nexus.radio\/index.php?start=9&mode=pop"
-    },
-    {
         "text": "Radio 1 Dance - Listen Live - BBC Sounds",
         "url": "https:\/\/www.bbc.co.uk\/sounds\/play\/live:bbc_radio_one_dance"
     },
