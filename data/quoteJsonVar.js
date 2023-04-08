@@ -113,6 +113,10 @@ var quoteJsonVar =
         "url": "https:\/\/www.brainyquote.com\/quotes\/thomas_a_edison_149049"
     },
     {
+        "text": "People get confused sometimes they think an economy is money. Money is a database for exchange of goods and services. Money doesn't have power in and of itself. The actual economy is goods and services. Elon Musk",
+        "url": "https:\/\/twitter.com\/cb_doge\/status\/1644362086753923073"
+    },
+    {
         "text": "People who are crazy enough to think they can change the world are the ones who do. Rob Siltanen",
         "url": ""
     },
