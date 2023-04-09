@@ -1,4 +1,4 @@
-// v.1.6.3
+// v.1.6.4
 // inspired by Twitter, Fediverse
 // not for large json files !
 // task: selection for search. relevant search
@@ -168,16 +168,22 @@ postTime = '';
 if(item['tweet']['id'] != null){ postId = item['tweet']['id']; }
 if(item['tweet'] != null){ postText = item['tweet']['full_text']; }
 if(item['tweet']['entities']['hashtags'] != null){ postTag = item['tweet']['entities']['hashtags']; }
-if(item['url'] != null){ postUrl = item['url']; }
+if(item['tweet']['entities']['urls'] != null){ postUrl = item['tweet']['entities']['urls']; }
 if(item['tweet']['created_at'] != null){ postTime = item['tweet']['created_at']; }
 //https://stackoverflow.com/questions/11893083/convert-normal-date-to-unix-timestamp
 postTime = Math.floor(new Date(postTime).getTime() / 1000)
 
 postTag2 = '';
 postTag.forEach((element) => {
-postTag2 += ' '+element['text'];
+postTag2 += ' #'+element['text'];
 });
 postTag = postTag2;
+
+postUrl2 = '';
+postUrl.forEach((element) => {
+postUrl2 += ' '+element['expanded_url'];
+});
+postUrl = postUrl2;
 // end for Twitter
 
 postText = (postText+' '+postUrl).trim();
@@ -277,20 +283,27 @@ postTag = '';
 postUrl = '';
 postTime = '';
 
+// dublicate
 // for Twitter
 if(item['tweet']['id'] != null){ postId = item['tweet']['id']; }
 if(item['tweet'] != null){ postText = item['tweet']['full_text']; }
 if(item['tweet']['entities']['hashtags'] != null){ postTag = item['tweet']['entities']['hashtags']; }
-if(item['url'] != null){ postUrl = item['url']; }
+if(item['tweet']['entities']['urls'] != null){ postUrl = item['tweet']['entities']['urls']; }
 if(item['tweet']['created_at'] != null){ postTime = item['tweet']['created_at']; }
 //https://stackoverflow.com/questions/11893083/convert-normal-date-to-unix-timestamp
 postTime = Math.floor(new Date(postTime).getTime() / 1000)
 
 postTag2 = '';
 postTag.forEach((element) => {
-postTag2 += ' '+element['text'];
+postTag2 += ' #'+element['text'];
 });
 postTag = postTag2;
+
+postUrl2 = '';
+postUrl.forEach((element) => {
+postUrl2 += ' '+element['expanded_url'];
+});
+postUrl = postUrl2;
 // end for Twitter
 
 
@@ -1243,7 +1256,7 @@ navMode = 'p2';
 nav2Print = `
 <div class="tRight">
 <a class="op borderList button light block" href="?p=`+Math.floor(getP)+`">list</a>
-<a class="op borderList button light block" href="?id=">rand</a>
+<!--<a class="op borderList button light block" href="?id=">rand</a>-->
 </div>
 <!--<a class="op border2 button light" style="width: 49%;" href="#" onclick="history.back()">back</a>-->
 `;
@@ -1254,8 +1267,8 @@ navMode = 'p2';
 
 nav2Print = `
 <div class="tRight">
-<a class="op borderList button light" href="?p=`+Math.floor(getP)+`">list</a>
-<a class="op borderList button light" href="?id=">random</a>
+<a class="op block borderList button light" href="?p=`+Math.floor(getP)+`">list</a>
+<!--<a class="op borderList button light" href="?id=">random</a>-->
 </div>
 <!--<a class="op border2 button light" style="width: 49%;" href="#" onclick="history.back()">back</a>-->
 `;
@@ -1265,7 +1278,7 @@ if(com == ''){
 
 nav2Print = `
 <div class="tRight">
-<a class="op borderList button light" href="?id=">random</a>
+<!--<a class="op borderList button light" href="?id=">random</a>-->
 </div>
 <!--<a class="op border2 button light" style="width: 49%;" href="#" onclick="history.back()">back</a>-->
 `;

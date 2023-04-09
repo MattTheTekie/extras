@@ -1,4 +1,4 @@
-// v.1.6.3
+// v.1.6.4
 // inspired by Twitter, Fediverse
 // not for large json files !
 // task: selection for search. relevant search
@@ -1222,7 +1222,7 @@ navMode = 'p2';
 nav2Print = `
 <div class="tRight">
 <a class="op borderList button light block" href="?p=`+Math.floor(getP)+`">list</a>
-<a class="op borderList button light block" href="?id=">rand</a>
+<!--<a class="op borderList button light block" href="?id=">rand</a>-->
 </div>
 <!--<a class="op border2 button light" style="width: 49%;" href="#" onclick="history.back()">back</a>-->
 `;
@@ -1233,8 +1233,8 @@ navMode = 'p2';
 
 nav2Print = `
 <div class="tRight">
-<a class="op borderList button light" href="?p=`+Math.floor(getP)+`">list</a>
-<a class="op borderList button light" href="?id=">random</a>
+<a class="op block borderList button light" href="?p=`+Math.floor(getP)+`">list</a>
+<!--<a class="op borderList button light" href="?id=">random</a>-->
 </div>
 <!--<a class="op border2 button light" style="width: 49%;" href="#" onclick="history.back()">back</a>-->
 `;
@@ -1244,7 +1244,7 @@ if(com == ''){
 
 nav2Print = `
 <div class="tRight">
-<a class="op borderList button light" href="?id=">random</a>
+<!--<a class="op borderList button light" href="?id=">random</a>-->
 </div>
 <!--<a class="op border2 button light" style="width: 49%;" href="#" onclick="history.back()">back</a>-->
 `;
