@@ -3,6 +3,7 @@
 // not for large json files !
 // task: selection for search. relevant search
 
+// copypast from Blog
 
 
 // JSON data in js varible pre-sorted by time in UNIX format, URL in JSON optional it's merged with text
@@ -163,14 +164,23 @@ postTag = '';
 postUrl = '';
 postTime = '';
 
-if(item['id'] != null){ postId = item['id']; }
-if(item['text'] != null){ postText = item['text']; }
-if(item['tag'] != null){ postTag = item['tag']; }
+// for Twitter
+if(item['tweet']['id'] != null){ postId = item['tweet']['id']; }
+if(item['tweet'] != null){ postText = item['tweet']['full_text']; }
+if(item['tweet']['entities']['hashtags'] != null){ postTag = item['tweet']['entities']['hashtags']; }
 if(item['url'] != null){ postUrl = item['url']; }
-if(item['time'] != null){ postTime = item['time']; }
+if(item['tweet']['created_at'] != null){ postTime = item['tweet']['created_at']; }
+//https://stackoverflow.com/questions/11893083/convert-normal-date-to-unix-timestamp
+postTime = Math.floor(new Date(postTime).getTime() / 1000)
+
+postTag2 = '';
+postTag.forEach((element) => {
+postTag2 += ' '+element['text'];
+});
+postTag = postTag2;
+// end for Twitter
 
 postText = (postText+' '+postUrl).trim();
-
 
 
 switch (com){
@@ -267,11 +277,22 @@ postTag = '';
 postUrl = '';
 postTime = '';
 
-if(item['id'] != null){ postId = item['id']; }
-if(item['text'] != null){ postText = item['text']; }
-if(item['tag'] != null){ postTag = item['tag']; }
+// for Twitter
+if(item['tweet']['id'] != null){ postId = item['tweet']['id']; }
+if(item['tweet'] != null){ postText = item['tweet']['full_text']; }
+if(item['tweet']['entities']['hashtags'] != null){ postTag = item['tweet']['entities']['hashtags']; }
 if(item['url'] != null){ postUrl = item['url']; }
-if(item['time'] != null){ postTime = item['time']; }
+if(item['tweet']['created_at'] != null){ postTime = item['tweet']['created_at']; }
+//https://stackoverflow.com/questions/11893083/convert-normal-date-to-unix-timestamp
+postTime = Math.floor(new Date(postTime).getTime() / 1000)
+
+postTag2 = '';
+postTag.forEach((element) => {
+postTag2 += ' '+element['text'];
+});
+postTag = postTag2;
+// end for Twitter
+
 
 postText = (postText+' '+postUrl).trim();
 
