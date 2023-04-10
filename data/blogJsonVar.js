@@ -1,6 +1,13 @@
 var blogJsonVar = 
 [
     {
+        "id": "238",
+        "text": "Opera is a Norwegian company owned by a Chinese group.",
+        "url": "https:\/\/forums.opera.com\/topic\/37155\/opera-browser-is-owned-by-a-chinese-company\/2",
+        "tag": "#browser #Internet #technology",
+        "time": 1681098550
+    },
+    {
         "id": "237",
         "text": "Hubble on Twitter: \"\"Ring in\" @NASAWebb's new image of Uranus! Hubble has observed the planets in our solar system for decades, and its consistent check-ins give astronomers a wealth of data about their atmospheres and weather. Now with Webb on the job as well, we can learn even more! \u2b07\ufe0f https:\/\/t.co\/IxDXCWd2u2\" \/ Twitter",
         "url": "https:\/\/twitter.com\/NASAHubble\/status\/1644037272432525312",
