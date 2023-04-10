@@ -1,6 +1,13 @@
 var blog2JsonVar = 
 [
     {
+        "id": "19",
+        "text": "Opera is a Norwegian company owned by a Chinese group.",
+        "url": "https:\/\/forums.opera.com\/topic\/37155\/opera-browser-is-owned-by-a-chinese-company\/2",
+        "tag": "#technology #browser #Internet #fact",
+        "time": 1681098731
+    },
+    {
         "id": "15",
         "text": "CSS Feature Queries \u2013 DWR.IO",
         "url": "https:\/\/dwr.io\/css-feature-queries\/",
