@@ -247,9 +247,9 @@ white-space: nowrap;
 scrollbar-width: none;
 }
 
-.scrollX::-webkit-scrollbar {
+/*.scrollX::-webkit-scrollbar {
 display: none;
-}
+}*//* for validator */
 }
 
 /* colors */
