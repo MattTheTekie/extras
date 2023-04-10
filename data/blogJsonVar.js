@@ -1,6 +1,13 @@
 var blogJsonVar = 
 [
     {
+        "id": "237",
+        "text": "Hubble on Twitter: \"\"Ring in\" @NASAWebb's new image of Uranus! Hubble has observed the planets in our solar system for decades, and its consistent check-ins give astronomers a wealth of data about their atmospheres and weather. Now with Webb on the job as well, we can learn even more! \u2b07\ufe0f https:\/\/t.co\/IxDXCWd2u2\" \/ Twitter",
+        "url": "https:\/\/twitter.com\/NASAHubble\/status\/1644037272432525312",
+        "tag": "#space",
+        "time": 1681095473
+    },
+    {
         "id": "236",
         "text": "Hubble on Twitter: \"Saturn is known for its iconic rings. And with Hubble's help, now we know that these rings are also heating the giant planet's upper atmosphere! This could provide a tool for predicting if planets around other stars have ring systems as well. Learn more: https:\/\/t.co\/mvNUIzMwjF https:\/\/t.co\/nu2QE3HqPj\" \/ Twitter",
         "url": "https:\/\/twitter.com\/NASAHubble\/status\/1641442081897058313",

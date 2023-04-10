@@ -1,4 +1,4 @@
-// v.1.1.28
+// v.1.1.29
 
 
 
@@ -51,7 +51,7 @@ q = encodeURIComponent(q);
 url = "?q="+q; // quik open website https://about.you.com/bangs/
 if(q == ''){
 urlList = [
-'tec', 'tec', 'tec', 'sci', 'sci', 'tag2'
+'tec', 'tec', 'tec', 'tec', 'tec', 'sci', 'sci', 'tag2'
 ];
 random = Math.floor(Math.random() * urlList.length);
 url = '?q='+urlList[random];
