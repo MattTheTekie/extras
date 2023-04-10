@@ -1,4 +1,4 @@
-// v.1.1.29
+// v.1.1.30
 
 
 
@@ -640,11 +640,16 @@ q = encodeURIComponent(q);
 urlList = [
 "https://www.bbc.co.uk/sounds/play/live:bbc_radio_one_dance",
 "https://www.bbc.co.uk/sounds/play/live:bbc_radio_one",
-"https://www.bbc.co.uk/sounds/play/live:bbc_1xtra"
+"https://www.bbc.co.uk/sounds/play/live:bbc_1xtra",
+"https://www.bbc.co.uk/sounds/play/live:bbc_6music",
+"https://www.bbc.co.uk/sounds/play/live:bbc_6music",
+"https://www.bbc.co.uk/sounds/play/live:bbc_6music",
+"https://www.bbc.co.uk/sounds/play/live:bbc_6music"
 ];
 if(confDevice == 'mobile'){
 urlList.push("https://kexp.org/");
 }else{
+urlList.push("https://tunein.com/radio/KEXP-903-s32537/");
 urlList.push("https://tunein.com/radio/KEXP-903-s32537/");
 }
 random = Math.floor(Math.random() * urlList.length);
