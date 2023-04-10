@@ -91,6 +91,7 @@ let icons = {
 "blue":"🟦",
 
 "php":`<img  src="/img/icons/php-128x128.png" alt="ico" width="16px" height="">`,
+"mysql":`<img  src="/img/icons/mysql-128x128.png" alt="ico" width="16px" height="">`,
 "css3":`<img  src="/img/icons/css3-128x128.png" alt="ico" width="16px" height="">`,
 "html5":`<img  src="/img/icons/html5-128x128.png" alt="ico" width="16px" height="">`,
 "javascript":`<img  src="/img/icons/javascript-128x128.png" alt="ico" width="16px" height="">`,
