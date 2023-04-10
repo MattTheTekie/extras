@@ -27,7 +27,7 @@ let icons = {
 "draw":"✏️", "drawing":"✏️",
 "file":"🗃️",
 "game":"🎮",
-"geany":"🫖",
+"tea":"🫖",
 "friendica":"🇫",
 "fox":"🦊", "firefox":"🦊",
 "github":"🐱",
@@ -88,7 +88,15 @@ let icons = {
 "green":"🟩",
 "indigo":"🟪",
 "violet":"🟪",
-"blue":"🟦"
+"blue":"🟦",
+
+"php":`<img  src="/img/icons/php-128x128.png" alt="ico" width="16px" height="">`,
+"css3":`<img  src="/img/icons/css3-128x128.png" alt="ico" width="16px" height="">`,
+"html5":`<img  src="/img/icons/html5-128x128.png" alt="ico" width="16px" height="">`,
+"javascript":`<img  src="/img/icons/javascript-128x128.png" alt="ico" width="16px" height="">`,
+"geany":`<img  src="/img/icons/geany-128x128.png" alt="ico" width="16px" height="">`,
+"firefox":`<img  src="/img/icons/firefox-128x128.png" alt="ico" width="16px" height="">`
+
 
 };
 

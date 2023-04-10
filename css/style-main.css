@@ -1,4 +1,4 @@
-/* v.12.18.8 */
+/* v.12.18.9 */
 * {  color-scheme: light dark; } /* view-source:about:blank */ 
 
 :root{
@@ -37,7 +37,7 @@ padding: 0 var(--bodyP);
 display: flex;
 flex-direction: column;
 min-height: 100vh;
-min-height:  -webkit-fill-available;
+/*min-height:  -webkit-fill-available;*/
 height: 100%;
 flex-basis: 100%;
 overflow-y: scroll;
