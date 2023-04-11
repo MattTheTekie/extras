@@ -1,6 +1,13 @@
 var blog2JsonVar = 
 [
     {
+        "id": "21",
+        "text": "Juice jacking rising, FBI says don't use airport USB outlets - Android Authority",
+        "url": "https:\/\/www.androidauthority.com\/juice-jacking-3311056\/",
+        "tag": "#technology #news",
+        "time": 1681238565
+    },
+    {
         "id": "20",
         "text": "New HTML Element: search",
         "url": "https:\/\/alvaromontoro.com\/blog\/68033\/new-html-element-search",
