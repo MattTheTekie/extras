@@ -1,6 +1,13 @@
 var blog2JsonVar = 
 [
     {
+        "id": "20",
+        "text": "New HTML Element: search",
+        "url": "https:\/\/alvaromontoro.com\/blog\/68033\/new-html-element-search",
+        "tag": "#HTML #new",
+        "time": 1681178115
+    },
+    {
         "id": "19",
         "text": "Opera is a Norwegian company owned by a Chinese group.",
         "url": "https:\/\/forums.opera.com\/topic\/37155\/opera-browser-is-owned-by-a-chinese-company\/2",
