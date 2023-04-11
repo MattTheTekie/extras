@@ -1,6 +1,13 @@
 var blog2JsonVar = 
 [
     {
+        "id": "22",
+        "text": "How to Store a Javascript Array in localStorage",
+        "url": "https:\/\/catalins.tech\/store-array-in-localstorage\/",
+        "tag": "#JavaScript",
+        "time": 1681239301
+    },
+    {
         "id": "21",
         "text": "Juice jacking rising, FBI says don't use airport USB outlets - Android Authority",
         "url": "https:\/\/www.androidauthority.com\/juice-jacking-3311056\/",
