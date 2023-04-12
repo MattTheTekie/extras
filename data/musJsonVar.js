@@ -1,10 +1,6 @@
 var musJsonVar = 
 [
     {
-        "text": "011.FM - Alternative | Free Internet Radio | TuneIn",
-        "url": "https:\/\/tunein.com\/radio\/011FM---Alternative-s296037\/"
-    },
-    {
         "text": "107 Meridian FM, 107.0 FM, East Grinstead, UK | Free Internet Radio | TuneIn",
         "url": "https:\/\/tunein.com\/radio\/107-Meridian-FM-1070-s98953\/"
     },
@@ -323,10 +319,6 @@ var musJsonVar =
     {
         "text": "ORF Radio FM4, ORF FM 4 103.8 FM, Wien, Austria | Free Internet Radio | TuneIn",
         "url": "https:\/\/tunein.com\/radio\/ORF-Radio-FM4-1038-s8235\/"
-    },
-    {
-        "text": "Philosopher \u00b7 San Fermin",
-        "url": "https:\/\/www.youtube.com\/watch?v=A5KEVub9KSs"
     },
     {
         "text": "Radio 1 Dance - Listen Live - BBC Sounds",
