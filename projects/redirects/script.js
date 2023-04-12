@@ -1,4 +1,4 @@
-// v.1.1.30
+// v.1.1.31
 
 
 
@@ -641,9 +641,6 @@ urlList = [
 "https://www.bbc.co.uk/sounds/play/live:bbc_radio_one_dance",
 "https://www.bbc.co.uk/sounds/play/live:bbc_radio_one",
 "https://www.bbc.co.uk/sounds/play/live:bbc_1xtra",
-"https://www.bbc.co.uk/sounds/play/live:bbc_6music",
-"https://www.bbc.co.uk/sounds/play/live:bbc_6music",
-"https://www.bbc.co.uk/sounds/play/live:bbc_6music",
 "https://www.bbc.co.uk/sounds/play/live:bbc_6music"
 ];
 if(confDevice == 'mobile'){
