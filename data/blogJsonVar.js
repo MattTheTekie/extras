@@ -1,6 +1,13 @@
 var blogJsonVar = 
 [
     {
+        "id": "239",
+        "text": "NASA Webb Telescope on Twitter: \"Stars: always making a dramatic exit! \ud83c\udf1f Webb\u2019s powerful infrared eye has captured never-before-seen detail of Cassiopeia A (Cas A). 11,000 light-years away, it is the remnant of a massive star that exploded about 340 years ago: https:\/\/t.co\/LLQsFQJwVQ https:\/\/t.co\/xqlGFzhYoy\" \/ Twitter",
+        "url": "https:\/\/twitter.com\/NASAWebb\/status\/1644340212191903745",
+        "tag": "#space",
+        "time": 1681272476
+    },
+    {
         "id": "237",
         "text": "Hubble on Twitter: \"\"Ring in\" @NASAWebb's new image of Uranus! Hubble has observed the planets in our solar system for decades, and its consistent check-ins give astronomers a wealth of data about their atmospheres and weather. Now with Webb on the job as well, we can learn even more! \u2b07\ufe0f https:\/\/t.co\/IxDXCWd2u2\" \/ Twitter",
         "url": "https:\/\/twitter.com\/NASAHubble\/status\/1644037272432525312",
