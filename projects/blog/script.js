@@ -1,4 +1,4 @@
-// v.1.6.4
+// v.1.6.5
 // inspired by Twitter, Fediverse
 // not for large json files !
 // task: selection for search. relevant search
@@ -343,6 +343,7 @@ print += `
 print += `
 <div class="center tCenter">
 <div class="wrapper4">
+<span class="op small">list of tags:</span><br>
 <div class="tagList padding">`+tagList(printTagList)+`</div>
 </div>
 </div>
