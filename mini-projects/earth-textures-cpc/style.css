@@ -21,8 +21,8 @@ transparent 50%
 );
 
 background-size: 7px 7px;
-width: 40vw;
-height: 40vw;
+width: 30vw;
+height: 30vw;
 border-radius: 60% 60% 60% 60%;
 display: block;
 margin: 0 aut;
@@ -32,8 +32,8 @@ border: 0.5vw solid #FF7D00;
 
 .orange, .leaf, .leaf2, .leaf3{
 position: absolute;
-left: 30vw;
-top: 10vw;
+left: 35vw;
+top: 12vw;
 }
 
 .leaf{
