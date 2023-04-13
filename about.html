@@ -65,7 +65,7 @@
 
 
 
-<!-- Inspired by linktr.ee -->
+<!-- Inspired by linktr.ee, GitHub profile -->
 
 <div class="padding"></div>
 
@@ -107,10 +107,44 @@ Home Page and Others Projects. I'm trying to learn  English and JavaScript, writ
 <a class="button" href="https://www.deviantart.com/gabc123123">Deviantart</a>
 <a class="button" href="https://github.com/gabc123123">Github & Code</a>
 
+</span>
 
 
+
+
+
+<span class="block padding bg3 border4 margin tLeft">
+<span id="blog" class="block padding margin op bold tCenter">Blog2:</span>
+
+<div id="echoBlog"></div><div id="echoBlog2"></div>
+<script src="/projects/blog/script.js"></script>
+
+<!--<script src="/data/blogJsonVar.js"></script>
+<script>
+blog("echoBlog", blogJsonVar, 'post', 'off', 'off', '1', 'blog.html', 'off', '500');
+// printId, blogJsonVar, postClass, embedStatus, tagListStatus, postLimit, scriptDir, multiEmbedStatus tagListLimit
+</script>-->
+
+
+<script src="/data/blog2JsonVar.js"></script>
+<script>
+blog("echoBlog2", blog2JsonVar, 'post', 'off', 'off', '1', 'blog2.html', 'off', '500');
+// printId, blogJsonVar, postClass, embedStatus, tagListStatus, postLimit, scriptDir, multiEmbedStatus tagListLimit
+</script>
 
 </span>
+
+
+<span class="block padding bg3 border4 margin">
+<span id="Twitter" class="block padding margin op bold">Twitter:</span>
+
+<div id="twitter"></div>
+</span>
+
+
+
+
+
 
 
 
@@ -139,7 +173,7 @@ Home Page and Others Projects. I'm trying to learn  English and JavaScript, writ
 
 <span class="block padding bg3 border4 margin">
 <span id="contact" class="block padding pre margin op bold">contact:</span>
-<a class="button" href="mailto:gabc123123+gabc.tk@gmail.com?subject=contact">E-Mail</a>
+<a class="button" href="mailto:gabc123123+gabc.tk@gmail.com?subject=From E-Mail on Website">E-Mail</a>
 <a class="button" href="https://twitter.com/gabcpr">Twitter</a>
 </span>
 
@@ -214,6 +248,9 @@ border-bottom: 4px solid var(--orange);
 <script src="/js/ad.js"></script>
 <script> fuAds('', 'ads2', ''); </script>
 
-
+<script src="/projects/twitter-embed/script.js"></script>
+<script>
+twitterEmbed('twitter', 'gabcpr', 1, confThemeEmbed);
+</script>
 </body>
 </html>

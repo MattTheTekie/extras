@@ -1,4 +1,5 @@
-// v.1.2.21
+// v.1.2.22
+// Inspired by GitHub profile
 
 function insertIcon(id, mode){
 // mode: "strict" by word or not sctirct, example: insertIcon(idDivWrapper, 'strict');

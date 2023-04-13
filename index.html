@@ -269,6 +269,7 @@ insertIcon("main");
 <a class="button light3 border3" tabindex="0" href="/projects/todo-list/">todo list</a>
 <a class="button light3 border3" tabindex="0" href="/projects/tpl-project/">tpl project</a>
 <a class="button light3 border3" tabindex="0" href="/projects/translit/">translit</a>
+<a class="button light3 border3" tabindex="0" href="/projects/twitter-embed/">twitter embed</a>
 </div>
 
 
@@ -311,7 +312,6 @@ insertIcon("projects");
 <a class="button light3 border3" tabindex="0" href="/mini-projects/sun/">sun</a>
 <a class="button light3 border3" tabindex="0" href="/mini-projects/textarea/">textarea</a>
 <a class="button light3 border3" tabindex="0" href="/mini-projects/tpl-project-mini/">tpl project mini</a>
-<a class="button light3 border3" tabindex="0" href="/mini-projects/twitter-embed/">twitter embed</a>
 </div>
 
 
@@ -331,7 +331,7 @@ insertIcon("mini-projects");
 divIdToTag('idTagList', 'getId')
 </script>
 
-<br><div id="echoBlog">echoBlog</div><br>
+<br><div id="echoBlog"></div><br>
 <div id="echoBlog2"></div></div>
 
 </div>
@@ -362,27 +362,27 @@ divIdToTag('idTagList', 'getId')
 <script src="/js/ad.js"></script>
 <script> fuAds('', 'ads2', ''); </script>
 
+<script src="/projects/twitter-embed/script.js"></script>
+<script>
+twitterEmbed('twitter', 'gabcpr', 1, confThemeEmbed);
+</script>
 
-
-<script src="/data/blogJsonVar.js"></script>
 
 
 <script src="/projects/blog/script.js"></script>
 
-
-
+<!--<script src="/data/blogJsonVar.js"></script>
 <script>
 blog("echoBlog", blogJsonVar, 'post', 'off', 'off', '1', 'blog.html', 'off', '500');
 // printId, blogJsonVar, postClass, embedStatus, tagListStatus, postLimit, scriptDir, multiEmbedStatus tagListLimit
-</script>
+</script>-->
 
-<!--
+
 <script src="/data/blog2JsonVar.js"></script>
 <script>
 blog("echoBlog2", blog2JsonVar, 'post', 'off', 'off', '1', 'blog2.html', 'off', '500');
 // printId, blogJsonVar, postClass, embedStatus, tagListStatus, postLimit, scriptDir, multiEmbedStatus tagListLimit
 </script>
--->
 
 <script>
 if(confDevice == 'mobile'){
