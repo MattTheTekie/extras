@@ -97,7 +97,11 @@ let icons = {
 "html5":`<img  src="/img/icons/html5-128x128.png" alt="ico" width="16px" height="">`,
 "javascript":`<img  src="/img/icons/javascript-128x128.png" alt="ico" width="16px" height="">`,
 "geany":`<img  src="/img/icons/geany-128x128.png" alt="ico" width="16px" height="">`,
-"firefox":`<img  src="/img/icons/firefox-128x128.png" alt="ico" width="16px" height="">`
+"firefox":`<img  src="/img/icons/firefox-128x128.png" alt="ico" width="16px" height="">`,
+"github":`<img  src="/img/icons/github-128x128.png" alt="ico" width="16px" height="">`,
+"codepen":`<img  src="/img/icons/codepen-128x128.png" alt="ico" width="16px" height="">`,
+"deviantart":`<img  src="/img/icons/deviantart-128x128.png" alt="ico" width="16px" height="">`,
+"twitter":`<img  src="/img/icons/twitter-128x128.png" alt="ico" width="16px" height="">`
 
 
 };
@@ -149,7 +153,7 @@ if(check == 'exit'){
 icArr = [...new Set(icArr)];
 //icon = icArr.toString();
 icon = icArr.join('');
-linkText = '<span class="ico2 pre">'+icon+'</span><span class="pre"> </span>'+linkText;
+linkText = '<span class="ico2 pre" style="font-size: 12px;">'+icon+'</span><span class="pre"> </span>'+linkText;
 divId.getElementsByTagName("a")[index].innerHTML = linkText;
 }else{
 //linkText = '<span class="op pre">📄 </span>'+linkText;
@@ -192,7 +196,7 @@ if(check == 'exit'){
 icArr = [...new Set(icArr)];
 //icon = icArr.toString();
 icon = icArr.join('');
-linkText = '<span class="ico2 pre">'+icon+'</span><span class="pre"> </span>'+linkText;
+linkText = '<span class="ico2 pre" style="font-size: 12px;">'+icon+'</span><span class="pre"> </span>'+linkText;
 divId.getElementsByTagName("button")[index].innerHTML = linkText;
 }else{
 //linkText = '<span class="op pre">📄 </span>'+linkText;
