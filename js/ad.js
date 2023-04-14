@@ -71,13 +71,13 @@ if(confDataCollection == 'on'){
 //<!-- Google tag (gtag.js) -->
 var scriptStat = document.createElement('script');
 scriptStat.type='text/javascript';
-scriptStat.src = 'https://www.googletagmanager.com/gtag/js?id=G-DV2VRTWS4N';      
+scriptStat.src = 'https://www.googletagmanager.com/gtag/js?id=G-JZ4TN0KQJW';      
 document.getElementsByTagName('head')[0].appendChild(scriptStat);
 
 window.dataLayer = window.dataLayer || [];
 function gtag(){dataLayer.push(arguments);}
 gtag('js', new Date());
-gtag('config', 'G-DV2VRTWS4N');
+gtag('config', 'G-JZ4TN0KQJW');
 
 
 
@@ -87,7 +87,7 @@ gtag('config', 'G-DV2VRTWS4N');
 // Google Ads 
 var scriptGads = document.createElement('script');
 scriptGads.type='text/javascript';
-scriptGads.src = 'https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-9615069178907251'; scriptGads.crossOrigin = 'anonymous';
+scriptGads.src = 'https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-91344978none'; scriptGads.crossOrigin = 'anonymous';
 document.getElementsByTagName('head')[0].appendChild(scriptGads);
 */
 
