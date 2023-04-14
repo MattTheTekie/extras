@@ -72,10 +72,15 @@ p {
 
 
 body {
-	background: url("https://images.unsplash.com/photo-1584464595532-de3ef71d11e4?crop=entropy&cs=srgb&fm=jpg&ixid=MnwzMjM4NDZ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2ODA3OTcwODg&ixlib=rb-4.0.3&q=85")
-		center;
+	/*background: url("https://images.unsplash.com/photo-1584464595532-de3ef71d11e4?crop=entropy&cs=srgb&fm=jpg&ixid=MnwzMjM4NDZ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2ODA3OTcwODg&ixlib=rb-4.0.3&q=85")
+		center;*/
 	/* metal image by Martin Woortman for Unsplash: https://unsplash.com/photos/csH4Z8--TMk */
-	background-size: cover;
+
 	/*background-clip: text;
 	-webkit-background-clip: text;*/
+	background: radial-gradient(
+		circle,
+	 #ACACAC 0%,
+		#2A2A2A 100%
+	);
 }
