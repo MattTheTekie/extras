@@ -1,4 +1,4 @@
-// v.1.6.5
+// v.1.6.6
 // inspired by Twitter, Fediverse
 // not for large json files !
 // task: selection for search. relevant search
@@ -878,7 +878,12 @@ item = `<a rel="nofollow" href="${scriptDir}?q=%23${item}">#${item}</a>`;
 
 if(checkText == true){
 if(q != ''&&q != null){
-item = item.toLowerCase().replace(q.toLowerCase(), `<span style="border-bottom: 3px solid  var(--orange);">${q}</span>`);
+//item = item.toLowerCase().replace(q.toLowerCase(), `<span style="border-bottom: 3px solid  var(--orange);">${q}</span>`);
+//https://stackoverflow.com/questions/7313395/case-insensitive-replace-all
+var searchMask = q;
+var regEx = new RegExp(searchMask, "ig");
+var replaceMask = `<span style="border-bottom: 3px solid  var(--orange);">${item}</span>`;
+var item = item.replace(regEx, replaceMask);
 }
 }
 
