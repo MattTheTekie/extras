@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!--<?xml-stylesheet type="text/css" href="https://gabc123123.github.io/style.css" ?>-->
+<!--<?xml-stylesheet type="text/css" href="https://gabc22.github.io/style.css" ?>-->
 
 <rss version="2.0">
 <channel>
 <title>Gabc RSS2</title>
 
 <description></description>
-<link>http://gabc123123.github.io/</link>
+<link>http://gabc22.github.io/</link>
 
 <image class="logo">
-    <url>http://gabc123123.github.io/img/logo.png</url>
+    <url>http://gabc22.github.io/img/logo.png</url>
     <title>Gabc RSS2</title>
-    <link>http://gabc123123.github.io/</link>
+    <link>http://gabc22.github.io/</link>
 <width>32</width>
 <height>32</height>
 </image>

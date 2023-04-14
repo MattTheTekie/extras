@@ -2,7 +2,7 @@ README.md
 
 
 Homepage and other projects: Extensions: new tab redirect (for Firefox, Chrome). TPL (website templates).  🎮 Game: memory symbol, tic tac toe, typing speed. Todo list. Themes for Firefox, Geany color ...
-[https://gabc.tk](https://gabc.tk)
+[https://gabc22.github.io](https://gabc22.github.io)
 
 [#website](https://github.com/topics/website?s=updated)
 [#homepage](https://github.com/topics/homepage?s=updated)
@@ -12,7 +12,7 @@ Homepage and other projects: Extensions: new tab redirect (for Firefox, Chrome).
 [#game](https://github.com/topics/game?s=updated)
 
 
-[Download Website ZIP](https://github.com/gabc123123/gabc123123.github.io/archive/refs/heads/main.zip)
+[Download Website ZIP](https://github.com/gabc22/gabc22.github.io/archive/refs/heads/main.zip)
 
 License: CC BY-SA 4.0
 <!-- footer, LICENSE.md README.md -->
