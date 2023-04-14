@@ -1,0 +1,33 @@
+/* v.1.0.0 */
+
+
+
+.square {
+display: inline-flex;
+height: 50px;
+width: 50px;
+border: 1px solid var(--red);
+font-size: xx-small;
+align-items: center;
+justify-content: center;
+}
+
+/*
+#result {
+display: grid;
+grid-template-columns:
+1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr
+;
+grid-auto-columns: 0;
+grid-gap: 0px;
+margin: 0 auto;
+justify-content: center;
+align-items: center;
+text-align: center;
+margin-bottom: 0px;
+max-width: 150px;
+}
+*/
+#result {
+text-align: center;
+}
