@@ -1,4 +1,4 @@
-// v.1.2.22
+// v.1.2.23
 // Inspired by GitHub profile
 
 function insertIcon(id, mode){
@@ -91,17 +91,17 @@ let icons = {
 "violet":"🟪",
 "blue":"🟦",
 
-"php":`<img  src="/img/icons/php-128x128.png" alt="ico" width="16px" height="">`,
-"mysql":`<img  src="/img/icons/mysql-128x128.png" alt="ico" width="16px" height="">`,
-"css3":`<img  src="/img/icons/css3-128x128.png" alt="ico" width="16px" height="">`,
-"html5":`<img  src="/img/icons/html5-128x128.png" alt="ico" width="16px" height="">`,
-"javascript":`<img  src="/img/icons/javascript-128x128.png" alt="ico" width="16px" height="">`,
-"geany":`<img  src="/img/icons/geany-128x128.png" alt="ico" width="16px" height="">`,
-"firefox":`<img  src="/img/icons/firefox-128x128.png" alt="ico" width="16px" height="">`,
-"github":`<img  src="/img/icons/github-128x128.png" alt="ico" width="16px" height="">`,
-"codepen":`<img  src="/img/icons/codepen-128x128.png" alt="ico" width="16px" height="">`,
-"deviantart":`<img  src="/img/icons/deviantart-128x128.png" alt="ico" width="16px" height="">`,
-"twitter":`<img  src="/img/icons/twitter-128x128.png" alt="ico" width="16px" height="">`
+"php":`<img  src="/img/icons/php-128x128.png" alt="ico" width="16px" height="16px">`,
+"mysql":`<img  src="/img/icons/mysql-128x128.png" alt="ico" width="16px" height="16px">`,
+"css3":`<img  src="/img/icons/css3-128x128.png" alt="ico" width="16px" height="16px">`,
+"html5":`<img  src="/img/icons/html5-128x128.png" alt="ico" width="16px" height="16px">`,
+"javascript":`<img  src="/img/icons/javascript-128x128.png" alt="ico" width="16px" height="16px">`,
+"geany":`<img  src="/img/icons/geany-128x128.png" alt="ico" width="16px" height="16px">`,
+"firefox":`<img  src="/img/icons/firefox-128x128.png" alt="ico" width="16px" height="16px">`,
+"github":`<img  src="/img/icons/github-128x128.png" alt="ico" width="16px" height="16px">`,
+"codepen":`<img  src="/img/icons/codepen-128x128.png" alt="ico" width="16px" height="16px">`,
+"deviantart":`<img  src="/img/icons/deviantart-128x128.png" alt="ico" width="16px" height="16px">`,
+"twitter":`<img  src="/img/icons/twitter-128x128.png" alt="ico" width="16px" height="16px">`
 
 
 };

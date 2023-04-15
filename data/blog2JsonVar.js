@@ -1,6 +1,27 @@
 var blog2JsonVar = 
 [
     {
+        "id": "28",
+        "text": "Artify",
+        "url": "https:\/\/artifylabs.io\/",
+        "tag": "#bookmark #AI",
+        "time": 1681539324
+    },
+    {
+        "id": "27",
+        "text": "Perplexity AI",
+        "url": "https:\/\/www.perplexity.ai\/",
+        "tag": "#bookmark #AI",
+        "time": 1681539231
+    },
+    {
+        "id": "26",
+        "text": "TLDR This - Article Summarizer & Online Text Summarizing Tool",
+        "url": "https:\/\/tldrthis.com\/",
+        "tag": "#bookmark #AI",
+        "time": 1681538827
+    },
+    {
         "id": "25",
         "text": "Autoblogger.ai",
         "url": "https:\/\/www.autoblogger.ai\/",
