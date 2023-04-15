@@ -1,6 +1,13 @@
 var blog2JsonVar = 
 [
     {
+        "id": "25",
+        "text": "Autoblogger.ai",
+        "url": "https:\/\/www.autoblogger.ai\/",
+        "tag": "#bookmark #AI",
+        "time": 1681527121
+    },
+    {
         "id": "24",
         "text": "I Changed the domain and repository name: from https:\/\/gabc.tk to https:\/\/gabc22.github.io (old https:\/\/gabc123123.github.io )",
         "url": "",
