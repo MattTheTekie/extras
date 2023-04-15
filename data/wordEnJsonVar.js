@@ -436,6 +436,9 @@ var wordEnJsonVar =
         "text": "abusing"
     },
     {
+        "text": "abusite"
+    },
+    {
         "text": "abusive"
     },
     {
@@ -2996,8 +2999,5 @@ var wordEnJsonVar =
     },
     {
         "text": "algae"
-    },
-    {
-        "text": "algebra"
     }
 ]

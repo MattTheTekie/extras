@@ -91,17 +91,17 @@ let icons = {
 "violet":"🟪",
 "blue":"🟦",
 
-"php":`<img  src="/img/icons/php-128x128.png" alt="ico" width="16px" height="16px">`,
-"mysql":`<img  src="/img/icons/mysql-128x128.png" alt="ico" width="16px" height="16px">`,
-"css3":`<img  src="/img/icons/css3-128x128.png" alt="ico" width="16px" height="16px">`,
-"html5":`<img  src="/img/icons/html5-128x128.png" alt="ico" width="16px" height="16px">`,
+"php":`<img  src="/img/icons/php-128x128.png" alt="ico" width="16" height="16">`,
+"mysql":`<img  src="/img/icons/mysql-128x128.png" alt="ico" width="16" height="16">`,
+"css3":`<img  src="/img/icons/css3-128x128.png" alt="ico" width="16" height="16">`,
+"html5":`<img  src="/img/icons/html5-128x128.png" alt="ico" width="16" height="16">`,
 "javascript":`<img  src="/img/icons/javascript-128x128.png" alt="ico" width="16px" height="16px">`,
-"geany":`<img  src="/img/icons/geany-128x128.png" alt="ico" width="16px" height="16px">`,
-"firefox":`<img  src="/img/icons/firefox-128x128.png" alt="ico" width="16px" height="16px">`,
-"github":`<img  src="/img/icons/github-128x128.png" alt="ico" width="16px" height="16px">`,
-"codepen":`<img  src="/img/icons/codepen-128x128.png" alt="ico" width="16px" height="16px">`,
-"deviantart":`<img  src="/img/icons/deviantart-128x128.png" alt="ico" width="16px" height="16px">`,
-"twitter":`<img  src="/img/icons/twitter-128x128.png" alt="ico" width="16px" height="16px">`
+"geany":`<img  src="/img/icons/geany-128x128.png" alt="ico" width="16" height="16">`,
+"firefox":`<img  src="/img/icons/firefox-128x128.png" alt="ico" width="16" height="16">`,
+"github":`<img  src="/img/icons/github-128x128.png" alt="ico" width="16" height="16">`,
+"codepen":`<img  src="/img/icons/codepen-128x128.png" alt="ico" width="16" height="16">`,
+"deviantart":`<img  src="/img/icons/deviantart-128x128.png" alt="ico" width="16" height="16">`,
+"twitter":`<img  src="/img/icons/twitter-128x128.png" alt="ico" width="16" height="16">`
 
 
 };
