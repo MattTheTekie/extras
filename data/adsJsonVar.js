@@ -309,6 +309,10 @@ var adsJsonVar =
         "url": "https:\/\/www.w3.org\/"
     },
     {
+        "text": "XAMPP Installers and Downloads for Apache Friends",
+        "url": "https:\/\/www.apachefriends.org\/"
+    },
+    {
         "text": "Xfce Desktop Environment",
         "url": "https:\/\/www.xfce.org\/"
     },
