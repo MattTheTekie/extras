@@ -153,7 +153,7 @@ if(check == 'exit'){
 icArr = [...new Set(icArr)];
 //icon = icArr.toString();
 icon = icArr.join('');
-linkText = '<span class="ico2 pre" style="font-size: 12px;">'+icon+'</span><span class="pre"> </span>'+linkText;
+linkText = '<span class="ico2 pre">'+icon+'</span><span class="pre"> </span>'+linkText;
 divId.getElementsByTagName("a")[index].innerHTML = linkText;
 }else{
 //linkText = '<span class="op pre">📄 </span>'+linkText;
@@ -196,7 +196,7 @@ if(check == 'exit'){
 icArr = [...new Set(icArr)];
 //icon = icArr.toString();
 icon = icArr.join('');
-linkText = '<span class="ico2 pre" style="font-size: 12px;">'+icon+'</span><span class="pre"> </span>'+linkText;
+linkText = '<span class="ico2 pre">'+icon+'</span><span class="pre"> </span>'+linkText;
 divId.getElementsByTagName("button")[index].innerHTML = linkText;
 }else{
 //linkText = '<span class="op pre">📄 </span>'+linkText;
