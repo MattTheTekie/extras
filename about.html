@@ -85,15 +85,22 @@
 <span id="about" class="block padding margin op bold">About:</span>
 
 
-<a target="_blank" class="tag padding" href="https://twitter.com/gabcpr/followers">0 followers (Twitter)</a>
-<a target="_blank" class="tag padding" href="https://feedly.com/i/subscription/feed%2Fhttps://gabc22.github.io%2Frss2.xml
-">1 followers (RSS2)</a>
-<br />
-
-
 Home Page and Others Projects. I'm trying to learn  English and JavaScript, write some code, share something on the blog. I like to create something when I have the strength and desire.
 
-<br>
+</span>
+
+<span class="block padding bg3 border4 margin">
+<span id="counter" class="block padding margin op bold">Counter:</span>
+
+<a target="_blank" class="tag padding" href="https://twitter.com/gabcpr/followers">0 followers (Twitter)</a>
+<a target="_blank" class="tag padding" href="https://feedly.com/i/subscription/feed%2Fhttps://gabc22.github.io%2Frss.xml
+">1 followers (feedly)</a>
+
+</span>
+
+
+<span class="block padding bg3 border4 margin">
+<span id="tools" class="block padding margin op bold">My Tools:</span>
 
 <a target="_blank" class="button" href="https://html.spec.whatwg.org/">HTML5</a>
 <a target="_blank" class="button" href="https://www.w3.org/Style/CSS/">CSS3</a>
@@ -105,8 +112,15 @@ Home Page and Others Projects. I'm trying to learn  English and JavaScript, writ
 <a target="_blank" class="button" href="https://www.mozilla.org/firefox/browsers/">Firefox</a>
 <a target="_blank" class="button" href="https://www.geany.org/">Geany</a>
 
-
 </span>
+
+
+
+
+
+
+
+
 
 
 <span class="block padding bg3 border4 margin">
@@ -124,23 +138,11 @@ Home Page and Others Projects. I'm trying to learn  English and JavaScript, writ
 
 
 <span class="block padding bg3 border4 margin tLeft">
-<span id="blog" class="block padding margin op bold tCenter">Blog2:</span>
+<span id="blog" class="block padding margin op bold tCenter">Blog:</span>
 
-<div id="echoBlog"></div><div id="echoBlog2"></div>
-<script src="/projects/blog/script.js"></script>
-
-<!--<script src="/data/blogJsonVar.js"></script>
-<script>
-blog("echoBlog", blogJsonVar, 'post', 'off', 'off', '3', 'blog.html', 'off', '500');
-// printId, blogJsonVar, postClass, embedStatus, tagListStatus, postLimit, scriptDir, multiEmbedStatus tagListLimit
-</script>-->
+<div id="echoBlog"></div><div id="echoBlog"></div>
 
 
-<script src="/data/blog2JsonVar.js"></script>
-<script>
-blog("echoBlog2", blog2JsonVar, 'post', 'off', 'off', '3', 'blog2.html', 'off', '500');
-// printId, blogJsonVar, postClass, embedStatus, tagListStatus, postLimit, scriptDir, multiEmbedStatus tagListLimit
-</script>
 
 </span>
 
@@ -258,9 +260,26 @@ border-bottom: 4px solid var(--orange);
 <script src="/js/ad.js"></script>
 <script> fuAds('', 'ads2', ''); </script>
 
+
+
+<script src="/projects/blog/script.js"></script>
+
+<script src="/data/blogJsonVar.js"></script>
+<script>
+blog("echoBlog", blogJsonVar, 'post', 'off', 'off', '3', 'blog.html', 'off', '500');
+// printId, blogJsonVar, postClass, embedStatus, tagListStatus, postLimit, scriptDir, multiEmbedStatus tagListLimit
+</script>
+
+
+
 <script src="/projects/twitter-embed/script.js"></script>
 <script>
 twitterEmbed('twitter', 'gabcpr', 3, confThemeEmbed);
 </script>
+
+
+
+
+
 </body>
 </html>

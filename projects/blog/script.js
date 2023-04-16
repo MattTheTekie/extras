@@ -1366,7 +1366,7 @@ i++;
 
 
 
-/*
+
 //https://stackoverflow.com/questions/5409641/set-a-variable-if-undefined-in-javascript
 // if main index js not exit
 if (typeof lang === 'undefined') {
@@ -1384,7 +1384,7 @@ var confThemeEmbed= 'light';
 if (typeof fuWorker === 'undefined') {
 function fuWorker(){ }
 }
-*/
+
 
 
 
