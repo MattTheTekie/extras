@@ -1408,6 +1408,9 @@ var wordEnJsonVar =
         "text": "addictiveness"
     },
     {
+        "text": "addictives"
+    },
+    {
         "text": "addicts"
     },
     {
@@ -2996,8 +2999,5 @@ var wordEnJsonVar =
     },
     {
         "text": "aletheia"
-    },
-    {
-        "text": "algae"
     }
 ]
