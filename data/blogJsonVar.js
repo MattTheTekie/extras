@@ -1,6 +1,20 @@
 var blogJsonVar = 
 [
     {
+        "id": "34",
+        "text": "HTML & CSS Camera",
+        "url": "https:\/\/codepen.io\/kassandrasanch\/pen\/dyMQPKB",
+        "tag": "#CSS #HTML",
+        "time": 1681655353
+    },
+    {
+        "id": "33",
+        "text": "CSS Art Polariod Camera",
+        "url": "https:\/\/codepen.io\/kassandrasanch\/pen\/WNxJZyz",
+        "tag": "#CSS",
+        "time": 1681655296
+    },
+    {
         "id": "32",
         "text": "Vending Machine",
         "url": "https:\/\/codepen.io\/kassandrasanch\/pen\/eYZRKVJ",
