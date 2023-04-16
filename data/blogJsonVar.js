@@ -1,6 +1,13 @@
 var blogJsonVar = 
 [
     {
+        "id": "35",
+        "text": "The End of Computer Magazines in America | Technologizer by Harry McCracken",
+        "url": "https:\/\/www.technologizer.com\/2023\/04\/15\/the-end-of-computer-magazines-in-america\/",
+        "tag": "#technology #news",
+        "time": 1681659936
+    },
+    {
         "id": "34",
         "text": "HTML & CSS Camera",
         "url": "https:\/\/codepen.io\/kassandrasanch\/pen\/dyMQPKB",
