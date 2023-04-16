@@ -32,7 +32,7 @@ if(scriptDir == undefined||scriptDir == ''){ scriptDir = './'; }
 if(multiEmbedStatus == undefined||multiEmbedStatus == ''){ multiEmbedStatus = 'off'; }
 if(tagListLimit == undefined||tagListLimit == ''){ tagListLimit = '500'; }
 
-var searchLimit = 300;
+var searchLimit = 1000;
 
 
 if(blogJsonVar == ''){
