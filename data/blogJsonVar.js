@@ -1,52 +1,136 @@
 var blogJsonVar = 
 [
     {
-        "id": "239",
+        "id": "29",
         "text": "NASA Webb Telescope on Twitter: \"Stars: always making a dramatic exit! \ud83c\udf1f Webb\u2019s powerful infrared eye has captured never-before-seen detail of Cassiopeia A (Cas A). 11,000 light-years away, it is the remnant of a massive star that exploded about 340 years ago: https:\/\/t.co\/LLQsFQJwVQ https:\/\/t.co\/xqlGFzhYoy\" \/ Twitter",
         "url": "https:\/\/twitter.com\/NASAWebb\/status\/1644340212191903745",
         "tag": "#space",
-        "time": 1681272476
+        "time": 1681617137
     },
     {
-        "id": "237",
-        "text": "Hubble on Twitter: \"\"Ring in\" @NASAWebb's new image of Uranus! Hubble has observed the planets in our solar system for decades, and its consistent check-ins give astronomers a wealth of data about their atmospheres and weather. Now with Webb on the job as well, we can learn even more! \u2b07\ufe0f https:\/\/t.co\/IxDXCWd2u2\" \/ Twitter",
-        "url": "https:\/\/twitter.com\/NASAHubble\/status\/1644037272432525312",
-        "tag": "#space",
-        "time": 1681095473
+        "id": "28",
+        "text": "Artify",
+        "url": "https:\/\/artifylabs.io\/",
+        "tag": "#bookmark #AI",
+        "time": 1681539324
     },
     {
-        "id": "236",
-        "text": "Hubble on Twitter: \"Saturn is known for its iconic rings. And with Hubble's help, now we know that these rings are also heating the giant planet's upper atmosphere! This could provide a tool for predicting if planets around other stars have ring systems as well. Learn more: https:\/\/t.co\/mvNUIzMwjF https:\/\/t.co\/nu2QE3HqPj\" \/ Twitter",
-        "url": "https:\/\/twitter.com\/NASAHubble\/status\/1641442081897058313",
-        "tag": "#space",
-        "time": 1680287047
+        "id": "27",
+        "text": "Perplexity AI",
+        "url": "https:\/\/www.perplexity.ai\/",
+        "tag": "#bookmark #AI",
+        "time": 1681539231
     },
     {
-        "id": "235",
-        "text": "Hubble on Twitter: \"A pulse of intense radiation swept through our solar system that astronomers called the BOAT: the brightest of all time. Several @NASA missions, including Hubble, have followed up to study this gamma-ray burst, likely caused by the birth of a black hole: https:\/\/t.co\/zCPiiamLL8 https:\/\/t.co\/xSRRLzD0dy\" \/ Twitter",
-        "url": "https:\/\/twitter.com\/NASAHubble\/status\/1640791835760119808",
-        "tag": "#space",
-        "time": 1680060873
+        "id": "26",
+        "text": "TLDR This - Article Summarizer & Online Text Summarizing Tool",
+        "url": "https:\/\/tldrthis.com\/",
+        "tag": "#bookmark #AI",
+        "time": 1681538827
     },
     {
-        "id": "233",
-        "text": "NASA Webb Telescope on Twitter: \"There is beauty in transience. \ud83c\udf38 Webb\u2019s stunning image of a super bright, massive Wolf-Rayet star calls forth the ephemeral nature of cherry blossoms. The Wolf-Rayet phase is a fleeting stage that only some stars go through, soon before they explode: https:\/\/t.co\/ZOAmKgtshI https:\/\/t.co\/fC0tL24iUe\" \/ Twitter",
-        "url": "https:\/\/twitter.com\/NASAWebb\/status\/1635702851270766592",
-        "tag": "#space",
-        "time": 1678907226
+        "id": "25",
+        "text": "Autoblogger.ai",
+        "url": "https:\/\/www.autoblogger.ai\/",
+        "tag": "#bookmark #AI",
+        "time": 1681527121
     },
     {
-        "id": "232",
-        "text": "Hubble on Twitter: \"A million-second exposure. 10,000 galaxies. One mind-blowing image. The Hubble Ultra Deep Field image unveiled a powerful, deep view of our universe #OTD in 2004. This image only covers the amount of sky you can see through an eight-foot-long soda straw: https:\/\/t.co\/zaMJELUaJz https:\/\/t.co\/xbvxPFQPKn\" \/ Twitter",
-        "url": "https:\/\/twitter.com\/NASAHubble\/status\/1633853586349207552",
-        "tag": "#space",
-        "time": 1678635277
+        "id": "24",
+        "text": "I Changed the domain and repository name: from https:\/\/gabc.tk to https:\/\/gabc22.github.io (old https:\/\/gabc123123.github.io )",
+        "url": "",
+        "tag": "#update #tmp",
+        "time": 1681455762
     },
     {
-        "id": "231",
-        "text": "NASA Webb Telescope on Twitter: \"Triples is best. This Webb image features a special galaxy that appears 3 times. Why? There's a galaxy cluster here whose mass and gravity are so great that time and space around it gets warped. This magnifies, multiplies, and distorts galaxies behind it: https:\/\/t.co\/ftRTPC4bDr https:\/\/t.co\/fzTjUGc5UO\" \/ Twitter",
-        "url": "https:\/\/twitter.com\/NASAWebb\/status\/1630591812204109832",
-        "tag": "#space",
-        "time": 1678467517
+        "id": "23",
+        "text": "Learn English Online",
+        "url": "https:\/\/www.englishstuff.online\/",
+        "tag": "#English #learn #bookmark",
+        "time": 1681312803
+    },
+    {
+        "id": "22",
+        "text": "How to Store a Javascript Array in localStorage",
+        "url": "https:\/\/catalins.tech\/store-array-in-localstorage\/",
+        "tag": "#JavaScript",
+        "time": 1681239301
+    },
+    {
+        "id": "21",
+        "text": "Juice jacking rising, FBI says don't use airport USB outlets - Android Authority",
+        "url": "https:\/\/www.androidauthority.com\/juice-jacking-3311056\/",
+        "tag": "#technology #news",
+        "time": 1681238565
+    },
+    {
+        "id": "20",
+        "text": "New HTML Element: search",
+        "url": "https:\/\/alvaromontoro.com\/blog\/68033\/new-html-element-search",
+        "tag": "#HTML #new",
+        "time": 1681178115
+    },
+    {
+        "id": "19",
+        "text": "Opera is a Norwegian company owned by a Chinese group.",
+        "url": "https:\/\/forums.opera.com\/topic\/37155\/opera-browser-is-owned-by-a-chinese-company\/2",
+        "tag": "#technology #browser #Internet #fact",
+        "time": 1681098731
+    },
+    {
+        "id": "15",
+        "text": "CSS Feature Queries \u2013 DWR.IO",
+        "url": "https:\/\/dwr.io\/css-feature-queries\/",
+        "tag": "#CSS",
+        "time": 1680569531
+    },
+    {
+        "id": "13",
+        "text": "Lorenzo Green \u3030\ufe0f on Twitter: \"BREAKING: A petition is circulating to PAUSE all major AI developments. e.g. No more ChatGPT upgrades & many others. Signed by Elon Musk, Steve Wozniak, Stability AI CEO & 1000s of other tech leaders. Here's the breakdown: \ud83d\udc47 https:\/\/t.co\/jR4Z3sNdDw\" \/ Twitter",
+        "url": "https:\/\/twitter.com\/mrgreen\/status\/1641056545524838405",
+        "tag": "#tech #news",
+        "time": 1680232458
+    },
+    {
+        "id": "11",
+        "text": "The Adventures of Sherlock Holmes by Arthur Conan Doyle - Free Ebook",
+        "url": "https:\/\/www.gutenberg.org\/ebooks\/1661",
+        "tag": "#book #books",
+        "time": 1679714456
+    },
+    {
+        "id": "10",
+        "text": "the federation - a statistics hub",
+        "url": "https:\/\/the-federation.info\/",
+        "tag": "#socialNetwork #bookmark",
+        "time": 1679544926
+    },
+    {
+        "id": "5",
+        "text": "St. Patrick's Day 2023",
+        "url": "https:\/\/www.google.com\/doodles\/st-patricks-day-2023",
+        "tag": "#day",
+        "time": 1679035987
+    },
+    {
+        "id": "4",
+        "text": "The Ramen Girl - OFFICIAL TRAILER - YouTube",
+        "url": "https:\/\/www.youtube.com\/watch?v=1GYSwiaNz2o",
+        "tag": "#movie",
+        "time": 1678788980
+    },
+    {
+        "id": "3",
+        "text": "Monkeys making stone flakes provoke questions about early humans : Shots - Health News : NPR",
+        "url": "https:\/\/www.npr.org\/sections\/health-shots\/2023\/03\/10\/1161652099\/monkey-stone-flakes-early-humans-tools",
+        "tag": "#other #human",
+        "time": 1678788843
+    },
+    {
+        "id": "1",
+        "text": "Robyn - Cobrastyle - YouTube",
+        "url": "https:\/\/www.youtube.com\/watch?v=1zVECruSI3k",
+        "tag": "#music",
+        "time": 1678468648
     }
 ]
