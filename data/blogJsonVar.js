@@ -1,6 +1,13 @@
 var blogJsonVar = 
 [
     {
+        "id": "36",
+        "text": "16 UI design tips | By Adham Dannaway | UX Planet",
+        "url": "https:\/\/uxplanet.org\/16-ui-design-tips-ba2e7524d203",
+        "tag": "#webDesign",
+        "time": 1681665635
+    },
+    {
         "id": "35",
         "text": "The End of Computer Magazines in America | Technologizer by Harry McCracken",
         "url": "https:\/\/www.technologizer.com\/2023\/04\/15\/the-end-of-computer-magazines-in-america\/",
