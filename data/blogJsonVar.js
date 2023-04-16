@@ -1,6 +1,13 @@
 var blogJsonVar = 
 [
     {
+        "id": "30",
+        "text": "Hubble on Twitter: \"JO204 shines from 600 million light-years away! The tendrils beneath the galaxy are caused by ram pressure stripping, as it moves against the intergalactic medium between galaxies in a galaxy cluster. More loosely bound gas then strips away: https:\/\/t.co\/SmWB24Cwtk https:\/\/t.co\/mFI6wFnoFq\" \/ Twitter",
+        "url": "https:\/\/twitter.com\/NASAHubble\/status\/1646875962389266432",
+        "tag": "#space",
+        "time": 1681632874
+    },
+    {
         "id": "29",
         "text": "NASA Webb Telescope on Twitter: \"Stars: always making a dramatic exit! \ud83c\udf1f Webb\u2019s powerful infrared eye has captured never-before-seen detail of Cassiopeia A (Cas A). 11,000 light-years away, it is the remnant of a massive star that exploded about 340 years ago: https:\/\/t.co\/LLQsFQJwVQ https:\/\/t.co\/xqlGFzhYoy\" \/ Twitter",
         "url": "https:\/\/twitter.com\/NASAWebb\/status\/1644340212191903745",
