@@ -1,4 +1,4 @@
-// v.3.9.7
+// v.3.9.8
 
 
 
@@ -469,6 +469,8 @@ letters = letters.replace(/%0A/g, "\n");
 
 letters = letters.replace(/%E2%80%AF/g, " ");
 letters = letters.replace(/%E2%80%8C/g, ""); //ZERO WIDTH SPACE
+letters = letters.replace(/%E2%80%8B/g, ""); //ZERO WIDTH SPACE
+
 letters = letters.replace(/%0D%0A/g, "\n");
 letters = letters.replace(/%0A/g, "\n");
 letters = letters.replace(/%0D/g, "\n");
