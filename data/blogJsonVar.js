@@ -1,6 +1,13 @@
 var blogJsonVar = 
 [
     {
+        "id": "37",
+        "text": "DRop",
+        "url": "https:\/\/codepen.io\/antoniasymeonidou\/pen\/QWqpoMJ",
+        "tag": "#CSS #HTML",
+        "time": 1681695101
+    },
+    {
         "id": "36",
         "text": "16 UI design tips | By Adham Dannaway | UX Planet",
         "url": "https:\/\/uxplanet.org\/16-ui-design-tips-ba2e7524d203",
