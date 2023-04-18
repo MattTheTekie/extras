@@ -1,6 +1,20 @@
 var blogJsonVar = 
 [
     {
+        "id": "39",
+        "text": "Image Creator from Microsoft Bing",
+        "url": "https:\/\/www.bing.com\/images\/create\/",
+        "tag": "#bookmark #AI",
+        "time": 1681861458
+    },
+    {
+        "id": "38",
+        "text": "Design Blog of Adham Dannaway",
+        "url": "https:\/\/www.adhamdannaway.com\/blog",
+        "tag": "#bookmark #blog #design",
+        "time": 1681838280
+    },
+    {
         "id": "37",
         "text": "DRop",
         "url": "https:\/\/codepen.io\/antoniasymeonidou\/pen\/QWqpoMJ",
