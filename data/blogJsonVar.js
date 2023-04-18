@@ -11,7 +11,7 @@ var blogJsonVar =
         "id": "36",
         "text": "16 UI design tips | By Adham Dannaway | UX Planet",
         "url": "https:\/\/uxplanet.org\/16-ui-design-tips-ba2e7524d203",
-        "tag": "#webDesign",
+        "tag": "#WebDesign",
         "time": 1681665635
     },
     {
@@ -158,7 +158,7 @@ var blogJsonVar =
         "id": "10",
         "text": "the federation - a statistics hub",
         "url": "https:\/\/the-federation.info\/",
-        "tag": "#socialNetwork #bookmark",
+        "tag": "#SocialNetwork #bookmark",
         "time": 1679544926
     },
     {
