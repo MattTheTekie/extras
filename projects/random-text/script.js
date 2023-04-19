@@ -1,4 +1,4 @@
-// v.1.0.0
+// v.1.0.1
 
 var  geturl = window.location;
 var url = new URL(geturl);
@@ -103,18 +103,18 @@ document.getElementById("letter").innerHTML = result;
 
 
 result = '';
-var nav = "500,1000,3000,5000,10000,100000";
+var nav = "500,1000,2000,3000,5000,10000,100000";
 nav = nav.split(",");
 for(let i = 0; i < nav.length; i++){
 if(q == nav[i]){
-result += '<span class="button">~ : '+nav[i]+'</span>';
+result += '<span class="button">'+nav[i]+'</span>';
 }else{
 result += '<a class="button brand" href="?q='+nav[i]+'">'+nav[i]+'</a>';
 }
 }
 
 document.getElementById("q").innerHTML = `
-<a class="button brand" href="#" onclick="reload();">reload</a>
+<a class="button brand" href="#" onclick="reload();">reload</a> ~ :
 `+result; 
 
 
