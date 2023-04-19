@@ -237,6 +237,14 @@ var musJsonVar =
         "url": "https:\/\/tunein.com\/radio\/Total-Hits-s289247\/"
     },
     {
+        "text": "Live 00s ALIVE | Palm Radio | 472 Favorites | TuneIn",
+        "url": "https:\/\/tunein.com\/radio\/00s-ALIVE-s291029\/"
+    },
+    {
+        "text": "Live 011.FM - 2010's Top Hits | 842 Favorites | TuneIn",
+        "url": "https:\/\/tunein.com\/radio\/011FM---2010s-Top-Hits-s300605\/"
+    },
+    {
         "text": "Live 101.7 FM - CKNX-FM (13.0K Favorites) TuneIn",
         "url": "https:\/\/tunein.com\/radio\/1017-The-One-s31273\/"
     },
@@ -261,12 +269,40 @@ var musJsonVar =
         "url": "https:\/\/tunein.com\/radio\/100hitz-Hot-Hitz--Todays-Hitz-without-rap-s111388\/"
     },
     {
+        "text": "Live 97.6 FM | Kfm Radio | 13.6K Favorites | TuneIn",
+        "url": "https:\/\/tunein.com\/radio\/Kfm-Radio-976-s80451\/"
+    },
+    {
+        "text": "Live 97.7 FM | C97 7 | CHUP-FM | 28.3K Favorites | TuneIn",
+        "url": "https:\/\/tunein.com\/radio\/C97-7-977-s89527\/"
+    },
+    {
+        "text": "Live 98.1 FM | Rewind | KRWI | 539 Favorites | TuneIn",
+        "url": "https:\/\/tunein.com\/radio\/Rewind-981-s297934\/"
+    },
+    {
         "text": "Live 99.6 FM - SWR3 (635.8K Favorites) TuneIn",
         "url": "https:\/\/tunein.com\/radio\/SWR3-996-s24896\/"
     },
     {
         "text": "Live 99.9 FM - CFGX-FM (13.4K Favorites) TuneIn",
         "url": "https:\/\/tunein.com\/radio\/The-Fox-999-s31121\/"
+    },
+    {
+        "text": "Live Anthems Radio | 670 Favorites | TuneIn",
+        "url": "https:\/\/tunein.com\/radio\/Anthems-Radio-s265796\/"
+    },
+    {
+        "text": "Live Cleansing 2000's | 3.0K Favorites | TuneIn",
+        "url": "https:\/\/tunein.com\/radio\/Cleansing-2000s-s234023\/"
+    },
+    {
+        "text": "Live Happy Hits Radio 00's | 163 Favorites | TuneIn",
+        "url": "https:\/\/tunein.com\/radio\/Happy-Hits-Radio-00s-s291634\/"
+    },
+    {
+        "text": "Live Nation 00s | 156 Favorites | TuneIn",
+        "url": "https:\/\/tunein.com\/radio\/Nation-00s-s320728\/"
     },
     {
         "text": "Loudspeaker One | Free Internet Radio | TuneIn",
