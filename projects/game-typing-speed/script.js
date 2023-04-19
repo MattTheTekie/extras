@@ -1,4 +1,4 @@
-// v.3.9.8
+// v.3.9.10
 
 
 
@@ -948,22 +948,24 @@ document.getElementById('countSymbolTask').innerHTML = 'task: '+task.length+' in
 
 
 
+
+
+
+
 answerArr = [];
 dateArr = [];
 secArr = [];
-
-
-
-
 
 
 }
 
 
 
+answerArr = [];
+dateArr = [];
+secArr = [];
 
-
-
+document.getElementById("text").style.borderTop = "9px solid var(--d2)";
 
 }
 
