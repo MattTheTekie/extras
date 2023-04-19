@@ -1,4 +1,4 @@
-// v.1.2.23
+// v.1.2.24
 // Inspired by GitHub profile
 
 function insertIcon(id, mode){
@@ -141,7 +141,7 @@ check = 'exit';
 }
 }else{
 // main, strict word
-if((linkText.toLowerCase()+' ').indexOf((textIcon+' ')) >= 0&&(linkText.toLowerCase()+'').indexOf((icon+'')) == -1){
+if((' '+linkText.toLowerCase()+' ').indexOf((' '+textIcon+' ')) >= 0&&(linkText.toLowerCase()+'').indexOf((icon+'')) == -1){
 icArr.push(icon+'');
 check = 'exit';
 }
@@ -184,12 +184,22 @@ iconsArr.forEach((item) => {
 let textIcon = item;
 let icon = icons[textIcon];
 // main2, not strict word
+
+
+if(mode != 'strict'){
+// main, not strict
 if(linkText.toLowerCase().search(textIcon) != -1&&linkText.toLowerCase().search(icon) == -1){ 
-// main, strict word
-//if(linkText.toLowerCase()+' '.indexOf(textIcon+' ') >= 0&&linkText.toLowerCase()+''.indexOf(icon+'')){ 
-icArr.push(icon);
+icArr.push(icon+'');
 check = 'exit';
 }
+}else{
+// main, strict word
+if((' '+linkText.toLowerCase()+' ').indexOf((' '+textIcon+' ')) >= 0&&(linkText.toLowerCase()+'').indexOf((icon+'')) == -1){
+icArr.push(icon+'');
+check = 'exit';
+}
+}
+
 });
 
 if(check == 'exit'){
