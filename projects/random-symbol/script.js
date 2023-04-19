@@ -1,5 +1,8 @@
 // v.1.1.0
 
+
+
+
 var  geturl = window.location;
 var url = new URL(geturl);
 var q = url.searchParams.get("q");
@@ -39,9 +42,7 @@ function cuttext(text, n){ return  text = text.substr(0, n); }
 
 function printarr(arr){
 let result = '';
-for(let i = 0; i < arr.length; i++){
-result += arr[i];
-}
+result = arr.join("");
 return result;
 }
 
