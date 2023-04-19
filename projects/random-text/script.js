@@ -1,5 +1,5 @@
-// v.1.0.2
-// fixme: comma with space
+// v.1.0.3
+
 
 var  geturl = window.location;
 var url = new URL(geturl);
@@ -59,7 +59,7 @@ check = false;
 
 
 if(parseInt(getRandomArbitrary(1, 2)) == parseInt(getRandomArbitrary(1, 30))&&index >= 20&&element.trim() != ''&&check == true){
-arr[index] = ', '+arr[index];
+arr[index] = arr[index]+', ';
 check = false;
 }
 
