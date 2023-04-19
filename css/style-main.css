@@ -1,4 +1,4 @@
-/* v.12.18.10 */
+/* v.12.18.11 */
 * {  color-scheme: light dark; } /* view-source:about:blank */ 
 
 :root{
@@ -395,7 +395,7 @@ td { background-color: var(--l2); }
 overflow-y: hidden;
 white-space: nowrap;*/
 display: block;
-max-height: 1300px;
+max-height: 70vh;
 overflow-x: hidden;
 overflow-y: auto;
 scroll-padding-top: 16px;
