@@ -445,6 +445,4 @@ html { scroll-padding-top: 35px; }
 html { scrollbar-width: thin; }
 /*::-webkit-scrollbar { width: 7px; }*//*for validator*/
 
-
-iframe {  color-scheme: none; } /* not work anymore, rm me */
 input:focus{ outline: none }
