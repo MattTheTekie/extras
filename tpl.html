@@ -3,7 +3,7 @@
 <head>
 
 <meta charset="UTF-8">
-<title>Test Templates</title>
+<title>Experimental Templates</title>
 
 <link rel="alternate" type="application/rss+xml" title="gabc Blog RSS" href="/rss.xml">
 
@@ -64,187 +64,68 @@
 <div class="content">
 
 
-
-
-
-
-<h3 class="tCenter op">Test Templates</h3>
-
-
-<noscript>
-<h1><a href="tpl">TPL Dir</a>
-<a href="https://github.com/gabc22/gabc22.github.io/tree/main/tpl" rel="nofollow">Source code</a><br /></h1>
-</noscript>
-
-</div>
-
-
-
-
-
-
-<div class="page">
-
-
-<div id="tpl2">
-<div id="tpl"></div>
-</div>
-
-
-
-<div style="max-width: 600px; margin: 0 auto;">
-
-<div id="desc"></div>
-<div id="range"></div>
-
-
-
-<div class="grid text">
-<span id="prev"></span>
-<span id="tplproc"></span>
-<span id="next"></span>
-<span id="tplsource"></span>
-<span id="tplnumber"></span>
-<span id="tpllink"></span>
-</div>
-
-
-<a class="text border2 button light3"  href="?tpl=random">random</a>
-
-
-</div>
-
-
-
-
-
-
-
-
+<h3 class="tCenter op">Experimental Templates</h3>
 
 
 
 <script>
-
-
-var total = 8;
-var next = total - 1;
-var prev = total +1;
-var tplnumber = total;
-
-var  geturl = window.location;
-var url = new URL(geturl);
-var tpl = url.searchParams.get("tpl");
-
-if(tpl != null&&tpl != ''){
-document.getElementById('tpl2').scrollIntoView(true);
-
-if(tpl == 'random'){
-var max = total;
-var min = 1;
-var tpl = Math.floor(Math.random() * (max - min)) + min;
-}
-
-var tpl = encodeURIComponent(tpl);
-var tplnumber = parseInt(tpl);
-if (isNaN(tpl)) { var tplnumber = total; }
-var prev = tplnumber + 1;
-var next = tplnumber - 1;
-}
-
-if(tplnumber > total){
-var tplnumber = total;
-var next = total - 1;
-var prev = total;
-}
-
-if(tplnumber < 0){
-var tplnumber = 0;
-var next = 0;
-var prev = 1;
-}
-
-
-var tplnumber = encodeURIComponent(tplnumber);
-var next = encodeURIComponent(next);
-var prev = encodeURIComponent(prev);
-
-var procent = Math.floor((tplnumber / total) * 100);
-var procent = 100 - procent;
-
- document.getElementById("tpl").innerHTML = '<iframe class="border2" style="width: 100%; max-height:60vh;" height="580px"  src="tpl/'+tplnumber+'/index.html?'+Date.now()+'" title=""></iframe>'; 
- 
- 
- document.getElementById("range").innerHTML = ' <form id="form" data-ajax="false"><input  name="tpl" class="slider" style="-webkit-transform: rotateY(180deg);-moz-transform: rotateY(180deg);-ms-transform: rotateY(180deg);-o-transform: rotateY(180deg); transform: rotateY(180deg);"   id="rangeinput" value="'+tplnumber+'" type="range" min="0" max="'+total+'" step="1" onmouseup="this.form.submit();"  ontouchend="this.form.submit();" /></form>'; 
-
-
-
-
-document.getElementById("tplnumber").innerHTML = '<div  class="op button light3 border2">'+'#'+tplnumber+'</div>';
-document.getElementById("tplproc").innerHTML = '<div  class="op button light3 border2">'+procent+'%'+'</div>'; 
-
-
-if(tplnumber >= total){
-document.getElementById("prev").innerHTML = '<span class="op"><a class="border2 button" style="font-size:120%" href="?tpl='+prev+'#tpl2">&#171;</a></sapn>'; 
-} else {
-document.getElementById("prev").innerHTML = '<a class="border2 button light3" style="font-size:120%" href="?tpl='+prev+'#tpl2">&#171;</a>'; 
-}
-
-
-if(tplnumber <= 0){
-document.getElementById("next").innerHTML = '<span class="op"><a class="border2 button "  style="font-size:120%" href="?tpl='+next+'#tpl2">&#187;</a></span>'; 
-} else {
-document.getElementById("next").innerHTML = '<a class="border2 button light3"  style="font-size:120%" href="?tpl='+next+'#tpl2">&#187;</a>'; 
-}
-
-document.getElementById("tpllink").innerHTML = '<a class="border1 button light3" target="_blank" href="tpl/'+tplnumber+'/index.html">view</a>'; 
-
-document.getElementById("tplsource").innerHTML = '<a class="border2 button light3" target="_blank" href="https://github.com/gabc22/gabc22.github.io/blob/main/tpl/'+tplnumber+'/index.html" rel="nofollow">code</a>'; 
-
-function readTextFile(file)
-{
-    var rawFile = new XMLHttpRequest();
-    rawFile.open("GET", file, false);
-    rawFile.onreadystatechange = function ()
+var blogJsonVar = [
     {
-        if(rawFile.readyState === 4)
-        {
-            if(rawFile.status === 200 || rawFile.status == 0)
-            {
-                var allText = rawFile.responseText;
-                //alert(allText);
-                document.getElementById("desc").innerHTML = allText; 
-            }
-        }
+        "id": "8",
+        "text": "8 name",
+        "url": ".\/tpl\/8_name\/index.html",
+        "time": "1681873650"
+    },
+    {
+        "id": "7",
+        "text": "7 name",
+        "url": ".\/tpl\/7_name\/index.html",
+        "time": "1681873627"
+    },
+    {
+        "id": "6",
+        "text": "6 name",
+        "url": ".\/tpl\/6_name\/index.html",
+        "time": "1681873595"
+    },
+    {
+        "id": "5",
+        "text": "5 name",
+        "url": ".\/tpl\/5_name\/index.html",
+        "time": "1681873557"
+    },
+    {
+        "id": "4",
+        "text": "4 name",
+        "url": ".\/tpl\/4_name\/index.html",
+        "time": "1681873530"
+    },
+    {
+        "id": "3",
+        "text": "3 name",
+        "url": ".\/tpl\/3_name\/index.html",
+        "time": "1681873501"
+    },
+    {
+        "id": "2",
+        "text": "2 name",
+        "url": ".\/tpl\/2_name\/index.html",
+        "time": "1681873473"
+    },
+    {
+        "id": "1",
+        "text": "1 name",
+        "url": ".\/tpl\/1_name\/index.html",
+        "time": "1681873445"
+    },
+    {
+        "id": "0",
+        "text": "0 name",
+        "url": ".\/tpl\/0_name\/index.html",
+        "time": "1681873391"
     }
-    rawFile.send(null);
-}
-readTextFile('tpl/'+tplnumber+'/data.txt');
-
-</script>
-
-
-
-<style>
-form { min-width: 100%; }
-input[type="range"] { min-width: 100%; margin: 0; padding: 0 !important; min-height: 10px !important;  margin-bottom: 7px; }
-
-.grid{
-display: grid;
-grid-template-columns: 1fr 20% 1fr;
-grid-gap: 3px 3px;
-margin: 4px auto !important;
-
-justify-content: center;
-}
-
-.button { display: flex; }
-
-#desc { margin-bottom: 5px; background: var(--l1); }
-
-iframe { padding: 3px; }
-</style>
-
+];
+</script><div id="echoBlog"></div>
 
 
 
@@ -262,6 +143,47 @@ iframe { padding: 3px; }
 <script src="/data/adsJsonVar.js"></script>
 <script src="/js/ad.js"></script>
 <script> fuAds('', 'ads2', ''); </script>
+
+
+
+<script src="/projects/blog/script.js"></script>
+
+
+<script>
+if(blogJsonVar == undefined||blogJsonVar == ''){
+var blogJsonVar = 
+
+
+[
+    {
+        "id": 251,
+        "text": "test2 text2",
+        "url": "https:\/\/test2.com",
+        "tag": "#test2 #tag",
+        "time": 1671480576
+    },
+    {
+        "id": 250,
+        "text": "test text",
+        "url": "https:\/\/test.com",
+        "tag": "#test #tag",
+        "time": 1668444918
+    }
+]
+
+
+
+}
+</script>
+
+
+
+
+<script>
+blog("echoBlog", blogJsonVar, 'post2', 'on', 'on', '10', 'tpl2.html', 'off', '500');
+// printId, blogJsonVar, postClass, embedStatus, tagListStatus, postLimit, scriptDir, multiEmbedStatus
+</script>
+
 
 
 </body>
