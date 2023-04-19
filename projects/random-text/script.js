@@ -1,4 +1,5 @@
-// v.1.0.1
+// v.1.0.2
+// fixme: comma with space
 
 var  geturl = window.location;
 var url = new URL(geturl);
@@ -49,7 +50,7 @@ let count = 0;
 let check = true;
 arr.forEach((element, index) => {
 
-if(parseInt(getRandomArbitrary(1, 2)) == parseInt(getRandomArbitrary(1, 400))&&index >= 200&&arr[index] != ' '&&check == true){
+if(parseInt(getRandomArbitrary(1, 2)) == parseInt(getRandomArbitrary(1, 400))&&index >= 200&&element.trim() != ''&&check == true){
 arr[index] = `.
 
  `+arr[index].toUpperCase();
@@ -57,13 +58,13 @@ check = false;
 }
 
 
-if(parseInt(getRandomArbitrary(1, 2)) == parseInt(getRandomArbitrary(1, 30))&&index >= 20&&arr[index] != ' '&&check == true){
+if(parseInt(getRandomArbitrary(1, 2)) == parseInt(getRandomArbitrary(1, 30))&&index >= 20&&element.trim() != ''&&check == true){
 arr[index] = ', '+arr[index];
 check = false;
 }
 
 
-if(count == sentence&&arr[index] != ' '&&check == true){
+if(count == sentence&&element.trim() != ''&&check == true){
 arr[index] = arr[index]+'. '+arr[index].toUpperCase();
 count = 0;
 check = false;
