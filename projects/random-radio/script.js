@@ -1,7 +1,4 @@
-// v.1.0.0
-
-
-// v.1.0.0
+// v.1.0.1
 
 
 
@@ -129,7 +126,7 @@ embed = `<a href="${item}"><img class="border3" src="${item}" width=""></a>`
 
 
 if(item.search("tunein.com") == -1&&item.slice(0, 4) == 'http'&&item.search("http|://") != -1) {
-embed2 = `<iframe width="${w}" height="600" src="${item}"></iframe>`;
+embed2 = `<iframe width="${w}" height="340" src="${item}"></iframe>`;
 }
 
 
