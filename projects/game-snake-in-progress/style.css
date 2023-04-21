@@ -4,8 +4,9 @@
 
 .square {
 display: inline-flex;
-height: 50px;
-width: 50px;
+height: 35px;
+width: 35px;
+font-size: 15px !important;
 border: 1px solid var(--red);
 font-size: xx-small;
 align-items: center;

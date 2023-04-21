@@ -8,7 +8,10 @@ var y = 200;
 
 
 
-var iSnakeArr = [];
+var snakeArr = [];
+var snakeLenght = [];
+snakeLenght[0] = 5;
+
 
 var currentDirection = ['up', 'down', 'left', 'right'];
 currentDirection[0] = currentDirection[randomIntFromInterval(0, 3)];
@@ -43,6 +46,7 @@ break;
 case 'stop':
 case 'gameOver':
 currentPosition[0] = currentPosition[0];
+myStopFunction();
 break;
 
 
@@ -104,7 +108,7 @@ case 98:
 case 99:
 case 100:
 
-document.getElementById("result").innerHTML += `<square id="${i}" class="square" style="background-color: var(--d2);">X${i}</square>`;
+document.getElementById("result").innerHTML += `<square id="${i}" class="square" style="background-color: var(--d2);">${i}</square>`;
 break;
 
 
@@ -161,7 +165,7 @@ case 98:
 case 99:
 case 100:
 
-document.getElementById(currentPosition[0]).innerHTML += `😋${currentPosition[0]}`;
+//document.getElementById(currentPosition[0]).innerHTML += `😋${currentPosition[0]}`;
 
 direction = 'stop';
 
@@ -172,7 +176,7 @@ break;
 case currentPosition[0]:
 
 console.log(currentPosition[0]);
-document.getElementById(currentPosition[0]).innerHTML += `😋${currentPosition[0]}`;
+//document.getElementById(currentPosition[0]).innerHTML += `😋${currentPosition[0]}`;
 break;
 
 default:
@@ -186,11 +190,29 @@ default:
 
 
 
-iSnakeArr.push(currentPosition[0]);
-console.log(iSnakeArr);
+snakeArr.push(currentPosition[0]);
+
+
+
+console.log(snakeArr);
+
+darawSnake();
+}
+
+function darawSnake(){
+snakeArr = snakeArr.slice(-snakeLenght[0]);
+//document.getElementById(currentPosition[0]).innerHTML += `🟩${currentPosition[0]}`;
+
+snakeArr.forEach(myFunction);
+function myFunction(item) {
+document.getElementById(item).innerHTML += `🟩`;
+if(currentPosition[0] == item&&snakeArr[snakeArr.length - 1] != item){ currentDirection[0] = 'stop'; }
+console.log(currentPosition[0]);
+console.log(snakeArr[snakeArr.length - 1]);
 
 }
 
+}
 
 
 //https://developer.mozilla.org/en-US/docs/Web/API/Element/keypress_event
@@ -200,11 +222,13 @@ input.addEventListener("keypress", logKey);
 
 function logKey(e) {
 console.log(` ${e.code}`)
-if(e.code == 'KeyW'){ currentDirection[0] = 'up'; }
-if(e.code == 'KeyS'){ currentDirection[0] = 'down'; }
-if(e.code == 'KeyA'){ currentDirection[0] = 'left'; }
-if(e.code == 'KeyD'){ currentDirection[0] = 'right'; }
+if(currentDirection[0] != 'stop'){
+if(e.code == 'KeyW'&&currentDirection[0] != 'down'){ currentDirection[0] = 'up'; }
+if(e.code == 'KeyS'&&currentDirection[0] != 'up'){ currentDirection[0] = 'down'; }
+if(e.code == 'KeyA'&&currentDirection[0] != 'right'){ currentDirection[0] = 'left'; }
+if(e.code == 'KeyD'&&currentDirection[0] != 'left'){ currentDirection[0] = 'right'; }
 console.log(currentDirection[0]);
+}
 }
 
 
