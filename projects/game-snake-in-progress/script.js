@@ -1,4 +1,4 @@
-// v.1.0.0
+// v.1.0.1
 
 
 /*
@@ -167,6 +167,7 @@ case 100:
 
 //document.getElementById(currentPosition[0]).innerHTML += `😋${currentPosition[0]}`;
 
+// stop if eats border
 direction = 'stop';
 
 myStopFunction();
@@ -206,9 +207,14 @@ snakeArr = snakeArr.slice(-snakeLenght[0]);
 snakeArr.forEach(myFunction);
 function myFunction(item) {
 document.getElementById(item).innerHTML += `🟩`;
-if(currentPosition[0] == item&&snakeArr[snakeArr.length - 1] != item){ currentDirection[0] = 'stop'; }
-console.log(currentPosition[0]);
-console.log(snakeArr[snakeArr.length - 1]);
+//if(currentPosition[0] == item&&snakeArr[snakeArr.length - 1] != item){ currentDirection[0] = 'stop'; }
+
+// stop if eats himself
+//https://stackoverflow.com/questions/49215358/checking-for-duplicate-strings-in-javascript-array
+let findDuplicates = arr => arr.filter((item, index) => arr.indexOf(item) !== index);
+if(findDuplicates(snakeArr).length >= 1){ currentDirection[0] = 'stop'; }
+console.log(findDuplicates(snakeArr)); // All duplicates
+console.log(findDuplicates(snakeArr).length );
 
 }
 
