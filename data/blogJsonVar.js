@@ -1,6 +1,27 @@
 var blogJsonVar = 
 [
     {
+        "id": "42",
+        "text": "Marko Denic on Twitter: \"You can use\u00a0https:\/\/t.co\/ToAY2OzxPS\u00a0to quickly create impressive AI-powered designs.\u00a0 Upload any image and let the platform handle advanced design tasks like: background removal, color enhancement, smart shadow adjustment, and more. Check it out!\" \/ Twitter",
+        "url": "https:\/\/twitter.com\/denicmarko\/status\/1649005773907808259",
+        "tag": "#bookmark #AI",
+        "time": 1682107822
+    },
+    {
+        "id": "41",
+        "text": "A Pure CSS Table Tennis Game",
+        "url": "https:\/\/codepen.io\/ivorjetski\/pen\/mdzrLbW",
+        "tag": "#CSS #HTML",
+        "time": 1682086372
+    },
+    {
+        "id": "40",
+        "text": "Designify - Turn any photo into awesome",
+        "url": "https:\/\/www.designify.com\/",
+        "tag": "#bookmark #AI",
+        "time": 1682080561
+    },
+    {
         "id": "39",
         "text": "Image Creator from Microsoft Bing",
         "url": "https:\/\/www.bing.com\/images\/create\/",

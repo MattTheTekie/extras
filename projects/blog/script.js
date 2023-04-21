@@ -1,4 +1,4 @@
-// v.1.6.6
+// v.1.6.7
 // inspired by Twitter, Fediverse
 // not for large json files !
 // task: selection for search. relevant search
@@ -683,6 +683,7 @@ var checkText = true;
 function highlightText(text, hrefInOut){
 //text = decodeURIComponent(text); // error sometimes
 
+text = clearText(text);
 
 // if code
 text = text.replace(/</g, "&lt;");
@@ -928,6 +929,8 @@ return text;
 // highlight Text2 with autoplay when pressed id (date)
 function highlightText2(text, hrefInOut){
 //text = decodeURIComponent(text); // error sometimes
+
+text = clearText(text);
 
 // if code
 
@@ -1364,6 +1367,16 @@ i++;
 }
 }
 
+
+
+function clearText(text){
+
+//https://stackoverflow.com/questions/2774471/what-is-c2-a0-in-mime-encoded-quoted-printable-text
+text = text.replace(/%C2%A0/g, " "); // non-breaking space.
+text = text.replace(/ /g, " "); // non-breaking space.
+
+return text;
+}
 
 
 
