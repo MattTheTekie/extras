@@ -6,74 +6,59 @@ var x = 200;
 var y = 200;
 */
 
-var x = 1;
-var y = 1;
-var x2 = 10;
-var y2 = 10;
-
-var lDirection = ['up', 'down', 'left', 'right'];
-var lStartPos = [randomIntFromInterval(24, 67), randomIntFromInterval(24, 67), lDirection[randomIntFromInterval(0, 3)]];
 
 
+var iSnakeArr = [];
+
+var currentDirection = ['up', 'down', 'left', 'right'];
+currentDirection[0] = currentDirection[randomIntFromInterval(0, 3)];
+
+var currentPosition = [];
+currentPosition[0] = randomIntFromInterval(43, 48);
 
 
-var currentPosGo2 = [];
-currentPosGo2[0] = randomIntFromInterval(24, 67);
-
-var currentPos = randomIntFromInterval(24, 67);
-
-function lDrawGrid(currentPosGo){
+function lDrawGrid(){
+// clear for redrawing 
 document.getElementById("result").innerHTML = ``;
 
-
-currentPosGoDirection = currentPosGo[2];
-
-
-console.log(currentPosGoDirection);
-switch(currentPosGoDirection) {
+console.log(currentDirection[0]);
+switch(currentDirection[0]) {
 
 case 'up':
-currentPosGo2[0] = currentPosGo2[0] - 10;
+currentPosition[0] = currentPosition[0] - 10;
 break;
 
 case 'down':
-currentPosGo2[0] = currentPosGo2[0] + 10;
+currentPosition[0] = currentPosition[0] + 10;
 break;
 
 case 'left':
-currentPosGo2[0] = currentPosGo2[0] - 1;
+currentPosition[0] = currentPosition[0] - 1;
 break;
 
 case 'right':
-currentPosGo2[0] = currentPosGo2[0] + 1;
+currentPosition[0] = currentPosition[0] + 1;
 break;
 
 case 'stop':
 case 'gameOver':
-currentPosGo2[0] = currentPosGo2[0];
+currentPosition[0] = currentPosition[0];
 break;
 
 
 default:
 }
 
-console.log(currentPosGo2[0]);
 
-x = 1;
-y = 1;
-x2 = 10;
-y2 = 10;
+console.log(currentPosition[0]);
+
 
 var i = 1;
 var row = 0;
-while (i <= x2 * y2) {
+while (i <= 100) {
 
 //if(i % 5 == 1){ document.getElementById("result").innerHTML += `<br>`; }
-if(row == x2){ row = 0; document.getElementById("result").innerHTML += `<br>`; }
-
-
-
-
+if(row == 10){ row = 0; document.getElementById("result").innerHTML += `<br>`; }
 
 
 // grid
@@ -119,21 +104,22 @@ case 98:
 case 99:
 case 100:
 
-document.getElementById("result").innerHTML += `<square class="square">X${i}/${x}</square>`;
+document.getElementById("result").innerHTML += `<square id="${i}" class="square" style="background-color: var(--d2);">X${i}</square>`;
 break;
 
-
-case currentPosGo2[0]:
-document.getElementById("result").innerHTML += `<square class="square">😋${i}/${x}</square>`;
-break;
 
 default:
-document.getElementById("result").innerHTML += `<square class="square">${i}/${x}</square>`;
+document.getElementById("result").innerHTML += `<square id="${i}" class="square">${i}</square>`;
 //document.getElementById("result").innerHTML += `<square class="square">${i}</square>`;
 }
 
+i++;
+row++;
+}
+
+
 // game function
-switch(currentPosGo2[0]) {
+switch(currentPosition[0]) {
 
 case 1:
 case 2:
@@ -175,12 +161,18 @@ case 98:
 case 99:
 case 100:
 
+document.getElementById(currentPosition[0]).innerHTML += `😋${currentPosition[0]}`;
+
+direction = 'stop';
+
 myStopFunction();
 break;
 
 
-case currentPosGo2[0]:
-//document.getElementById("result").innerHTML += `<square class="square">😋${i}/${x}</square>`;
+case currentPosition[0]:
+
+console.log(currentPosition[0]);
+document.getElementById(currentPosition[0]).innerHTML += `😋${currentPosition[0]}`;
 break;
 
 default:
@@ -190,13 +182,45 @@ default:
 
 
 
-i++;
-row++;
-}
+
+
+
+
+iSnakeArr.push(currentPosition[0]);
+console.log(iSnakeArr);
 
 }
 
-lDrawGrid(currentPosGo2[0]);
+
+
+//https://developer.mozilla.org/en-US/docs/Web/API/Element/keypress_event
+const input = document.querySelector("body");
+
+input.addEventListener("keypress", logKey);
+
+function logKey(e) {
+console.log(` ${e.code}`)
+if(e.code == 'KeyW'){ currentDirection[0] = 'up'; }
+if(e.code == 'KeyS'){ currentDirection[0] = 'down'; }
+if(e.code == 'KeyA'){ currentDirection[0] = 'left'; }
+if(e.code == 'KeyD'){ currentDirection[0] = 'right'; }
+console.log(currentDirection[0]);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+lDrawGrid(currentPosition[0]);
 
 //https://stackoverflow.com/questions/4959975/generate-random-number-between-two-numbers-in-javascript
 function randomIntFromInterval(min, max) { // min and max included 
@@ -212,7 +236,7 @@ function myStopFunction() {
 
 
 var myInterval = window.setInterval(function(){
-lDrawGrid(lStartPos);
+lDrawGrid();
 }, 1000);
 
 intervalID = setInterval(lDrawGrid(), 1000);

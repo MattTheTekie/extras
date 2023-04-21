@@ -13,6 +13,7 @@
 --wrapperS: 230px;
 --wrapperXs: 130px;
 --inputH: 43px;
+--fontSize: 13.4px;
 }
 
 html, body, a, input, button, textarea, pre, code{
@@ -406,7 +407,7 @@ scroll-padding-top: 16px;
 /* fix */
 h1, h2, h3, h4, h5, h6 { word-break: break-all; }
 
-@media(max-width: 200px) { div, input, textarea, a{ word-break: break-all; }}
+@media(max-width: 200px) { div, input, textarea, a{ word-break: break-all; } }
 
 div, input, textarea, img { box-sizing: border-box; }
 
