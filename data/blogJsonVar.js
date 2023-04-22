@@ -1,6 +1,13 @@
 var blogJsonVar = 
 [
     {
+        "id": "45",
+        "text": "Lea Verou on Twitter: \"I will start adding h1, h2, h3, h4, h5, h6 { text-wrap: balance; } to all my stylesheets, just to be ready.\" \/ Twitter",
+        "url": "https:\/\/twitter.com\/LeaVerou\/status\/1649375197403971584",
+        "tag": "#CSS",
+        "time": 1682149021
+    },
+    {
         "id": "44",
         "text": "WasmGPT: ChatGPT-like chatbot in the browser using ggml and emscripten. No API keys required. No server required. No data is sent to any server. Demo here -> https:\/\/lxe.co\/wasmgpt\/",
         "url": "https:\/\/twitter.com\/coderfrankfurt\/status\/1649440394231283720",
