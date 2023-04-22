@@ -1,6 +1,13 @@
 var blogJsonVar = 
 [
     {
+        "id": "44",
+        "text": "WasmGPT: ChatGPT-like chatbot in the browser using ggml and emscripten. No API keys required. No server required. No data is sent to any server. Demo here -> https:\/\/lxe.co\/wasmgpt\/",
+        "url": "https:\/\/twitter.com\/coderfrankfurt\/status\/1649440394231283720",
+        "tag": "#bookmark #AI",
+        "time": 1682121443
+    },
+    {
         "id": "42",
         "text": "Marko Denic on Twitter: \"You can use\u00a0https:\/\/t.co\/ToAY2OzxPS\u00a0to quickly create impressive AI-powered designs.\u00a0 Upload any image and let the platform handle advanced design tasks like: background removal, color enhancement, smart shadow adjustment, and more. Check it out!\" \/ Twitter",
         "url": "https:\/\/twitter.com\/denicmarko\/status\/1649005773907808259",
