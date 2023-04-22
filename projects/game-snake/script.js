@@ -122,7 +122,7 @@ break;
 
 
 default:
-document.getElementById("result").innerHTML += `<square id="${i}" class="square">&nbsp;</square>`;
+document.getElementById("result").innerHTML += `<square id="${i}" class="square bg3">&nbsp;</square>`;
 //document.getElementById("result").innerHTML += `<square id="${i}" class="square">${i}</square>`;
 //document.getElementById("result").innerHTML += `<square class="square">${i}</square>`;
 }
