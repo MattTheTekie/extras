@@ -67,6 +67,7 @@ adsPrint  += '<div class="post2 brand  border4List">'+ads[index]['text']+' <a ta
 // privacy part
 if(confDataCollection == 'on'){
 
+/*off if on confDataCollection
 // analytics
 //<!-- Google tag (gtag.js) -->
 var scriptStat = document.createElement('script');
@@ -78,7 +79,7 @@ window.dataLayer = window.dataLayer || [];
 function gtag(){dataLayer.push(arguments);}
 gtag('js', new Date());
 gtag('config', 'G-JZ4TN0KQJW');
-
+*/
 
 
 
