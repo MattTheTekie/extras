@@ -54,7 +54,7 @@ case 'stop':
 currentPosition[0] = currentPosition[0];
 myStopFunction();
 
-msg = ' Done ';
+msg = ' End ';
 break;
 
 
@@ -182,7 +182,7 @@ case 100:
 direction = 'stop';
 
 myStopFunction();
-msg = ' done '
+msg = ' End '
 break;
 
 /*

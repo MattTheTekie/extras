@@ -1,4 +1,4 @@
-// v.1.1.31
+// v.1.1.32
 
 
 
@@ -711,7 +711,8 @@ q = encodeURIComponent(q);
 urlList = [
 "https://www.qwant.com/?q="+q,
 "https://you.com/search?q="+q,
-"https://neeva.com/search?q="+q
+"https://neeva.com/search?q="+q,
+"https://www.ecosia.org/search?q="+q
 ];
 random = Math.floor(Math.random() * urlList.length);
 url = urlList[random];
