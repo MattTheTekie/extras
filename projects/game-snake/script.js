@@ -1,4 +1,4 @@
-// v.1.1.0
+// v.1.1.1
 
 
 /*
@@ -69,7 +69,7 @@ var row = 0;
 while (i <= 100) {
 
 //if(i % 5 == 1){ document.getElementById("result").innerHTML += `<br>`; }
-if(row == 10){ row = 0; document.getElementById("result").innerHTML += `<br>`; }
+//if(row == 10){ row = 0; document.getElementById("result").innerHTML += `<br>`; }
 
 
 // grid

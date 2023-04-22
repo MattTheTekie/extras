@@ -720,7 +720,8 @@ if(q == ''){
 urlList = [
 "https://www.qwant.com/",
 "https://you.com/",
-"https://neeva.com/"
+"https://neeva.com/",
+"https://www.ecosia.org/"
 ];
 random = Math.floor(Math.random() * urlList.length);
 url = urlList[random];

@@ -1,4 +1,4 @@
-/* v.1.0.1 */
+/* v.1.0.2 */
 
 
 
@@ -24,7 +24,7 @@ box-sizing: border-box;
 }
 
 br { margin: 0 !important; padding: 0 !important; }
-/*
+
 #result {
 display: grid;
 grid-template-columns:
@@ -37,7 +37,7 @@ align-items: center;
 text-align: center;
 margin-bottom: 0px;
 width: 35px;
-}*/
+}
 
 #result {
 text-align: center;
