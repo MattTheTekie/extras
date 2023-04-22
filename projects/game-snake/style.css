@@ -78,3 +78,6 @@ font-size: 9px !important;
 
 .snakeGreen { background: var(--green) !important; border: 1px solid var(--green2); }
 .foodOrange { background: var(--orange); }
+
+.control { text-align: center; }
+.control .button { width: 50px; }

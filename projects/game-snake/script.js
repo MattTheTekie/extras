@@ -1,4 +1,4 @@
-// v.1.1.1
+// v.1.1.2
 
 
 /*
@@ -333,13 +333,20 @@ if(e.code == 'KeyW'&&currentDirection[0] != 'down'){ currentDirection[0] = 'up';
 if(e.code == 'KeyS'&&currentDirection[0] != 'up'){ currentDirection[0] = 'down'; }
 if(e.code == 'KeyA'&&currentDirection[0] != 'right'){ currentDirection[0] = 'left'; }
 if(e.code == 'KeyD'&&currentDirection[0] != 'left'){ currentDirection[0] = 'right'; }
-console.log(currentDirection[0]);
 }
 }
 
 
 
+function control(e) {
 
+if(currentDirection[0] != 'stop'){
+if(e == 'up'&&currentDirection[0] != 'down'){ currentDirection[0] = 'up'; }
+if(e == 'down'&&currentDirection[0] != 'up'){ currentDirection[0] = 'down'; }
+if(e == 'left'&&currentDirection[0] != 'right'){ currentDirection[0] = 'left'; }
+if(e == 'right'&&currentDirection[0] != 'left'){ currentDirection[0] = 'right'; }
+}
+}
 
 
 
