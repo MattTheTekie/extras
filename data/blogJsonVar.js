@@ -1,6 +1,13 @@
 var blogJsonVar = 
 [
     {
+        "id": "47",
+        "text": "Florin Pop - 100 Days - 100 Projects Challenge",
+        "url": "https:\/\/www.florin-pop.com\/blog\/2019\/09\/100-days-100-projects\/",
+        "tag": "#challenge #WebDev",
+        "time": 1682254737
+    },
+    {
         "id": "46",
         "text": "UI Adrian on Twitter: \"7 tips to design better profile settings (visual thread)\ud83d\udc47 https:\/\/t.co\/jh131bOOef\" \/ Twitter",
         "url": "https:\/\/twitter.com\/uiuxadrian\/status\/1650099506388582401",
