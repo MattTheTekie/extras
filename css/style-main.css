@@ -58,6 +58,7 @@ margin-top: 53px;
 width: 100%;
 }
 header{ margin: 0 auto; }
+/*nav a::first-letter{ font-size: 1rem; font-weight: bold;}*/
 
 nav, footer { text-align: center; padding: 14px 0; max-width: 100%; z-index: 5; }
 nav a, nav button, footer span { display: inline-block; padding: 5px; }

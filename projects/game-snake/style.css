@@ -80,4 +80,4 @@ font-size: 9px !important;
 .foodOrange { background: var(--orange); }
 
 .control { text-align: center; }
-.control .button { width: 50px; }
+.control .button { display: inline-block; min-width: 50px; }

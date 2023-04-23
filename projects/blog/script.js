@@ -1,7 +1,7 @@
 // v.1.6.7
 // inspired by Twitter, Fediverse
 // not for large json files !
-// task: selection for search. relevant search
+// task: relevant for search, pagination for search
 
 
 
