@@ -1,6 +1,13 @@
 var blogJsonVar = 
 [
     {
+        "id": "46",
+        "text": "UI Adrian on Twitter: \"7 tips to design better profile settings (visual thread)\ud83d\udc47 https:\/\/t.co\/jh131bOOef\" \/ Twitter",
+        "url": "https:\/\/twitter.com\/uiuxadrian\/status\/1650099506388582401",
+        "tag": "#WebDesign",
+        "time": 1682253808
+    },
+    {
         "id": "45",
         "text": "Lea Verou on Twitter: \"I will start adding h1, h2, h3, h4, h5, h6 { text-wrap: balance; } to all my stylesheets, just to be ready.\" \/ Twitter",
         "url": "https:\/\/twitter.com\/LeaVerou\/status\/1649375197403971584",
