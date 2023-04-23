@@ -1,6 +1,20 @@
 var blogJsonVar = 
 [
     {
+        "id": "49",
+        "text": "Dribbble - Discover the World\u2019s Top Designers & Creative Professionals",
+        "url": "https:\/\/dribbble.com\/",
+        "tag": "#bookmark #WebDesign #inspiration",
+        "time": 1682255508
+    },
+    {
+        "id": "48",
+        "text": "Siteinspire | Web Design Inspiration",
+        "url": "https:\/\/www.siteinspire.com\/",
+        "tag": "#bookmark #WebDesign #inspiration",
+        "time": 1682255276
+    },
+    {
         "id": "47",
         "text": "Florin Pop - 100 Days - 100 Projects Challenge",
         "url": "https:\/\/www.florin-pop.com\/blog\/2019\/09\/100-days-100-projects\/",
