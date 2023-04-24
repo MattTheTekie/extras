@@ -1,4 +1,4 @@
-// v.1.3.0
+// v.1.3.1
 // at the end was inspired by Google Clock
 
 var secArr = [];
@@ -16,6 +16,7 @@ if(com == 'continue'){ comArr[0] = 'continue'; }
 if(com == 'refresh'){
 secArr[0] = 0;  comArr[0] = 'refresh'; lStopArr = [];
 document.getElementById('result3').innerHTML = '';
+document.getElementById('chart').innerHTML = '';
 }
 
 // https://stackoverflow.com/questions/457826/pass-parameters-in-setinterval-function
