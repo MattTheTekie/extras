@@ -81,6 +81,10 @@ var quoteJsonVar =
         "url": ""
     },
     {
+        "text": "In my high school senior year I was voted \"least likely to invent his own programming language.\" Guido van Rossum",
+        "url": "https:\/\/twitter.com\/gvanrossum"
+    },
+    {
         "text": "It is during our darkest moments that we must focus to see the light. Aristotle",
         "url": ""
     },

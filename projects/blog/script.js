@@ -1,4 +1,4 @@
-// v.1.6.7
+// v.1.7.0
 // inspired by Twitter, Fediverse
 // not for large json files !
 // task: relevant for search, pagination for search
@@ -881,10 +881,16 @@ if(checkText == true){
 if(q != ''&&q != null){
 //item = item.toLowerCase().replace(q.toLowerCase(), `<span style="border-bottom: 3px solid  var(--orange);">${q}</span>`);
 //https://stackoverflow.com/questions/7313395/case-insensitive-replace-all
-var searchMask = q;
+/*var searchMask = q;
 var regEx = new RegExp(searchMask, "ig");
-var replaceMask = `<span style="border-bottom: 3px solid  var(--orange);">${item}</span>`;
-var item = item.replace(regEx, replaceMask);
+var replaceMask = `<span style="border-bottom: 3px solid  var(--orange);">${q}</span>`;
+var item = item.replace(regEx, replaceMask);*/
+var q33 = (q).split(" ");
+q33.forEach((element) => {
+if((item.toLowerCase()).indexOf((element.toLowerCase())) >= 0){ item = `<span style="border-bottom: 3px solid  var(--orange);">${item}</span>`; }
+});
+
+
 }
 }
 
