@@ -1,4 +1,4 @@
-// v.1.3.1
+// v.1.3.3
 // at the end was inspired by Google Clock
 
 var secArr = [];
@@ -112,7 +112,7 @@ var element33 = Math.abs(new Date('2011/10/09 '+lStopArr[index]) - new Date('201
 //https://www.w3schools.com/jsref/jsref_isNaN.asp
 if(!isNaN(element33)){
 element33 = Math.floor((element33/1000));
-chartTitle += new String(element33)+',';
+chartTitle += new String((element33+',').replaceAll(':', ''));
 chartData += new String(element33)+',';
 }
 
@@ -123,11 +123,14 @@ chartData += new String(element33)+',';
 
 if(chartData != ''){
 //https://stackoverflow.com/questions/17720264/remove-last-comma-and-possible-whitespaces-after-the-last-comma-from-the-end-o
-chartTitle = new String(chartTitle).replace(/,\s*$/, "");
-chartData = new String(chartTitle).replace(/,\s*$/, "");
+//chartTitle = new String(chartTitle).replace(/,\s*$/, "");
+//chartData = new String(chartTitle).replace(/,\s*$/, "");
+chartTitle = new String(chartTitle).slice(0, -1);
+chartData = new String(chartData).slice(0, -1);
+//console.log(chartTitle);
 
 document.getElementById('chart').innerHTML = `
-<img src="https://quickchart.io/chart?c=%7Btype:%27bar%27,data:%7Blabels:[${chartTitle}],datasets:[%7Blabel:%27Users%27,data:[${chartData}]%7D]%7D%7D" width="500" alt="chart">
+<img src="https://quickchart.io/chart?c=%7Btype:%27bar%27,data:%7Blabels:[${chartTitle}],datasets:[%7Blabel:%27sec%27,data:[${chartData}]%7D]%7D%7D" width="500" alt="chart">
 `;
 
 }
