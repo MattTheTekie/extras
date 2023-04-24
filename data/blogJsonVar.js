@@ -1,6 +1,13 @@
 var blogJsonVar = 
 [
     {
+        "id": "50",
+        "text": "Big List of Free and Open Public APIs (No Auth Needed) [2023]",
+        "url": "https:\/\/mixedanalytics.com\/blog\/list-actually-free-open-no-auth-needed-apis\/",
+        "tag": "#bookmark #API",
+        "time": 1682311056
+    },
+    {
         "id": "49",
         "text": "Dribbble - Discover the World\u2019s Top Designers & Creative Professionals",
         "url": "https:\/\/dribbble.com\/",

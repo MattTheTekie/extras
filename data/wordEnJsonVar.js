@@ -1693,6 +1693,9 @@ var wordEnJsonVar =
         "text": "admissions"
     },
     {
+        "text": "admist"
+    },
+    {
         "text": "admit"
     },
     {
@@ -2996,8 +2999,5 @@ var wordEnJsonVar =
     },
     {
         "text": "alerts"
-    },
-    {
-        "text": "aletheia"
     }
 ]
