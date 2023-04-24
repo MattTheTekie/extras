@@ -150,7 +150,7 @@ chartData = new String(chartData).slice(0, -1);
 //console.log(chartTitle);
 
 document.getElementById('chart').innerHTML = `
-<img src="https://quickchart.io/chart?c=%7Btype:%27bar%27,data:%7Blabels:[${chartTitle}],datasets:[%7Blabel:%27min%27,data:[${chartData}]%7D]%7D%7D" width="500" alt="chart">
+<img src="https://quickchart.io/chart?c=%7Btype:%27bar%27,data:%7Blabels:[${chartTitle}],datasets:[%7Blabel:%27min%27,data:[${chartData}]%7D]%7D%7D" width="430" alt="chart">
 `;
 
 }
