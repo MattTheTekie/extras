@@ -32,7 +32,6 @@ scroll-padding-top: 16px;
 #lPrintTr, #lPrintTr a{
 font-size: 120%; font-size: 1.3em; font-size: medium;
 }
-#lPrintTr { padding: 0 15px; border-top: 15px solid var(--d2); }
+#lPrintTr { padding: 0 15px; border-top: 7px solid var(--d2); }
 
 .stat { text-align: right; }
-#text, { border-top: 7px solid var(--d2); }

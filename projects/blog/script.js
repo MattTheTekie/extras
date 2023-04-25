@@ -1,4 +1,4 @@
-// v.1.8.1
+// v.1.8.2
 // inspired by Twitter, Fediverse
 // not for large json files !
 // task: relevant for search
@@ -379,12 +379,14 @@ print += `
 `;
 
 // search forom
+
+
 print += `
 <br>
 <div id="form" class="wrapperL">
 <form method="GET" style="margin-top: 0px;" action="?">
 
-<input id="input" class="padding op" type="search" style="text-align: center;" name="q"  autocomplete="off" placeholder="">
+<input id="input" class="padding op" type="search" style="text-align: center;" name="q"  autocomplete="off" placeholder="" value="${q}">
 
 <input class="op" style="padding: 0; min-height: 1px; height: 24px; font-size: 12px;" type="submit" value="search">
 
