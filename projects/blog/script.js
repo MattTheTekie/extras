@@ -1,4 +1,4 @@
-// v.1.8.0
+// v.1.8.1
 // inspired by Twitter, Fediverse
 // not for large json files !
 // task: relevant for search
@@ -81,7 +81,7 @@ getP = Number(decodeURIComponent(getP));
 
 
 
-if(getP >= blogJsonVar.length - 1){ getP = 0; }
+if(getP >= blogJsonVar.length - 1){ getP = blogJsonVar.length; }
 if(getP < postLimit){ getP = 0; }
 
 }
@@ -1266,6 +1266,8 @@ if(prev <= 0){ prev = 0; }
 
 
 var navOption2 = '';
+var navOption3 = '';
+
 let nav2Print = '';
 let navMode = 'p';
 if(com == 'random'){
@@ -1292,12 +1294,15 @@ nav2Print = `
 `;
 }
 
+
+if(q == null||q == 'null'){ q = ''; }
+
 if(com == 'search'){
 navMode = 'p3';
-if(q == null){ q = ''; }
 
 
 
+navOption3 = `<input type="hidden" name="q" value="${q}">`;
 navOption2 = 'q='+encodeURIComponent(q)+"&";
 nav2Print = `
 <div class="tRight">
@@ -1337,13 +1342,13 @@ justify-content: center;
 
 
 <form id="form">
-<input type="hidden" name="q" value="${q}" />
+${navOption3}
 <input  name="${navMode}" style="
 /*-webkit-transform: rotateY(180deg);
 -moz-transform: rotateY(180deg);
 -ms-transform: rotateY(180deg);
 -o-transform: rotateY(180deg);
-transform: rotateY(180deg);*/" id="rangeinput" class="slider" value="${getP}" type="range" min="0" max="${total2}" step="${postLimit}" onmouseup="this.form.submit();" ontouchend="this.form.submit();" />
+transform: rotateY(180deg);*/" id="rangeinput" class="slider" value="${getP}" type="range" min="0" max="${total2}" step="${postLimit}" onmouseup="this.form.submit();" ontouchend="this.form.submit();">
 </form>
 
 <div class="grid">
