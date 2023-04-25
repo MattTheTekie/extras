@@ -67,7 +67,8 @@ adsPrint  += '<div class="post2 brand  border4List">'+ads[index]['text']+' <a ta
 // privacy part
 if(confDataCollection == 'on'){
 
-/*off if on confDataCollection
+/*
+// duplicated in main.js
 // analytics
 //<!-- Google tag (gtag.js) -->
 var scriptStat = document.createElement('script');
