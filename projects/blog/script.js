@@ -1,7 +1,7 @@
-// v.1.7.0
+// v.1.8.0
 // inspired by Twitter, Fediverse
 // not for large json files !
-// task: relevant for search, pagination for search
+// task: relevant for search
 
 
 
@@ -32,8 +32,6 @@ if(scriptDir == undefined||scriptDir == ''){ scriptDir = './'; }
 if(multiEmbedStatus == undefined||multiEmbedStatus == ''){ multiEmbedStatus = 'off'; }
 if(tagListLimit == undefined||tagListLimit == ''){ tagListLimit = '500'; }
 
-var searchLimit = 500;
-
 
 if(blogJsonVar == ''){
 var blogJsonVar = 
@@ -59,7 +57,7 @@ var blogJsonVar =
 }
 
 
-
+var total = '';
 
 var url = new URL(window.location);
 
@@ -81,6 +79,8 @@ if(getP != null){
 getP = getP.replace(/%/g, "%25");
 getP = Number(decodeURIComponent(getP));
 
+
+
 if(getP >= blogJsonVar.length - 1){ getP = 0; }
 if(getP < postLimit){ getP = 0; }
 
@@ -95,6 +95,15 @@ getP2 = Number(decodeURIComponent(getP2));
 
 if(getP == null){ getP = 0; }
 
+var getP3 = url.searchParams.get("p3"); // nav for id
+if(getP3 != null){
+getP3 = getP3.replace(/%/g, "%25");
+getP3 = getP3.trim();
+getP3 = Number(decodeURIComponent(getP3));
+}
+
+if(getP == null){ getP = 0; }
+
 
 if(getP == blogJsonVar.length){ getP = getP - 1; }
 if(getP2 == blogJsonVar.length){ getP2 = getP2 - 1; }
@@ -102,6 +111,7 @@ if(getP >= blogJsonVar.length){ getP = Number(Number(blogJsonVar.length) - Numbe
 if(getP <= 0){ getP = 0; }
 if(isNaN(getP)||isNaN(getP2)){ getP = 0; getP = 0; }
 
+if(getP3 <= 0){ getP3 = 0; }
 
 var symbolForSplit = 'pwxortuzqu';
 var postId = '';
@@ -120,7 +130,7 @@ var comMessagePrint = '';
 
 postLimit = Number(postLimit);
 
-
+var i3 = 0;
 var com = '';
 
 
@@ -134,8 +144,9 @@ function main(){
 
 if(q != null){
 com = 'search';
-embedStatus = 'off';
-postLimit = searchLimit;
+//embedStatus = 'off';
+postLimit = 10;
+getP = getP3;
 }
 if(id != null||getP2 != null){
 com = 'id';
@@ -177,34 +188,45 @@ switch (com){
 
 case 'search':
 // search start
-if(i <= postLimit -1){
+
+
 //qSearch = String(q.toLowerCase()).replace(/ /g, "|"); //if((qData).search(qSearch) != -1){}
 qSearch = decodeURIComponent(q);
 qSearch = String(qSearch).toLowerCase();
 let qData = String(postText+' '+postTag).toLowerCase();
 
 
-
 // if tag
 if(qSearch[0] == '#'){
 qData = qData.replace(/,/g, ' ');
 if((qData+' ').indexOf((qSearch+' ')) >= 0){
+if(getP3 <= i){
+if(i3 <= postLimit -1){
 print += fuPrintPost(postId, postText, postTag, postTime);
+}
+i3++;
+}
 i++;
-comMessagePrint = `${q} ${i} (searchLimit:${searchLimit})`;
+total = i;
+comMessagePrint = `${q} ${i}`;
 comMessage = 'found';
 }
 }else if(qData.indexOf(qSearch) >= 0){
+if(getP3 <= i){
+if(i3 <= postLimit -1){
 print += fuPrintPost(postId, postText, postTag, postTime);
+}
+i3++;
+}
 i++;
-
-
-comMessagePrint = `${q} ${i} (searchLimit:${searchLimit})`;
+total = i;
+comMessagePrint = `${q} ${i}`;
 comMessage = 'found';
 }
 
 
-}
+
+
 if(comMessagePrint == '') { comMessagePrint = `<div class="red block padding">Probably not found</div>`; }
 break;
 
@@ -277,7 +299,7 @@ postText = (postText+' '+postUrl).trim();
 
 if(com == 'search'&&comMessage != 'found'){
 
-if(i <= postLimit -1){
+
 //qSearch = String(q.toLowerCase()).replace(/ /g, "|"); //if((qData).search(qSearch) != -1){}
 qSearch = decodeURIComponent(q);
 qSearch = String(qSearch).toLowerCase();
@@ -289,9 +311,14 @@ qSearch = (qSearch+' ').split(' ');
 qSearch.forEach(function (item) {
 //if((qData.split(item)).length > 1&&item != ''){
 if((qData.indexOf(item)) > 0){
+if(getP3 <= i){
+if(i3 <= postLimit -1){
 print += fuPrintPost(postId, postText, postTag, postTime);
+}
+i3++;
+}
 i++;
-comMessagePrint = `${q} ${i} (searchLimit:${searchLimit})`;
+comMessagePrint = `${q} ${i}`;
 qData = '';
 comMessage = 'found'
 sRelevantPoint++
@@ -300,8 +327,10 @@ sRelevantPoint++
 
 
 console.log(sRelevantPoint);
+
 }
-}
+
+
 
 });
 
@@ -327,9 +356,9 @@ print = comMessagePrint+print;
 }
 
 
-if(com != 'search'){
+//if(com != 'search'){ print += `<div class="${postClass}">`+blogNav(com)+`</div>`; }
 print += `<div class="${postClass}">`+blogNav(com)+`</div>`;
-}
+
 if(com == 'search'){
 print += `
 <div class="wrapper">
@@ -564,8 +593,11 @@ if(tag != ''){
 let printTag = tag.replace(/#/g, "");
 let goTag = encodeURIComponent(tag);
 
-let hlClass = 'hlClass'+printTag[0].toLowerCase();
+let hlClass = '';
+if(printTag[0] != undefined){
+hlClass = 'hlClass'+printTag[0].toLowerCase();
 hlClassList += printTag[0].toLowerCase();
+}
 
 if(q == tag){
 tagList += `
@@ -638,7 +670,7 @@ post = post.trim();
 */
 
 //3
-embedStatus = 'off';
+//embedStatus = 'off';
 post = highlightText(post, 'out');
 
 
@@ -1217,18 +1249,23 @@ var tmp = setInterval(fuPostTime, 1000);
 
 
 
-// navigation // used array
+// navigation navbar // used array
 function blogNav(com){
 
 let prev = Number(Math.floor(getP - postLimit)); //https://stackoverflow.com/questions/1133770/how-to-convert-a-string-to-an-integer-in-javascript
 let next = Number(Math.floor(getP + postLimit));
-let total = Number(blogJsonVar.length);
+
+
+if(com != 'search'){ // if not search
+total = Number(blogJsonVar.length);
+}
 let total2 = total;
 
 if(next >= total){ next = total - 1; total2 = total - 1; }
 if(prev <= 0){ prev = 0; }
 
 
+var navOption2 = '';
 let nav2Print = '';
 let navMode = 'p';
 if(com == 'random'){
@@ -1249,6 +1286,21 @@ navMode = 'p2';
 nav2Print = `
 <div class="tRight">
 <a class="op block borderList button light" href="?p=`+Math.floor(getP)+`">list</a>
+<!--<a class="op borderList button light" href="?id=">random</a>-->
+</div>
+<!--<a class="op border2 button light" style="width: 49%;" href="#" onclick="history.back()">back</a>-->
+`;
+}
+
+if(com == 'search'){
+navMode = 'p3';
+if(q == null){ q = ''; }
+
+
+
+navOption2 = 'q='+encodeURIComponent(q)+"&";
+nav2Print = `
+<div class="tRight">
 <!--<a class="op borderList button light" href="?id=">random</a>-->
 </div>
 <!--<a class="op border2 button light" style="width: 49%;" href="#" onclick="history.back()">back</a>-->
@@ -1285,6 +1337,7 @@ justify-content: center;
 
 
 <form id="form">
+<input type="hidden" name="q" value="${q}" />
 <input  name="${navMode}" style="
 /*-webkit-transform: rotateY(180deg);
 -moz-transform: rotateY(180deg);
@@ -1294,9 +1347,9 @@ transform: rotateY(180deg);*/" id="rangeinput" class="slider" value="${getP}" ty
 </form>
 
 <div class="grid">
-<a class="op border button light" href="?${navMode}=${prev}">&#8592;</a>
+<a class="op border button light" href="?${navOption2}${navMode}=${prev}">&#8592;</a>
 <div class="button border"><span class="op pre">${navMode}: </span>`+Math.floor(getP/postLimit)+`</div>
-<a class="op border button light" href="?${navMode}=${next}">&#8594;</a>
+<a class="op border button light" href="?${navOption2}${navMode}=${next}">&#8594;</a>
 </div>
 
 ${nav2Print}
