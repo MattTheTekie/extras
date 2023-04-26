@@ -1,6 +1,13 @@
 var blogJsonVar = 
 [
     {
+        "id": "53",
+        "text": "character.ai",
+        "url": "https:\/\/beta.character.ai\/",
+        "tag": "#bookmark #AI",
+        "time": 1682474387
+    },
+    {
         "id": "52",
         "text": "test",
         "url": "http:\/\/test.com",
