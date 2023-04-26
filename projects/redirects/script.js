@@ -1,4 +1,4 @@
-// v.1.1.32
+// v.1.1.34
 
 
 
@@ -313,7 +313,8 @@ urlList = [
 "https://translate.google.com/?sl=auto&text="+q+"&op=translate",
 
 "https://www.deepl.com/translator#auto/auto/"+q,
-"https://www.bing.com/translator/?text="+q+"&from=auto&to=auto"
+"https://www.deepl.com/translator#auto/auto/"+q
+//"https://www.bing.com/translator/?text="+q+"&from=auto&to=auto"
 ];
 random = Math.floor(Math.random() * urlList.length);
 random = urlList[random];
@@ -328,8 +329,10 @@ urlList = [
 "https://translate.google.com/?sl=auto&tl=en&text="+q+"&op=translate",
 "https://translate.google.com/?sl=auto&tl=en&text="+q+"&op=translate",
 "https://translate.google.com/?sl=auto&tl=en&text="+q+"&op=translate",
-"https://translate.google.com/?sl=auto&tl=en&text="+q+"&op=translate",
-"https://www.bing.com/translator/?text="+q+"&from=auto&to=en"
+
+"https://www.deepl.com/translator#auto/en/"+q,
+"https://www.deepl.com/translator#auto/en/"+q
+//"https://www.bing.com/translator/?text="+q+"&from=auto&to=en"
 ];
 random = Math.floor(Math.random() * urlList.length);
 random = urlList[random];

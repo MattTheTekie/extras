@@ -1,6 +1,20 @@
 var blogJsonVar = 
 [
     {
+        "id": "55",
+        "text": "Web Design Inspiration : The Best Website Design Ideas",
+        "url": "https:\/\/www.webdesign-inspiration.com\/",
+        "tag": "#bookmark #WebDesign #inspiration",
+        "time": 1682485631
+    },
+    {
+        "id": "54",
+        "text": "Hotpot.ai - Hotpot.ai",
+        "url": "https:\/\/hotpot.ai\/",
+        "tag": "#bookmark #AI",
+        "time": 1682483376
+    },
+    {
         "id": "53",
         "text": "character.ai",
         "url": "https:\/\/beta.character.ai\/",
