@@ -1,4 +1,4 @@
-/* v.12.18.11 */
+/* v.12.19.00 */
 * {  color-scheme: light dark; } /* view-source:about:blank */ 
 
 :root{
@@ -22,7 +22,6 @@ font-weight: 400;
 font-size: 13.4px;
 text-decoration:none;
 letter-spacing: 0.15px;
-line-height: 125%;
 /*hyphens: auto;*/ 
 }
 
