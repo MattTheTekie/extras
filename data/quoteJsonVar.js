@@ -9,6 +9,10 @@ var quoteJsonVar =
         "url": ""
     },
     {
+        "text": "Anything is possible when you trust yourself enough. Aishwarya",
+        "url": "https:\/\/twitter.com\/iiaishwarya\/status\/1651353831077449729"
+    },
+    {
         "text": "Be not afraid of greatness. Some are born great, some achieve greatness, and others have greatness thrust upon them. William Shakespeare",
         "url": ""
     },
@@ -81,7 +85,7 @@ var quoteJsonVar =
         "url": ""
     },
     {
-        "text": "In my high school senior year I was voted \"least likely to invent his own programming language.\" Guido van Rossum",
+        "text": "In my high school senior year I was voted : least likely to invent his own programming language. Guido van Rossum",
         "url": "https:\/\/twitter.com\/gvanrossum"
     },
     {

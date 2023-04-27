@@ -1,4 +1,5 @@
-/* v.12.19.3 */
+/* v.12.19.5 */
+
 * {  color-scheme: light dark; } /* view-source:about:blank */ 
 
 :root{
@@ -424,7 +425,7 @@ border-radius: 0;
 .adsHeader {
 display: block;
 width: 100%;
-background: blue;
+background: #3636E3;
 color: white;
 text-align: right;
 float: right;
