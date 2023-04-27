@@ -397,7 +397,7 @@ td { background-color: var(--l2); }
 overflow-y: hidden;
 white-space: nowrap;*/
 display: block;
-max-height: 700px;
+max-height: 900px;
 overflow-x: hidden;
 overflow-y: auto;
 scroll-padding-top: 16px;

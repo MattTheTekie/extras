@@ -1,6 +1,13 @@
 var blogJsonVar = 
 [
     {
+        "id": "57",
+        "text": "SPACE.com on Twitter: \"Astronomers snap 1st-ever direct image of a black hole blasting out a powerful jet (photo) https:\/\/t.co\/IBCGErIpiv https:\/\/t.co\/v1QHjc00xG\" \/ Twitter",
+        "url": "https:\/\/twitter.com\/SPACEdotcom\/status\/1651271987384270871",
+        "tag": "#space",
+        "time": 1682620778
+    },
+    {
         "id": "56",
         "text": "CSS Art Keyboard",
         "url": "https:\/\/codepen.io\/kassandrasanch\/pen\/ExyrGKR",
