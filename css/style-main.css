@@ -1,4 +1,4 @@
-/* v.12.19.00 */
+/* v.12.19.1 */
 * {  color-scheme: light dark; } /* view-source:about:blank */ 
 
 :root{
@@ -409,7 +409,7 @@ scroll-padding-top: 16px;
 .adsBody { padding-bottom: 15px;  }
 
 
-/* ads old style */
+/* ads in old Windows OS design, comment for website design */
 
 .ads {  margin: 0; padding: 0; }
 .ads {
