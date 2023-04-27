@@ -53,10 +53,6 @@ var musJsonVar =
         "url": "https:\/\/tunein.com\/radio\/BBC-Radio-6-Music-s44491\/"
     },
     {
-        "text": "Best FM | Free Internet Radio | TuneIn",
-        "url": "https:\/\/tunein.com\/radio\/Best-FM-s109856\/"
-    },
-    {
         "text": "Bombshell Radio - Bombshell Radio",
         "url": "https:\/\/bombshellradio.com\/"
     },

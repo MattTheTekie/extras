@@ -1,6 +1,13 @@
 var blogJsonVar = 
 [
     {
+        "id": "56",
+        "text": "CSS Art Keyboard",
+        "url": "https:\/\/codepen.io\/kassandrasanch\/pen\/ExyrGKR",
+        "tag": "#CSS #HTML",
+        "time": 1682563631
+    },
+    {
         "id": "55",
         "text": "Web Design Inspiration : The Best Website Design Ideas",
         "url": "https:\/\/www.webdesign-inspiration.com\/",

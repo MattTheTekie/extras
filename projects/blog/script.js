@@ -63,20 +63,20 @@ var url = new URL(window.location);
 
 var q = url.searchParams.get("q");
 if(q != null){
-q = q.replace(/%/g, "%25");
+q = q.replaceAll(/%/g, "%25");
 q = decodeURIComponent(q);
 q = q.trim();
 }
 
 var id = url.searchParams.get("id");
 if(id != null){
-id = id.replace(/%/g, "%25");
+id = id.replaceAll(/%/g, "%25");
 id = Number(decodeURIComponent(id));
 }
 
 var getP = url.searchParams.get("p");
 if(getP != null){
-getP = getP.replace(/%/g, "%25");
+getP = getP.replaceAll(/%/g, "%25");
 getP = Number(decodeURIComponent(getP));
 
 
@@ -88,7 +88,7 @@ if(getP < postLimit){ getP = 0; }
 
 var getP2 = url.searchParams.get("p2"); // nav for id
 if(getP2 != null){
-getP2 = getP2.replace(/%/g, "%25");
+getP2 = getP2.replaceAll(/%/g, "%25");
 getP2 = getP2.trim();
 getP2 = Number(decodeURIComponent(getP2));
 }
@@ -97,7 +97,7 @@ if(getP == null){ getP = 0; }
 
 var getP3 = url.searchParams.get("p3"); // nav for id
 if(getP3 != null){
-getP3 = getP3.replace(/%/g, "%25");
+getP3 = getP3.replaceAll(/%/g, "%25");
 getP3 = getP3.trim();
 getP3 = Number(decodeURIComponent(getP3));
 }
@@ -190,7 +190,7 @@ case 'search':
 // search start
 
 
-//qSearch = String(q.toLowerCase()).replace(/ /g, "|"); //if((qData).search(qSearch) != -1){}
+//qSearch = String(q.toLowerCase()).replaceAll(/ /g, "|"); //if((qData).search(qSearch) != -1){}
 qSearch = decodeURIComponent(q);
 qSearch = String(qSearch).toLowerCase();
 let qData = String(postText+' '+postTag).toLowerCase();
@@ -198,7 +198,7 @@ let qData = String(postText+' '+postTag).toLowerCase();
 
 // if tag
 if(qSearch[0] == '#'){
-qData = qData.replace(/,/g, ' ');
+qData = qData.replaceAll(/,/g, ' ');
 if((qData+' ').indexOf((qSearch+' ')) >= 0){
 if(getP3 <= i){
 if(i3 <= postLimit -1){
@@ -300,7 +300,7 @@ postText = (postText+' '+postUrl).trim();
 if(com == 'search'&&comMessage != 'found'){
 
 
-//qSearch = String(q.toLowerCase()).replace(/ /g, "|"); //if((qData).search(qSearch) != -1){}
+//qSearch = String(q.toLowerCase()).replaceAll(/ /g, "|"); //if((qData).search(qSearch) != -1){}
 qSearch = decodeURIComponent(q);
 qSearch = String(qSearch).toLowerCase();
 let qData = String(postText+' '+postTag).toLowerCase();
@@ -436,8 +436,8 @@ let size = '';
 tagList = '';
 
 
-tagList2 = tagList2.replace(/,/g, symbolForSplit);
-tagList2 = tagList2.replace(/ /g, symbolForSplit);
+tagList2 = tagList2.replaceAll(/,/g, symbolForSplit);
+tagList2 = tagList2.replaceAll(/ /g, symbolForSplit);
 
 tagList2 = tagList2.split(symbolForSplit);
 
@@ -592,7 +592,7 @@ fuTag(tagCount);
 
 
 if(tag != ''){
-let printTag = tag.replace(/#/g, "");
+let printTag = tag.replaceAll(/#/g, "");
 let goTag = encodeURIComponent(tag);
 
 let hlClass = '';
@@ -720,8 +720,8 @@ function highlightText(text, hrefInOut){
 text = clearText(text);
 
 // if code
-text = text.replace(/</g, "&lt;");
-text = text.replace(/>/g, "&gt;");
+text = text.replaceAll(/</g, "&lt;");
+text = text.replaceAll(/>/g, "&gt;");
 
 let text2 = '';
 let embed = '';
@@ -793,7 +793,7 @@ break;
 
 case "www.reddit.com":
 if(item.split('/').length >= 9){
-play = item.replace('reddit.com/r/', "redditmedia.com/r/");
+play = item.replaceAll('reddit.com/r/', "redditmedia.com/r/");
 embed = `<iframe style="border-radius: 0 !important;" id="reddit-embed" src="${play}?ref_source=embed&amp;ref=share&amp;embed=true&amp;theme=${confThemeEmbed}" sandbox="allow-scripts allow-same-origin allow-popups" style="border: none;" scrolling="yes" width="640" height="320px"></iframe>`;
 }
 break;
@@ -833,7 +833,7 @@ embed = `<a href="${item}"><img class="border3" src="${item}" width=""></a>`
 if(embedStatus != 'off'){
 
 //https://stackoverflow.com/questions/2390789/how-to-replace-all-dots-in-a-string-using-javascript
-itemCheck = item.replace(/\./g, symbolForSplit);
+itemCheck = item.replaceAll(/\./g, symbolForSplit);
 
 if(itemCheck.search(`${symbolForSplit}mp4|${symbolForSplit}webm|${symbolForSplit}avi`) != -1) {
 checkText = false;
@@ -901,7 +901,7 @@ item = `<a target="_blank" href="${item}">${item}</a>`;
 if(item[0] == '#'){
 checkText = false;
 
-item = item.replace(/#/g, "");
+item = item.replaceAll(/#/g, "");
 if(hrefInOut == 'out'){
 /*item = `<a rel="nofollow" href="/projects/blog-in-progress/?q=${item} tag">#${item} <span class="sup">⇗</span></a>`;*/
 item = `<a rel="nofollow" href="${scriptDir}?q=%23${item}">#${item}</a>`;
@@ -913,7 +913,7 @@ item = `<a rel="nofollow" href="${scriptDir}?q=%23${item}">#${item}</a>`;
 
 if(checkText == true){
 if(q != ''&&q != null){
-//item = item.toLowerCase().replace(q.toLowerCase(), `<span style="border-bottom: 3px solid  var(--orange);">${q}</span>`);
+//item = item.toLowerCase().replaceAll(q.toLowerCase(), `<span style="border-bottom: 3px solid  var(--orange);">${q}</span>`);
 //https://stackoverflow.com/questions/7313395/case-insensitive-replace-all
 /*var searchMask = q;
 var regEx = new RegExp(searchMask, "ig");
@@ -974,8 +974,8 @@ text = clearText(text);
 
 // if code
 
-text = text.replace(/</g, "&lt;");
-text = text.replace(/>/g, "&gt;");
+text = text.replaceAll(/</g, "&lt;");
+text = text.replaceAll(/>/g, "&gt;");
 
 let text2 = '';
 let embed = '';
@@ -1042,7 +1042,7 @@ break;
 
 case "www.reddit.com":
 if(item.split('/').length >= 9){
-play = item.replace('reddit.com/r/', "redditmedia.com/r/");
+play = item.replaceAll('reddit.com/r/', "redditmedia.com/r/");
 embed = `<iframe style="border-radius: 0 !important;" id="reddit-embed" src="${play}?ref_source=embed&amp;ref=share&amp;embed=true&amp;theme=${confThemeEmbed}" sandbox="allow-scripts allow-same-origin allow-popups" style="border: none;" scrolling="yes" width="640" height="320px"></iframe>`;
 }
 break;
@@ -1083,7 +1083,7 @@ if(embedStatus != 'off'){
 
 
 
-itemCheck = item.replace(/\./g, symbolForSplit);
+itemCheck = item.replaceAll(/\./g, symbolForSplit);
 
 if(itemCheck.search(`${symbolForSplit}mp4|${symbolForSplit}webm|${symbolForSplit}avi`) != -1) {
 embed2 = `<video height="${h}" controls autoplay style="width:100%"><source src="${item}" type="video/mp4">
@@ -1139,7 +1139,7 @@ item = `<a target="_blank" href="${item}">${item}</a>`;
 if(item[0] == '#'){
 
 
-item = item.replace(/#/g, "");
+item = item.replaceAll(/#/g, "");
 if(hrefInOut == 'out'){
 /*item = `<a rel="nofollow" href="/projects/blog-in-progress/?q=${item} tag">#${item} <span class="sup">⇗</span></a>`;*/
 item = `<a rel="nofollow" href="${scriptDir}?q=%23${item}">#${item}</a>`;
@@ -1438,8 +1438,8 @@ i++;
 function clearText(text){
 
 //https://stackoverflow.com/questions/2774471/what-is-c2-a0-in-mime-encoded-quoted-printable-text
-text = text.replace(/%C2%A0/g, " "); // non-breaking space.
-text = text.replace(/ /g, " "); // non-breaking space.
+text = text.replaceAll(/%C2%A0/g, " "); // non-breaking space.
+text = text.replaceAll(/ /g, " "); // non-breaking space.
 
 return text;
 }
