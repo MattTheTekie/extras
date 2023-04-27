@@ -1,4 +1,4 @@
-// v.1.0.2
+// v.1.1.0
 
 function fuClock(id){
 
@@ -169,9 +169,18 @@ return val;
 
 h = makeGrid(hours.toString()[0]);
 h2 = makeGrid(hours.toString()[1]);
+h2 += `
+<div class="gridColumn">
+</div>
+`;
+
 
 m = makeGrid(minutes.toString()[0]);
 m2 = makeGrid(minutes.toString()[1]);
+m2 += `
+<div class="gridColumn">
+</div>
+`;
 
 s = makeGrid(seconds.toString()[0]);
 s2 = makeGrid(seconds.toString()[1]);
