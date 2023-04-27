@@ -39,18 +39,19 @@ let minutes = normalize(time.getMinutes());
 let seconds = normalize(time.getSeconds());
 //console.log(hours+' '+minutes+' '+seconds);
 
-//https://www.w3schools.com/jsref/jsref_tostring_number.asp
-/*document.getElementById('result').innerHTML = 
+var print = hours+':'+minutes+':'+seconds;
+/*//https://www.w3schools.com/jsref/jsref_tostring_number.asp
+var print = 
 normalize2(Number(hours.toString()[0]).toString(2))+','+normalize2(Number(hours.toString()[1]).toString(2))+' : '+
 normalize2(Number(minutes.toString()[0]).toString(2))+','+normalize2(Number(minutes.toString()[1]).toString(2))+' : '+
 normalize2(Number(seconds.toString()[0]).toString(2))+','+normalize2(Number(seconds.toString()[1]).toString(2))
 ;*/
 
-var print = 
+/*var print = 
 normalize2(Number(hours.toString()).toString(2))+' : '+
 normalize2(Number(minutes.toString()).toString(2))+' : '+
 normalize2(Number(seconds.toString()).toString(2))
-;
+;*/
 
 document.getElementById('result').innerHTML = print;
 
