@@ -1,4 +1,4 @@
-// v.1.1.0
+// v.1.2.0
 
 function fuClock(id){
 
@@ -152,12 +152,12 @@ var val = '';
 function makeGrid(number){
 
 val = `
-<div class="gridColumn">
+
 <div>${bcdJsonVar[number]['8']}</div>
 <div>${bcdJsonVar[number]['4']}</div>
 <div>${bcdJsonVar[number]['2']}</div>
 <div>${bcdJsonVar[number]['1']}</div>
-</div>
+
 `;
 
 //https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/String/replace
@@ -168,23 +168,55 @@ return val;
 
 
 h = makeGrid(hours.toString()[0]);
+h = `
+<div class="gridColumn">
+${h}
+<div class="op">${hours.toString()[0]}</div>
+</div>
+`;
 h2 = makeGrid(hours.toString()[1]);
-h2 += `
+h2 = `
+<div class="gridColumn">
+${h2}
+<div class="op">${hours.toString()[1]}</div>
+</div>
 <div class="gridColumn">
 </div>
 `;
 
 
 m = makeGrid(minutes.toString()[0]);
+m = `
+<div class="gridColumn">
+${m}
+<div class="op">${minutes.toString()[0]}</div>
+</div>
+`;
 m2 = makeGrid(minutes.toString()[1]);
-m2 += `
+m2 = `
+<div class="gridColumn">
+${m2}
+<div class="op">${minutes.toString()[1]}</div>
+</div>
 <div class="gridColumn">
 </div>
 `;
 
 s = makeGrid(seconds.toString()[0]);
+s = `
+<div class="gridColumn">
+${s}
+<div class="op">${seconds.toString()[0]}</div>
+</div>
+`;
 s2 = makeGrid(seconds.toString()[1]);
+s2 = `
+<div class="gridColumn">
+${s2}
+<div class="op">${seconds.toString()[1]}</div>
+</div>
 
+`;
 
 document.getElementById('result').innerHTML = `
 <div class="wrapperTv">
