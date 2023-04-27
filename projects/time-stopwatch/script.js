@@ -1,4 +1,4 @@
-// v.1.4.0
+// v.1.4.1
 // at the end was inspired by Google Clock
 
 var secArr = [];
@@ -51,6 +51,7 @@ document.getElementById('panel').innerHTML = `
 
 
 fuStopwatchCom('start', 0);
+fuStopwatch();
 setInterval(fuStopwatch, 1000);
 
 

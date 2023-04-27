@@ -1,4 +1,4 @@
-// v.1.0.2
+// v.1.0.3
 
 function fuClock(id){
 
@@ -20,4 +20,5 @@ document.getElementById('result').innerHTML = hours+':'+minutes+':'+seconds;
 document.getElementsByTagName('title')[0].innerHTML = hours+':'+minutes+':'+seconds;
 }
 
+fuClock();
 setInterval(fuClock, 1000);

@@ -1,4 +1,4 @@
-// v.1.2.1
+// v.1.2.2
 
 function fuClock(id){
 
@@ -257,5 +257,5 @@ ${s2}
 
 
 
-
+fuClock();
 setInterval(fuClock, 1000);
