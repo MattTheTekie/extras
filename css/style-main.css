@@ -1,4 +1,4 @@
-/* v.12.19.2 */
+/* v.12.19.3 */
 * {  color-scheme: light dark; } /* view-source:about:blank */ 
 
 :root{
@@ -122,8 +122,8 @@ box-sizing: border-box;
 margin: 0 var(--bodyP);
 }
 
-.center2 { min-height: 40vh; }
-.center3 { min-height: 60vh; }
+.center2 { min-height: 30vh; }
+.center3 { min-height: 50vh; }
 .center4 { min-height: 100vh; }
 
 .post, .post2, .post3, .postTv, .tv, .postL {
