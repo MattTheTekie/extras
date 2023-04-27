@@ -1,0 +1,65 @@
+/* v.1.0.0 */
+/* comment */
+
+
+
+
+
+
+/* ads */
+.ads {  margin: 0; padding: 0; }
+.ads {
+background: white;
+border: 4px solid silver;
+border-right: 2px solid black;
+border-bottom: 2px solid black;
+border-style: double solid solid double;
+border-radius: 0;
+width: 100%;
+max-width: 700px;
+}
+
+.adsHeader {
+display: block;
+width: 100%;
+background: #3636E3;
+color: white;
+text-align: right;
+margin-bottom: 5px;
+border-radius: 0;
+padding: 3px 10px;
+border: 2px solid silver;
+}
+
+.adsHeader a {
+display: inline-block;
+min-width: 20px;
+float: right;
+text-align: center;
+color: black;
+font-weight: bold;
+background: #CCCCCC;
+border: 2px solid;
+border-color: #F7F7F7 black black #F7F7F7;
+padding: 2px;
+}
+
+.adsHeader a:hover {
+color: black;
+}
+
+.adsBody {
+padding: 25px;
+padding-top: 40px;
+color: black;
+background: #CCCCCC;
+}
+
+.adsBody a, .adsBody a:hover {
+color: blue;
+}
+
+.adsBody a:hover { color: #0059FF;}
+
+
+

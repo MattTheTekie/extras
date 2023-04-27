@@ -30,9 +30,9 @@ adsURL = ads[random]['url'];	if(adsURL == null){ adsURL = ''; }
 // privacy
 if(adsText.search("src=") != -1&&confDataCollection != 'on'){ adsText = ''; }
 if(adsText.search("src=") != -1){
-adsPrint = '<div class="adsHeader"><a class="zero op" href="/ads.'+confExt+'">ads, links</a></div><div class="adsBody"><br />'+adsText+' <br /><a target="blank" href="'+adsURL+'">'+adsURL+'</a></div>';
+adsPrint = '<div class="adsHeader"><a href="/ads.'+confExt+'">ads, links</a></div><div class="adsBody"><br />'+adsText+' <br /><a target="blank" href="'+adsURL+'">'+adsURL+'</a></div>';
 }else{
-adsPrint = '<div class="adsHeader"><a class="zero op" href="/ads.'+confExt+'">ads, links</a></div><div class="adsBody"><br />'+adsText+' <a target="blank" href="'+adsURL+'">'+adsURL+'</a></div>';
+adsPrint = '<div class="adsHeader"><a href="/ads.'+confExt+'">ads, links</a></div><div class="adsBody"><br />'+adsText+' <a target="blank" href="'+adsURL+'">'+adsURL+'</a></div>';
 }
 
 
