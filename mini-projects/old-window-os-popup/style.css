@@ -7,8 +7,9 @@
 
 
 /* ads */
-.ads {  margin: 0; padding: 0; }
-.ads {
+.windows {   margin: 0; padding: 0; }
+.windows {
+display: block;
 background: white;
 border: 4px solid silver;
 border-right: 2px solid black;
@@ -16,50 +17,69 @@ border-bottom: 2px solid black;
 border-style: double solid solid double;
 border-radius: 0;
 width: 100%;
-max-width: 700px;
+max-width: 500px;
 }
 
-.adsHeader {
+.windowsHeader {
 display: block;
+position: relative;
 width: 100%;
-background: #3636E3;
+background: #2F2FC2;
 color: white;
-text-align: right;
-margin-bottom: 5px;
 border-radius: 0;
-padding: 3px 10px;
+padding: 6px 10px;
 border: 2px solid silver;
+text-align: left;
+font-weight: bold;
 }
 
-.adsHeader a {
-display: inline-block;
+.windowsHeader a {
 min-width: 20px;
-float: right;
+position: absolute;
+right: 10px;
 text-align: center;
 color: black;
 font-weight: bold;
 background: #CCCCCC;
 border: 2px solid;
 border-color: #F7F7F7 black black #F7F7F7;
-padding: 2px;
 }
 
-.adsHeader a:hover {
+.windowsHeader a:hover {
 color: black;
 }
 
-.adsBody {
-padding: 25px;
-padding-top: 40px;
+.windowsBody {
 color: black;
 background: #CCCCCC;
+text-align: center;
 }
 
-.adsBody a, .adsBody a:hover {
-color: blue;
+.windowsBodyText {
+padding: 25px;
+display: block;
 }
 
-.adsBody a:hover { color: #0059FF;}
+.windowsBody a {
+min-width: 20px;
+display: block;
+margin: 0 auto;
+width: 100%;
+max-width: 120px;
+padding: 5px;
+text-align: center;
+color: black;
+font-weight: bold;
+background: #CCCCCC;
+border: 2px solid;
+border-color: #F7F7F7 black black #F7F7F7;
+}
+
+.windowsBody a, .windowsBody a:hover {
+color: black;
+}
+
+.windowsBody a:hover { color: black;}
 
 
 
