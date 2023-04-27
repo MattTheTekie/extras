@@ -1,4 +1,4 @@
-/* v.12.19.5 */
+/* v.12.19.6 */
 
 * {  color-scheme: light dark; } /* view-source:about:blank */ 
 
@@ -397,7 +397,7 @@ td { background-color: var(--l2); }
 overflow-y: hidden;
 white-space: nowrap;*/
 display: block;
-max-height: 70vh;
+max-height: 700px;
 overflow-x: hidden;
 overflow-y: auto;
 scroll-padding-top: 16px;

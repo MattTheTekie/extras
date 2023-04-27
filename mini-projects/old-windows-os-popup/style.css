@@ -1,13 +1,19 @@
 /* v.1.0.0 */
 /* comment */
 
+/* codepen
+body { margin: 0; padding: 0; backgound-color: #F5F5F5; font-family: Arial, Sans-Serif; }
+.wrapper{
+  height: 100vh;
+  display: grid;
+          align-items: center;
+        justify-content: center;
+}
 
-
-
-
+*/
 
 /* ads */
-.windows {   margin: 0; padding: 0; }
+.windows {   margin: 0; padding: 0; font-family: Roboto, Noto, Arial, Sans-Serif; }
 .windows {
 display: block;
 background: white;
@@ -16,8 +22,9 @@ border-right: 2px solid black;
 border-bottom: 2px solid black;
 border-style: double solid solid double;
 border-radius: 0;
-width: 100%;
-max-width: 500px;
+max-width: 100%;
+width: 500px;
+margin: 0 auto;
 }
 
 .windowsHeader {
@@ -84,5 +91,7 @@ color: black;
 
 .windowsBody a:hover { color: black;}
 
+a {
 
+text-decoration: none; }
 
