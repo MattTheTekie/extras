@@ -1,4 +1,4 @@
-// v.1.2.0
+// v.1.2.1
 
 function fuClock(id){
 
@@ -172,14 +172,14 @@ h = makeGrid(hours.toString()[0]);
 h = `
 <div class="gridColumn">
 ${h}
-<div class="op">${hours.toString()[0]}</div>
+<div class="op small">${hours.toString()[0]}</div>
 </div>
 `;
 h2 = makeGrid(hours.toString()[1]);
 h2 = `
 <div class="gridColumn">
 ${h2}
-<div class="op">${hours.toString()[1]}</div>
+<div class="op small">${hours.toString()[1]}</div>
 </div>
 <div class="gridColumn">
 </div>
@@ -190,14 +190,14 @@ m = makeGrid(minutes.toString()[0]);
 m = `
 <div class="gridColumn">
 ${m}
-<div class="op">${minutes.toString()[0]}</div>
+<div class="op small">${minutes.toString()[0]}</div>
 </div>
 `;
 m2 = makeGrid(minutes.toString()[1]);
 m2 = `
 <div class="gridColumn">
 ${m2}
-<div class="op">${minutes.toString()[1]}</div>
+<div class="op small">${minutes.toString()[1]}</div>
 </div>
 <div class="gridColumn">
 </div>
@@ -207,14 +207,14 @@ s = makeGrid(seconds.toString()[0]);
 s = `
 <div class="gridColumn">
 ${s}
-<div class="op">${seconds.toString()[0]}</div>
+<div class="op small">${seconds.toString()[0]}</div>
 </div>
 `;
 s2 = makeGrid(seconds.toString()[1]);
 s2 = `
 <div class="gridColumn">
 ${s2}
-<div class="op">${seconds.toString()[1]}</div>
+<div class="op small">${seconds.toString()[1]}</div>
 </div>
 
 `;
