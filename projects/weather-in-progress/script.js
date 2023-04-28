@@ -6,15 +6,54 @@ var apiWeather = "https://api.open-meteo.com/v1/forecast?latitude=[latitude]&lon
 
 var apiLocation = "https://ipapi.co/json/";
 
+
+
+
+var weatherCode = {
+"0":"🌞️ Clear sky",
+"1":"⛅ Mainly clear, partly cloudy, and overcast",
+"2":"⛅ Mainly clear, partly cloudy, and overcast",
+"2":"⛅ Mainly clear, partly cloudy, and overcast",
+"45":"🌫🌁️ Fog and depositing rime fog",
+"48":"🌫️🌁 Fog and depositing rime fog",
+"51":"🌫️🌁 Drizzle: Light, moderate, and dense intensity",
+"53":"🌫️🌁 Drizzle: Light, moderate, and dense intensity",
+"55":"🌫️🌁 Drizzle: Light, moderate, and dense intensity",
+"56":"🌧️ Freezing Drizzle: Light and dense intensity",
+"57":"🌧️ Freezing Drizzle: Light and dense intensity",
+"61":"🌧️ Rain: Slight, moderate and heavy intensity",
+"63":"🌧️ Rain: Slight, moderate and heavy intensity",
+"65":"🌧️ Rain: Slight, moderate and heavy intensity",
+"66":"🌧️ Freezing Rain: Light and heavy intensity",
+"67":"🌧️ Freezing Rain: Light and heavy intensity",
+"71":"❄️ Snow fall: Slight, moderate, and heavy intensity",
+"73":"❄️ Snow fall: Slight, moderate, and heavy intensity",
+"75":"❄️ Snow fall: Slight, moderate, and heavy intensity",
+"77":"❄️ Snow grains",
+"80":"🌧️ Rain showers: Slight, moderate, and violent",
+"81":"🌧️ Rain showers: Slight, moderate, and violent",
+"82":"🌧️ Rain showers: Slight, moderate, and violent",
+"85":"❄️ Snow showers slight and heavy",
+"86":"❄️ Snow showers slight and heavy",
+"95":"⛈️ Thunderstorm: Slight or moderate",
+"96":"⛈️ Thunderstorm with slight and heavy hail",
+"99":"⛈️ Thunderstorm with slight and heavy hail"
+};
+
+
+
+
+
+
 function printWeather(){
 
 result[0] += `
 
-<span class="op padding margin">
+<div class="block op margin apiMsg">
 API:<br>
 <a href="https://open-meteo.com/">open-meteo.com</a>,
 <a href="https://ipapi.co/">ipapi.co</a>
-
+</div>
 `;
 
 document.getElementById("result").innerHTML = result[0];
@@ -26,7 +65,10 @@ async function logJSONData() {
   const response = await fetch(apiWeather2);
   const jsonData = await response.json();
 
-if(logJSONData != ""){ result[0] += '<h3>'+jsonData['current_weather']['temperature']+' °C, '+jsonData['current_weather']['windspeed']+' Km/h </h3>'; printWeather(jsonData); }
+console.log(jsonData);
+if(logJSONData != ""){ result[0] += '<h3>'+jsonData['current_weather']['temperature']+'°C, '+jsonData['current_weather']['windspeed']+'Km/h </h3>'+`
+<b>${weatherCode[jsonData['current_weather']['weathercode']]}</b>
+`; printWeather(jsonData); }
 }
 logJSONData();
 
@@ -63,7 +105,7 @@ async function getLocation() {
 const response = await fetch(apiLocation);
 const jsonData = await response.json();
 
-console.log(jsonData);
+//console.log(jsonData);
 if(jsonData != ''){
 result[0] = `
 <h1 class="op">${jsonData['city']},
