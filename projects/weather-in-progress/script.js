@@ -4,16 +4,16 @@ var result = [];
 
 var apiWeather = "https://api.open-meteo.com/v1/forecast?latitude=[latitude]&longitude=[longitude]&current_weather=true&hourly=temperature_2m,relativehumidity_2m,windspeed_10m";
 
-var apiLocation = "//ip-api.com/json/?fields=61439";
+var apiLocation = "https://ipapi.co/json/";
 
-function printWeather(data){
+function printWeather(){
 
 result[0] += `
 
 <span class="op padding margin">
 API:<br>
 <a href="https://open-meteo.com/">open-meteo.com</a>,
-<a href="http://ip-api.com/">ip-api.com</a>
+<a href="https://ipapi.co/">ipapi.co</a>
 
 `;
 
@@ -34,9 +34,11 @@ logJSONData();
 
 }
 
-async function getLocation() {
-const response = await fetch(apiLocation);
-const jsonData = await response.json();
+/*
+var xmlhttp = new XMLHttpRequest();
+xmlhttp.onreadystatechange = function() {
+    if (this.readyState == 4 && this.status == 200) {
+const jsonData = this.responseText;
 
 //console.log(jsonData);
 if(jsonData != ''){
@@ -51,8 +53,32 @@ apiWeather = apiWeather.replaceAll('[longitude]', jsonData['lon']);
 
 weather(apiWeather);
 }
+    }
+};
+xmlhttp.open("GET", apiLocation, true);
+xmlhttp.send();*/
+
+
+async function getLocation() {
+const response = await fetch(apiLocation);
+const jsonData = await response.json();
+
+console.log(jsonData);
+if(jsonData != ''){
+result[0] = `
+<h1 class="op">${jsonData['city']},
+${jsonData['country']}</h1>
+`;
+
+apiWeather = apiWeather.replaceAll('[latitude]', jsonData['latitude']);
+apiWeather = apiWeather.replaceAll('[longitude]', jsonData['longitude']);
+//console.log(apiWeather);
+
+weather(apiWeather);
+}
 //https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String/replaceAll
 }
+
 
 getLocation();
 
