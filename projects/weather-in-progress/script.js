@@ -7,7 +7,16 @@ var apiWeather = "https://api.open-meteo.com/v1/forecast?latitude=[latitude]&lon
 var apiLocation = "http://ip-api.com/json/?fields=61439";
 
 function printWeather(data){
-console.log(data);
+
+result[0] += `
+
+<span class="op padding margin">
+API:<br>
+<a href="https://open-meteo.com/">open-meteo.com</a>,
+<a href="http://ip-api.com/">ip-api.com</a>
+
+`;
+
 document.getElementById("result").innerHTML = result[0];
 }
 
@@ -17,7 +26,7 @@ async function logJSONData() {
   const response = await fetch(apiWeather2);
   const jsonData = await response.json();
 
-if(logJSONData != ""){ result[0] += jsonData['current_weather']['temperature']+' '+jsonData['current_weather']['windspeed']; printWeather(jsonData); }
+if(logJSONData != ""){ result[0] += '<h3>'+jsonData['current_weather']['temperature']+' °C, '+jsonData['current_weather']['windspeed']+' Km/h </h3>'; printWeather(jsonData); }
 }
 logJSONData();
 
@@ -29,13 +38,16 @@ async function getLocation() {
 const response = await fetch(apiLocation);
 const jsonData = await response.json();
 
-console.log(jsonData);
+//console.log(jsonData);
 if(jsonData != ''){
-result[0] = jsonData['city']+jsonData['country'];
+result[0] = `
+<h1 class="op">${jsonData['city']},
+${jsonData['country']}</h1>
+`;
 
 apiWeather = apiWeather.replaceAll('[latitude]', jsonData['lat']);
 apiWeather = apiWeather.replaceAll('[longitude]', jsonData['lon']);
-console.log(apiWeather);
+//console.log(apiWeather);
 
 weather(apiWeather);
 }
