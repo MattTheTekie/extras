@@ -10,7 +10,7 @@ var apiLocation = "https://ipapi.co/json/";
 
 
 var weatherCode = {
-"0":"🌞️ Clear sky",
+"0":"⋆｡˚️ Clear sky",
 "1":"⛅ Mainly clear, partly cloudy, and overcast",
 "2":"⛅ Mainly clear, partly cloudy, and overcast",
 "2":"⛅ Mainly clear, partly cloudy, and overcast",

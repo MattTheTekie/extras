@@ -4,12 +4,19 @@ console.log(0 / 0);
 // NaN
 
 
+var i = 0;
+while(i < 50){
+if(i * i / i % i == 0){
+console.log(i);
+}
+i++;
+}
 
 //https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/while
 let n = 0;
 let text = '';
 
-while (n < 3000) {
+while (n < 30) {
 text += `
 
 Random Text

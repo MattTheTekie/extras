@@ -79,9 +79,11 @@ let icons = {
 "snake":"🐍",
 "snow":"❄️", "cold":"❄️", "winter":"❄️",
 "stopwatch":"⏱️",
+"weather":"🌤️",
 "web":"🕸️", "internet":"🕸️", "browser":"🕸️",
 "wallpaper":"🖼", "picture":"🖼", "image":"🖼", "img":"🖼", "pixel":"🖼","instagram":"🖼","pxlmo":"🖼",
 "window":"🪟",
+
 "question":"❓",
 "light":"⬜️", "white":"⬜️",
  "dark":"⬛", "black":"⬛",

@@ -158,6 +158,7 @@ while (i < symbolList.length&&tl <= symbolList.length * 2) {
 tl = i * i;
 if(tl < symbolList.length * 2&&i <= limitMaintl){
 //symetry
+//https://stackoverflow.com/questions/17524673/understanding-the-modulus-operator
 if(i * i / 2 % i == 0){
 if(maintl == i){
 print += '<span><a class="button light4 border2 op" style="padding: 0px 7px; " href="?tl='+i+'">'+i+'x'+i+'</a></span>';
