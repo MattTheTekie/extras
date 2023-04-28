@@ -4,7 +4,7 @@ var result = [];
 
 var apiWeather = "https://api.open-meteo.com/v1/forecast?latitude=[latitude]&longitude=[longitude]&current_weather=true&hourly=temperature_2m,relativehumidity_2m,windspeed_10m";
 
-var apiLocation = "http://ip-api.com/json/?fields=61439";
+var apiLocation = "//ip-api.com/json/?fields=61439";
 
 function printWeather(data){
 
