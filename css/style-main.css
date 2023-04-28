@@ -20,7 +20,7 @@
 html, body, a, input, button, textarea, pre, code{
 font-family: Roboto, Noto, Arial, Sans-Serif;
 font-weight: 400;
-font-size: 13.4px;
+/*font-size: 13.4px;*/ font-size: 14px;
 text-decoration:none;
 letter-spacing: 0.15px;
 /*hyphens: auto;*/ 
