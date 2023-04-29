@@ -840,12 +840,14 @@ checkText = false;
 
 embed2 = `<video height="${h}" controls style="width:100%"><source src="${item}" type="video/mp4">
 <source src="${item}" type="video/ogg">Your browser does not support HTML5 video.</video>`;
+item = `<a target="_blank" href="${item}">${item}</a>`;
 }
 
 if(itemCheck.search(`${symbolForSplit}mp3|${symbolForSplit}wav|${symbolForSplit}ogg|${symbolForSplit}m3u`) != -1) {
 checkText = false;
 
 embed2 = `<audio controls style="width:100%; opacity:0.8"><source src="${item}" type="audio/ogg"><source src="${item}" type="audio/mpeg">Your browser does not support the audio element.</audio>`;
+item = `<a target="_blank" href="${item}">${item}</a>`;
 }
 
 
@@ -856,6 +858,7 @@ checkText = false;
 //echo 'test';
 embed2 = `
 <a href="${item}"><img class="border3 img" src="${item}" width=""></a>`;
+item = `<a target="_blank" href="${item}">${item}</a>`;
 }
 
 if(item.search(".html") != -1&&item.search("http") == -1) {
@@ -1088,10 +1091,12 @@ itemCheck = item.replaceAll(/\./g, symbolForSplit);
 if(itemCheck.search(`${symbolForSplit}mp4|${symbolForSplit}webm|${symbolForSplit}avi`) != -1) {
 embed2 = `<video height="${h}" controls autoplay style="width:100%"><source src="${item}" type="video/mp4">
 <source src="${item}" type="video/ogg">Your browser does not support HTML5 video.</video>`;
+item = `<a target="_blank" href="${item}">${item}</a>`;
 }
 
 if(itemCheck.search(`${symbolForSplit}mp3|${symbolForSplit}wav|${symbolForSplit}ogg|${symbolForSplit}m3u`) != -1) {
 embed2 = `<audio controls autoplay style="width:100%; opacity:0.8"><source src="${item}" type="audio/ogg"><source src="${item}" type="audio/mpeg">Your browser does not support the audio element.</audio>`;
+item = `<a target="_blank" href="${item}">${item}</a>`;
 }
 
 
@@ -1099,6 +1104,7 @@ if(itemCheck.search(`${symbolForSplit}jpg|${symbolForSplit}jpeg|${symbolForSplit
 //echo 'test';
 embed2 = `
 <a href="${item}"><img class="border3 img" src="${item}" width=""></a>`;
+item = `<a target="_blank" href="${item}">${item}</a>`;
 }
 
 if(item.search(".html") != -1&&item.search("http") == -1) {
