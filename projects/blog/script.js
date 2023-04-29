@@ -140,7 +140,7 @@ print += `
 <nav>
 <a href="?">main</a>
 <a href="?id=">random</a>
-<a href="/rss.xml">rss</a>
+<!--<a href="/rss.xml">rss</a>-->
 </nav>
 </header>
 <div id="comMsg"></div>
