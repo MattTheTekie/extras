@@ -1,4 +1,4 @@
-// v.1.9.0
+// v.1.9.1
 // inspired by Twitter, Fediverse
 // not for large json files !
 // task: relevant for search
@@ -402,7 +402,7 @@ print += `
 print += `
 <div class="center tCenter">
 <div class="wrapper4">
-<span class="op small">list of tags:</span><br>
+<span class="op small padding margin">list of tags:</span><br>
 <div class="tagList padding">`+tagList(printTagList)+`</div>
 </div>
 </div>
@@ -712,7 +712,7 @@ post = highlightText(post, 'out');
 
 
 
-}else if(com == 'id'||com == 'random'){ // autoplay embed when id or random
+}else if(com == 'id'||com == 'random'||com == 'auto-random'){ // autoplay embed when id or random
 post = highlightText2(post, 'out');
 }else{
 post = highlightText(post, 'out'); // embed without autoplay
@@ -1313,7 +1313,7 @@ var navOption3 = '';
 
 let nav2Print = '';
 let navMode = 'p';
-if(com == 'random'){
+if(com == 'random'||com == 'auto-random'){
 navMode = 'p2';
 
 nav2Print = `
