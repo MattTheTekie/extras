@@ -1,4 +1,4 @@
-// v.1.1.35
+// v.1.1.37
 
 
 
@@ -29,7 +29,7 @@ if(q != 'null'&&q != null&&q != ''&&sUrlText.search("cache") == -1){
 
 q = q.trim();
 //q = q.replace(/%([^\d].)/, "%25$1");
-q = q.replace(/%/g, "%25");
+q = q.replaceAll(/%/g, "%25");
 q = decodeURIComponent(q);
 
 
@@ -83,7 +83,7 @@ q = q.trim();
 if(q == ''){
 urlList = [
 'Climate Change',
-'Artificial General Intelligence'
+'AGI'
 ];
 random = Math.floor(Math.random() * urlList.length);
 url = urlList[random];
@@ -145,7 +145,7 @@ urlList = [
 "https://twitter.com/search?q="+q,
 "https://www.reddit.com/search/?q="+q+"&t=day&type=link",
 //"https://www.tumblr.com/search/"+q+"?t=1",
-"https://medium.com/tag/"+encodeURIComponent(decodeURIComponent(q.toLowerCase()).replace(' ', '-'))+"/latest"
+"https://medium.com/tag/"+encodeURIComponent(decodeURIComponent(q.toLowerCase()).replaceAll(' ', '-'))+"/latest"
 ];
 random = Math.floor(Math.random() * urlList.length);
 url = urlList[random];
@@ -170,7 +170,7 @@ q = encodeURIComponent(q);
 urlList = [
 "https://twitter.com/search?q="+q,
 "https://www.reddit.com/search/?q="+q+"&t=day&type=link",
-"https://medium.com/tag/"+encodeURIComponent(decodeURIComponent(q.toLowerCase()).replace(' ', '-'))+"/latest"
+"https://medium.com/tag/"+encodeURIComponent(decodeURIComponent(q.toLowerCase()).replaceAll(' ', '-'))+"/latest"
 ];
 random = Math.floor(Math.random() * urlList.length);
 url = urlList[random];
@@ -257,7 +257,7 @@ case 'medd#':
 q = q3.replace(q2, '');
 q = q.trim();
 q = encodeURIComponent(q);
-url = "https://medium.com/tag/"+encodeURIComponent(decodeURIComponent(q.toLowerCase()).replace(' ', '-'))+"/latest";
+url = "https://medium.com/tag/"+encodeURIComponent(decodeURIComponent(q.toLowerCase()).replaceAll(' ', '-'))+"/latest";
 if(q == ''){ url = "https://twitter.com/explore"; }
 sRedirUrl = url;
 break;

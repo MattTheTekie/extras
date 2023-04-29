@@ -246,13 +246,6 @@ var blogJsonVar =
         "time": 1681527121
     },
     {
-        "id": "24",
-        "text": "I Changed the domain and repository name: from https:\/\/gabc.tk to https:\/\/gabc22.github.io (old https:\/\/gabc123123.github.io )",
-        "url": "",
-        "tag": "#update #tmp",
-        "time": 1681455762
-    },
-    {
         "id": "23",
         "text": "Learn English Online",
         "url": "https:\/\/www.englishstuff.online\/",
