@@ -1,4 +1,4 @@
-// v.1.9.1
+// v.1.9.2
 // inspired by Twitter, Fediverse
 // not for large json files !
 // task: relevant for search
@@ -253,9 +253,13 @@ if(i <= postLimit -1){
 if(postId == id||getP2 == key){
 print += '<div class="">'+fuPrintPost(postId, postText, postTag, postTime)+'</div>';
 comMessagePrint = 'id: '+postId;
+if(id != ''&&getP2 == null){
 //document.getElementsByTagName('title')[0].innerHTML = postText.slice(0, 70);
 document.getElementsByTagName('title')[0].innerHTML = postText;
-if(getP2 != null){ comMessagePrint += ' p2: '+getP2; }
+}
+if(getP2 != null){
+comMessagePrint += ' p2: '+getP2;
+}
 i++;
 getP = key;
 }
