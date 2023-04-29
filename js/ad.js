@@ -10,7 +10,7 @@ var adsPrint = '';
 
 //ads = JSON.parse(adsJson);
 
-if (typeof linksListJsonVar != 'undefined') { ads = ads.concat(linksListJsonVar); }
+//if (typeof linksListJsonVar != 'undefined') { ads = ads.concat(linksListJsonVar); }
 if (typeof adsJsonVar != 'undefined') { ads= ads.concat(adsJsonVar); }
 
 
@@ -57,7 +57,7 @@ adsPrint  += '<div class="post2 brand  border4List">'+ads[index]['text']+' <a ta
  });
 
 
-adsPrint  += `<br><br><div class="post2 brand  border4List"><a  target="blank" href="/links-list.${confExt}"><span class="green">Links List (add your link!) </span><span class="blue">/links-list.${confExt}</span></a></div>`;
+/*adsPrint  += `<br><br><div class="post2 brand  border4List"><a  target="blank" href="/links-list.${confExt}"><span class="green">Links List (add your link!) </span><span class="blue">/links-list.${confExt}</span></a></div>`;*/
 
 
 
