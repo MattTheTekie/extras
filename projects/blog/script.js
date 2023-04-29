@@ -1,4 +1,4 @@
-// v.1.8.3
+// v.1.9.0
 // inspired by Twitter, Fediverse
 // not for large json files !
 // task: relevant for search
@@ -71,7 +71,7 @@ q = q.trim();
 var id = url.searchParams.get("id");
 if(id != null){
 id = id.replaceAll(/%/g, "%25");
-id = Number(decodeURIComponent(id));
+id = decodeURIComponent(id);
 }
 
 var getP = url.searchParams.get("p");
@@ -133,13 +133,16 @@ postLimit = Number(postLimit);
 var i3 = 0;
 var com = '';
 
+var sTimeRedir = 7000; // for auto-random
+
 
 if(tagListStatus == 'on'){
 print += `
 <header class="brand">
 <nav>
 <a href="?">main</a>
-<a href="?id=">random</a>
+<a href="?id=random">random</a>
+<a href="?id=auto-random">auto-random</a>
 <!--<a href="/rss.xml">rss</a>-->
 </nav>
 </header>
@@ -164,7 +167,8 @@ com = 'id';
 postLimit = 1;
 }
 
-if(id == 0){ com = 'random'; getP2 = Math.floor(Math.random() * blogJsonVar.length); }
+if(id == 0||id == 'random'){ com = 'random'; getP2 = Math.floor(Math.random() * blogJsonVar.length); }
+if(id == 'auto-random'){ com = 'auto-random'; getP2 = Math.floor(Math.random() * blogJsonVar.length); }
 
 
 
@@ -266,6 +270,23 @@ print += '<div class="">'+fuPrintPost(postId, postText, postTag, postTime)+'</di
 i++;
 getP = key;
 comMessagePrint = 'random, '+'id: '+postId+', p2: '+getP2;
+}
+}
+break;
+
+case 'auto-random':
+var sTimeRedirStatus = `redir after: `+sTimeRedir / 1000+` sec.`;
+setTimeout(function(){
+window.location.href = '?id=auto-random';
+}, sTimeRedir); 
+
+
+if(i <= postLimit -1){
+if(getP2 == key){
+print += '<div class="">'+fuPrintPost(postId, postText, postTag, postTime)+'</div>';
+i++;
+getP = key;
+comMessagePrint = 'random, '+'id: '+postId+', p2: '+getP2+' | '+sTimeRedirStatus;
 }
 }
 break;
