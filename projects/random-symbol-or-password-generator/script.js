@@ -12,10 +12,10 @@ let letter = "abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMBOPQRSTUWXYZ";
 letter = [...letter];
 
 
-let number = "0123456789012345678901234567890123456789";
+let number = "0123456789";
 number = [...number];
 
-let symbol = "!@#$%&*!@#$%&*!@#$%&*!@#$%&*!@#$%&*!@#$%&*";
+let symbol = "!@#$%&";
 symbol = [...symbol];
 
 // https://medium.com/@khaledhassan45/how-to-shuffle-an-array-in-javascript-6ca30d53f772
