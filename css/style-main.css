@@ -1,4 +1,4 @@
-/* v.12.19.7 */
+/* v.12.19.8 */
 
 * {  color-scheme: light dark; } /* view-source:about:blank */ 
 
@@ -372,8 +372,8 @@ td { background-color: var(--l2); }
 .highlight { background: var(--l4) !important; border-bottom: 1px solid var(--d3); color: var(--c4) !important; }
 .highlight:hover { color: var(--c4) !important; }
 
-.highlight2 { border-bottom: 3px solid var(--orange) !important; }
-.highlight2:hover { border-bottom: 3px solid var(--orange2) !important; }
+.highlight2 { border-bottom: 1px solid var(--orange) !important; }
+.highlight2:hover { color: var(--c4) !important; }
 
 
 /* other */
