@@ -1,5 +1,8 @@
 // v.1.0.0
 
+
+
+/*
 console.log(0 / 0);
 // NaN
 
@@ -51,3 +54,4 @@ console.log('onscrollend');
 
 
 //fuWorker('on');
+*/

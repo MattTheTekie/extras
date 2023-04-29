@@ -10,3 +10,19 @@ scrollbar-width: 3px;
 /*::-webkit-scrollbar {
 width: 3px;
 }*/
+
+
+.block, .block2, .block3, .block4 {
+width: 100%;
+display: block;
+margin: 0 auto;
+height: 50px;
+background: DarkBlue;
+margin-bottom: 10px;
+}
+
+.block { max-width: 100px; }
+.block2 { max-width: 300px; }
+.block3 { max-width: 500px; }
+.block4 { max-width: 1000px; }
+
