@@ -1,4 +1,4 @@
-// v.1.9.3
+// v.1.9.4
 // inspired by Twitter, Fediverse
 // not for large json files !
 // task: relevant for search
@@ -291,7 +291,7 @@ if(getP2 == key){
 print += '<div class="">'+fuPrintPost(postId, postText, postTag, postTime)+'</div>';
 i++;
 getP = key;
-comMessagePrint = 'random, '+'id: '+postId+', p2: '+getP2+' | '+sTimeRedirStatus;
+comMessagePrint = 'auto-random, '+'id: '+postId+', p2: '+getP2+' | '+sTimeRedirStatus;
 }
 }
 break;
