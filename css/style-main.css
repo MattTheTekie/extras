@@ -1,4 +1,4 @@
-/* v.12.19.8 */
+/* v.12.19.9 */
 
 * {  color-scheme: light dark; } /* view-source:about:blank */ 
 
@@ -143,8 +143,8 @@ overflow: auto;
 .postL { max-width: var(--wrapperL); }
 
 /* pre for post */
-iframe, .pre iframe, .pre video, .pre audio { display: block; margin-top: 7px; border-radius: 5px; width: 100%; }
-.pre .img { margin-bottom: 5px; margin-top: 5px; }
+iframe, .pre iframe, .pre video, .pre audio { display: block; margin-top: 15px; border-radius: 5px; width: 100%; }
+.pre .img { margin-bottom: 5px; margin-top: 9px; }
 
 .postFooter { margin-top: 7px; }
 .postTaglist { display: inline-block; width: 70%; text-align: left; }
