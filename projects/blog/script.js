@@ -1,4 +1,4 @@
-// v.1.8.2
+// v.1.8.3
 // inspired by Twitter, Fediverse
 // not for large json files !
 // task: relevant for search
@@ -134,7 +134,18 @@ var i3 = 0;
 var com = '';
 
 
-
+if(tagListStatus == 'on'){
+print += `
+<header class="brand">
+<nav>
+<a href="?">main</a>
+<a href="?id=">random</a>
+<a href="/rss.xml">rss</a>
+</nav>
+</header>
+<div id="comMsg"></div>
+`;
+}
 
 
 
@@ -154,6 +165,9 @@ postLimit = 1;
 }
 
 if(id == 0){ com = 'random'; getP2 = Math.floor(Math.random() * blogJsonVar.length); }
+
+
+
 
 if(com == ''&&tagListStatus == 'on'){
 print += `
@@ -348,12 +362,7 @@ if(com == 'search'&&comMessage != 'found') { comMessagePrint = `<div class="red 
 if(tagListStatus != 'off'){
 
 
-if(comMessagePrint != ''){
-comMessagePrint = `
-<div class="op tCenter padding ${postClass}">${comMessagePrint}</div>
-`;
-print = comMessagePrint+print;
-}
+
 
 
 //if(com != 'search'){ print += `<div class="${postClass}">`+blogNav(com)+`</div>`; }
@@ -407,7 +416,12 @@ print += `
 
 // echo all
 document.getElementById(printId).innerHTML = print;
-
+if(comMessagePrint != ''){
+comMessagePrint = `
+<div class="op tCenter padding ${postClass}">${comMessagePrint}</div>
+`;
+document.getElementById('comMsg').innerHTML = comMessagePrint;
+}
 //if(q != null){ document.getElementById("input").value = q; }
 
 
