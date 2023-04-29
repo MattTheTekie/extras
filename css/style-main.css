@@ -143,7 +143,7 @@ overflow: auto;
 .postL { max-width: var(--wrapperL); }
 
 /* pre for post */
-iframe, .pre iframe, .pre video, .pre audio { display: block; margin-top: 15px; border-radius: 5px; width: 100%; }
+iframe, .pre iframe, .pre video, .pre audio { display: block; margin-top: 9px; border-radius: 5px; width: 100%; }
 .pre .img { margin-bottom: 5px; margin-top: 9px; }
 
 .postFooter { margin-top: 7px; }
