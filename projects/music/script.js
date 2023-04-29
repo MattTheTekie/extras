@@ -2,7 +2,7 @@
 
 
 
-var json = musicJsonVar;
+var json = musicFPJsonVar;
 
 //https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Math/random
 function getRandomInt(max) {
