@@ -1,4 +1,4 @@
-// v.1.2.24
+// v.1.2.25
 // Inspired by GitHub profile
 
 function insertIcon(id, mode){
@@ -97,6 +97,7 @@ let icons = {
 
 "php":`<img  src="/img/icons/php-128x128.png" alt="ico" width="16" height="16">`,
 "mysql":`<img  src="/img/icons/mysql-128x128.png" alt="ico" width="16" height="16">`,
+"mariadb":`<img  src="/img/icons/mariadb-128x128.png" alt="ico" width="16" height="16">`,
 "css3":`<img  src="/img/icons/css3-128x128.png" alt="ico" width="16" height="16">`,
 "html5":`<img  src="/img/icons/html5-128x128.png" alt="ico" width="16" height="16">`,
 "javascript":`<img  src="/img/icons/javascript-128x128.png" alt="ico" width="16" height="16">`,

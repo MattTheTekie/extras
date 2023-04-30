@@ -54,7 +54,7 @@ case 'stop':
 currentPosition[0] = currentPosition[0];
 myStopFunction();
 
-msg = ' End ';
+msg = 'End';
 break;
 
 
@@ -182,7 +182,7 @@ case 100:
 direction = 'stop';
 
 myStopFunction();
-msg = ' End '
+msg = 'End'
 break;
 
 /*
@@ -276,7 +276,7 @@ food[0] = randomIntFromInterval(1, 100);
 document.getElementById(currentPosition[0]).classList.add("snakeGreen");
 }
 
-document.getElementById('score').innerHTML = snakeLenght[0]+msg;
+document.getElementById('score').innerHTML = `<spna class="blue">${snakeLenght[0]}</span> <span class="orange bold">${msg}</span>`;;
 
 
 
@@ -329,10 +329,10 @@ input.addEventListener("keypress", logKey);
 function logKey(e) {
 console.log(` ${e.code}`)
 if(currentDirection[0] != 'stop'){
-if(e.code == 'KeyW'&&currentDirection[0] != 'down'){ currentDirection[0] = 'up'; }
-if(e.code == 'KeyS'&&currentDirection[0] != 'up'){ currentDirection[0] = 'down'; }
-if(e.code == 'KeyA'&&currentDirection[0] != 'right'){ currentDirection[0] = 'left'; }
-if(e.code == 'KeyD'&&currentDirection[0] != 'left'){ currentDirection[0] = 'right'; }
+if(e.code == 'KeyW'&&currentDirection[0] != 'down'||e.code == 'KeyI'&&currentDirection[0] != 'down'){ currentDirection[0] = 'up'; }
+if(e.code == 'KeyS'&&currentDirection[0] != 'up'||e.code == 'KeyK'&&currentDirection[0] != 'up'){ currentDirection[0] = 'down'; }
+if(e.code == 'KeyA'&&currentDirection[0] != 'right'||e.code == 'KeyJ'&&currentDirection[0] != 'right'){ currentDirection[0] = 'left'; }
+if(e.code == 'KeyD'&&currentDirection[0] != 'left'||e.code == 'KeyL'&&currentDirection[0] != 'left'){ currentDirection[0] = 'right'; }
 }
 }
 

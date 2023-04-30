@@ -115,6 +115,9 @@ var wordEnJsonVar =
         "text": "abetting"
     },
     {
+        "text": "abeyance"
+    },
+    {
         "text": "abhor"
     },
     {
@@ -2996,8 +2999,5 @@ var wordEnJsonVar =
     },
     {
         "text": "alertness"
-    },
-    {
-        "text": "alerts"
     }
 ]
