@@ -1,4 +1,4 @@
-// v.1.9.4
+// v.1.9.5
 // inspired by Twitter, Fediverse
 // not for large json files !
 // task: relevant for search
@@ -651,7 +651,7 @@ tagList += `
 
 tagList += `
 
-<a class="tag light border2 ${hlClass}" onmouseover="hlwClassAdd('${hlClass}')"  onmouseout="hlwClassRemove('${hlClass}')" href="${scriptDir}?q=${goTag}"  style="color: ${tagColor}; font-size: ${tagSize} !important;">#${printTag}</a>
+<a class="tag light border2 ${hlClass}" href="${scriptDir}?q=${goTag}"  style="color: ${tagColor}; font-size: ${tagSize} !important;">#${printTag}</a>
 
 `;
 }
