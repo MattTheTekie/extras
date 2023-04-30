@@ -1,4 +1,4 @@
-// v.1.9.5
+// v.1.9.7
 // inspired by Twitter, Fediverse
 // not for large json files !
 // task: relevant for search
@@ -133,7 +133,8 @@ postLimit = Number(postLimit);
 var i3 = 0;
 var com = '';
 
-var sTimeRedir = 7000; // for auto-random
+var sTimeRedir = []; // for auto-random
+sTimeRedir[0] = 7000;
 
 
 if(tagListStatus == 'on'){
@@ -169,8 +170,6 @@ postLimit = 1;
 
 if(id == 0||id == 'random'){ com = 'random'; getP2 = Math.floor(Math.random() * blogJsonVar.length); }
 if(id == 'auto-random'){ com = 'auto-random'; getP2 = Math.floor(Math.random() * blogJsonVar.length); }
-
-
 
 
 if(com == ''&&tagListStatus == 'on'){
@@ -269,8 +268,9 @@ if(comMessagePrint == '') { comMessagePrint = `<div class="red block padding">Pr
 break;
 
 case 'random':
-if(i <= postLimit -1){
+
 if(getP2 == key){
+if(i <= postLimit -1){
 print += '<div class="">'+fuPrintPost(postId, postText, postTag, postTime)+'</div>';
 i++;
 getP = key;
@@ -280,14 +280,14 @@ comMessagePrint = 'random, '+'id: '+postId+', p2: '+getP2;
 break;
 
 case 'auto-random':
-var sTimeRedirStatus = `redir after: `+sTimeRedir / 1000+` sec.`;
+var sTimeRedirStatus = `redir after: <span id="timerRedir"></span> sec.`;
 setTimeout(function(){
 window.location.href = '?id=auto-random';
-}, sTimeRedir); 
+}, sTimeRedir[0]); 
 
 
-if(i <= postLimit -1){
 if(getP2 == key){
+if(i <= postLimit -1){
 print += '<div class="">'+fuPrintPost(postId, postText, postTag, postTime)+'</div>';
 i++;
 getP = key;
@@ -1446,7 +1446,25 @@ document.getElementsByTagName('head')[0].appendChild(script2);
 }
 
 
+
+// run without loop Json
+
+
+// timer redirect
+if(com == 'auto-random'){
+
+setInterval(fuTimerRdirect, 1000);
+
+function fuTimerRdirect(){
+sTimeRedir[0] = sTimeRedir[0] - 1000;
+console.log(sTimeRedir[0] );
+document.getElementById("timerRedir").innerHTML = sTimeRedir[0] / 1000;
 }
+}
+
+
+}
+// end main all
 
 
 
@@ -1509,11 +1527,6 @@ var confThemeEmbed= 'light';
 if (typeof fuWorker === 'undefined') {
 function fuWorker(){ }
 }
-
-
-
-
-
 
 
 
