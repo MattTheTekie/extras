@@ -1,4 +1,4 @@
-/* v.1.1.9 */
+/* v.1.1.10 */
 
 .result,  textarea {
 margin: 0 auto;
@@ -35,3 +35,6 @@ font-size: 120%; font-size: 1.3em; font-size: medium;
 #lPrintTr { padding: 0 15px; border-top: 7px solid var(--d2); }
 
 .stat { text-align: right; }
+
+
+.msg { text-align: center; width: 100%; border: 3px dotted var(--d2); }

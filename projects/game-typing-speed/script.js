@@ -1,4 +1,4 @@
-// v.3.9.10
+// v.3.9.12
 
 
 
@@ -887,6 +887,8 @@ acurancyProgress = ' (<span class="red">'+acurancyProgress+'</span>)';
 acurancyProgress = ' (<span class="green">+'+acurancyProgress+'</span>)';
 }
 
+
+
 if(printMsgWin == 'win'){
 document.getElementById("sound").innerHTML = '<audio style="display:none" autoplay="false" src="/audio/win.ogg">';
 printMsgWin = 'Win';
@@ -898,8 +900,8 @@ printMsgWin = 'Tie';
 }
 
 
-/*
-if(printMsgWin == 'Good result'){
+
+if(printMsgWin == 'Good result'||printMsgWin == 'tie'){
 document.getElementById("sound").innerHTML = '<audio style="display:none" autoplay="false" src="/audio/neutral.ogg">';
 printMsgWin = 'Good result';
 }
@@ -908,17 +910,18 @@ if(printMsgWin == 'game over'){
 document.getElementById("sound").innerHTML = '<audio style="display:none" autoplay="false" src="/audio/error.ogg">';
 printMsgWin = 'The previous result is better';
 }
-*/
+
+
 // disable msg
 if(printMsgWin != 'win'&&printMsgWin != 'tie'){
 printMsgWin = '';
-document.getElementById("sound").innerHTML = '<audio style="display:none" autoplay="false" src="/audio/click.ogg">';
+//document.getElementById("sound").innerHTML = '<audio style="display:none" autoplay="false" src="/audio/click.ogg">';
 }
 
 
 
 let winMsg = `
-<div class="block light border2 padding margin" style="text-align: center; width: 100%;">
+<div class="block light border2 padding margin msg">
 
 <!--<b class="${printMsgWinColor} padding">${printMsgWin}</b>-->
 
@@ -926,6 +929,7 @@ let winMsg = `
 
 <span> acurancy: ≈<span class="">${acurancy}</span>%</span> ${acurancyProgress}
 </div>`;
+
 
 document.getElementsByClassName("win")[0].innerHTML = winMsg;
 document.getElementsByClassName("win")[1].innerHTML = winMsg;

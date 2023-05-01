@@ -1,4 +1,4 @@
-// v.1.2.25
+// v.1.2.26
 // Inspired by GitHub profile
 
 function insertIcon(id, mode){
@@ -84,6 +84,7 @@ let icons = {
 "wallpaper":"🖼", "picture":"🖼", "image":"🖼", "img":"🖼", "pixel":"🖼","instagram":"🖼","pxlmo":"🖼",
 "window":"🪟",
 
+
 "question":"❓",
 "light":"⬜️", "white":"⬜️",
  "dark":"⬛", "black":"⬛",
@@ -96,6 +97,7 @@ let icons = {
 "blue":"🟦",
 
 "php":`<img  src="/img/icons/php-128x128.png" alt="ico" width="16" height="16">`,
+"apache":`<img  src="/img/icons/apache-128x128.png" alt="ico" width="16" height="16">`,
 "mysql":`<img  src="/img/icons/mysql-128x128.png" alt="ico" width="16" height="16">`,
 "mariadb":`<img  src="/img/icons/mariadb-128x128.png" alt="ico" width="16" height="16">`,
 "css3":`<img  src="/img/icons/css3-128x128.png" alt="ico" width="16" height="16">`,
@@ -106,8 +108,8 @@ let icons = {
 "github":`<img  src="/img/icons/github-128x128.png" alt="ico" width="16" height="16">`,
 "codepen":`<img  src="/img/icons/codepen-128x128.png" alt="ico" width="16" height="16">`,
 "deviantart":`<img  src="/img/icons/deviantart-128x128.png" alt="ico" width="16" height="16">`,
-"twitter":`<img  src="/img/icons/twitter-128x128.png" alt="ico" width="16" height="16">`
-
+"twitter":`<img  src="/img/icons/twitter-128x128.png" alt="ico" width="16" height="16">`,
+"xampp":`<img  src="/img/icons/xampp-128x128.png" alt="ico" width="16" height="16">`
 
 };
 

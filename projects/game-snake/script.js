@@ -1,4 +1,4 @@
-// v.1.1.2
+// v.1.1.3
 
 
 /*
@@ -23,6 +23,8 @@ var food = [];
 food[0] = randomIntFromInterval(1, 100);
 
 
+var testCount = 1;
+
 
 function lDrawGrid(){
 
@@ -31,7 +33,6 @@ function lDrawGrid(){
 // clear for redrawing 
 document.getElementById("result").innerHTML = ``;
 
-console.log(currentDirection[0]);
 switch(currentDirection[0]) {
 
 case 'up':
@@ -122,6 +123,7 @@ break;
 
 
 default:
+//console.log(testCount++);
 document.getElementById("result").innerHTML += `<square id="${i}" class="square bg3">&nbsp;</square>`;
 //document.getElementById("result").innerHTML += `<square id="${i}" class="square">${i}</square>`;
 //document.getElementById("result").innerHTML += `<square class="square">${i}</square>`;
@@ -247,14 +249,12 @@ break;
 
 default:
 //document.getElementById(food[0]).innerHTML = `<square2 class="square2" style="background-color: var(--orange);">&nbsp;</square2>`;
-document.getElementById(food[0]).classList.add("foodOrange");
+document.getElementById(food[0]).classList.add("foodApple");
 }
 
 
 
 
-
-console.log(food[0]);
 
 
 
@@ -264,10 +264,9 @@ console.log(food[0]);
 
 snakeArr.push(currentPosition[0]);
 //console.log(snakeArr);
-darawSnake();
 
-console.log(currentPosition[0]);
-console.log(food[0]);
+
+
 // snake eat food
 if(currentPosition[0] == food[0]){
 snakeLenght[0]++;
@@ -276,10 +275,13 @@ food[0] = randomIntFromInterval(1, 100);
 document.getElementById(currentPosition[0]).classList.add("snakeGreen");
 }
 
+
+
+
 document.getElementById('score').innerHTML = `<spna class="blue">${snakeLenght[0]}</span> <span class="orange bold">${msg}</span>`;;
 
 
-
+darawSnake();
 
 
 
@@ -298,7 +300,26 @@ document.getElementById('score').innerHTML = `<spna class="blue">${snakeLenght[0
 
 
 function darawSnake(){
+
+if(msg == 'End'){
+document.getElementById("alert").innerHTML = '<audio style="display:none" autoplay="false" src="/audio/click.ogg">'; 
+// colision
+msg = `<span class="red bold">${msg}</span>`;
+}
+
+// win
+if(snakeLenght[0] == 64){
+currentDirection[0] = 'stop';
+
+msg = `<span class="orange bold">Win</span>`;
+document.getElementById("alert").innerHTML = '<audio style="display:none" autoplay="false" src="/audio/win.ogg">';
+}
+
+
+
+if(snakeLenght[0] <= 63){
 snakeArr = snakeArr.slice(-snakeLenght[0]);
+}
 //document.getElementById(currentPosition[0]).innerHTML += `🟩${currentPosition[0]}`;
 
 snakeArr.forEach(myFunction);
@@ -306,13 +327,14 @@ function myFunction(item) {
 //document.getElementById(item).innerHTML += `<square2 class="square2" style="background-color: var(--green); border: 1px solid var(--green2);">&nbsp;</square2>`;
 //if(currentPosition[0] == item&&snakeArr[snakeArr.length - 1] != item){ currentDirection[0] = 'stop'; }
 document.getElementById(item).classList.add("snakeGreen");
+if(item == currentPosition[0]){
+document.getElementById(item).classList.add("snakeHead");
+}
 
 // stop if eats himself
 //https://stackoverflow.com/questions/49215358/checking-for-duplicate-strings-in-javascript-array
 let findDuplicates = arr => arr.filter((item, index) => arr.indexOf(item) !== index);
 if(findDuplicates(snakeArr).length >= 1){ currentDirection[0] = 'stop'; }
-console.log(findDuplicates(snakeArr)); // All duplicates
-console.log(findDuplicates(snakeArr).length );
 
 }
 
@@ -327,7 +349,7 @@ const input = document.querySelector("html");
 input.addEventListener("keypress", logKey);
 
 function logKey(e) {
-console.log(` ${e.code}`)
+//console.log(` ${e.code}`)
 if(currentDirection[0] != 'stop'){
 if(e.code == 'KeyW'&&currentDirection[0] != 'down'||e.code == 'KeyI'&&currentDirection[0] != 'down'){ currentDirection[0] = 'up'; }
 if(e.code == 'KeyS'&&currentDirection[0] != 'up'||e.code == 'KeyK'&&currentDirection[0] != 'up'){ currentDirection[0] = 'down'; }
@@ -374,7 +396,7 @@ function myStopFunction() {
 
 var myInterval = window.setInterval(function(){
 lDrawGrid();
-}, 1000);
+}, 700);
 
-intervalID = setInterval(lDrawGrid(), 1000);
+//intervalID = setInterval(lDrawGrid(), 5000);
 
