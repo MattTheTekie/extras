@@ -249,7 +249,7 @@ break;
 
 default:
 //document.getElementById(food[0]).innerHTML = `<square2 class="square2" style="background-color: var(--orange);">&nbsp;</square2>`;
-document.getElementById(food[0]).classList.add("foodApple");
+document.getElementById(food[0]).classList.add("food");
 }
 
 
