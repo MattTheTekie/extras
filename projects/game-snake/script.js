@@ -1,4 +1,4 @@
-// v.1.1.3
+// v.1.2.0
 
 
 /*
@@ -317,7 +317,7 @@ document.getElementById("alert").innerHTML = '<audio style="display:none" autopl
 
 
 
-if(snakeLenght[0] <= 63){
+if(snakeLenght[0] <= 63){ // not cut when stop, for fix empty square when everything is eaten
 snakeArr = snakeArr.slice(-snakeLenght[0]);
 }
 //document.getElementById(currentPosition[0]).innerHTML += `🟩${currentPosition[0]}`;
@@ -396,7 +396,7 @@ function myStopFunction() {
 
 var myInterval = window.setInterval(function(){
 lDrawGrid();
-}, 700);
+}, 1000);
 
 //intervalID = setInterval(lDrawGrid(), 5000);
 
