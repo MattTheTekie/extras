@@ -124,7 +124,12 @@ fuCalc(e.target.value);
 
 
 
-function fuCalc(value){
+function fuCalc(){
+
+inputCalc[0] = inputCalc[0].replaceAll("'", '');
+inputCalc[0] = inputCalc[0].replaceAll('"', '');
+
+
 
 let result = '';
 
