@@ -109,7 +109,7 @@ document.getElementById('result').innerHTML = grid;
 printCaclMode(calcMode[0]);
 
 
-
+// input 1 (click)
 function clickInput(value){
 inputCalc[0] += String(value);
 fuCalc(inputCalc[0]);
@@ -117,6 +117,7 @@ fuCalc(inputCalc[0]);
 
 document.querySelectorAll('input')[0].addEventListener('input', updateValue);
 
+// input 2 (form input)
 function updateValue(e) {
 inputCalc[0] = String(e.target.value);
 fuCalc(e.target.value);
