@@ -30,7 +30,7 @@ top: 0;
 	box-shadow: 0 10px 30px rgba(0,0,0,0.12), 0 10px 20px rgba(0,0,0,0.24);
 	
 }
-/*
+
 html { position: relative; }
 html::after{
 z-index: 0;
@@ -47,7 +47,7 @@ left: 0;
 background-size: cover;
 background-position: top 0;
 }
-*/
+
 
 body {
 height: 100vh;
@@ -55,7 +55,8 @@ background: silver;
 }
 
 p {
-
+text-shadow: 0 5px 5px rgba(0,0,0,0.12), 0 5px 5px rgba(0,0,0,0.24);
+color: #000;
 z-index: 1;
 text-align: center;
 padding: 20px;
