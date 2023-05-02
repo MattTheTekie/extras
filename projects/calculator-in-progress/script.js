@@ -1,14 +1,17 @@
-// v.1.0.0
+// v.1.0.1
 // inspired by Bing Web Calculator, Google Web Calculator, Google Calculator App
 
 var inputCalc = [];
 inputCalc[0] = '';
 
+var calcMode = [];
+calcMode[0] = 'eval';
+
 
 if(localStorage.getItem("calculator-mode")){
-mode = localStorage.getItem("calculator-mode");
+calcMode[0] = localStorage.getItem("calculator-mode");
 }else{
-mode = 'eval';
+calcMode[0] = 'eval';
 }
 
 
@@ -40,15 +43,20 @@ document.getElementById('calculator-mode').innerHTML =
 function setMode(mode){
 localStorage.setItem("calculator-mode", mode);
 printCaclMode(mode);
+calcMode[0] = mode;
 }
 
 
 const grid = `
 
+<div class="center2">
+<div>
+
+
 <div class="calculator border padding">
 
 <form>
-<input type="text">
+<input type="text" autofocus="autofocus">
 <div id="calcResult" class="block padding bg border">result</div>
 </form>
 
@@ -62,22 +70,22 @@ const grid = `
 <a class="button border light" href="#" onclick="clickInput('C');return false;">C</a>
 <a class="button border light" href="#" onclick="clickInput('⇦');return false;">⇦</a>
 
-<a class="button border light" href="#" onclick="clickInput('7');return false;">7</a>
-<a class="button border light" href="#" onclick="clickInput('8');return false;">8</a>
-<a class="button border light" href="#" onclick="clickInput('9');return false;">9</a>
+<a class="button border light4" href="#" onclick="clickInput('7');return false;">7</a>
+<a class="button border light4" href="#" onclick="clickInput('8');return false;">8</a>
+<a class="button border light4" href="#" onclick="clickInput('9');return false;">9</a>
 <a class="button border light" href="#" onclick="clickInput('/');return false;">/</a>
 
-<a class="button border light" href="#" onclick="clickInput('4');return false;">4</a>
-<a class="button border light" href="#" onclick="clickInput('5');return false;">5</a>
-<a class="button border light" href="#" onclick="clickInput('6');return false;">6</a>
+<a class="button border light4" href="#" onclick="clickInput('4');return false;">4</a>
+<a class="button border light4" href="#" onclick="clickInput('5');return false;">5</a>
+<a class="button border light4" href="#" onclick="clickInput('6');return false;">6</a>
 <a class="button border light" href="#" onclick="clickInput('*');return false;">*</a>
 
-<a class="button border light" href="#" onclick="clickInput('1');return false;">1</a>
-<a class="button border light" href="#" onclick="clickInput('2');return false;">2</a>
-<a class="button border light" href="#" onclick="clickInput('3');return false;">3</a>
+<a class="button border light4" href="#" onclick="clickInput('1');return false;">1</a>
+<a class="button border light4" href="#" onclick="clickInput('2');return false;">2</a>
+<a class="button border light4" href="#" onclick="clickInput('3');return false;">3</a>
 <a class="button border light" href="#" onclick="clickInput('-');return false;">-</a>
 
-<a class="button border light" href="#" onclick="clickInput('0');return false;">0</a>
+<a class="button border light4" href="#" onclick="clickInput('0');return false;">0</a>
 <a class="button border light" href="#" onclick="clickInput('.');return false;">.</a>
 <a class="button border light blue" href="#" onclick="clickInput('=');return false;">=</a>
 <a class="button border light" href="#" onclick="clickInput('+');return false;">+</a>
@@ -88,32 +96,36 @@ const grid = `
 
 
 </div>
+
+
+
+</div>
+</div>
 `;
 
 
 document.getElementById('result').innerHTML = grid;
 
-printCaclMode(mode);
+printCaclMode(calcMode[0]);
 
 
 
 function clickInput(value){
-inputCalc[0] += value;
-
+inputCalc[0] += String(value);
 fuCalc(inputCalc[0]);
-
-
 }
 
 document.querySelectorAll('input')[0].addEventListener('input', updateValue);
 
 function updateValue(e) {
-clickInput(e.target.value);
+inputCalc[0] = String(e.target.value);
+fuCalc(e.target.value);
 }
 
 
 
-function fuCalc(){
+function fuCalc(value){
+
 let result = '';
 
 if(inputCalc[0][inputCalc[0].length - 1] == '⇦'){ inputCalc[0] = inputCalc[0].slice(0, -2); }
@@ -133,13 +145,13 @@ result = inputCalc[0];
 }*/
 
 
-switch(mode){
+switch(calcMode[0]){
 case 'eval':
 result = eval(inputCalc[0]);
 break;
 
 case 'manual':
-result = 'manual mode';
+result = 'manual mode in progress';
 break;
 
 default:
