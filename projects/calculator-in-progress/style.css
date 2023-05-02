@@ -1,11 +1,31 @@
-/* v.1.0.0 */
-/* comment */
+/* v.1.0.1 */
+/* Design inspired by Bing Web Calculator, Google Web Calculator, Google Calculator App and other
+ */
 
-.calculator { border-radius: 7px; width: 100%; max-width: 220px; margin: 0 auto; }
+.calculator { border-radius: 7px; width: 100%; max-width: 320px; margin: 0 auto; }
 input, #calcResult{ font-size: 16px; display: block; text-align: right; padding: 7px !important; }
 #calcResult { font-size: 14px; border-radius: 0 0 7px 7px; }
-input { border-radius: 7px 7px 0 0;  text-align: right; border-bottom: 0; }
+input, input:focus { border-radius: 7px 7px 0 0;  text-align: right; border-bottom: 0; }
 form { margin: 5px 0;  }
+
+
+
+.button {
+border-radius: 7px;
+}
+
+.grid {
+display: grid;
+grid-template-columns: 40px 40px 40px 40px;
+grid-gap: 9px;
+margin: 0 auto;
+margin-top: 15px;
+padding: 0;
+justify-content: center;
+align-items: center;
+text-align: center;
+padding-top: 1fr;
+}
 
 .grid a {
 display: inline-flex !important;
@@ -18,44 +38,29 @@ align-items: center;
 justify-content: center;
 text-align: center;
 margin: 0 auto;
+
 box-sizing: border-box;
 }
-
-.button {
-
-border-radius: 7px;
-}
+@media(max-width: 200px) {
 
 .grid {
-display: grid;
-grid-template-columns: 1fr 1fr 1fr 1fr;
-grid-gap: 9px;
-margin: 0 auto;
-padding: 0;
-justify-content: center;
-align-items: center;
-text-align: center;
-padding-top: 1fr;
-}
-
-@media(max-width: 180px) {
-
-.grid {
+grid-template-columns: 25px 25px 25px 25px;
 grid-gap: 2px;
 }
 
 .grid a {
-min-height: 10px;
-min-width: 10px;
+min-height: 25px;
+min-width: 25px;
 font-size: x-small;
 }
 
 }
 
 
-@media(max-width: 90px) {
+@media(max-width: 128px) {
 
 .grid {
+grid-template-columns: 20px 20px 20px 20px;
 grid-gap: 1px;
 }
 

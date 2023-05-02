@@ -1,5 +1,5 @@
 // v.1.0.1
-// inspired by Bing Web Calculator, Google Web Calculator, Google Calculator App
+// inspired by Bing Web Calculator, Google Web Calculator, Google Calculator App and other
 
 var inputCalc = [];
 inputCalc[0] = '';
@@ -24,8 +24,8 @@ document.getElementById('calculator-mode').innerHTML =
 `
 <div class="tRight" style="margin-top: 16px">
 <div class="tag op">mode:</div>
-<a class="tag border light" href="#" onclick="setMode('eval');return false;">eval</a>
-<a class="tag border light op" href="#" onclick="setMode('manual');return false;">manual</a>
+<a class="tag border light" href="#" onclick="setMode('eval');return false;">eval function</a>
+<a class="tag border light op" href="#" onclick="setMode('manual');return false;">manual script</a>
 </div>
 `;
 }else{
@@ -33,8 +33,8 @@ document.getElementById('calculator-mode').innerHTML =
 `
 <div class="tRight" style="margin-top: 16px">
 <div class="tag op">mode:</div>
-<a class="tag border light op" href="#" onclick="setMode('eval');return false;">eval</a>
-<a class="tag border light" href="#" onclick="setMode('manual');return false;">manual</a>
+<a class="tag border light op" href="#" onclick="setMode('eval');return false;">eval function</a>
+<a class="tag border light" href="#" onclick="setMode('manual');return false;">manual script</a>
 </div>
 `;
 }
@@ -67,8 +67,8 @@ const grid = `
 <!--https://stackoverflow.com/questions/1070760/javascript-href-vs-onclick-for-callback-function-on-hyperlink-->
 <a class="button border light" href="#" onclick="clickInput('(');return false;">(</a>
 <a class="button border light" href="#" onclick="clickInput(')');return false;">)</a>
-<a class="button border light" href="#" onclick="clickInput('C');return false;">C</a>
-<a class="button border light" href="#" onclick="clickInput('⇦');return false;">⇦</a>
+<a class="button border light red" href="#" onclick="clickInput('C');return false;">C</a>
+<a class="button border light red" href="#" onclick="clickInput('⇦');return false;">⇦</a>
 
 <a class="button border light4" href="#" onclick="clickInput('7');return false;">7</a>
 <a class="button border light4" href="#" onclick="clickInput('8');return false;">8</a>
