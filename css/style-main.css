@@ -1,4 +1,4 @@
-/* v.12.19.9 */
+/* v.12.19.10 */
 
 * {  color-scheme: light dark; } /* view-source:about:blank */ 
 
@@ -56,6 +56,7 @@ flex-shrink: 0;
 text-align: center;
 margin-top: 53px;
 width: 100%;
+z-index: 1;
 }
 header{ margin: 0 auto; }
 /*nav a::first-letter{ font-size: 1rem; font-weight: bold;}*/

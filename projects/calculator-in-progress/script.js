@@ -1,4 +1,4 @@
-// v.1.0.1
+// v.1.0.2
 // inspired by Bing Web Calculator, Google Web Calculator, Google Calculator App and other
 
 var inputCalc = [];
@@ -140,7 +140,7 @@ if(inputCalc[0][inputCalc[0].length - 1] == 'C'){ inputCalc[0] = ''; }
 
 // print input
 document.querySelectorAll('input')[0].value = inputCalc[0];
-
+document.querySelectorAll('input')[0].focus();
 
 /*
 //https://flaviocopes.com/how-to-check-value-is-number-javascript/
