@@ -37,7 +37,7 @@ mainPrintMsg('footer', `
 <span id="fApp"><a href="/app.${confExt}">app: status</a></span>
 <span id="fPrivacy"><a href="/privacy.${confExt}">cookie: status</a></span>
 
-<span><a href="/rss.xml">rss</a></span>
+<span><a href="/rss.xml">RSS</a></span>
 
 
 <span id="fAbout"><a href="/about.${confExt}">about</a></span>
