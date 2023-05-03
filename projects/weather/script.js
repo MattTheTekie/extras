@@ -1,4 +1,4 @@
-// v.1.0.0
+// v.1.0.1
 
 var result = [];
 
@@ -13,7 +13,7 @@ var weatherCode = {
 "0":"⋆｡˚️ Clear sky",
 "1":"⛅ Mainly clear, partly cloudy, and overcast",
 "2":"⛅ Mainly clear, partly cloudy, and overcast",
-"2":"⛅ Mainly clear, partly cloudy, and overcast",
+"3":"⛅ Mainly clear, partly cloudy, and overcast",
 "45":"🌫🌁️ Fog and depositing rime fog",
 "48":"🌫️🌁 Fog and depositing rime fog",
 "51":"🌫️🌁 Drizzle: Light, moderate, and dense intensity",
@@ -65,9 +65,9 @@ async function logJSONData() {
   const response = await fetch(apiWeather2);
   const jsonData = await response.json();
 
-console.log(jsonData);
+//console.log(jsonData);
 if(logJSONData != ""){ result[0] += '<h3>'+jsonData['current_weather']['temperature']+'°C, '+jsonData['current_weather']['windspeed']+'Km/h </h3>'+`
-<b>${weatherCode[jsonData['current_weather']['weathercode']]}</b>
+<b><!--${jsonData['current_weather']['weathercode']} -->${weatherCode[jsonData['current_weather']['weathercode']]}</b>
 `; printWeather(jsonData); }
 }
 logJSONData();
