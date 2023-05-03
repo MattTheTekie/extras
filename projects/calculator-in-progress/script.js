@@ -205,8 +205,12 @@ result = result.replaceAll(')', '<span class="red bold">)</span>');
 
 
 //https://stackoverflow.com/questions/31183110/how-to-catch-a-syntaxerror-in-javascript
-try { evalResult = eval(inputCalc[0]); }
-catch(e) { evalResult = `<span class="red xSamll">eval error</span>: <span class="xSmall">${e}</span>`; }
+try {
+evalResult = eval(inputCalc[0]);
+}
+catch(e) {
+//evalResult = `<span class="red xSamll">eval error</span>: <span class="xSmall">${e}</span>`;
+}
 
 
 result = evalResult+'<hr>'+result+'<br>* script mode in progress';

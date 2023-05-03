@@ -1,6 +1,13 @@
 var blogJsonVar = 
 [
     {
+        "id": "64",
+        "text": "Adham Dannaway on Twitter: \"\ud83d\udccd Need more case studies in your design portfolio? Practice solving real world problems with product design challenges. \u25c6 https:\/\/t.co\/8W8r6C2XGi \u25c6 https:\/\/t.co\/kNikJbFftU \u25c6 https:\/\/t.co\/CucAqWWKaK \u25c6 https:\/\/t.co\/QyFIDbKFhz \u25c6 https:\/\/t.co\/AnMg3QFHkD #design #ux #uxui https:\/\/t.co\/DsFb7m05yF\" \/ Twitter",
+        "url": "https:\/\/twitter.com\/AdhamDannaway\/status\/1653058512388341760",
+        "tag": "#challenge",
+        "time": 1683122698
+    },
+    {
         "id": "63",
         "text": "JavaScript Quiz",
         "url": "https:\/\/javascriptquiz.com\/",
