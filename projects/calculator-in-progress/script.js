@@ -1,4 +1,4 @@
-// v.1.0.2
+// v.1.0.3
 // inspired by Bing Web Calculator, Google Web Calculator, Google Calculator App and other
 
 var inputCalc = [];
@@ -22,22 +22,34 @@ function printCaclMode(mode){
 if(mode == 'eval'){
 document.getElementById('calculator-mode').innerHTML = 
 `
-<div class="tRight" style="margin-top: 16px">
-<div class="tag op">mode:</div>
-<a class="tag border light" href="#" onclick="setMode('eval');return false;">eval function</a>
-<a class="tag border light op" href="#" onclick="setMode('manual');return false;">manual script</a>
-</div>
-`;
-}else{
-document.getElementById('calculator-mode').innerHTML = 
-`
-<div class="tRight" style="margin-top: 16px">
-<div class="tag op">mode:</div>
-<a class="tag border light op" href="#" onclick="setMode('eval');return false;">eval function</a>
-<a class="tag border light" href="#" onclick="setMode('manual');return false;">manual script</a>
-</div>
+<span class="tag op">mode:</span>
+<a class="tag border light4" href="#" onclick="setMode('eval');return false;">eval</a>
+<a class="tag border light op" href="#" onclick="setMode('script');return false;">script</a>
+<a class="tag border light op" href="#" onclick="setMode('eval&script');return false;">eval & script</a>
 `;
 }
+
+if(mode == 'script'){
+document.getElementById('calculator-mode').innerHTML = 
+`
+<span class="tag op">mode:</span>
+<a class="tag border light op" href="#" onclick="setMode('eval');return false;">eval</a>
+<a class="tag border light4" href="#" onclick="setMode('script');return false;">script</a>
+<a class="tag border light op" href="#" onclick="setMode('eval&script');return false;">eval & script</a>
+`;
+}
+
+if(mode == 'eval&script'){
+document.getElementById('calculator-mode').innerHTML = 
+`
+<span class="tag op">mode:</span>
+<a class="tag border light op" href="#" onclick="setMode('eval');return false;">eval</a>
+<a class="tag border light op" href="#" onclick="setMode('script');return false;">script</a>
+<a class="tag border light4" href="#" onclick="setMode('eval&script');return false;">eval & script</a>
+`;
+}
+
+
 }
 
 function setMode(mode){
@@ -91,7 +103,14 @@ const grid = `
 
 </div>
 
-<div id="calculator-mode"></div>
+
+
+<div class="block tCenter padding margin">
+<span id="calculator-mode" class="block tCenter padding margin"></span>
+<hr>
+
+<a class="op tag" onclick="reload()" href="#">reload</a>
+</div>
 
 
 </div>
@@ -149,23 +168,55 @@ result = eval(inputCalc[0]);
 result = inputCalc[0];
 }*/
 
+var evalResult = '';
 
 switch(calcMode[0]){
 case 'eval':
-result = eval(inputCalc[0]);
+
+try {
+evalResult = eval(inputCalc[0]);
+} catch(e) {
+evalResult = 'eval error';
+}
+
+result = evalResult;
 break;
 
-case 'manual':
-result = 'manual mode in progress';
+case 'script':
+case 'eval&script':
+
+var bracket = 0;
+var bracket2 = 0;
+var arraySparse = inputCalc[0].split("");
+//https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/forEach
+arraySparse.forEach((element) => {
+console.log({ element });
+if(element == '('){ bracket++; }
+if(element == ')'){ bracket2++; }
+
+});
+
+result = inputCalc[0];
+if(bracket != bracket2){
+result = result.replaceAll('(', '<span class="red bold">(</span>');
+result = result.replaceAll(')', '<span class="red bold">)</span>');
+}
+
+
+
+//https://stackoverflow.com/questions/31183110/how-to-catch-a-syntaxerror-in-javascript
+try { evalResult = eval(inputCalc[0]); }
+catch(e) { evalResult = `<span class="red xSamll">eval error</span>: <span class="xSmall">${e}</span>`; }
+
+
+result = evalResult+'<hr>'+result+'<br>* script mode in progress';
 break;
 
 default:
 result = 'default mode';
 }
 
-
-
-if(result == ''){ result = 'result'; }
+//if(result == ''||result == undefined||/\d/.test(result) == false){ result = 'result'; }
 document.getElementById('calcResult').innerHTML = result;
 
 
