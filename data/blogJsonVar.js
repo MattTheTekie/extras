@@ -8,13 +8,6 @@ var blogJsonVar =
         "time": 1683084377
     },
     {
-        "id": "62",
-        "text": "Learn programming by playing games:\r\n\r\n1. http:\/\/tynker.com\r\nPython, JavaScript, Java\r\n\r\n2. http:\/\/cssbattle.dev\r\nCSS\r\n\r\n3. http:\/\/javascriptquiz.com\r\nJavaScript\r\n\r\n4. http:\/\/codingame.com\r\n25 languages supported\r\n\r\n5. http:\/\/ohmygit.org\r\nGit",
-        "url": "https:\/\/twitter.com\/denicmarko\/status\/1652998593769291776",
-        "tag": "#game #JavaScript #quiz",
-        "time": 1683084266
-    },
-    {
         "id": "61",
         "text": "Apple Keyboard",
         "url": "https:\/\/codepen.io\/jkantner\/pen\/RJWrmE",
