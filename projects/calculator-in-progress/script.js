@@ -50,7 +50,6 @@ calcMode[0] = mode;
 const grid = `
 
 <div class="center2">
-<div>
 
 
 <div class="calculator border padding">
@@ -99,7 +98,7 @@ const grid = `
 
 
 
-</div>
+
 </div>
 `;
 
@@ -140,7 +139,7 @@ if(inputCalc[0][inputCalc[0].length - 1] == 'C'){ inputCalc[0] = ''; }
 
 // print input
 document.querySelectorAll('input')[0].value = inputCalc[0];
-document.querySelectorAll('input')[0].focus();
+if(confDevice != 'mobile'){ document.querySelectorAll('input')[0].focus(); }
 
 /*
 //https://flaviocopes.com/how-to-check-value-is-number-javascript/

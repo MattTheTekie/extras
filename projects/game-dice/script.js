@@ -1,4 +1,4 @@
-// v.1.2.2
+// v.1.2.3
 
 
 
@@ -123,13 +123,13 @@ document.getElementById("result").innerHTML = `
 <div class="gDice">
 
 <div class="gDicePlayer">
-<div class="gDname2 `+colorPlayerWin+`">`+player+`</div><br>
+<div class="gDname2 `+colorPlayerWin+`" style="max-height: 0px;">`+player+`</div><br>
 <div class="gDname op">player</div>
 <div class="gDname op">`+pointsPlayer+`</div>
 </div>
 
 <div class="gDicePlayer">
-<div class="gDname2 `+colorPcWin+`">`+pc+`</div><br>
+<div class="gDname2 `+colorPcWin+`" style="max-height: 0px;">`+pc+`</div><br>
 <div class="gDname op">pc</div>
 <div class="gDname op">`+pointsPc+`</div>
 </div>
