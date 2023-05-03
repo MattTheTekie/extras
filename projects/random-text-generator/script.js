@@ -1,10 +1,10 @@
-// v.1.0.3
+// v.1.0.4
 
 
 var  geturl = window.location;
 var url = new URL(geturl);
 var q = url.searchParams.get("q");
-if(q == null){ q = 500; }
+if(q == null){ q = 1000; }
 
 let letter = "      abcdefghijklmnopqrstuvwxyz";
 letter = [...letter];
@@ -50,21 +50,21 @@ let count = 0;
 let check = true;
 arr.forEach((element, index) => {
 
-if(parseInt(getRandomArbitrary(1, 2)) == parseInt(getRandomArbitrary(1, 400))&&index >= 200&&element.trim() != ''&&check == true){
+if(parseInt(getRandomArbitrary(1, 2)) == parseInt(getRandomArbitrary(1, 400))&&index >= 200&&arr[index].trim() != ''&&check == true){
 arr[index] = `.
 
- `+arr[index].toUpperCase();
+`+arr[index].toUpperCase();
 check = false;
 }
 
 
-if(parseInt(getRandomArbitrary(1, 2)) == parseInt(getRandomArbitrary(1, 30))&&index >= 20&&element.trim() != ''&&check == true){
-arr[index] = arr[index]+', ';
+if(parseInt(getRandomArbitrary(1, 2)) == parseInt(getRandomArbitrary(1, 30))&&index >= 20&&arr[index].trim() != ''&&check == true){
+arr[index] = ', '+arr[index];
 check = false;
 }
 
 
-if(count == sentence&&element.trim() != ''&&check == true){
+if(count == sentence&&arr[index].trim() != ''&&check == true){
 arr[index] = arr[index]+'. '+arr[index].toUpperCase();
 count = 0;
 check = false;
@@ -79,7 +79,7 @@ count++;
 
 arr = (arr.join("")).trim();
 arr = [...arr];
-arr[0] = ' '+arr[0].toUpperCase();
+arr[0] = ''+arr[0].toUpperCase();
 
 let result = '';
 result = arr.join("");
@@ -96,7 +96,13 @@ shuffle(letter);
 result = printarr(letter);
 result = cuttext(result, q);
 
-result = result.replace(/ +(?= )/g,'');
+//result = result.replaceAll(/\s/g,' ');
+result = result.replaceAll(/ +(?= )/g,'');
+result = result.replaceAll(' ,',', ');
+result = result.replaceAll('.,',', ');
+
+
+
 
 result = result.concat('.');
 
