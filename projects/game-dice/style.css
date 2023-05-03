@@ -1,4 +1,4 @@
-/* v.2.0.4 */
+/* v.2.0.5 */
 
 #result2 {
 font-size: medium;
@@ -7,10 +7,9 @@ padding: 40px 0;
 }
 
 #result {
-font-size: 55px;
+font-size: 4em;
 text-align: center;
 width: 100%;
-
 }
 
 

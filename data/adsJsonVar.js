@@ -5,10 +5,6 @@ var adsJsonVar =
         "url": ""
     },
     {
-        "text": "<a href=\"https:\/\/www.dropbox.com\/referrals\/AACdj28r_BGeykuiCCf0i7YEfTQTDdNI7aI?src=global9\">Install Dropbox, Cloud Storage | Free Storage<\/a>",
-        "url": ""
-    },
-    {
         "text": "Arch Linux",
         "url": "https:\/\/archlinux.org\/"
     },

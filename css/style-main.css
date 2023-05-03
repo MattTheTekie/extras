@@ -408,7 +408,7 @@ scroll-padding-top: 16px;
 
 /* ads */
 .adsHeader { display: block; float: right; text-align: right; }
-.adsHeader a { font-size: small; }
+.adsHeader a { font-size: x-small; }
 .adsBody { padding-bottom: 15px;  }
 
 

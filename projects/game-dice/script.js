@@ -28,46 +28,96 @@ return random;
 
 var colorPlayerWin = '';
 var colorPcWin = '';
-
+var endGame = [];
+var pointsLimit = 30;
 
 document.getElementById("panel").innerHTML = `
+<div>
 <button class="gDbtn light border2"  id="myBtn">roll</button>
 <button class="gDbtn light border2 op" onclick="reload()">reload</button>
 <!--<button class="gDbtn light border2 op" onclick="refresh()">refresh</button>-->
+</div>
 `;
 document.getElementById("myBtn").addEventListener("click", displayResult); 
 
 displayResult()
 
 function displayResult(){
+if(endGame[0] != 'end'){
 var rand = randomDice();
 var rand2 = randomDice();
 var player = diceValArr[rand];
 var pc = diceValArr[rand2];
 var player2 = diceKeyArr[rand];
 var pc2 = diceKeyArr[rand2];
+}else{
+var player = '*';
+var pc = '*';
+var player2 = '*';
+var pc2 = '*';
+}
+
 
 var win = '';
-if(player2 > pc2){
+
+
+
+
+// small win
+if(player2 > pc2&&endGame[0] != 'end'){
 win = '<span class="orange"><b>Player Win</b></span>';
 win += '<audio style="display:none" autoplay="false" src="/audio/ok.ogg">';
 colorPlayerWin = 'green';
 colorPcWin = '';
 pointsPlayer++;
 }
-if(player2 < pc2){
+
+
+if(player2 < pc2&&endGame[0] != 'end'){
 win = '<span class="red"><b>PC Win</b></span>';
 win += '<audio style="display:none" autoplay="false" src="/audio/error.ogg">';
 colorPlayerWin = '';
 colorPcWin = 'green';
 pointsPc++;
 }
-if(player2 == pc2){
+
+if(player2 == pc2&&endGame[0] != 'end'){
 win = '<span class=""><b>Tie</b></span>';
 win += '<audio style="display:none" autoplay="false" src="/audio/neutral.ogg">';
 colorPlayerWin = 'green';
 colorPcWin = 'green';
 }
+// end small win
+
+
+// for end game, big win
+if(pointsPlayer > pointsPc&&pointsPlayer == pointsLimit){
+win = '<span class="orange"><b>End. Player Win</b></span>';
+win += '<audio style="display:none" autoplay="false" src="/audio/win.ogg">';
+colorPlayerWin = 'green';
+colorPcWin = '';
+pointsPlayer = pointsPlayer;
+endGame[0] = 'end';
+}
+
+if(pointsPlayer < pointsPc&&pointsPc == pointsLimit){
+win = '<span class="red"><b>End. PC Win</b></span>';
+win += '<audio style="display:none" autoplay="false" src="/audio/game-over.ogg">';
+colorPlayerWin = '';
+colorPcWin = 'green';
+endGame[0] = 'end';
+}
+
+if(pointsPlayer == pointsLimit&&pointsPc == pointsLimit){
+win = '<span class=""><b>Tie</b></span>';
+win += '<audio style="display:none" autoplay="false" src="/audio/neutral.ogg">';
+colorPlayerWin = 'green';
+colorPcWin = 'green';
+endGame[0] = 'end';
+}
+// end for end game
+
+
 
 document.getElementById("result").innerHTML = `
 <div class="gDice">
@@ -88,7 +138,11 @@ document.getElementById("result").innerHTML = `
 `;
 document.getElementById("result2").innerHTML = '<span>'+win+'</span>';
 }
- 
+
+document.getElementById("msg").innerHTML = `
+<div class="block tCenter op small padding margin">* The game is played to ${pointsLimit} points</div>
+`;
+
 function refresh(){ //https://stackoverflow.com/questions/39880242/how-to-reload-javascript-without-refreshing-the-page
 // bad practic
 
