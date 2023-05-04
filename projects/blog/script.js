@@ -1,4 +1,4 @@
-// v.1.10.1
+// v.1.10.2
 // inspired by Twitter, Fediverse
 // not for large Json files !
 // task: relevant for search
@@ -404,9 +404,10 @@ print += `
 </div>
 `;
 }
+
 print += `
 <div class="center tCenter">
-<div class="wrapper4">
+<div class="wrapper3">
 <span class="op small padding margin">list of tags:</span><br>
 <div class="tagList padding">`+tagList(printTagList)+`</div>
 </div>
@@ -1525,7 +1526,7 @@ if (typeof confThemeEmbed === 'undefined') {
 if (window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches) {
 var confThemeEmbed= 'dark';
 }else{
-var confThemeEmbed= 'light';
+var confThemeEmbed= 'light2';
 }
 }
 

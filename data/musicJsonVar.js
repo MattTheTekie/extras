@@ -3161,6 +3161,10 @@ var musicJsonVar =
         "url": "https:\/\/www.youtube.com\/watch?v=Ma4TOv2f_WY"
     },
     {
+        "text": "Is This The High Life (The Puppini Sisters and Friends) - YouTube",
+        "url": "https:\/\/www.youtube.com\/watch?v=VlZu85UcJNU"
+    },
+    {
         "text": "It Goes On - Knower ft. Pomplamoose - YouTube",
         "url": "https:\/\/www.youtube.com\/watch?v=FRHgA60ZVV0"
     },
@@ -5161,6 +5165,10 @@ var musicJsonVar =
         "url": "https:\/\/www.youtube.com\/watch?v=XI0vVvxq9rY"
     },
     {
+        "text": "Puttin On The Ritz LIVE - The Puppini Sisters - YouTube",
+        "url": "https:\/\/www.youtube.com\/watch?v=lcgdnfzLup4"
+    },
+    {
         "text": "Que' Onda Guero \u00b7 Beck",
         "url": "https:\/\/www.youtube.com\/watch?v=_5OCvo3HrGE"
     },
@@ -5195,6 +5203,10 @@ var musicJsonVar =
     {
         "text": "Rap for Rejection \u00b7 Kate Nash",
         "url": "https:\/\/www.youtube.com\/watch?v=WFLWz3U-xt8"
+    },
+    {
+        "text": "Rappers Delight\/Chandelier Mash Up (LIVE) - The Puppini Sisters - YouTube",
+        "url": "https:\/\/www.youtube.com\/watch?v=QtBxfBNM7-A"
     },
     {
         "text": "Rapture (Special Mix) \u00b7 Blondie",
@@ -6233,6 +6245,10 @@ var musicJsonVar =
         "url": "https:\/\/www.youtube.com\/watch?v=xyWoZD5xfM8"
     },
     {
+        "text": "The Boogie Woogie Bugle Boy (of Company B) - The Puppini Sisters - YouTube",
+        "url": "https:\/\/www.youtube.com\/watch?v=ZIx88ch-UHM"
+    },
+    {
         "text": "The Bucketheads - The Bomb [These Sounds Fall Into My Mind] (Official Video) - YouTube",
         "url": "https:\/\/www.youtube.com\/watch?v=no1vf854aUc"
     },
@@ -6503,6 +6519,18 @@ var musicJsonVar =
     {
         "text": "The Prodigy - Voodoo People (Pendulum Remix) - YouTube",
         "url": "https:\/\/www.youtube.com\/watch?v=XQEBzauVIlA"
+    },
+    {
+        "text": "The Puppini Sisters - Diamonds Are A Girl's Best Friends - YouTube",
+        "url": "https:\/\/www.youtube.com\/watch?v=waU9Sa3cORE"
+    },
+    {
+        "text": "The Puppini Sisters - Spooky - YouTube",
+        "url": "https:\/\/www.youtube.com\/watch?v=c2v3Ej7z46E"
+    },
+    {
+        "text": "The Puppini Sisters performing Boogie Woogie Bugle Boy (of Company B)",
+        "url": "https:\/\/www.youtube.com\/watch?v=RfZqyzI8pW0"
     },
     {
         "text": "The Regrettes - Barely on My Mind (Official Audio) - YouTube",
