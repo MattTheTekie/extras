@@ -1,4 +1,4 @@
-// v.1.10.0
+// v.1.10.1
 // inspired by Twitter, Fediverse
 // not for large Json files !
 // task: relevant for search
@@ -1370,9 +1370,9 @@ nav2Print = `
 `;
 }
 
-var inputRange = '';
+var pringInputRange = '';
 if(confDevice != 'mobile'){
-inputRange = `
+pringInputRange = `
 <form id="form">
 ${navOption3}
 <input  name="${navMode}" style="
@@ -1383,6 +1383,7 @@ ${navOption3}
 transform: rotateY(180deg);*/" id="rangeinput" class="slider" value="${getP}" type="range" min="0" max="${total2}" step="${postLimit}" onmouseup="this.form.submit();" ontouchend="this.form.submit();">
 </form>
 `;
+}
 
 return `
 
