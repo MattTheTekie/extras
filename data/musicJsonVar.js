@@ -29,6 +29,10 @@ var musicJsonVar =
         "url": "https:\/\/www.youtube.com\/watch?v=EUtsnXt-H80"
     },
     {
+        "text": "10 Dollar \u00b7 M.I.A.",
+        "url": "https:\/\/www.youtube.com\/watch?v=YVJ1PPKFUgQ"
+    },
+    {
         "text": "10,000 Lovers \u00b7 Ida Maria",
         "url": "https:\/\/www.youtube.com\/watch?v=6RZXCVktVPQ"
     },
@@ -231,6 +235,10 @@ var musicJsonVar =
     {
         "text": "AmabAdamA - Hossa Hossa - YouTube",
         "url": "https:\/\/www.youtube.com\/watch?v=b-G8YdzUjK8"
+    },
+    {
+        "text": "Amazon \u00b7 M.I.A.",
+        "url": "https:\/\/www.youtube.com\/watch?v=sSBHIuTix7M"
     },
     {
         "text": "America (She Can't Say No) \u00b7 Throwing Muses",
@@ -707,6 +715,10 @@ var musicJsonVar =
     {
         "text": "Billie Eilish - Therefore I Am (Official Music Video) - YouTube",
         "url": "https:\/\/www.youtube.com\/watch?v=RUQl6YcMalg"
+    },
+    {
+        "text": "Bingo \u00b7 M.I.A.",
+        "url": "https:\/\/www.youtube.com\/watch?v=JGwp3MpcY-Q"
     },
     {
         "text": "birds and the bees \u00b7 Elizabeth and The Catapult",
@@ -4057,6 +4069,10 @@ var musicJsonVar =
         "url": "https:\/\/www.youtube.com\/watch?v=vZYbEL06lEU"
     },
     {
+        "text": "M.I.A \u00b7 M.I.A.",
+        "url": "https:\/\/www.youtube.com\/watch?v=Ij16SHDfhVE"
+    },
+    {
         "text": "M.I.A. - \"Bad Girls\" (Official Video) - YouTube",
         "url": "https:\/\/www.youtube.com\/watch?v=2uYs0gJD-LE"
     },
@@ -4067,6 +4083,10 @@ var musicJsonVar =
     {
         "text": "M.I.A. - Paper Planes - YouTube",
         "url": "https:\/\/www.youtube.com\/watch?v=ewRjZoRtu0Y"
+    },
+    {
+        "text": "M.I.A. - Popular (Official Video) - YouTube",
+        "url": "https:\/\/www.youtube.com\/watch?v=m9AzBzHBXok"
     },
     {
         "text": "Macarena \u00b7 BEGINNERS",

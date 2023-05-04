@@ -1,4 +1,4 @@
-// v.1.10.2
+// v.1.11.0
 // inspired by Twitter, Fediverse
 // not for large Json files !
 // task: relevant for search
@@ -68,6 +68,13 @@ q = decodeURIComponent(q);
 q = q.trim();
 }
 
+var mode = url.searchParams.get("mode");
+if(mode != null){
+mode = mode.replaceAll(/%/g, "%25");
+mode = decodeURIComponent(mode);
+mode = mode.trim();
+}
+
 var id = url.searchParams.get("id");
 if(id != null){
 id = id.replaceAll(/%/g, "%25");
@@ -131,10 +138,10 @@ var comMessagePrint = '';
 postLimit = Number(postLimit);
 
 var i3 = 0;
-var com = '';
 
 var sTimeRedir = []; // for auto-random
 sTimeRedir[0] = 7000;
+
 
 
 if(tagListStatus == 'on'){
@@ -142,8 +149,8 @@ print += `
 <header class="brand">
 <nav>
 <a href="?">main</a>
-<a href="?id=random">random</a>
-<a href="?id=auto-random">auto-random</a>
+<a href="?mode=random">random</a>
+<a href="?mode=auto-random">auto-random</a>
 <!--<a href="/rss.xml">rss</a>-->
 </nav>
 </header>
@@ -158,21 +165,22 @@ function main(){
 
 
 if(q != null){
-com = 'search';
+mode = 'search';
 //embedStatus = 'off';
 postLimit = 10;
 getP = getP3;
 }
+
 if(id != null||getP2 != null){
-com = 'id';
+mode = 'id';
 postLimit = 1;
 }
 
-if(id == 0||id == 'random'){ com = 'random'; getP2 = Math.floor(Math.random() * blogJsonVar.length); }
-if(id == 'auto-random'){ com = 'auto-random'; getP2 = Math.floor(Math.random() * blogJsonVar.length); }
+if(id == 0||mode == 'random'){ mode = 'random'; getP2 = Math.floor(Math.random() * blogJsonVar.length); }
+if(mode == 'auto-random'){ mode = 'auto-random'; getP2 = Math.floor(Math.random() * blogJsonVar.length); }
 
 
-if(com == ''&&tagListStatus == 'on'){
+if(mode == ''&&tagListStatus == 'on'){
 print += `
 <!--<div class="block tCenter padding">
 com:${com} id:${id} q:${q} p:${getP} p2:${getP2}
@@ -201,7 +209,12 @@ postText = (postText+' '+postUrl).trim();
 
 
 
-switch (com){
+
+
+
+
+
+switch (mode){
 
 case 'search':
 // search start
@@ -267,6 +280,8 @@ getP = key;
 if(comMessagePrint == '') { comMessagePrint = `<div class="red block padding">Probably not found</div>`; }
 break;
 
+
+
 case 'random':
 
 if(getP2 == key){
@@ -282,7 +297,7 @@ break;
 case 'auto-random':
 var sTimeRedirStatus = `redir after: <span id="timerRedir">${sTimeRedir[0] / 1000}</span> sec.`;
 setTimeout(function(){
-window.location.href = '?id=auto-random';
+window.location.href = '?mode=auto-random';
 }, sTimeRedir[0]); 
 
 
@@ -304,6 +319,7 @@ print += fuPrintPost(postId, postText, postTag, postTime);
 i++;
 }
 }
+
 }
 
 
@@ -337,7 +353,7 @@ if(item['time'] != null){ postTime = item['time']; }
 
 postText = (postText+' '+postUrl).trim();
 
-if(com == 'search'&&comMessage != 'found'){
+if(mode == 'search'&&comMessage != 'found'){
 
 
 //qSearch = String(q.toLowerCase()).replaceAll(/ /g, "|"); //if((qData).search(qSearch) != -1){}
@@ -358,6 +374,7 @@ print += fuPrintPost(postId, postText, postTag, postTime);
 i3++;
 }
 i++;
+total = i;
 comMessagePrint = `${q} ${i}`;
 qData = '';
 comMessage = 'found'
@@ -374,9 +391,8 @@ console.log(sRelevantPoint);
 
 });
 
-if(com == 'search'&&comMessage != 'found') { comMessagePrint = `<div class="red block padding">Probably not found</div>`; }
+if(mode == 'search'&&comMessage != 'found') { comMessagePrint = `<div class="red block padding">Probably not found</div>`; }
 // end Search 2
-
 
 
 
@@ -391,10 +407,10 @@ if(tagListStatus != 'off'){
 
 
 
-//if(com != 'search'){ print += `<div class="${postClass}">`+blogNav(com)+`</div>`; }
-print += `<div class="${postClass}">`+blogNav(com)+`</div>`;
+//if(com != 'search'){ print += `<div class="${postClass}">`+blogNav(mode)+`</div>`; }
+print += `<div class="${postClass}">`+blogNav(mode)+`</div>`;
 
-if(com == 'search'){
+if(mode == 'search'){
 print += `
 <div class="wrapper">
 <div class="block tRight padding">
@@ -430,6 +446,7 @@ print += `
 
 </div>
 `;
+
 
 
 
@@ -688,7 +705,7 @@ time = `<a href="${scriptDir}?id=${id}">&nbsp;`+fuPostTime(time)+`&nbsp;</a>`;
 
 
 // selected orange word when search
-if(q != null&&com == 'search'){
+if(q != null&&mode == 'search'){
 
 // 1 
 /*// https://stackoverflow.com/questions/7313395/case-insensitive-replace-all
@@ -718,7 +735,7 @@ post = highlightText(post, 'out');
 
 
 
-}else if(com == 'id'||com == 'random'||com == 'auto-random'){ // autoplay embed when id or random
+}else if(mode == 'id'||mode == 'random'||mode == 'auto-random'){ // autoplay embed when id or random
 post = highlightText2(post, 'out');
 }else{
 post = highlightText(post, 'out'); // embed without autoplay
@@ -1299,13 +1316,13 @@ var tmp = setInterval(fuPostTime, 1000);
 
 
 // navigation navbar // used array
-function blogNav(com){
+function blogNav(mode){
 
 let prev = Number(Math.floor(getP - postLimit)); //https://stackoverflow.com/questions/1133770/how-to-convert-a-string-to-an-integer-in-javascript
 let next = Number(Math.floor(getP + postLimit));
 
 
-if(com != 'search'){ // if not search
+if(mode != 'search'){ // if not search
 total = Number(blogJsonVar.length);
 }
 let total2 = total;
@@ -1319,7 +1336,7 @@ var navOption3 = '';
 
 let nav2Print = '';
 let navMode = 'p';
-if(com == 'random'||com == 'auto-random'){
+if(mode == 'random'||mode == 'auto-random'){
 navMode = 'p2';
 
 nav2Print = `
@@ -1331,7 +1348,7 @@ nav2Print = `
 `;
 }
 
-if(com == 'id'){
+if(mode == 'id'){
 navMode = 'p2';
 
 nav2Print = `
@@ -1346,7 +1363,7 @@ nav2Print = `
 
 if(q == null||q == 'null'){ q = ''; }
 
-if(com == 'search'){
+if(mode == 'search'){
 navMode = 'p3';
 
 
@@ -1361,7 +1378,7 @@ nav2Print = `
 `;
 }
 
-if(com == ''){
+if(mode == ''){
 
 nav2Print = `
 <div class="tRight">
@@ -1457,7 +1474,7 @@ document.getElementsByTagName('head')[0].appendChild(script2);
 
 
 // timer redirect
-if(com == 'auto-random'){
+if(mode == 'auto-random'){
 
 setInterval(fuTimerRdirect, 1000);
 
