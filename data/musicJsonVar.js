@@ -177,6 +177,10 @@ var musicJsonVar =
         "url": "https:\/\/www.youtube.com\/watch?v=vSHvkHEym6Y"
     },
     {
+        "text": "All Because You Told Me So \u00b7 Shivaree",
+        "url": "https:\/\/www.youtube.com\/watch?v=sahT2WjSpOo"
+    },
+    {
         "text": "All I Wanna Do - YouTube",
         "url": "https:\/\/www.youtube.com\/watch?v=RiOtjXUpflY"
     },
@@ -631,6 +635,10 @@ var musicJsonVar =
     {
         "text": "BEGINNERS x Freedo - Gimme Some (Music Video) - YouTube",
         "url": "https:\/\/www.youtube.com\/watch?v=eJUXxmK4T48"
+    },
+    {
+        "text": "Bei Mir Bist Du Sch\u00f6n - The Puppini Sisters (1940s close-harmony) LIVE - YouTube",
+        "url": "https:\/\/www.youtube.com\/watch?v=N4uWVcq629Q"
     },
     {
         "text": "Bella Poarch - Build a B*tch (Official Music Video) - YouTube",
@@ -2633,6 +2641,10 @@ var musicJsonVar =
         "url": "https:\/\/www.youtube.com\/watch?v=QUB7e3BtnvU"
     },
     {
+        "text": "Gone Too Far \u00b7 Shivaree",
+        "url": "https:\/\/www.youtube.com\/watch?v=Jml4LCipk3U"
+    },
+    {
         "text": "Gonna be sick ! \u00b7 The D\u00f8",
         "url": "https:\/\/www.youtube.com\/watch?v=ragcbm5H5Fg"
     },
@@ -2643,6 +2655,10 @@ var musicJsonVar =
     {
         "text": "Good Morning Insomnia (short song) - Pomplamoose - YouTube",
         "url": "https:\/\/www.youtube.com\/watch?v=CPB2oeVtL_s"
+    },
+    {
+        "text": "Goodnight Moon \u00b7 Shivaree",
+        "url": "https:\/\/www.youtube.com\/watch?v=waAam2n0kB0"
     },
     {
         "text": "Gorillaz - 19-2000 (Official Video) - YouTube",
@@ -2763,6 +2779,10 @@ var musicJsonVar =
     {
         "text": "Heads Will Roll (A-Trak Remix) \u00b7 Yeah Yeah Yeahs",
         "url": "https:\/\/www.youtube.com\/watch?v=TDyG4YNUXcI"
+    },
+    {
+        "text": "Heart Of Glass LIVE - Western Swing Blondie Cover - The Puppini Sisters - YouTube",
+        "url": "https:\/\/www.youtube.com\/watch?v=EhbxWTYLYT0"
     },
     {
         "text": "Heaven Ain't Even a Place \u00b7 Hollow Bastion",
@@ -3281,8 +3301,16 @@ var musicJsonVar =
         "url": "https:\/\/www.youtube.com\/watch?v=0HDdjwpPM3Y"
     },
     {
+        "text": "Jilted - The Puppini Sisters (Official Video) - YouTube",
+        "url": "https:\/\/www.youtube.com\/watch?v=ewuXiInylTw"
+    },
+    {
         "text": "Jingle Bell Rock \u00b7 Bobby Helms",
         "url": "https:\/\/www.youtube.com\/watch?v=Z0ajuTaHBtM"
+    },
+    {
+        "text": "Jingle Bells - (Christmas Music) Swing\/Vocal Jazz\/Holiday Music The Puppini Sisters christmas tree - YouTube",
+        "url": "https:\/\/www.youtube.com\/watch?v=pMEANXBcvCw"
     },
     {
         "text": "Joan Jett - I Love Rock 'n' Roll - YouTube",
@@ -5851,6 +5879,10 @@ var musicJsonVar =
     {
         "text": "Someday Feat. Anomolies \u00b7 Silent Poets \u00b7 Anomolies",
         "url": "https:\/\/www.youtube.com\/watch?v=CTwug9gkZ7w"
+    },
+    {
+        "text": "Someday \u00b7 Shivaree",
+        "url": "https:\/\/www.youtube.com\/watch?v=_LodJpWzbkk"
     },
     {
         "text": "Somethin' Stupid (2008 Remastered) \u00b7 Frank Sinatra \u00b7 Nancy Sinatra",
