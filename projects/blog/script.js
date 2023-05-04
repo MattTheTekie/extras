@@ -1,4 +1,4 @@
-// v.1.11.0
+// v.1.13.0
 // inspired by Twitter, Fediverse
 // not for large Json files !
 // task: relevant for search
@@ -56,9 +56,10 @@ var blogJsonVar =
 
 }
 
+var arrListForRandom = [];
 
 var total = '';
-
+var print2 = '';
 var url = new URL(window.location);
 
 var q = url.searchParams.get("q");
@@ -68,6 +69,13 @@ q = decodeURIComponent(q);
 q = q.trim();
 }
 
+var q2 = url.searchParams.get("q2");
+if(q != null){
+//q2 = q2.replaceAll(/%/g, "%25");
+q2 = decodeURIComponent(q2);
+q2 = q2.trim();
+}
+
 var mode = url.searchParams.get("mode");
 if(mode != null){
 mode = mode.replaceAll(/%/g, "%25");
@@ -75,10 +83,12 @@ mode = decodeURIComponent(mode);
 mode = mode.trim();
 }
 
+
 var id = url.searchParams.get("id");
 if(id != null){
 id = id.replaceAll(/%/g, "%25");
 id = decodeURIComponent(id);
+mode = 'id';
 }
 
 var getP = url.searchParams.get("p");
@@ -86,11 +96,9 @@ if(getP != null){
 getP = getP.replaceAll(/%/g, "%25");
 getP = Number(decodeURIComponent(getP));
 
-
-
 if(getP >= blogJsonVar.length - 1){ getP = blogJsonVar.length; }
 if(getP < postLimit){ getP = 0; }
-
+mode = 'list';
 }
 
 var getP2 = url.searchParams.get("p2"); // nav for id
@@ -98,6 +106,7 @@ if(getP2 != null){
 getP2 = getP2.replaceAll(/%/g, "%25");
 getP2 = getP2.trim();
 getP2 = Number(decodeURIComponent(getP2));
+mode = 'id';
 }
 
 if(getP == null){ getP = 0; }
@@ -150,6 +159,7 @@ print += `
 <nav>
 <a href="?">main</a>
 <a href="?mode=random">random</a>
+<!--<a href="?mode=music&q2=%23music">music</a>-->
 <a href="?mode=auto-random">auto-random</a>
 <!--<a href="/rss.xml">rss</a>-->
 </nav>
@@ -172,18 +182,18 @@ getP = getP3;
 }
 
 if(id != null||getP2 != null){
-mode = 'id';
 postLimit = 1;
 }
+
 
 if(id == 0||mode == 'random'){ mode = 'random'; getP2 = Math.floor(Math.random() * blogJsonVar.length); }
 if(mode == 'auto-random'){ mode = 'auto-random'; getP2 = Math.floor(Math.random() * blogJsonVar.length); }
 
 
-if(mode == ''&&tagListStatus == 'on'){
+if(mode == 'list'&&tagListStatus == 'on'){
 print += `
 <!--<div class="block tCenter padding">
-com:${com} id:${id} q:${q} p:${getP} p2:${getP2}
+com:${mode} id:${id} q:${q} p:${getP} p2:${getP2}
 <a href="?id=">random</a>
 </div>-->
 `;
@@ -223,7 +233,7 @@ case 'search':
 //qSearch = String(q.toLowerCase()).replaceAll(/ /g, "|"); //if((qData).search(qSearch) != -1){}
 qSearch = decodeURIComponent(q);
 qSearch = String(qSearch).toLowerCase();
-let qData = String(postText+' '+postTag).toLowerCase();
+var qData = String(postText+' '+postTag).toLowerCase();
 
 
 // if tag
@@ -283,18 +293,19 @@ break;
 
 
 case 'random':
-
+postLimit = 1;
 if(getP2 == key){
 if(i <= postLimit -1){
 print += '<div class="">'+fuPrintPost(postId, postText, postTag, postTime)+'</div>';
 i++;
 getP = key;
-comMessagePrint = 'random, '+'id: '+postId+', p2: '+getP2;
+comMessagePrint = ` ${mode}`+', '+'id: '+postId+', p2: '+getP2;
 }
 }
 break;
 
 case 'auto-random':
+postLimit = 1;
 var sTimeRedirStatus = `redir after: <span id="timerRedir">${sTimeRedir[0] / 1000}</span> sec.`;
 setTimeout(function(){
 window.location.href = '?mode=auto-random';
@@ -306,13 +317,58 @@ if(i <= postLimit -1){
 print += '<div class="">'+fuPrintPost(postId, postText, postTag, postTime)+'</div>';
 i++;
 getP = key;
-comMessagePrint = 'auto-random, '+'id: '+postId+', p2: '+getP2+' | '+sTimeRedirStatus;
+comMessagePrint = ` ${mode}`+', '+'id: '+postId+', p2: '+getP2+' | '+sTimeRedirStatus;
 }
 }
 break;
 
-default:
 
+case 'music':
+case 'movie':
+postLimit = 1;
+
+if(q2 != ''){
+//qSearch = String(q.toLowerCase()).replaceAll(/ /g, "|"); //if((qData).search(qSearch) != -1){}
+qSearch = decodeURIComponent(q2);
+qSearch = String(qSearch).toLowerCase();
+}else{
+qSearch = String('#music').toLowerCase();
+}
+qSearch = String(qSearch).toLowerCase();
+
+
+// if tag
+//if(qSearch[0] == '#'){}
+qData = String(postText+' '+postTag).toLowerCase();
+qData = qData.replaceAll(/,/g, ' ');
+if((qData+' ').indexOf((qSearch+' ')) >= 0){
+arrListForRandom.push(key);
+
+i++;
+total = i;
+comMessagePrint = `${q} ${i}`;
+comMessage = 'found';
+}
+
+if(arrListForRandom.length > 0){
+
+getP2 = Math.floor(Math.random() * arrListForRandom.length);
+getP2 = arrListForRandom[getP2];
+
+console.log(getP2);
+print2 = '<div class="">'+fuPrintPost(blogJsonVar[getP2]['id'], blogJsonVar[getP2]['text'], blogJsonVar[getP2]['tag'], blogJsonVar[getP2]['time'])+'</div>';
+
+getP = getP2;
+
+comMessagePrint = `${q2} ${i}`+` ${mode}`+', '+'id: '+blogJsonVar[getP2]['id']+', p2: '+getP2;
+}else{
+comMessagePrint = '<span class="red">not found</span>';
+}
+break;
+
+
+default:
+mode = 'list';
 if(getP <= key){
 if(i <= postLimit -1){
 print += fuPrintPost(postId, postText, postTag, postTime);
@@ -391,12 +447,14 @@ console.log(sRelevantPoint);
 
 });
 
+
+
 if(mode == 'search'&&comMessage != 'found') { comMessagePrint = `<div class="red block padding">Probably not found</div>`; }
 // end Search 2
 
 
 
-
+print = print + print2;
 
 
 
@@ -735,7 +793,7 @@ post = highlightText(post, 'out');
 
 
 
-}else if(mode == 'id'||mode == 'random'||mode == 'auto-random'){ // autoplay embed when id or random
+}else if(mode == 'id'||mode == 'random'||mode == 'auto-random'||mode == 'music'){ // autoplay embed when id or random
 post = highlightText2(post, 'out');
 }else{
 post = highlightText(post, 'out'); // embed without autoplay
@@ -1318,9 +1376,13 @@ var tmp = setInterval(fuPostTime, 1000);
 // navigation navbar // used array
 function blogNav(mode){
 
-let prev = Number(Math.floor(getP - postLimit)); //https://stackoverflow.com/questions/1133770/how-to-convert-a-string-to-an-integer-in-javascript
-let next = Number(Math.floor(getP + postLimit));
-
+if(mode == 'list'||mode == 'search'){
+var prev = Number(Math.floor(getP - postLimit)); //https://stackoverflow.com/questions/1133770/how-to-convert-a-string-to-an-integer-in-javascript
+var next = Number(Math.floor(getP + postLimit));
+}else{
+var prev = Number(Math.floor(getP - 1)); //https://stackoverflow.com/questions/1133770/how-to-convert-a-string-to-an-integer-in-javascript
+var next = Number(Math.floor(getP + 1));
+}
 
 if(mode != 'search'){ // if not search
 total = Number(blogJsonVar.length);
@@ -1335,9 +1397,39 @@ var navOption2 = '';
 var navOption3 = '';
 
 let nav2Print = '';
-let navMode = 'p';
-if(mode == 'random'||mode == 'auto-random'){
+var navMode = 'p';
+
+switch (mode){
+
+case 'search':
+navMode = 'p3';
+
+navOption3 = `<input type="hidden" name="q" value="${q}">`;
+navOption2 = 'q='+encodeURIComponent(q)+"&";
+nav2Print = `
+<div class="tRight">
+<!--<a class="op borderList button light" href="?id=">random</a>-->
+</div>
+<!--<a class="op border2 button light" style="width: 49%;" href="#" onclick="history.back()">back</a>-->
+`;
+break;
+
+case 'list':
+case '':
+navMode = 'p';
+
+nav2Print = `
+<div class="tRight">
+<!--<a class="op borderList button light" href="?id=">random</a>-->
+</div>
+<!--<a class="op border2 button light" style="width: 49%;" href="#" onclick="history.back()">back</a>-->
+`;
+
+break;
+
+default:
 navMode = 'p2';
+
 
 nav2Print = `
 <div class="tRight">
@@ -1348,45 +1440,11 @@ nav2Print = `
 `;
 }
 
-if(mode == 'id'){
-navMode = 'p2';
-
-nav2Print = `
-<div class="tRight">
-<a class="op block borderList button light" href="?p=`+Math.floor(getP)+`">list</a>
-<!--<a class="op borderList button light" href="?id=">random</a>-->
-</div>
-<!--<a class="op border2 button light" style="width: 49%;" href="#" onclick="history.back()">back</a>-->
-`;
-}
 
 
 if(q == null||q == 'null'){ q = ''; }
 
-if(mode == 'search'){
-navMode = 'p3';
 
-
-
-navOption3 = `<input type="hidden" name="q" value="${q}">`;
-navOption2 = 'q='+encodeURIComponent(q)+"&";
-nav2Print = `
-<div class="tRight">
-<!--<a class="op borderList button light" href="?id=">random</a>-->
-</div>
-<!--<a class="op border2 button light" style="width: 49%;" href="#" onclick="history.back()">back</a>-->
-`;
-}
-
-if(mode == ''){
-
-nav2Print = `
-<div class="tRight">
-<!--<a class="op borderList button light" href="?id=">random</a>-->
-</div>
-<!--<a class="op border2 button light" style="width: 49%;" href="#" onclick="history.back()">back</a>-->
-`;
-}
 
 var pringInputRange = '';
 if(confDevice != 'mobile'){
@@ -1480,7 +1538,6 @@ setInterval(fuTimerRdirect, 1000);
 
 function fuTimerRdirect(){
 sTimeRedir[0] = sTimeRedir[0] - 1000;
-console.log(sTimeRedir[0] );
 document.getElementById("timerRedir").innerHTML = sTimeRedir[0] / 1000;
 }
 }

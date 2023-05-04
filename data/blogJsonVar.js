@@ -1,6 +1,69 @@
 var blogJsonVar = 
 [
     {
+        "id": "73",
+        "text": "Garbage - Cherry Lips (Go Baby Go!) (Official Video) - YouTube",
+        "url": "https:\/\/www.youtube.com\/watch?v=Cy1LdAaGASw",
+        "tag": "#music",
+        "time": 1683192331
+    },
+    {
+        "id": "72",
+        "text": "Lou Reed - Walk on the Wild Side (Official Audio) - YouTube",
+        "url": "https:\/\/www.youtube.com\/watch?v=oG6fayQBm9w",
+        "tag": "#music",
+        "time": 1683192315
+    },
+    {
+        "id": "71",
+        "text": "Nelly Furtado - Turn Off The Light (Official Music Video) - YouTube",
+        "url": "https:\/\/www.youtube.com\/watch?v=kOL7aeIDruA",
+        "tag": "#music",
+        "time": 1683192298
+    },
+    {
+        "id": "70",
+        "text": "Aretha Franklin - Respect (Official Lyric Video) - YouTube",
+        "url": "https:\/\/www.youtube.com\/watch?v=A134hShx_gw",
+        "tag": "#music",
+        "time": 1683192275
+    },
+    {
+        "id": "69",
+        "text": "Michael Jackson - Thriller (Official Video - Shortened Version) - YouTube",
+        "url": "https:\/\/www.youtube.com\/watch?v=4V90AmXnguw",
+        "tag": "#music",
+        "time": 1683192256
+    },
+    {
+        "id": "68",
+        "text": "Bj\u00f6rk - Venus As A Boy - YouTube",
+        "url": "https:\/\/www.youtube.com\/watch?v=J1Rd7zrvW7k",
+        "tag": "#music",
+        "time": 1683192238
+    },
+    {
+        "id": "67",
+        "text": "Big Time Sensuality - YouTube",
+        "url": "https:\/\/www.youtube.com\/watch?v=K7Z_UiB35Hs",
+        "tag": "#music",
+        "time": 1683192220
+    },
+    {
+        "id": "66",
+        "text": "Dean Martin - Let It Snow! Let It Snow! Let It Snow! - YouTube",
+        "url": "https:\/\/www.youtube.com\/watch?v=Rnil5LyK_B0",
+        "tag": "#music",
+        "time": 1683192203
+    },
+    {
+        "id": "65",
+        "text": "Jingle Bells - (Christmas Music) Swing\/Vocal Jazz\/Holiday Music The Puppini Sisters christmas tree - YouTube",
+        "url": "https:\/\/www.youtube.com\/watch?v=pMEANXBcvCw",
+        "tag": "#music",
+        "time": 1683192187
+    },
+    {
         "id": "64",
         "text": "Adham Dannaway on Twitter: \"\ud83d\udccd Need more case studies in your design portfolio? Practice solving real world problems with product design challenges. \u25c6 https:\/\/t.co\/8W8r6C2XGi \u25c6 https:\/\/t.co\/kNikJbFftU \u25c6 https:\/\/t.co\/CucAqWWKaK \u25c6 https:\/\/t.co\/QyFIDbKFhz \u25c6 https:\/\/t.co\/AnMg3QFHkD #design #ux #uxui https:\/\/t.co\/DsFb7m05yF\" \/ Twitter",
         "url": "https:\/\/twitter.com\/AdhamDannaway\/status\/1653058512388341760",
