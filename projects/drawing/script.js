@@ -4,7 +4,7 @@
 
 var xxx = document.getElementById("btn");
 var xxx2 = document.getElementById("ads2");
-
+var brushSize = 3;
 
 
 
@@ -49,6 +49,17 @@ context.closePath();
 
 
 
+
+/*
+// brushSize
+document.getElementById("range").innerHTML = `
+<form class="button" id="form">
+<input name="brushSize" style="" id="rangeinput" class="slider" value="${brushSize}" type="range" min="1" max="50" step="3"">
+</form>
+`;
+*/
+
+
 const resize = () => {
 myPics.width = window.innerWidth;
 myPics.height = window.innerHeight;
@@ -86,6 +97,8 @@ isDrawing = true;
 myPics.addEventListener('mousemove', e => {
 if (isDrawing === true) {
 drawLine(context, x, y, e.offsetX, e.offsetY);
+//drawCircle(context, x, y);
+
     x = e.offsetX;
     y = e.offsetY;
 //document.getElementById("btn").innerHTML = ''; 
@@ -101,6 +114,8 @@ x3 = e.targetTouches[0].pageX - rect.left;
 y3 = e.targetTouches[0].pageY - rect.top;
 
 drawLine(context, x, y, x3, y3);
+//drawCircle(context, x, y);
+
 
 x = e.targetTouches[0].pageX - rect.left;
 y = e.targetTouches[0].pageY - rect.top;
@@ -119,6 +134,7 @@ x = e.offsetX;
 y = e.offsetY;
 //  drawCircle(context, x, y)
 drawLine(context, x, y, e.offsetX, e.offsetY);
+//drawCircle(context, x, y);
 
 isDrawing = false;
 img();
@@ -134,7 +150,9 @@ let rect = myPics.getBoundingClientRect();
 x3 = e.changedTouches[0].pageX - rect.left;
 y3 = e.changedTouches[0].pageY - rect.top;
 //  drawCircle(context, x, y)
-drawLine(context, x, y, x3, y3);
+//drawLine(context, x, y, x3, y3);
+drawCircle(context, x, y);
+drawCircle(context, x3, y3);
 
     isDrawing = false;
           img();
@@ -181,37 +199,32 @@ y = 0;
 
 
 
+
 function drawLine(context, x1, y1, x2, y2) {
-
-
-
-
 color = document.getElementById("color").value;
-
-
-
+//brushSize = document.getElementById('rangeinput').value;
 
 context.beginPath();
 context.strokeStyle = color;
-context.lineWidth = 3;
+context.lineWidth = brushSize;
 context.moveTo(x1, y1);
 context.lineTo(x2, y2);
 context.stroke();
 context.closePath();
 
+}
 
+function drawCircle(context){
+//brushSize = document.getElementById('rangeinput').value;
 
+context.beginPath();
+context.fillStyle = color;
+context.arc(event.clientX, event.clientY, brushSize, 0, 2 * Math.PI);
+context.fill();
+context.closePath();
 
 
 }
-
-/*function drawCircle(context, x1, y1){
-context.beginPath();
-context.fillStyle = 'black';
-context.arc(x1, y1, 1, 0, 2 * Math.PI);
-context.fill();
-context.closePath();
-}*/
 
 
 /**/
@@ -223,6 +236,9 @@ context.beginPath();
 context.fillStyle = bg;
 context.fillRect(0,0,window.innerWidth,window.innerHeight);
 context.closePath();*/
+
+
+
 
 function img(){
 
