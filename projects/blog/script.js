@@ -1,4 +1,4 @@
-// v.1.13.0
+// v.1.14.0
 // inspired by Twitter, Fediverse
 // not for large Json files !
 // task: relevant for search
@@ -1376,10 +1376,14 @@ var tmp = setInterval(fuPostTime, 1000);
 // navigation navbar // used array
 function blogNav(mode){
 
-if(mode == 'list'||mode == 'search'){
+switch (mode){
+case 'list':
+case 'search':
 var prev = Number(Math.floor(getP - postLimit)); //https://stackoverflow.com/questions/1133770/how-to-convert-a-string-to-an-integer-in-javascript
 var next = Number(Math.floor(getP + postLimit));
-}else{
+break;
+
+default:
 var prev = Number(Math.floor(getP - 1)); //https://stackoverflow.com/questions/1133770/how-to-convert-a-string-to-an-integer-in-javascript
 var next = Number(Math.floor(getP + 1));
 }
@@ -1387,6 +1391,7 @@ var next = Number(Math.floor(getP + 1));
 if(mode != 'search'){ // if not search
 total = Number(blogJsonVar.length);
 }
+
 let total2 = total;
 
 if(next >= total){ next = total - 1; total2 = total - 1; }
