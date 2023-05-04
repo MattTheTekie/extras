@@ -6493,6 +6493,18 @@ var musicJsonVar =
         "url": "https:\/\/www.youtube.com\/watch?v=wmin5WkOuPw"
     },
     {
+        "text": "The Prodigy - Mindfields (Live in Russia) - YouTube",
+        "url": "https:\/\/www.youtube.com\/watch?v=f0Olyr9zRto"
+    },
+    {
+        "text": "The Prodigy - Poison (Official Video) - YouTube",
+        "url": "https:\/\/www.youtube.com\/watch?v=_mej5wS7viw"
+    },
+    {
+        "text": "The Prodigy - Voodoo People (Pendulum Remix) - YouTube",
+        "url": "https:\/\/www.youtube.com\/watch?v=XQEBzauVIlA"
+    },
+    {
         "text": "The Regrettes - Barely on My Mind (Official Audio) - YouTube",
         "url": "https:\/\/www.youtube.com\/watch?v=EOvI_nAvvjA"
     },
