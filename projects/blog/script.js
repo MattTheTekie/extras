@@ -1,6 +1,6 @@
-// v.1.9.7
+// v.1.10.0
 // inspired by Twitter, Fediverse
-// not for large json files !
+// not for large Json files !
 // task: relevant for search
 
 
@@ -280,7 +280,7 @@ comMessagePrint = 'random, '+'id: '+postId+', p2: '+getP2;
 break;
 
 case 'auto-random':
-var sTimeRedirStatus = `redir after: <span id="timerRedir"></span> sec.`;
+var sTimeRedirStatus = `redir after: <span id="timerRedir">${sTimeRedir[0] / 1000}</span> sec.`;
 setTimeout(function(){
 window.location.href = '?id=auto-random';
 }, sTimeRedir[0]); 
@@ -1370,7 +1370,19 @@ nav2Print = `
 `;
 }
 
-
+var inputRange = '';
+if(confDevice != 'mobile'){
+inputRange = `
+<form id="form">
+${navOption3}
+<input  name="${navMode}" style="
+/*-webkit-transform: rotateY(180deg);
+-moz-transform: rotateY(180deg);
+-ms-transform: rotateY(180deg);
+-o-transform: rotateY(180deg);
+transform: rotateY(180deg);*/" id="rangeinput" class="slider" value="${getP}" type="range" min="0" max="${total2}" step="${postLimit}" onmouseup="this.form.submit();" ontouchend="this.form.submit();">
+</form>
+`;
 
 return `
 
@@ -1389,15 +1401,7 @@ justify-content: center;
 
 
 
-<form id="form">
-${navOption3}
-<input  name="${navMode}" style="
-/*-webkit-transform: rotateY(180deg);
--moz-transform: rotateY(180deg);
--ms-transform: rotateY(180deg);
--o-transform: rotateY(180deg);
-transform: rotateY(180deg);*/" id="rangeinput" class="slider" value="${getP}" type="range" min="0" max="${total2}" step="${postLimit}" onmouseup="this.form.submit();" ontouchend="this.form.submit();">
-</form>
+${pringInputRange}
 
 <div class="grid">
 <a class="op border button light" href="?${navOption2}${navMode}=${prev}">&#8592;</a>
