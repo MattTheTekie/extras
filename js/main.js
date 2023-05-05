@@ -1,6 +1,6 @@
-/* v.3.2.3 */
+/* v.3.3.0 */
 
-var confWebpageUrl = 'gabc.tk';
+var confWebpageUrl = 'gabc22.github.io';
 var confAuthor = 'gabc';
 
 
@@ -21,6 +21,8 @@ if(String(window.location.href).slice(0, 4) != 'http'){
 document.getElementById('theme').id = 'themeDisable';
 }
 
+
+
 mainPrintMsg('footer', `
 
 <div id="ads2"></div>
@@ -35,7 +37,9 @@ mainPrintMsg('footer', `
 
 <span id="fTheme"><a href="/theme.${confExt}">Themes</a></span>
 <span id="fApp"><a href="/app.${confExt}">app: status</a></span>
+<span id="fAds"><a href="/ads.${confExt}">ads: ${localStorage.getItem('confAdsStatus')}</a></span>
 <span id="fPrivacy"><a href="/privacy.${confExt}">cookie: status</a></span>
+
 
 <span><a href="/rss.xml">RSS</a></span>
 

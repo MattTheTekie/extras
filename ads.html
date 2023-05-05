@@ -67,6 +67,30 @@
 
 <h3 class="tCenter op">A̶d̶s̶, Links</h3>
 
+
+<div class="tCenter padding margin">
+<div class="padding margin block"><span class="h3">ads status: </span></span> <span class="h3" id="adsStatus"></span></div>
+<a class="button light border" href="#" onclick="setAdsStatus('on');">on</a>
+<a class="button light border" href="#" onclick="setAdsStatus('off');">off</a>
+<a class="button light border" href="#" onclick="setAdsStatus('random');">random</a>
+
+</div>
+
+<script>
+
+
+function setAdsStatus(item){
+localStorage.setItem('confAdsStatus', item);
+document.getElementById("adsStatus").innerHTML = localStorage.getItem('confAdsStatus');
+};
+
+
+document.getElementById("adsStatus").innerHTML = localStorage.getItem('confAdsStatus');
+if(localStorage.getItem('confAdsStatus') == null){
+document.getElementById("adsStatus").innerHTML = 'null, not selected (on)';
+}
+</script>
+
 <div id="result"></div>
 
 
