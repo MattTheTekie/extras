@@ -1,4 +1,4 @@
-/* v.1.1.18 */
+/* v.1.2.0 */
 
 function fuAds(themeAds, idAds, maxAds, comAds){
 
@@ -21,7 +21,7 @@ adsStatus = 'on';
 }
 
 
-if(document.getElementById(idAds) != null){
+if(adsStatus != 'off'&&document.getElementById(idAds) != null){
 
 let ads = [];
 var adsPrint = '';
@@ -54,14 +54,14 @@ adsPrint = '<div class="adsHeader"><a href="/ads.'+confExt+'">ads, links</a></di
 adsPrint = '<div class="adsHeader"><a href="/ads.'+confExt+'">ads, links</a></div><div class="adsBody"><br />'+adsText+' <a target="blank" href="'+adsURL+'">'+adsURL+'</a></div>';
 }
 
-if(adsStatus != 'off'){
+
 // print ads aaaaaaaaaaaaaaaaaaaaaaaaaaa end
 if(adsText != ''&&adsText.search("src=") == -1){
 document.getElementById(idAds).innerHTML = '<div class="center"><div class="post brand light border3 ads" style="text-align: left;">'+adsPrint+'</div></div>';
 }else if(adsText != ''){
 document.getElementById(idAds).innerHTML = '<div class="center"><div class="light border3 ads" style="text-align: left; display: inline-block; padding: 7px;  max-width: 100%;">'+adsPrint+'</div></div>';
 }
-}
+
 
 
 
