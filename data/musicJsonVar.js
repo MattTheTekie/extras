@@ -721,6 +721,10 @@ var musicJsonVar =
         "url": "https:\/\/www.youtube.com\/watch?v=JGwp3MpcY-Q"
     },
     {
+        "text": "Bird Song (Diplo Remix) \u00b7 M.I.A.",
+        "url": "https:\/\/www.youtube.com\/watch?v=8navCGLCwJk"
+    },
+    {
         "text": "birds and the bees \u00b7 Elizabeth and The Catapult",
         "url": "https:\/\/www.youtube.com\/watch?v=41APhNKwehg"
     },
@@ -6939,6 +6943,10 @@ var musicJsonVar =
     {
         "text": "Tyrant (con Jorja Smith) - YouTube Music",
         "url": "https:\/\/www.youtube.com\/watch?v=KDUOLz9ZL2g"
+    },
+    {
+        "text": "U.R.A.Q.T. \u00b7 M.I.A.",
+        "url": "https:\/\/www.youtube.com\/watch?v=FNe7jDYB_io"
     },
     {
         "text": "U2 - Beautiful Day (Official Music Video) - YouTube",

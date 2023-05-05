@@ -1,4 +1,4 @@
-// v.1.14.0
+// v.1.14.1
 // inspired by Twitter, Fediverse
 // not for large Json files !
 // task: relevant for search
@@ -8,6 +8,9 @@
 // JSON data in js varible pre-sorted by time in UNIX format, URL in JSON optional it's merged with text
 
 // main function 
+
+
+
 
 function blog(printId, blogJsonVar, postClass, embedStatus, tagListStatus, postLimit, scriptDir, multiEmbedStatus, tagListLimit){
 
@@ -55,6 +58,9 @@ var blogJsonVar =
 ];
 
 }
+
+var w = '100%';
+var h = '190px'; 
 
 var arrListForRandom = [];
 
@@ -165,9 +171,11 @@ print += `
 </nav>
 </header>
 <div id="comMsg"></div>
+
 `;
 }
 
+//document.getElementById(printId).innerHTML += '<div id="playerxx">playerxx</div>';
 
 
 function main(){
@@ -323,7 +331,7 @@ comMessagePrint = ` ${mode}`+', '+'id: '+postId+', p2: '+getP2+' | '+sTimeRedirS
 break;
 
 
-case 'music':
+/*case 'music':
 case 'movie':
 postLimit = 1;
 
@@ -365,7 +373,7 @@ comMessagePrint = `${q2} ${i}`+` ${mode}`+', '+'id: '+blogJsonVar[getP2]['id']+'
 comMessagePrint = '<span class="red">not found</span>';
 }
 break;
-
+*/
 
 default:
 mode = 'list';
@@ -516,13 +524,14 @@ print += `
 
 
 
-// echo all
-document.getElementById(printId).innerHTML = print;
+// echo print all
+document.getElementById(printId).innerHTML += print;
 if(comMessagePrint != ''){
 comMessagePrint = `
 <div class="op tCenter padding ${postClass}">${comMessagePrint}</div>
 `;
-document.getElementById('comMsg').innerHTML = comMessagePrint;
+document.getElementById('comMsg').innerHTML += comMessagePrint;
+
 }
 //if(q != null){ document.getElementById("input").value = q; }
 
@@ -829,7 +838,7 @@ return `
 
 var checkText = true;
 
-// 1 highlightText
+// light 1 highlightText
 function highlightText(text, hrefInOut){
 //text = decodeURIComponent(text); // error sometimes
 
@@ -843,8 +852,7 @@ let text2 = '';
 let embed = '';
 let embed2 = '';
 
-let w = '100%';
-let h = '190px'; 
+
 
 text = [...text];
 let forSplit = [`
@@ -932,6 +940,102 @@ play = play[play.length - 1];
 embed = `<p class="codepen" data-height="420" data-default-tab="result" data-theme-id="${confThemeEmbed}" data-slug-hash="${play}" data-user="" style="height: 420px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;"></p><!--<script async src="https://cpwebassets.codepen.io/assets/embed/ei.js"></script>-->`;
 break;
 
+case "giphy.com":
+play = item.split('-');
+play = play[play.length - 1];
+embed = `<iframe src="https://giphy.com/embed/${play}" width="480" height="360" frameBorder="0" class="giphy-embed" allowFullScreen></iframe><p><a href="https://giphy.com/gifs/$play">via GIPHY</a></p>`;
+break;
+
+case "archive.org":
+if(item.search(`/details/`) != -1) {
+play = item.split('/');
+play = play[play.length - 1];
+h = h + h;
+embed = `<iframe src="https://archive.org/embed/${play}" width="${w}" height="${h}" frameborder="0" webkitallowfullscreen="true" mozallowfullscreen="true" allowfullscreen></iframe>`;
+}
+break;
+
+case "www.instagram.com":
+case "instagram.com":
+//https://stackoverflow.com/questions/7841711/javascript-or-jquery-equivalent-of-phps-strtok
+play = item.split('?', 1)[0];
+embed = `<style>iframe.instagram-media {
+    max-width: 100% !important;
+    width: 100% !important;
+    min-width: auto !important;
+}</style><blockquote class="instagram-media" data-instgrm-captioned data-instgrm-permalink="${play}?utm_source=ig_embed&amp;utm_campaign=loading" data-instgrm-version="12" style=" background:#FFF; border:0; border-radius:3px; box-shadow:0 0 1px 0 rgba(0,0,0,0.5),0 1px 10px 0 rgba(0,0,0,0.15); margin: 1px; max-width:540px; min-width:326px; padding:0; width:99.375%; width:-webkit-calc(100% - 2px); width:calc(100% - 2px);"></blockquote><!--<script async src="//www.instagram.com/embed.js"></script>-->`;
+break;
+
+case "open.spotify.com":
+//https://stackoverflow.com/questions/7841711/javascript-or-jquery-equivalent-of-phps-strtok
+play = item.split('?', 1)[0];
+play = item.split('/');
+
+if(play[play.length - 2] == 'playlist') {
+play = play[play.length - 1];
+embed = `<iframe style="border-radius:12px" src="https://open.spotify.com/embed/playlist/${play}?utm_source=generator" width="100%" height="352" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>`;
+}
+
+if(play[play.length - 2] == 'track') {
+play = play[play.length - 1];
+embed = `<iframe style="border-radius:12px" src="https://open.spotify.com/embed/track/${play}?utm_source=generator" width="100%" height="352" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>`;
+}
+
+if(play[play.length - 2] == 'artist') {
+play = play[play.length - 1];
+embed = `<iframe style="border-radius:12px" src="https://open.spotify.com/embed/artist/${play}?utm_source=generator" width="100%" height="352" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>`;
+}
+
+break;
+
+
+
+
+case 'deezer.com':
+case 'www.deezer.com':
+//https://stackoverflow.com/questions/7841711/javascript-or-jquery-equivalent-of-phps-strtok
+play = item.split('?', 1)[0];
+play = item.split('/');
+
+if(play[play.length - 2] == 'album') {
+play = play[play.length - 1];
+embed = `<iframe title="deezer-widget" src="https://widget.deezer.com/widget/${confThemeEmbed}/album/${play}" width="100%" height="300" frameborder="0" allowtransparency="true" allow="encrypted-media; clipboard-write"></iframe>`;
+}
+
+if(play[play.length - 2] == 'track') {
+play = play[play.length - 1];
+embed = `<iframe title="deezer-widget" src="https://widget.deezer.com/widget/${confThemeEmbed}/track/${play}" height="300" frameborder="0" allowtransparency="true" allow="encrypted-media; clipboard-write"></iframe>`;
+}
+
+if(play[play.length - 2] == 'artist') {
+play = play[play.length - 1];
+embed = `<iframe title="deezer-widget" src="https://widget.deezer.com/widget/${confThemeEmbed}/artist/${play}/top_tracks" width="100%" height="300" frameborder="0" allowtransparency="true" allow="encrypted-media; clipboard-write"></iframe>`;
+}
+
+break;
+
+case 'dailymotion.com':
+case 'www.dailymotion.com':
+play = item.split('/');
+play = play[play.length - 1];
+embed = `<iframe frameborder="0" width="${w}" height="${h}" src="https://www.dailymotion.com/embed/video/${play}" allowfullscreen allow="autoplay"></iframe>`;
+break;
+
+case 'www.twitch.tv':
+play = item.split('/');
+play = play[play.length - 1];
+if(play == ''){ play = play[play.length - 2]; }
+embed = `<iframe src="https://embed.twitch.tv?channel=${play}&layout=video&referrer=some-referer-url&autoplay=false&parent=${confHost}" allowfullscreen="" scrolling="no" frameborder="0" height="${h}"></iframe>`;
+
+break;
+
+
+case "facebook.com":
+case "www.facebook.com":
+embed = `<style>.fb-post{ width: 100%; background: whitesmoke;  }
+.fb-post>span { max-width:100%; }</style><script async defer src="https://connect.facebook.net/en_US/sdk.js#xfbml=1&version=v3.2"></script> <div style="" class="fb-post" data-small-header="true" data-href="${item}" data-width="500" data-adapt-container-width="true"></div>`;
+
+break;
 
 //default:
 
@@ -1084,12 +1188,20 @@ return text;
 
 
 
-// 2 highlightText
+// light 2 highlightText
 // highlight Text2 with autoplay when pressed id (date)
 function highlightText2(text, hrefInOut){
 //text = decodeURIComponent(text); // error sometimes
 
+
+
 text = clearText(text);
+
+var idGo = id;
+if(getP2 != ''){ idgo = getP2 + 1; }
+
+
+
 
 // if code
 
@@ -1099,9 +1211,6 @@ text = text.replaceAll(/>/g, "&gt;");
 let text2 = '';
 let embed = '';
 let embed2 = '';
-
-let w = '100%';
-let h = '190px'; 
 
 text = [...text];
 let forSplit = [`
@@ -1184,6 +1293,103 @@ play = play[play.length - 1];
 embed = `<p class="codepen" data-height="420" data-default-tab="result" data-theme-id="${confThemeEmbed}" data-slug-hash="${play}" data-user="" style="height: 420px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;"></p><!--<script async src="https://cpwebassets.codepen.io/assets/embed/ei.js"></script>-->`;
 break;
 
+
+case "giphy.com":
+play = item.split('-');
+play = play[play.length - 1];
+embed = `<iframe src="https://giphy.com/embed/${play}" width="480" height="360" frameBorder="0" class="giphy-embed" allowFullScreen></iframe><p><a href="https://giphy.com/gifs/$play">via GIPHY</a></p>`;
+break;
+
+case "archive.org":
+if(item.search(`/details/`) != -1) {
+play = item.split('/');
+play = play[play.length - 1];
+h = h + h;
+embed = `<iframe src="https://archive.org/embed/${play}" width="${w}" height="${h}" frameborder="0" webkitallowfullscreen="true" mozallowfullscreen="true" allowfullscreen></iframe>`;
+}
+break;
+
+case "www.instagram.com":
+case "instagram.com":
+//https://stackoverflow.com/questions/7841711/javascript-or-jquery-equivalent-of-phps-strtok
+play = item.split('?', 1)[0];
+embed = `<style>iframe.instagram-media {
+    max-width: 100% !important;
+    width: 100% !important;
+    min-width: auto !important;
+}</style><blockquote class="instagram-media" data-instgrm-captioned data-instgrm-permalink="${play}?utm_source=ig_embed&amp;utm_campaign=loading" data-instgrm-version="12" style=" background:#FFF; border:0; border-radius:3px; box-shadow:0 0 1px 0 rgba(0,0,0,0.5),0 1px 10px 0 rgba(0,0,0,0.15); margin: 1px; max-width:540px; min-width:326px; padding:0; width:99.375%; width:-webkit-calc(100% - 2px); width:calc(100% - 2px);"></blockquote><!--<script async src="//www.instagram.com/embed.js"></script>-->`;
+break;
+
+case "open.spotify.com":
+//https://stackoverflow.com/questions/7841711/javascript-or-jquery-equivalent-of-phps-strtok
+play = item.split('?', 1)[0];
+play = item.split('/');
+
+if(play[play.length - 2] == 'playlist') {
+play = play[play.length - 1];
+embed = `<iframe style="border-radius:12px" src="https://open.spotify.com/embed/playlist/${play}?utm_source=generator" width="100%" height="352" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>`;
+}
+
+if(play[play.length - 2] == 'track') {
+play = play[play.length - 1];
+embed = `<iframe style="border-radius:12px" src="https://open.spotify.com/embed/track/${play}?utm_source=generator" width="100%" height="352" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>`;
+}
+
+if(play[play.length - 2] == 'artist') {
+play = play[play.length - 1];
+embed = `<iframe style="border-radius:12px" src="https://open.spotify.com/embed/artist/${play}?utm_source=generator" width="100%" height="352" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>`;
+}
+
+break;
+
+
+
+
+case 'deezer.com':
+case 'www.deezer.com':
+//https://stackoverflow.com/questions/7841711/javascript-or-jquery-equivalent-of-phps-strtok
+play = item.split('?', 1)[0];
+play = item.split('/');
+
+if(play[play.length - 2] == 'album') {
+play = play[play.length - 1];
+embed = `<iframe title="deezer-widget" src="https://widget.deezer.com/widget/${confThemeEmbed}/album/${play}" width="100%" height="300" frameborder="0" allowtransparency="true" allow="encrypted-media; clipboard-write"></iframe>`;
+}
+
+if(play[play.length - 2] == 'track') {
+play = play[play.length - 1];
+embed = `<iframe title="deezer-widget" src="https://widget.deezer.com/widget/${confThemeEmbed}/track/${play}" height="300" frameborder="0" allowtransparency="true" allow="encrypted-media; clipboard-write"></iframe>`;
+}
+
+if(play[play.length - 2] == 'artist') {
+play = play[play.length - 1];
+embed = `<iframe title="deezer-widget" src="https://widget.deezer.com/widget/${confThemeEmbed}/artist/${play}/top_tracks" width="100%" height="300" frameborder="0" allowtransparency="true" allow="encrypted-media; clipboard-write"></iframe>`;
+}
+
+break;
+
+case 'dailymotion.com':
+case 'www.dailymotion.com':
+play = item.split('/');
+play = play[play.length - 1];
+embed = `<iframe frameborder="0" width="${w}" height="${h}" src="https://www.dailymotion.com/embed/video/${play}?autoplay=1" allowfullscreen allow="autoplay"></iframe>`;
+break;
+
+case 'www.twitch.tv':
+play = item.split('/');
+play = play[play.length - 1];
+if(play == ''){ play = play[play.length - 2]; }
+embed = `<iframe src="https://embed.twitch.tv?channel=${play}&layout=video&referrer=some-referer-url&parent=${confHost}" allowfullscreen="" scrolling="no" frameborder="0" height="${h}"></iframe>`;
+
+break;
+
+
+case "facebook.com":
+case "www.facebook.com":
+embed = `<style>.fb-post{ width: 100%; background: whitesmoke;  }
+.fb-post>span { max-width:100%; }</style><script async defer src="https://connect.facebook.net/en_US/sdk.js#xfbml=1&version=v3.2"></script> <div style="" class="fb-post" data-small-header="true" data-href="${item}" data-width="500" data-adapt-container-width="true"></div>`;
+
+break;
 
 //default:
 
@@ -1496,8 +1702,23 @@ ${nav2Print}
 `;
 
 
-}
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+}
+// end dddddddddddd
 
 
 
@@ -1529,6 +1750,15 @@ script2.charset = 'utf-8';
 script2.src = 'https://cpwebassets.codepen.io/assets/embed/ei.js';
 document.getElementsByTagName('head')[0].appendChild(script2);
 
+var script2 = document.createElement('script');
+script2.type='text/javascript';
+script2.async = true;
+script2.charset = 'utf-8';
+script2.src = '//www.instagram.com/embed.js';
+document.getElementsByTagName('head')[0].appendChild(script2);
+
+
+
 }
 
 
@@ -1548,8 +1778,25 @@ document.getElementById("timerRedir").innerHTML = sTimeRedir[0] / 1000;
 }
 
 
+
+
+
+
+
+
+
+
 }
-// end main all
+// end main all endddddddddddddddddddddddddddddddddd
+
+
+
+
+
+
+
+
+
 
 
 
