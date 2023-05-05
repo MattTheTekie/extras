@@ -35,12 +35,14 @@ adsPrint = '<div class="adsHeader"><a href="/ads.'+confExt+'">ads, links</a></di
 adsPrint = '<div class="adsHeader"><a href="/ads.'+confExt+'">ads, links</a></div><div class="adsBody"><br />'+adsText+' <a target="blank" href="'+adsURL+'">'+adsURL+'</a></div>';
 }
 
-
+// ads disabled
+/*
+// print ads aaaaaaaaaaaaaaaaaaaaaaaaaaa end
 if(adsText != ''&&adsText.search("src=") == -1){
 document.getElementById(idAds).innerHTML = '<div class="center"><div class="post brand light border3 ads" style="text-align: left;">'+adsPrint+'</div></div>';
 }else if(adsText != ''){
 document.getElementById(idAds).innerHTML = '<div class="center"><div class="light border3 ads" style="text-align: left; display: inline-block; padding: 7px;  max-width: 100%;">'+adsPrint+'</div></div>';
-}
+}*/
 
 
 
@@ -61,7 +63,7 @@ adsPrint  += '<div class="post2 brand  border4List">'+ads[index]['text']+' <a ta
 
 
 
- document.getElementById(idAds).innerHTML = '<div class="center"><div class="post2 border3 light">'+adsPrint+'</div></div>';
+document.getElementById(idAds).innerHTML = '<div class="center"><div class="post2 border3 light">'+adsPrint+'</div></div>';
 }
 
 

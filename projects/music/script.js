@@ -207,6 +207,23 @@ location.reload();
     });
 
  break;
+
+case 'dailymotion.com':
+case 'www.dailymotion.com':
+var play = randomURL.split('/');
+play = play[play.length - 1];
+document.getElementById("playerxx").innerHTML = `<iframe frameborder="0" width="${w}" height="${h}" src="https://www.dailymotion.com/embed/video/${play}?autoplay=1" allowfullscreen allow="autoplay"></iframe>`;
+break;
+
+case "archive.org":
+if(item.search(`/details/`) != -1) {
+var play = randomURL.split('/');
+play = play[play.length - 1];
+h = h + h;
+document.getElementById("playerxx").innerHTML = `<iframe src="https://archive.org/embed/${play}" width="${w}" height="${h}" frameborder="0" webkitallowfullscreen="true" mozallowfullscreen="true" allowfullscreen></iframe>`;
+}
+break;
+
     
 default:
 console.log(`default switch`);
