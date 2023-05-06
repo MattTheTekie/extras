@@ -1,4 +1,5 @@
-// v.1.14.1
+// v.1.15.0
+
 // inspired by Twitter, Fediverse
 // not for large Json files !
 // task: relevant for search
@@ -514,7 +515,7 @@ print += `
 </form>
 
 <br>
-<span class="op block tCenter margin padding">post total: ${blogJsonVar.length}</span>
+<span class="op block tCenter margin padding">total post: ${blogJsonVar.length}</span>
 </div>
 `;
 
@@ -929,7 +930,7 @@ play = item.split('/');
 play = play[play.length - 2];
 play = play.split('-');
 play = play[play.length - 1];
-embed = `<!--<iframe src="https://tunein.com/embed/player/${play}/?autoplay=false&background=${confThemeEmbed}" style="height:100px;" scrolling="no" frameborder="no" sandbox="allow-same-origin allow-scripts allow-popups allow-forms"></iframe>--><!--  Error 1015 if many embed, You are being rate limited -->`;
+embed = `<!--<iframe src="https://tunein.com/embed/player/${play}/?autoplay=false&background=${confThemeEmbed}" style="height:100px;" scrolling="no" frameborder="no" sandbox="allow-same-origin allow-scripts allow-popups allow-forms"></iframe>--><!-- ban if many by Clouflare -->`;
 break;
 
 case "codepen.io":
@@ -1282,7 +1283,7 @@ play = item.split('/');
 play = play[play.length - 2];
 play = play.split('-');
 play = play[play.length - 1];
-embed = `<iframe src="https://tunein.com/embed/player/${play}/?autoplay=true&background=${confThemeEmbed}" style="height:100px;" scrolling="no" frameborder="no" sandbox="allow-same-origin allow-scripts allow-popups allow-forms"></iframe>`;
+embed = `<!--<iframe src="https://tunein.com/embed/player/${play}/?autoplay=true&background=${confThemeEmbed}" style="height:100px;" scrolling="no" frameborder="no" sandbox="allow-same-origin allow-scripts allow-popups allow-forms"></iframe>--><iframe width="${w}" height="300" src="${item}"></iframe>`;
 break;
 
 case "codepen.io":

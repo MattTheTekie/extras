@@ -1,4 +1,4 @@
-// v.1.0.1
+// v.1.1.0
 
 
 function randomRadio(printId, musJsonVar){
@@ -35,6 +35,8 @@ document.getElementById(printId).innerHTML = `
 <a class="tag padding light border3 margin" onclick="reload()"  style="display: block; text-align: center;" href="#">reload</a>
 </div>
 <!-- // post -->
+
+<div class="xSmall tRight block margin padding op">total: ${json.length}</div>
 
 </div>
 </div>
@@ -105,7 +107,7 @@ play = item.split('/');
 play = play[play.length - 2];
 play = play.split('-');
 play = play[play.length - 1];
-embed = `<iframe src="https://tunein.com/embed/player/${play}/?autoplay=true&background=${confThemeEmbed}" style="height:100px;" scrolling="no" frameborder="no" sandbox="allow-same-origin allow-scripts allow-popups allow-forms"></iframe>`;
+embed = `<!--<iframe src="https://tunein.com/embed/player/${play}/?autoplay=true&background=${confThemeEmbed}" style="height:100px;" scrolling="no" frameborder="no" sandbox="allow-same-origin allow-scripts allow-popups allow-forms"></iframe>--><iframe width="${w}" height="300" src="${item}"></iframe>`;
 break;
 
 //default:

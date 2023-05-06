@@ -333,10 +333,6 @@ var musJsonVar =
         "url": "https:\/\/tunein.com\/radio\/NPO-3FM-KX-Radio-s86629\/"
     },
     {
-        "text": "ON 60s | Free Internet Radio | TuneIn",
-        "url": "https:\/\/tunein.com\/radio\/ON-60s-s307180\/"
-    },
-    {
         "text": "OpenLab",
         "url": "https:\/\/openlab.fm\/"
     },
@@ -347,10 +343,6 @@ var musJsonVar =
     {
         "text": "Radio 1 Dance - Listen Live - BBC Sounds",
         "url": "https:\/\/www.bbc.co.uk\/sounds\/play\/live:bbc_radio_one_dance"
-    },
-    {
-        "text": "Radio 6 Music - Listen Live - BBC Sounds",
-        "url": "https:\/\/www.bbc.co.uk\/sounds\/play\/live:bbc_6music"
     },
     {
         "text": "Radio BurgerFuel | Free Internet Radio | TuneIn",
