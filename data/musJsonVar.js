@@ -1,6 +1,10 @@
 var musJsonVar = 
 [
     {
+        "text": "011.FM \u2013 Free Internet Radio",
+        "url": "https:\/\/011fm.com\/"
+    },
+    {
         "text": "107 Meridian FM, 107.0 FM, East Grinstead, UK | Free Internet Radio | TuneIn",
         "url": "https:\/\/tunein.com\/radio\/107-Meridian-FM-1070-s98953\/"
     },
@@ -237,10 +241,6 @@ var musJsonVar =
         "url": "https:\/\/tunein.com\/radio\/00s-ALIVE-s291029\/"
     },
     {
-        "text": "Live 011.FM - 2010's Top Hits | 842 Favorites | TuneIn",
-        "url": "https:\/\/tunein.com\/radio\/011FM---2010s-Top-Hits-s300605\/"
-    },
-    {
         "text": "Live 101.7 FM - CKNX-FM (13.0K Favorites) TuneIn",
         "url": "https:\/\/tunein.com\/radio\/1017-The-One-s31273\/"
     },
@@ -271,10 +271,6 @@ var musJsonVar =
     {
         "text": "Live 97.7 FM | C97 7 | CHUP-FM | 28.3K Favorites | TuneIn",
         "url": "https:\/\/tunein.com\/radio\/C97-7-977-s89527\/"
-    },
-    {
-        "text": "Live 98.1 FM | Rewind | KRWI | 539 Favorites | TuneIn",
-        "url": "https:\/\/tunein.com\/radio\/Rewind-981-s297934\/"
     },
     {
         "text": "Live 99.6 FM - SWR3 (635.8K Favorites) TuneIn",

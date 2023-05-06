@@ -1669,6 +1669,10 @@ var musicJsonVar =
         "url": "https:\/\/www.youtube.com\/watch?v=6Z8n40UkjAg"
     },
     {
+        "text": "Debra \u00b7 Jockstrap",
+        "url": "https:\/\/www.youtube.com\/watch?v=bWCXlTdF45g"
+    },
+    {
         "text": "Deceptacon (DFA Rmx) By Tim Goldsworthy & James Murphy for the Dfa - YouTube",
         "url": "https:\/\/www.youtube.com\/watch?v=PM8tR-P2U20"
     },
@@ -3335,6 +3339,18 @@ var musicJsonVar =
     {
         "text": "Jockey Full of Bourbon \u00b7 Suzi Wu",
         "url": "https:\/\/www.youtube.com\/watch?v=X6FIuBVUM2M"
+    },
+    {
+        "text": "Jockstrap - 'Glasgow' (Official Video) - YouTube",
+        "url": "https:\/\/www.youtube.com\/watch?v=_dLOFMxAYuE"
+    },
+    {
+        "text": "Jockstrap - I Want Another Affair (Taylor Skye Remix) - YouTube",
+        "url": "https:\/\/www.youtube.com\/watch?v=Kz2ndSGLMeI"
+    },
+    {
+        "text": "Jockstrap - \u2018Greatest Hits\u2019 (Official Video) - YouTube",
+        "url": "https:\/\/www.youtube.com\/watch?v=_1-x1GWu96o"
     },
     {
         "text": "Joel Corry x Jax Jones - OUT OUT (Featuring Charli XCX & Saweetie) [Official Lyric Video] - YouTube",
