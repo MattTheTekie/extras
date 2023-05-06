@@ -449,10 +449,6 @@ var musJsonVar =
         "url": "https:\/\/tunein.com\/radio\/The-Spy-FM-s137971\/"
     },
     {
-        "text": "The Zone - Dublin - Internet Radio",
-        "url": "https:\/\/www.internet-radio.com\/station\/thezone\/"
-    },
-    {
         "text": "triple j, 2JJJ 105.7 FM, Sydney, Australia | Free Internet Radio | TuneIn",
         "url": "https:\/\/tunein.com\/radio\/triple-j-1057-s25508\/"
     },

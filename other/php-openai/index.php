@@ -2,6 +2,7 @@
 
 $q = 'Hello';
 if(isset($_GET['q'])){ $q = $_GET['q']; }
+if(isset($_POST['q'])){ $q = $_POST['q']; }
 
 
 
@@ -62,7 +63,8 @@ curl_close ($ch);
 $text = explode('[{"text":"', $server_output);
 $text = rawurldecode(strtok($text[1], '"'));
 //https://stackoverflow.com/questions/3264270/replace-n-with-actual-new-line-character-code
-echo str_replace(array('\r\n', '\n\r', '\n', '\r'), '<br>', $text);
+echo str_replace(array('\r\n', '\n\r', '\n', '\r'), '
+', $text);
 
 
 

@@ -4117,6 +4117,10 @@ var musicJsonVar =
         "url": "https:\/\/www.youtube.com\/watch?v=rXuvdeEC5y8"
     },
     {
+        "text": "Madonna - American Life [Official Music Video] [HD] - YouTube",
+        "url": "https:\/\/www.youtube.com\/watch?v=LYduJw5LyFM"
+    },
+    {
         "text": "Madonna - American Pie [Official Music Video] - YouTube",
         "url": "https:\/\/www.youtube.com\/watch?v=X4RDB-mMDJg"
     },

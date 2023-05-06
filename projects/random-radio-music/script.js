@@ -1,7 +1,7 @@
 // v.1.0.1
 
 
-
+function randomRadio(printId, musJsonVar){
 var json = musJsonVar;
 
 //https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Math/random
@@ -25,7 +25,7 @@ tmp.href   = randomURL;
 var host = tmp.hostname;
 
 
-document.getElementById("lPrint").innerHTML = `
+document.getElementById(printId).innerHTML = `
 <div class="center2">
 <div class="wrapper2">
 
@@ -159,7 +159,7 @@ if(multiEmbedStatus != 'on'){ text += embed+embed2; }
 return text;
 }
 
-
+}
 
 
 
