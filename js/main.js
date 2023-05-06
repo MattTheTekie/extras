@@ -1,16 +1,11 @@
-/* v.3.3.0 */
-
-var confWebpageUrl = 'gabc22.github.io';
-var confAuthor = 'gabc';
-
+/* v.3.3.1 */
 
 var symbolForSplit = 'pwxortuzqu';
 // conf
 var confHost = location.hostname;
 if (confHost === "localhost" ||  confHost === "127.0.0.1"||confHost.search("192.168") != -1){
 var confExt = 'php';
-confHost = 'localhost';
-confWebpageUrl = confHost;
+
 }else{
 var confExt = 'html';
 }
@@ -57,7 +52,7 @@ mainPrintMsg('footer', `
 // about link
 // https://stackoverflow.com/questions/6002254/get-the-current-year-in-javascript
 
-mainPrintMsg('fAbout', `<a href="/about.${confExt}">about<!--author: ${confAuthor} 2019`+new Date().getFullYear()+`---!></a>`); 
+mainPrintMsg('fAbout', `<a href="/about.${confExt}">about</a>`); 
 
 
 var confWorkerStatus = 'off';

@@ -1,10 +1,6 @@
 var musJsonVar = 
 [
     {
-        "text": "011.FM \u2013 Free Internet Radio",
-        "url": "https:\/\/011fm.com\/"
-    },
-    {
         "text": "107 Meridian FM, 107.0 FM, East Grinstead, UK | Free Internet Radio | TuneIn",
         "url": "https:\/\/tunein.com\/radio\/107-Meridian-FM-1070-s98953\/"
     },

@@ -170,7 +170,8 @@ print += `
 <!--<a href="/rss.xml">rss</a>-->
 </nav>
 </header>
-<div id="comMsg"></div>
+<span id="comMsg"></span>
+<span id="postTotal"></span>
 
 `;
 }
@@ -249,7 +250,7 @@ if(qSearch[0] == '#'){
 qData = qData.replaceAll(/,/g, ' ');
 if((qData+' ').indexOf((qSearch+' ')) >= 0){
 if(getP3 <= i){
-if(i3 <= postLimit -1){
+if(i3 <= postLimit - 1){
 print += fuPrintPost(postId, postText, postTag, postTime);
 }
 i3++;
@@ -261,7 +262,7 @@ comMessage = 'found';
 }
 }else if(qData.indexOf(qSearch) >= 0){
 if(getP3 <= i){
-if(i3 <= postLimit -1){
+if(i3 <= postLimit - 1){
 print += fuPrintPost(postId, postText, postTag, postTime);
 }
 i3++;
@@ -490,6 +491,7 @@ print += `
 print += `
 <div class="center tCenter">
 <div class="wrapper3">
+
 <span class="op small padding margin">list of tags:</span><br>
 <div class="tagList padding">`+tagList(printTagList)+`</div>
 </div>
@@ -501,15 +503,18 @@ print += `
 
 print += `
 <br>
+
 <div id="form" class="wrapperL">
 <form method="GET" style="margin-top: 0px;" action="?">
-
+<label id="search" class="op block tLeft xSmall">search:</label>
 <input id="input" class="padding op" type="search" style="text-align: center;" name="q"  autocomplete="off" placeholder="" value="${q}">
 
 <input class="op" style="padding: 0; min-height: 1px; height: 24px; font-size: 12px;" type="submit" value="search">
 
 </form>
 
+<br>
+<span class="op block tCenter margin padding">post total: ${blogJsonVar.length}</span>
 </div>
 `;
 
@@ -526,20 +531,10 @@ print += `
 
 // echo print all
 document.getElementById(printId).innerHTML += print;
-if(comMessagePrint != ''){
-comMessagePrint = `
-<div class="op tCenter padding ${postClass}">${comMessagePrint}</div>
-`;
-document.getElementById('comMsg').innerHTML += comMessagePrint;
 
-}
+document.getElementById('comMsg').innerHTML += `<div class="wrapper op tCenter padding ${postClass}">${comMessagePrint}</div>`;
+
 //if(q != null){ document.getElementById("input").value = q; }
-
-
-
-
-
-
 
 
 
@@ -753,7 +748,10 @@ hlClassList += `
 `;
 });
 
-tagList += `<div class="block padding tCenter">${hlClassList}</div>`;
+tagList += `
+<div class="block padding tCenter">
+${hlClassList}
+</div>`;
 
 
 return tagList;
@@ -931,7 +929,7 @@ play = item.split('/');
 play = play[play.length - 2];
 play = play.split('-');
 play = play[play.length - 1];
-embed = `<iframe src="https://tunein.com/embed/player/${play}/?autoplay=false&background=${confThemeEmbed}" style="height:100px;" scrolling="no" frameborder="no" sandbox="allow-same-origin allow-scripts allow-popups allow-forms"></iframe>`;
+embed = `<!--<iframe src="https://tunein.com/embed/player/${play}/?autoplay=false&background=${confThemeEmbed}" style="height:100px;" scrolling="no" frameborder="no" sandbox="allow-same-origin allow-scripts allow-popups allow-forms"></iframe>--><!--  Error 1015 if many embed, You are being rate limited -->`;
 break;
 
 case "codepen.io":
