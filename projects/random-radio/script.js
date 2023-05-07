@@ -1,4 +1,4 @@
-// v.1.2.0
+// v.1.2.1
 
 
 function randomRadio(printId, jsonVar){
@@ -27,6 +27,7 @@ if(q != null){
 q = q.replaceAll(/%/g, "%25");
 q = decodeURIComponent(q);
 q = q.trim();
+localStorage.setItem('randomRadioQ', q);
 }
 
 
@@ -39,11 +40,9 @@ tag = tag.trim();
 
 
 
+if(q == null){ q = localStorage.getItem('randomRadioQ'); }
+if(q == null) { q = '#radioMusic'; tag = q; }
 var q2 = q;
-
-if (q == null) { tag = 'radioMusic'; q2 = tag;}
-
-
 
 
 
@@ -84,7 +83,7 @@ qSearch = String(qSearch).toLowerCase();
 
 // if tag
 //if(qSearch[0] == '#'){}
-qData = String(postTag).toLowerCase();
+qData = String(postText+' '+postText2+' '+postText3+' '+postTag).toLowerCase();
 qData = qData.replaceAll(/,/g, ' ');
 if((qData+' ').indexOf((qSearch+' ')) >= 0){
 arrListForRandom.push(key);
