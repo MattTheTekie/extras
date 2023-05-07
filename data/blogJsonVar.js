@@ -3,6 +3,8 @@ var blogJsonVar =
     {
         "id": "73",
         "text": "Garbage - Cherry Lips (Go Baby Go!) (Official Video) - YouTube",
+        "text2": "",
+        "text3": "",
         "url": "https:\/\/www.youtube.com\/watch?v=Cy1LdAaGASw",
         "tag": "#music",
         "time": 1683192331
@@ -10,6 +12,8 @@ var blogJsonVar =
     {
         "id": "72",
         "text": "Lou Reed - Walk on the Wild Side (Official Audio) - YouTube",
+        "text2": "",
+        "text3": "",
         "url": "https:\/\/www.youtube.com\/watch?v=oG6fayQBm9w",
         "tag": "#music",
         "time": 1683192315
@@ -17,6 +21,8 @@ var blogJsonVar =
     {
         "id": "71",
         "text": "Nelly Furtado - Turn Off The Light (Official Music Video) - YouTube",
+        "text2": "",
+        "text3": "",
         "url": "https:\/\/www.youtube.com\/watch?v=kOL7aeIDruA",
         "tag": "#music",
         "time": 1683192298
@@ -24,6 +30,8 @@ var blogJsonVar =
     {
         "id": "70",
         "text": "Aretha Franklin - Respect (Official Lyric Video) - YouTube",
+        "text2": "",
+        "text3": "",
         "url": "https:\/\/www.youtube.com\/watch?v=A134hShx_gw",
         "tag": "#music",
         "time": 1683192275
@@ -31,6 +39,8 @@ var blogJsonVar =
     {
         "id": "69",
         "text": "Michael Jackson - Thriller (Official Video - Shortened Version) - YouTube",
+        "text2": "",
+        "text3": "",
         "url": "https:\/\/www.youtube.com\/watch?v=4V90AmXnguw",
         "tag": "#music",
         "time": 1683192256
@@ -38,6 +48,8 @@ var blogJsonVar =
     {
         "id": "68",
         "text": "Bj\u00f6rk - Venus As A Boy - YouTube",
+        "text2": "",
+        "text3": "",
         "url": "https:\/\/www.youtube.com\/watch?v=J1Rd7zrvW7k",
         "tag": "#music",
         "time": 1683192238
@@ -45,6 +57,8 @@ var blogJsonVar =
     {
         "id": "67",
         "text": "Big Time Sensuality - YouTube",
+        "text2": "",
+        "text3": "",
         "url": "https:\/\/www.youtube.com\/watch?v=K7Z_UiB35Hs",
         "tag": "#music",
         "time": 1683192220
@@ -52,6 +66,8 @@ var blogJsonVar =
     {
         "id": "66",
         "text": "Dean Martin - Let It Snow! Let It Snow! Let It Snow! - YouTube",
+        "text2": "",
+        "text3": "",
         "url": "https:\/\/www.youtube.com\/watch?v=Rnil5LyK_B0",
         "tag": "#music",
         "time": 1683192203
@@ -59,6 +75,8 @@ var blogJsonVar =
     {
         "id": "65",
         "text": "Jingle Bells - (Christmas Music) Swing\/Vocal Jazz\/Holiday Music The Puppini Sisters christmas tree - YouTube",
+        "text2": "",
+        "text3": "",
         "url": "https:\/\/www.youtube.com\/watch?v=pMEANXBcvCw",
         "tag": "#music",
         "time": 1683192187
@@ -66,6 +84,8 @@ var blogJsonVar =
     {
         "id": "64",
         "text": "Adham Dannaway on Twitter: \"\ud83d\udccd Need more case studies in your design portfolio? Practice solving real world problems with product design challenges. \u25c6 https:\/\/t.co\/8W8r6C2XGi \u25c6 https:\/\/t.co\/kNikJbFftU \u25c6 https:\/\/t.co\/CucAqWWKaK \u25c6 https:\/\/t.co\/QyFIDbKFhz \u25c6 https:\/\/t.co\/AnMg3QFHkD #design #ux #uxui https:\/\/t.co\/DsFb7m05yF\" \/ Twitter",
+        "text2": "",
+        "text3": "",
         "url": "https:\/\/twitter.com\/AdhamDannaway\/status\/1653058512388341760",
         "tag": "#challenge",
         "time": 1683122698
@@ -73,6 +93,8 @@ var blogJsonVar =
     {
         "id": "63",
         "text": "JavaScript Quiz",
+        "text2": "",
+        "text3": "",
         "url": "https:\/\/javascriptquiz.com\/",
         "tag": "#bookmark #JavaScript #quiz",
         "time": 1683084377
@@ -80,6 +102,8 @@ var blogJsonVar =
     {
         "id": "61",
         "text": "Apple Keyboard",
+        "text2": "",
+        "text3": "",
         "url": "https:\/\/codepen.io\/jkantner\/pen\/RJWrmE",
         "tag": "#HTML #CSS #JavaScript",
         "time": 1683084125
@@ -87,6 +111,8 @@ var blogJsonVar =
     {
         "id": "60",
         "text": "Radio Hopping",
+        "text2": "",
+        "text3": "",
         "url": "https:\/\/codepen.io\/jkantner\/pen\/rNaPadg",
         "tag": "#CSS #HTML",
         "time": 1682734110
@@ -94,6 +120,8 @@ var blogJsonVar =
     {
         "id": "59",
         "text": "Copypaste Apple Keyboard",
+        "text2": "",
+        "text3": "",
         "url": "https:\/\/codepen.io\/jkantner\/pen\/ZEqKgWJ",
         "tag": "#CSS #HTML #JavaScript",
         "time": 1682728602
@@ -101,6 +129,8 @@ var blogJsonVar =
     {
         "id": "58",
         "text": "SpaceX on Twitter: \"Falcon 9\u2019s first stage has landed on the Just Read the Instructions droneship https:\/\/t.co\/b5sqIuan0Y\" \/ Twitter",
+        "text2": "",
+        "text3": "",
         "url": "https:\/\/twitter.com\/SpaceX\/status\/1652075869278724096",
         "tag": "#space",
         "time": 1682725009
@@ -108,6 +138,8 @@ var blogJsonVar =
     {
         "id": "57",
         "text": "SPACE.com on Twitter: \"Astronomers snap 1st-ever direct image of a black hole blasting out a powerful jet (photo) https:\/\/t.co\/IBCGErIpiv https:\/\/t.co\/v1QHjc00xG\" \/ Twitter",
+        "text2": "",
+        "text3": "",
         "url": "https:\/\/twitter.com\/SPACEdotcom\/status\/1651271987384270871",
         "tag": "#space",
         "time": 1682620778
@@ -115,6 +147,8 @@ var blogJsonVar =
     {
         "id": "56",
         "text": "CSS Art Keyboard",
+        "text2": "",
+        "text3": "",
         "url": "https:\/\/codepen.io\/kassandrasanch\/pen\/ExyrGKR",
         "tag": "#CSS #HTML",
         "time": 1682563631
@@ -122,6 +156,8 @@ var blogJsonVar =
     {
         "id": "55",
         "text": "Web Design Inspiration : The Best Website Design Ideas",
+        "text2": "",
+        "text3": "",
         "url": "https:\/\/www.webdesign-inspiration.com\/",
         "tag": "#bookmark #WebDesign #inspiration",
         "time": 1682485631
@@ -129,6 +165,8 @@ var blogJsonVar =
     {
         "id": "54",
         "text": "Hotpot.ai - Hotpot.ai",
+        "text2": "",
+        "text3": "",
         "url": "https:\/\/hotpot.ai\/",
         "tag": "#bookmark #AI",
         "time": 1682483376
@@ -136,6 +174,8 @@ var blogJsonVar =
     {
         "id": "53",
         "text": "character.ai",
+        "text2": "",
+        "text3": "",
         "url": "https:\/\/beta.character.ai\/",
         "tag": "#bookmark #AI",
         "time": 1682474387
@@ -143,6 +183,8 @@ var blogJsonVar =
     {
         "id": "52",
         "text": "test",
+        "text2": "",
+        "text3": "",
         "url": "http:\/\/test.com",
         "tag": "#test",
         "time": 1682409325
@@ -150,6 +192,8 @@ var blogJsonVar =
     {
         "id": "51",
         "text": "Robyn - Cobrastyle - YouTube",
+        "text2": "",
+        "text3": "",
         "url": "https:\/\/www.youtube.com\/watch?v=1zVECruSI3k",
         "tag": "#music",
         "time": 1682394779
@@ -157,6 +201,8 @@ var blogJsonVar =
     {
         "id": "50",
         "text": "Big List of Free and Open Public APIs (No Auth Needed) [2023]",
+        "text2": "",
+        "text3": "",
         "url": "https:\/\/mixedanalytics.com\/blog\/list-actually-free-open-no-auth-needed-apis\/",
         "tag": "#bookmark #API",
         "time": 1682311056
@@ -164,6 +210,8 @@ var blogJsonVar =
     {
         "id": "49",
         "text": "Dribbble - Discover the World\u2019s Top Designers & Creative Professionals",
+        "text2": "",
+        "text3": "",
         "url": "https:\/\/dribbble.com\/",
         "tag": "#bookmark #WebDesign #inspiration",
         "time": 1682255508
@@ -171,6 +219,8 @@ var blogJsonVar =
     {
         "id": "48",
         "text": "Siteinspire | Web Design Inspiration",
+        "text2": "",
+        "text3": "",
         "url": "https:\/\/www.siteinspire.com\/",
         "tag": "#bookmark #WebDesign #inspiration",
         "time": 1682255276
@@ -178,6 +228,8 @@ var blogJsonVar =
     {
         "id": "47",
         "text": "Florin Pop - 100 Days - 100 Projects Challenge",
+        "text2": "",
+        "text3": "",
         "url": "https:\/\/www.florin-pop.com\/blog\/2019\/09\/100-days-100-projects\/",
         "tag": "#challenge #WebDev",
         "time": 1682254737
@@ -185,6 +237,8 @@ var blogJsonVar =
     {
         "id": "46",
         "text": "UI Adrian on Twitter: \"7 tips to design better profile settings (visual thread)\ud83d\udc47 https:\/\/t.co\/jh131bOOef\" \/ Twitter",
+        "text2": "",
+        "text3": "",
         "url": "https:\/\/twitter.com\/uiuxadrian\/status\/1650099506388582401",
         "tag": "#WebDesign",
         "time": 1682253808
@@ -192,6 +246,8 @@ var blogJsonVar =
     {
         "id": "45",
         "text": "Lea Verou on Twitter: \"I will start adding h1, h2, h3, h4, h5, h6 { text-wrap: balance; } to all my stylesheets, just to be ready.\" \/ Twitter",
+        "text2": "",
+        "text3": "",
         "url": "https:\/\/twitter.com\/LeaVerou\/status\/1649375197403971584",
         "tag": "#CSS",
         "time": 1682149021
@@ -199,6 +255,8 @@ var blogJsonVar =
     {
         "id": "44",
         "text": "WasmGPT: ChatGPT-like chatbot in the browser using ggml and emscripten. No API keys required. No server required. No data is sent to any server. Demo here -> https:\/\/lxe.co\/wasmgpt\/",
+        "text2": "",
+        "text3": "",
         "url": "https:\/\/twitter.com\/coderfrankfurt\/status\/1649440394231283720",
         "tag": "#bookmark #AI",
         "time": 1682121443
@@ -206,6 +264,8 @@ var blogJsonVar =
     {
         "id": "42",
         "text": "Marko Denic on Twitter: \"You can use\u00a0https:\/\/t.co\/ToAY2OzxPS\u00a0to quickly create impressive AI-powered designs.\u00a0 Upload any image and let the platform handle advanced design tasks like: background removal, color enhancement, smart shadow adjustment, and more. Check it out!\" \/ Twitter",
+        "text2": "",
+        "text3": "",
         "url": "https:\/\/twitter.com\/denicmarko\/status\/1649005773907808259",
         "tag": "#bookmark #AI",
         "time": 1682107822
@@ -213,6 +273,8 @@ var blogJsonVar =
     {
         "id": "41",
         "text": "A Pure CSS Table Tennis Game",
+        "text2": "",
+        "text3": "",
         "url": "https:\/\/codepen.io\/ivorjetski\/pen\/mdzrLbW",
         "tag": "#CSS #HTML",
         "time": 1682086372
@@ -220,6 +282,8 @@ var blogJsonVar =
     {
         "id": "40",
         "text": "Designify - Turn any photo into awesome",
+        "text2": "",
+        "text3": "",
         "url": "https:\/\/www.designify.com\/",
         "tag": "#bookmark #AI",
         "time": 1682080561
@@ -227,6 +291,8 @@ var blogJsonVar =
     {
         "id": "39",
         "text": "Image Creator from Microsoft Bing",
+        "text2": "",
+        "text3": "",
         "url": "https:\/\/www.bing.com\/images\/create\/",
         "tag": "#bookmark #AI",
         "time": 1681861458
@@ -234,6 +300,8 @@ var blogJsonVar =
     {
         "id": "38",
         "text": "Design Blog of Adham Dannaway",
+        "text2": "",
+        "text3": "",
         "url": "https:\/\/www.adhamdannaway.com\/blog",
         "tag": "#bookmark #blog #design",
         "time": 1681838280
@@ -241,6 +309,8 @@ var blogJsonVar =
     {
         "id": "37",
         "text": "DRop",
+        "text2": "",
+        "text3": "",
         "url": "https:\/\/codepen.io\/antoniasymeonidou\/pen\/QWqpoMJ",
         "tag": "#CSS #HTML",
         "time": 1681695101
@@ -248,6 +318,8 @@ var blogJsonVar =
     {
         "id": "36",
         "text": "16 UI design tips | By Adham Dannaway | UX Planet",
+        "text2": "",
+        "text3": "",
         "url": "https:\/\/uxplanet.org\/16-ui-design-tips-ba2e7524d203",
         "tag": "#WebDesign",
         "time": 1681665635
@@ -255,6 +327,8 @@ var blogJsonVar =
     {
         "id": "35",
         "text": "The End of Computer Magazines in America | Technologizer by Harry McCracken",
+        "text2": "",
+        "text3": "",
         "url": "https:\/\/www.technologizer.com\/2023\/04\/15\/the-end-of-computer-magazines-in-america\/",
         "tag": "#technology #news",
         "time": 1681659936
@@ -262,6 +336,8 @@ var blogJsonVar =
     {
         "id": "34",
         "text": "HTML & CSS Camera",
+        "text2": "",
+        "text3": "",
         "url": "https:\/\/codepen.io\/kassandrasanch\/pen\/dyMQPKB",
         "tag": "#CSS #HTML",
         "time": 1681655353
@@ -269,6 +345,8 @@ var blogJsonVar =
     {
         "id": "33",
         "text": "CSS Art Polariod Camera",
+        "text2": "",
+        "text3": "",
         "url": "https:\/\/codepen.io\/kassandrasanch\/pen\/WNxJZyz",
         "tag": "#CSS",
         "time": 1681655296
@@ -276,6 +354,8 @@ var blogJsonVar =
     {
         "id": "32",
         "text": "Vending Machine",
+        "text2": "",
+        "text3": "",
         "url": "https:\/\/codepen.io\/kassandrasanch\/pen\/eYZRKVJ",
         "tag": "#CSS",
         "time": 1681655096
@@ -283,6 +363,8 @@ var blogJsonVar =
     {
         "id": "31",
         "text": "NASA on Twitter: \"Two cosmonauts will conduct a series of spacewalks outside the @Space_Station beginning Tuesday, April 18, to transfer hardware. Full schedule and NASA TV coverage: https:\/\/t.co\/Vw8a3eREUI https:\/\/t.co\/r0f9FZZ97V\" \/ Twitter",
+        "text2": "",
+        "text3": "",
         "url": "https:\/\/twitter.com\/NASA\/status\/1646974808746254338",
         "tag": "#space",
         "time": 1681655065
@@ -290,6 +372,8 @@ var blogJsonVar =
     {
         "id": "30",
         "text": "Hubble on Twitter: \"JO204 shines from 600 million light-years away! The tendrils beneath the galaxy are caused by ram pressure stripping, as it moves against the intergalactic medium between galaxies in a galaxy cluster. More loosely bound gas then strips away: https:\/\/t.co\/SmWB24Cwtk https:\/\/t.co\/mFI6wFnoFq\" \/ Twitter",
+        "text2": "",
+        "text3": "",
         "url": "https:\/\/twitter.com\/NASAHubble\/status\/1646875962389266432",
         "tag": "#space",
         "time": 1681632874
@@ -297,6 +381,8 @@ var blogJsonVar =
     {
         "id": "29",
         "text": "NASA Webb Telescope on Twitter: \"Stars: always making a dramatic exit! \ud83c\udf1f Webb\u2019s powerful infrared eye has captured never-before-seen detail of Cassiopeia A (Cas A). 11,000 light-years away, it is the remnant of a massive star that exploded about 340 years ago: https:\/\/t.co\/LLQsFQJwVQ https:\/\/t.co\/xqlGFzhYoy\" \/ Twitter",
+        "text2": "",
+        "text3": "",
         "url": "https:\/\/twitter.com\/NASAWebb\/status\/1644340212191903745",
         "tag": "#space",
         "time": 1681617137
@@ -304,6 +390,8 @@ var blogJsonVar =
     {
         "id": "28",
         "text": "Artify",
+        "text2": "",
+        "text3": "",
         "url": "https:\/\/artifylabs.io\/",
         "tag": "#bookmark #AI",
         "time": 1681539324
@@ -311,6 +399,8 @@ var blogJsonVar =
     {
         "id": "27",
         "text": "Perplexity AI",
+        "text2": "",
+        "text3": "",
         "url": "https:\/\/www.perplexity.ai\/",
         "tag": "#bookmark #AI",
         "time": 1681539231
@@ -318,6 +408,8 @@ var blogJsonVar =
     {
         "id": "26",
         "text": "TLDR This - Article Summarizer & Online Text Summarizing Tool",
+        "text2": "",
+        "text3": "",
         "url": "https:\/\/tldrthis.com\/",
         "tag": "#bookmark #AI",
         "time": 1681538827
@@ -325,6 +417,8 @@ var blogJsonVar =
     {
         "id": "25",
         "text": "Autoblogger.ai",
+        "text2": "",
+        "text3": "",
         "url": "https:\/\/www.autoblogger.ai\/",
         "tag": "#bookmark #AI",
         "time": 1681527121
@@ -332,6 +426,8 @@ var blogJsonVar =
     {
         "id": "23",
         "text": "Learn English Online",
+        "text2": "",
+        "text3": "",
         "url": "https:\/\/www.englishstuff.online\/",
         "tag": "#English #learn #bookmark",
         "time": 1681312803
@@ -339,6 +435,8 @@ var blogJsonVar =
     {
         "id": "22",
         "text": "How to Store a Javascript Array in localStorage",
+        "text2": "",
+        "text3": "",
         "url": "https:\/\/catalins.tech\/store-array-in-localstorage\/",
         "tag": "#JavaScript",
         "time": 1681239301
@@ -346,6 +444,8 @@ var blogJsonVar =
     {
         "id": "21",
         "text": "Juice jacking rising, FBI says don't use airport USB outlets - Android Authority",
+        "text2": "",
+        "text3": "",
         "url": "https:\/\/www.androidauthority.com\/juice-jacking-3311056\/",
         "tag": "#technology #news",
         "time": 1681238565
@@ -353,6 +453,8 @@ var blogJsonVar =
     {
         "id": "20",
         "text": "New HTML Element: search",
+        "text2": "",
+        "text3": "",
         "url": "https:\/\/alvaromontoro.com\/blog\/68033\/new-html-element-search",
         "tag": "#HTML #new",
         "time": 1681178115
@@ -360,6 +462,8 @@ var blogJsonVar =
     {
         "id": "15",
         "text": "CSS Feature Queries \u2013 DWR.IO",
+        "text2": "",
+        "text3": "",
         "url": "https:\/\/dwr.io\/css-feature-queries\/",
         "tag": "#CSS",
         "time": 1680569531
@@ -367,6 +471,8 @@ var blogJsonVar =
     {
         "id": "13",
         "text": "Lorenzo Green \u3030\ufe0f on Twitter: \"BREAKING: A petition is circulating to PAUSE all major AI developments. e.g. No more ChatGPT upgrades & many others. Signed by Elon Musk, Steve Wozniak, Stability AI CEO & 1000s of other tech leaders. Here's the breakdown: \ud83d\udc47 https:\/\/t.co\/jR4Z3sNdDw\" \/ Twitter",
+        "text2": "",
+        "text3": "",
         "url": "https:\/\/twitter.com\/mrgreen\/status\/1641056545524838405",
         "tag": "#tech #news",
         "time": 1680232458
@@ -374,6 +480,8 @@ var blogJsonVar =
     {
         "id": "11",
         "text": "The Adventures of Sherlock Holmes by Arthur Conan Doyle - Free Ebook",
+        "text2": "",
+        "text3": "",
         "url": "https:\/\/www.gutenberg.org\/ebooks\/1661",
         "tag": "#book #books",
         "time": 1679714456
@@ -381,6 +489,8 @@ var blogJsonVar =
     {
         "id": "10",
         "text": "the federation - a statistics hub",
+        "text2": "",
+        "text3": "",
         "url": "https:\/\/the-federation.info\/",
         "tag": "#SocialNetwork #bookmark",
         "time": 1679544926
@@ -388,6 +498,8 @@ var blogJsonVar =
     {
         "id": "5",
         "text": "St. Patrick's Day 2023",
+        "text2": "",
+        "text3": "",
         "url": "https:\/\/www.google.com\/doodles\/st-patricks-day-2023",
         "tag": "#day",
         "time": 1679035987
@@ -395,6 +507,8 @@ var blogJsonVar =
     {
         "id": "4",
         "text": "The Ramen Girl - OFFICIAL TRAILER - YouTube",
+        "text2": "",
+        "text3": "",
         "url": "https:\/\/www.youtube.com\/watch?v=1GYSwiaNz2o",
         "tag": "#movie",
         "time": 1678788980
@@ -402,6 +516,8 @@ var blogJsonVar =
     {
         "id": "3",
         "text": "Monkeys making stone flakes provoke questions about early humans : Shots - Health News : NPR",
+        "text2": "",
+        "text3": "",
         "url": "https:\/\/www.npr.org\/sections\/health-shots\/2023\/03\/10\/1161652099\/monkey-stone-flakes-early-humans-tools",
         "tag": "#other #human",
         "time": 1678788843
@@ -409,6 +525,8 @@ var blogJsonVar =
     {
         "id": "1",
         "text": "Start End",
+        "text2": "",
+        "text3": "",
         "url": "",
         "tag": "#end",
         "time": 1678468648

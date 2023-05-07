@@ -13,11 +13,11 @@
 
 
 
-function blog(printId, blogJsonVar, postClass, embedStatus, tagListStatus, postLimit, scriptDir, multiEmbedStatus, tagListLimit){
+function blog(printId, jsonVar, postClass, embedStatus, tagListStatus, postLimit, scriptDir, multiEmbedStatus, tagListLimit){
 
 /*
 printId - div id where print blog
-blogJsonVar - json in JavaSript variable
+jsonVar - json in JavaSript variable
 // other
 postClass - CSS class name post
 embedStatus - if off, not showing embed
@@ -37,8 +37,8 @@ if(multiEmbedStatus == undefined||multiEmbedStatus == ''){ multiEmbedStatus = 'o
 if(tagListLimit == undefined||tagListLimit == ''){ tagListLimit = '500'; }
 
 
-if(blogJsonVar == ''){
-var blogJsonVar = 
+if(jsonVar == ''){
+var jsonVar = 
 
 
 [
@@ -103,7 +103,7 @@ if(getP != null){
 getP = getP.replaceAll(/%/g, "%25");
 getP = Number(decodeURIComponent(getP));
 
-if(getP >= blogJsonVar.length - 1){ getP = blogJsonVar.length; }
+if(getP >= jsonVar.length - 1){ getP = jsonVar.length; }
 if(getP < postLimit){ getP = 0; }
 mode = 'list';
 }
@@ -128,9 +128,9 @@ getP3 = Number(decodeURIComponent(getP3));
 if(getP == null){ getP = 0; }
 
 
-if(getP == blogJsonVar.length){ getP = getP - 1; }
-if(getP2 == blogJsonVar.length){ getP2 = getP2 - 1; }
-if(getP >= blogJsonVar.length){ getP = Number(Number(blogJsonVar.length) - Number(postLimit)); }
+if(getP == jsonVar.length){ getP = getP - 1; }
+if(getP2 == jsonVar.length){ getP2 = getP2 - 1; }
+if(getP >= jsonVar.length){ getP = Number(Number(jsonVar.length) - Number(postLimit)); }
 if(getP <= 0){ getP = 0; }
 if(isNaN(getP)||isNaN(getP2)){ getP = 0; getP = 0; }
 
@@ -196,8 +196,8 @@ postLimit = 1;
 }
 
 
-if(id == 0||mode == 'random'){ mode = 'random'; getP2 = Math.floor(Math.random() * blogJsonVar.length); }
-if(mode == 'auto-random'){ mode = 'auto-random'; getP2 = Math.floor(Math.random() * blogJsonVar.length); }
+if(id == 0||mode == 'random'){ mode = 'random'; getP2 = Math.floor(Math.random() * jsonVar.length); }
+if(mode == 'auto-random'){ mode = 'auto-random'; getP2 = Math.floor(Math.random() * jsonVar.length); }
 
 
 if(mode == 'list'&&tagListStatus == 'on'){
@@ -211,7 +211,7 @@ com:${mode} id:${id} q:${q} p:${getP} p2:${getP2}
 
 let i = 0;
 let sRelevantPoint = 0;
-blogJsonVar.forEach((item, key) => {
+jsonVar.forEach((item, key) => {
 
 postId = '';
 postText = '';
@@ -366,11 +366,11 @@ getP2 = Math.floor(Math.random() * arrListForRandom.length);
 getP2 = arrListForRandom[getP2];
 
 console.log(getP2);
-print2 = '<div class="">'+fuPrintPost(blogJsonVar[getP2]['id'], blogJsonVar[getP2]['text'], blogJsonVar[getP2]['tag'], blogJsonVar[getP2]['time'])+'</div>';
+print2 = '<div class="">'+fuPrintPost(jsonVar[getP2]['id'], jsonVar[getP2]['text'], jsonVar[getP2]['tag'], jsonVar[getP2]['time'])+'</div>';
 
 getP = getP2;
 
-comMessagePrint = `${q2} ${i}`+` ${mode}`+', '+'id: '+blogJsonVar[getP2]['id']+', p2: '+getP2;
+comMessagePrint = `${q2} ${i}`+` ${mode}`+', '+'id: '+jsonVar[getP2]['id']+', p2: '+getP2;
 }else{
 comMessagePrint = '<span class="red">not found</span>';
 }
@@ -403,7 +403,7 @@ printTagList += postTag+symbolForSplit;
 
 // fixme, make option relevant, rm or make
 // Search 2, if strict search not found
-blogJsonVar.forEach((item, key) => {
+jsonVar.forEach((item, key) => {
 
 postId = '';
 postText = '';
@@ -515,7 +515,7 @@ print += `
 </form>
 
 <br>
-<span class="op block tCenter margin padding">total post: ${blogJsonVar.length}</span>
+<span class="op block tCenter margin padding">total post: ${jsonVar.length}</span>
 </div>
 `;
 
@@ -1419,6 +1419,13 @@ embed2 = `<video height="${h}" controls autoplay style="width:100%"><source src=
 item = `<a target="_blank" href="${item}">${item}</a>`;
 }
 
+if(itemCheck.search(`${symbolForSplit}m3u8`) != -1) {
+embed2 = `<iframe src="https://www.hlsplayer.org/play?url=${item}" style="width: 100%; height: ${h};" scrolling="no" frameborder="no" sandbox="allow-same-origin allow-scripts allow-popups allow-forms"></iframe>player: <a href="https://www.hlsplayer.org/">www.hlsplayer.org</a>`;
+item = `<a target="_blank" href="${item}">${item}</a>`;
+}
+
+
+
 if(itemCheck.search(`${symbolForSplit}mp3|${symbolForSplit}wav|${symbolForSplit}ogg|${symbolForSplit}m3u`) != -1) {
 embed2 = `<audio controls autoplay style="width:100%; opacity:0.8"><source src="${item}" type="audio/ogg"><source src="${item}" type="audio/mpeg">Your browser does not support the audio element.</audio>`;
 item = `<a target="_blank" href="${item}">${item}</a>`;
@@ -1598,7 +1605,7 @@ var next = Number(Math.floor(getP + 1));
 }
 
 if(mode != 'search'){ // if not search
-total = Number(blogJsonVar.length);
+total = Number(jsonVar.length);
 }
 
 let total2 = total;
@@ -1790,7 +1797,7 @@ document.getElementById("timerRedir").innerHTML = sTimeRedir[0] / 1000;
 
 
 }
-// end main all endddddddddddddddddddddddddddddddddd
+// end main all end blog
 
 
 
