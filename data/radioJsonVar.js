@@ -5,28 +5,28 @@ var radioJsonVar =
         "text2": "http:\/\/lbb.dyndns.tv:8005\/;",
         "text3": "mp3",
         "url": "https:\/\/www.lovebrothersband.com\/",
-        "tag": "#radio #rMusic #indie"
+        "tag": "#radio #radioMusic #indie"
     },
     {
         "text": "00s ALIVE - Your Power Pop & Dance Hits!",
         "text2": "https:\/\/stream.00sa.live\/00s-alive.mp3",
         "text3": "mp3",
         "url": "https:\/\/alive.radio\/00s\/",
-        "tag": "#radio #rMusic #00"
+        "tag": "#radio #radioMusic #00"
     },
     {
         "text": "011.FM \u2013 Free Internet Radio",
         "text2": "https:\/\/listen.011fm.com\/stream01",
         "text3": "mp3",
         "url": "https:\/\/011fm.com\/",
-        "tag": "#radio #rMusic"
+        "tag": "#radio #radioMusic"
     },
     {
         "text": "101.7 The One",
         "text2": "https:\/\/blackburn-ais.leanstream.co\/CKNXFM-MP3",
         "text3": "mp3",
         "url": "https:\/\/www.1017theone.ca\/",
-        "tag": "#radio #rMusic #top40 #pop"
+        "tag": "#radio #radioMusic #top40 #pop"
     },
     {
         "text": "89.1 Max FM",
@@ -54,14 +54,14 @@ var radioJsonVar =
         "text2": "https:\/\/ais-sa3.cdnstream1.com\/2557_128.mp3",
         "text3": "mp3",
         "url": "https:\/\/wyep.org\/",
-        "tag": "#radio #rMusic #indie"
+        "tag": "#radio #radioMusic #indie"
     },
     {
         "text": "91.5 The Rebel-HD2 \u2013 Broadcasting from the Basement of UNLV",
         "text2": "https:\/\/kunv.oit.unlv.edu\/stream\/4\/",
         "text3": "mp3",
         "url": "https:\/\/therebelhd2.com\/",
-        "tag": "#radio #rMusic #college"
+        "tag": "#radio #radioMusic #college"
     },
     {
         "text": "92.5 the River | Boston's Independent Radio | WXRV",
@@ -89,7 +89,7 @@ var radioJsonVar =
         "text2": "http:\/\/s2.radio.co\/s32015a8cd\/listen",
         "text3": "mp3",
         "url": "https:\/\/www.acmeradiolive.com\/",
-        "tag": "#radio #rMusic #indie"
+        "tag": "#radio #radioMusic #indie"
     },
     {
         "text": "Actualidad 1040AM | Toda la actualidad noticiosa del Sur de Florida, Estados Unidos y el Mundo",
@@ -103,7 +103,7 @@ var radioJsonVar =
         "text2": "https:\/\/f121.rndfnk.com\/ard\/swr\/swr3\/live\/mp3\/128\/stream.mp3?aggregator=tunein&cid=01FC1X5J7PN2N3YQPZYT8YDM9M&sid=2PPT4AHmaKyZsuUc2NiKlLj3bSd&token=zivyVO8zfnpNEWHPbB_0OSKTOg1Skp-sqo2jzCskYgQ&tvf=DclqlmSQXBdmMTIxLnJuZGZuay5jb20",
         "text3": "mp3",
         "url": "https:\/\/www.swr3.de\/",
-        "tag": "#radio #rMusic #top40 #pop"
+        "tag": "#radio #radioMusic #top40 #pop"
     },
     {
         "text": "AlternativeRadio.us",
@@ -124,7 +124,7 @@ var radioJsonVar =
         "text2": "https:\/\/live.flashbackcentral.co.uk\/radio\/8000\/tunein.mp3",
         "text3": "mp3",
         "url": "https:\/\/www.anthemsradio.com\/",
-        "tag": "#radio #rMusic #90"
+        "tag": "#radio #radioMusic #90"
     },
     {
         "text": "Asculta Radio Romania Antena Satelor | Radio Antena Satelor",
@@ -159,7 +159,7 @@ var radioJsonVar =
         "text2": "http:\/\/rawlco.leanstream.co\/CHUPFM-MP3",
         "text3": "mp3",
         "url": "https:\/\/www.c977.ca\/",
-        "tag": "#radio #rMusic #90"
+        "tag": "#radio #radioMusic #90"
     },
     {
         "text": "Cadena SER: Noticias y Radio Online",
@@ -173,14 +173,14 @@ var radioJsonVar =
         "text2": "https:\/\/tuneintoradio1.com\/listen\/caya_radio\/radio.mp3",
         "text3": "mp3",
         "url": "https:\/\/www.cayaradio.com\/",
-        "tag": "#radio #rMusic #indie #90 #rock #alternative"
+        "tag": "#radio #radioMusic #indie #90 #rock #alternative"
     },
     {
         "text": "CBC.ca - watch, listen, and discover with Canada's Public Broadcaster",
         "text2": "https:\/\/playerservices.streamtheworld.com\/api\/livestream-redirect\/CBH.mp3",
         "text3": "mp3",
         "url": "https:\/\/www.cbc.ca\/",
-        "tag": "#radio #rMusic #rock #indie"
+        "tag": "#radio #radioMusic #rock #indie"
     },
     {
         "text": "\u010cesk\u00fd rozhlas \u010cesk\u00e9 Bud\u011bjovice",
@@ -201,7 +201,7 @@ var radioJsonVar =
         "text2": "https:\/\/listen-cheesyfm.sharp-stream.com\/cheesyfm.mp3",
         "text3": "mp3",
         "url": "https:\/\/cheesyfm.co.uk\/",
-        "tag": "#radio #rMusic #top40 #pop #ClassicHits"
+        "tag": "#radio #radioMusic #top40 #pop #ClassicHits"
     },
     {
         "text": "CityNews Toronto | Breaking News | Top Local Stories",
@@ -222,7 +222,7 @@ var radioJsonVar =
         "text2": "http:\/\/hemnos.cdnstream.com\/1463_128",
         "text3": "mp3",
         "url": "https:\/\/www.cleansingmusic.com\/",
-        "tag": "#radio #rMusic #00"
+        "tag": "#radio #radioMusic #00"
     },
     {
         "text": "COPE | Noticias y radio online",
@@ -236,7 +236,7 @@ var radioJsonVar =
         "text2": "https:\/\/croonerradio_lounge.ice.infomaniak.ch\/croonerradio-lounge-midfi.mp3",
         "text3": "mp3",
         "url": "https:\/\/www.croonerradio.fr\/",
-        "tag": "#radio #rMusic #ambient"
+        "tag": "#radio #radioMusic #ambient"
     },
     {
         "text": "Directo - Sin Complejos - esRadio",
@@ -292,28 +292,28 @@ var radioJsonVar =
         "text2": "http:\/\/pureplay.cdnstream1.com\/6039_128.mp3",
         "text3": "mp3",
         "url": "https:\/\/gotradio.com\/",
-        "tag": "#radio #rMusic #AlternativeRock"
+        "tag": "#radio #radioMusic #AlternativeRock"
     },
     {
         "text": "Heads FM Mangawhai 106.4 - HeadsFM",
         "text2": "http:\/\/167.114.156.116:8760\/stream",
         "text3": "mp3",
         "url": "https:\/\/www.headsfm.co.nz\/",
-        "tag": "#radio #rMusic #indie"
+        "tag": "#radio #radioMusic #indie"
     },
     {
         "text": "Home - 8 stations",
         "text2": "https:\/\/altgrunge.labgateradio.com\/",
         "text3": "mp3",
         "url": "https:\/\/labgateradio.com\/",
-        "tag": "#radio #rMusic #AlternativeRock"
+        "tag": "#radio #radioMusic #AlternativeRock"
     },
     {
         "text": "Home - Juice | Belfast | www.JuiceOnAir.com",
         "text2": "https:\/\/streaming.gnl.fm\/juice\/juice",
         "text3": "mp3",
         "url": "https:\/\/www.juiceonair.com\/",
-        "tag": "#radio #rMusic #top40 #pop"
+        "tag": "#radio #radioMusic #top40 #pop"
     },
     {
         "text": "Home - Radio Paradise",
@@ -355,28 +355,28 @@ var radioJsonVar =
         "text2": "https:\/\/0n-indie.radionetz.de\/0n-indie.mp3",
         "text3": "mp3",
         "url": "https:\/\/www.webradios.de\/",
-        "tag": "#radio #rMusic #indie"
+        "tag": "#radio #radioMusic #indie"
     },
     {
         "text": "Homepage | WFUV",
         "text2": "https:\/\/music.wfuv.org\/music-hi",
         "text3": "mp3",
         "url": "https:\/\/wfuv.org\/",
-        "tag": "#radio #rMusic #college #indie"
+        "tag": "#radio #radioMusic #college #indie"
     },
     {
         "text": "Hot 97.7",
         "text2": "https:\/\/kathy.torontocast.com:3785\/stream",
         "text3": "mp3",
         "url": "https:\/\/www.hot977fm.com\/",
-        "tag": "#radio #rMusic #top40 #pop #AdultHits"
+        "tag": "#radio #radioMusic #top40 #pop #AdultHits"
     },
     {
         "text": "idobi Network - Running interviews into the ground since 1999",
         "text2": "http:\/\/idobianthm.idobi.com\/",
         "text3": "mp3",
         "url": "https:\/\/idobi.com\/",
-        "tag": "#radio #rMusic #indie"
+        "tag": "#radio #radioMusic #indie"
     },
     {
         "text": "Jackson Hole Community Radio - KHOL 89.1 FM",
@@ -397,7 +397,7 @@ var radioJsonVar =
         "text2": "https:\/\/live.kboo.fm:8443\/high",
         "text3": "mp3",
         "url": "https:\/\/kboo.fm\/",
-        "tag": "#radio #rMusic #indie"
+        "tag": "#radio #radioMusic #indie"
     },
     {
         "text": "KCRW 89.9FM | Music, NPR News, Culture Los Angeles | KCRW",
@@ -418,7 +418,7 @@ var radioJsonVar =
         "text2": "https:\/\/edge2.audioxi.com\/KFM",
         "text3": "mp3",
         "url": "https:\/\/www.kfmradio.com\/",
-        "tag": "#radio #rMusic #90"
+        "tag": "#radio #radioMusic #90"
     },
     {
         "text": "KINK",
@@ -432,7 +432,7 @@ var radioJsonVar =
         "text2": "https:\/\/klfmorgborg.radioca.st\/;",
         "text3": "mp3",
         "url": "https:\/\/klfm.org\/",
-        "tag": "#radio #rMusic #indie"
+        "tag": "#radio #radioMusic #indie"
     },
     {
         "text": "KOSU: Your Trusted Source of News & Music From Oklahoma & NPR | KOSU",
@@ -453,14 +453,14 @@ var radioJsonVar =
         "text2": "https:\/\/playerservices.streamtheworld.com\/api\/livestream-redirect\/KRDP_JAZZ.mp3",
         "text3": "mp3",
         "url": "https:\/\/listen2krdp.com\/",
-        "tag": "#radio #rMusic #jazz"
+        "tag": "#radio #radioMusic #jazz"
     },
     {
         "text": "KSLG - New Bands, New Songs, New Sounds",
         "text2": "http:\/\/lostcoast.streamguys.us\/kslg-hi",
         "text3": "mp3",
         "url": "http:\/\/kslg.com\/",
-        "tag": "#radio #rMusic #indie"
+        "tag": "#radio #radioMusic #indie"
     },
     {
         "text": "KWSS 93.9 & 99.5 \u2013 Independent Radio",
@@ -488,35 +488,35 @@ var radioJsonVar =
         "text2": "https:\/\/streams.happyhits.co.uk\/00s",
         "text3": "mp3",
         "url": "https:\/\/www.happyhits.co.uk\/00s\/",
-        "tag": "#radio #rMusic #00"
+        "tag": "#radio #radioMusic #00"
     },
     {
         "text": "Listen to la Radio The Independent FM : The Best Indie Music. Past, Present and Future",
         "text2": "https:\/\/listen.radioking.com\/radio\/293701\/stream\/340084",
         "text3": "mp3",
         "url": "https:\/\/play.radioking.com\/radio\/the-independent-fm-1",
-        "tag": "#radio #rMusic #IndieRock"
+        "tag": "#radio #radioMusic #IndieRock"
     },
     {
         "text": "Loudspeaker One - Free Internet Radio | Loudspeaker",
         "text2": "https:\/\/streams.loudspeaker.org\/radio\/8000\/one",
         "text3": "mp3",
         "url": "https:\/\/www.loudspeaker.org\/channels\/one",
-        "tag": "#radio #rMusic #indie"
+        "tag": "#radio #radioMusic #indie"
     },
     {
         "text": "LOUTRAKI FM",
         "text2": "https:\/\/loutrakifm.radioca.st\/;",
         "text3": "mp3",
         "url": "https:\/\/loutrakifm.gr\/",
-        "tag": "#radio #rMusic #indie"
+        "tag": "#radio #radioMusic #indie"
     },
     {
         "text": "Main Page - SlamminTunes",
         "text2": "http:\/\/slammintunes.net:443\/;",
         "text3": "mp3",
         "url": "https:\/\/slammintunes.com\/",
-        "tag": "#radio #rMusic #AdultHits"
+        "tag": "#radio #radioMusic #AdultHits"
     },
     {
         "text": "MAJESTIC JUKEBOX RADIO #HIGH QUALITY SOUND",
@@ -551,7 +551,7 @@ var radioJsonVar =
         "text2": "https:\/\/listen-nation.sharp-stream.com\/nationradio00s.mp3",
         "text3": "mp3",
         "url": "https:\/\/www.nationplayer.com\/",
-        "tag": "#radio #rMusic #top40 #00"
+        "tag": "#radio #radioMusic #top40 #00"
     },
     {
         "text": "Newfoundland & Labrador - CBC News",
@@ -586,7 +586,7 @@ var radioJsonVar =
         "text2": "http:\/\/streaming04.liveboxstream.uk\/proxy\/novafm?mp=\/stream",
         "text3": "mp3",
         "url": "https:\/\/novafm.co.uk\/",
-        "tag": "#radio #rMusic #top40 #pop"
+        "tag": "#radio #radioMusic #top40 #pop"
     },
     {
         "text": "NRK Oslo og Viken \u2013 Lokale nyheter, TV og radio",
@@ -649,7 +649,7 @@ var radioJsonVar =
         "text2": "https:\/\/stream.qcindie.com\/live",
         "text3": "mp3",
         "url": "https:\/\/www.qcindie.com\/",
-        "tag": "#radio #rMusic #indie #alternative"
+        "tag": "#radio #radioMusic #indie #alternative"
     },
     {
         "text": "Radio 4 - Listen Live - BBC Sounds",
@@ -677,28 +677,28 @@ var radioJsonVar =
         "text2": "https:\/\/www.bbc.co.uk\/sounds\/play\/live:bbc_6music",
         "text3": "iframe",
         "url": "https:\/\/www.bbc.co.uk\/sounds\/play\/live:bbc_6music",
-        "tag": "#radio #rMusic #indie #dance #hiphop #electronic #world"
+        "tag": "#radio #radioMusic #indie #dance #hiphop #electronic #world"
     },
     {
         "text": "Radio BurgerFuel",
         "text2": "https:\/\/s3.radio.co\/s9909bd65f\/listen",
         "text3": "mp3",
         "url": "http:\/\/www.radioburgerfuel.com\/",
-        "tag": "#radio #rMusic #indie"
+        "tag": "#radio #radioMusic #indie"
     },
     {
         "text": "Radio Byron \u2013 The Sound of Byron Bay",
         "text2": "http:\/\/stream.radiojar.com\/s7nbn8e80p5tv",
         "text3": "mp3",
         "url": "https:\/\/radiobyron.com\/",
-        "tag": "#radio #rMusic #AlternativeRock"
+        "tag": "#radio #radioMusic #AlternativeRock"
     },
     {
         "text": "RADIO ENERGY Berlin im Livestream - der Radiosender f\u00fcr Berlin | RADIO ENERGY",
         "text2": "https:\/\/edge07.streamonkey.net\/energy-berlin\/stream\/mp3",
         "text3": "mp3",
         "url": "https:\/\/www.energy.de\/berlin",
-        "tag": "#radio #rMusic #top40 #pop #EuroHits"
+        "tag": "#radio #radioMusic #top40 #pop #EuroHits"
     },
     {
         "text": "Radio Exterior - Web oficial - RTVE.es",
@@ -740,7 +740,7 @@ var radioJsonVar =
         "text2": "https:\/\/fm.tuba.pl\/play\/9\/2\/radio-zlote-przeboje?appId=03",
         "text3": "iframe",
         "url": "https:\/\/zloteprzeboje.pl\/",
-        "tag": "#radio #rMusic #pop"
+        "tag": "#radio #radioMusic #pop"
     },
     {
         "text": "Radio | KQED Public Media",
@@ -782,21 +782,21 @@ var radioJsonVar =
         "text2": "http:\/\/s8-webradio.rockantenne.de\/alternative\/stream\/mp3",
         "text3": "mp3",
         "url": "https:\/\/www.rockantenne.de\/",
-        "tag": "#radio #rMusic #AlternativeRock"
+        "tag": "#radio #radioMusic #AlternativeRock"
     },
     {
         "text": "SLAM!",
         "text2": "https:\/\/player.slam.nl\/?stream=slam",
         "text3": "iframe",
         "url": "https:\/\/www.slam.nl\/",
-        "tag": "#radio #rMusic #top40 #pop"
+        "tag": "#radio #radioMusic #top40 #pop"
     },
     {
         "text": "SomaFM: Commercial-free, Listener-supported Radio",
         "text2": "http:\/\/ice2.somafm.com\/poptron-128-mp3",
         "text3": "mp3",
         "url": "https:\/\/somafm.com\/",
-        "tag": "#radio #rMusic #indie"
+        "tag": "#radio #radioMusic #indie"
     },
     {
         "text": "Sounds Different | FM 102\/1",
@@ -810,7 +810,7 @@ var radioJsonVar =
         "text2": "https:\/\/starfm.streamabc.net\/30-alternativerock-mp3-192-8349543",
         "text3": "mp3",
         "url": "https:\/\/berlin.starfm.de\/",
-        "tag": "#radio #rMusic #AlternativeRock"
+        "tag": "#radio #radioMusic #AlternativeRock"
     },
     {
         "text": "StarTalk Radio Show by Neil deGrasse Tyson - Science, pop culture & comedy collide on StarTalk w\/ astrophysicist & Hayden Planetarium director Neil deGrasse Tyson, comic co-hosts, celebrities & scientists. : Monday, Neil deGrasse Tyson and Dr. Paul Offit, MD, Talk COVID-19 Vaccines",
@@ -824,7 +824,7 @@ var radioJsonVar =
         "text2": "https:\/\/stream.jfkradio.es\/altxl",
         "text3": "mp3",
         "url": "https:\/\/tunein.com\/radio\/Stream-Variety-g88\/",
-        "tag": "#radio #rMusic #top40 #pop #variaty"
+        "tag": "#radio #radioMusic #top40 #pop #variaty"
     },
     {
         "text": "Sud Radio : en ligne, direct \/ podcast | actualit\u00e9s & \u00e9missions",
@@ -859,14 +859,14 @@ var radioJsonVar =
         "text2": "http:\/\/icecast.thedumpradio.com\/listen_mp3",
         "text3": "mp3",
         "url": "https:\/\/www.thedumpradio.com\/",
-        "tag": "#radio #rMusic #AlternativeRock"
+        "tag": "#radio #radioMusic #AlternativeRock"
     },
     {
         "text": "The Fox 99.9",
         "text2": "https:\/\/blackburn-ais.leanstream.co\/CFGXFM",
         "text3": "mp3",
         "url": "https:\/\/www.foxfm.com\/",
-        "tag": "#radio #rMusic #top40 #pop"
+        "tag": "#radio #radioMusic #top40 #pop"
     },
     {
         "text": "The SoCal Sound | Southern California Radio",
@@ -880,14 +880,14 @@ var radioJsonVar =
         "text2": "https:\/\/totalhits128-thehitsnetwork.radioca.st\/;",
         "text3": "mp3",
         "url": "https:\/\/totalhitsradio.com\/",
-        "tag": "#radio #rMusic #top40 #pop"
+        "tag": "#radio #radioMusic #top40 #pop"
     },
     {
         "text": "triple j",
         "text2": "http:\/\/live-radio01.mediahubaustralia.com\/2TJW\/mp3\/",
         "text3": "mp3",
         "url": "https:\/\/www.abc.net.au\/triplej",
-        "tag": "#radio #rMusic #hiphop #AlternativeRock #indie"
+        "tag": "#radio #radioMusic #hiphop #AlternativeRock #indie"
     },
     {
         "text": "Tr\u00f3jka \u2013 Program Trzeci Polskiego Radia",
@@ -922,14 +922,14 @@ var radioJsonVar =
         "text2": "https:\/\/darkitalia.radioca.st\/autodj",
         "text3": "mp3",
         "url": "https:\/\/www.darkitalia.com\/radio\/",
-        "tag": "#radio #rMusic #AlternativeRock"
+        "tag": "#radio #radioMusic #AlternativeRock"
     },
     {
         "text": "WERS 88.9FM | Discover & Rediscover | Streaming 24\/7",
         "text2": "https:\/\/playerservices.streamtheworld.com\/api\/livestream-redirect\/WERSFMAAC.aac",
         "text3": "aac",
         "url": "https:\/\/wers.org\/",
-        "tag": "#radio #rMusic #indie #world"
+        "tag": "#radio #radioMusic #indie #world"
     },
     {
         "text": "What's Hot - Retro Hit Radio",
@@ -964,7 +964,7 @@ var radioJsonVar =
         "text2": "http:\/\/wmxm.streamguys1.com\/live",
         "text3": "mp3",
         "url": "http:\/\/wmxm.org\/",
-        "tag": "#radio #rMusic #indie"
+        "tag": "#radio #radioMusic #indie"
     },
     {
         "text": "WNRN \u2013 Listener-Supported Independent Music Radio",
@@ -992,28 +992,28 @@ var radioJsonVar =
         "text2": "http:\/\/wumb.streamguys1.com\/wumb919fast",
         "text3": "mp3",
         "url": "https:\/\/wumb.org\/",
-        "tag": "#radio #rMusic #indie"
+        "tag": "#radio #radioMusic #indie"
     },
     {
         "text": "XS Manchester",
         "text2": "http:\/\/media-ice.musicradio.com\/RealXSManchesterMP3",
         "text3": "mp3",
         "url": "https:\/\/www.xsmanchester.co.uk\/",
-        "tag": "#radio #rMusic #IndieRock"
+        "tag": "#radio #radioMusic #IndieRock"
     },
     {
         "text": "Y-Not Radio",
         "text2": "https:\/\/streaming.live365.com\/a54553",
         "text3": "mp3",
         "url": "https:\/\/www.ynotradio.net\/",
-        "tag": "#radio #rMusic #indie"
+        "tag": "#radio #radioMusic #indie"
     },
     {
         "text": "Your Connection To Jazz, Blues and NPR News | KNKX Public Radio",
         "text2": "https:\/\/prod-18-232-88-129.wostreaming.net\/ppm-knkxfmaac256-ibc1",
         "text3": "mp3",
         "url": "https:\/\/www.knkx.org\/",
-        "tag": "#radio #rMusic #jazz"
+        "tag": "#radio #radioMusic #jazz"
     },
     {
         "text": "\u0413\u043e\u043b\u043e\u0432\u043d\u0430 - \u041a\u0438\u0457\u0432 FM - #\u0421\u043b\u0443\u0445\u0430\u0439\u041a\u0438\u0457\u0432",
@@ -1041,7 +1041,7 @@ var radioJsonVar =
         "text2": "http:\/\/radio.ukr.radio:8000\/ur2-mp3",
         "text3": "mp3",
         "url": "https:\/\/promin.fm\/",
-        "tag": "#radio #ua"
+        "tag": "#radio #uk"
     },
     {
         "text": "\u0421\u0443\u0441\u043f\u0456\u043b\u044c\u043d\u0435 | \u041a\u0443\u043b\u044c\u0442\u0443\u0440\u0430",

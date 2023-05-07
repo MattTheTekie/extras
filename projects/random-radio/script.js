@@ -1,8 +1,7 @@
-// v.1.1.1
+// v.1.2.0
 
 
-function randomRadio(printId, json){
-var json = radioJsonVar;
+function randomRadio(printId, jsonVar){
 
 //https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Math/random
 function getRandomInt(max) {
@@ -11,28 +10,123 @@ function getRandomInt(max) {
 
 
 
+
 var count = 0;
 var scriptDir = '';
+var printTagList = '';
+var tagListLimit = '500';
 
-//alert(json[getRandomInt(json.length)]);
-//alert(json.length);
+//alert(jsonVar[getRandomInt(jsonVar.length)]);
+//alert(jsonVar.length);
 
-var id = getRandomInt(json.length);
+var url = new URL(window.location);
 
 
-var post = `${json[id]['text']} <a target="_blank" href="${json[id]['url']}">${json[id]['url']}</a>`;
-post += `<br>play sourcce: ${json[id]['text3']} <a target="_blank" href="${json[id]['text2']}">${json[id]['text2']}</a>`;
-post += highlightText2('', '');
-var tag = highlightText2(' '+json[id]['tag'], '');
+var q = url.searchParams.get("q");
+if(q != null){
+q = q.replaceAll(/%/g, "%25");
+q = decodeURIComponent(q);
+q = q.trim();
+}
+
+
+var tag = url.searchParams.get("tag");
+if(tag != null){
+tag = tag.replaceAll(/%/g, "%25");
+tag = decodeURIComponent(tag);
+tag = tag.trim();
+}
+
+
+
+var q2 = q;
+
+if (q == null) { tag = 'radioMusic'; q2 = tag;}
+
+
+
+
+
+
+var arrListForRandom = [];
+var i = 0;
+
+// random id tag, q->array->random
+jsonVar.forEach((item, key) => {
+
+postId = '';
+postText = '';
+postText2 = '';
+postText3 = '';
+postTag = '';
+postUrl = '';
+postTime = '';
+
+if(item['id'] != null){ postId = item['id']; }
+if(item['text'] != null){ postText = item['text']; }
+if(item['text2'] != null){ postText2 = item['text2']; }
+if(item['text3'] != null){ postText3 = item['text3']; }
+if(item['tag'] != null){ postTag = item['tag']; }
+if(item['url'] != null){ postUrl = item['url']; }
+if(item['time'] != null){ postTime = item['time']; }
+
+// collect all tag
+printTagList += postTag+symbolForSplit;
+
+
+if(q2 != ''){
+//qSearch = String(q.toLowerCase()).replaceAll(/ /g, "|"); //if((qData).search(qSearch) != -1){}
+qSearch = decodeURIComponent(q2);
+qSearch = String(qSearch).toLowerCase();
+}
+qSearch = String(qSearch).toLowerCase();
+
+
+// if tag
+//if(qSearch[0] == '#'){}
+qData = String(postTag).toLowerCase();
+qData = qData.replaceAll(/,/g, ' ');
+if((qData+' ').indexOf((qSearch+' ')) >= 0){
+arrListForRandom.push(key);
+
+i++;
+total = i;
+comMessagePrint = `${q2} ${i}`;
+document.getElementsByTagName('title')[0].innerHTML = `Random Radio ${q2}`;
+}
+
+
+if(arrListForRandom.length > 0){
+getP2 = Math.floor(Math.random() * arrListForRandom.length);
+id = arrListForRandom[getP2];
+}else{
+comMessagePrint = '<span class="red">not found</span>';
+id = getRandomInt(jsonVar.length);
+comMessagePrint += '<span class=""> random id: '+id+'</span>';
+}
+
+
+
+});
+
+//var id = getRandomInt(jsonVar.length);
+
+var play = highlightText2('', '');
+var post = `<b>${jsonVar[id]['text']}</b> ${highlightText2(jsonVar[id]['url'], '')}`;
+post += `<br>play sourcce: <a target="_blank" href="${jsonVar[id]['text2']}">${jsonVar[id]['text2']}</a>`;
+var tag = highlightText2(' '+jsonVar[id]['tag'], '');
 
 document.getElementById(printId).innerHTML = `
+<div class="block op padding margin tCenter">${comMessagePrint}</div>
+
 <div class="center2">
-<div class="wrapper2">
+<div class="wrapper">
+
 
 
 <!-- post -->
-<div class="post2 bgList brand border3List" id="${json[id]['id']}">
-<span class="pre">${post}</span>
+<div class="post bgList brand border3List" id="${jsonVar[id]['id']}">
+<span class="pre">${post} ${play}</span>
 <div class="postFooter">
 <span class="postTagList">${tag}</span>
 <span class="postTime"></span>
@@ -43,7 +137,7 @@ document.getElementById(printId).innerHTML = `
 <a class="tag padding light border3 margin" onclick="reload()"  style="display: block; text-align: center;" href="#">reload</a>
 <!-- // post -->
 
-<div class="xSmall tRight block margin padding op">total: ${json.length}</div>
+<!--<div class="xSmall tRight block margin padding op">total: ${jsonVar.length}</div>-->
 
 </div>
 </div>
@@ -52,7 +146,7 @@ document.getElementById(printId).innerHTML = `
 var multiEmbedStatus = 'off';
 
 
-
+// fucntion tagList from Blog
 // from blog
 // 2
 // highlight Text2 with autoplay when pressed id (date)
@@ -140,20 +234,20 @@ embed = `<a href="${item}"><img class="border3" src="${item}" width=""></a>`
 }*/
 
 if(count == 0){
-if(json[id]['text3'] == 'm3u8') {
-play = json[id]['text2'];
+if(jsonVar[id]['text3'] == 'm3u8') {
+play = jsonVar[id]['text2'];
 embed2 = `<iframe src="https://www.hlsplayer.org/play?url=${play}" style="width: 100%; height: ${h};" scrolling="no" frameborder="no" sandbox="allow-same-origin allow-scripts allow-popups allow-forms"></iframe>player: <a href="https://www.hlsplayer.org/">www.hlsplayer.org</a>`;
 }
 
 
-if(json[id]['text3'] == 'mp3'||json[id]['text3'] == 'aac'||json[id]['text3'] == 'ogg') {
-play = json[id]['text2'];
+if(jsonVar[id]['text3'] == 'mp3'||jsonVar[id]['text3'] == 'aac'||jsonVar[id]['text3'] == 'ogg') {
+play = jsonVar[id]['text2'];
 embed2 = `<audio controls autoplay style="width:100%; opacity:0.8"><source src="${item}" type="audio/ogg"><source src="${play}" type="audio/mpeg">Your browser does not support the audio element.</audio>`;
 
 }
 
-if(json[id]['text3'] == 'iframe') {
-play = json[id]['text2'];
+if(jsonVar[id]['text3'] == 'iframe') {
+play = jsonVar[id]['text2'];
 embed2 = `<iframe width="${w}" height="340" src="${play}"></iframe>`;
 }
 /*if(item.search("tunein.com") == -1&&item.slice(0, 4) == 'http'&&item.search("http|://") != -1) {
@@ -208,5 +302,299 @@ return text+' '+embed+embed2;
 
 
 
+
+
+
+
+
+
+
+
+var hlClass = '';
+var color = 'silver';
+var size = '';
+// fu. tagList from Blog
+// other functions 
+// start tagList
+function tagList(tagList2){
+
+tagList = '';
+
+
+tagList2 = tagList2.replaceAll(/,/g, symbolForSplit);
+tagList2 = tagList2.replaceAll(/ /g, symbolForSplit);
+
+tagList2 = tagList2.split(symbolForSplit);
+
+/*
+//https://stackoverflow.com/questions/8996963/how-to-perform-case-insensitive-sorting-array-of-string-in-javascript
+tagList2.sort(function (a, b) {
+return a.toLowerCase().localeCompare(b.toLowerCase());
+});*/
+
+
+
+
+var tagAverage = 0;
+var tagTotal = 0;
+
+// https://stackoverflow.com/questions/19395257/how-to-count-duplicate-value-in-an-array-in-javascript
+// make uniq and count, object
+var tagListCount = {};
+tagList2.forEach(function (x) {
+if(x != null&&x != ''){
+tagListCount[x] = (tagListCount[x] || 0) + 1;
+}
+});
+
+
+
+
+
+
+
+// Taglist limit
+//https://stackoverflow.com/questions/1069666/sorting-object-property-by-values
+// sort object by value
+let entries = Object.entries(tagListCount);
+let tagListCountSorted = entries.sort((a, b) => a[1] - b[1]);
+tagListCountSorted.reverse();
+
+
+// Taglist limit (cut array) with sorted tag and convert to old object, sorted previos
+tagListCountLimited = {};
+tagListCountSorted.forEach(function (item, key) {
+if(key <= tagListLimit){
+tagListCountLimited[item[0]] = item[1];
+}
+});
+
+
+// sort
+// https://stackoverflow.com/questions/5467129/sort-javascript-object-by-key
+tagListCount = {};
+tagListCount = Object.keys(tagListCountLimited).sort().reduce(
+  (obj, key) => { 
+    obj[key] = tagListCountLimited[key]; 
+    return obj;
+  }, 
+  {}
+);
+// end Taglist limit
+
+
+
+
+
+
+
+/*tagAverage = (Math.min(...Object.values(tagListCount))+Math.max(...Object.values(tagListCount)))/2;
+//console.log(tagAverage);*/
+Object.values(tagListCount).forEach(function (x) {
+tagTotal = tagTotal+x;
+});
+tagAverage = tagTotal/Object.values(tagListCount).length;
+
+
+
+
+var tagSize = '';
+var tagColor = '';
+
+function fuTag(tagCount){
+//let tagPercentage = (Math.floor((tagCount*100)/tagTotal)); // from 100%, need rebuild case from 100
+let tagPercentage = (Math.floor((tagCount*100)/tagAverage)); // over 100%, used average if tag disproportion 1% and 90%
+//console.log(tagPercentage);
+
+// tag font-size and color
+switch (true) {
+
+case tagPercentage >= 500:
+tagColor = "var(--red)";
+tagSize = "200%";
+break;
+
+case tagPercentage >= 300:
+tagColor = "var(--orange)";
+tagSize = "150%";
+break;
+
+case tagPercentage >= 250:
+tagColor = "var(--yellow)";
+tagSize = "130%";
+break;
+
+case tagPercentage >= 100:
+tagColor = "var(--green)";
+tagSize = "120%";
+break;
+
+case tagPercentage >= 80:
+tagColor = "var(--blue)";
+tagSize = "110%";
+break;
+
+case tagPercentage >= 50:
+tagColor = "var(--indigo)";
+tagSize = "100%";
+break;
+
+case tagPercentage >= 30:
+tagColor = "var(--violet)";
+tagSize = "95%";
+break;
+
+default:
+tagColor = "var(--c2)";
+tagSize = "85%";
+}
+
+//console.log(tagColor);
+//return tagColor;
+}
+
+
+
+//https://stackoverflow.com/questions/8996963/how-to-perform-case-insensitive-sorting-array-of-string-in-javascript
+let sortedTags = Object.entries(tagListCount).sort(Intl.Collator().compare)
+
+let hlClassList = '';
+// https://masteringjs.io/tutorials/fundamentals/foreach-object
+sortedTags.forEach(entry => {
+const [key, value] = entry;
+
+
+//alert('test');
+
+tag = key.trim();
+tagCount = value;
+
+
+
+fuTag(tagCount);
+
+
+
+
+if(tag != ''){
+let printTag = tag.replaceAll(/#/g, "");
+let goTag = encodeURIComponent(tag);
+
+let hlClass = '';
+if(printTag[0] != undefined){
+hlClass = 'hlClass'+printTag[0].toLowerCase();
+hlClassList += printTag[0].toLowerCase();
+}
+
+if(q == tag){
+tagList += `
+
+<a class="tag light border2 ${hlClass}" href="${scriptDir}?q=${goTag}" style="background: ${tagColor}; color: var(--l4); font-size: ${tagSize} !important;">#${printTag}</a>
+
+`;
+}else{
+
+tagList += `
+
+<a class="tag light border2 ${hlClass}" href="${scriptDir}?q=${goTag}"  style="color: ${tagColor}; font-size: ${tagSize} !important;">#${printTag}</a>
+
+`;
+}
+}
+});
+
+hlClassList2 = [...new Set([...hlClassList])]; //https://stackoverflow.com/questions/9229645/remove-duplicate-values-from-js-array
+hlClassList = '';
+hlClassList2.forEach(function(item){
+let hlClass = 'hlClass'+item;
+item = item.toUpperCase();
+hlClassList += `
+<a class="tag light border2 ${hlClass}" onmouseover="hlwClassAdd('${hlClass}')" onmouseout="hlwClassRemove('${hlClass}')" href="#id${hlClass}" id="${hlClass}">${item}</a>
+`;
+});
+
+tagList += `
+<div class="block padding tCenter">
+${hlClassList}
+</div>`;
+
+
+
+return tagList;
+}
+//  end tag list
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+document.getElementById(printId).innerHTML += `
+<div class="center tCenter">
+<div class="wrapper3">
+
+<span class="op small padding margin">list of tags:</span><br>
+<div class="tagList padding">`+tagList(printTagList)+`</div>
+</div>
+</div>
+`;
+
+
+document.getElementById(printId).innerHTML +=  `
+<br>
+
+<div id="form" class="wrapperL">
+<form method="GET" style="margin-top: 0px;" action="?">
+<label id="search" class="op block tLeft xSmall">search:</label>
+<input id="input" class="padding op" type="search" style="text-align: center;" name="q"  autocomplete="off" placeholder="" value="${q}">
+
+<input class="op" style="padding: 0; min-height: 1px; height: 24px; font-size: 12px;" type="submit" value="search">
+
+</form>
+
+<br>
+<span class="xSmall op block tCenter margin padding">total: ${jsonVar.length}</span>
+</div>
+`;
+
+
+
+
+
+
+
+
+
+
+
+}
+
+
+function hlwClassAdd(name){
+let elementNumb = document.getElementsByClassName(name).length;
+let i = 0;
+while (i < elementNumb) {
+document.getElementsByClassName(name)[i].classList.add("highlight");
+i++;
+}
+}
+
+
+function hlwClassRemove(name){
+let elementNumb = document.getElementsByClassName(name).length;
+let i = 0;
+while (i < elementNumb) {
+document.getElementsByClassName(name)[i].classList.remove("highlight");
+i++;
+}
 }
 

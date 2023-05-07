@@ -209,6 +209,16 @@ com:${mode} id:${id} q:${q} p:${getP} p2:${getP2}
 `;
 }
 
+
+
+
+
+
+
+
+
+
+
 let i = 0;
 let sRelevantPoint = 0;
 jsonVar.forEach((item, key) => {
