@@ -3,7 +3,7 @@
 <head>
 
 <meta charset="UTF-8">
-<title>Day of Coding</title>
+<title>To make a post with a tag: #DayOfCoding</title>
 
 <link rel="alternate" type="application/rss+xml" title="gabc Blog RSS" href="/rss.xml">
 
@@ -62,20 +62,58 @@
 <!-- content -->
 <div class="content">
 
-<h3 class="tCenter op">Day of Coding</h3>
+
+<!--<h3 class="tCenter op">To make a post with a tag: #DayOfCoding</h3>-->
 
 <div class="center2">
 <h3 class="tCenter padding">
-What was coding today or what will be coding
+To make a post with a tag: #DayOfCoding
 </h3>
 
 
-<div class="brand tCenter">(no strict rule)<br><br>
-<a class="margin padding" target="blank" href="https://twitter.com/hashtag/DayOfCoding">#DayOfCoding</a>
-<a class="margin padding" target="blank" href="https://twitter.com/intent/tweet?text=%23DayOfCoding">Create A Tweet #DadyOfCoding</a>
+<div class="brand tCenter">
+<a class="button" target="blank" href="https://twitter.com/hashtag/DayOfCoding">#DayOfCoding</a>
+<a class="button" target="blank" href="https://twitter.com/intent/tweet?text=%23DayOfCoding">Create A Tweet #DadyOfCoding</a>
 </div>
 
+
 </div>
+
+<div class="brand tCenter block margin padding">
+<div class="op padding">others tags:</div>
+<div id="print"></div>
+</div>
+
+<script>
+var tags = `
+100DaysOfCode CSS HTML JavaScript PHP Python CodePen code coding programming WebDev WebDesign WebDevelopment Design Drawing
+`;
+tags = tags.trim();
+//https://www.w3schools.com/jsref/jsref_split.asp
+arr = tags.split(" ");
+arr.sort();
+
+//https://stackoverflow.com/questions/9229645/remove-duplicate-values-from-js-array
+arr = [...new Set(arr)];
+
+//https://www.w3schools.com/jsref/tryit.asp?filename=tryjsref_foreach
+arr.forEach(myFunction);
+
+ 
+function myFunction(item, index) {
+document.getElementById("print").innerHTML += `<a class="button" target="blank" href="https://twitter.com/hashtag/${item}">#${item}</a>`; 
+}
+
+</script>
+
+
+
+
+
+
+
+
+
 
 
 
