@@ -2913,13 +2913,6 @@ var musicJsonVar =
         "tag": "#music"
     },
     {
-        "text": "Debbie Downer \u00b7 Courtney Barnett \u00b7 Courtney Barnett \u00b7 Courtney Barnett \u00b7 Courtney Barnett \u00b7 Burke Reid \u00b7 Dan Luscombe",
-        "text2": "",
-        "text3": "",
-        "url": "https:\/\/www.youtube.com\/watch?v=6Z8n40UkjAg",
-        "tag": "#music"
-    },
-    {
         "text": "Debra \u00b7 Jockstrap",
         "text2": "",
         "text3": "",

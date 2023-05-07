@@ -240,10 +240,10 @@ var radioJsonVar =
     },
     {
         "text": "Directo - Sin Complejos - esRadio",
-        "text2": "https:\/\/esradio.libertaddigital.com\/directo.html",
-        "text3": "iframe",
+        "text2": "https:\/\/libertaddigital-radio-live1.flumotion.com\/libertaddigital\/ld-live1-low.mp3",
+        "text3": "mp3",
         "url": "https:\/\/esradio.libertaddigital.com\/",
-        "tag": "#radio #es #talk"
+        "tag": "#radio #es"
     },
     {
         "text": "Double J",
@@ -439,7 +439,7 @@ var radioJsonVar =
         "text2": "http:\/\/26303.live.streamtheworld.com\/KOSUFM_NEWS_SC",
         "text3": "mp3",
         "url": "https:\/\/www.kosu.org\/",
-        "tag": "#radio #radioMusic"
+        "tag": "#radio #en"
     },
     {
         "text": "KPTZ 91.9 FM Radio Port Townsend",
