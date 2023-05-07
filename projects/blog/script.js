@@ -1,4 +1,4 @@
-// v.1.15.0
+// v.1.15.1
 
 // inspired by Twitter, Fediverse
 // not for large Json files !
@@ -1283,7 +1283,11 @@ play = item.split('/');
 play = play[play.length - 2];
 play = play.split('-');
 play = play[play.length - 1];
-embed = `<!--<iframe src="https://tunein.com/embed/player/${play}/?autoplay=true&background=${confThemeEmbed}" style="height:100px;" scrolling="no" frameborder="no" sandbox="allow-same-origin allow-scripts allow-popups allow-forms"></iframe>--><iframe width="${w}" height="300" src="${item}"></iframe>`;
+if(confDevice == 'mobile'){
+embed = `<iframe src="https://tunein.com/embed/player/${play}/?autoplay=true&background=${confThemeEmbed}" style="height:100px;" scrolling="no" frameborder="no" sandbox="allow-same-origin allow-scripts allow-popups allow-forms"></iframe>`;
+}else{
+embed = `<iframe width="${w}" height="300" src="${item}"></iframe>`;
+}
 break;
 
 case "codepen.io":
@@ -1840,13 +1844,11 @@ return text;
 }
 
 
+// var for if without main.js
 
 //https://stackoverflow.com/questions/5409641/set-a-variable-if-undefined-in-javascript
 // if main index js not exit
-if (typeof lang === 'undefined') {
-var lang = 'en';
-}
-
+if (typeof lang === 'undefined') { var lang = 'en'; }
 if (typeof confThemeEmbed === 'undefined') {
 if (window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches) {
 var confThemeEmbed= 'dark';
@@ -1854,13 +1856,18 @@ var confThemeEmbed= 'dark';
 var confThemeEmbed= 'light2';
 }
 }
-
 if (typeof fuWorker === 'undefined') {
 function fuWorker(){ }
 }
-
-
-
+if (typeof confDevice === 'undefined') {
+var confDevice = '';
+/*if(confDataCollection != 'on'){
+confDevice = '(disabled, privacy)';
+}else{}*/
+if(navigator.userAgent.search("iPhone|Android|Opera Mini|Mobile|Lumia|Phone") != -1){ confDevice = 'mobile';  }
+if(navigator.userAgent.search("PlayStation|Xbox|TV|Roku|SmartTV|BRAVIA") != -1){ confDevice = 'tv';  }
+if(confDevice == ''){ confDevice = 'pc'; }
+}
 
 
 
