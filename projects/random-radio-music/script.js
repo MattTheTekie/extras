@@ -1,4 +1,4 @@
-// v.1.1.0
+// v.1.1.1
 
 
 function randomRadio(printId, musJsonVar){
@@ -107,7 +107,11 @@ play = item.split('/');
 play = play[play.length - 2];
 play = play.split('-');
 play = play[play.length - 1];
-embed = `<!--<iframe src="https://tunein.com/embed/player/${play}/?autoplay=true&background=${confThemeEmbed}" style="height:100px;" scrolling="no" frameborder="no" sandbox="allow-same-origin allow-scripts allow-popups allow-forms"></iframe>--><iframe width="${w}" height="300" src="${item}"></iframe>`;
+if(confDevice == 'mobile'){
+embed = `<iframe src="https://tunein.com/embed/player/${play}/?autoplay=true&background=${confThemeEmbed}" style="height:100px;" scrolling="no" frameborder="no" sandbox="allow-same-origin allow-scripts allow-popups allow-forms"></iframe>`;
+}else{
+embed = `<iframe width="${w}" height="300" src="${item}"></iframe>`;
+}
 break;
 
 //default:
