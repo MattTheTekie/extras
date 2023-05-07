@@ -55,3 +55,18 @@ console.log('onscrollend');
 
 //fuWorker('on');
 */
+
+
+var a = null;
+document.getElementById('test').innerHTML = a;
+
+
+
+
+
+
+
+
+
+
+
