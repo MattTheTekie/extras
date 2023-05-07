@@ -499,15 +499,7 @@ print += `
 `;
 }
 
-print += `
-<div class="center tCenter">
-<div class="wrapper3">
-
-<span class="op small padding margin">list of tags:</span><br>
-<div class="tagList padding">`+tagList(printTagList)+`</div>
-</div>
-</div>
-`;
+print += tagList(printTagList);
 
 // search forom
 
@@ -543,14 +535,12 @@ print += `
 // echo print all
 document.getElementById(printId).innerHTML += print;
 
-document.getElementById('comMsg').innerHTML += `<div class="wrapper op tCenter padding ${postClass}">${comMessagePrint}</div>`;
-
-//if(q != null){ document.getElementById("input").value = q; }
-
-
-
+if(comMessagePrint != ''){
+document.getElementById('comMsg').innerHTML += `<div class="wrapper op tCenter padding">${comMessagePrint}</div>`;
 }
 
+//if(q != null){ document.getElementById("input").value = q; }
+}
 
 main(q, id);
 
@@ -759,10 +749,23 @@ hlClassList += `
 `;
 });
 
-tagList += `
-<div class="block padding tCenter">
+tagList = `
+
+<div class="center tCenter">
+<div class="wrapper3">
+
+<span class="op small padding margin">list of tags:</span><br>
+<div class="tagList padding">`+tagList+`</div>
+
+<div class="block padding tCenter" styel="max-width: 100% !important">
 ${hlClassList}
-</div>`;
+</div>
+
+</div>
+</div>
+
+
+`;
 
 
 return tagList;

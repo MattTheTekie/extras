@@ -1,4 +1,4 @@
-/* v.3.3.1 */
+/* v.3.3.2 */
 
 var symbolForSplit = 'pwxortuzqu';
 // conf
@@ -300,12 +300,13 @@ document.cookie = "theme=light; SameSite=None; Secure; path=/";
 
 setTheme(theme);
 
+/* // disabled for if not theme
 window.addEventListener('storage', () => {
 if(theme != localStorage.getItem('theme')){
 setTheme(localStorage.getItem('theme')); //alert('not');
 }
 });
-
+*/
 
 
 

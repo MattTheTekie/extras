@@ -1,4 +1,4 @@
-/* v.12.19.13 */
+/* v.12.19.15 */
 
 * {  color-scheme: light dark; } /* view-source:about:blank */ 
 
@@ -380,7 +380,7 @@ td { background-color: var(--l2); }
 
 /* other */
 .padding { padding: 9px !important; }
-.block { display: block !important; width: 100%; max-width: 100%; box-sizing: border-box; }
+.block { display: block !important; box-sizing: border-box; }
 .zero { margin: 0; padding: 0; }
 .margin, .margin a { margin: 1px !important; }
 .tLeft { text-align: left; }

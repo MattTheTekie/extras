@@ -152,7 +152,7 @@ var radioJsonVar =
         "text2": "https:\/\/prod-54-211-226-228.wostreaming.net\/wncpr-wcqshd2aac128-ibc4",
         "text3": "#mp3",
         "url": "https:\/\/www.bpr.org\/",
-        "tag": "#radio #en #talk #US"
+        "tag": "#radio #en"
     },
     {
         "text": "C97.7 - 90s and NOW",
