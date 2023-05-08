@@ -2829,10 +2829,52 @@ var musicJsonVar =
         "tag": "#music"
     },
     {
+        "text": "Daisy The Great - Cry In The Mirror (Official Music Video) - YouTube",
+        "text2": "",
+        "text3": "",
+        "url": "https:\/\/www.youtube.com\/watch?v=XThGWlXEreg",
+        "tag": "#music"
+    },
+    {
+        "text": "Daisy the Great - Famous (Official Music Video) - YouTube",
+        "text2": "",
+        "text3": "",
+        "url": "https:\/\/www.youtube.com\/watch?v=TnpLJ3t06zc",
+        "tag": "#music"
+    },
+    {
+        "text": "Daisy The Great - Glitter (Official Audio) - YouTube",
+        "text2": "",
+        "text3": "",
+        "url": "https:\/\/www.youtube.com\/watch?v=nMU4oAyLBgo",
+        "tag": "#music"
+    },
+    {
+        "text": "Daisy the Great - I'm Fine (Official Music Video) - YouTube",
+        "text2": "",
+        "text3": "",
+        "url": "https:\/\/www.youtube.com\/watch?v=dTx37MV0Nk8",
+        "tag": "#music"
+    },
+    {
         "text": "Daisy The Great x AJR - Record Player (Animated Video) - YouTube",
         "text2": "",
         "text3": "",
         "url": "https:\/\/www.youtube.com\/watch?v=oyuIHyOBFsU",
+        "tag": "#music"
+    },
+    {
+        "text": "Daisy The Great x AJR - Record Player (Official Music Video) - YouTube",
+        "text2": "",
+        "text3": "",
+        "url": "https:\/\/www.youtube.com\/watch?v=3x2xtPV9oxQ",
+        "tag": "#music"
+    },
+    {
+        "text": "Daisy the Great x Sipper - LaLa (Official Music Video) - YouTube",
+        "text2": "",
+        "text3": "",
+        "url": "https:\/\/www.youtube.com\/watch?v=pe2J_exVRaQ",
         "tag": "#music"
     },
     {
