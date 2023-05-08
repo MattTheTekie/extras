@@ -1,4 +1,4 @@
-// v.1.2.1
+// v.1.2.2
 
 
 function randomRadio(printId, jsonVar){
@@ -90,7 +90,7 @@ arrListForRandom.push(key);
 
 i++;
 total = i;
-comMessagePrint = `${q2} ${i}`;
+comMessagePrint = `<h3 class="tCenter"><span class="op">Random Radio</span><br><br>${q2} ${i}</h3>`;
 document.getElementsByTagName('title')[0].innerHTML = `Random Radio ${q2}`;
 }
 

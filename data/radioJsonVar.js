@@ -817,7 +817,7 @@ var radioJsonVar =
         "text2": "https:\/\/t1.streamguys1.com\/StarTalkRadio",
         "text3": "mp3",
         "url": "https:\/\/startalkmedia.com\/",
-        "tag": "#radio #en #US #science"
+        "tag": "#radio #en #science"
     },
     {
         "text": "Stream Variety | Free Internet Radio | TuneIn",
