@@ -34,13 +34,13 @@ echo <<<e
 
 <form  style="margin-top: 3px;" method="GET" action="index.php" autocomplete="off">
 
-<label class="xxSmall op" for="input2">q:</label>
+<label class="xSmall op" for="input2">q:</label>
 <input id="input2" class="padding" type="search" name="q" autofocus="" placeholder="" list="hint2" autocomplete="off" value="$q" onfocus="this.value = this.value;">
 
-<label class="xxSmall op" for="text">text:</label>
+<label class="xSmall op" for="text">text:</label>
 <textarea id="text" name="text" rows="4" cols="50">$text</textarea> 
 
-<input class="xxSamll" style="padding: 0; min-height: 1px; height: 24px;" type="submit">
+<input class="xxSmall" style="padding: 0; min-height: 1px; height: 24px;" type="submit">
 
 
 </form>
