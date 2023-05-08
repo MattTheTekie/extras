@@ -431,6 +431,7 @@ button { cursor: pointer; }
 form { margin: 0 auto; padding: 0; width: 100%; }
 /*br, hr { clear: both !important; }*/
 form, iframe, video, audio, img, hr, table{ max-width:100%; }
+img { height: auto; }
 
 
 input, textarea { display: block; }
