@@ -709,7 +709,7 @@ var radioJsonVar =
     },
     {
         "text": "Radio Madrid",
-        "text2": "https:\/\/21273.live.streamtheworld.com\/SER_MADRID.mp3",
+        "text2": "https:\/\/playerservices.streamtheworld.com\/api\/livestream-redirect\/SER_MADRID.mp3",
         "text3": "mp3",
         "url": "https:\/\/cadenaser.com\/radio-madrid\/",
         "tag": "#radio #es"
