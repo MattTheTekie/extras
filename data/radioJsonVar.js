@@ -506,7 +506,7 @@ var radioJsonVar =
     },
     {
         "text": "LOUTRAKI FM",
-        "text2": "https:\/\/loutrakifm.radioca.st\/;",
+        "text2": "https:\/\/sp.19clouds.net\/8008\/stream",
         "text3": "mp3",
         "url": "https:\/\/loutrakifm.gr\/",
         "tag": "#radio #radioMusic #indie"
