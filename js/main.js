@@ -1,4 +1,4 @@
-/* v.3.3.2 */
+/* v.3.3.4 */
 
 var symbolForSplit = 'pwxortuzqu';
 // conf
@@ -30,6 +30,9 @@ mainPrintMsg('footer', `
 
 <span><a href="/">index</a></span>
 
+<asdf id="fScript"></asdf>
+<asdf id="fStyle"></asdf>
+
 <span id="fTheme"><a href="/theme.${confExt}">Themes</a></span>
 <span id="fApp"><a href="/app.${confExt}">app: status</a></span>
 <span id="fAds"><a href="/ads.${confExt}">ads: ${localStorage.getItem('confAdsStatus')}</a></span>
@@ -46,6 +49,22 @@ mainPrintMsg('footer', `
 </div>
 
 `);
+
+
+if((window.location.href).indexOf(('/projects/')) >= 0||(window.location.href).indexOf(('/mini-projects/')) >= 0){
+fetch('script.js').then(function(response) {
+//console.log(response);
+if (response.status != '404') {
+mainPrintMsg('fScript', `<span><a class="green" href="script.js">script.js</a></span>`);
+}
+});
+
+fetch('style.css').then(function(response) {
+if (response.status != '404') {  mainPrintMsg('fStyle', `<span><a class="orange" href="style.css">style.css</a></span>`);
+}
+});
+}
+
 
 //mainPrintMsg('fCode', `<span>`+window.location.href+`</span>`); 
 
