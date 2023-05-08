@@ -70,10 +70,9 @@
 To make a post with a tag: #DayOfCoding
 </h3>
 
-
 <div class="brand tCenter">
-<a class="button" href="https://twitter.com/hashtag/DayOfCoding">#DayOfCoding</a>
-<a class="button" href="https://twitter.com/intent/tweet?text=%23DayOfCoding">Create A Tweet #DadyOfCoding</a>
+<a class="button border light" href="https://twitter.com/hashtag/DayOfCoding">#DayOfCoding</a>
+<a class="button border light" href="https://twitter.com/intent/tweet?text=%23DayOfCoding">Create A Tweet #DadyOfCoding</a>
 </div>
 
 
@@ -93,26 +92,71 @@ var tags = `
 tags = tags.trim();
 //https://www.w3schools.com/jsref/jsref_split.asp
 arr = tags.split(" ");
-arr.sort();
+//https://stackoverflow.com/questions/8996963/how-to-perform-case-insensitive-sorting-array-of-string-in-javascript
+arr.sort(function (a, b) {
+    return a.toLowerCase().localeCompare(b.toLowerCase());
+});
 
 //https://stackoverflow.com/questions/9229645/remove-duplicate-values-from-js-array
 arr = [...new Set(arr)];
 
+var hlClassList = '';
+var hlClass = '';
+
 //https://www.w3schools.com/jsref/tryit.asp?filename=tryjsref_foreach
 arr.forEach(myFunction);
 
- 
+
+
 function myFunction(item, index) {
-document.getElementById("print").innerHTML += `<a class="button" href="https://twitter.com/hashtag/${item}">#${item}</a>`; 
+if(item[0] != undefined){
+hlClass = ' hlClass'+item[0].toLowerCase();
+hlClassList += item[0].toLowerCase();
+
+document.getElementById("print").innerHTML += `<a class="border light button ${hlClass}" href="https://twitter.com/hashtag/${item}">#${item}</a>`;
+}
 }
 
+hlClassList2 = [...new Set([...hlClassList])]; //https://stackoverflow.com/questions/9229645/remove-duplicate-values-from-js-array
+hlClassList = ``;
+hlClassList2.forEach(function(item){
+let hlClass = `hlClass`+item;
+item = item.toUpperCase();
+
+hlClassList += `
+<a class="tag light border4 ${hlClass}" onmouseover="hlwClassAdd('${hlClass}')" onmouseout="hlwClassRemove('${hlClass}')" href="#id${hlClass}" id="${hlClass}">${item}</a>
+`;
+});
+
+document.getElementById("print").innerHTML += `
+<div class="block padding tCenter" styel="max-width: 100% !important">
+${hlClassList}
+</div>
+`;
+
+
+function hlwClassAdd(name){
+let elementNumb = document.getElementsByClassName(name).length;
+let i = 0;
+while (i < elementNumb) {
+document.getElementsByClassName(name)[i].classList.add("highlight");
+i++;
+}
+}
+
+
+function hlwClassRemove(name){
+let elementNumb = document.getElementsByClassName(name).length;
+let i = 0;
+while (i < elementNumb) {
+document.getElementsByClassName(name)[i].classList.remove("highlight");
+i++;
+}
+}
+
+
+
 </script>
-
-
-
-
-
-
 
 
 
