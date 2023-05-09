@@ -1,6 +1,15 @@
 var blogJsonVar = 
 [
     {
+        "id": "75",
+        "text": "Free ebooks on JavaScript:\r\n\r\n1. \"Design, rendering & performance patterns\"\r\nhttp:\/\/patterns.dev\r\n\r\n2. \"Eloquent JavaScript\"\r\nhttp:\/\/eloquentjavascript.net\r\n\r\n3. \"YDKJS\"\r\nhttp:\/\/github.com\/getify\/You-Dont-Know-JS\/tree\/1st-ed\r\n\r\n4. \"Speaking JavaScript: An In-Depth Guide for Programmers\"\r\nhttp:\/\/exploringjs.com\/es5",
+        "text2": "",
+        "text3": "",
+        "url": "https:\/\/twitter.com\/denicmarko\/status\/1655530701737918465",
+        "tag": "#book",
+        "time": 1683600801
+    },
+    {
         "id": "73",
         "text": "Garbage - Cherry Lips (Go Baby Go!) (Official Video) - YouTube",
         "text2": "",
