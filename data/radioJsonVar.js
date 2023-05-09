@@ -653,29 +653,22 @@ var radioJsonVar =
     },
     {
         "text": "Radio 4 - Listen Live - BBC Sounds",
-        "text2": "https:\/\/www.bbc.co.uk\/sounds\/play\/live:bbc_radio_fourfm",
-        "text3": "iframe",
+        "text2": "http:\/\/stream.live.vc.bbcmedia.co.uk\/bbc_radio_fourfm",
+        "text3": "mp3",
         "url": "https:\/\/www.bbc.co.uk\/sounds\/play\/live:bbc_radio_fourfm",
         "tag": "#radio #en"
     },
     {
         "text": "Radio 4 Extra - Listen Live - BBC Sounds",
-        "text2": "https:\/\/www.bbc.co.uk\/sounds\/play\/live:bbc_radio_four_extra",
-        "text3": "iframe",
+        "text2": "http:\/\/stream.live.vc.bbcmedia.co.uk\/bbc_radio_four_extra",
+        "text3": "mp3",
         "url": "https:\/\/www.bbc.co.uk\/sounds\/play\/live:bbc_radio_four_extra",
         "tag": "#radio #en"
     },
     {
-        "text": "Radio 5 Live - Listen Live - BBC Sounds",
-        "text2": "https:\/\/www.bbc.co.uk\/sounds\/play\/live:bbc_radio_five_live",
-        "text3": "iframe",
-        "url": "https:\/\/www.bbc.co.uk\/sounds\/play\/live:bbc_radio_five_live",
-        "tag": "#radio #sport"
-    },
-    {
         "text": "Radio 6 Music - Listen Live - BBC Sounds",
-        "text2": "https:\/\/www.bbc.co.uk\/sounds\/play\/live:bbc_6music",
-        "text3": "iframe",
+        "text2": "http:\/\/stream.live.vc.bbcmedia.co.uk\/bbc_6music",
+        "text3": "mp3",
         "url": "https:\/\/www.bbc.co.uk\/sounds\/play\/live:bbc_6music",
         "tag": "#radio #radioMusic #indie #dance #hiphop #electronic #world"
     },
@@ -982,8 +975,8 @@ var radioJsonVar =
     },
     {
         "text": "World Service - Listen Live - BBC Sounds",
-        "text2": "https:\/\/www.bbc.co.uk\/sounds\/play\/live:bbc_world_service",
-        "text3": "iframe",
+        "text2": "http:\/\/stream.live.vc.bbcmedia.co.uk\/bbc_world_service",
+        "text3": "mp3",
         "url": "https:\/\/www.bbc.co.uk\/sounds\/play\/live:bbc_world_service",
         "tag": "#radio #en"
     },
