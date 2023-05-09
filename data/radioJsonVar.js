@@ -745,7 +745,7 @@ var radioJsonVar =
     {
         "text": "Radio | KQED Public Media",
         "text2": "https:\/\/hls.kqed.org\/",
-        "text3": "m3u8",
+        "text3": "mp3",
         "url": "https:\/\/www.kqed.org\/radio\/",
         "tag": "#radio #en"
     },
