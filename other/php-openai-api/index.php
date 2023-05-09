@@ -9,13 +9,13 @@ $dirname = $dirname[count(explode("/", getcwd()))-1];
 $d = $_SERVER["DOCUMENT_ROOT"].'/';
 }
 
-$q = 'Hello';
+$q = 'Hello, What is ChatGPT?';
 $text = '';
 
-if(isset($_GET['q'])){ $q = $_GET['q']; }
-if(isset($_POST['q'])){ $q = $_POST['q']; }
-if(isset($_GET['text'])){ $q .= ' '.$_GET['text']; $text = $_GET['text']; }
-if(isset($_POST['text'])){ $q .= ' '.$_POST['text']; $text = $_POST['text']; }
+if(isset($_GET['q'])&&!empty($_GET['q'])){ $q = $_GET['q']; }
+if(isset($_POST['q'])&&!empty($_GET['q'])){ $q = $_POST['q']; }
+if(isset($_GET['text'])&&!empty($_GET['q'])){ $q .= ' '.$_GET['text']; $text = $_GET['text']; }
+if(isset($_POST['text'])&&!empty($_GET['q'])){ $q .= ' '.$_POST['text']; $text = $_POST['text']; }
 
 include_once $d.'top.php';
 

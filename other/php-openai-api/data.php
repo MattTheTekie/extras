@@ -2,10 +2,10 @@
 
 
 
-if(empty($q)){ $q = 'Hello'; }
+$q = 'Hello, What is ChatGPT?';
+if(isset($_GET['q'])&&!empty($_GET['q'])){ $q = $_GET['q']; }
+if(isset($_POST['q'])&&!empty($_GET['q'])){ $q = $_POST['q']; }
 
-if(isset($_GET['q'])){ $q = $_GET['q']; }
-if(isset($_POST['q'])){ $q = $_POST['q']; }
 
 
 
