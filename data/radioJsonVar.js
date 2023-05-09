@@ -1017,7 +1017,7 @@ var radioJsonVar =
     },
     {
         "text": "\u0413\u043e\u043b\u043e\u0432\u043d\u0430 | \u0423\u043a\u0440\u0430\u0457\u043d\u0441\u044c\u043a\u0435 \u0440\u0430\u0434\u0456\u043e",
-        "text2": "http:\/\/radio.ukr.radio:8000\/ur1-mp3",
+        "text2": "https:\/\/radio.nrcu.gov.ua\/ur1-mp3",
         "text3": "mp3",
         "url": "https:\/\/ukr.radio\/",
         "tag": "#radio #uk"
@@ -1031,23 +1031,16 @@ var radioJsonVar =
     },
     {
         "text": "\u0420\u0430\u0434\u0456\u043e \u041f\u0440\u043e\u043c\u0456\u043d\u044c",
-        "text2": "http:\/\/radio.ukr.radio:8000\/ur2-mp3",
+        "text2": "https:\/\/radio.ukr.radio\/ur2-mp3",
         "text3": "mp3",
         "url": "https:\/\/promin.fm\/",
         "tag": "#radio #uk"
     },
     {
         "text": "\u0421\u0443\u0441\u043f\u0456\u043b\u044c\u043d\u0435 | \u041a\u0443\u043b\u044c\u0442\u0443\u0440\u0430",
-        "text2": "http:\/\/radio.ukr.radio:8000\/ur3-mp3",
+        "text2": "https:\/\/radio.nrcu.gov.ua\/ur3-mp3",
         "text3": "mp3",
         "url": "https:\/\/suspilne.media\/culture\/",
-        "tag": "#radio #uk"
-    },
-    {
-        "text": "\u0423\u043a\u0440\u0430\u0457\u043d\u0441\u044c\u043a\u0435 \u0440\u0430\u0434\u0456\u043e. \u0420\u0456\u0432\u043d\u0435 | \u0423\u043a\u0440\u0430\u0457\u043d\u0441\u044c\u043a\u0435 \u0440\u0430\u0434\u0456\u043e",
-        "text2": "http:\/\/radio.nrcu.gov.ua:8000\/ur1-rv-mp3",
-        "text3": "mp3",
-        "url": "http:\/\/nrcu.gov.ua\/radio-rv",
         "tag": "#radio #uk"
     }
 ]
