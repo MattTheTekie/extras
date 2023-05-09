@@ -23,8 +23,12 @@ echo <<<e
 <div class="center2">
 <div class="wrapperL">
 
+<h3 class="op tCenter">OpenAI API</h3>
+
+
 <div class="pre" style="padding: 20px 0;">
-$q<hr>
+<span class="op">prompt:</span><br>$q<hr>
+<span class="op">answer:</span><br>
 e;
 include_once "data.php";
 echo <<<e
