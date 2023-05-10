@@ -1,9 +1,9 @@
-/* v.1.0.4 */
+/* v.1.0.5 */
 
-#result { text-align: center; font-size: 2rem;  font-weight: bold; }
+#result { text-align: center; font-size: 1.5rem;  font-weight: bold; }
 
 @media(max-width: 385px) {
-#result { font-size: 2rem; }
+#result { font-size: 1rem; }
 }
 @media(max-width: 254px) {
 #result { font-size: 1rem; }
@@ -23,4 +23,4 @@ min-width: 2vw;
 min-height: 2vw;
 }
 
-.gridColumn { margin: 5px; }
+.gridColumn { margin: 3px; }

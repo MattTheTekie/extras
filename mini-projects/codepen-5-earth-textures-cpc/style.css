@@ -12,7 +12,7 @@ text-align: center;
 }
 
 
-.orange{
+.orange33{
 background-color: #FFFFC7;
 background-image:
 radial-gradient(
@@ -30,7 +30,7 @@ border: 0.5vw solid #FF7D00;
 
 }
 
-.orange, .leaf, .leaf2, .leaf3{
+.orange33, .leaf, .leaf2, .leaf3{
 position: absolute;
 left: 35vw;
 top: 12vw;

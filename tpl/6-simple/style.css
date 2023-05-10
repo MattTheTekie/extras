@@ -76,6 +76,7 @@ border-bottom: 2px solid grey;
   color:#1F1E1E !important;
 }
 
-.logo { width: 65px; color:#333232;  }
+.logo { width: 65px; height: auto; color:#333232;  }
+.logo:hover { border: none; }
 
 
