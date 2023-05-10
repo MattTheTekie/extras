@@ -44,14 +44,14 @@ nav a:last-child{ margin: 0; }
 
 
 /* colors */
-body{background: #f4f0e8; color: #464646}
+body{background: #FFFEF7; color: #464646}
 a{ color: #0BA2BD; }
 a:hover{ color: #12B7D5; }
 h1,h2,h3{color:#3e3e3e}
 
 header {
-background: #eee8db;
-border-bottom: 2px solid #E6E0D4;
+background: #FAF9F5;
+border-bottom: 2px solid whitesmoke;
 }
 footer a, footer{color:#7F7F7F }
 
@@ -60,7 +60,7 @@ footer a, footer{color:#7F7F7F }
 
 nav a {
 	color: #464646;
-	border-bottom: 2px solid #eee8db;
+	border-bottom: 2px;
 	}
 
 nav a:hover{
