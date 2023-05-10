@@ -183,6 +183,13 @@ var quoteJsonVar =
         "tag": "#quote"
     },
     {
+        "text": "Never get so busy making a living that you forget to make a life. Dolly Parton",
+        "text2": "",
+        "text3": "",
+        "url": "https:\/\/twitter.com\/coderfrankfurt\/status\/1656191067316801536",
+        "tag": "#quote"
+    },
+    {
         "text": "One, remember to look up at the stars and not down at your feet. Two, never give up work. Work gives you meaning and purpose and life is empty without it. Three, if you are lucky enough to find love, remember it is there and don't throw it away. Stephen Hawking",
         "text2": "",
         "text3": "",
