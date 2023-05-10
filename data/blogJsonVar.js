@@ -1,6 +1,15 @@
 var blogJsonVar = 
 [
     {
+        "id": "76",
+        "text": "SPACE.com on Twitter: \"The 1st photo of Earth from Europe's powerful new satellite is amazing https:\/\/t.co\/S8TshI0zR4 https:\/\/t.co\/utfuQQj0op\" \/ Twitter",
+        "text2": "",
+        "text3": "",
+        "url": "https:\/\/twitter.com\/SPACEdotcom\/status\/1655876075769954304",
+        "tag": "#space",
+        "time": 1683677424
+    },
+    {
         "id": "75",
         "text": "Free ebooks on JavaScript:\r\n\r\n1. \"Design, rendering & performance patterns\"\r\nhttp:\/\/patterns.dev\r\n\r\n2. \"Eloquent JavaScript\"\r\nhttp:\/\/eloquentjavascript.net\r\n\r\n3. \"YDKJS\"\r\nhttp:\/\/github.com\/getify\/You-Dont-Know-JS\/tree\/1st-ed\r\n\r\n4. \"Speaking JavaScript: An In-Depth Guide for Programmers\"\r\nhttp:\/\/exploringjs.com\/es5",
         "text2": "",

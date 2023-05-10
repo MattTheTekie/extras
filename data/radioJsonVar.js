@@ -652,6 +652,13 @@ var radioJsonVar =
         "tag": "#radio #radioMusic #indie #alternative"
     },
     {
+        "text": "Radio 1 - Listen Live - BBC Sounds",
+        "text2": "http:\/\/stream.live.vc.bbcmedia.co.uk\/bbc_radio_one",
+        "text3": "mp3",
+        "url": "https:\/\/www.bbc.co.uk\/sounds\/play\/live:bbc_radio_one",
+        "tag": "#radio #rMusic #pop"
+    },
+    {
         "text": "Radio 4 - Listen Live - BBC Sounds",
         "text2": "http:\/\/stream.live.vc.bbcmedia.co.uk\/bbc_radio_fourfm",
         "text3": "mp3",
@@ -663,6 +670,13 @@ var radioJsonVar =
         "text2": "http:\/\/stream.live.vc.bbcmedia.co.uk\/bbc_radio_four_extra",
         "text3": "mp3",
         "url": "https:\/\/www.bbc.co.uk\/sounds\/play\/live:bbc_radio_four_extra",
+        "tag": "#radio #en"
+    },
+    {
+        "text": "Radio 5 Live - Listen Live - BBC Sounds",
+        "text2": "https:\/\/stream.live.vc.bbcmedia.co.uk\/bbc_radio_five_live_online_nonuk",
+        "text3": "mp3",
+        "url": "https:\/\/www.bbc.co.uk\/sounds\/play\/live:bbc_radio_five_live",
         "tag": "#radio #en"
     },
     {
