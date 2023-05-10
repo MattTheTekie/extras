@@ -66,6 +66,7 @@ a { color: var(--a1); }
 a:hover { color: var(--a2); }
 
 .active { color: var(--c2); }
+.imgLeft { float: left; padding: 15px; padding-left: 0; padding-top: 0; }
 
-
+pre { white-space: pre-wrap; word-wrap: break-word; line-height: normal; }
 

@@ -49,15 +49,15 @@ adsURL = ads[random]['url'];	if(adsURL == null){ adsURL = ''; }
 // privacy
 if(adsText.search("src=") != -1&&confDataCollection != 'on'){ adsText = ''; }
 if(adsText.search("src=") != -1){
-adsPrint = '<div class="adsHeader"><a href="/ads.'+confExt+'">ads, links</a></div><div class="adsBody"><br />'+adsText+' <br /><a target="blank" href="'+adsURL+'">'+adsURL+'</a></div>';
+adsPrint = '<div class="adsHeader"><a class="brand" href="/ads.'+confExt+'">ads, links</a></div><div class="adsBody"><br />'+adsText+' <br /><a class="brand" target="blank" href="'+adsURL+'">'+adsURL+'</a></div>';
 }else{
-adsPrint = '<div class="adsHeader"><a href="/ads.'+confExt+'">ads, links</a></div><div class="adsBody"><br />'+adsText+' <a target="blank" href="'+adsURL+'">'+adsURL+'</a></div>';
+adsPrint = '<div class="adsHeader"><a class="brand" href="/ads.'+confExt+'">ads, links</a></div><div class="adsBody"><br />'+adsText+' <a class="brand" target="blank" href="'+adsURL+'">'+adsURL+'</a></div>';
 }
 
 
 // print ads aaaaaaaaaaaaaaaaaaaaaaaaaaa end
 if(adsText != ''&&adsText.search("src=") == -1){
-document.getElementById(idAds).innerHTML = '<div class="center"><div class="post brand light border3 ads" style="text-align: left;">'+adsPrint+'</div></div>';
+document.getElementById(idAds).innerHTML = '<div class="center"><div class="post light border3 ads" style="text-align: left;">'+adsPrint+'</div></div>';
 }else if(adsText != ''){
 document.getElementById(idAds).innerHTML = '<div class="center"><div class="light border3 ads" style="text-align: left; display: inline-block; padding: 7px;  max-width: 100%;">'+adsPrint+'</div></div>';
 }
@@ -74,11 +74,11 @@ if(ads[index]['text'].search("src=") != -1&&confDataCollection != 'on'){
 ads[index]['text'] = `<span class="op" title=""><a class="brand" href="/privacy.${confExt}">hidden (privacy), need allow cookie</a></span>`;
 }
 
-adsPrint  += '<div class="post2 brand  border4List">'+ads[index]['text']+' <a target="blank" href="'+ads[index]['url']+'">'+ads[index]['url']+'</a></div>';
+adsPrint  += '<div class="post2 border4List">'+ads[index]['text']+' <a class="brand" target="blank" href="'+ads[index]['url']+'">'+ads[index]['url']+'</a></div>';
  });
 
 
-/*adsPrint  += `<br><br><div class="post2 brand  border4List"><a  target="blank" href="/links-list.${confExt}"><span class="green">Links List (add your link!) </span><span class="blue">/links-list.${confExt}</span></a></div>`;*/
+/*adsPrint  += `<br><br><div class="post2 brand  border4List"><a class="brand" target="blank" href="/links-list.${confExt}"><span class="green">Links List (add your link!) </span><span class="blue">/links-list.${confExt}</span></a></div>`;*/
 
 
 

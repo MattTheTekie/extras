@@ -1,4 +1,4 @@
-// v.1.0.3
+// v.1.0.4
 // inspired by Bing Web Calculator, Google Web Calculator, Google Calculator App and other
 
 var inputCalc = [];
@@ -188,11 +188,13 @@ case 'eval&script':
 if(calcMode[0] == 'eval&script'){
 //https://stackoverflow.com/questions/31183110/how-to-catch-a-syntaxerror-in-javascript
 try {
-evalResult = eval(inputCalc[0]);
+evalResult = eval(inputCalc[0])+'<hr>';
 }
 catch(e) {
 //evalResult = `<span class="red xSamll">eval error</span>: <span class="xSmall">${e}</span>`;
-}}
+}}else{
+evalResult = '';
+}
 
 
 
@@ -216,7 +218,7 @@ result = result.replaceAll(')', '<span class="red bold">)</span>');
 
 
 
-result = evalResult+'<hr>'+result+'<br>* script mode in progress';
+result = evalResult+result+'<br>* script mode in progress';
 break;
 
 default:

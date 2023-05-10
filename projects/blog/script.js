@@ -1,4 +1,4 @@
-// v.1.15.1
+// v.1.15.2
 
 // inspired by Twitter, Fediverse
 // not for large Json files !
@@ -780,7 +780,7 @@ return tagList;
 function fuPrintPost(id, post, tag, time){
 tag = highlightText(tag);
 //time = new Date(time).getTime();
-time = `<a href="${scriptDir}?id=${id}">&nbsp;`+fuPostTime(time)+`&nbsp;</a>`;
+time = `<a class="brand" href="${scriptDir}?id=${id}">&nbsp;`+fuPostTime(time)+`&nbsp;</a>`;
 
 
 // selected orange word when search
@@ -823,7 +823,7 @@ post = highlightText(post, 'out'); // embed without autoplay
 return `
 
 <!-- post -->
-<div class="`+postClass+` bgList brand border3List" id="`+id+`">
+<div class="`+postClass+` bgList border3List" id="`+id+`">
 <span class="pre">`+post+`</span>
 <div class="postFooter">
 <span class="postTagList">`+tag+`</span>
@@ -1072,14 +1072,14 @@ checkText = false;
 
 embed2 = `<video height="${h}" controls style="width:100%"><source src="${item}" type="video/mp4">
 <source src="${item}" type="video/ogg">Your browser does not support HTML5 video.</video>`;
-item = `<a target="_blank" href="${item}">${item}</a>`;
+item = `<a class="brand" target="_blank" href="${item}">${item}</a>`;
 }
 
 if(itemCheck.search(`${symbolForSplit}mp3|${symbolForSplit}wav|${symbolForSplit}ogg|${symbolForSplit}m3u`) != -1) {
 checkText = false;
 
 embed2 = `<audio controls style="width:100%; opacity:0.8"><source src="${item}" type="audio/ogg"><source src="${item}" type="audio/mpeg">Your browser does not support the audio element.</audio>`;
-item = `<a target="_blank" href="${item}">${item}</a>`;
+item = `<a class="brand" target="_blank" href="${item}">${item}</a>`;
 }
 
 
@@ -1090,7 +1090,7 @@ checkText = false;
 //echo 'test';
 embed2 = `
 <a href="${item}"><img class="border3 img" src="${item}" width=""></a>`;
-item = `<a target="_blank" href="${item}">${item}</a>`;
+item = `<a class="brand" target="_blank" href="${item}">${item}</a>`;
 }
 
 if(item.search(".html") != -1&&item.search("http") == -1) {
@@ -1117,18 +1117,18 @@ checkText = false;
 var ico = `https://www.google.com/s2/favicons?domain_url=${host[2]}`;
 //var ico = `https://api.statvoo.com/favicon/?url=${host[2]}`;
 //var ico = `https://api.faviconkit.com/${host[2]}/16`;
-item = `<a target="_blank" href="${item}"><img class="ico op" src="${ico}" width="14px" alt="ico"> ${item}</a>`;
+item = `<a class="brand" target="_blank" href="${item}"><img class="ico op" src="${ico}" width="14px" alt="ico"> ${item}</a>`;
 }else{
 checkText = false;
 
-item = `<a target="_blank" href="${item}">${item}</a>`;
+item = `<a class="brand" target="_blank" href="${item}">${item}</a>`;
 }
 }
 
 
 if(item.search("./") != -1&&item.search(".htm") != -1&&item.search("http") == -1){
 checkText = false;
-item = `<a target="_blank" href="${item}">${item}</a>`;
+item = `<a class="brand" target="_blank" href="${item}">${item}</a>`;
 }
 
 
@@ -1139,9 +1139,9 @@ checkText = false;
 item = item.replaceAll(/#/g, "");
 if(hrefInOut == 'out'){
 /*item = `<a rel="nofollow" href="/projects/blog-in-progress/?q=${item} tag">#${item} <span class="sup">⇗</span></a>`;*/
-item = `<a rel="nofollow" href="${scriptDir}?q=%23${item}">#${item}</a>`;
+item = `<a class="brand" rel="nofollow" href="${scriptDir}?q=%23${item}">#${item}</a>`;
 }else{
-item = `<a rel="nofollow" href="${scriptDir}?q=%23${item}">#${item}</a>`;
+item = `<a class="brand" rel="nofollow" href="${scriptDir}?q=%23${item}">#${item}</a>`;
 }
 }
 
@@ -1429,19 +1429,19 @@ itemCheck = item.replaceAll(/\./g, symbolForSplit);
 if(itemCheck.search(`${symbolForSplit}mp4|${symbolForSplit}webm|${symbolForSplit}avi`) != -1) {
 embed2 = `<video height="${h}" controls autoplay style="width:100%"><source src="${item}" type="video/mp4">
 <source src="${item}" type="video/ogg">Your browser does not support HTML5 video.</video>`;
-item = `<a target="_blank" href="${item}">${item}</a>`;
+item = `<a class="brand" target="_blank" href="${item}">${item}</a>`;
 }
 
 if(itemCheck.search(`${symbolForSplit}m3u8`) != -1) {
 embed2 = `<iframe src="https://www.hlsplayer.org/play?url=${item}" style="width: 100%; height: ${h};" scrolling="no" frameborder="no" sandbox="allow-same-origin allow-scripts allow-popups allow-forms"></iframe>player: <a href="https://www.hlsplayer.org/">www.hlsplayer.org</a>`;
-item = `<a target="_blank" href="${item}">${item}</a>`;
+item = `<a class="brand" target="_blank" href="${item}">${item}</a>`;
 }
 
 
 
 if(itemCheck.search(`${symbolForSplit}mp3|${symbolForSplit}wav|${symbolForSplit}ogg|${symbolForSplit}m3u`) != -1) {
 embed2 = `<audio controls autoplay style="width:100%; opacity:0.8"><source src="${item}" type="audio/ogg"><source src="${item}" type="audio/mpeg">Your browser does not support the audio element.</audio>`;
-item = `<a target="_blank" href="${item}">${item}</a>`;
+item = `<a class="brand" target="_blank" href="${item}">${item}</a>`;
 }
 
 
@@ -1449,7 +1449,7 @@ if(itemCheck.search(`${symbolForSplit}jpg|${symbolForSplit}jpeg|${symbolForSplit
 //echo 'test';
 embed2 = `
 <a href="${item}"><img class="border3 img" src="${item}" width=""></a>`;
-item = `<a target="_blank" href="${item}">${item}</a>`;
+item = `<a class="brand" target="_blank" href="${item}">${item}</a>`;
 }
 
 if(item.search(".html") != -1&&item.search("http") == -1) {
@@ -1472,9 +1472,9 @@ if(embedStatus == 'on'&&host != undefined){
 var ico = `https://www.google.com/s2/favicons?domain_url=${host[2]}`;
 //var ico = `https://api.statvoo.com/favicon/?url=${host[2]}`;
 //var ico = `https://api.faviconkit.com/${host[2]}/16`;
-item = `<a target="_blank" href="${item}"><img class="ico op" src="${ico}" width="14px" alt="ico"> ${item}</a>`;
+item = `<a class="brand" target="_blank" href="${item}"><img class="ico op" src="${ico}" width="14px" alt="ico"> ${item}</a>`;
 }else{
-item = `<a target="_blank" href="${item}">${item}</a>`;
+item = `<a class="brand" target="_blank" href="${item}">${item}</a>`;
 }
 }
 
@@ -1482,7 +1482,7 @@ item = `<a target="_blank" href="${item}">${item}</a>`;
 if(item.search("./") != -1&&item.search(".htm") != -1&&item.search("http") == -1){
 
 
-item = `<a target="_blank" href="${item}">${item}</a>`;
+item = `<a class="brand" target="_blank" href="${item}">${item}</a>`;
 }
 
 
@@ -1493,9 +1493,9 @@ if(item[0] == '#'){
 item = item.replaceAll(/#/g, "");
 if(hrefInOut == 'out'){
 /*item = `<a rel="nofollow" href="/projects/blog-in-progress/?q=${item} tag">#${item} <span class="sup">⇗</span></a>`;*/
-item = `<a rel="nofollow" href="${scriptDir}?q=%23${item}">#${item}</a>`;
+item = `<a class="brand" rel="nofollow" href="${scriptDir}?q=%23${item}">#${item}</a>`;
 }else{
-item = `<a rel="nofollow" href="${scriptDir}?q=%23${item}">#${item}</a>`;
+item = `<a class="brand" rel="nofollow" href="${scriptDir}?q=%23${item}">#${item}</a>`;
 }
 }
 
