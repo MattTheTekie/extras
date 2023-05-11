@@ -105,13 +105,13 @@ if(confDataCollection == 'on'){
 //<!-- Google tag (gtag.js) -->
 var scriptStat = document.createElement('script');
 scriptStat.type='text/javascript';
-scriptStat.src = 'https://www.googletagmanager.com/gtag/js?id=G-JZ4TN0KQJW';      
+scriptStat.src = 'https://www.googletagmanager.com/gtag/js?id=G-HYV48GZ3ZC';      
 document.getElementsByTagName('head')[0].appendChild(scriptStat);
 
 window.dataLayer = window.dataLayer || [];
 function gtag(){dataLayer.push(arguments);}
 gtag('js', new Date());
-gtag('config', 'G-JZ4TN0KQJW');
+gtag('config', 'G-HYV48GZ3ZC');
 
 
 
