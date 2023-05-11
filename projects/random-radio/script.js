@@ -1,4 +1,4 @@
-// v.1.2.4
+// v.1.2.5
 
 
 function randomRadio(printId, jsonVar){
@@ -112,7 +112,7 @@ comMessagePrint += '<span class=""> random id: '+id+'</span>';
 
 var play = highlightText2('', '');
 var post = `<b>${jsonVar[id]['text']}</b> ${highlightText2(jsonVar[id]['url'], '')}`;
-post += `<br>play sourcce: <a target="_blank" href="${jsonVar[id]['text2']}">${jsonVar[id]['text2']}</a>`;
+post += `<br>play sourcce: <a class="brand" target="_blank" href="${jsonVar[id]['text2']}">${jsonVar[id]['text2']}</a>`;
 var tag = highlightText2(' '+jsonVar[id]['tag'], '');
 
 document.getElementById(printId).innerHTML = `
@@ -124,7 +124,7 @@ document.getElementById(printId).innerHTML = `
 
 
 <!-- post -->
-<div class="post bgList brand border3List" id="${jsonVar[id]['id']}">
+<div class="post bgList border3List" id="${jsonVar[id]['id']}">
 <span class="pre">${post} ${play}</span>
 <div class="postFooter">
 <span class="postTagList">${tag}</span>
@@ -235,7 +235,7 @@ embed = `<a href="${item}"><img class="border3" src="${item}" width=""></a>`
 if(count == 0){
 if(jsonVar[id]['text3'] == 'm3u8') {
 play = jsonVar[id]['text2'];
-embed2 = `<iframe src="https://www.hlsplayer.org/play?url=${play}" style="width: 100%; height: ${h};" scrolling="no" frameborder="no" sandbox="allow-same-origin allow-scripts allow-popups allow-forms"></iframe>player: <a href="https://www.hlsplayer.org/">www.hlsplayer.org</a>`;
+embed2 = `<iframe src="https://www.hlsplayer.org/play?url=${play}" style="width: 100%; height: ${h};" scrolling="no" frameborder="no" sandbox="allow-same-origin allow-scripts allow-popups allow-forms"></iframe>player: <a class="brand" href="https://www.hlsplayer.org/">www.hlsplayer.org</a>`;
 }
 
 
@@ -258,7 +258,7 @@ embed2 = `<iframe width="${w}" height="340" src="${item}"></iframe>`;
 
 //if(item.search("http") != -1){
 if(item.slice(0, 4) == 'http'&&item.search("http|://") != -1){
-item = `<a target="_blank" href="${item}">${item}</a>`;
+item = `<a class="brand" target="_blank" href="${item}">${item}</a>`;
 }
 
 //add tag
@@ -268,9 +268,9 @@ if(item[0] == '#'){
 item = item.replaceAll(/#/g, "");
 if(hrefInOut == 'out'){
 /*item = `<a rel="nofollow" href="/projects/blog-in-progress/?q=${item} tag">#${item} <span class="sup">⇗</span></a>`;*/
-item = `<a rel="nofollow" href="${scriptDir}?q=%23${item}">#${item}</a>`;
+item = `<a class="brand" rel="nofollow" href="${scriptDir}?q=%23${item}">#${item}</a>`;
 }else{
-item = `<a rel="nofollow" href="${scriptDir}?q=%23${item}">#${item}</a>`;
+item = `<a class="brand" rel="nofollow" href="${scriptDir}?q=%23${item}">#${item}</a>`;
 }
 }
 

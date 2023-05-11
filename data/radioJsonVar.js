@@ -995,6 +995,13 @@ var radioJsonVar =
         "tag": "#radio #en"
     },
     {
+        "text": "WRS",
+        "text2": "https:\/\/uksouth.streaming.broadcast.radio:10290\/wrs",
+        "text3": "mp3",
+        "url": "https:\/\/www.worldradio.ch\/",
+        "tag": "#radio #radioMusic"
+    },
+    {
         "text": "WUMB Radio | A Community Service of UMASS BostonHome \u2013 WUMB Radio",
         "text2": "http:\/\/wumb.streamguys1.com\/wumb919fast",
         "text3": "mp3",
