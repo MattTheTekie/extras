@@ -940,7 +940,7 @@ var radioJsonVar =
     },
     {
         "text": "What's Hot - Retro Hit Radio",
-        "text2": "http:\/\/gemini.shoutca.st:8293\/;",
+        "text2": "http:\/\/riphel02.radioca.st\/stream",
         "text3": "mp3",
         "url": "http:\/\/www.retrohitradio.co.nz\/",
         "tag": "#radio #radioMusic #ClassicHits #rock"

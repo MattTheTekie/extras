@@ -1,6 +1,15 @@
 var blogJsonVar = 
 [
     {
+        "id": "77",
+        "text": "Image Cube",
+        "text2": "",
+        "text3": "",
+        "url": "https:\/\/codepen.io\/antoniasymeonidou\/pen\/BawrZZv",
+        "tag": "#HTML #CSS",
+        "time": 1683788171
+    },
+    {
         "id": "76",
         "text": "SPACE.com on Twitter: \"The 1st photo of Earth from Europe's powerful new satellite is amazing https:\/\/t.co\/S8TshI0zR4 https:\/\/t.co\/utfuQQj0op\" \/ Twitter",
         "text2": "",
