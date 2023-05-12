@@ -253,6 +253,13 @@ var radioJsonVar =
         "tag": "#radio #radioMusic #indie"
     },
     {
+        "text": "Eclectic24 Online Radio | Free Music Streaming | KCRW",
+        "text2": "https:\/\/kcrw.streamguys1.com\/kcrw_192k_mp3_e24",
+        "text3": "mp3",
+        "url": "https:\/\/www.kcrw.com\/music\/shows\/eclectic24",
+        "tag": "#radio #radioMusic"
+    },
+    {
         "text": "esRadio Elche 103.7 FM \u2013 esRadio Elche 103.7 FM",
         "text2": "https:\/\/ns6.emisionlocal.com\/proxy\/esradioelche?mp=\/stream",
         "text3": "mp3",
@@ -722,6 +729,13 @@ var radioJsonVar =
         "tag": "#radio #es"
     },
     {
+        "text": "Radio Milwaukee | Homepage | Radio Milwaukee",
+        "text2": "https:\/\/wyms.streamguys1.com\/live",
+        "text3": "mp3",
+        "url": "https:\/\/radiomilwaukee.org\/",
+        "tag": "#radio #radioMusic #eclectic"
+    },
+    {
         "text": "Radio Romania Actualitati site oficial | Radio Rom\u00e2nia Actualita\u021bi",
         "text2": "http:\/\/stream.zeno.fm\/595fmmy86p8uv",
         "text3": "mp3",
@@ -859,7 +873,7 @@ var radioJsonVar =
         "text2": "https:\/\/current.stream.publicradio.org\/current.mp3",
         "text3": "mp3",
         "url": "https:\/\/www.thecurrent.org\/",
-        "tag": "#radio #radioMusic #indie"
+        "tag": "#radio #radioMusic #indie #rock"
     },
     {
         "text": "The Dump - Internet Radio",
