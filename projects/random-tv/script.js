@@ -1,4 +1,4 @@
-// v.1.2.5
+// v.1.2.6
 
 
 function randomRadio(printId, jsonVar){
@@ -505,22 +505,23 @@ tagList += `
 }
 });
 
+hlClassList3 = '';
 hlClassList2 = [...new Set([...hlClassList])]; //https://stackoverflow.com/questions/9229645/remove-duplicate-values-from-js-array
 hlClassList = '';
 hlClassList2.forEach(function(item){
 let hlClass = 'hlClass'+item;
 item = item.toUpperCase();
-hlClassList += `
+hlClassList3 += `
 <a class="tag light border2 ${hlClass}" onmouseover="hlwClassAdd('${hlClass}')" onmouseout="hlwClassRemove('${hlClass}')" href="#id${hlClass}" id="${hlClass}">${item}</a>
 `;
 });
 
 tagList += `
-<div class="block padding tCenter">
-${hlClassList}
-</div>`;
-
-
+<div class="block tCenter">
+<div class="tagList padding">${hlClassList}</div>
+<div class="tagList padding">${hlClassList3}</div>
+</div>
+`;
 
 return tagList;
 }
@@ -545,7 +546,7 @@ document.getElementById(printId).innerHTML += `
 <div class="wrapper3">
 
 <span class="op small padding margin">list of tags:</span><br>
-<div class="tagList padding">`+tagList(printTagList)+`</div>
+`+tagList(printTagList)+`
 </div>
 </div>
 `;
