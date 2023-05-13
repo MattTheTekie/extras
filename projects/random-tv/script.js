@@ -8,9 +8,6 @@ function getRandomInt(max) {
   return Math.floor(Math.random() * max);
 }
 
-
-
-
 var count = 0;
 var scriptDir = '';
 var printTagList = '';
@@ -27,7 +24,7 @@ if(q != null){
 q = q.replaceAll(/%/g, "%25");
 q = decodeURIComponent(q);
 q = q.trim();
-localStorage.setItem('randomRadioQ', q);
+localStorage.setItem('randomTvQ', q);
 }
 
 
@@ -40,8 +37,8 @@ tag = tag.trim();
 
 
 
-if(q == null){ q = localStorage.getItem('randomRadioQ'); }
-if(q == null) { q = '#radioMusic'; tag = q; }
+if(q == null){ q = localStorage.getItem('randomTvQ'); }
+if(q == null) { q = '#en'; tag = q; }
 var q2 = q;
 
 
@@ -90,8 +87,8 @@ arrListForRandom.push(key);
 
 i++;
 total = i;
-comMessagePrint = `<h3 class="tCenter"><span class="op">Random Radio</span><br><br>${q2} ${i}</h3>`;
-document.getElementsByTagName('title')[0].innerHTML = `Random Radio ${q2}`;
+comMessagePrint = `<h3 class="tCenter"><span class="op">Random TV</span><br><br>${q2} ${i}</h3>`;
+document.getElementsByTagName('title')[0].innerHTML = `Random TV ${q2}`;
 }
 
 
@@ -112,7 +109,7 @@ comMessagePrint += '<span class=""> random id: '+id+'</span>';
 
 var play = highlightText2('', '');
 var post = `<b>${jsonVar[id]['text']}</b> ${highlightText2(jsonVar[id]['url'], '')}`;
-post += `<br>play sourcce: <a class="brand" target="_blank" href="${jsonVar[id]['text2']}">${jsonVar[id]['text2']}</a>`;
+post += `<br>play sourcce: ${jsonVar[id]['text2']}`;
 var tag = highlightText2(' '+jsonVar[id]['tag'], '');
 
 document.getElementById(printId).innerHTML = `
@@ -252,6 +249,12 @@ embed2 = `<iframe width="${w}" height="360" src="${play}"></iframe>`;
 /*if(item.search("tunein.com") == -1&&item.slice(0, 4) == 'http'&&item.search("http|://") != -1) {
 embed2 = `<iframe width="${w}" height="340" src="${item}"></iframe>`;
 }*/
+
+if(jsonVar[id]['text3'] == 'youtubeLive') {
+play = jsonVar[id]['text2'];
+embed2 = `<iframe width="${w}" height="${h}" src="https://www.youtube.com/embed/live_stream?channel=${play}&autoplay=1" frameborder="0" allowfullscreen></iframe>`;
+}
+
 
 }
 
