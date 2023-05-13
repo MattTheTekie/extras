@@ -112,7 +112,7 @@ comMessagePrint += '<span class=""> random id: '+id+'</span>';
 
 var play = highlightText2('', '');
 var post = `<b>${jsonVar[id]['text']}</b> ${highlightText2(jsonVar[id]['url'], '')}`;
-post += `<br>play sourcce: <a class="brand" target="_blank" href="${jsonVar[id]['text2']}">${jsonVar[id]['text2']}</a>`;
+post += `<br>play source: <a class="brand" target="_blank" href="${jsonVar[id]['text2']}">${jsonVar[id]['text2']}</a>`;
 var tag = highlightText2(' '+jsonVar[id]['tag'], '');
 
 document.getElementById(printId).innerHTML = `
