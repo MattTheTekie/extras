@@ -9020,7 +9020,7 @@ var musicJsonVar =
         "text": "Plastic Bag \u00b7 X-Ray Spex",
         "text2": "",
         "text3": "",
-        "url": "https:\/\/www.youtube.com\/watch?v=bgt6gzL-cwU",
+        "url": "https:\/\/www.youtube.com\/watch?v=FzZj0KQOBIU",
         "tag": "#music"
     },
     {

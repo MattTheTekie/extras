@@ -2,7 +2,7 @@
 
 
 
-var json = musicJsonVar;
+var jsonVar = musicJsonVar;
 
 //https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Math/random
 function getRandomInt(max) {
@@ -12,13 +12,13 @@ function getRandomInt(max) {
 
 
 
-//alert(json[getRandomInt(json.length)]);
-//alert(json.length);
+//alert(jsonVar[getRandomInt(jsonVar.length)]);
+//alert(jsonVar.length);
 
-var id = getRandomInt(json.length);
+var id = getRandomInt(jsonVar.length);
 
-var randomTitle = json[id]['text'];
-var randomURL = json[id]['url'];
+var randomTitle = jsonVar[id]['text'];
+var randomURL = jsonVar[id]['url'];
 
 var tmp = document.createElement ('a');
 tmp.href   = randomURL;
@@ -28,7 +28,7 @@ document.getElementById("playTitle").innerHTML =  randomTitle;
 
 document.getElementById("playURL").innerHTML =  '<a class="brand" target="blank" href="'+randomURL+'">'+randomURL+' ⇗</a>'; 
  
-
+document.getElementById("total").innerHTML =  `total: ${jsonVar.length}`;
 
 var w = '100%';
 var h = '275px';
