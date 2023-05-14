@@ -591,7 +591,7 @@ document.getElementById('taglist').innerHTML += `
 <div class="center tCenter margin padding">
 <div class="wrapper3">
 
-<span class="op small padding margin">list of "title" tags:</span><br>
+<span class="small padding margin">list of "title" tags:</span><br>
 `+tagList(printTagList)+`
 </div>
 </div>
