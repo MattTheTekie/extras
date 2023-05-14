@@ -967,6 +967,13 @@ var musicJsonVar =
         "tag": "#music"
     },
     {
+        "text": "Bang Bang (3LAU Remix) \u00b7 Jessie J \u00b7 Ariana Grande \u00b7 Nicki Minaj",
+        "text2": "",
+        "text3": "",
+        "url": "https:\/\/www.youtube.com\/watch?v=16GUqm5e_Yk",
+        "tag": "#music"
+    },
+    {
         "text": "Bang Bang (My Baby Shot Me Down) \u00b7 Nancy Sinatra",
         "text2": "",
         "text3": "",
@@ -5839,6 +5846,27 @@ var musicJsonVar =
         "tag": "#music"
     },
     {
+        "text": "Jessie J - Do It Like A Dude (Explicit) (Official Video) - YouTube",
+        "text2": "",
+        "text3": "",
+        "url": "https:\/\/www.youtube.com\/watch?v=pOf3kYtwASo",
+        "tag": "#music"
+    },
+    {
+        "text": "Jessie J - Price Tag ft. B.o.B - YouTube",
+        "text2": "",
+        "text3": "",
+        "url": "https:\/\/www.youtube.com\/watch?v=qMxX-QOV9tI",
+        "tag": "#music"
+    },
+    {
+        "text": "Jessie J - WILD ft. Big Sean, Dizzee Rascal (Official Video) - YouTube",
+        "text2": "",
+        "text3": "",
+        "url": "https:\/\/www.youtube.com\/watch?v=jrNLsC_Y9Oo",
+        "tag": "#music"
+    },
+    {
         "text": "Jessie J, Ariana Grande, Nicki Minaj - Bang Bang (Official Video) - YouTube",
         "text2": "",
         "text3": "",
@@ -6571,6 +6599,13 @@ var musicJsonVar =
         "text2": "",
         "text3": "",
         "url": "https:\/\/www.youtube.com\/watch?v=qolmz4FlnZ0",
+        "tag": "#music"
+    },
+    {
+        "text": "Lana Del Rey - West Coast - YouTube",
+        "text2": "",
+        "text3": "",
+        "url": "https:\/\/www.youtube.com\/watch?v=oKxuiw3iMBE",
         "tag": "#music"
     },
     {
@@ -7470,6 +7505,13 @@ var musicJsonVar =
         "tag": "#music"
     },
     {
+        "text": "Mamma Knows Best \u00b7 Jessie J",
+        "text2": "",
+        "text3": "",
+        "url": "https:\/\/www.youtube.com\/watch?v=-p8T93RZhKE",
+        "tag": "#music"
+    },
+    {
         "text": "M\u00e5neskin - I WANNA BE YOUR SLAVE (Official Video) - YouTube",
         "text2": "",
         "text3": "",
@@ -8051,13 +8093,6 @@ var musicJsonVar =
         "tag": "#music"
     },
     {
-        "text": "My Baby Just Cares for Me (2013 Remastered Version) - YouTube",
-        "text2": "",
-        "text3": "",
-        "url": "https:\/\/www.youtube.com\/watch?v=zcCt9zEXncc",
-        "tag": "#music"
-    },
-    {
         "text": "My Baby Just Cares for Me (Remastered 2013) \u00b7 Nina Simone \u00b7 Walter Donaldson \u00b7 Gus Kahn",
         "text2": "",
         "text3": "",
@@ -8468,6 +8503,13 @@ var musicJsonVar =
         "text2": "",
         "text3": "",
         "url": "https:\/\/www.youtube.com\/watch?v=eF48ZHmae58",
+        "tag": "#music"
+    },
+    {
+        "text": "Nobody's Perfect (Netsky Full Vocal Remix) \u00b7 Jessie J",
+        "text2": "",
+        "text3": "",
+        "url": "https:\/\/www.youtube.com\/watch?v=aFy88ybeQkQ",
         "tag": "#music"
     },
     {
@@ -10043,6 +10085,13 @@ var musicJsonVar =
         "text2": "",
         "text3": "",
         "url": "https:\/\/www.youtube.com\/watch?v=mr7ZfX1E55g",
+        "tag": "#music"
+    },
+    {
+        "text": "Shakira - La La La (Brazil 2014) ft. Carlinhos Brown - YouTube",
+        "text2": "",
+        "text3": "",
+        "url": "https:\/\/www.youtube.com\/watch?v=7-7knsP2n5w",
         "tag": "#music"
     },
     {
