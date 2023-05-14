@@ -412,42 +412,42 @@ switch (true) {
 
 case tagPercentage >= 500:
 tagColor = "var(--red)";
-tagSize = "220%";
+tagSize = "200%";
 break;
 
 case tagPercentage >= 300:
 tagColor = "var(--orange)";
-tagSize = "200%";
+tagSize = "180%";
 break;
 
 case tagPercentage >= 250:
 tagColor = "var(--yellow)";
-tagSize = "180%";
+tagSize = "170%";
 break;
 
 case tagPercentage >= 100:
 tagColor = "var(--green)";
-tagSize = "160%";
+tagSize = "150%";
 break;
 
 case tagPercentage >= 80:
 tagColor = "var(--blue)";
-tagSize = "150%";
+tagSize = "130%";
 break;
 
 case tagPercentage >= 50:
 tagColor = "var(--indigo)";
-tagSize = "140%";
+tagSize = "120%";
 break;
 
 case tagPercentage >= 30:
 tagColor = "var(--violet)";
-tagSize = "120%";
+tagSize = "110%";
 break;
 
 default:
 tagColor = "var(--c2)";
-tagSize = "100%";
+tagSize = "95%";
 }
 
 //console.log(tagColor);
