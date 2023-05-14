@@ -5972,13 +5972,6 @@ var musicJsonVar =
         "tag": "#music"
     },
     {
-        "text": "Joy Crookes - 19th Floor (Official Video) - YouTube",
-        "text2": "",
-        "text3": "",
-        "url": "https:\/\/www.youtube.com\/watch?v=kF4dQCTsR0E",
-        "tag": "#music"
-    },
-    {
         "text": "Joy Crookes - Hurts (Official Video) - YouTube",
         "text2": "",
         "text3": "",
