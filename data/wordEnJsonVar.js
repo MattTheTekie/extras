@@ -310,6 +310,9 @@ var wordEnJsonVar =
         "text": "absentmindedly"
     },
     {
+        "text": "absents"
+    },
+    {
         "text": "absolute"
     },
     {
@@ -2996,8 +2999,5 @@ var wordEnJsonVar =
     },
     {
         "text": "alerting"
-    },
-    {
-        "text": "alertness"
     }
 ]
