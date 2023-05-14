@@ -26,7 +26,7 @@ var host = tmp.hostname;
 
 document.getElementById("playTitle").innerHTML =  randomTitle; 
 
-document.getElementById("playURL").innerHTML =  '<a target="blank" href="'+randomURL+'">'+randomURL+' ⇗</a>'; 
+document.getElementById("playURL").innerHTML =  '<a class="brand" target="blank" href="'+randomURL+'">'+randomURL+' ⇗</a>'; 
  
 
 
