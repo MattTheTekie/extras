@@ -5398,10 +5398,10 @@ var musicJsonVar =
         "tag": "#music"
     },
     {
-        "text": "I'll Carry You \u00b7 Halou",
+        "text": "I'll Carry You (Full Version) \u00b7 Halou",
         "text2": "",
         "text3": "",
-        "url": "https:\/\/www.youtube.com\/watch?v=yHgxH_O-Z8I",
+        "url": "https:\/\/www.youtube.com\/watch?v=nkgsVWJPB9Y",
         "tag": "#music"
     },
     {
