@@ -14,7 +14,7 @@ function getRandomInt(max) {
 var count = 0;
 var scriptDir = '';
 var printTagList = '';
-var tagListLimit = '500';
+var tagListLimit = '100';
 
 //alert(jsonVar[getRandomInt(jsonVar.length)]);
 //alert(jsonVar.length);
@@ -415,37 +415,37 @@ break;
 
 case tagPercentage >= 300:
 tagColor = "var(--orange)";
-tagSize = "150%";
+tagSize = "180%";
 break;
 
 case tagPercentage >= 250:
 tagColor = "var(--yellow)";
-tagSize = "130%";
+tagSize = "170%";
 break;
 
 case tagPercentage >= 100:
 tagColor = "var(--green)";
-tagSize = "120%";
+tagSize = "160%";
 break;
 
 case tagPercentage >= 80:
 tagColor = "var(--blue)";
-tagSize = "110%";
+tagSize = "150%";
 break;
 
 case tagPercentage >= 50:
 tagColor = "var(--indigo)";
-tagSize = "100%";
+tagSize = "140%";
 break;
 
 case tagPercentage >= 30:
 tagColor = "var(--violet)";
-tagSize = "95%";
+tagSize = "120%";
 break;
 
 default:
 tagColor = "var(--c2)";
-tagSize = "85%";
+tagSize = "100%";
 }
 
 //console.log(tagColor);

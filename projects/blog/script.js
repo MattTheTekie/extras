@@ -34,7 +34,7 @@ if(postLimit == undefined||postLimit == ''){ postLimit = 1; }
 if(postClass == undefined||postClass == ''){ postClass = 'post'; }
 if(scriptDir == undefined||scriptDir == ''){ scriptDir = './'; }
 if(multiEmbedStatus == undefined||multiEmbedStatus == ''){ multiEmbedStatus = 'off'; }
-if(tagListLimit == undefined||tagListLimit == ''){ tagListLimit = '300'; }
+if(tagListLimit == undefined||tagListLimit == ''){ tagListLimit = '100'; }
 
 
 if(jsonVar == ''){
@@ -642,7 +642,7 @@ function fuTag(tagCount){
 let tagPercentage = (Math.floor((tagCount*100)/tagAverage)); // over 100%, used average if tag disproportion 1% and 90%
 //console.log(tagPercentage);
 
-// tag font-size and color
+/ tag font-size and color
 switch (true) {
 
 case tagPercentage >= 500:
@@ -652,37 +652,37 @@ break;
 
 case tagPercentage >= 300:
 tagColor = "var(--orange)";
-tagSize = "150%";
+tagSize = "180%";
 break;
 
 case tagPercentage >= 250:
 tagColor = "var(--yellow)";
-tagSize = "130%";
+tagSize = "170%";
 break;
 
 case tagPercentage >= 100:
 tagColor = "var(--green)";
-tagSize = "120%";
+tagSize = "160%";
 break;
 
 case tagPercentage >= 80:
 tagColor = "var(--blue)";
-tagSize = "110%";
+tagSize = "150%";
 break;
 
 case tagPercentage >= 50:
 tagColor = "var(--indigo)";
-tagSize = "100%";
+tagSize = "140%";
 break;
 
 case tagPercentage >= 30:
 tagColor = "var(--violet)";
-tagSize = "95%";
+tagSize = "120%";
 break;
 
 default:
 tagColor = "var(--c2)";
-tagSize = "85%";
+tagSize = "100%";
 }
 
 //console.log(tagColor);
