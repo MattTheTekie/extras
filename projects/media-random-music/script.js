@@ -1,4 +1,4 @@
-// v.1.0.0
+// v.1.0.1
 
 
 
@@ -456,17 +456,17 @@ switch (true) {
 
 case tagPercentage >= 500:
 tagColor = "var(--red)";
-tagSize = "200%";
+tagSize = "220%";
 break;
 
 case tagPercentage >= 300:
 tagColor = "var(--orange)";
-tagSize = "180%";
+tagSize = "200%";
 break;
 
 case tagPercentage >= 250:
 tagColor = "var(--yellow)";
-tagSize = "170%";
+tagSize = "180%";
 break;
 
 case tagPercentage >= 100:

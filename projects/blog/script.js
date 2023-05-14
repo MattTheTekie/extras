@@ -1,4 +1,4 @@
-// v.1.15.2
+// v.1.15.3
 
 // inspired by Twitter, Fediverse
 // not for large Json files !
@@ -642,22 +642,22 @@ function fuTag(tagCount){
 let tagPercentage = (Math.floor((tagCount*100)/tagAverage)); // over 100%, used average if tag disproportion 1% and 90%
 //console.log(tagPercentage);
 
-/ tag font-size and color
+// tag font-size and color
 switch (true) {
 
 case tagPercentage >= 500:
 tagColor = "var(--red)";
-tagSize = "200%";
+tagSize = "220%";
 break;
 
 case tagPercentage >= 300:
 tagColor = "var(--orange)";
-tagSize = "180%";
+tagSize = "200%";
 break;
 
 case tagPercentage >= 250:
 tagColor = "var(--yellow)";
-tagSize = "170%";
+tagSize = "180%";
 break;
 
 case tagPercentage >= 100:
