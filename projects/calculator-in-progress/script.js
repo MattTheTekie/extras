@@ -176,7 +176,8 @@ case 'eval':
 try {
 evalResult = eval(inputCalc[0]);
 } catch(e) {
-evalResult = 'eval error';
+//evalResult = 'eval error';
+evalResult = "&nbsp;";
 }
 
 result = evalResult;
@@ -193,7 +194,9 @@ evalResult = eval(inputCalc[0])+'<hr>';
 catch(e) {
 //evalResult = `<span class="red xSamll">eval error</span>: <span class="xSmall">${e}</span>`;
 }}else{
-evalResult = '';
+//evalResult = 'eval error';
+//evalResult = 'eval error';
+evalResult = "&nbsp;";
 }
 
 
