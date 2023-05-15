@@ -37,14 +37,9 @@ mainPrintMsg('footer', `
 <span id="fApp"><a href="/app.${confExt}">app: status</a></span>
 <span id="fAds"><a href="/ads.${confExt}">ads: ${localStorage.getItem('confAdsStatus')}</a></span>
 <span id="fPrivacy"><a href="/privacy.${confExt}">cookie: status</a></span>
-
-
 <span><a href="/rss.xml">RSS</a></span>
-
-
 <span id="fAbout"><a href="/about.${confExt}">about</a></span>
-
-<span>2023</span>
+<span><a rel="license" style="/*text-transform: lowercase;*/" title="license" href="https://creativecommons.org/licenses/by-sa/4.0/">license: CC BY-SA 4.0</a></span>
 
 </div>
 
