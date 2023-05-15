@@ -14,9 +14,6 @@ Homepage and other projects: Extensions: new tab redirect (for Firefox, Chrome).
 
 [Download Website ZIP](https://github.com/inonehp/inonehp.github.io/archive/refs/heads/main.zip)
 
-License: CC BY-SA 4.0
-<!-- footer, LICENSE.md README.md -->
-
 Screenshots
 ![screenshot](/img/screenshot.png)
 ![screenshot2](/img/screenshot2.png)
