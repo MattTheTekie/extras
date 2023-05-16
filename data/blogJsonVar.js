@@ -1,6 +1,15 @@
 var blogJsonVar = 
 [
     {
+        "id": "81",
+        "text": "rm: random-tech-news-url",
+        "text2": "",
+        "text3": "",
+        "url": "",
+        "tag": "#i",
+        "time": 1684238988
+    },
+    {
         "id": "80",
         "text": "new: random-tech-news-url",
         "text2": "",
