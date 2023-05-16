@@ -1,6 +1,174 @@
 var techNewsLinksJsonVar = 
 [
     {
+        "url": "https:\/\/www.phoronix.com\/news\/libproxy-0.5"
+    },
+    {
+        "url": "https:\/\/wccftech.com\/facebook-has-unsent-all-the-accidental-friend-requests-from-last-week-as-the-bug-comes-to-a-quick-end\/"
+    },
+    {
+        "url": "http:\/\/www.techmeme.com\/230516\/p8#a230516p8"
+    },
+    {
+        "url": "https:\/\/techcrunch.com\/2023\/05\/16\/a16z-backed-rooms-xyz-lets-you-build-interactive-3d-rooms-and-simple-games-in-your-browser\/"
+    },
+    {
+        "url": "https:\/\/www.wired.com\/story\/catfishing-customer-support-love\/"
+    },
+    {
+        "url": "https:\/\/www.wired.com\/story\/plastic-pollution-emergency-united-nations\/"
+    },
+    {
+        "url": "https:\/\/www.computerworld.com\/article\/3696236\/google-io-android-14.html#tk.rss_all"
+    },
+    {
+        "url": "https:\/\/9to5mac.com\/2023\/05\/16\/jumpcloud-simplifies-google-workspace-deployments\/"
+    },
+    {
+        "url": "https:\/\/mashable.com\/article\/wordle-archive"
+    },
+    {
+        "url": "https:\/\/www.phoronix.com\/news\/Ubuntu-23.10-PPA-Management"
+    },
+    {
+        "url": "https:\/\/wccftech.com\/nvidia-geforce-rtx-3060-ti-graphics-cards-up-to-100-price-cuts-prior-rtx-4060-ti-launch\/"
+    },
+    {
+        "url": "https:\/\/www.techrepublic.com\/article\/rippling-competitors\/"
+    },
+    {
+        "url": "https:\/\/www.computerworld.com\/article\/3696691\/amazon-is-working-on-infusing-generative-ai-into-its-shopping-app.html#tk.rss_all"
+    },
+    {
+        "url": "https:\/\/www.theverge.com\/2023\/5\/16\/23725160\/samsung-lg-oled-tv-panels-deal-supply-report"
+    },
+    {
+        "url": "https:\/\/www.phoronix.com\/news\/Debian-Installer-Bookworm-RC3"
+    },
+    {
+        "url": "https:\/\/wccftech.com\/how-to\/the-legend-of-zelda-tears-of-the-kingdom-how-to-increase-weapon-durability\/"
+    },
+    {
+        "url": "http:\/\/www.techmeme.com\/230516\/p7#a230516p7"
+    },
+    {
+        "url": "https:\/\/wccftech.com\/samsung-foundry-to-reveal-new-details-on-sf4x-process-technology-for-hpc-data-centers\/"
+    },
+    {
+        "url": "https:\/\/mashable.com\/uk\/deals\/unblock-porn-sites-for-free"
+    },
+    {
+        "url": "https:\/\/mashable.com\/video\/netflix-merpeople-trailer"
+    },
+    {
+        "url": "https:\/\/mashable.com\/article\/apple-xros"
+    },
+    {
+        "url": "https:\/\/wccftech.com\/how-to\/the-legend-of-zelda-tears-of-the-kingdom-how-to-upgrade-armor\/"
+    },
+    {
+        "url": "https:\/\/www.engadget.com\/apples-mac-mini-m2-falls-back-to-an-all-time-low-of-500-091518407.html?src=rss"
+    },
+    {
+        "url": "https:\/\/www.androidauthority.com\/facebook-friend-request-glitch-fixed-3325087\/"
+    },
+    {
+        "url": "https:\/\/wccftech.com\/stray-receives-xbox-series-xs-and-xbox-one-rating-in-europe\/"
+    },
+    {
+        "url": "https:\/\/www.slashgear.com\/1285334\/does-ryan-reynolds-still-own-mint-mobile\/"
+    },
+    {
+        "url": "https:\/\/www.cnet.com\/tech\/mobile\/stop-wasting-time-endlessly-scrolling-up-on-iphone\/#ftag=CADf328eec"
+    },
+    {
+        "url": "https:\/\/mashable.com\/roundup\/best-antivirus-software"
+    },
+    {
+        "url": "https:\/\/mashable.com\/roundup\/best-dyson-airwrap-dupes"
+    },
+    {
+        "url": "https:\/\/mashable.com\/deals\/best-gaming-deals"
+    },
+    {
+        "url": "https:\/\/mashable.com\/deals\/may-16-aduro-tripod"
+    },
+    {
+        "url": "https:\/\/mashable.com\/deals\/may-16-jbl-wireless"
+    },
+    {
+        "url": "https:\/\/mashable.com\/article\/how-old-saturn-rings"
+    },
+    {
+        "url": "https:\/\/mashable.com\/article\/queer-masturbation-her"
+    },
+    {
+        "url": "https:\/\/mashable.com\/article\/nasa-greenland-melting"
+    },
+    {
+        "url": "https:\/\/mashable.com\/article\/how-to-watch-every-fast-and-furious-movie-online"
+    },
+    {
+        "url": "https:\/\/www.livescience.com\/archaeology\/ancient-egyptians\/ancient-egyptian-children-were-plagued-with-blood-disorders-mummies-reveal"
+    },
+    {
+        "url": "https:\/\/mashable.com\/deals\/may-16-scrivener-3"
+    },
+    {
+        "url": "https:\/\/mashable.com\/article\/clone-high-reboot-season-2-review"
+    },
+    {
+        "url": "https:\/\/mashable.com\/deals\/may-16-babbel-learning"
+    },
+    {
+        "url": "https:\/\/wccftech.com\/the-lord-of-the-rings-mmo-will-be-very-different-from-new-world-will-use-a-next-gen-version-of-its-engine\/"
+    },
+    {
+        "url": "https:\/\/wccftech.com\/activision-blizzard-executive-calls-eu-approval-microsoft-unbiased\/"
+    },
+    {
+        "url": "https:\/\/thenextweb.com\/news\/openai-free-class-prompt-engineering-devs"
+    },
+    {
+        "url": "https:\/\/thenextweb.com\/news\/openai-free-class-prompt-engineering-devs"
+    },
+    {
+        "url": "https:\/\/wccftech.com\/apple-periscope-lens-on-smaller-iphone-16-pro-next-year\/"
+    },
+    {
+        "url": "https:\/\/www.laptopmag.com\/news\/iphone-16-rumored-to-be-the-largest-ever-why-its-a-tablet-at-this-point"
+    },
+    {
+        "url": "https:\/\/wccftech.com\/the-galaxy-z-fold-5-and-galaxy-z-flip-5-release-date-is-finally-here-going-official-two-weeks-before-samsungs-usual-timeline\/"
+    },
+    {
+        "url": "https:\/\/wccftech.com\/how-to\/honkai-star-rail-how-to-get-free-characters\/"
+    },
+    {
+        "url": "https:\/\/www.androidauthority.com\/samsung-unpacked-foldables-2023-3325070\/"
+    },
+    {
+        "url": "https:\/\/www.pnas.org\/doi\/full\/10.1073\/pnas.2216573120"
+    },
+    {
+        "url": "http:\/\/www.techmeme.com\/230516\/p6#a230516p6"
+    },
+    {
+        "url": "https:\/\/techcrunch.com\/2023\/05\/16\/this-uk-startup-plans-to-radically-shake-up-the-antiquated-word-of-copd-measurement\/"
+    },
+    {
+        "url": "https:\/\/mashable.com\/article\/google-pixel-battery-drain-fix"
+    },
+    {
+        "url": "https:\/\/thenextweb.com\/news\/first-contact-framery-reveals-new-office-pod-in-person-effect"
+    },
+    {
+        "url": "https:\/\/oblivus.com"
+    },
+    {
+        "url": "https:\/\/www.moneycontrol.com\/news\/trends\/how-hyderabad-techie-got-interview-calls-from-google-microsoft-amazon-infosys-and-goldman-sachs-10596821.html"
+    },
+    {
         "url": "https:\/\/news.ycombinator.com\/item?id=35958531"
     },
     {
@@ -19,6 +187,9 @@ var techNewsLinksJsonVar =
         "url": "http:\/\/www.techmeme.com\/230516\/p4#a230516p4"
     },
     {
+        "url": "https:\/\/bigthink.com\/starts-with-a-bang\/singularity-inside-black-hole\/"
+    },
+    {
         "url": "https:\/\/www.engadget.com\/peacock-will-exclusively-stream-one-nfl-playoff-game-055049555.html?src=rss"
     },
     {
@@ -32,6 +203,9 @@ var techNewsLinksJsonVar =
     },
     {
         "url": "https:\/\/www.androidauthority.com\/whatsapp-chat-lock-3325016\/"
+    },
+    {
+        "url": "https:\/\/9to5mac.com\/2023\/05\/15\/iphone-16-pro-larger-display-periscope\/"
     },
     {
         "url": "https:\/\/9to5mac.com\/2023\/05\/15\/iphone-16-pro-larger-display-periscope\/"
@@ -59,9 +233,6 @@ var techNewsLinksJsonVar =
     },
     {
         "url": "https:\/\/mashable.com\/uk\/deals\/how-to-watch-iqiyi"
-    },
-    {
-        "url": "https:\/\/mashable.com\/uk\/deals\/unblock-porn-sites-for-free"
     },
     {
         "url": "https:\/\/mashable.com\/uk\/deals\/how-to-unblock-google-bard"
@@ -178,6 +349,9 @@ var techNewsLinksJsonVar =
         "url": "https:\/\/www.techrepublic.com\/article\/israel-threat-actors-email-attacks\/"
     },
     {
+        "url": "https:\/\/www.cnbc.com\/2023\/05\/15\/tesla-ceo-elon-musk-says-in-email-he-must-approve-all-hires.html"
+    },
+    {
         "url": "https:\/\/blog.visionarycto.com\/p\/my-20-year-career-is-technical-debt"
     },
     {
@@ -271,10 +445,10 @@ var techNewsLinksJsonVar =
         "url": "https:\/\/www.theverge.com\/2023\/5\/15\/23724493\/google-texts-crisis-suicide-lifeline-prewritten"
     },
     {
-        "url": "https:\/\/gizmodo.com\/windows-11-airdrop-iphone-pc-phone-link-transfer-calls-1850439311"
+        "url": "https:\/\/www.techradar.com\/news\/leica-q3-leak-shows-itll-have-a-big-bonus-for-street-photography"
     },
     {
-        "url": "http:\/\/www.techmeme.com\/230515\/p23#a230515p23"
+        "url": "https:\/\/gizmodo.com\/windows-11-airdrop-iphone-pc-phone-link-transfer-calls-1850439311"
     },
     {
         "url": "https:\/\/www.cnet.com\/tech\/mobile\/google-fixes-pixel-update-error-leading-to-overheating-battery-drain-issues\/#ftag=CADf328eec"
@@ -311,6 +485,9 @@ var techNewsLinksJsonVar =
     },
     {
         "url": "https:\/\/www.cnet.com\/how-to\/slow-wi-fi-your-internet-provider-may-be-throttling-your-speed-heres-how-to-tell\/#ftag=CADf328eec"
+    },
+    {
+        "url": "https:\/\/www.androidpolice.com\/sonos-goodbye-locally-stored-music\/"
     },
     {
         "url": "https:\/\/www.cnet.com\/tech\/mobile\/best-phone\/#ftag=CADf328eec"
@@ -409,9 +586,6 @@ var techNewsLinksJsonVar =
         "url": "https:\/\/lifehacker.com\/perfect-posture-is-overrated-1850438670"
     },
     {
-        "url": "https:\/\/www.theatlantic.com\/technology\/archive\/2023\/05\/stealth-wealth-fashion-trend-succession-tiktok\/674065\/"
-    },
-    {
         "url": "https:\/\/www.cnet.com\/personal-finance\/taxes\/irs-could-be-testing-a-free-electronic-tax-filing-service\/#ftag=CADf328eec"
     },
     {
@@ -422,9 +596,6 @@ var techNewsLinksJsonVar =
     },
     {
         "url": "https:\/\/www.livescience.com\/health\/medicine-drugs\/1st-of-its-kind-drug-for-severe-hot-flashes-during-menopause-approved-by-fda"
-    },
-    {
-        "url": "http:\/\/www.techmeme.com\/230515\/p22#a230515p22"
     },
     {
         "url": "https:\/\/9to5mac.com\/2023\/05\/15\/download-mosaic-wallpapers-for-iphone\/"
@@ -482,6 +653,9 @@ var techNewsLinksJsonVar =
     },
     {
         "url": "https:\/\/openprocessing.org\/sketch\/1575230\/"
+    },
+    {
+        "url": "https:\/\/www.entrepreneur.com\/business-news\/he-secretly-works-2-full-time-remote-jobs-and-makes-6\/452175"
     },
     {
         "url": "https:\/\/www.engadget.com\/best-smartwatches-153013118.html?src=rss"
@@ -559,9 +733,6 @@ var techNewsLinksJsonVar =
         "url": "https:\/\/www.theverge.com\/2023\/5\/15\/23723969\/elon-musk-twitter-sitter-sec-settlement-court-reject"
     },
     {
-        "url": "https:\/\/www.theverge.com\/2023\/5\/15\/23723969\/elon-musk-twitter-sitter-sec-settlement-court-reject"
-    },
-    {
         "url": "https:\/\/techcrunch.com\/2023\/05\/15\/chief-twit-elon-musk-loses-appeal-to-be-able-to-tweet-about-tesla-unchecked\/"
     },
     {
@@ -572,9 +743,6 @@ var techNewsLinksJsonVar =
     },
     {
         "url": "https:\/\/www.cnet.com\/how-to\/how-to-save-money-on-your-monthly-internet-bill\/#ftag=CADf328eec"
-    },
-    {
-        "url": "http:\/\/www.techmeme.com\/230515\/p21#a230515p21"
     },
     {
         "url": "https:\/\/www.cnet.com\/how-to\/dont-let-fruit-flies-take-over-your-kitchen-heres-how-to-get-rid-of-them\/#ftag=CADf328eec"
@@ -605,9 +773,6 @@ var techNewsLinksJsonVar =
     },
     {
         "url": "https:\/\/www.engadget.com\/whatsapps-new-privacy-feature-locks-sensitive-chats-and-hides-them-from-notifications-181005512.html?src=rss"
-    },
-    {
-        "url": "https:\/\/github.com\/SysSec-KAIST\/LTESniffer"
     },
     {
         "url": "https:\/\/gizmodo.com\/saturn-most-moons-solar-system-jupiter-1850437660"
@@ -641,9 +806,6 @@ var techNewsLinksJsonVar =
     },
     {
         "url": "https:\/\/www.cnet.com\/news\/internet-providers-in-my-area\/#ftag=CADf328eec"
-    },
-    {
-        "url": "https:\/\/wccftech.com\/download-apple-releases-ios-16-5-updated-released-candidate-build-for-iphone\/"
     },
     {
         "url": "https:\/\/www.engadget.com\/best-video-streaming-services-133000093.html?src=rss"
@@ -688,13 +850,7 @@ var techNewsLinksJsonVar =
         "url": "https:\/\/www.cnet.com\/tech\/mobile\/iphone-15-apples-latest-rumors-product-predictions-and-more\/#ftag=CADf328eec"
     },
     {
-        "url": "https:\/\/www.slashgear.com\/1286202\/telly-dual-screen-ad-supported-tv-free-how-to-get-one\/"
-    },
-    {
         "url": "https:\/\/www.androidauthority.com\/microsoft-activision-blizzard-2-3324787\/"
-    },
-    {
-        "url": "https:\/\/www.slashgear.com\/1286191\/how-to-watch-local-tv-channels-apple-tv\/"
     },
     {
         "url": "https:\/\/arstechnica.com\/?p=1939292"
@@ -706,9 +862,6 @@ var techNewsLinksJsonVar =
         "url": "https:\/\/www.techspot.com\/news\/98690-astronomers-observe-largest-energy-explosion-ever-detected-universe.html"
     },
     {
-        "url": "https:\/\/wccftech.com\/maxon-adds-supports-for-amd-radeon-pro-gpus-to-redshift-several-new-features\/"
-    },
-    {
         "url": "https:\/\/gizmodo.com\/heat-wave-pacific-northwest-seattle-hoquiam-may-2023-1850437995"
     },
     {
@@ -716,9 +869,6 @@ var techNewsLinksJsonVar =
     },
     {
         "url": "https:\/\/techcrunch.com\/2023\/05\/15\/venture-capital-investors-active-founders\/"
-    },
-    {
-        "url": "https:\/\/wccftech.com\/diablo-iv-is-our-darkest-story-yet-says-blizzard\/"
     },
     {
         "url": "https:\/\/www.cnet.com\/culture\/best-wine-club\/#ftag=CADf328eec"
@@ -739,12 +889,6 @@ var techNewsLinksJsonVar =
         "url": "https:\/\/9to5google.com\/2023\/05\/15\/htc-confirms-u23-pro-launch\/"
     },
     {
-        "url": "https:\/\/wccftech.com\/activision-blizzard-eu-approval-uk-cma-not-impressed-sticking-to-guns\/"
-    },
-    {
-        "url": "https:\/\/wccftech.com\/patriot-teases-viper-gen5-ssds-up-to-12-4-gbps-with-fan-cooler-computex-unveil\/"
-    },
-    {
         "url": "https:\/\/www.techrepublic.com\/article\/ciso-survey-challenges-priorities\/"
     },
     {
@@ -760,22 +904,13 @@ var techNewsLinksJsonVar =
         "url": "https:\/\/9to5mac.com\/2023\/05\/15\/oculus-founder-apple-headset-wwdc\/"
     },
     {
-        "url": "https:\/\/www.cnet.com\/tech\/computing\/apples-m3-chip-reportedly-in-the-works-but-you-might-not-see-it-until-next-year\/#ftag=CADf328eec"
-    },
-    {
         "url": "https:\/\/www.engadget.com\/telly-will-give-you-a-free-tv-if-youll-watch-non-stop-ads-164319359.html?src=rss"
     },
     {
         "url": "https:\/\/www.theverge.com\/2023\/5\/15\/23724168\/avatar-the-way-of-water-disney-plus-max-release-date-streaming"
     },
     {
-        "url": "https:\/\/ambcrypto.com\/blog\/how-to-run-auto-gpt-and-automate-your-tasks-a-complete-guide\/"
-    },
-    {
         "url": "https:\/\/www.space.com\/most-powerful-black-hole-may-finally-be-explained"
-    },
-    {
-        "url": "https:\/\/www.cnet.com\/tech\/home-entertainment\/startup-telly-offers-you-a-free-55-inch-tv-in-exchange-for-constant-ads\/"
     },
     {
         "url": "https:\/\/www.androidauthority.com\/google-drive-spam-folder-3324778\/"
@@ -785,9 +920,6 @@ var techNewsLinksJsonVar =
     },
     {
         "url": "https:\/\/www.computerworld.com\/article\/3696237\/eu-commission-oks-microsoft-s-69b-acquisition-of-activision-blizzard.html#tk.rss_all"
-    },
-    {
-        "url": "https:\/\/wccftech.com\/how-to\/how-to-root-the-pixel-7a-using-magisk\/"
     },
     {
         "url": "https:\/\/www.theverge.com\/2023\/5\/15\/23724054\/sonos-android-on-this-device-shutting-down"
@@ -806,9 +938,6 @@ var techNewsLinksJsonVar =
     },
     {
         "url": "https:\/\/mashable.com\/deals\/may-15-echelon-connect-exercise-bike"
-    },
-    {
-        "url": "https:\/\/dynomight.net\/procrastination\/"
     },
     {
         "url": "https:\/\/themessenger.com\/news\/cash-app-founder-lived-the-lifestyle-of-casual-sex-and-drugs-before-murder-report"
@@ -850,9 +979,6 @@ var techNewsLinksJsonVar =
         "url": "https:\/\/arstechnica.com\/?p=1939234"
     },
     {
-        "url": "https:\/\/wccftech.com\/gigabyte-server-power-consumption-roadmap-points-600w-cpus-700w-gpus-by-2025\/"
-    },
-    {
         "url": "https:\/\/techcrunch.com\/2023\/05\/15\/ai-weak-investments\/"
     },
     {
@@ -871,9 +997,6 @@ var techNewsLinksJsonVar =
         "url": "https:\/\/devblogs.microsoft.com\/powershell-community\/measuring-script-execution-time"
     },
     {
-        "url": "https:\/\/wccftech.com\/the-lord-of-the-rings-mmo-once-again-in-production-at-amazon\/"
-    },
-    {
         "url": "https:\/\/9to5mac.com\/2023\/05\/15\/apple-pencil-2-apple-watch-ultra-more\/"
     },
     {
@@ -889,22 +1012,13 @@ var techNewsLinksJsonVar =
         "url": "https:\/\/9to5google.com\/2023\/05\/15\/pixel-4-radio-ads-texas-settlement\/"
     },
     {
-        "url": "https:\/\/wccftech.com\/apple-ar-headset-launch-and-price\/"
-    },
-    {
         "url": "https:\/\/www.androidauthority.com\/t-mobile-mlbtv-may-2023-3324761\/"
-    },
-    {
-        "url": "https:\/\/techcrunch.com\/2023\/05\/15\/zestmoney-founders-resign-as-goldman-sachs-backed-fintech-struggles-to-raise-funds\/"
     },
     {
         "url": "https:\/\/gizmodo.com\/jared-padalecki-supernatural-jensen-ackles-winchester-1850437632"
     },
     {
         "url": "https:\/\/devblogs.microsoft.com\/cosmosdb\/azure-cosmos-db-at-build-2023-everything-you-need-to-know"
-    },
-    {
-        "url": "https:\/\/techcrunch.com\/2023\/05\/15\/chipolo-brings-its-lost-item-trackers-to-androids-find-my-device-network\/"
     },
     {
         "url": "https:\/\/www.techspot.com\/news\/98692-sega-tower-power-now-available-pc.html"
@@ -914,9 +1028,6 @@ var techNewsLinksJsonVar =
     },
     {
         "url": "https:\/\/www.theverge.com\/23723787\/amazon-lord-of-the-rings-mmo"
-    },
-    {
-        "url": "https:\/\/wccftech.com\/vampire-the-masquerade-bloodhunt-will-cease-development-servers-will-remain-live\/"
     },
     {
         "url": "https:\/\/www.wired.com\/story\/unfair-automated-hiring-systems-are-everywhere-ftc\/"
@@ -964,16 +1075,10 @@ var techNewsLinksJsonVar =
         "url": "https:\/\/mashable.com\/deals\/may-15-shark-vacuum"
     },
     {
-        "url": "https:\/\/wccftech.com\/casetify-discount-live-on-apple-samsung-and-google-accessories\/"
-    },
-    {
         "url": "https:\/\/lifehacker.com\/you-should-hand-pollinate-these-fruits-and-veggies-to-g-1850436492"
     },
     {
         "url": "https:\/\/www.theguardian.com\/business\/2017\/may\/02\/where-oil-rigs-go-to-die"
-    },
-    {
-        "url": "https:\/\/www.pcworld.com\/article\/1917169\/mysterious-new-intel-patch-surfaces-for-virtually-all-core-chips.html"
     },
     {
         "url": "https:\/\/gizmodo.com\/telly-free-4k-tv-ad-data-privacy-dual-screen-get-sign-u-1850437216"
@@ -1069,9 +1174,6 @@ var techNewsLinksJsonVar =
         "url": "https:\/\/gizmodo.com\/hot-toys-guardians-of-the-galaxy-rocket-cosmo-1850415355"
     },
     {
-        "url": "https:\/\/venturebeat.com\/ai\/openai-is-rolling-out-chatgpt-plugins-to-plus-subscribers-heres-why-thats-a-big-deal\/"
-    },
-    {
         "url": "https:\/\/9to5google.com\/2023\/05\/15\/hp-dragonfly-pro-chromebook-review\/"
     },
     {
@@ -1120,6 +1222,9 @@ var techNewsLinksJsonVar =
         "url": "https:\/\/www.computerworld.com\/article\/3118132\/windows-10-insider-previews-a-guide-to-the-builds.html#tk.rss_all"
     },
     {
+        "url": "http:\/\/blog.cloudflare.com\/introducing-constellation\/"
+    },
+    {
         "url": "https:\/\/www.livescience.com\/health\/exercise\/the-apple-watch-series-8-is-reduced-again-at-amazon-making-it-well-worth-a-look"
     },
     {
@@ -1139,9 +1244,6 @@ var techNewsLinksJsonVar =
     },
     {
         "url": "http:\/\/blog.cloudflare.com\/introducing-cursor-the-ai-assistant-for-docs\/"
-    },
-    {
-        "url": "http:\/\/blog.cloudflare.com\/introducing-constellation\/"
     },
     {
         "url": "http:\/\/blog.cloudflare.com\/cloudflare-chatgpt-plugins\/"
@@ -1180,9 +1282,6 @@ var techNewsLinksJsonVar =
         "url": "https:\/\/www.inc.com\/justin-bariso\/change-management-emotional-intelligence-new-twitter-ceo.html"
     },
     {
-        "url": "https:\/\/www.tomsguide.com\/how-to\/amazon-prime-video-just-made-it-easier-to-hear-dialog-turn-this-feature-on-now"
-    },
-    {
         "url": "https:\/\/www.phoronix.com\/news\/Coreboot-4.20"
     },
     {
@@ -1219,9 +1318,6 @@ var techNewsLinksJsonVar =
         "url": "https:\/\/9to5mac.com\/2023\/05\/15\/apple-wearable-tags\/"
     },
     {
-        "url": "https:\/\/www.engadget.com\/the-morning-after-twitter-has-a-new-ceo-111547375.html?src=rss"
-    },
-    {
         "url": "https:\/\/mashable.com\/uk\/deals\/ipl-live-stream-for-free"
     },
     {
@@ -1244,9 +1340,6 @@ var techNewsLinksJsonVar =
     },
     {
         "url": "https:\/\/www.phoronix.com\/news\/RadeonSI-Adds-Use-ACO"
-    },
-    {
-        "url": "https:\/\/www.forbes.com\/sites\/gordonkelly\/2023\/05\/15\/apple-iphone-15-pro-max-periscope-camera-design-change-exclusive-new-iphone-upgrade\/"
     },
     {
         "url": "https:\/\/www.techspot.com\/news\/98685-game-installs-100gb-or-larger-have-become-standard.html"
@@ -1291,9 +1384,6 @@ var techNewsLinksJsonVar =
         "url": "https:\/\/www.techrepublic.com\/article\/oracle-peoplesoft-review\/"
     },
     {
-        "url": "https:\/\/www.livescience.com\/archaeology\/2300-year-old-scissors-and-folded-sword-discovered-in-a-celtic-cremation-tomb-in-germany"
-    },
-    {
         "url": "https:\/\/mashable.com\/deals\/may-15-ai-resume-builder"
     },
     {
@@ -1324,9 +1414,6 @@ var techNewsLinksJsonVar =
         "url": "https:\/\/www.androidauthority.com\/google-pixel-4-deceptive-ads-lawsuit-3324603\/"
     },
     {
-        "url": "https:\/\/www.mirror.co.uk\/tech\/gmail-upgrade-ai-smart-reply-29979551"
-    },
-    {
         "url": "https:\/\/www.wired.com\/story\/internet-connection-records-uk-surveillance\/"
     },
     {
@@ -1339,13 +1426,13 @@ var techNewsLinksJsonVar =
         "url": "https:\/\/warms.maxbittker.repl.co\/"
     },
     {
+        "url": "https:\/\/arstechnica.com\/tech-policy\/2023\/05\/musks-tesla-tweets-to-remain-on-sec-leash-court-rules\/"
+    },
+    {
         "url": "https:\/\/9to5google.com\/2023\/05\/14\/gboard-split-keyboard-tablets\/"
     },
     {
         "url": "https:\/\/www.androidauthority.com\/what-is-midjourney-3324590\/"
-    },
-    {
-        "url": "https:\/\/github.com\/mitsuhiko\/self-replace"
     },
     {
         "url": "https:\/\/en.wal.unesco.org\/discover\/languages"
@@ -1387,10 +1474,16 @@ var techNewsLinksJsonVar =
         "url": "https:\/\/www.youtube.com\/watch?v=l2SQgjYmVYY"
     },
     {
+        "url": "https:\/\/staysaasy.com\/product\/2023\/05\/14\/product-sense.html"
+    },
+    {
         "url": "https:\/\/9to5google.com\/2023\/05\/14\/google-contacts-birthday-notifications\/"
     },
     {
         "url": "https:\/\/9to5mac.com\/2023\/05\/14\/iphone-14-satellite-features-australia-new-zealand\/"
+    },
+    {
+        "url": "https:\/\/blog.plover.com\/notes\/game-mechanics.html"
     },
     {
         "url": "https:\/\/www.phoronix.com\/news\/Linux-6.4-rc2"
@@ -1495,9 +1588,6 @@ var techNewsLinksJsonVar =
         "url": "https:\/\/mashable.com\/article\/eurovision-grand-final-social-media-reaction"
     },
     {
-        "url": "https:\/\/hpbn.co\/"
-    },
-    {
         "url": "https:\/\/gizmodo.com\/rooftop-solar-panels-could-power-a-third-of-u-s-manufa-1850433718"
     },
     {
@@ -1582,9 +1672,6 @@ var techNewsLinksJsonVar =
         "url": "https:\/\/mashable.com\/article\/open-ai-rollout-chatgpt-plugins"
     },
     {
-        "url": "https:\/\/www.androidauthority.com\/google-pixel-7a-a-series-2-3319963\/"
-    },
-    {
         "url": "https:\/\/gizmodo.com\/doctor-who-david-tennant-60th-anniversary-trailer-bbc-1850435109"
     },
     {
@@ -1594,13 +1681,7 @@ var techNewsLinksJsonVar =
         "url": "https:\/\/lifehacker.com\/never-put-these-things-down-any-drain-in-your-home-1850426969"
     },
     {
-        "url": "https:\/\/www.theverge.com\/2023\/5\/13\/23719115\/google-ai-help-me-write-communications-email"
-    },
-    {
         "url": "https:\/\/mashable.com\/article\/tiktok-iphone-search-widget"
-    },
-    {
-        "url": "https:\/\/www.androidauthority.com\/android-apps-weekly-484-3323893\/"
     },
     {
         "url": "https:\/\/spectrum.ieee.org\/evtol-policy-strategy"
@@ -1711,16 +1792,10 @@ var techNewsLinksJsonVar =
         "url": "https:\/\/mashable.com\/deals\/best-antivirus-software-deals"
     },
     {
-        "url": "https:\/\/mashable.com\/deals\/best-gaming-deals"
-    },
-    {
         "url": "https:\/\/mashable.com\/deals\/may-13-ryori-chef-knife"
     },
     {
         "url": "https:\/\/mashable.com\/deals\/may-13-super-console-x"
-    },
-    {
-        "url": "https:\/\/mashable.com\/article\/nasa-greenland-melting"
     },
     {
         "url": "https:\/\/mashable.com\/article\/how-to-watch-mlb-out-of-network"
@@ -1852,12 +1927,6 @@ var techNewsLinksJsonVar =
         "url": "https:\/\/www.techspot.com\/news\/98675-toyota-accidentally-exposed-millions-customers-data-nearly-decade.html"
     },
     {
-        "url": "https:\/\/mashable.com\/video\/bella-ramsey-eurovision"
-    },
-    {
-        "url": "https:\/\/mashable.com\/video\/the-great-season-3"
-    },
-    {
         "url": "https:\/\/lifehacker.com\/add-peanut-powder-to-your-cooking-toolkit-1850432861"
     },
     {
@@ -1885,12 +1954,6 @@ var techNewsLinksJsonVar =
         "url": "https:\/\/9to5mac.com\/2023\/05\/12\/abode-security-system-in-2023-still-the-best-for-homekit\/"
     },
     {
-        "url": "https:\/\/mashable.com\/article\/elon-musk-new-twitter-ceo-linda-yaccarino"
-    },
-    {
-        "url": "https:\/\/mashable.com\/deals\/memorial-day-sales-2023"
-    },
-    {
         "url": "https:\/\/9to5mac.com\/2023\/05\/12\/best-4k-usb-c-displays-for-macbook-and-macbook-pro\/"
     },
     {
@@ -1909,9 +1972,6 @@ var techNewsLinksJsonVar =
         "url": "https:\/\/devblogs.microsoft.com\/typescript\/introducing-deopt-explorer"
     },
     {
-        "url": "https:\/\/mashable.com\/article\/pixel-7a-vs-iphone-14-vs-samsung-galaxy-s23-comparison"
-    },
-    {
         "url": "https:\/\/lifehacker.com\/beware-of-these-scams-targeting-new-homeowners-1850432484"
     },
     {
@@ -1927,31 +1987,16 @@ var techNewsLinksJsonVar =
         "url": "https:\/\/arstechnica.com\/?p=1938927"
     },
     {
-        "url": "https:\/\/mashable.com\/deals\/best-headphones-deals"
-    },
-    {
         "url": "https:\/\/www.techspot.com\/products\/storage\/western-digital-m2-2280-black-sn850x-series-nvme-pcie.258905\/"
     },
     {
-        "url": "https:\/\/mashable.com\/deals\/may-12-bi-amor-dildo"
-    },
-    {
-        "url": "https:\/\/mashable.com\/deals\/may-12-dyson-ball-animal-3"
-    },
-    {
         "url": "https:\/\/lifehacker.com\/how-the-primacy-effect-can-help-you-remember-informat-1850432109"
-    },
-    {
-        "url": "https:\/\/mashable.com\/article\/tiktok-new-music-hub"
     },
     {
         "url": "https:\/\/github.blog\/2023-05-12-how-i-used-github-copilot-to-build-a-browser-extension\/"
     },
     {
         "url": "https:\/\/spectrum.ieee.org\/video-friday-acromonk"
-    },
-    {
-        "url": "https:\/\/mashable.com\/article\/how-to-try-musiclm-google-ai"
     },
     {
         "url": "https:\/\/9to5mac.com\/2023\/05\/12\/airpods-max-deals\/"
@@ -1979,15 +2024,6 @@ var techNewsLinksJsonVar =
     },
     {
         "url": "https:\/\/9to5mac.com\/2023\/05\/12\/exposure-notifications-off-iphone\/"
-    },
-    {
-        "url": "https:\/\/mashable.com\/deals\/may-12-keurig-amazon-deal"
-    },
-    {
-        "url": "https:\/\/mashable.com\/article\/dyson-airstrait"
-    },
-    {
-        "url": "https:\/\/mashable.com\/article\/google-search-labs-ai-chatbot-features-waitlist"
     },
     {
         "url": "https:\/\/lifehacker.com\/make-a-breakfast-vinaigrette-with-bacon-and-mrs-butter-1850429774"
@@ -2051,9 +2087,6 @@ var techNewsLinksJsonVar =
     },
     {
         "url": "https:\/\/www.computerworld.com\/article\/3685936\/tech-layoffs-in-2023-a-timeline.html#tk.rss_all"
-    },
-    {
-        "url": "https:\/\/mashable.com\/uk\/roundup\/best-vpn-for-porn-uk"
     },
     {
         "url": "https:\/\/www.techspot.com\/news\/98670-sony-unveils-xperia-v-flagship-smartphone-4k-hdr.html"
@@ -2125,9 +2158,6 @@ var techNewsLinksJsonVar =
         "url": "https:\/\/www.computerworld.com\/article\/3696275\/ibms-watsonx-could-be-a-generative-ai-game-changer.html#tk.rss_all"
     },
     {
-        "url": "https:\/\/www.techrepublic.com\/article\/microsoft-powershell-certification-automation\/"
-    },
-    {
         "url": "https:\/\/mariadb.org\/mariadb-coding-standards\/"
     },
     {
@@ -2156,9 +2186,6 @@ var techNewsLinksJsonVar =
     },
     {
         "url": "https:\/\/arstechnica.com\/?p=1937997"
-    },
-    {
-        "url": "https:\/\/www.phoronix.com\/news\/Linux-Deprecating-Removing-SLAB"
     },
     {
         "url": "https:\/\/9to5mac.com\/2023\/05\/11\/daily-may-11-2023\/"
@@ -2269,9 +2296,6 @@ var techNewsLinksJsonVar =
         "url": "https:\/\/9to5mac.com\/2023\/05\/11\/m2-pro-mac-mini-beats-fit-pro-colors\/"
     },
     {
-        "url": "https:\/\/www.phoronix.com\/news\/ASUS-ROG-Ally"
-    },
-    {
         "url": "https:\/\/www.wired.com\/story\/spotify-ai-music-robot-listeners\/"
     },
     {
@@ -2285,9 +2309,6 @@ var techNewsLinksJsonVar =
     },
     {
         "url": "https:\/\/www.wired.com\/review\/asus-rog-ally\/"
-    },
-    {
-        "url": "https:\/\/www.phoronix.com\/news\/System76-COSMIC-April"
     },
     {
         "url": "https:\/\/9to5mac.com\/2023\/05\/11\/apple-tv-foundation-season-2-trailer-release-date\/"
@@ -2333,12 +2354,6 @@ var techNewsLinksJsonVar =
     },
     {
         "url": "https:\/\/9to5mac.com\/2023\/05\/11\/twitter-encrypted-dms-3\/"
-    },
-    {
-        "url": "https:\/\/www.wired.com\/story\/google-doesnt-need-you-to-buy-a-pixel-fold\/"
-    },
-    {
-        "url": "https:\/\/www.wired.com\/story\/epa-lawsuit-biden-cybersecurity-critical-infrastructure\/"
     },
     {
         "url": "https:\/\/9to5mac.com\/2023\/05\/11\/apple-tv-plus-tv-shows-movies-guide\/"
@@ -2506,9 +2521,6 @@ var techNewsLinksJsonVar =
         "url": "https:\/\/www.computerworld.com\/article\/3695535\/microsoft-adds-m365-copilot-to-more-apps-extends-customer-trial-to-600-firms.html#tk.rss_all"
     },
     {
-        "url": "https:\/\/9to5mac.com\/2023\/05\/09\/beats-studio-prosamuel-ross-of-a-cold-wall\/"
-    },
-    {
         "url": "https:\/\/github.blog\/2023-05-09-how-to-fix-a-redos\/"
     },
     {
@@ -2557,13 +2569,7 @@ var techNewsLinksJsonVar =
         "url": "https:\/\/thenextweb.com\/news\/4-day-work-week-nine-day-fortnight"
     },
     {
-        "url": "https:\/\/www.computerworld.com\/article\/3695734\/dont-replace-your-people-with-chatgpt-or-other-a-i-services.html#tk.rss_all"
-    },
-    {
         "url": "https:\/\/thenextweb.com\/news\/eu-to-make-open-access-research-default-rein-in-scientific-publishing"
-    },
-    {
-        "url": "https:\/\/www.computerworld.com\/article\/3695581\/after-the-remote-work-rush-vacant-offices-and-empty-downtowns.html#tk.rss_all"
     },
     {
         "url": "https:\/\/vivaldi.com\/blog\/news\/back-on-the-road-again\/"
@@ -2597,8 +2603,5 @@ var techNewsLinksJsonVar =
     },
     {
         "url": "https:\/\/www.technewsworld.com\/story\/are-mainframes-an-indicator-of-banking-reliability-178260.html?rss=1"
-    },
-    {
-        "url": "https:\/\/connectlp.keysight.com\/Emulation_Test?elqCampaignId=25081&cmpid=ASC-2109344&utm_source=ADSC&utm_medium=ASC&utm_campaign=302"
     }
 ]

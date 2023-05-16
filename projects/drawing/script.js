@@ -4,7 +4,7 @@
 
 var xxx = document.getElementById("btn");
 var xxx2 = document.getElementById("ads2");
-var brushSize = 3;
+var brushSize = 5;
 
 
 
