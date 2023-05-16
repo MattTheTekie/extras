@@ -298,7 +298,7 @@ comMessagePrint = 'id: '+postId;
 // post in title only when id
 if(id != ''&&getP2 == null){
 //document.getElementsByTagName('title')[0].innerHTML = postText.slice(0, 70);
-document.getElementsByTagName('title')[0].innerHTML = postText;
+document.getElementsByTagName('title')[0].innerHTML = postText+' | '+confHost;;
 }
 if(getP2 != null){
 comMessagePrint += ' p2: '+getP2;

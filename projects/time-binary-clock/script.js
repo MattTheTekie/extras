@@ -56,7 +56,7 @@ normalize2(Number(seconds.toString()).toString(2))
 document.getElementById('result').innerHTML = print;
 
 document.getElementById('result2').innerHTML = '<div class="block small padding margin block tCenter">'+hours+':'+minutes+':'+seconds+'</div></div>';
-document.getElementsByTagName('title')[0].innerHTML = print;
+document.getElementsByTagName('title')[0].innerHTML = print+' | '+confHost;
 
 
 //https://en.wikipedia.org/wiki/Binary-coded_decimal
