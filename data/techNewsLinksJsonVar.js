@@ -1,6 +1,9 @@
 var techNewsLinksJsonVar = 
 [
     {
+        "url": "http:\/\/www.techmeme.com\/230515\/p28#a230515p28"
+    },
+    {
         "url": "https:\/\/www.ycombinator.com\/companies\/peoplebox\/jobs\/kpFkrzX-principal-engineer"
     },
     {
@@ -19,13 +22,16 @@ var techNewsLinksJsonVar =
         "url": "https:\/\/www.npr.org\/sections\/health-shots\/2023\/05\/15\/1175889585\/hospitals-create-police-forces-to-stem-growing-violence-against-staff"
     },
     {
-        "url": "https:\/\/www.latimes.com\/business\/story\/2023-05-10\/column-these-are-the-companies-whose-thirst-for-profits-drove-inflation-higher"
-    },
-    {
         "url": "https:\/\/www.bloomberg.com\/news\/articles\/2023-05-11\/ken-griffin-s-hand-picked-math-prodigy-peng-zhao-runs-market-making-empire"
     },
     {
         "url": "https:\/\/www.slashgear.com\/1286812\/how-to-clear-storage-data-android-device\/"
+    },
+    {
+        "url": "https:\/\/arstechnica.com\/?p=1939441"
+    },
+    {
+        "url": "https:\/\/spectrum.ieee.org\/vint-cerf-advice"
     },
     {
         "url": "https:\/\/capillaries.io"
@@ -89,9 +95,6 @@ var techNewsLinksJsonVar =
     },
     {
         "url": "https:\/\/gizmodo.com\/indiana-jones-5-runtime-length-first-clip-harrison-ford-1850439320"
-    },
-    {
-        "url": "https:\/\/www.thebrighterside.news\/post\/game-changing-discovery-restores-muscle-strength-in-older-adults"
     },
     {
         "url": "https:\/\/github.com\/hat-open\/hat-syslog"
@@ -427,9 +430,6 @@ var techNewsLinksJsonVar =
         "url": "https:\/\/techcrunch.com\/2023\/05\/15\/europe-could-be-on-the-cusp-of-a-golden-era-in-robotics-heres-why\/"
     },
     {
-        "url": "https:\/\/www.laptopmag.com\/news\/some-google-pixel-phones-are-overheating-burning-up-battery-life-this-app-is-to-blame"
-    },
-    {
         "url": "https:\/\/lifehacker.com\/ignore-this-bad-financial-advice-that-s-everywhere-onli-1850433576"
     },
     {
@@ -608,6 +608,9 @@ var techNewsLinksJsonVar =
     },
     {
         "url": "https:\/\/www.androidauthority.com\/microsoft-activision-blizzard-2-3324787\/"
+    },
+    {
+        "url": "https:\/\/www.slashgear.com\/1286191\/how-to-watch-local-tv-channels-apple-tv\/"
     },
     {
         "url": "https:\/\/www.slashgear.com\/1286191\/how-to-watch-local-tv-channels-apple-tv\/"
@@ -1120,9 +1123,6 @@ var techNewsLinksJsonVar =
         "url": "https:\/\/www.techspot.com\/news\/98686-amazon-ai-focus-could-place-items-higher-search.html"
     },
     {
-        "url": "http:\/\/www.techmeme.com\/230515\/p13#a230515p13"
-    },
-    {
         "url": "https:\/\/theconversation.com\/quantum-physics-proposes-a-new-way-to-study-biology-and-the-results-could-revolutionize-our-understanding-of-how-life-works-204995"
     },
     {
@@ -1174,9 +1174,6 @@ var techNewsLinksJsonVar =
         "url": "https:\/\/mashable.com\/uk\/deals\/ipl-live-stream-for-free"
     },
     {
-        "url": "https:\/\/flipboard.com\/video\/euronews\/644dec8c35"
-    },
-    {
         "url": "https:\/\/www.techspot.com\/article\/2664-pci-express-explained\/"
     },
     {
@@ -1196,9 +1193,6 @@ var techNewsLinksJsonVar =
     },
     {
         "url": "https:\/\/apnews.com\/article\/twitter-musk-yaccarino-ceo-women-glass-cliff-233e5eada047694aa743af2e310875e7"
-    },
-    {
-        "url": "https:\/\/github.com\/zwegner\/x86-sat"
     },
     {
         "url": "https:\/\/www.phoronix.com\/news\/RadeonSI-Adds-Use-ACO"
@@ -1303,6 +1297,9 @@ var techNewsLinksJsonVar =
         "url": "https:\/\/warms.maxbittker.repl.co\/"
     },
     {
+        "url": "https:\/\/www.atlasobscura.com\/articles\/whale-shark-sounds"
+    },
+    {
         "url": "https:\/\/9to5google.com\/2023\/05\/14\/gboard-split-keyboard-tablets\/"
     },
     {
@@ -1342,10 +1339,16 @@ var techNewsLinksJsonVar =
         "url": "https:\/\/mashable.com\/article\/wordle-today-answer-may-14-2023"
     },
     {
+        "url": "https:\/\/www.sciencealert.com\/nasa-wed-have-a-30-minute-warning-before-a-killer-solar-storm-hits-earth"
+    },
+    {
         "url": "https:\/\/9to5google.com\/2023\/05\/14\/google-contacts-birthday-notifications\/"
     },
     {
         "url": "https:\/\/9to5mac.com\/2023\/05\/14\/iphone-14-satellite-features-australia-new-zealand\/"
+    },
+    {
+        "url": "https:\/\/www.thebrighterside.news\/post\/life-changing-new-therapy-kills-cancer-cells-and-boosts-the-body-s-immunity"
     },
     {
         "url": "https:\/\/www.phoronix.com\/news\/Linux-6.4-rc2"
@@ -1751,9 +1754,6 @@ var techNewsLinksJsonVar =
     },
     {
         "url": "https:\/\/www.technewsworld.com\/story\/doj-five-eyes-nations-unite-to-dismantle-russian-cyber-espionage-network-178292.html?rss=1"
-    },
-    {
-        "url": "https:\/\/arstechnica.com\/?p=1939081"
     },
     {
         "url": "https:\/\/arstechnica.com\/?p=1939081"
