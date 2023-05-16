@@ -282,7 +282,7 @@ hr{ border: 1px solid var(--d2); border-bottom:1px solid var(--l); }
 /*::selection { background: #8A9A5B; color: #FFFFFF; }*/
 ::selection { background: darkorange; color: #FFF; }
 
-input, textarea, input:focus, select, button { border: 1px solid var(--d3); background: var(--l2); color: var(--c3); border-radius: 3px; }
+input, textarea, input:focus, select, button, input[type="number"] { border: 1px solid var(--d3); background: var(--l2); color: var(--c3); border-radius: 3px; }
 input:hover, textarea:hover, select:hover, button:hover {  background: var(--l3); }
 input[type="submit"] { background: var(--d); color: var(--c2); }
 input[type="submit"]:hover { background: var(--d2); color: var(--c3); }

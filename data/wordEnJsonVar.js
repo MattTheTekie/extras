@@ -1825,6 +1825,9 @@ var wordEnJsonVar =
         "text": "ads"
     },
     {
+        "text": "adtech"
+    },
+    {
         "text": "adulatory"
     },
     {
@@ -2996,8 +2999,5 @@ var wordEnJsonVar =
     },
     {
         "text": "alerted"
-    },
-    {
-        "text": "alerting"
     }
 ]
