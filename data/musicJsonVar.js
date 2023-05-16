@@ -547,6 +547,20 @@ var musicJsonVar =
         "tag": "#music"
     },
     {
+        "text": "Amyl and the Sniffers - Got You (Official Video) - YouTube",
+        "text2": "",
+        "text3": "",
+        "url": "https:\/\/www.youtube.com\/watch?v=g-X8QkqrDeY",
+        "tag": "#music"
+    },
+    {
+        "text": "Amyl and The Sniffers - Hertz - YouTube",
+        "text2": "",
+        "text3": "",
+        "url": "https:\/\/www.youtube.com\/watch?v=zb5Ja6V4OeY",
+        "tag": "#music"
+    },
+    {
         "text": "Anastacia - Left Outside Alone (2005 U.S. Video) - YouTube",
         "text2": "",
         "text3": "",
