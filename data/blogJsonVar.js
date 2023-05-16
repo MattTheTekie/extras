@@ -1,6 +1,15 @@
 var blogJsonVar = 
 [
     {
+        "id": "80",
+        "text": "new: random-tech-news-url",
+        "text2": "",
+        "text3": "",
+        "url": "",
+        "tag": "#i",
+        "time": 1684215699
+    },
+    {
         "id": "79",
         "text": "Addy's Toolkit \u2022 Web Dev & Design Resources \u2013 Curated tools & resources for people who make websites",
         "text2": "",

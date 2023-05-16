@@ -5118,6 +5118,20 @@ var musicJsonVar =
         "tag": "#music"
     },
     {
+        "text": "Hole - Awful - YouTube",
+        "text2": "",
+        "text3": "",
+        "url": "https:\/\/www.youtube.com\/watch?v=85nWO5aE3vs",
+        "tag": "#music"
+    },
+    {
+        "text": "Hole - Celebrity Skin (Official Music Video) - YouTube",
+        "text2": "",
+        "text3": "",
+        "url": "https:\/\/www.youtube.com\/watch?v=O3dWBLoU--E",
+        "tag": "#music"
+    },
+    {
         "text": "Holiday Ghosts - \"Slipstream\" (OFFICIAL VIDEO) - YouTube",
         "text2": "",
         "text3": "",
@@ -5951,6 +5965,13 @@ var musicJsonVar =
         "tag": "#music"
     },
     {
+        "text": "Joni Mitchell - Big Yellow Taxi (2021 Remaster) [Official Audio] - YouTube",
+        "text2": "",
+        "text3": "",
+        "url": "https:\/\/www.youtube.com\/watch?v=SY07dHiT2-s",
+        "tag": "#music"
+    },
+    {
         "text": "Joni Mitchell - Big Yellow Taxi (Official Lyric Video) - YouTube",
         "text2": "",
         "text3": "",
@@ -6298,6 +6319,13 @@ var musicJsonVar =
         "text2": "",
         "text3": "",
         "url": "https:\/\/www.youtube.com\/watch?v=yIJurPwfsOE",
+        "tag": "#music"
+    },
+    {
+        "text": "Kiss Kiss Kiss (Remastered 2010) \u00b7 Yoko Ono",
+        "text2": "",
+        "text3": "",
+        "url": "https:\/\/www.youtube.com\/watch?v=rm_IV6eRqyk",
         "tag": "#music"
     },
     {
@@ -12955,6 +12983,13 @@ var musicJsonVar =
         "text2": "",
         "text3": "",
         "url": "https:\/\/www.youtube.com\/watch?v=AOQZNHueNQQ",
+        "tag": "#music"
+    },
+    {
+        "text": "Yoko Ono Plastic Ono Band - Bad Dancer - YouTube",
+        "text2": "",
+        "text3": "",
+        "url": "https:\/\/www.youtube.com\/watch?v=d3mvEfON2CI",
         "tag": "#music"
     },
     {

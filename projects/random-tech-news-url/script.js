@@ -13,8 +13,18 @@ function getRandomInt(max) {
 
 var url = jsonVar[getRandomInt(jsonVar.length)]['url'];
 
-document.getElementById("result").innerHTML = `<div class="block tCenter"><span class="bold orange">${url}</span><br>
-<br><br><span class="green">redirect after 3s.</span></div>`; 
+document.getElementById("result").innerHTML = `
+
+<div class="wrapper">
+<div class="block tCenter">
+
+<span class="bold orange">${url}</span><br>
+<br><br><span class="green">redirect after 3s.</span>
+
+</div>
+</div>
+
+`; 
 
 setTimeout(function() {
 window.location.href = url;
