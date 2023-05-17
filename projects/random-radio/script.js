@@ -118,7 +118,7 @@ var tag = highlightText2(' '+jsonVar[id]['tag'], '');
 document.getElementById(printId).innerHTML = `
 <div class="block op padding margin tCenter">${comMessagePrint}</div>
 
-<div class="center2">
+<div class="">
 <div class="wrapper">
 
 
