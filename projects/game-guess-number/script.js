@@ -78,7 +78,7 @@ var print = `
 <div class="center2">
 <div class="wrapperS">
 
-<div id="gameResult" class="block tCenter" style="height: 90px;"></div>
+<div id="gameResult" class="block tCenter"></div>
 
 <form id="form">
 
