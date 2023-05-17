@@ -1,7 +1,7 @@
 README.md
 
 
-Homepage and other projects: Extensions: new tab redirect (for Firefox, Chrome). TPL (website templates).  🎮 Game: memory symbol, tic tac toe, typing speed. Todo list. Themes for Firefox, Geany color ...
+Homepage and other projects: Extensions: new tab redirect (for Firefox, Chrome). Website Templates.  🎮 Game: snake, memory symbol, tic tac toe, typing speed. Todo list. Themes for Firefox, Geany color ...
 [https://inonehp.github.io](https://inonehp.github.io)
 
 [#website](https://github.com/topics/website?s=updated)

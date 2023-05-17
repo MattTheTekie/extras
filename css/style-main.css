@@ -289,6 +289,7 @@ input[type="submit"]:hover { background: var(--d2); color: var(--c3); }
 
 input[type="file"] { background: var(--d); color: var(--c); }
 input[type="range"], progress { width: 100%; max-width: 100%; margin: 0; }
+input[type="number"]{ padding: 5px; }
 
 /*input[type=range] {
 -webkit-appearance: none;

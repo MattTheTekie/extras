@@ -5,11 +5,13 @@
 html {
 overflow:   scroll;
 scrollbar-width: 3px;
+
+
 }
 
-/*::-webkit-scrollbar {
+::-webkit-scrollbar {
 width: 3px;
-}*/
+}
 
 
 .block, .block2, .block3, .block4 {
@@ -26,3 +28,11 @@ margin-bottom: 10px;
 .block3 { max-width: 500px; }
 .block4 { max-width: 1000px; }
 
+#result {
+columns: 250px 3; 
+column-gap: 15px;
+min-height: 100px;
+display: block;
+border: 3px solid red;
+padding: 5px;
+}

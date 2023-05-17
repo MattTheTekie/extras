@@ -2,7 +2,7 @@
 
 
 
-/*
+
 console.log(0 / 0);
 // NaN
 
@@ -38,7 +38,7 @@ console.log(n);
 // Expected output: 3
 
 //https://stackoverflow.com/questions/60496566/get-innerhtml-by-data-id
-document.querySelector('[id="test"]').innerHTML = `<spane class="pre">${text}</span>`;
+document.querySelector('[id="result"]').innerHTML += `${text}`;
 
 
 
@@ -54,11 +54,11 @@ console.log('onscrollend');
 
 
 //fuWorker('on');
-*/
+
 
 
 var a = null;
-document.getElementById('test').innerHTML = a;
+document.getElementById('print').innerHTML += a;
 
 
 
