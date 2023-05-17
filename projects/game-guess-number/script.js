@@ -52,16 +52,20 @@ task[0] = Math.floor(Math.random() * mode[0]);
 
 if(task[0] == answer[0]){
 document.getElementById("gameResult").innerHTML = `
+<h3>
 <span class="padding h3 orange bold">win</span><br>
-<span class="op padding margin">(mode: 0-${mode[0]})</span><br>
-<span class="h3 green bold">${task[0]}</span> <span class="h3 bold">==</span> <span class="h3 green bold">${answer[0]}</span>
+<span class="green bold">${task[0]}</span> <span class="bold">==</span> <span class="green bold">${answer[0]}</span>
+</h3>
+<span class="op padding margin">(mode: 0-${mode[0]})</span>
 <audio style="display:none" autoplay="false" src="/audio/win.ogg">
 `;;
 }else{
 document.getElementById("gameResult").innerHTML = `
+<h3>
 <span class="padding h3 red bold">end</span><br>
-<span class="op padding margin">(mode: 0-${mode[0]})</span><br>
-<span class="h3 green bold">${task[0]}</span> <span class="h3 bold">!=</span> <span class="h3 red bold">${answer[0]}</span>
+<span class="green bold">${task[0]}</span> <span class="bold">!=</span> <span class="red bold">${answer[0]}</span>
+</h3>
+<span class="op padding margin">(mode: 0-${mode[0]})</span>
 <audio style="display:none" autoplay="false" src="/audio/error.ogg">
 `;
 }
@@ -70,10 +74,11 @@ document.getElementById("gameResult").innerHTML = `
 }
 
 var print = `
-<div id="gameResult" class="block tCenter"></div>
 
 <div class="center2">
 <div class="wrapperS">
+
+<div id="gameResult" class="block tCenter" style="height: 90px;"></div>
 
 <form id="form">
 
