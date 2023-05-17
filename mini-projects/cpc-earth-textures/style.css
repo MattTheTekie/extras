@@ -1,4 +1,4 @@
-/* v.1.0.0 */
+/* v.1.1.0 */
 /* comment */
 
 body {
@@ -27,6 +27,7 @@ margin: 0 aut;
 
 }
 
+.wrapper { min-height: calc(30vw + 180px); }
 
 .orange33, .leaf, .leaf2, .leaf3{
 position: absolute;
