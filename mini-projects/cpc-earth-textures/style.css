@@ -4,9 +4,7 @@
 body {
 	padding: 0;
 	margin: 0;
-}
 
-body {
 text-align: center;
 /*background-color: #FCF8F0; */ /* for codepen */
 }
@@ -27,14 +25,16 @@ border-radius: 60% 60% 60% 60%;
 display: block;
 margin: 0 aut;
 border: 0.5vw solid #FF7D00;
-
+position: relative;
 }
+
 
 .orange33, .leaf, .leaf2, .leaf3{
 position: absolute;
 left: 35vw;
 top: 12vw;
 }
+
 
 .leaf{
 left: 48vw;

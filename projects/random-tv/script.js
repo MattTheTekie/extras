@@ -541,7 +541,7 @@ return tagList;
 
 
 document.getElementById(printId).innerHTML += `
-<div class="center tCenter margin padding">
+<div class="tCenter margin padding" style="padding-top: 60px;">
 <div class="wrapper3">
 
 <span class="op small padding margin">list of tags:</span><br>

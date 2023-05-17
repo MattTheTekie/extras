@@ -1,4 +1,4 @@
-/* v.12.21.0 */
+/* v.12.22.0 */
 
 * {  color-scheme: light dark; } /* view-source:about:blank */ 
 
@@ -123,6 +123,7 @@ align-items: safe center;
 align-self: safe center;
 box-sizing: border-box;
 margin: 0 var(--bodyP);
+position: relative;
 }
 
 .center2 { min-height: 40vh; }
