@@ -77,6 +77,7 @@ var print = `
 
 <form id="form">
 
+<label class="op block tLeft xSmall">input number:</label>
 <div id="number2"></div>
 
 
