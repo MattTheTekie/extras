@@ -88,7 +88,7 @@ var print = `
 
 <div id="range2"></div>
 
-<div class="block tCenter button border light h3 op" style="cursor: pointer;" onclick="start()">start</div>
+<a class="block tCenter button border light h3 op" style="cursor: pointer;" onclick="start()" href="#">start</a>
 
 </div>
 </div>
@@ -96,7 +96,7 @@ var print = `
 
 <div class="tCenter">
 <div>
-mode:<br><span id="mode"></span>
+<span class="op">mode:</span><br><span id="mode"></span>
 </div>
 </div>
 
