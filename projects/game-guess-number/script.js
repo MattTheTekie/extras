@@ -73,7 +73,7 @@ var print = `
 <div id="gameResult" class="block tCenter"></div>
 
 <div class="center2">
-<div class="wrapperL">
+<div class="wrapperS">
 
 <form id="form">
 
