@@ -1,4 +1,4 @@
-// v.1.0.0
+// v.1.0.1
 
 var limit = 10;
 var rangeValue = 0;
@@ -14,6 +14,9 @@ var gameMode = '5,10,25,50,100,1000,10000,100000,1000000';
 var printGameMode = '';
 
 function modeSelect(mode33){
+
+document.getElementById("number2").removeEventListener("input", updateValue);
+document.getElementById("number2").addEventListener("input", updateValue);
 
 (gameMode.split(',')).forEach((item) => {
 if(mode33 != item){
@@ -83,9 +86,8 @@ var print = `
 <form id="form">
 
 <label class="op block tLeft xSmall">input number:</label>
+
 <div id="number2"></div>
-
-
 <div id="range2"></div>
 
 <a class="block tCenter button border light h3 op" style="cursor: pointer;" onclick="start()" href="#">start</a>
@@ -109,28 +111,43 @@ window.addEventListener('keydown',function(e){if(e.keyIdentifier=='U+000A'||e.ke
 
 
 
-
+// range input
 function submit33(){
 rangeValue = document.getElementById("range").value;
 
 answer[0] = rangeValue;
 
+/*
 //https://stackoverflow.com/questions/7609130/set-the-default-value-of-an-input-field
-document.getElementById("range").setAttribute('value', rangeValue);
-document.getElementById("number").setAttribute('value', rangeValue);
+document.getElementById("number").setAttribute('value', rangeValue);*/
+
+document.getElementById("number2").innerHTML = `
+
+<input id="number" class="tCenter" type="number" name="number" value="${rangeValue}" min="0" max="${mode[0]}">
+
+`;
+
+
 }
 
 
 
 
 
-
+// number input
 function updateValue(e) {
+
 rangeValue = e.target.value;
 
 answer[0] = rangeValue;
 
-document.getElementById("range").setAttribute('value', rangeValue);
+document.getElementById("range2").innerHTML = `
+
+<input id="range" class="slider" name="range" style="" value="${rangeValue}" type="range" min="0" max="${mode[0]}" step="1" onmouseup="submit33();" ontouchend="submit33();">
+</form>
+`;
+
+
 }
 
 
@@ -141,6 +158,8 @@ document.getElementById("result").innerHTML = print;
 //https://developer.mozilla.org/en-US/docs/Web/API/HTMLElement/input_event
 modeSelect(mode[0]);
 document.getElementById("number").addEventListener("input", updateValue);
+
+
 
 
 
