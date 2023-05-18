@@ -36,8 +36,8 @@ printGameMode = '';
 
 document.getElementById("number2").innerHTML = `
 
-<input id="number" class="tCenter" type="number" name="number" value="0" min="0" max="${mode}">
-
+<input id="number" class="tCenter" type="number" name="number" value="0" min="0" max="${mode}" required>
+<span class="validity"></span>
 `;
 document.getElementById("range2").innerHTML = `
 
@@ -140,6 +140,8 @@ function updateValue(e) {
 rangeValue = e.target.value;
 
 answer[0] = rangeValue;
+
+//document.getElementById("range2").setAttribute('value', rangeValue);
 
 document.getElementById("range2").innerHTML = `
 
