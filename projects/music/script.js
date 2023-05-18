@@ -1,4 +1,4 @@
-// v.1.0.1
+// v.1.0.2
 
 
 
@@ -588,7 +588,7 @@ return tagList;
 
 
 document.getElementById('taglist').innerHTML += `
-<div class="center tCenter margin padding">
+<div class="center tCenter margin padding" style="padding-top: 60px;">
 <div class="wrapper3">
 
 <span class="small padding margin op">list of "title" tags:</span><br>

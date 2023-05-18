@@ -1,4 +1,4 @@
-// v.1.2.7
+// v.1.2.8
 
 
 function randomRadio(printId, jsonVar){
@@ -542,7 +542,7 @@ return tagList;
 
 
 document.getElementById(printId).innerHTML += `
-<div class="center tCenter margin padding">
+<div class="center tCenter margin padding" style="padding-top: 60px;">
 <div class="wrapper3">
 
 <span class="op small padding margin">list of tags:</span><br>

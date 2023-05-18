@@ -1,4 +1,4 @@
-// v.1.2.7
+// v.1.2.8
 
 function randomRadio(printId, jsonVar){
 
