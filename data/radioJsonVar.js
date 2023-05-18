@@ -859,7 +859,7 @@ var radioJsonVar =
         "text2": "https:\/\/stream.jfkradio.es\/altxl",
         "text3": "mp3",
         "url": "https:\/\/tunein.com\/radio\/Stream-Variety-g88\/",
-        "tag": "#radio #radioMusic #top40 #pop #variaty"
+        "tag": "#radio #radioMusic #top40 #pop #variety"
     },
     {
         "text": "Sud Radio : en ligne, direct \/ podcast | actualit\u00e9s & \u00e9missions",
