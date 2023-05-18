@@ -585,7 +585,8 @@ table
 
 <div class="wrapper" style="margin: 0 auto;">
 
-<div id="result" class="post"></div>
+<div id="result" class="post padding shadow border4">
+
 <script>
 document.getElementById("result").innerHTML = '<span class="op">window.location: </span>'+decodeURIComponent(window.location);
 </script>
@@ -612,6 +613,7 @@ document.getElementById("result").innerHTML = '<span class="op">window.location:
 <input type="hidden" name="h" value="hidden value" autocomplete="false">
 <input type="date" name="date">
 <input type="time" name="time" value="00:00">
+<input type="number" name="number" value="0" min="0" max="10" required>
 <select><!-- fixMe CSS mobile chrome padding or height -->
 <option  value="select value">select value</option>
 <option  value="select value" selected>selected value</option>
@@ -619,18 +621,17 @@ document.getElementById("result").innerHTML = '<span class="op">window.location:
 </select>
 
 
-
+<button class="button light" type="submit" form="form" value="Submit">Submit</button>
 <input name="submit" type="submit" value="submit">
 
 </form>
 
-<button class="button light" type="submit" form="form" value="Submit">Submit</button>
 
 
 
 
 
-
+</div>
 </div>
 
 <div class="center4">

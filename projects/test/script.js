@@ -8,7 +8,7 @@ console.log(0 / 0);
 
 
 var i = 0;
-while(i < 50){
+while(i < 5){
 if(i * i / i % i == 0){
 console.log(i);
 }
@@ -19,7 +19,7 @@ i++;
 let n = 0;
 let text = '';
 
-while (n < 30) {
+while (n < 3) {
 text += `
 
 Random Text

@@ -37,7 +37,7 @@ printGameMode = '';
 document.getElementById("number2").innerHTML = `
 
 <input id="number" class="tCenter" type="number" name="number" value="0" min="0" max="${mode}" required>
-<span class="validity"></span>
+
 `;
 document.getElementById("range2").innerHTML = `
 

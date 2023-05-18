@@ -37,6 +37,30 @@ border: 3px solid red;
 padding: 5px;
 }
 
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@800;900&display=swap');
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    
+    background: url(https://unsplash.com/photos/5dWJlG9xWBI/download?ixid=M3wxMjA3fDB8MXxzZWFyY2h8Nnx8c3VuJTIwc3ByaW5nJTIwdHJlZXxlbnwwfHx8fDE2ODQ0MDAzMTR8MA&force=true&w=640);
+    border-radius: 16px;
+    background-size: cover;
+}
+
+#result {
+    background-color: white;
+    padding: 12px;
+    mix-blend-mode: screen;
+    font-size: 24px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 900;
+}
+
+
+
 html::before {
 content: '';
 display: block;
