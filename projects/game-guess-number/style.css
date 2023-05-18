@@ -4,7 +4,7 @@
 
 input[type="number"] { margin: 0 auto; width: 100%; }
 
-#gameResult { height: 120px; }
+#gameResult { min-height: 100px; }
 
 /*https://stackoverflow.com/questions/30950891/how-to-display-red-borders-on-required-or-invalid-value-input-element-in-chrome*/
 input[type="number"]:invalid {
