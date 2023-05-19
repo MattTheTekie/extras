@@ -295,6 +295,13 @@ var radioJsonVar =
         "tag": "#radio #radioMusic #AlternativeRock"
     },
     {
+        "text": "Forsiden - P4 Radio Hele Norge",
+        "text2": "https:\/\/p4.p4groupaudio.com\/P04_MH",
+        "text3": "mp3",
+        "url": "https:\/\/www.p4.no\/",
+        "tag": "#radio #RadioMusic #EuroHits"
+    },
+    {
         "text": "Franceinfo - Actualit\u00e9s en temps r\u00e9el et info en direct",
         "text2": "http:\/\/icecast.radiofrance.fr\/franceinfo-midfi.mp3",
         "text3": "mp3",
@@ -398,6 +405,13 @@ var radioJsonVar =
         "text3": "mp3",
         "url": "https:\/\/891khol.org\/",
         "tag": "#radio #radioMusic #indie"
+    },
+    {
+        "text": "J\u00e4rviradio \u2013 Tuulta purjeisiin!",
+        "text2": "https:\/\/jarviradio.radiotaajuus.fi:9000\/jr",
+        "text3": "mp3",
+        "url": "https:\/\/www.jarviradio.fi\/",
+        "tag": "#radio #RadioMusic #AdultHits"
     },
     {
         "text": "Jedynka - polskieradio.pl",
