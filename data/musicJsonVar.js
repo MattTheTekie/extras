@@ -9101,6 +9101,13 @@ var musicJsonVar =
         "tag": "#music"
     },
     {
+        "text": "PinkPantheress, Ice Spice - Boy\u2019s a liar Pt. 2 (Official Video) - YouTube",
+        "text2": "",
+        "text3": "",
+        "url": "https:\/\/www.youtube.com\/watch?v=oftolPu9qp4",
+        "tag": "#music"
+    },
+    {
         "text": "Pixies - Here Comes Your Man (Official Video) - YouTube",
         "text2": "",
         "text3": "",

@@ -1,4 +1,4 @@
-// v.1.1.37
+// v.1.1.38
 
 
 
@@ -666,11 +666,12 @@ sRedirUrl = url;
 break;
 
 case 'ti#':
-q = q3.replace(q2, '');
-q = q.trim();
-q = encodeURIComponent(q);
-url = "/projects/timer" + q;
-sRedirUrl = url;
+sRedirUrl = "/projects/timer/";
+break;
+
+case 'ra#':
+case 'rad#':
+sRedirUrl = "/projects/radio/";
 break;
 
 case 'si#':
