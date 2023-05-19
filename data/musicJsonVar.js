@@ -99,6 +99,13 @@ var musicJsonVar =
         "tag": "#music"
     },
     {
+        "text": "4 Minutes (feat. Justin Timberlake and Timbaland) \u00b7 Madonna \u00b7 Justin Timberlake \u00b7 Timbaland",
+        "text2": "",
+        "text3": "",
+        "url": "https:\/\/www.youtube.com\/watch?v=3CIMDtyGMgE",
+        "tag": "#music"
+    },
+    {
         "text": "4 Non Blondes - What's Up (Official Music Video) - YouTube",
         "text2": "",
         "text3": "",
@@ -3312,6 +3319,13 @@ var musicJsonVar =
         "tag": "#music"
     },
     {
+        "text": "Don't Tell Me \u00b7 Madonna",
+        "text2": "",
+        "text3": "",
+        "url": "https:\/\/www.youtube.com\/watch?v=I03OC-1syq4",
+        "tag": "#music"
+    },
+    {
         "text": "Donna Missal - Jupiter (Lunice Remix \/ Audio) - YouTube",
         "text2": "",
         "text3": "",
@@ -4597,6 +4611,13 @@ var musicJsonVar =
         "text2": "",
         "text3": "",
         "url": "https:\/\/www.youtube.com\/watch?v=TaV1r341wYk",
+        "tag": "#music"
+    },
+    {
+        "text": "Girl Gone Wild \u00b7 Madonna",
+        "text2": "",
+        "text3": "",
+        "url": "https:\/\/www.youtube.com\/watch?v=4vHdHqawdcE",
         "tag": "#music"
     },
     {
