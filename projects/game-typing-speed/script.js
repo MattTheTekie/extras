@@ -1,4 +1,4 @@
-// v.3.9.14
+// v.3.9.15
 
 
 
@@ -844,18 +844,32 @@ recordMsg = speedUp.toFixed(0);
 recordMsg = ' (<span class="green"> '+recordMsg+'%+ for record</span>)';
 }*/
 
+var WPMaverage = 0;
+arrWPMaverage.forEach((element) => {
+WPMaverage = Number(WPMaverage) + Number(element);
+});
+prevWPMaverage = (Number(WPMaverage) / Number(arrWPMaverage.length)).toFixed(0);
 
 arrWPMaverage.push(wpm);
 arrWPMaverage.slice(0, 100);
 //https://catalins.tech/store-array-in-localstorage/
 localStorage.setItem("arrWPMaverage", JSON.stringify(arrWPMaverage));
 
-var WPMaverage = 0;
+WPMaverage = 0;
 arrWPMaverage.forEach((element) => {
 WPMaverage = Number(WPMaverage) + Number(element);
 });
-
 WPMaverage = (Number(WPMaverage) / Number(arrWPMaverage.length)).toFixed(0);
+
+
+var wpmAverageProgress = WPMaverage - prevWPMaverage;
+if(wpmAverageProgress < 0){
+wpmAverageProgress = ' (<span class="red">'+wpmAverageProgress+'</span>)';
+}else if(wpmAverageProgress > 0){
+wpmAverageProgress = ' (<span class="green">+'+wpmAverageProgress+'</span>)';
+}else{
+wpmAverageProgress = '';
+}
 
 
 
@@ -943,7 +957,7 @@ let winMsg = `
 <!--<b class="${printMsgWinColor} padding">${printMsgWin}</b>-->
 <div class="pre"><span title="word per minute" style="color: var(--c3);">WPM: <span class="">${wpm}</span>${recordMsg}</span> ${wpmProgress}</div>
 <span>Acurancy: ≈<span class="">${acurancy}</span>%</span> ${acurancyProgress}<br>
-<span title="WPM Average last 100">Average WPM: </span>${WPMaverage}<br>
+<span title="WPM Average last 100">Average WPM: </span>${WPMaverage} ${wpmAverageProgress}<br>
 </div>`;
 
 
