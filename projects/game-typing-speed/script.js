@@ -1,4 +1,4 @@
-// v.3.9.21
+// v.3.9.22
 
 
 
@@ -868,11 +868,9 @@ WPMaverage = (Number(WPMaverage) / Number(arrWPMaverage.length)).toFixed(0);
 var wpmAverageProgress = WPMaverage - prevWPMaverage;
 if(wpmAverageProgress < 0){
 wpmAverageProgress = ' (<span class="red">'+wpmAverageProgress+'</span>)';
-}
-if(wpmAverageProgress > 0){
+}else if(wpmAverageProgress > 0){
 wpmAverageProgress = ' (<span class="green">+'+wpmAverageProgress+'</span>)';
-}
-if(wpmAverageProgress == 0){
+}else{
 wpmAverageProgress = '';
 }
 
