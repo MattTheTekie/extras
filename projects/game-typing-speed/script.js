@@ -1,4 +1,4 @@
-// v.3.9.20
+// v.3.9.21
 
 
 
@@ -1007,8 +1007,8 @@ secArr = [];
 document.getElementById("text").style.borderTop = "9px solid var(--d2)";
 
 
-document.getElementsByClassName("msg2")[0].innerHTML += `
-<div class="block wrapper2 op xSmall tRight">* word - ${wordLengthLimit} symbol, Average WPM - from last ${wmpAverageLimit} WPM</div>
+document.getElementsByClassName("msg2")[0].innerHTML = `
+<div class="block wrapper2 op xSmall tRight padding">* word - ${wordLengthLimit} symbol, Average WPM - from last ${wmpAverageLimit} WPM</div>
 `;
 
 }
