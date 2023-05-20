@@ -962,7 +962,7 @@ let winMsg = `
 <!--<b class="${printMsgWinColor} padding">${printMsgWin}</b>-->
 <div class="pre"><span title="word per minute" style="color: var(--c3);">WPM: <span class="">${wpm}</span>${recordMsg}</span> ${wpmProgress}</div>
 <span>Acurancy: ≈<span class="">${acurancy}</span>%</span> ${acurancyProgress}<br>
-<span title="WPM Average last 10">Average WPM: </span>${WPMaverage} ${wpmAverageProgress}
+<span class="small"><span title="WPM Average last ${wmpAverageLimit}">Average WPM: </span>${WPMaverage} ${wpmAverageProgress}</small>
 </div>`;
 
 
