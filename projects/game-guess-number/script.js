@@ -1,4 +1,4 @@
-// v.1.1.0
+// v.1.1.1
 
 var limit = 10;
 var rangeValue = 0;
@@ -36,9 +36,10 @@ printGameMode = '';
 
 document.getElementById("number2").innerHTML = `
 
-<input id="number" class="tCenter" type="number" name="number" value="0" min="0" max="${mode}" required>
+<input id="number" class="tCenter" type="number" name="number" value="0" min="0" max="${mode}" autofocus="autofocus" required>
 
 `;
+
 document.getElementById("range2").innerHTML = `
 
 <input id="range" class="slider" name="range" style="" value="0" type="range" min="0" max="${mode}" step="1" onmouseup="submit33();" ontouchend="submit33();">
@@ -107,7 +108,16 @@ var print = `
 
 // disable enter key
 //https://stackoverflow.com/questions/5629805/disabling-enter-key-for-form
-window.addEventListener('keydown',function(e){if(e.keyIdentifier=='U+000A'||e.keyIdentifier=='Enter'||e.keyCode==13){if(e.target.nodeName=='INPUT'&&e.target.type=='text'){e.preventDefault();return false;}}},true);
+window.addEventListener('keydown',function(e){
+
+if(e.keyIdentifier=='U+000A'||e.keyIdentifier=='Enter'||e.keyCode==13){
+start();
+e.preventDefault();
+return false;
+if(e.target.nodeName=='INPUT'&&e.target.type=='text'){
+e.preventDefault();
+return false;
+}}},true);
 
 
 
@@ -126,8 +136,6 @@ document.getElementById("number2").innerHTML = `
 <input id="number" class="tCenter" type="number" name="number" value="${rangeValue}" min="0" max="${mode[0]}">
 
 `;
-
-
 }
 
 
@@ -160,7 +168,6 @@ document.getElementById("result").innerHTML = print;
 //https://developer.mozilla.org/en-US/docs/Web/API/HTMLElement/input_event
 modeSelect(mode[0]);
 document.getElementById("number").addEventListener("input", updateValue);
-
 
 
 
