@@ -14,6 +14,7 @@ let icons = {
 "book":"📚", "quiz":"📚",
 "bookmark":"🔖",
 "brain":"🧠", "memory":"🧠",
+"calculator":"🧮", "abacus":"🧮",
 "circle":"⭕", "round":"⭕",
 "cookie":"🍪",
 "cut":"✂️",

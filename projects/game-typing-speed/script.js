@@ -1,4 +1,4 @@
-// v.3.9.13
+// v.3.9.14
 
 
 
@@ -6,6 +6,11 @@
 
 function mainAll(mode33){
 
+
+
+//https://catalins.tech/store-array-in-localstorage/
+var arrWPMaverage = JSON.parse(localStorage.getItem("arrWPMaverage"));
+if(arrWPMaverage == null){ arrWPMaverage = []; }
 
 
 document.getElementById("win").innerHTML = ``;
@@ -590,6 +595,7 @@ var lastError = '';
 const errorLimit = 500 - 1;
 
 var wpmRecord = localStorage.getItem("wpmRecord");
+
 if(wpmRecord == null||wpmRecord < 0||wpmRecord == undefined){ wpmRecord =  0; }
 
 
@@ -796,7 +802,7 @@ document.getElementById("text").style.borderTop = "9px solid var(--d2)";
 
 
 
-if(answerArr.length <= letters.length&&mode != 'free'){
+if(answerArr.length == letters.length&&mode != 'free'){
 acurancy = totalError * 100 / answerArr.length;
 acurancy =  100 - acurancy.toFixed(0);
 }else{ acurancy = '0 '; }
@@ -838,6 +844,18 @@ recordMsg = speedUp.toFixed(0);
 recordMsg = ' (<span class="green"> '+recordMsg+'%+ for record</span>)';
 }*/
 
+
+arrWPMaverage.push(wpm);
+arrWPMaverage.slice(0, 100);
+//https://catalins.tech/store-array-in-localstorage/
+localStorage.setItem("arrWPMaverage", JSON.stringify(arrWPMaverage));
+
+var WPMaverage = 0;
+arrWPMaverage.forEach((element) => {
+WPMaverage = Number(WPMaverage) + Number(element);
+});
+
+WPMaverage = (Number(WPMaverage) / Number(arrWPMaverage.length)).toFixed(0);
 
 
 
@@ -922,12 +940,10 @@ printMsgWin = '';
 
 let winMsg = `
 <div class="block light border2 padding margin msg">
-
 <!--<b class="${printMsgWinColor} padding">${printMsgWin}</b>-->
-
-<div class="pre"><span title="word per minute" style="color: var(--c3);">WPM: <span class="">${wpm}</span>${recordMsg}</span> ${wpmProgress} </div>
-
-<span> acurancy: ≈<span class="">${acurancy}</span>%</span> ${acurancyProgress}
+<div class="pre"><span title="word per minute" style="color: var(--c3);">WPM: <span class="">${wpm}</span>${recordMsg}</span> ${wpmProgress}</div>
+<span>Acurancy: ≈<span class="">${acurancy}</span>%</span> ${acurancyProgress}<br>
+<span title="WPM Average last 100">Average WPM: </span>${WPMaverage}<br>
 </div>`;
 
 

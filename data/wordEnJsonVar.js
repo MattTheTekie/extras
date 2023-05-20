@@ -691,6 +691,9 @@ var wordEnJsonVar =
         "text": "accomodate"
     },
     {
+        "text": "accomodation"
+    },
+    {
         "text": "accompanied"
     },
     {
@@ -2996,8 +2999,5 @@ var wordEnJsonVar =
     },
     {
         "text": "alegations"
-    },
-    {
-        "text": "alert"
     }
 ]

@@ -1,4 +1,4 @@
-// v.1.0.4
+// v.1.0.5
 // inspired by Bing Web Calculator, Google Web Calculator, Google Calculator App and other
 
 var inputCalc = [];
@@ -186,6 +186,7 @@ break;
 case 'script':
 case 'eval&script':
 
+// eval&javascript
 if(calcMode[0] == 'eval&script'){
 //https://stackoverflow.com/questions/31183110/how-to-catch-a-syntaxerror-in-javascript
 try {
@@ -198,28 +199,36 @@ catch(e) {
 //evalResult = 'eval error';
 evalResult = "&nbsp;";
 }
+// end eval&javascript
 
 
-
+// bracket count
 var bracket = 0;
 var bracket2 = 0;
-var arraySparse = inputCalc[0].split("");
+var arrayBparse = inputCalc[0].split("");
 //https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/forEach
-arraySparse.forEach((element) => {
-console.log({ element });
+arrayBparse.forEach((element) => {
 if(element == '('){ bracket++; }
 if(element == ')'){ bracket2++; }
-
 });
+// end bracket count
+
+
+// script
+var arrayParse = inputCalc[0].split("");
+//https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/forEach
+arrayParse.forEach((element) => {
+if(element == '('){ bracket++; }
+if(element == ')'){ bracket2++; }
+});
+// end script
+
 
 result = inputCalc[0];
 if(bracket != bracket2){
 result = result.replaceAll('(', '<span class="red bold">(</span>');
 result = result.replaceAll(')', '<span class="red bold">)</span>');
 }
-
-
-
 
 result = evalResult+result+'<br>* script mode in progress';
 break;
