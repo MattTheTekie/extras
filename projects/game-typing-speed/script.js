@@ -1,4 +1,4 @@
-// v.3.9.18
+// v.3.9.20
 
 
 
@@ -6,6 +6,8 @@
 function mainAll(mode33){
 
 
+const wmpAverageLimit = 10;
+const wordLengthLimit = 5.1;
 
 //https://catalins.tech/store-array-in-localstorage/
 var arrWPMaverage = JSON.parse(localStorage.getItem("arrWPMaverage"));
@@ -209,6 +211,8 @@ var inputA = document.querySelectorAll('textarea')[1];
 inputA.removeEventListener('input', updateValueInput);
 inputA.addEventListener('input', updateValueInput);
 }
+
+
 
 function updateValueInput(e) {
 //q = encodeURIComponent(e.target.value);
@@ -762,7 +766,7 @@ timeAverage = timeAverage + item; //console.log(item);
 timeAverage = timeAverage/secArr.length;
 
 
-var wps = timeAverage * 5.1;
+var wps = timeAverage * wordLengthLimit;
 var wpm = 1 * 60 / wps;
 wpm = wpm.toFixed(0);
 
@@ -850,7 +854,7 @@ WPMaverage = Number(WPMaverage) + Number(element);
 prevWPMaverage = (Number(WPMaverage) / Number(arrWPMaverage.length)).toFixed(0);
 
 arrWPMaverage.push(wpm);
-arrWPMaverage.slice(0, 10);
+arrWPMaverage.slice(0, wmpAverageLimit);
 //https://catalins.tech/store-array-in-localstorage/
 localStorage.setItem("arrWPMaverage", JSON.stringify(arrWPMaverage));
 
@@ -1001,6 +1005,11 @@ dateArr = [];
 secArr = [];
 
 document.getElementById("text").style.borderTop = "9px solid var(--d2)";
+
+
+document.getElementsByClassName("msg2")[0].innerHTML += `
+<div class="block wrapper2 op xSmall tRight">* word - ${wordLengthLimit} symbol, Average WPM - from last ${wmpAverageLimit} WPM</div>
+`;
 
 }
 
