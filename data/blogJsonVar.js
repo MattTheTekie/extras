@@ -1,6 +1,15 @@
 var blogJsonVar = 
 [
     {
+        "id": "84",
+        "text": "JavaScript Array Group",
+        "text2": "",
+        "text3": "",
+        "url": "https:\/\/davidwalsh.name\/array-group",
+        "tag": "#JavaScript",
+        "time": 1684693647
+    },
+    {
         "id": "83",
         "text": "A few new themes",
         "text2": "",
