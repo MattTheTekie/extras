@@ -1,4 +1,4 @@
-/* v.12.22.1 */
+/* v.12.22.2 */
 
 * {  color-scheme: light dark; } /* view-source:about:blank */ 
 
@@ -458,6 +458,6 @@ img { overflow: hidden; font-size: calc(100% - 30%); }
 html { scroll-padding-top: 35px; }
 
 html { scrollbar-width: thin; }
-/*::-webkit-scrollbar { width: 7px; }*//*for validator*/
+::-webkit-scrollbar { width: 7px; } /* for validator commnet */
 
 input:focus{ outline: none }

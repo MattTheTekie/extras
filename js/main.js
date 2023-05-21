@@ -129,12 +129,19 @@ var themeListDark = [
 "dark",
 "d-green",
 "d-blue",
+"d-orange",
+"d-red",
 "d-violet"
 ];
 
 var themeListOther = [
+"o-green-lime",
+"o-blue",
+"o-breeze",
 "o-yellow",
-"o-green"
+"o-red",
+"o-silver",
+"o-violet"
 ];
 
 var themeListOtherDark = [
