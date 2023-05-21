@@ -1685,12 +1685,7 @@ if(confDevice != 'mobile'){
 pringInputRange = `
 <form id="form">
 ${navOption3}
-<input  name="${navMode}" style="
-/*-webkit-transform: rotateY(180deg);
--moz-transform: rotateY(180deg);
--ms-transform: rotateY(180deg);
--o-transform: rotateY(180deg);
-transform: rotateY(180deg);*/" id="rangeinput" class="slider" value="${getP}" type="range" min="0" max="${total2}" step="${postLimit}" onmouseup="this.form.submit();" ontouchend="this.form.submit();">
+<input  name="${navMode}" style="" id="rangeinput" class="slider" value="${getP}" type="range" min="0" max="${total2}" step="${postLimit}" onmouseup="this.form.submit();" ontouchend="this.form.submit();">
 </form>
 `;
 }
