@@ -7575,13 +7575,6 @@ var musicJsonVar =
         "tag": "#music"
     },
     {
-        "text": "Mansion Song \u00b7 Kate Nash",
-        "text2": "",
-        "text3": "",
-        "url": "https:\/\/www.youtube.com\/watch?v=4yj9Lz4JdHA",
-        "tag": "#music"
-    },
-    {
         "text": "Manu Chao - Me Gustas Tu - YouTube",
         "text2": "",
         "text3": "",
@@ -12675,6 +12668,13 @@ var musicJsonVar =
         "text2": "",
         "text3": "",
         "url": "https:\/\/www.youtube.com\/watch?v=r1C69fzfGBM",
+        "tag": "#music"
+    },
+    {
+        "text": "Wheatus - Teenage Dirtbag (Official Video) - YouTube",
+        "text2": "",
+        "text3": "",
+        "url": "https:\/\/www.youtube.com\/watch?v=FC3y9llDXuM",
         "tag": "#music"
     },
     {
