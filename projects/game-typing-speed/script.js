@@ -1,4 +1,4 @@
-// v.3.9.22
+// v.3.9.24
 
 
 
@@ -6,7 +6,7 @@
 function mainAll(mode33){
 
 
-const wmpAverageLimit = 10;
+const wmpAverageLimit = 30;
 const wordLengthLimit = 5.1;
 
 //https://catalins.tech/store-array-in-localstorage/
@@ -958,7 +958,7 @@ printMsgWin = '';
 let winMsg = `
 <div class="block light border2 padding margin msg">
 <!--<b class="${printMsgWinColor} padding">${printMsgWin}</b>-->
-<div class="pre"><span title="word per minute" style="color: var(--c3);">WPM: <span class="">${wpm}</span>${recordMsg}</span> ${wpmProgress}</div>
+<div class="pre"><span title="word per minute" style="color: var(--c3);">WPM: <span class="">${wpm}</span></span> ${wpmProgress} ${recordMsg}</div>
 <span>Acurancy: ≈<span class="">${acurancy}</span>%</span> ${acurancyProgress}<br>
 <span class="small"><span title="WPM Average last ${wmpAverageLimit}">Average WPM: </span>${WPMaverage} ${wpmAverageProgress}</small>
 </div>`;
