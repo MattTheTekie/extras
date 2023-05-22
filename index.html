@@ -563,16 +563,49 @@ insertIcon("mini-projects");
 
 
 <!-- end menu -->
-<script src="/projects/div-id-to-tag/script.js"></script>
 
 <script>
+function divIdToTag(printId, fromId){
+
+
+var allIdOnPage = '';
+
+let divId = document.getElementById(fromId);
+
+let allDivId = divId.querySelectorAll('div');
+allDivId.forEach((item, index) => {
+if(item.id != ''){
+allIdOnPage += `<a class="tag2 border2 op light" href="#`+item.id+`">`+item.id+`</a>`
+}
+});
+allIdOnPage = `
+<div class="block tagList tCenter padding">`+allIdOnPage+`</div>
+`;
+//document.getElementsByClassName('print')[0].innerHTML = allIdOnPage;
+
+if(document.getElementById(printId) == null){
+console.log('id for print null');
+}else{
+document.addEventListener("DOMContentLoaded", (event) => {
+document.getElementById(printId).innerHTML = allIdOnPage;
+});
+
+}
+
+
+}
+
 divIdToTag('idTagList', 'getId')
+
 </script>
 
 <br>
+<!--
 <div class="block tCenter" style="margin: 9px 0; margin-top: 25px; color: var(--c);">Last blog post:</div>
 
-<div id="echoBlog"></div><br></div>
+<div id="echoBlog"></div><br>
+-->
+</div>
 
 </div>
 
@@ -604,9 +637,7 @@ divIdToTag('idTagList', 'getId')
 
 
 
-
-
-
+<!--
 <script src="/projects/blog/script.js"></script>
 
 <script src="/data/blogJsonVar.js"></script>
@@ -614,6 +645,7 @@ divIdToTag('idTagList', 'getId')
 blog("echoBlog", blogJsonVar, 'post', 'off', 'off', '1', 'blog.html', 'off', '500');
 // printId, blogJsonVar, postClass, embedStatus, tagListStatus, postLimit, scriptDir, multiEmbedStatus tagListLimit
 </script>
+-->
 
 <script>
 if(confDevice == 'mobile'){
