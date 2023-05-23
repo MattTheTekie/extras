@@ -72,7 +72,7 @@ if(item['url'] != null){ postUrl = item['url']; }
 if(item['time'] != null){ postTime = item['time']; }
 
 // collect all tag
-printTagList += postText+' '+postText2+' '+postText3+' '+postTag+' '+symbolForSplit;
+printTagList += (postText+' '+postText2+' '+postText3+' '+postTag+' '+symbolForSplit).toLowerCase();
 
 
 if(q2 != ''){
