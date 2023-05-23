@@ -1,4 +1,4 @@
-// v.1.15.4
+// v.1.15.5
 
 // inspired by Twitter, Fediverse
 // not for large Json files !
@@ -1027,6 +1027,12 @@ embed = `<iframe title="deezer-widget" src="https://widget.deezer.com/widget/${c
 
 break;
 
+case 'imgur.com':
+play = item.split('/');
+play = play[play.length - 1];
+embed = `<blockquote class="imgur-embed-pub" lang="en" data-id="a/${play}"><a href="//imgur.com/a/${play}">${item}</a></blockquote><!--<script async src="//s.imgur.com/min/embed.js" charset="utf-8"></script>-->`;
+break;
+
 case 'dailymotion.com':
 case 'www.dailymotion.com':
 play = item.split('/');
@@ -1383,6 +1389,12 @@ play = play[play.length - 1];
 embed = `<iframe title="deezer-widget" src="https://widget.deezer.com/widget/${confThemeEmbed}/artist/${play}/top_tracks" width="100%" height="300" frameborder="0" allowtransparency="true" allow="encrypted-media; clipboard-write"></iframe>`;
 }
 
+break;
+
+case 'imgur.com':
+play = item.split('/');
+play = play[play.length - 1];
+embed = `<blockquote class="imgur-embed-pub" lang="en" data-id="a/${play}"><a href="//imgur.com/a/${play}">${item}</a></blockquote><!--<script async src="//s.imgur.com/min/embed.js" charset="utf-8"></script>-->`;
 break;
 
 case 'dailymotion.com':
@@ -1776,6 +1788,12 @@ script2.charset = 'utf-8';
 script2.src = '//www.instagram.com/embed.js';
 document.getElementsByTagName('head')[0].appendChild(script2);
 
+var script2 = document.createElement('script');
+script2.type='text/javascript';
+script2.async = true;
+script2.charset = 'utf-8';
+script2.src = '//s.imgur.com/min/embed.js';
+document.getElementsByTagName('head')[0].appendChild(script2);
 
 
 }
