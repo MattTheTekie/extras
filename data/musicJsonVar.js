@@ -281,6 +281,27 @@ var musicJsonVar =
         "tag": "#music"
     },
     {
+        "text": "Alex Lahey - Congratulations (Official Music Video) - YouTube",
+        "text2": "",
+        "text3": "",
+        "url": "https:\/\/www.youtube.com\/watch?v=eYe8-q0Pf1Q",
+        "tag": "#music"
+    },
+    {
+        "text": "Alex Lahey - Good Time (Official Video) - YouTube",
+        "text2": "",
+        "text3": "",
+        "url": "https:\/\/www.youtube.com\/watch?v=MsRafjwS8Fc",
+        "tag": "#music"
+    },
+    {
+        "text": "Alex Lahey - They Wouldn't Let Me In (Official Video) - YouTube",
+        "text2": "",
+        "text3": "",
+        "url": "https:\/\/www.youtube.com\/watch?v=5mAwggDtAK0",
+        "tag": "#music"
+    },
+    {
         "text": "Alice Merton - No Roots - YouTube",
         "text2": "",
         "text3": "",
@@ -3809,6 +3830,13 @@ var musicJsonVar =
         "tag": "#music"
     },
     {
+        "text": "En Attendant Ana \"Same Old Story\" (Official Video) - YouTube",
+        "text2": "",
+        "text3": "",
+        "url": "https:\/\/www.youtube.com\/watch?v=h8Vh7bQh_uU",
+        "tag": "#music"
+    },
+    {
         "text": "En r\u00eave \u00b7 Zaz",
         "text2": "",
         "text3": "",
@@ -6305,6 +6333,13 @@ var musicJsonVar =
         "text2": "",
         "text3": "",
         "url": "https:\/\/www.youtube.com\/watch?v=zI339U6GS9s",
+        "tag": "#music"
+    },
+    {
+        "text": "Kesha - The Drama (Lyric Video) - YouTube",
+        "text2": "",
+        "text3": "",
+        "url": "https:\/\/www.youtube.com\/watch?v=lSWyu8EpaMM",
         "tag": "#music"
     },
     {
@@ -11607,10 +11642,45 @@ var musicJsonVar =
         "tag": "#music"
     },
     {
+        "text": "The Offspring - All I Want (Official Music Video) - YouTube",
+        "text2": "",
+        "text3": "",
+        "url": "https:\/\/www.youtube.com\/watch?v=us8OhI-OTHg",
+        "tag": "#music"
+    },
+    {
+        "text": "The Offspring - Hit That (Official Music Video) - YouTube",
+        "text2": "",
+        "text3": "",
+        "url": "https:\/\/www.youtube.com\/watch?v=HwRL1LNVTLI",
+        "tag": "#music"
+    },
+    {
         "text": "The Offspring - Original Prankster (Official Music Video) - YouTube",
         "text2": "",
         "text3": "",
         "url": "https:\/\/www.youtube.com\/watch?v=Qp6Qn8IwPf8",
+        "tag": "#music"
+    },
+    {
+        "text": "The Offspring - Pretty Fly (For A White Guy) (Official Music Video) - YouTube",
+        "text2": "",
+        "text3": "",
+        "url": "https:\/\/www.youtube.com\/watch?v=QtTR-_Klcq8",
+        "tag": "#music"
+    },
+    {
+        "text": "The Offspring - The Kids Aren't Alright (Official Music Video) - YouTube",
+        "text2": "",
+        "text3": "",
+        "url": "https:\/\/www.youtube.com\/watch?v=7iNbnineUCI",
+        "tag": "#music"
+    },
+    {
+        "text": "The Offspring - Why Don't You Get A Job? (Official Music Video) - YouTube",
+        "text2": "",
+        "text3": "",
+        "url": "https:\/\/www.youtube.com\/watch?v=LH-i8IvYIcg",
         "tag": "#music"
     },
     {
