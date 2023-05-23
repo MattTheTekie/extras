@@ -1,4 +1,4 @@
-// v.1.0.3
+// v.1.0.4
 
 
 
@@ -523,26 +523,27 @@ fuTag(tagCount);
 
 
 if(tag != ''){
-let printTag = tag.replaceAll(/#/g, "");
+let printTag = tag;
+let printTag2 = tag.replaceAll(/#/g, "");
 let goTag = encodeURIComponent(tag);
 
 let hlClass = '';
 if(printTag[0] != undefined){
-hlClass = 'hlClass'+printTag[0].toLowerCase();
-hlClassList += printTag[0].toLowerCase();
+hlClass = 'hlClass'+printTag2[0].toLowerCase();
+hlClassList += printTag2[0].toLowerCase();
 }
 
 if(q == tag){
 tagList += `
 
-<a class="tag light border2 ${hlClass}" href="${scriptDir}?q=${goTag}" style="background: ${tagColor}; color: var(--l4); font-size: ${tagSize} !important;">#${printTag}</a>
+<a class="tag light border2 ${hlClass}" href="${scriptDir}?q=${goTag}" style="background: ${tagColor}; color: var(--l4); font-size: ${tagSize} !important;">${printTag}</a>
 
 `;
 }else{
 
 tagList += `
 
-<a class="tag light border2 ${hlClass}" href="${scriptDir}?q=${goTag}"  style="color: ${tagColor}; font-size: ${tagSize} !important;">#${printTag}</a>
+<a class="tag light border2 ${hlClass}" href="${scriptDir}?q=${goTag}"  style="color: ${tagColor}; font-size: ${tagSize} !important;">${printTag}</a>
 
 `;
 }
