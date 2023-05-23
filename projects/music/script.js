@@ -92,7 +92,7 @@ arrListForRandom.push(key);
 
 i++;
 total = i;
-comMessagePrint = `<h3 class="tCenter"><span class="op">${lTitle}</span><br><br>${q2} ${i}</h3>`;
+comMessagePrint = `<b class="tCenter"><span class="op">${lTitle}</span><br><br>${q2} ${i}</b >`;
 document.getElementsByTagName('title')[0].innerHTML = `${lTitle} ${q2}`;
 }
 
