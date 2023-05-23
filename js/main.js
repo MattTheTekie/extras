@@ -133,7 +133,9 @@ var themeListDark = [
 "d-green",
 "d-blue",
 "d-orange",
+"d-pink",
 "d-red",
+"d-yellow",
 "d-violet"
 ];
 

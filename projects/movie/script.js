@@ -1,9 +1,9 @@
 // v.1.0.2
+// copy paste cp from Music
 
 
-
-var jsonVar = musicJsonVar;
-var lTitle = 'Random Music';
+var jsonVar = movieJsonVar;
+var lTitle = 'Random Movie';
 
 //https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Math/random
 function getRandomInt(max) {
@@ -29,7 +29,7 @@ if(q != null){
 q = q.replaceAll(/%/g, "%25");
 q = decodeURIComponent(q);
 q = q.trim();
-localStorage.setItem('randomMusicQ', q);
+localStorage.setItem('randomMovieQ', q);
 }
 
 
@@ -42,8 +42,8 @@ tag = tag.trim();
 
 
 
-if(q == null){ q = localStorage.getItem('randomMusicQ'); }
-if(q == null) { q = '#music'; tag = q; }
+if(q == null){ q = localStorage.getItem('randomMovieQ'); }
+if(q == null) { q = '#movie'; tag = q; }
 var q2 = q;
 
 
