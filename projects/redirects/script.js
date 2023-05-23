@@ -1,4 +1,4 @@
-// v.1.1.38
+// v.1.1.39
 
 
 
@@ -736,30 +736,7 @@ url = urlList[random];
 sRedirUrl = url;
 break;
 
-case 'o#':
-q = q3.replace(q2, '');
-q = q.trim();
-q = encodeURIComponent(q);
-urlList = [
-"https://www.qwant.com/?q="+q,
-"https://you.com/search?q="+q,
-"https://neeva.com/search?q="+q,
-"https://www.ecosia.org/search?q="+q
-];
-random = Math.floor(Math.random() * urlList.length);
-url = urlList[random];
-if(q == ''){
-urlList = [
-"https://www.qwant.com/",
-"https://you.com/",
-"https://neeva.com/",
-"https://www.ecosia.org/"
-];
-random = Math.floor(Math.random() * urlList.length);
-url = urlList[random];
-}
-sRedirUrl = url;
-break;
+
 
 case 'g#':
 case 'goo#':
@@ -809,7 +786,30 @@ url = "https://you.com/search?q="+q;
 sRedirUrl = url;
 break;
 
-
+case 'o#':
+q = q3.replace(q2, '');
+q = q.trim();
+q = encodeURIComponent(q);
+urlList = [
+"https://www.qwant.com/?q="+q,
+"https://you.com/search?q="+q,
+"https://neeva.com/search?q="+q,
+"https://www.ecosia.org/search?q="+q
+];
+random = Math.floor(Math.random() * urlList.length);
+url = urlList[random];
+if(q == ''){
+urlList = [
+"https://www.qwant.com/",
+"https://you.com/",
+"https://neeva.com/",
+"https://www.ecosia.org/"
+];
+random = Math.floor(Math.random() * urlList.length);
+url = urlList[random];
+}
+sRedirUrl = url;
+break;
 
 case 'q#':
 q = q3.replace(q2, '');
@@ -818,9 +818,6 @@ q = encodeURIComponent(q);
 
 urlList = [
 "https://www.google.com/search?q="+ q,
-"https://www.google.com/search?q="+ q,
-"https://www.google.com/search?q="+ q,
-
 "https://www.bing.com/search?q="+ q,
 "?q="+q+" o"
 ];
@@ -834,9 +831,6 @@ default:
 q = encodeURIComponent(q);
 urlList = [
 "https://www.google.com/search?q="+ q,
-"https://www.google.com/search?q="+ q,
-"https://www.google.com/search?q="+ q,
-
 "https://www.bing.com/search?q="+ q,
 "?q="+q+" o"
 ];
