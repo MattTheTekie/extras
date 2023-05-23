@@ -1,4 +1,4 @@
-// v.1.15.5
+// v.1.15.6
 
 // inspired by Twitter, Fediverse
 // not for large Json files !
@@ -61,7 +61,8 @@ var jsonVar =
 }
 
 var w = '100%';
-var h = '190px'; 
+var h = '190px';
+var embedServiceList = '';
 
 var arrListForRandom = [];
 
@@ -915,17 +916,20 @@ case "music.youtube.com":
 play = item.split('v=').pop();
 if(play != ''){
 embed = `<!--<iframe id="player" style="border:0;" height="${h}" width="${w}" src="https://www.youtube.com/embed/${play}"></iframe>--><iframe width="${w}" height="${h}" src="https://www.youtube.com/embed/${play}" title="YouTube video player" frameborder="0" allow="autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>`;
+embedServiceList += 'youtube';
 }
 break;
 
 case 'vimeo.com':
 play = item.split('/');
 embed = `<iframe src="https://player.vimeo.com/video/`+play[play.length-1]+`?badge=0" height="${h}"  frameborder="0"></iframe>`;
+embedServiceList += 'vimeo';
 break;
 
 case "twitter.com":
 case "mobile.twitter.com":
 embed = `<style>.twitter-tweet { margin-top: 0px !important; }</style><div style="display: block; width: 100%; max-width: 550px; margin: 0 auto;"><blockquote class="twitter-tweet" data-lang="${lang}" data-theme="${confThemeEmbed}"><a href="${item}"></a></blockquote></div><!--<script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>-->`;
+embedServiceList += 'twitter';
 break;
 
 case "www.reddit.com":
@@ -933,6 +937,7 @@ if(item.split('/').length >= 9){
 play = item.replaceAll('reddit.com/r/', "redditmedia.com/r/");
 embed = `<iframe style="border-radius: 0 !important;" id="reddit-embed" src="${play}?ref_source=embed&amp;ref=share&amp;embed=true&amp;theme=${confThemeEmbed}" sandbox="allow-scripts allow-same-origin allow-popups" style="border: none;" scrolling="yes" width="640" height="320px"></iframe>`;
 }
+embedServiceList += 'reddit';
 break;
 
 case "soundcloud.com":
@@ -945,18 +950,21 @@ play = play[play.length - 2];
 play = play.split('-');
 play = play[play.length - 1];
 embed = `<!--<iframe src="https://tunein.com/embed/player/${play}/?autoplay=false&background=${confThemeEmbed}" style="height:100px;" scrolling="no" frameborder="no" sandbox="allow-same-origin allow-scripts allow-popups allow-forms"></iframe>--><!-- ban if many by Clouflare -->`;
+embedServiceList += 'tunein';
 break;
 
 case "codepen.io":
 play = item.split('/');
 play = play[play.length - 1];
 embed = `<p class="codepen" data-height="420" data-default-tab="result" data-theme-id="${confThemeEmbed}" data-slug-hash="${play}" data-user="" style="height: 420px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;"></p><!--<script async src="https://cpwebassets.codepen.io/assets/embed/ei.js"></script>-->`;
+embedServiceList += 'codepen';
 break;
 
 case "giphy.com":
 play = item.split('-');
 play = play[play.length - 1];
 embed = `<iframe src="https://giphy.com/embed/${play}" width="480" height="360" frameBorder="0" class="giphy-embed" allowFullScreen></iframe><p><a href="https://giphy.com/gifs/$play">via GIPHY</a></p>`;
+embedServiceList += 'giphy';
 break;
 
 case "archive.org":
@@ -965,6 +973,7 @@ play = item.split('/');
 play = play[play.length - 1];
 h = h + h;
 embed = `<iframe src="https://archive.org/embed/${play}" width="${w}" height="${h}" frameborder="0" webkitallowfullscreen="true" mozallowfullscreen="true" allowfullscreen></iframe>`;
+embedServiceList += 'archive';
 }
 break;
 
@@ -977,6 +986,7 @@ embed = `<style>iframe.instagram-media {
     width: 100% !important;
     min-width: auto !important;
 }</style><blockquote class="instagram-media" data-instgrm-captioned data-instgrm-permalink="${play}?utm_source=ig_embed&amp;utm_campaign=loading" data-instgrm-version="12" style=" background:#FFF; border:0; border-radius:3px; box-shadow:0 0 1px 0 rgba(0,0,0,0.5),0 1px 10px 0 rgba(0,0,0,0.15); margin: 1px; max-width:540px; min-width:326px; padding:0; width:99.375%; width:-webkit-calc(100% - 2px); width:calc(100% - 2px);"></blockquote><!--<script async src="//www.instagram.com/embed.js"></script>-->`;
+embedServiceList += 'instagram';
 break;
 
 case "open.spotify.com":
@@ -987,6 +997,7 @@ play = item.split('/');
 if(play[play.length - 2] == 'playlist') {
 play = play[play.length - 1];
 embed = `<iframe style="border-radius:12px" src="https://open.spotify.com/embed/playlist/${play}?utm_source=generator" width="100%" height="352" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>`;
+embedServiceList += 'spotify';
 }
 
 if(play[play.length - 2] == 'track') {
@@ -1024,13 +1035,14 @@ if(play[play.length - 2] == 'artist') {
 play = play[play.length - 1];
 embed = `<iframe title="deezer-widget" src="https://widget.deezer.com/widget/${confThemeEmbed}/artist/${play}/top_tracks" width="100%" height="300" frameborder="0" allowtransparency="true" allow="encrypted-media; clipboard-write"></iframe>`;
 }
-
+embedServiceList += 'deezer';
 break;
 
 case 'imgur.com':
 play = item.split('/');
 play = play[play.length - 1];
 embed = `<blockquote class="imgur-embed-pub" lang="en" data-id="a/${play}"><a href="//imgur.com/a/${play}">${item}</a></blockquote><!--<script async src="//s.imgur.com/min/embed.js" charset="utf-8"></script>-->`;
+embedServiceList += 'imgur';
 break;
 
 case 'dailymotion.com':
@@ -1038,6 +1050,7 @@ case 'www.dailymotion.com':
 play = item.split('/');
 play = play[play.length - 1];
 embed = `<iframe frameborder="0" width="${w}" height="${h}" src="https://www.dailymotion.com/embed/video/${play}" allowfullscreen allow="autoplay"></iframe>`;
+embedServiceList += 'dailymotion';
 break;
 
 case 'www.twitch.tv':
@@ -1045,7 +1058,7 @@ play = item.split('/');
 play = play[play.length - 1];
 if(play == ''){ play = play[play.length - 2]; }
 embed = `<iframe src="https://embed.twitch.tv?channel=${play}&layout=video&referrer=some-referer-url&autoplay=false&parent=${confHost}" allowfullscreen="" scrolling="no" frameborder="0" height="${h}"></iframe>`;
-
+embedServiceList += 'twitch';
 break;
 
 
@@ -1053,7 +1066,7 @@ case "facebook.com":
 case "www.facebook.com":
 embed = `<style>.fb-post{ width: 100%; background: whitesmoke;  }
 .fb-post>span { max-width:100%; }</style><script async defer src="https://connect.facebook.net/en_US/sdk.js#xfbml=1&version=v3.2"></script> <div style="" class="fb-post" data-small-header="true" data-href="${item}" data-width="500" data-adapt-container-width="true"></div>`;
-
+embedServiceList += 'facebook';
 break;
 
 //default:
@@ -1274,28 +1287,33 @@ case "music.youtube.com":
 play = item.split('v=').pop();
 if(play != ''){
 embed = `<!--<iframe id="player" style="border:0;" height="${h}" width="${w}" src="https://www.youtube.com/embed/${play}"></iframe>--><iframe width="${w}" height="${h}" src="https://www.youtube.com/embed/${play}?&autoplay=1" title="YouTube video player" frameborder="0" allow="autoplay; clipboard-write; encrypted-media; gyroscope; autoplay; picture-in-picture" allowfullscreen></iframe>`;
+embedServiceList += 'youtube';
 }
 break;
 
 case 'vimeo.com':
 play = item.split('/');
 embed = `<iframe src="https://player.vimeo.com/video/`+play[play.length-1]+`?badge=0&autoplay=1" height="${h}"  frameborder="0"></iframe>`;
+embedServiceList += 'vimeo';
 break;
 
 case "twitter.com":
 case "mobile.twitter.com":
 embed = `<style>.twitter-tweet { margin-top: 0px !important; }</style><div style="display: block; width: 100%; max-width: 550px; margin: 0 auto;"><blockquote class="twitter-tweet" data-lang="${lang}" data-theme="${confThemeEmbed}"><a href="${item}"></a></blockquote></div><!--<script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>-->`;
+embedServiceList += 'twitter';
 break;
 
 case "www.reddit.com":
 if(item.split('/').length >= 9){
 play = item.replaceAll('reddit.com/r/', "redditmedia.com/r/");
 embed = `<iframe style="border-radius: 0 !important;" id="reddit-embed" src="${play}?ref_source=embed&amp;ref=share&amp;embed=true&amp;theme=${confThemeEmbed}" sandbox="allow-scripts allow-same-origin allow-popups" style="border: none;" scrolling="yes" width="640" height="320px"></iframe>`;
+embedServiceList += 'reddit';
 }
 break;
 
 case "soundcloud.com":
 embed = `<iframe width="${w}" height="${h}" scrolling="no" frameborder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=${item}&color=%23ff5500&auto_play=true&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=true"></iframe>`;
+embedServiceList += 'soundcloud';
 break;
 
 case "tunein.com":
@@ -1308,12 +1326,14 @@ embed = `<iframe src="https://tunein.com/embed/player/${play}/?autoplay=true&bac
 }else{
 embed = `<iframe width="${w}" height="300" src="${item}"></iframe>`;
 }
+embedServiceList += 'tunein';
 break;
 
 case "codepen.io":
 play = item.split('/');
 play = play[play.length - 1];
 embed = `<p class="codepen" data-height="420" data-default-tab="result" data-theme-id="${confThemeEmbed}" data-slug-hash="${play}" data-user="" style="height: 420px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;"></p><!--<script async src="https://cpwebassets.codepen.io/assets/embed/ei.js"></script>-->`;
+embedServiceList += 'codepen';
 break;
 
 
@@ -1321,6 +1341,7 @@ case "giphy.com":
 play = item.split('-');
 play = play[play.length - 1];
 embed = `<iframe src="https://giphy.com/embed/${play}" width="480" height="360" frameBorder="0" class="giphy-embed" allowFullScreen></iframe><p><a href="https://giphy.com/gifs/$play">via GIPHY</a></p>`;
+embedServiceList += 'giphy';
 break;
 
 case "archive.org":
@@ -1329,6 +1350,7 @@ play = item.split('/');
 play = play[play.length - 1];
 h = h + h;
 embed = `<iframe src="https://archive.org/embed/${play}" width="${w}" height="${h}" frameborder="0" webkitallowfullscreen="true" mozallowfullscreen="true" allowfullscreen></iframe>`;
+embedServiceList += 'archive';
 }
 break;
 
@@ -1341,6 +1363,7 @@ embed = `<style>iframe.instagram-media {
     width: 100% !important;
     min-width: auto !important;
 }</style><blockquote class="instagram-media" data-instgrm-captioned data-instgrm-permalink="${play}?utm_source=ig_embed&amp;utm_campaign=loading" data-instgrm-version="12" style=" background:#FFF; border:0; border-radius:3px; box-shadow:0 0 1px 0 rgba(0,0,0,0.5),0 1px 10px 0 rgba(0,0,0,0.15); margin: 1px; max-width:540px; min-width:326px; padding:0; width:99.375%; width:-webkit-calc(100% - 2px); width:calc(100% - 2px);"></blockquote><!--<script async src="//www.instagram.com/embed.js"></script>-->`;
+embedServiceList += 'instagram';
 break;
 
 case "open.spotify.com":
@@ -1362,7 +1385,7 @@ if(play[play.length - 2] == 'artist') {
 play = play[play.length - 1];
 embed = `<iframe style="border-radius:12px" src="https://open.spotify.com/embed/artist/${play}?utm_source=generator" width="100%" height="352" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>`;
 }
-
+embedServiceList += 'spotify';
 break;
 
 
@@ -1388,13 +1411,14 @@ if(play[play.length - 2] == 'artist') {
 play = play[play.length - 1];
 embed = `<iframe title="deezer-widget" src="https://widget.deezer.com/widget/${confThemeEmbed}/artist/${play}/top_tracks" width="100%" height="300" frameborder="0" allowtransparency="true" allow="encrypted-media; clipboard-write"></iframe>`;
 }
-
+embedServiceList += 'deezer';
 break;
 
 case 'imgur.com':
 play = item.split('/');
 play = play[play.length - 1];
 embed = `<blockquote class="imgur-embed-pub" lang="en" data-id="a/${play}"><a href="//imgur.com/a/${play}">${item}</a></blockquote><!--<script async src="//s.imgur.com/min/embed.js" charset="utf-8"></script>-->`;
+embedServiceList += 'imgur';
 break;
 
 case 'dailymotion.com':
@@ -1402,6 +1426,7 @@ case 'www.dailymotion.com':
 play = item.split('/');
 play = play[play.length - 1];
 embed = `<iframe frameborder="0" width="${w}" height="${h}" src="https://www.dailymotion.com/embed/video/${play}?autoplay=1" allowfullscreen allow="autoplay"></iframe>`;
+embedServiceList += 'dailymotion';
 break;
 
 case 'www.twitch.tv':
@@ -1409,7 +1434,7 @@ play = item.split('/');
 play = play[play.length - 1];
 if(play == ''){ play = play[play.length - 2]; }
 embed = `<iframe src="https://embed.twitch.tv?channel=${play}&layout=video&referrer=some-referer-url&parent=${confHost}" allowfullscreen="" scrolling="no" frameborder="0" height="${h}"></iframe>`;
-
+embedServiceList += 'twitch';
 break;
 
 
@@ -1417,7 +1442,7 @@ case "facebook.com":
 case "www.facebook.com":
 embed = `<style>.fb-post{ width: 100%; background: whitesmoke;  }
 .fb-post>span { max-width:100%; }</style><script async defer src="https://connect.facebook.net/en_US/sdk.js#xfbml=1&version=v3.2"></script> <div style="" class="fb-post" data-small-header="true" data-href="${item}" data-width="500" data-adapt-container-width="true"></div>`;
-
+embedServiceList += 'facebook';
 break;
 
 //default:
@@ -1767,34 +1792,41 @@ ${nav2Print}
 // for embed 
 if(embedStatus != 'off'){
 
+if(embedServiceList.search(`twitter`) != -1) {
 var script = document.createElement('script');
 script.type='text/javascript';
 script.async = true;
 script.charset = 'utf-8';
 script.src = 'https://platform.twitter.com/widgets.js';      
 document.getElementsByTagName('head')[0].appendChild(script);
+}
 
+if(embedServiceList.search(`codepen`) != -1) {
 var script2 = document.createElement('script');
 script2.type='text/javascript';
 script2.async = true;
 script2.charset = 'utf-8';
 script2.src = 'https://cpwebassets.codepen.io/assets/embed/ei.js';
 document.getElementsByTagName('head')[0].appendChild(script2);
+}
 
+if(embedServiceList.search(`instagram`) != -1) {
 var script2 = document.createElement('script');
 script2.type='text/javascript';
 script2.async = true;
 script2.charset = 'utf-8';
 script2.src = '//www.instagram.com/embed.js';
 document.getElementsByTagName('head')[0].appendChild(script2);
+}
 
+if(embedServiceList.search(`imgur`) != -1) {
 var script2 = document.createElement('script');
 script2.type='text/javascript';
 script2.async = true;
 script2.charset = 'utf-8';
 script2.src = '//s.imgur.com/min/embed.js';
 document.getElementsByTagName('head')[0].appendChild(script2);
-
+}
 
 }
 
