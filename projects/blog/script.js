@@ -1,4 +1,4 @@
-// v.1.15.7
+// v.1.15.8
 
 // inspired by Twitter, Fediverse
 // not for large Json files !
@@ -288,7 +288,7 @@ comMessage = 'found';
 
 
 
-if(comMessagePrint == '') { comMessagePrint = `<div class="red block padding">Probably not found</div>`; }
+if(comMessagePrint == '') { comMessagePrint = `<b>${q}</b> <div class="bold red block padding">Probably not found</div>`; }
 break;
 
 case 'id':
@@ -308,7 +308,7 @@ i++;
 getP = key;
 }
 }
-if(comMessagePrint == '') { comMessagePrint = `<div class="red block padding">Probably not found</div>`; }
+if(comMessagePrint == '') { comMessagePrint = `<b>${q}</b> <div class="bold red block padding">Probably not found</div>`; }
 break;
 
 
@@ -472,7 +472,7 @@ console.log(sRelevantPoint);
 
 
 
-if(mode == 'search'&&comMessage != 'found') { comMessagePrint = `<div class="red block padding">Probably not found</div>`; }
+if(mode == 'search'&&comMessage != 'found') { comMessagePrint = `<b>${q}</b> <div class="bold red block padding">Probably not found</div>`; }
 // end Search 2
 
 

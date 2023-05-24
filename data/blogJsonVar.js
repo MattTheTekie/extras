@@ -163,15 +163,6 @@ var blogJsonVar =
         "time": 1683192187
     },
     {
-        "id": "64",
-        "text": "Adham Dannaway on Twitter: \"\ud83d\udccd Need more case studies in your design portfolio? Practice solving real world problems with product design challenges. \u25c6 https:\/\/t.co\/8W8r6C2XGi \u25c6 https:\/\/t.co\/kNikJbFftU \u25c6 https:\/\/t.co\/CucAqWWKaK \u25c6 https:\/\/t.co\/QyFIDbKFhz \u25c6 https:\/\/t.co\/AnMg3QFHkD #design #ux #uxui https:\/\/t.co\/DsFb7m05yF\" \/ Twitter",
-        "text2": "",
-        "text3": "",
-        "url": "https:\/\/twitter.com\/AdhamDannaway\/status\/1653058512388341760",
-        "tag": "#challenge",
-        "time": 1683122698
-    },
-    {
         "id": "63",
         "text": "JavaScript Quiz",
         "text2": "",
@@ -314,33 +305,6 @@ var blogJsonVar =
         "url": "https:\/\/www.florin-pop.com\/blog\/2019\/09\/100-days-100-projects\/",
         "tag": "#challenge #WebDev",
         "time": 1682254737
-    },
-    {
-        "id": "46",
-        "text": "UI Adrian on Twitter: \"7 tips to design better profile settings (visual thread)\ud83d\udc47 https:\/\/t.co\/jh131bOOef\" \/ Twitter",
-        "text2": "",
-        "text3": "",
-        "url": "https:\/\/twitter.com\/uiuxadrian\/status\/1650099506388582401",
-        "tag": "#WebDesign",
-        "time": 1682253808
-    },
-    {
-        "id": "45",
-        "text": "Lea Verou on Twitter: \"I will start adding h1, h2, h3, h4, h5, h6 { text-wrap: balance; } to all my stylesheets, just to be ready.\" \/ Twitter",
-        "text2": "",
-        "text3": "",
-        "url": "https:\/\/twitter.com\/LeaVerou\/status\/1649375197403971584",
-        "tag": "#CSS",
-        "time": 1682149021
-    },
-    {
-        "id": "44",
-        "text": "WasmGPT: ChatGPT-like chatbot in the browser using ggml and emscripten. No API keys required. No server required. No data is sent to any server. Demo here -> https:\/\/lxe.co\/wasmgpt\/",
-        "text2": "",
-        "text3": "",
-        "url": "https:\/\/twitter.com\/coderfrankfurt\/status\/1649440394231283720",
-        "tag": "#bookmark #AI",
-        "time": 1682121443
     },
     {
         "id": "42",
