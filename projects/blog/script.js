@@ -1,4 +1,4 @@
-// v.1.15.6
+// v.1.15.7
 
 // inspired by Twitter, Fediverse
 // not for large Json files !
@@ -328,10 +328,6 @@ break;
 case 'auto-random':
 postLimit = 1;
 var sTimeRedirStatus = `redir after: <span id="timerRedir">${sTimeRedir[0] / 1000}</span> sec.`;
-setTimeout(function(){
-window.location.href = '?mode=auto-random';
-}, sTimeRedir[0]); 
-
 
 if(getP2 == key){
 if(i <= postLimit -1){
@@ -339,6 +335,12 @@ print += '<div class="">'+fuPrintPost(postId, postText, postTag, postTime)+'</di
 i++;
 getP = key;
 comMessagePrint = ` ${mode}`+', '+'id: '+postId+', p2: '+getP2+' | '+sTimeRedirStatus;
+
+// fixed many redirect in this place
+setTimeout(function(){
+window.location.href = '?mode=auto-random';
+}, sTimeRedir[0]); 
+
 }
 }
 break;
