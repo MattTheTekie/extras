@@ -1,6 +1,6 @@
-/* v.1.1.1
+/* v.1.1.2
  * style addon */
 
-html { margin-top: 50px; height: 280px; }
+html { height: 280px; }
 body { width: 380px; overflow: hidden; }
-form { max-width: 300px; }
+form { margin-top: 50px; max-width: 300px; }

@@ -2,7 +2,7 @@
 
   "manifest_version": 2,
   "name": "New Tab Redirect",
-  "version": "1.29",
+  "version": "1.30.1",
   "description": "Any webpage in New Tab",
 
 "icons": {
