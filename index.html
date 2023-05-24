@@ -96,10 +96,10 @@
 
 <div class="op">
 <span id="urlDayNow"></span>
-<a rel="nofollow" class="tag op light" href="/projects/redirects/?q=sci">sci</a>
-<a rel="nofollow" class="tag op light" href="/projects/redirects/?q=tec">tec</a>
-<a rel="nofollow" class="tag op light" href="/projects/redirects/?q=dev">dev</a>
-<a rel="nofollow" class="tag op light" href="/projects/redirects/?q=3.14159265359">π</a>
+<a rel="nofollow" class="tag op light border4" href="/projects/redirects/?q=sci">sci</a>
+<a rel="nofollow" class="tag op light border4" href="/projects/redirects/?q=tec">tec</a>
+<a rel="nofollow" class="tag op light border4" href="/projects/redirects/?q=dev">dev</a>
+<a rel="nofollow" class="tag op light border4" href="/projects/redirects/?q=3.14159265359">π</a>
 </div>
 </header>
 
@@ -131,8 +131,8 @@ i++;
 if(d == 0){ text += `7`; } else { text += '.'; }
 
 var urlDayNow = 'https://en.wikipedia.org/wiki/'+monthsEn[month]+'_'+day+'';
-//document.getElementById('urlDayNow').innerHTML = `<a rel="nofollow" class="tag op xSmall light" href="`+urlDayNow+`">`+dayEn[d]+` `+day+` `+monthsEn[month]+`</a>`;
-document.getElementById('urlDayNow').innerHTML = `<a rel="nofollow" class="tag op xSmall light" href="`+urlDayNow+`">`+text+`</a>`;
+//document.getElementById('urlDayNow').innerHTML = `<a rel="nofollow" class="tag op light border4" href="`+urlDayNow+`">`+dayEn[d]+` `+day+` `+monthsEn[month]+`</a>`;
+document.getElementById('urlDayNow').innerHTML = `<a rel="nofollow" class="tag op light border4" href="`+urlDayNow+`">`+text+`</a>`;
 
 
 /*function normalize(a){
