@@ -40,10 +40,9 @@ mainPrintMsg('footer', `
 <span id="fPrivacy"><a href="/privacy.${confExt}">cookie: status</a></span>
 
 <span><a href="https://twitter.com/inonehp">twitter</a></span>
-
-<span><a href="https://feeds.feedburner.com/inonehp">RSS</a></span>
-<span id="fAbout"><a href="/about.${confExt}">about</a></span>
 <span id="fDonate"><a href="/about.${confExt}#donate">donate</a></span>
+<span><a href="https://feedly.com/i/subscription/feed/https://inonehp.github.io/rss.xml">RSS</a></span>
+<span id="fAbout"><a href="/about.${confExt}">about</a></span>
 <span><a rel="license" style="/*text-transform: lowercase;*/" title="license" href="https://creativecommons.org/licenses/by-sa/4.0/">license: CC BY-SA 4.0</a></span>
 
 </div>
