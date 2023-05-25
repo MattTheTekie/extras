@@ -1,4 +1,4 @@
-// v.1.15.8
+// v.1.15.9
 
 // inspired by Twitter, Fediverse
 // not for large Json files !
@@ -1740,7 +1740,7 @@ grid-gap:10px;
 grid-template-columns: 1fr 20% 1fr;
 grid-gap: 3px 3px;
 margin: 4px auto !important;
-paddin: 0 !important;
+padding: 0 !important;
 justify-content: center;
 }
 </style>
