@@ -1,4 +1,5 @@
 /* v.3.1.2 */
+/* copy paste from main site */
 
 var result = '';
 themeListOption.forEach((element) => {
@@ -44,7 +45,7 @@ document.getElementById("fTheme").innerHTML =  item;
 
 setTheme(item);
 light(item);
-localStorage.setItem('themeTpl', item);
+localStorage.setItem('theme', item);
 });
 
 }

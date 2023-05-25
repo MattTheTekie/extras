@@ -102,15 +102,21 @@ if(navigator.userAgent.search("PlayStation|Xbox|TV|Roku|SmartTV|BRAVIA") != -1){
 if(confDevice == ''){ confDevice = 'pc'; }
 
 
-confDeviceTheme = 'none';
-if (window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches) { confDeviceTheme = 'dark'; }
-if (window.matchMedia && window.matchMedia('(prefers-color-scheme: light)').matches) { confDeviceTheme = 'light'; }
+
+
 
 
 
 
 
 // theme
+
+confDeviceTheme = 'none';
+if (window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches) { confDeviceTheme = 'dark'; }
+if (window.matchMedia && window.matchMedia('(prefers-color-scheme: light)').matches) { confDeviceTheme = 'light'; }
+
+
+
 function mainPrintTheme(theme){
 if(document.getElementById('theme') != null){
 document.getElementById('theme').href = '/css/'+theme+'.css';
@@ -118,7 +124,7 @@ document.getElementById('theme').href = '/css/'+theme+'.css';
 }
 
 
-var theme = localStorage.getItem('theme');
+var theme = localStorage.getItem('themeTpl');
 var themeListLight = [
 "light",
 "l-blue",
@@ -336,7 +342,7 @@ setTheme(localStorage.getItem('theme')); //alert('not');
 }
 });
 */
-
+// end theme
 
 
 
