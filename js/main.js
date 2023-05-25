@@ -43,6 +43,7 @@ mainPrintMsg('footer', `
 
 <span><a href="https://feeds.feedburner.com/inonehp">RSS</a></span>
 <span id="fAbout"><a href="/about.${confExt}">about</a></span>
+<span id="fDonate"><a href="/about.${confExt}#donate">donate</a></span>
 <span><a rel="license" style="/*text-transform: lowercase;*/" title="license" href="https://creativecommons.org/licenses/by-sa/4.0/">license: CC BY-SA 4.0</a></span>
 
 </div>
