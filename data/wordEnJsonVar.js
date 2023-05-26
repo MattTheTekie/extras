@@ -1843,6 +1843,9 @@ var wordEnJsonVar =
         "text": "adulteration"
     },
     {
+        "text": "adulterer"
+    },
+    {
         "text": "adultery"
     },
     {
@@ -2996,8 +2999,5 @@ var wordEnJsonVar =
     },
     {
         "text": "ale"
-    },
-    {
-        "text": "alegations"
     }
 ]
