@@ -42,14 +42,21 @@ window.open(rUrl,'newTab').focus();
 window.close();
 */
 
+
 // second 2 redirect
 //https://developer.mozilla.org/docs/Mozilla/Add-ons/WebExtensions/Add_a_button_to_the_toolbar
 browser.tabs.create({
 url: rUrl
 });
 window.close();
-}
+
+
+
+
 //rUrl - redirect url
+}
+
+
 
 
 

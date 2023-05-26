@@ -32,10 +32,6 @@
 
 
 
-
-
-
-
 "browser_action": {
     "browser_style": true,
     "default_popup": "/options.html",
@@ -45,18 +41,8 @@
   },
 
 
-
-
-
-
-
-
-
-
 "chrome_url_overrides" : {
     "newtab": "/new-tab-redirect.html"
   }
-
-
   
 }
