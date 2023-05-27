@@ -20,10 +20,10 @@
 
 <!-- top -->
 <header class="capitalize">
-<nav class="brand">
+<nav>
 <a href="#"><img class="logo2" src="/img/tpl/logo-company-512x512.png" alt="logo"></a>
-<a class="active" href="#">menu</a>
-<a href="#">menu2</a>
+<a class="brand" href="menu.html">menu</a>
+<a class="brand" href="menu2.html">menu2</a>
 </nav>
 </header>
 <!-- / -->
@@ -33,14 +33,32 @@
 <div  class="content">
 <div class="wrapper">
 
-<div id="idTagList">
-<div class="block tagList tCenter padding">
-<a class="tag2 border2 op light" href="#menu">menu</a>
-<a class="tag2 border2 op light" href="#menu2">menu2</a>
-</div>
+<div id="idTagList"></div>
+<div id="getId">
+
+
+
+<div class="block tCenter" style="margin: 9px 0; margin-top: 25px; color: var(--c);">main:</div>
+
+<div class="menu" id="main">
+
+<a class="button light3 border3 cLa" tabindex="0" href="page.html">page</a>
+<a class="button light3 border3 cLa" tabindex="0" href="page.html">page</a>
+<a class="button light3 border3 cLa" tabindex="0" href="page.html">page</a>
+
+<a class="button light3 border3 cLa" tabindex="0" href="page.html">page</a>
+<a class="button light3 border3 cLa" tabindex="0" href="page.html">page</a>
+<a class="button light3 border3 cLa" tabindex="0" href="page.html">page</a>
+
+<a class="button light3 border3 cLa" tabindex="0" href="page.html">page</a>
+<a class="button light3 border3 cLa" tabindex="0" href="page.html">page</a>
+
 </div>
 
-<div class="menuLabel block tCenter" style="margin: 9px 0; margin-top: 25px; color: var(--c);">menu:</div>
+
+
+
+<div class="block tCenter" style="margin: 9px 0; margin-top: 25px; color: var(--c);">menu:</div>
 
 <div class="menu" id="menu">
 
@@ -56,6 +74,7 @@
 <a class="button light3 border3 cLa" tabindex="0" href="page.html">page</a>
 
 </div>
+
 
 
 
@@ -75,6 +94,12 @@
 <a class="button light3 border3 cLa" tabindex="0" href="page.html">page</a>
 
 </div>
+
+
+
+</div>
+</div>
+
 
 
 <div class="block tCenter" style="margin: 9px 0; margin-top: 25px; color: var(--c);">last post:</div>
@@ -100,6 +125,54 @@
 </div>
 </div>
 <!-- // content end -->
+
+
+
+
+<script>
+// v.1.1.0
+
+
+
+function divIdToTag(printId, fromId){
+
+
+var allIdOnPage = '';
+
+let divId = document.getElementById(fromId);
+
+let allDivId = divId.querySelectorAll('div');
+allDivId.forEach((item, index) => {
+if(item.id != ''){
+allIdOnPage += `<a class="tag2 border2 op light" href="#`+item.id+`">`+item.id+`</a>`
+}
+});
+allIdOnPage = `
+<div class="block tagList tCenter padding">`+allIdOnPage+`</div>
+`;
+//document.getElementsByClassName('print')[0].innerHTML = allIdOnPage;
+
+if(document.getElementById(printId) == null){
+console.log('id for print null');
+}else{
+document.addEventListener("DOMContentLoaded", (event) => {
+document.getElementById(printId).innerHTML = allIdOnPage;
+});
+
+}
+
+
+}
+
+
+
+divIdToTag('idTagList', 'getId')
+
+</script>
+
+
+
+
 
 
 <!-- footer -->
