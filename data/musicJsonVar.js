@@ -6959,6 +6959,13 @@ var musicJsonVar =
         "tag": "#music"
     },
     {
+        "text": "Like Whoa \u00b7 yung cxreal \u00b7 baby frankie",
+        "text2": "",
+        "text3": "",
+        "url": "https:\/\/www.youtube.com\/watch?v=pGUfkpwCn0U",
+        "tag": "#music"
+    },
+    {
         "text": "Lil Nas X - Old Town Road (Official Video) ft. Billy Ray Cyrus - YouTube",
         "text2": "",
         "text3": "",
@@ -9259,6 +9266,13 @@ var musicJsonVar =
         "text2": "",
         "text3": "",
         "url": "https:\/\/www.youtube.com\/watch?v=gWRXGViFh-U",
+        "tag": "#music"
+    },
+    {
+        "text": "pretty boys (with KO Aka Koala) \u00b7 yung cxreal \u00b7 baby frankie \u00b7 KO Aka Koala",
+        "text2": "",
+        "text3": "",
+        "url": "https:\/\/www.youtube.com\/watch?v=9zOESIWN8YA",
         "tag": "#music"
     },
     {
@@ -13193,6 +13207,20 @@ var musicJsonVar =
         "text2": "",
         "text3": "",
         "url": "https:\/\/www.youtube.com\/watch?v=T0soXkLHsiE",
+        "tag": "#music"
+    },
+    {
+        "text": "yung cxreal & baby frankie - dumb bitchitis (Official Lyric Video) - YouTube",
+        "text2": "",
+        "text3": "",
+        "url": "https:\/\/www.youtube.com\/watch?v=c1OKZIzGQ1s",
+        "tag": "#music"
+    },
+    {
+        "text": "yung cxreal, baby frankie - hoe hoe hoe (Official Audio) - YouTube",
+        "text2": "",
+        "text3": "",
+        "url": "https:\/\/www.youtube.com\/watch?v=7XdAQ-OMw2Q",
         "tag": "#music"
     },
     {

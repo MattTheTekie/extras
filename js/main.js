@@ -150,7 +150,7 @@ var themeListOther = [
 "o-blue",
 "o-breeze",
 "o-yellow",
-"o-pink",
+"o-pink-pastel",
 "o-silver",
 "o-violet"
 ];
@@ -159,6 +159,7 @@ var themeListOtherDark = [
 "o-d-green",
 "o-d-blue",
 "o-d-brown",
+"o-d-pink",
 "o-d-violet"
 ];
 

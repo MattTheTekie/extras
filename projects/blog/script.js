@@ -1917,6 +1917,7 @@ return text;
 //https://stackoverflow.com/questions/5409641/set-a-variable-if-undefined-in-javascript
 // if main index js not exit
 if (typeof lang === 'undefined') { var lang = 'en'; }
+
 if (typeof confThemeEmbed === 'undefined') {
 if (window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches) {
 var confThemeEmbed= 'dark';
@@ -1924,9 +1925,11 @@ var confThemeEmbed= 'dark';
 var confThemeEmbed= 'light2';
 }
 }
+
 if (typeof fuWorker === 'undefined') {
 function fuWorker(){ }
 }
+
 if (typeof confDevice === 'undefined') {
 var confDevice = '';
 /*if(confDataCollection != 'on'){

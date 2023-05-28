@@ -1,5 +1,13 @@
 /* v.12.22.2 */
 
+.gallery {
+  display: grid;
+  grid-template-columns: repeat(8, 1fr);
+  grid-template-rows: repeat(8, 5vw);
+  grid-gap: 1.5rem; 
+}
+
+
 * {  color-scheme: light dark; } /* view-source:about:blank */ 
 
 :root{
