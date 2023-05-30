@@ -1,4 +1,4 @@
-// v.1.1.40
+// v.1.1.41
 
 
 
@@ -362,8 +362,7 @@ q = encodeURIComponent(q);
 urlList = [
 "https://www.google.com/search?q="+q+"&tbm=nws",
 "https://www.bing.com/news/search?q="+q,
-"https://www.qwant.com/?t=news&q="+q,
-"https://neeva.com/search?q="+q+"&c=News"
+"https://www.qwant.com/?t=news&q="+q
 ];
 
 random = Math.floor(Math.random() * urlList.length);
@@ -760,15 +759,6 @@ url = "https://www.qwant.com/?q=" + q;
 sRedirUrl = url;
 break;
 
-case 'nee#':
-case 'ne#':
-q = q3.replace(q2, '');
-q = q.trim();
-q = encodeURIComponent(q);
-url = "https://neeva.com/search?q="+q;
-sRedirUrl = url;
-break;
-
 case 'you#':
 case 'yo#':
 q = q3.replace(q2, '');
@@ -785,7 +775,6 @@ q = encodeURIComponent(q);
 urlList = [
 "https://www.qwant.com/?q="+q,
 "https://you.com/search?q="+q,
-"https://neeva.com/search?q="+q,
 "https://www.ecosia.org/search?q="+q
 ];
 random = Math.floor(Math.random() * urlList.length);
@@ -794,7 +783,6 @@ if(q == ''){
 urlList = [
 "https://www.qwant.com/",
 "https://you.com/",
-"https://neeva.com/",
 "https://www.ecosia.org/"
 ];
 random = Math.floor(Math.random() * urlList.length);
