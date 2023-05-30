@@ -1,4 +1,4 @@
-// v.1.15.9
+// v.1.15.10
 
 // inspired by Twitter, Fediverse
 // not for large Json files !
@@ -292,8 +292,9 @@ if(comMessagePrint == '') { comMessagePrint = `<b>${q}</b> <div class="bold red 
 break;
 
 case 'id':
-if(i <= postLimit -1){
+
 if(postId == id||getP2 == key){
+if(i <= postLimit -1){
 print += '<div class="">'+fuPrintPost(postId, postText, postTag, postTime)+'</div>';
 comMessagePrint = 'id: '+postId;
 // post in title only when id
@@ -1663,9 +1664,10 @@ total = Number(jsonVar.length);
 
 let total2 = total;
 
-if(next >= total){ next = total - 1; total2 = total - 1; }
+if(postLimit >= total){ next = total; total2 = total; }
 if(prev <= 0){ prev = 0; }
 
+if(next >= total){ next = total  - postLimit; }
 
 var navOption2 = '';
 var navOption3 = '';
@@ -1695,8 +1697,9 @@ navMode = 'p';
 nav2Print = `
 <div class="tRight">
 <!--<a class="op borderList button light" href="?id=">random</a>-->
-</div>
+
 <!--<a class="op border2 button light" style="width: 49%;" href="#" onclick="history.back()">back</a>-->
+</div>
 `;
 
 break;
@@ -1707,10 +1710,11 @@ navMode = 'p2';
 
 nav2Print = `
 <div class="tRight">
-<a class="op borderList button light block" href="?p=`+Math.floor(getP)+`">list</a>
+<a class="op borderList button light" href="#" onclick="history.back()">back</a>
+<a class="op borderList button light" href="?p=`+Math.floor(getP)+`">list</a>
 <!--<a class="op borderList button light block" href="?id=">rand</a>-->
 </div>
-<!--<a class="op border2 button light" style="width: 49%;" href="#" onclick="history.back()">back</a>-->
+
 `;
 }
 
