@@ -1,4 +1,4 @@
-// v.1.15.10
+// v.1.15.11
 
 // inspired by Twitter, Fediverse
 // not for large Json files !
@@ -1072,6 +1072,16 @@ embed = `<style>.fb-post{ width: 100%; background: whitesmoke;  }
 embedServiceList += 'facebook';
 break;
 
+case 'unsplash.com':
+play = item.split('/');
+play = play[play.length - 1];
+if(play == ''){ play = play[play.length - 2]; }
+embed = `<a href="${item}"><img class="img border3" src="https://unsplash.com/photos/${play}/download" width=""></a>`;
+embedServiceList += 'twitch';
+break;
+
+
+
 //default:
 
 
@@ -1447,6 +1457,15 @@ embed = `<style>.fb-post{ width: 100%; background: whitesmoke;  }
 .fb-post>span { max-width:100%; }</style><script async defer src="https://connect.facebook.net/en_US/sdk.js#xfbml=1&version=v3.2"></script> <div style="" class="fb-post" data-small-header="true" data-href="${item}" data-width="500" data-adapt-container-width="true"></div>`;
 embedServiceList += 'facebook';
 break;
+
+case 'unsplash.com':
+play = item.split('/');
+play = play[play.length - 1];
+if(play == ''){ play = play[play.length - 2]; }
+embed = `<a href="${item}"><img class="img border3" src="https://unsplash.com/photos/${play}/download" width=""></a>`;
+embedServiceList += 'twitch';
+break;
+
 
 //default:
 
