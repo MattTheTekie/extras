@@ -1,4 +1,4 @@
-// v.1.1.39
+// v.1.1.40
 
 
 
@@ -309,10 +309,6 @@ q = encodeURIComponent(q);
 urlList = [
 //"https://translate.google.com/?sl=auto&tl=auto&text="+q+"&op=translate",
 "https://translate.google.com/?sl=auto&text="+q+"&op=translate",
-"https://translate.google.com/?sl=auto&text="+q+"&op=translate",
-"https://translate.google.com/?sl=auto&text="+q+"&op=translate",
-
-"https://www.deepl.com/translator#auto/auto/"+q,
 "https://www.deepl.com/translator#auto/auto/"+q,
 "https://www.bing.com/translator/?text="+q+"&from=auto&to=auto"
 ];
@@ -327,10 +323,6 @@ q = q.trim();
 q = encodeURIComponent(q);
 urlList = [
 "https://translate.google.com/?sl=auto&tl=en&text="+q+"&op=translate",
-"https://translate.google.com/?sl=auto&tl=en&text="+q+"&op=translate",
-"https://translate.google.com/?sl=auto&tl=en&text="+q+"&op=translate",
-
-"https://www.deepl.com/translator#auto/en/"+q,
 "https://www.deepl.com/translator#auto/en/"+q,
 "https://www.bing.com/translator/?text="+q+"&from=auto&to=en"
 ];
