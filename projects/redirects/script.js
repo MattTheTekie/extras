@@ -1,4 +1,4 @@
-// v.1.1.41
+// v.1.1.42
 
 
 
@@ -412,7 +412,17 @@ urlList = [
 "https://twitter.com/i/topics/848920371311001600",
 "https://www.reddit.com/r/technology/",
 "https://medium.com/tag/technology",
-"https://finance.yahoo.com/tech/"
+"https://finance.yahoo.com/tech/",
+
+"https://flipboard.com/topic/computerscience",
+"https://flipboard.com/topic/computerscience",
+"https://flipboard.com/topic/computerscience",
+
+"https://news.google.com/topics/CAAqIQgKIhtDQkFTRGdvSUwyMHZNREZ0YTNFU0FtVnVLQUFQAQ",
+"https://www.reddit.com/r/computerscience/",
+"https://www.reddit.com/r/compsci/",
+"https://medium.com/tag/computer-science"
+
 //"https://www.smartnews.com/en/us/technology",
 // redirect app, delme "https://www.newsbreak.com/channels/technology"
 ];
@@ -467,13 +477,8 @@ random = Math.floor(Math.random() * urlList.length);
 url = urlList[random];
 if(q == ''){
 urlList = [
-"https://flipboard.com/topic/computerscience",
-"https://flipboard.com/topic/computerscience",
-"https://flipboard.com/topic/computerscience",
 
-"https://news.google.com/topics/CAAqIQgKIhtDQkFTRGdvSUwyMHZNREZ0YTNFU0FtVnVLQUFQAQ",
-"https://www.reddit.com/r/computerscience/",
-"https://www.reddit.com/r/compsci/",
+
 "https://www.reddit.com/r/programming/",
 "https://www.reddit.com/r/learnprogramming/",
 "https://www.reddit.com/r/webdev/",
@@ -484,7 +489,7 @@ urlList = [
 "https://www.reddit.com/r/css/",
 "https://medium.com/tag/web-development",
 "https://medium.com/tag/programming",
-"https://medium.com/tag/computer-science",
+
 "https://medium.com/tag/ai",
 "https://dev.to/",
 "https://hashnode.com/community",
