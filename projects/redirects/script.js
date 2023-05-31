@@ -773,6 +773,78 @@ url = "https://you.com/search?q="+q;
 sRedirUrl = url;
 break;
 
+case 'oo#':
+q = q3.replace(q2, '');
+q = q.trim();
+q = encodeURIComponent(q);
+urlList = [
+// with ind. maybe
+"https://swisscows.com/web?query="+q,
+"https://www.gigablast.com/search?q="+q,
+"https://search.goo.ne.jp/web.jsp?MT="+q+"&IE=UTF-8&OE=UTF-8",
+"https://search.seznam.cz/?q="+q,
+
+//"https://www.kiddle.co/s.php?q=$q",
+//"https://web.search.ch/?q=$q",
+"https://www.sapo.pt/pesquisa/web/tudo?q="+q,
+//"http://leit.is/company_search?search=$q",
+"https://fireball.de/search?q="+q,
+//"https://freespoke.com/search/web?q=$q",
+"https://qmamu.com/search?q="+q,
+//"https://cyb.ai/search/$q",
+
+"https://kagi.com/search?q="+q,
+"https://www.alexandria.org/?q="+q,
+"https://wiby.me/?q="+q,
+//"https://search.naver.com/search.naver?query=$q", //closed
+
+// without
+"https://duckduckgo.com/?q="+q,
+"https://search.lycos.com/web/?q="+q,
+"https://www.ask.com/web?q="+q,
+"https://search.yahoo.com/search?p="+q,
+
+//"https://andisearch.com/?q=$q",
+"https://startpage.com/sp/search?q="+q,
+"https://yep.com/web?q="+q,
+"https://teclis.com/search?q="+q,
+"https://search.givewater.com/serp?q="+q,
+"https://www.ekoru.org/?q="+q,
+"https://search.lilo.org/?q="+q,
+//"https://searx.ninja/?q=$q&categories=general",
+"https://searx.xyz/?q="+q+"&categories=general",
+
+"https://peekier.com/?#!"+q,
+
+"https://engine.presearch.org/search?q="+q,
+
+//"https://www.dogpile.com/serp?q=$q",
+"https://metager.org/meta/meta.ger3?eingabe="+q,
+"https://ellpedia.com/search?q="+q,
+//"https://search.niriv.com/web?q=$q",
+"https://www.zapmeta.com/search?q="+q,
+"https://gibiru.com/results.html?q="+q,
+//"https://www.webcrawler.com/serp?q=$q",
+//"https://www.metacrawler.com/serp?q=$q",
+//"https://results.excite.com/serp?q=$q",
+//"https://www.infospace.com/serp?q=$q",
+"https://search.daum.net/search?q="+q
+//"https://www.petalsearch.com/search?query=$q"
+
+//"https://www.mojeek.com/search?q=$q"
+];
+random = Math.floor(Math.random() * urlList.length);
+url = urlList[random];
+if(q == ''){
+urlList = [
+"?=o"
+];
+random = Math.floor(Math.random() * urlList.length);
+url = urlList[random];
+}
+sRedirUrl = url;
+break;
+
 case 'o#':
 q = q3.replace(q2, '');
 q = q.trim();
@@ -796,6 +868,7 @@ url = urlList[random];
 sRedirUrl = url;
 break;
 
+
 case 'q#':
 q = q3.replace(q2, '');
 q = q.trim();
@@ -804,7 +877,8 @@ q = encodeURIComponent(q);
 urlList = [
 "https://www.google.com/search?q="+ q,
 "https://www.bing.com/search?q="+ q,
-"?q="+q+" o"
+"?q="+q+" o",
+"?q="+q+" oo"
 ];
 random = Math.floor(Math.random() * urlList.length);
 random = urlList[random];
@@ -817,7 +891,8 @@ q = encodeURIComponent(q);
 urlList = [
 "https://www.google.com/search?q="+ q,
 "https://www.bing.com/search?q="+ q,
-"?q="+q+" o"
+"?q="+q+" o",
+"?q="+q+" oo"
 ];
 random = Math.floor(Math.random() * urlList.length);
 random = urlList[random];
