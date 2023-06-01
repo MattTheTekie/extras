@@ -1,4 +1,4 @@
-// v.3.9.24
+// v.3.9.25
 
 
 
@@ -6,7 +6,7 @@
 function mainAll(mode33){
 
 
-const wmpAverageLimit = 30;
+const wmpAverageLimit = 10;
 const wordLengthLimit = 5.1;
 
 //https://catalins.tech/store-array-in-localstorage/
