@@ -1,4 +1,4 @@
-// v.1.1.43
+// v.1.1.44
 
 
 
@@ -780,7 +780,7 @@ q = encodeURIComponent(q);
 urlList = [
 // with ind. maybe
 "https://swisscows.com/web?query="+q,
-"https://www.gigablast.com/search?q="+q,
+//"https://www.gigablast.com/search?q=$q",// unable to connect
 "https://search.goo.ne.jp/web.jsp?MT="+q+"&IE=UTF-8&OE=UTF-8",
 "https://search.seznam.cz/?q="+q,
 

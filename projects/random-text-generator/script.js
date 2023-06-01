@@ -110,7 +110,7 @@ document.getElementById("letter").innerHTML = result;
 
 
 result = '';
-var nav = "500,1000,2000,3000,5000,10000,100000";
+var nav = "100,250,500,1000,2000,3000,5000,10000,100000";
 nav = nav.split(",");
 for(let i = 0; i < nav.length; i++){
 if(q == nav[i]){
