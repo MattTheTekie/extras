@@ -1,4 +1,4 @@
-// v.1.1.42
+// v.1.1.43
 
 
 
@@ -793,7 +793,7 @@ urlList = [
 "https://qmamu.com/search?q="+q,
 //"https://cyb.ai/search/$q",
 
-"https://kagi.com/search?q="+q,
+//"https://kagi.com/search?q=$q", // need login
 "https://www.alexandria.org/?q="+q,
 "https://wiby.me/?q="+q,
 //"https://search.naver.com/search.naver?query=$q", //closed
@@ -805,7 +805,7 @@ urlList = [
 "https://search.yahoo.com/search?p="+q,
 
 //"https://andisearch.com/?q=$q",
-"https://startpage.com/sp/search?q="+q,
+//"https://startpage.com/sp/search?q="+q,
 "https://yep.com/web?q="+q,
 "https://teclis.com/search?q="+q,
 "https://search.givewater.com/serp?q="+q,
