@@ -1,4 +1,4 @@
-// v.1.1.1
+// v.1.2.0
 
 var limit = 10;
 var rangeValue = 0;
@@ -89,6 +89,11 @@ var print = `
 <label class="op block tLeft xSmall">input number:</label>
 
 <div id="number2"></div>
+
+<a href="#" id="prev" class="button light border3" style="width: 49%;" onclick="submitButtonPrev()" >-</a>
+<a href="#" id="next" class="button light border3" style="width: 49%;" onclick="submitButtonNext()" >+</a>
+
+
 <div id="range2"></div>
 
 <a class="block tCenter button border light h3 op" style="cursor: pointer;" onclick="start()" href="#">start</a>
@@ -121,11 +126,18 @@ return false;
 
 
 
-// range input
-function submit33(){
+// button prev
+function submitButtonPrev(){
+
 rangeValue = document.getElementById("range").value;
 
-answer[0] = rangeValue;
+answer[0] = Number(rangeValue) - 1;
+
+document.getElementById("range").value = answer[0];
+document.getElementById("number").value = answer[0];
+
+
+//start();
 
 /*
 //https://stackoverflow.com/questions/7609130/set-the-default-value-of-an-input-field
@@ -133,9 +145,51 @@ document.getElementById("number").setAttribute('value', rangeValue);*/
 
 document.getElementById("number2").innerHTML = `
 
-<input id="number" class="tCenter" type="number" name="number" value="${rangeValue}" min="0" max="${mode[0]}">
+<input id="number" class="tCenter" type="number" name="number" value="${answer[0]}" min="0" max="${mode[0]}">
 
 `;
+
+}
+
+// button next
+function submitButtonNext(){
+
+rangeValue = document.getElementById("range").value;
+
+answer[0] = Number(rangeValue) + 1;
+document.getElementById("range").value = answer[0];
+document.getElementById("number").value = answer[0];
+
+
+//start();
+
+}
+
+
+
+// range input
+function submit33(){
+rangeValue = document.getElementById("range").value;
+
+answer[0] = rangeValue;
+
+
+
+document.getElementById("number").value = answer[0];
+
+
+/*
+//https://stackoverflow.com/questions/7609130/set-the-default-value-of-an-input-field
+document.getElementById("number").setAttribute('value', rangeValue);*/
+/*
+document.getElementById("number2").innerHTML = `
+
+<input id="number" class="tCenter" type="number" name="number" value="${rangeValue}" min="0" max="${mode[0]}">
+
+`;*/
+
+//start();
+
 }
 
 
@@ -149,15 +203,19 @@ rangeValue = e.target.value;
 
 answer[0] = rangeValue;
 
+
+
+
+
 //document.getElementById("range2").setAttribute('value', rangeValue);
 
-document.getElementById("range2").innerHTML = `
+/*document.getElementById("range2").innerHTML = `
 
 <input id="range" class="slider" name="range" style="" value="${rangeValue}" type="range" min="0" max="${mode[0]}" step="1" onmouseup="submit33();" ontouchend="submit33();">
 </form>
-`;
+`;*/
 
-
+document.getElementById("range").value = answer[0];
 }
 
 

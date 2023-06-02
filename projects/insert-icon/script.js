@@ -1,4 +1,4 @@
-// v.1.2.26
+// v.1.2.27
 // Inspired by GitHub profile
 
 function insertIcon(id, mode){
@@ -9,6 +9,7 @@ let icons = {
 "angel":"😇",
 "angle":"🔺",
 "antilope":"🦌", "gnu":"🦌",
+"balloon":"🎈",
 "bird":"🐦", "twitter":"🐦",
 "blog":"📝", "todo":"📝", "task":"📝", "note":"📝", "reminde":"📝", "paper":"📝",
 "book":"📚", "quiz":"📚",
