@@ -3,8 +3,6 @@
 
 function hint(printId, hintJsonVar, hintLimit, inputId){
 
-
-
 if(hintLimit == null||hintLimit == undefined||hintLimit == ''){ hintLimit = 35; }
 if(inputId == null||inputId == undefined||inputId == ''){ inputId = ''; }
 var com = '';
@@ -50,7 +48,7 @@ var count = 0;
 
 
 // search 1
-for (let index = 0; index < hintJsonVar.length; index++) {  
+for (let index = 0; index < hintJsonVar.length; index++) { 
 const item = hintJsonVar[index];  
 var item2 = item['text']; // from json  var
 
