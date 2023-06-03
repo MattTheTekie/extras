@@ -1,4 +1,4 @@
-/* v.3.3.8 */
+/* v.3.3.9 */
 
 
 var symbolForSplit = 'pwxortuzqu';
@@ -29,7 +29,7 @@ mainPrintMsg('footer', `
 <!--<span><a  class="button" href="../">&#x2190;</a></span>
 -->
 
-<span><a href="/">index</a></span>
+<!--<span><a href="/">index</a></span>-->
 
 <asdf id="fScript"></asdf>
 <asdf id="fStyle"></asdf>
@@ -39,10 +39,13 @@ mainPrintMsg('footer', `
 <span id="fAds"><a href="/ads.${confExt}">ads: ${localStorage.getItem('confAdsStatus')}</a></span>
 <span id="fPrivacy"><a href="/privacy.${confExt}">cookie: status</a></span>
 
+<!--
 <span><a href="https://twitter.com/inonehp">twitter</a></span>
 <span id="fDonate"><a href="/about.${confExt}#donate">donate</a></span>
 <span><a href="https://feedly.com/i/subscription/feed/https://inonehp.github.io/rss.xml">RSS</a></span>
 <span id="fAbout"><a href="/about.${confExt}">about</a></span>
+-->
+
 <span><a rel="license" style="/*text-transform: lowercase;*/" title="license" href="https://creativecommons.org/licenses/by-sa/4.0/">license: CC BY-SA 4.0</a></span>
 
 </div>
