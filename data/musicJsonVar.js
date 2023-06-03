@@ -1653,6 +1653,13 @@ var musicJsonVar =
         "tag": "#music"
     },
     {
+        "text": "Born This Way \u00b7 Lady Gaga",
+        "text2": "",
+        "text3": "",
+        "url": "https:\/\/www.youtube.com\/watch?v=fn8JP4rUP2I",
+        "tag": "#music"
+    },
+    {
         "text": "Boys Kiss Boys \u00b7 Hollywood Wildlife",
         "text2": "",
         "text3": "",
@@ -2458,6 +2465,13 @@ var musicJsonVar =
         "tag": "#music"
     },
     {
+        "text": "Christina Aguilera, Lil' Kim, Mya, P!nk - Lady Marmalade - YouTube",
+        "text2": "",
+        "text3": "",
+        "url": "https:\/\/www.youtube.com\/watch?v=RQa7SvVCdZk",
+        "tag": "#music"
+    },
+    {
         "text": "City Grrrl - CSS feat. Ssion [Official Music Video] - YouTube",
         "text2": "",
         "text3": "",
@@ -3193,6 +3207,13 @@ var musicJsonVar =
         "tag": "#music"
     },
     {
+        "text": "Do It Like A Dude \u00b7 Jessie J",
+        "text2": "",
+        "text3": "",
+        "url": "https:\/\/www.youtube.com\/watch?v=VY6-611B_LM",
+        "tag": "#music"
+    },
+    {
         "text": "Do They? by Molly Moore",
         "text2": "",
         "text3": "",
@@ -3312,6 +3333,13 @@ var musicJsonVar =
         "tag": "#music"
     },
     {
+        "text": "Domino \u00b7 Jessie J",
+        "text2": "",
+        "text3": "",
+        "url": "https:\/\/www.youtube.com\/watch?v=FMtgC9lYt2w",
+        "tag": "#music"
+    },
+    {
         "text": "Don't Apply Compression Gently \u00b7 Courtney Barnett",
         "text2": "",
         "text3": "",
@@ -3344,6 +3372,13 @@ var musicJsonVar =
         "text2": "",
         "text3": "",
         "url": "https:\/\/www.youtube.com\/watch?v=I03OC-1syq4",
+        "tag": "#music"
+    },
+    {
+        "text": "Don't You Worry 'Bout A Thing \u00b7 Tori Kelly",
+        "text2": "",
+        "text3": "",
+        "url": "https:\/\/www.youtube.com\/watch?v=DPk-aXEP1Nk",
         "tag": "#music"
     },
     {
@@ -3953,6 +3988,13 @@ var musicJsonVar =
         "text2": "",
         "text3": "",
         "url": "https:\/\/www.youtube.com\/watch?v=7jM2YwhaNCc",
+        "tag": "#music"
+    },
+    {
+        "text": "Express (Burlesque Original Motion Picture Soundtrack) \u00b7 Christina Aguilera",
+        "text2": "",
+        "text3": "",
+        "url": "https:\/\/www.youtube.com\/watch?v=5zr7exmWqx8",
         "tag": "#music"
     },
     {
@@ -5836,6 +5878,13 @@ var musicJsonVar =
         "text2": "",
         "text3": "",
         "url": "https:\/\/www.youtube.com\/watch?v=x3TU0z56NuQ",
+        "tag": "#music"
+    },
+    {
+        "text": "Jain - Take a Chance (Lyrics Video) - YouTube",
+        "text2": "",
+        "text3": "",
+        "url": "https:\/\/www.youtube.com\/watch?v=gVKaam41Kf8",
         "tag": "#music"
     },
     {
@@ -8373,6 +8422,13 @@ var musicJsonVar =
         "tag": "#music"
     },
     {
+        "text": "Naughty Girl \u00b7 Beyonc\u00e9",
+        "text2": "",
+        "text3": "",
+        "url": "https:\/\/www.youtube.com\/watch?v=Q0uhlhNNwlY",
+        "tag": "#music"
+    },
+    {
         "text": "Nelly Furtado - All Good Things (Come To An End) (US Version) (Official Music Video) - YouTube",
         "text2": "",
         "text3": "",
@@ -8594,6 +8650,13 @@ var musicJsonVar =
         "text2": "",
         "text3": "",
         "url": "https:\/\/www.youtube.com\/watch?v=aFy88ybeQkQ",
+        "tag": "#music"
+    },
+    {
+        "text": "Nobody's Perfect \u00b7 Jessie J",
+        "text2": "",
+        "text3": "",
+        "url": "https:\/\/www.youtube.com\/watch?v=KFeLEXUYeyk",
         "tag": "#music"
     },
     {
@@ -10963,6 +11026,13 @@ var musicJsonVar =
         "tag": "#music"
     },
     {
+        "text": "Sweet Dreams \u00b7 Beyonc\u00e9",
+        "text2": "",
+        "text3": "",
+        "url": "https:\/\/www.youtube.com\/watch?v=fzpEH4dPi6g",
+        "tag": "#music"
+    },
+    {
         "text": "Sylvie Kreusch - Flaunt it, try it! (live) - YouTube",
         "text2": "",
         "text3": "",
@@ -13151,6 +13221,13 @@ var musicJsonVar =
         "text2": "",
         "text3": "",
         "url": "https:\/\/www.youtube.com\/watch?v=LaQxrCTgQG0",
+        "tag": "#music"
+    },
+    {
+        "text": "You Gotta Not \u00b7 Little Mix",
+        "text2": "",
+        "text3": "",
+        "url": "https:\/\/www.youtube.com\/watch?v=j4_YpumVEcE",
         "tag": "#music"
     },
     {
