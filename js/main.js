@@ -1,4 +1,4 @@
-/* v.3.3.4 */
+/* v.3.3.5 */
 
 
 var symbolForSplit = 'pwxortuzqu';
@@ -156,30 +156,53 @@ var themeListOther = [
 ];
 
 var themeListOtherDark = [
-"o-d-green",
-"o-d-blue",
-"o-d-brown",
-"o-d-pink",
-"o-d-violet"
+"od-green",
+"od-blue",
+"od-brown",
+"od-pink",
+"od-violet"
 ];
+
+
 
 var themeListOption2 = [
 "rand-l",
 "rand-d",
 "rand-o",
-"rand-o-d",
+"rand-od",
+
+"rand-lo",
+"rand-dod",
+
 "rand-all",
+
 "auto",
 "auto-rand",
+"auto-rand-all",
+
 "auto-time",
-"auto-t-rand"
+"auto-t-rand",
+"auto-t-rand-all"
 ];
+
+var themeListLO = [];
+themeListLO.push(...themeListLight);
+themeListLO.push(...themeListOther);
+
+var themeListDOD = [];
+themeListDOD.push(...themeListDark);
+themeListDOD.push(...themeListOtherDark);
+
+var themeListOD = [];
+themeListOD.push(...themeListLight);
+themeListOD.push(...themeListOther);
 
 var themeList = [];
 themeList.push(...themeListLight);
 themeList.push(...themeListDark);
 themeList.push(...themeListOther);
 themeList.push(...themeListOtherDark);
+
 
 var themeListOption = [];
 themeListOption.push(...themeList);
@@ -217,6 +240,17 @@ mainPrintTheme(confRealTmpTheme);
 }
 
 
+function themeAutoRandomAll(){
+if (window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches) {
+confRealTmpTheme = themeListDOD[Math.floor(Math.random()*themeListDOD.length)];
+//document.getElementById('theme').href = '/css/'+confRealTmpTheme+'.css';
+mainPrintTheme(confRealTmpTheme);
+}else{
+confRealTmpTheme = themeListLO[Math.floor(Math.random()*themeListLO.length)];
+//document.getElementById('theme').href = '/css/'+confRealTmpTheme+'.css';
+mainPrintTheme(confRealTmpTheme);
+}
+}
 
 function setTheme(mode){
 /*themeList.forEach((element) => {
@@ -258,6 +292,20 @@ mainPrintTheme(confRealTmpTheme);
 }
 break;
 
+case 'auto-t-rand-all':
+if(new Date().getHours() <= 6||new Date().getHours() >= 19){
+//if(new Date().getSeconds() % 2 == 0){
+confRealTmpTheme = themeListDOD[Math.floor(Math.random()*themeListDOD.length)];
+//document.getElementById('theme').href = '/css/'+confRealTmpTheme+'.css';
+mainPrintTheme(confRealTmpTheme);
+}else{
+confRealTmpTheme = themeListLO[Math.floor(Math.random()*themeListLO.length)];
+//document.getElementById('theme').href = '/css/'+confRealTmpTheme+'.css';
+mainPrintTheme(confRealTmpTheme);
+}
+break;
+
+
 /*case 'rand-all-blink':
 themeRandomAllBlink();
 //var interval2 = setInterval(themeRandomAllBlink, 4000);
@@ -267,6 +315,13 @@ case 'auto-rand':
 themeAutoRandom();
 window.matchMedia("(prefers-color-scheme: light)").addEventListener("change", function () {
 themeAutoRandom();
+});
+break;
+
+case 'auto-rand-all':
+themeAutoRandomAll();
+window.matchMedia("(prefers-color-scheme: light)").addEventListener("change", function () {
+themeAutoRandomAll();
 });
 break;
 
@@ -290,8 +345,20 @@ confRealTmpTheme = themeListOther[Math.floor(Math.random()*themeListOther.length
 mainPrintTheme(confRealTmpTheme);
 break;
 
-case 'rand-o-d':
+case 'rand-od':
 confRealTmpTheme = themeListOtherDark[Math.floor(Math.random()*themeListOtherDark.length)];
+//document.getElementById('theme').href = '/css/'+confRealTmpTheme+'.css';
+mainPrintTheme(confRealTmpTheme);
+break;
+
+case 'rand-lo':
+confRealTmpTheme = themeListLO[Math.floor(Math.random()*themeListLO.length)];
+//document.getElementById('theme').href = '/css/'+confRealTmpTheme+'.css';
+mainPrintTheme(confRealTmpTheme);
+break;
+
+case 'rand-dod':
+confRealTmpTheme = themeListDOD[Math.floor(Math.random()*themeListDOD.length)];
 //document.getElementById('theme').href = '/css/'+confRealTmpTheme+'.css';
 mainPrintTheme(confRealTmpTheme);
 break;
