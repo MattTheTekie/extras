@@ -821,7 +821,7 @@ urlList = [
 "https://yep.com/web?q="+q,
 //"https://teclis.com/search?q="+q, // maitenance
 "https://search.givewater.com/serp?q="+q,
-"https://www.ekoru.org/?q="+q,
+//"https://www.ekoru.org/?q="+q,// no result
 "https://search.lilo.org/?q="+q,
 //"https://searx.ninja/?q=$q&categories=general",
 "https://searx.xyz/?q="+q+"&categories=general",
