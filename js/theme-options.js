@@ -1,4 +1,4 @@
-/* v.3.1.2 */
+/* v.3.1.3 */
 
 var result = '';
 themeListOption.forEach((element) => {
@@ -8,7 +8,7 @@ if(element == 'rand-l'){ result += '<br /><br />'; }
 if(element == 'auto'){ result += '<br /><br />'; }
 if(element == 'dark'){ result += '<br />'; }
 if(element == 'o-green-lime'){ result += '<br />'; }
-if(element == 'o-d-green'){ result += '<br />'; }
+if(element == 'od-green'){ result += '<br />'; }
 
 if(element == theme){
 result += '<button id="'+element+'" class="m tag light4 margin padding" style="font-size: 100%">'+element+'</button>';

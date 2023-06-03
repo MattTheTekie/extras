@@ -793,12 +793,13 @@ urlList = [
 // with ind. maybe
 "https://swisscows.com/web?query="+q,
 //"https://www.gigablast.com/search?q=$q",// unable to connect
-"https://search.goo.ne.jp/web.jsp?MT="+q+"&IE=UTF-8&OE=UTF-8",
-"https://search.seznam.cz/?q="+q,
+//"https://search.goo.ne.jp/web.jsp?MT="+q+"&IE=UTF-8&OE=UTF-8",
+//"https://search.seznam.cz/?q="+q,
+//"https://www.sapo.pt/pesquisa/web/tudo?q="+q,
 
 //"https://www.kiddle.co/s.php?q=$q",
 //"https://web.search.ch/?q=$q",
-"https://www.sapo.pt/pesquisa/web/tudo?q="+q,
+
 //"http://leit.is/company_search?search=$q",
 "https://fireball.de/search?q="+q,
 //"https://freespoke.com/search/web?q=$q",
