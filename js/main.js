@@ -1,4 +1,4 @@
-/* v.3.3.5 */
+/* v.3.3.6 */
 
 
 var symbolForSplit = 'pwxortuzqu';
@@ -185,10 +185,12 @@ var themeListOption2 = [
 "auto-t-rand-all"
 ];
 
+// all light theme
 var themeListLO = [];
 themeListLO.push(...themeListLight);
 themeListLO.push(...themeListOther);
 
+// all dark theme
 var themeListDOD = [];
 themeListDOD.push(...themeListDark);
 themeListDOD.push(...themeListOtherDark);
@@ -403,7 +405,7 @@ document.cookie = "theme=light; SameSite=None; Secure; path=/";
 
 setTheme(theme);
 
-/* // disabled for if not theme
+/* // disabled for if not theme, Unexpected behavior
 window.addEventListener('storage', () => {
 if(theme != localStorage.getItem('theme')){
 setTheme(localStorage.getItem('theme')); //alert('not');
