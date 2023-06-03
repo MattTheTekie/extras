@@ -840,7 +840,7 @@ urlList = [
 //"https://www.metacrawler.com/serp?q=$q",
 //"https://results.excite.com/serp?q=$q",
 //"https://www.infospace.com/serp?q=$q",
-"https://search.daum.net/search?q="+q
+//"https://search.daum.net/search?q="+q
 //"https://www.petalsearch.com/search?query=$q"
 
 //"https://www.mojeek.com/search?q=$q"
