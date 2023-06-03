@@ -1,4 +1,4 @@
-/* v.3.3.7 */
+/* v.3.3.8 */
 
 
 var symbolForSplit = 'pwxortuzqu';
@@ -167,6 +167,24 @@ var themeListOtherDark = [
 
 
 
+// fav from others
+var themeListBest = [
+"light",
+"l-green",
+"l-olive",
+"dark",
+"d-green",
+"d-blue",
+"d-violet",
+"o-yellow",
+"o-silver",
+"od-green",
+"od-blue",
+"od-gray"
+];
+
+
+
 var themeListOption2 = [
 "rand-l",
 "rand-d",
@@ -175,6 +193,8 @@ var themeListOption2 = [
 
 "rand-lo",
 "rand-dod",
+
+"rand-best",
 
 "rand-all",
 
@@ -363,6 +383,12 @@ break;
 
 case 'rand-dod':
 confRealTmpTheme = themeListDOD[Math.floor(Math.random()*themeListDOD.length)];
+//document.getElementById('theme').href = '/css/'+confRealTmpTheme+'.css';
+mainPrintTheme(confRealTmpTheme);
+break;
+
+case 'rand-best':
+confRealTmpTheme = themeListBest[Math.floor(Math.random()*themeListBest.length)];
 //document.getElementById('theme').href = '/css/'+confRealTmpTheme+'.css';
 mainPrintTheme(confRealTmpTheme);
 break;
