@@ -1,4 +1,4 @@
-/* v.3.3.6 */
+/* v.3.3.7 */
 
 
 var symbolForSplit = 'pwxortuzqu';
@@ -159,7 +159,9 @@ var themeListOtherDark = [
 "od-green",
 "od-blue",
 "od-brown",
+"od-gray",
 "od-pink",
+"od-olive",
 "od-violet"
 ];
 
