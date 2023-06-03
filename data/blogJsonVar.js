@@ -1,6 +1,15 @@
 var blogJsonVar = 
 [
     {
+        "id": "85",
+        "text": "New: theme and one option",
+        "text2": "",
+        "text3": "",
+        "url": "",
+        "tag": "#i",
+        "time": 1685827205
+    },
+    {
         "id": "84",
         "text": "JavaScript Array Group",
         "text2": "",
