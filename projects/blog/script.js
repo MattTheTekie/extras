@@ -722,7 +722,7 @@ let printTag2 = tag.replaceAll(/#/g, "");
 let goTag = encodeURIComponent(tag);
 
 let hlClass = '';
-if(printTag[0] != undefined){
+if(printTag2[0] != undefined){
 hlClass = 'hlClass'+printTag2[0].toLowerCase();
 hlClassList += printTag2[0].toLowerCase();
 }

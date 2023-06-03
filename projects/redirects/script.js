@@ -1,4 +1,4 @@
-// v.1.1.44
+// v.1.1.46
 
 
 
@@ -305,11 +305,16 @@ case 'tr#':
 case 'tra#':
 q = q3.replace(q2, '');
 q = q.trim();
+
+var deepLq = q.replaceAll(/\//g, "-"); // fixed
+deepLq = encodeURIComponent(deepLq);
+
 q = encodeURIComponent(q);
+
 urlList = [
 //"https://translate.google.com/?sl=auto&tl=auto&text="+q+"&op=translate",
 "https://translate.google.com/?sl=auto&text="+q+"&op=translate",
-"https://www.deepl.com/translator#auto/auto/"+q,
+"https://www.deepl.com/translator#auto/auto/"+deepLq,
 "https://www.bing.com/translator/?text="+q+"&from=auto&to=auto"
 ];
 random = Math.floor(Math.random() * urlList.length);
@@ -320,10 +325,17 @@ break;
 case 'tt#':
 q = q3.replace(q2, '');
 q = q.trim();
+
+var deepLq = q.replaceAll(/\//g, "-"); // fixed
+deepLq = encodeURIComponent(deepLq);
+
 q = encodeURIComponent(q);
+
+
+
 urlList = [
 "https://translate.google.com/?sl=auto&tl=en&text="+q+"&op=translate",
-"https://www.deepl.com/translator#auto/en/"+q,
+"https://www.deepl.com/translator#auto/en/"+deepLq,
 "https://www.bing.com/translator/?text="+q+"&from=auto&to=en"
 ];
 random = Math.floor(Math.random() * urlList.length);
