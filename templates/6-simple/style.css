@@ -1,4 +1,4 @@
-/* v.1.0.0 */
+/* v.1.1.0 */
 
 
 html, body {margin:0; padding:0}
@@ -9,14 +9,14 @@ font-size: 14px;
 word-wrap:break-word; text-decoration:none;
 }
 
-body { padding: 0 15px; }
 a { text-decoration: underline; }
 nav a { text-decoration: none; }
 iframe, video, audio, img, table{max-width:100%; border:0}
 img{height:auto; }
 
 
-footer{padding:20px 0}
+header, .content, footer { padding: 0 15px; }
+footer{ padding:20px 15px; }
 
 .footer a, .footer { font-size:small }
 .footer a { margin-right:5px }
@@ -28,14 +28,13 @@ min-height:100%;
 max-width:700px;
 margin:0 auto;
 }
-.content {padding-bottom:15px}
 
 
 
 
 
 nav { text-align: center; text-transform: capitalize; padding: 15px 0; }
-nav a { display: inline-block; margin-right: 20px;  }
+nav a { display: inline-block; margin-right: 20px; padding: 5px; }
 nav a:last-child{ margin: 0; }
 
 
@@ -64,7 +63,6 @@ nav a {
 
 nav a:hover{
 color: black;
-border-bottom: 2px solid grey;
 }
 
 

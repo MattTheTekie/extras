@@ -85,12 +85,11 @@ footer a:hover { color: var(--dark2); }
 
 nav a {
 	color:  var(--dark2);
-	border-bottom: 2px solid var(--bg1);
+padding: 5px 0;
 	}
 
 nav a:hover{
 color: var(--dark1);
-border-bottom: 2px solid var(--dark2) ;
 }
 
 .logo:hover, .logo { border-bottom: 0 !important; }
