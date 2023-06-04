@@ -44,7 +44,7 @@ document.getElementById("fTheme").innerHTML =  item;
 
 setTheme(item);
 light(item);
-localStorage.setItem('themeTpl', item);
+localStorage.setItem('themeMain', item);
 });
 
 }

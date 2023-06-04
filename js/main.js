@@ -127,7 +127,7 @@ document.getElementById('theme').href = '/css/'+theme+'.css';
 }
 
 
-var theme = localStorage.getItem('themeTpl');
+var theme = localStorage.getItem('themeMain');
 var themeListLight = [
 "light",
 "l-blue",
@@ -439,8 +439,8 @@ setTheme(theme);
 
 /* // disabled for if not theme, Unexpected behavior
 window.addEventListener('storage', () => {
-if(theme != localStorage.getItem('theme')){
-setTheme(localStorage.getItem('theme')); //alert('not');
+if(theme != localStorage.getItem('themeMain')){
+setTheme(localStorage.getItem('themeMain')); //alert('not');
 }
 });
 */

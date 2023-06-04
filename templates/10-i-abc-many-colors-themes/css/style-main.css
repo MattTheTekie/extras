@@ -1,4 +1,12 @@
-/* v.12.22.2 */
+/* v.12.22.3 */
+
+.gallery {
+  display: grid;
+  grid-template-columns: repeat(8, 1fr);
+  grid-template-rows: repeat(8, 5vw);
+  grid-gap: 1.5rem; 
+}
+
 
 * {  color-scheme: light dark; } /* view-source:about:blank */ 
 
@@ -168,7 +176,7 @@ border: 2px dashed var(--cOp);
 transform: rotate(360deg); 
 }
 .logo2 { width: 26px; height: 26px; }
-.headerBannerImg { width: 250px; display: block; margin: 0 auto; margin-bottom:  -38px; border-radius: 9px; } 
+.headerBannerImg { width: 250px; display: block; margin: 0 auto; margin-bottom:  -30px; border-radius: 9px; } 
 .ico {
 border-radius: 50%;
 display: inline-block;

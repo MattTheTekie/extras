@@ -1,13 +1,14 @@
 :root{
---bg: #255742;
---l: #375E4E;
---l2: #3A6353;
---l3: #3E6B5A;
---l4: #467865;
---d: #204F3B;
---d2: #1A4734;
---d3: #19382A;
---d4: #000A06;
+--bg: #24594E;
+--l: #2A6155;
+--l2: #356E62;
+--l3: #3E7A6D;
+--l4: #4C8075;
+--d: #24574C;
+--d2: #214A41;
+--d3: #15302A;
+--d4: #001A14;
+
 --c: #E0E0E0;
 --cOp: #E0E0E080;
 --c2: #EDEDED; 
@@ -15,8 +16,8 @@
 --c4: #FFFFFF; 
 /*--b: #948B70;
 --b2: #9E9478;*/
---b3: #CEE4F2;
---b4: #D9F0FF;
+--b3: #F2E5CE;
+--b4: #FFF1D9;
 --red: #FFB399;
 --red2: #FFC6B3;
 --orange: #E6BE73;
@@ -41,3 +42,4 @@ input[type="submit"]:hover { background: var(--d); color: var(--c3); }
 html{ scrollbar-color: var(--l4) var(--d2); }
 ::-webkit-scrollbar { background-color: var(--d2); }
 ::-webkit-scrollbar-thumb { background-color: var(--l3); }
+

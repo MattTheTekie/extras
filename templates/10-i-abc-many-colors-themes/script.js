@@ -27,6 +27,13 @@ document.getElementById(id).innerHTML = PrintMsg;
 
 
 // theme
+
+confDeviceTheme = 'none';
+if (window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches) { confDeviceTheme = 'dark'; }
+if (window.matchMedia && window.matchMedia('(prefers-color-scheme: light)').matches) { confDeviceTheme = 'light'; }
+
+
+
 function mainPrintTheme(theme){
 if(document.getElementById('theme') != null){
 document.getElementById('theme').href = '/css/'+theme+'.css';
@@ -34,7 +41,7 @@ document.getElementById('theme').href = '/css/'+theme+'.css';
 }
 
 
-var theme = localStorage.getItem('theme');
+var theme = localStorage.getItem('themeTpl');
 var themeListLight = [
 "light",
 "l-blue",
@@ -60,35 +67,84 @@ var themeListOther = [
 "o-blue",
 "o-breeze",
 "o-yellow",
-"o-pink",
+"o-pink-pastel",
 "o-silver",
 "o-violet"
 ];
 
 var themeListOtherDark = [
-"o-d-green",
-"o-d-blue",
-"o-d-brown",
-"o-d-violet"
+"od-green",
+"od-blue",
+"od-brown",
+"od-gray",
+"od-pink",
+"od-slate",
+"od-violet"
 ];
+
+
+
+// fav from others
+var themeListBest = [
+"light",
+"l-green",
+"l-olive",
+"dark",
+"d-green",
+"d-blue",
+"d-violet",
+"o-yellow",
+"o-silver",
+"od-green",
+"od-blue",
+"od-slate",
+"od-gray"
+];
+
+
 
 var themeListOption2 = [
 "rand-l",
 "rand-d",
 "rand-o",
-"rand-o-d",
+"rand-od",
+
+"rand-lo",
+"rand-dod",
+
+"rand-best",
+
 "rand-all",
+
 "auto",
 "auto-rand",
+"auto-rand-all",
+
 "auto-time",
-"auto-t-rand"
+"auto-t-rand",
+"auto-t-rand-all"
 ];
+
+// all light theme
+var themeListLO = [];
+themeListLO.push(...themeListLight);
+themeListLO.push(...themeListOther);
+
+// all dark theme
+var themeListDOD = [];
+themeListDOD.push(...themeListDark);
+themeListDOD.push(...themeListOtherDark);
+
+var themeListOD = [];
+themeListOD.push(...themeListLight);
+themeListOD.push(...themeListOther);
 
 var themeList = [];
 themeList.push(...themeListLight);
 themeList.push(...themeListDark);
 themeList.push(...themeListOther);
 themeList.push(...themeListOtherDark);
+
 
 var themeListOption = [];
 themeListOption.push(...themeList);
@@ -126,6 +182,17 @@ mainPrintTheme(confRealTmpTheme);
 }
 
 
+function themeAutoRandomAll(){
+if (window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches) {
+confRealTmpTheme = themeListDOD[Math.floor(Math.random()*themeListDOD.length)];
+//document.getElementById('theme').href = '/css/'+confRealTmpTheme+'.css';
+mainPrintTheme(confRealTmpTheme);
+}else{
+confRealTmpTheme = themeListLO[Math.floor(Math.random()*themeListLO.length)];
+//document.getElementById('theme').href = '/css/'+confRealTmpTheme+'.css';
+mainPrintTheme(confRealTmpTheme);
+}
+}
 
 function setTheme(mode){
 /*themeList.forEach((element) => {
@@ -167,6 +234,20 @@ mainPrintTheme(confRealTmpTheme);
 }
 break;
 
+case 'auto-t-rand-all':
+if(new Date().getHours() <= 6||new Date().getHours() >= 19){
+//if(new Date().getSeconds() % 2 == 0){
+confRealTmpTheme = themeListDOD[Math.floor(Math.random()*themeListDOD.length)];
+//document.getElementById('theme').href = '/css/'+confRealTmpTheme+'.css';
+mainPrintTheme(confRealTmpTheme);
+}else{
+confRealTmpTheme = themeListLO[Math.floor(Math.random()*themeListLO.length)];
+//document.getElementById('theme').href = '/css/'+confRealTmpTheme+'.css';
+mainPrintTheme(confRealTmpTheme);
+}
+break;
+
+
 /*case 'rand-all-blink':
 themeRandomAllBlink();
 //var interval2 = setInterval(themeRandomAllBlink, 4000);
@@ -176,6 +257,13 @@ case 'auto-rand':
 themeAutoRandom();
 window.matchMedia("(prefers-color-scheme: light)").addEventListener("change", function () {
 themeAutoRandom();
+});
+break;
+
+case 'auto-rand-all':
+themeAutoRandomAll();
+window.matchMedia("(prefers-color-scheme: light)").addEventListener("change", function () {
+themeAutoRandomAll();
 });
 break;
 
@@ -199,8 +287,26 @@ confRealTmpTheme = themeListOther[Math.floor(Math.random()*themeListOther.length
 mainPrintTheme(confRealTmpTheme);
 break;
 
-case 'rand-o-d':
+case 'rand-od':
 confRealTmpTheme = themeListOtherDark[Math.floor(Math.random()*themeListOtherDark.length)];
+//document.getElementById('theme').href = '/css/'+confRealTmpTheme+'.css';
+mainPrintTheme(confRealTmpTheme);
+break;
+
+case 'rand-lo':
+confRealTmpTheme = themeListLO[Math.floor(Math.random()*themeListLO.length)];
+//document.getElementById('theme').href = '/css/'+confRealTmpTheme+'.css';
+mainPrintTheme(confRealTmpTheme);
+break;
+
+case 'rand-dod':
+confRealTmpTheme = themeListDOD[Math.floor(Math.random()*themeListDOD.length)];
+//document.getElementById('theme').href = '/css/'+confRealTmpTheme+'.css';
+mainPrintTheme(confRealTmpTheme);
+break;
+
+case 'rand-best':
+confRealTmpTheme = themeListBest[Math.floor(Math.random()*themeListBest.length)];
 //document.getElementById('theme').href = '/css/'+confRealTmpTheme+'.css';
 mainPrintTheme(confRealTmpTheme);
 break;
@@ -245,14 +351,17 @@ document.cookie = "theme=light; SameSite=None; Secure; path=/";
 
 setTheme(theme);
 
-/* // disabled for if not theme
+/* // disabled for if not theme, Unexpected behavior
 window.addEventListener('storage', () => {
-if(theme != localStorage.getItem('theme')){
-setTheme(localStorage.getItem('theme')); //alert('not');
+if(theme != localStorage.getItem('themeTpl')){
+setTheme(localStorage.getItem('themeTpl')); //alert('not');
 }
 });
 */
 // end theme
+
+
+
 
 
 if(document.getElementById('fTheme') != null){

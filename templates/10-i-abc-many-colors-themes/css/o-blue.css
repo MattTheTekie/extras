@@ -1,14 +1,14 @@
 /* v.2.0.2 */
 :root{
---bg: #C0CAF0;
---l: #CBD3F5; 
---l2: #D4DBFA; 
---l3: #E3E9FF; 
---l4: #F5F7FF; 
---d: #BCC5EB; 
---d2: #BFC7E6; 
---d3: #A0A6BD; 
---d4: #6B6D78;
+--bg: #CCD3F0;
+--l: #D8DDF5; 
+--l2: #E1E6FA; 
+--l3: #F0F3FF; 
+--l4: #FCFDFF; 
+--d: #C8CEEB; 
+--d2: #CAD0E6; 
+--d3: #AAAEBD; 
+--d4: #717278;
 
 --c: #696969;
 --cOp: #69696980;
