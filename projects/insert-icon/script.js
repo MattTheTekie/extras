@@ -1,4 +1,4 @@
-// v.1.2.27
+// v.1.2.28
 // Inspired by GitHub profile
 
 function insertIcon(id, mode){
@@ -46,6 +46,7 @@ let icons = {
 "laptop":"💻", "notebook":"💻",
 "live":"🔴", "online":"🔴",
 "like":"❤","love":"❤","fav":"❤",
+"map":"📍",
 "mammoth ":"🦣", "mastodon":"🦣",
 "mail":"📧",
 "movie":"🎥",
@@ -59,7 +60,7 @@ let icons = {
 "random":"🎲","rnd":"🎲", "rand":"🎲", "dice":"🎲",
 "robot":"🤖", "auto":"🤖",
 "share":"🔁",
-"script":"📜", "code":"📜", "history":"📜",
+"script":"📜", "code":"📜", "coding":"📜", "history":"📜",
 "search": "🔎",
 "sleep":"😴💤", "bed":"🛏",
 "store":"🛍️","shop":"🛍️", "extension":"🛍️",
