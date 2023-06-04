@@ -1,6 +1,15 @@
 var blogJsonVar = 
 [
     {
+        "id": "87",
+        "text": "updated 2 template",
+        "text2": "",
+        "text3": "",
+        "url": "",
+        "tag": "#i",
+        "time": 1685894167
+    },
+    {
         "id": "86",
         "text": "Color-Name.com: Find name of the color you love!",
         "text2": "",
