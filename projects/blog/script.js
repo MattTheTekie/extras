@@ -1,4 +1,4 @@
-// v.1.16.00
+// v.1.16.1
 
 // inspired by Twitter, Fediverse
 // not for large Json files !
@@ -513,9 +513,9 @@ qData = (qData+' ').split(' ');
 qData.forEach(function (item) {
 //if((qData.split(item)).length > 1&&item != ''){
 //if((qData.indexOf(item)) > 0){
-console.log(levenshtein(item, qSearch));
-console.log(item);
-if(levenshtein(item, qSearch) <= 5){
+//console.log(levenshtein(item, qSearch));
+//console.log(item);
+if(levenshtein(item, qSearch) <= 2){
 if(getP3 <= i){
 if(i3 <= postLimit -1){
 print += fuPrintPost(postId, postText, postTag, postTime);
