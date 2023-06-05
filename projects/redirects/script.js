@@ -785,6 +785,14 @@ url = "https://you.com/search?q="+q;
 sRedirUrl = url;
 break;
 
+case 'qq#':
+q = q3.replace(q2, '');
+q = q.trim();
+q = encodeURIComponent(q);
+url = `/sitemap.${confExt}?q=`+q;
+sRedirUrl = url;
+break;
+
 case 'oo#':
 q = q3.replace(q2, '');
 q = q.trim();
