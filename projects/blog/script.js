@@ -1,4 +1,4 @@
-// v.1.15.12
+// v.1.15.14
 
 // inspired by Twitter, Fediverse
 // not for large Json files !
@@ -13,7 +13,7 @@
 
 
 
-function blog(printId, jsonVar, postClass, embedStatus, tagListStatus, postLimit, scriptDir, multiEmbedStatus, tagListLimit){
+function blog(printId, jsonVar, postClass, embedStatus, tagListStatus, postLimit, scriptDir, multiEmbedStatus, tagListLimit, targetOption){
 
 /*
 printId - div id where print blog
@@ -26,7 +26,8 @@ postLimit - how many post showing on page
 scriptDir - for tag location link, if run script on other location
 multiEmbedStatus - if on, working multi embed, default off
 tagListLimit - how many tag showing in taglist
-
+targetOption - if "blank" open link in new tab
+* 
 (id - id post in JSON, p, p2 - page, array key for navigation with JSON and content)
 */
 
@@ -856,7 +857,7 @@ return `
 var checkText = true;
 
 // light 1 highlightText
-function highlightText(text, hrefInOut){
+function highlightText(text, targetOption){
 //text = decodeURIComponent(text); // error sometimes
 
 text = clearText(text);
@@ -1150,18 +1151,35 @@ checkText = false;
 var ico = `https://www.google.com/s2/favicons?domain_url=${host[2]}`;
 //var ico = `https://api.statvoo.com/favicon/?url=${host[2]}`;
 //var ico = `https://api.faviconkit.com/${host[2]}/16`;
+
+
+if(targetOption == 'blank'){
 item = `<a class="brand" target="_blank" href="${item}"><img class="ico op" src="${ico}" width="14px" alt="ico"> ${item}</a>`;
+}else{
+item = `<a class="brand" href="${item}"><img class="ico op" src="${ico}" width="14px" alt="ico"> ${item}</a>`;
+}
+
 }else{
 checkText = false;
 
+if(targetOption == 'blank'){
 item = `<a class="brand" target="_blank" href="${item}">${item}</a>`;
+}else{
+item = `<a class="brand" href="${item}">${item}</a>`;
+}
+
 }
 }
 
 
 if(item.search("./") != -1&&item.search(".htm") != -1&&item.search("http") == -1){
 checkText = false;
+if(targetOption == 'blank'){
+/*item = `<a rel="nofollow" href="/projects/blog-in-progress/?q=${item} tag">#${item} <span class="sup">⇗</span></a>`;*/
 item = `<a class="brand" target="_blank" href="${item}">${item}</a>`;
+}else{
+item = `<a class="brand" href="${item}">${item}</a>`;
+}
 }
 
 
@@ -1170,12 +1188,8 @@ if(item[0] == '#'){
 checkText = false;
 
 item = item.replaceAll(/#/g, "");
-if(hrefInOut == 'out'){
-/*item = `<a rel="nofollow" href="/projects/blog-in-progress/?q=${item} tag">#${item} <span class="sup">⇗</span></a>`;*/
 item = `<a class="brand" rel="nofollow" href="${scriptDir}?q=%23${item}">#${item}</a>`;
-}else{
-item = `<a class="brand" rel="nofollow" href="${scriptDir}?q=%23${item}">#${item}</a>`;
-}
+
 }
 
 
@@ -1235,7 +1249,7 @@ return text;
 
 // light 2 highlightText
 // highlight Text2 with autoplay when pressed id (date)
-function highlightText2(text, hrefInOut){
+function highlightText2(text, targetOption){
 //text = decodeURIComponent(text); // error sometimes
 
 
@@ -1532,31 +1546,43 @@ if(embedStatus == 'on'&&host != undefined){
 var ico = `https://www.google.com/s2/favicons?domain_url=${host[2]}`;
 //var ico = `https://api.statvoo.com/favicon/?url=${host[2]}`;
 //var ico = `https://api.faviconkit.com/${host[2]}/16`;
+
+if(targetOption == 'blank'){
 item = `<a class="brand" target="_blank" href="${item}"><img class="ico op" src="${ico}" width="14px" alt="ico"> ${item}</a>`;
 }else{
+item = `<a class="brand" href="${item}"><img class="ico op" src="${ico}" width="14px" alt="ico"> ${item}</a>`;
+}
+
+
+}else{
+
+
+if(targetOption == 'blank'){
 item = `<a class="brand" target="_blank" href="${item}">${item}</a>`;
+}else{
+item = `<a class="brand" href="${item}">${item}</a>`;
+}
+
 }
 }
 
 
 if(item.search("./") != -1&&item.search(".htm") != -1&&item.search("http") == -1){
 
-
+if(targetOption == 'blank'){
+/*item = `<a rel="nofollow" href="/projects/blog-in-progress/?q=${item} tag">#${item} <span class="sup">⇗</span></a>`;*/
 item = `<a class="brand" target="_blank" href="${item}">${item}</a>`;
+}else{
+item = `<a class="brand" href="${item}">${item}</a>`;
+}
+
 }
 
 
 //add tag
 if(item[0] == '#'){
-
-
 item = item.replaceAll(/#/g, "");
-if(hrefInOut == 'out'){
-/*item = `<a rel="nofollow" href="/projects/blog-in-progress/?q=${item} tag">#${item} <span class="sup">⇗</span></a>`;*/
 item = `<a class="brand" rel="nofollow" href="${scriptDir}?q=%23${item}">#${item}</a>`;
-}else{
-item = `<a class="brand" rel="nofollow" href="${scriptDir}?q=%23${item}">#${item}</a>`;
-}
 }
 
 
