@@ -787,6 +787,7 @@ sRedirUrl = url;
 break;
 
 case 'qq#':
+case 'ss#':
 q = q3.replace(q2, '');
 q = q.trim();
 q = encodeURIComponent(q);
