@@ -696,6 +696,7 @@ case 'mm#':
 sRedirUrl = "/projects/music/";
 break;
 
+case 'bb#':
 case 'b#':
 case 'k#':
 case 'kk#':
@@ -703,13 +704,13 @@ q = q3.replace(q2, '');
 q = q.trim();
 q = encodeURIComponent(q);
 urlList = [
-"/projects/blog/?q="+q
+`/blog.${confExt}?q=`+q
 ];
 random = Math.floor(Math.random() * urlList.length);
 url = urlList[random];
 if(q == ''){
 urlList = [
-"/projects/blog"
+`/blog.${confExt}`
 ];
 random = Math.floor(Math.random() * urlList.length);
 url = urlList[random];

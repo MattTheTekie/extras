@@ -1,6 +1,24 @@
 var blogJsonVar = 
 [
     {
+        "id": "89",
+        "text": "Introducing the popover API - Chrome Developers",
+        "text2": "",
+        "text3": "",
+        "url": "https:\/\/developer.chrome.com\/blog\/introducing-popover-api\/",
+        "tag": "#HTML #WebDev",
+        "time": 1685953424
+    },
+    {
+        "id": "88",
+        "text": "CSS text-wrap: balance - Chrome Developers",
+        "text2": "",
+        "text3": "",
+        "url": "https:\/\/developer.chrome.com\/blog\/css-text-wrap-balance\/",
+        "tag": "#CSS #WebDev",
+        "time": 1685953397
+    },
+    {
         "id": "87",
         "text": "updated 2 template",
         "text2": "",
