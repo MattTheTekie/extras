@@ -27,7 +27,8 @@ padding:0 15px
 .content {padding-bottom:15px}
 
 body{background:#FFFEF7; color:#464646}
-a{color:#7a7c7c} a:hover{color: #252525 !important}
+a{ color:#414242; }
+a:hover{ color: #252525; }
 h1,h2,h3{color:#3e3e3e}
 
 .top {background: #FAF9F5; padding:20px 0}
@@ -48,8 +49,8 @@ h1,h2,h3{color:#3e3e3e}
   text-decoration:none;
   text-transform: uppercase;
 }
-@media all and (max-width:400px) {.menu li { margin-bottom:10px; }}
-.menu li a:hover{color:black !important; }
+@media all and (max-width:400px) { .menu li { margin-bottom:10px; }}
+.menu li a:hover{ color:black; }
 
 li.active a{
   border-bottom:2px solid grey;
