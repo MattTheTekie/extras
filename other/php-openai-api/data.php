@@ -1,6 +1,5 @@
 <?php
-
-
+// v.1.0.2
 
 $q = 'Hello, What is ChatGPT?';
 if(isset($_GET['q'])&&!empty($_GET['q'])){ $q = $_GET['q']; }
@@ -43,7 +42,8 @@ curl_setopt($ch, CURLOPT_HTTPHEADER, [
 $arr = json_encode(array(
 "model" => "text-davinci-003",
 "prompt" => "$q",
-"temperature"=> 0.7,
+//"temperature"=> 0.7,
+"temperature"=> 0,
 "max_tokens" => 256,
 "top_p" => 1,
 "frequency_penalty" => 0,
@@ -61,15 +61,18 @@ curl_close ($ch);
 // full response
 //print_r($server_output);
 
-
 // print
 $data = explode('[{"text":"', $server_output);
+if(!empty($data[1])){
 $data = rawurldecode(strtok($data[1], '"'));
 //https://stackoverflow.com/questions/3264270/replace-n-with-actual-new-line-character-code
 $data = str_replace(array('\r\n', '\n\r', '\n', '\r'), '
 ', $data);
-echo $data = htmlspecialchars($data);
 
+echo $data = htmlspecialchars($data);
+}else{
+print_r($server_output);
+}
 
 
 
