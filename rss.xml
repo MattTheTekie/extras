@@ -17,32 +17,6 @@
 </image>
 
 <item>
-<pubDate>Mon, 05 Jun 23 10:23:44 +0200</pubDate>
-<title><![CDATA[Introducing the popover API - Chrome Developers  ]]></title>
-<link><![CDATA[https://developer.chrome.com/blog/introducing-popover-api/]]></link>
-<description>
-<![CDATA[
-<div class="post border2">
-Introducing the popover API - Chrome Developers <a class="brand" target="_blank" href="https://developer.chrome.com/blog/introducing-popover-api/">https://developer.chrome.com/blog/introducing-popover-api/</a>
-</div>
-]]>
-</description>
-</item>
-
-<item>
-<pubDate>Mon, 05 Jun 23 10:23:17 +0200</pubDate>
-<title><![CDATA[CSS text-wrap: balance - Chrome Developers  ]]></title>
-<link><![CDATA[https://developer.chrome.com/blog/css-text-wrap-balance/]]></link>
-<description>
-<![CDATA[
-<div class="post border2">
-CSS text-wrap: balance - Chrome Developers <a class="brand" target="_blank" href="https://developer.chrome.com/blog/css-text-wrap-balance/">https://developer.chrome.com/blog/css-text-wrap-balance/</a>
-</div>
-]]>
-</description>
-</item>
-
-<item>
 <pubDate>Sun, 04 Jun 23 17:56:07 +0200</pubDate>
 <title><![CDATA[updated 2 template ]]></title>
 <link><![CDATA[http://inonehp.github.io/blog.html?id=87#87]]></link>
@@ -141,6 +115,32 @@ rm: random-tech-news-url
 <![CDATA[
 <div class="post border2">
 new: random-tech-news-url 
+</div>
+]]>
+</description>
+</item>
+
+<item>
+<pubDate>Sun, 14 May 23 05:22:30 +0200</pubDate>
+<title><![CDATA[Addy's Toolkit • Web Dev & Design Resources – Curated tools & resources for people who make websites  ]]></title>
+<link><![CDATA[https://toolkit.addy.codes/]]></link>
+<description>
+<![CDATA[
+<div class="post border2">
+Addy's Toolkit • Web Dev & Design Resources – Curated tools & resources for people who make websites <a class="brand" target="_blank" href="https://toolkit.addy.codes/">https://toolkit.addy.codes/</a>
+</div>
+]]>
+</description>
+</item>
+
+<item>
+<pubDate>Thu, 11 May 23 08:56:11 +0200</pubDate>
+<title><![CDATA[Image Cube  ]]></title>
+<link><![CDATA[https://codepen.io/antoniasymeonidou/pen/BawrZZv]]></link>
+<description>
+<![CDATA[
+<div class="post border2">
+Image Cube <a class="brand" target="_blank" href="https://codepen.io/antoniasymeonidou/pen/BawrZZv">https://codepen.io/antoniasymeonidou/pen/BawrZZv</a>
 </div>
 ]]>
 </description>
