@@ -6196,6 +6196,13 @@ var musicJsonVar =
         "tag": "#music"
     },
     {
+        "text": "Justin Timberlake - Filthy (Official Video) - YouTube",
+        "text2": "",
+        "text3": "",
+        "url": "https:\/\/www.youtube.com\/watch?v=gA-NDZb29I4",
+        "tag": "#music"
+    },
+    {
         "text": "KALI UCHIS - NEVER BE YOURS - YouTube Music",
         "text2": "",
         "text3": "",
@@ -7327,6 +7334,20 @@ var musicJsonVar =
         "text2": "",
         "text3": "",
         "url": "https:\/\/www.youtube.com\/watch?v=0pGOFX1D_jg",
+        "tag": "#music"
+    },
+    {
+        "text": "Love Shack (Edit) (2019 Remaster) \u00b7 The B-52's",
+        "text2": "",
+        "text3": "",
+        "url": "https:\/\/www.youtube.com\/watch?v=7puAydZ5Fbo",
+        "tag": "#music"
+    },
+    {
+        "text": "Love Shack \u00b7 The B-52's",
+        "text2": "",
+        "text3": "",
+        "url": "https:\/\/www.youtube.com\/watch?v=LXZFtJceQC4",
         "tag": "#music"
     },
     {
@@ -9724,6 +9745,13 @@ var musicJsonVar =
         "tag": "#music"
     },
     {
+        "text": "Roam \u00b7 The B-52's",
+        "text2": "",
+        "text3": "",
+        "url": "https:\/\/www.youtube.com\/watch?v=FuJDNYT3n0w",
+        "tag": "#music"
+    },
+    {
         "text": "Robbie Williams - Feel (Official Video) - YouTube",
         "text2": "",
         "text3": "",
@@ -9769,7 +9797,7 @@ var musicJsonVar =
         "text": "Rock Lobster \u00b7 The B-52's",
         "text2": "",
         "text3": "",
-        "url": "https:\/\/www.youtube.com\/watch?v=2uH5AhFh8UI",
+        "url": "https:\/\/www.youtube.com\/watch?v=67EQtSb4wiY",
         "tag": "#music"
     },
     {
@@ -11033,6 +11061,48 @@ var musicJsonVar =
         "tag": "#music"
     },
     {
+        "text": "Sylvan Esso - Ferris Wheel (Official Music Video) - YouTube",
+        "text2": "",
+        "text3": "",
+        "url": "https:\/\/www.youtube.com\/watch?v=2eruW1KHcxc",
+        "tag": "#music"
+    },
+    {
+        "text": "Sylvan Esso - H.S.K.T - YouTube",
+        "text2": "",
+        "text3": "",
+        "url": "https:\/\/www.youtube.com\/watch?v=VRyxzHIq3wY",
+        "tag": "#music"
+    },
+    {
+        "text": "Sylvan Esso - PARAD(w\/m)E [OFFICIAL VIDEO] - YouTube",
+        "text2": "",
+        "text3": "",
+        "url": "https:\/\/www.youtube.com\/watch?v=4W9VYY5QpLg",
+        "tag": "#music"
+    },
+    {
+        "text": "Sylvan Esso - Radio (Music Video) - YouTube",
+        "text2": "",
+        "text3": "",
+        "url": "https:\/\/www.youtube.com\/watch?v=effZUjig794",
+        "tag": "#music"
+    },
+    {
+        "text": "Sylvan Esso - Radio [OFFICIAL] - YouTube",
+        "text2": "",
+        "text3": "",
+        "url": "https:\/\/www.youtube.com\/watch?v=6LEmDEZVa5g",
+        "tag": "#music"
+    },
+    {
+        "text": "Sylvan Esso - Signal (Music Video) - YouTube",
+        "text2": "",
+        "text3": "",
+        "url": "https:\/\/www.youtube.com\/watch?v=6Jxg1hkwrt4",
+        "tag": "#music"
+    },
+    {
         "text": "Sylvie Kreusch - Flaunt it, try it! (live) - YouTube",
         "text2": "",
         "text3": "",
@@ -11173,6 +11243,13 @@ var musicJsonVar =
         "tag": "#music"
     },
     {
+        "text": "Tell It Like It T-I-IS \u00b7 The B-52's",
+        "text2": "",
+        "text3": "",
+        "url": "https:\/\/www.youtube.com\/watch?v=bZOSOpaXbrQ",
+        "tag": "#music"
+    },
+    {
         "text": "Teller \u00b7 Throwing Muses",
         "text2": "",
         "text3": "",
@@ -11233,6 +11310,13 @@ var musicJsonVar =
         "text2": "",
         "text3": "",
         "url": "https:\/\/www.youtube.com\/watch?v=BxHyliIspkA",
+        "tag": "#music"
+    },
+    {
+        "text": "The B-52s - Funplex - YouTube",
+        "text2": "",
+        "text3": "",
+        "url": "https:\/\/www.youtube.com\/watch?v=Lb17Vaph3DI",
         "tag": "#music"
     },
     {

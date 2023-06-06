@@ -29,7 +29,7 @@ return random;
 var colorPlayerWin = '';
 var colorPcWin = '';
 var endGame = [];
-var pointsLimit = 30;
+var pointsLimit = 15;
 
 document.getElementById("panel").innerHTML = `
 <div>
