@@ -20,7 +20,7 @@ display: block;
 margin: 0 auto;
 height: 50px;
 background: DarkBlue;
-margin-bottom: 10px;
+border: 1px solid red;
 }
 
 .block { max-width: 100px; }
@@ -67,26 +67,12 @@ z-index: 1;
 }
 
 
-/* resum editme */
-.block{ background: transparent; overflow: hidden; content: ''; position: relative; border: 10px solid transparent;  }
-.block::after {
-display: block;
-position: absolute;
-top: 0%;
-left: 0%;
-overflow: hidden;
-opacity: 1;
-z-index: 1;
-content: '';
-width: 300px;
-height: 300px;
-background: linear-gradient(140deg, cyan 0%, purple 50%, deepPink 100%);
-
-animation: example 10s linear infinite;
-
+/*https://css-tricks.com/gradient-borders-in-css/
+ */
+.blockBorder {
+padding: 5px;
 position: relative;
-  z-index: -1;
-
+background: linear-gradient(140deg, cyan 0%, purple 50%, deepPink 100%);
 }
 
 
