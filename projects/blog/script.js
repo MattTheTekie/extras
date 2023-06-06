@@ -1,4 +1,4 @@
-// v.1.16.1
+// v.1.16.2
 
 // inspired by Twitter, Fediverse
 // not for large Json files !
@@ -510,12 +510,16 @@ let qData = String(postText+' '+postTag).toLowerCase();
 // many words from space split
 
 qData = (qData+' ').split(' ');
-qData.forEach(function (item) {
+
+var checkDublicateId = [];
+qData.forEach(function (item) { // foreach post word and quary for search
 //if((qData.split(item)).length > 1&&item != ''){
 //if((qData.indexOf(item)) > 0){
 //console.log(levenshtein(item, qSearch));
 //console.log(item);
 if(levenshtein(item, qSearch) <= 2){
+if(checkDublicateId[0] != postId){ // fixed dublicate post when search and found
+
 if(getP3 <= i){
 if(i3 <= postLimit -1){
 print += fuPrintPost(postId, postText, postTag, postTime);
@@ -527,7 +531,9 @@ total = i;
 comMessagePrint = `${q} ${i}`;
 qData = '';
 comMessage = 'found'
-sRelevantPoint++
+sRelevantPoint++;
+checkDublicateId[0] = postId;
+}
 }
 });
 
