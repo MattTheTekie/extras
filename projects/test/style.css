@@ -55,14 +55,14 @@ background-size: cover;
 background: blue;
 border: 1px solid silver;
 display: inline-block;
-padding: 100px;
+padding: 30px;
 
 }
 
 
 
 .buttonBorder {
-padding: 55px;
+padding: 3px;
 
 display: inline-block;
 
@@ -77,7 +77,7 @@ background-size: cover;
 
 @keyframes example {
 0% {  }
-50% {   background-position: center;  }
+50% {   background-position: 0 -100px;  }
 100% {      }
 }
 
