@@ -817,7 +817,7 @@ urlList = [
 //"https://cyb.ai/search/$q",
 
 //"https://kagi.com/search?q=$q", // need login
-"https://www.alexandria.org/?q="+q,
+//"https://www.alexandria.org/?q=$q", // no results
 "https://wiby.me/?q="+q,
 //"https://search.naver.com/search.naver?query=$q", //closed
 
