@@ -34,47 +34,54 @@ display: block;
 border: 3px solid red;
 padding: 5px;
 
-background-color: white;
-mix-blend-mode: screen;
+
+
+
+text-wrap: balance;
 font-size: 24px;
 font-weight: 900;
-opacity: 0.9;
-}
-
-
-.blockBorder {
-padding: 30px;
 background: red;
+color: black;
+text-align: left;
 }
 
-.blockBorder::before {
-content: '';
-display: block;
-height: 100%;
-width: 100%;
-
-position: absolute;
-top: 9;
-left: 0%;
-
+body{
     background: url(https://unsplash.com/photos/5dWJlG9xWBI/download?ixid=M3wxMjA3fDB8MXxzZWFyY2h8Nnx8c3VuJTIwc3ByaW5nJTIwdHJlZXxlbnwwfHx8fDE2ODQ0MDAzMTR8MA&force=true&w=640);
-background-size: 400vh;
-animation: example 95s ease infinite;
-opacity: 0.3;
-overflow: hidden;
+background-size: cover;
+
+}
+
+.button33{
+background: blue;
+border: 1px solid silver;
+display: inline-block;
+padding: 100px;
+
+}
+
+
+
+.buttonBorder {
+padding: 55px;
+
+display: inline-block;
+
+background: url(https://unsplash.com/photos/5dWJlG9xWBI/download?ixid=M3wxMjA3fDB8MXxzZWFyY2h8Nnx8c3VuJTIwc3ByaW5nJTIwdHJlZXxlbnwwfHx8fDE2ODQ0MDAzMTR8MA&force=true&w=640);
+
+animation: example 15s ease infinite;
+
+background-size: cover;
 
 }
 
 
 @keyframes example {
 0% {  }
-50% { transform: rotate(1turn) }
-100% {  }
+50% {   background-position: center;  }
+100% {      }
 }
 
-#result {
-
-}
+body{ text-align: center; }
 
 
 

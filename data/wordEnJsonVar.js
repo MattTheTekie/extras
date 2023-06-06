@@ -14602,10 +14602,13 @@ var wordEnJsonVar =
         "text": "position"
     },
     {
-        "text": "marking"
+        "text": "borrowing"
     },
     {
         "text": "audio clip"
+    },
+    {
+        "text": "marking"
     },
     {
         "text": "claim"
@@ -14635,10 +14638,10 @@ var wordEnJsonVar =
         "text": "poker"
     },
     {
-        "text": "laying"
+        "text": "audiophile"
     },
     {
-        "text": "audiophile"
+        "text": "laying"
     },
     {
         "text": "call"
@@ -14668,13 +14671,13 @@ var wordEnJsonVar =
         "text": "coating"
     },
     {
-        "text": "patron"
-    },
-    {
         "text": "immigrant"
     },
     {
         "text": "audit"
+    },
+    {
+        "text": "patron"
     },
     {
         "text": "buyer"
@@ -14704,10 +14707,10 @@ var wordEnJsonVar =
         "text": "polymat"
     },
     {
-        "text": "polymer"
+        "text": "auditor"
     },
     {
-        "text": "auditor"
+        "text": "polymer"
     },
     {
         "text": "polynym"
@@ -14737,10 +14740,10 @@ var wordEnJsonVar =
         "text": "flight"
     },
     {
-        "text": "polytetrafluoroethylene"
+        "text": "audience"
     },
     {
-        "text": "audience"
+        "text": "polytetrafluoroethylene"
     },
     {
         "text": "polytechnic"
@@ -14770,10 +14773,10 @@ var wordEnJsonVar =
         "text": "shelf"
     },
     {
-        "text": "regiment"
+        "text": "auction"
     },
     {
-        "text": "auction"
+        "text": "regiment"
     },
     {
         "text": "polo"
@@ -14803,10 +14806,10 @@ var wordEnJsonVar =
         "text": "strawberry"
     },
     {
-        "text": "polka"
+        "text": "out"
     },
     {
-        "text": "out"
+        "text": "polka"
     },
     {
         "text": "hunting"
@@ -14836,10 +14839,10 @@ var wordEnJsonVar =
         "text": "pomade"
     },
     {
-        "text": "fudge"
+        "text": "authenticator"
     },
     {
-        "text": "authenticator"
+        "text": "fudge"
     },
     {
         "text": "unction"
@@ -14869,10 +14872,10 @@ var wordEnJsonVar =
         "text": "monday"
     },
     {
-        "text": "reduction"
+        "text": "autism"
     },
     {
-        "text": "autism"
+        "text": "reduction"
     },
     {
         "text": "pontiff"
@@ -14902,10 +14905,10 @@ var wordEnJsonVar =
         "text": "hit"
     },
     {
-        "text": "aphid"
+        "text": "autophagy"
     },
     {
-        "text": "autophagy"
+        "text": "aphid"
     },
     {
         "text": "warning"
@@ -14935,10 +14938,10 @@ var wordEnJsonVar =
         "text": "popularization"
     },
     {
-        "text": "popularity"
+        "text": "outsider"
     },
     {
-        "text": "outsider"
+        "text": "popularity"
     },
     {
         "text": "companion"
@@ -14968,10 +14971,10 @@ var wordEnJsonVar =
         "text": "gust"
     },
     {
-        "text": "porn star"
+        "text": "outsourcing"
     },
     {
-        "text": "outsourcing"
+        "text": "porn star"
     },
     {
         "text": "emptiness"
@@ -15001,13 +15004,13 @@ var wordEnJsonVar =
         "text": "portrait"
     },
     {
-        "text": "portfolio"
-    },
-    {
         "text": "immigration"
     },
     {
         "text": "poster"
+    },
+    {
+        "text": "portfolio"
     },
     {
         "text": "portfolio"
@@ -15037,10 +15040,10 @@ var wordEnJsonVar =
         "text": "landing"
     },
     {
-        "text": "official"
+        "text": "aphelion"
     },
     {
-        "text": "aphelion"
+        "text": "official"
     },
     {
         "text": "certificate"
@@ -15070,10 +15073,10 @@ var wordEnJsonVar =
         "text": "sequence"
     },
     {
-        "text": "follower"
+        "text": "aphorism"
     },
     {
-        "text": "aphorism"
+        "text": "follower"
     },
     {
         "text": "messenger"
@@ -15103,10 +15106,10 @@ var wordEnJsonVar =
         "text": "post"
     },
     {
-        "text": "delivery"
+        "text": "library"
     },
     {
-        "text": "library"
+        "text": "delivery"
     },
     {
         "text": "decree"
@@ -15136,10 +15139,10 @@ var wordEnJsonVar =
         "text": "postmodernism"
     },
     {
-        "text": "shot"
+        "text": "librarian"
     },
     {
-        "text": "librarian"
+        "text": "shot"
     },
     {
         "text": "postulate"
@@ -15169,10 +15172,10 @@ var wordEnJsonVar =
         "text": "monster"
     },
     {
-        "text": "ugliness"
+        "text": "bible"
     },
     {
-        "text": "bible"
+        "text": "ugliness"
     },
     {
         "text": "potential"
@@ -15202,10 +15205,10 @@ var wordEnJsonVar =
         "text": "triplication"
     },
     {
-        "text": "power"
+        "text": "run"
     },
     {
-        "text": "run"
+        "text": "power"
     },
     {
         "text": "connivance"
@@ -15235,10 +15238,10 @@ var wordEnJsonVar =
         "text": "origin"
     },
     {
-        "text": "kiss"
+        "text": "running"
     },
     {
-        "text": "running"
+        "text": "kiss"
     },
     {
         "text": "beginning"
@@ -15268,10 +15271,10 @@ var wordEnJsonVar =
         "text": "impetus"
     },
     {
-        "text": "search"
+        "text": "curler"
     },
     {
-        "text": "curler"
+        "text": "search"
     },
     {
         "text": "appearance"
@@ -15301,10 +15304,10 @@ var wordEnJsonVar =
         "text": "truth"
     },
     {
-        "text": "plausibility"
+        "text": "runner"
     },
     {
-        "text": "runner"
+        "text": "plausibility"
     },
     {
         "text": "rule"
@@ -15334,13 +15337,13 @@ var wordEnJsonVar =
         "text": "justice"
     },
     {
-        "text": "desire"
-    },
-    {
         "text": "impeachment"
     },
     {
         "text": "misfortune"
+    },
+    {
+        "text": "desire"
     },
     {
         "text": "primaries"
@@ -15370,10 +15373,10 @@ var wordEnJsonVar =
         "text": "iron"
     },
     {
-        "text": "ironing"
+        "text": "poverty"
     },
     {
-        "text": "poverty"
+        "text": "ironing"
     },
     {
         "text": "employee"
@@ -15403,10 +15406,10 @@ var wordEnJsonVar =
         "text": "subject"
     },
     {
-        "text": "ancestor"
+        "text": "refugee"
     },
     {
-        "text": "refugee"
+        "text": "ancestor"
     },
     {
         "text": "representative"
@@ -15436,10 +15439,10 @@ var wordEnJsonVar =
         "text": "presidency"
     },
     {
-        "text": "prime minister"
+        "text": "imitation jewelry"
     },
     {
-        "text": "imitation jewelry"
+        "text": "prime minister"
     },
     {
         "text": "premiere"
@@ -15469,10 +15472,10 @@ var wordEnJsonVar =
         "text": "applicant"
     },
     {
-        "text": "prefix"
+        "text": "business"
     },
     {
-        "text": "business"
+        "text": "prefix"
     },
     {
         "text": "prefect"
@@ -15502,10 +15505,10 @@ var wordEnJsonVar =
         "text": "cleaning"
     },
     {
-        "text": "taming"
+        "text": "businessman"
     },
     {
-        "text": "businessman"
+        "text": "taming"
     },
     {
         "text": "profitability"
@@ -15535,10 +15538,10 @@ var wordEnJsonVar =
         "text": "ghost"
     },
     {
-        "text": "appropriation"
+        "text": "buffalo"
     },
     {
-        "text": "buffalo"
+        "text": "appropriation"
     },
     {
         "text": "attenuation"
@@ -15568,10 +15571,10 @@ var wordEnJsonVar =
         "text": "acquisition"
     },
     {
-        "text": "suppression"
+        "text": "fight"
     },
     {
-        "text": "fight"
+        "text": "suppression"
     },
     {
         "text": "landing"
@@ -15601,10 +15604,10 @@ var wordEnJsonVar =
         "text": "adoption"
     },
     {
-        "text": "reception"
+        "text": "fray"
     },
     {
-        "text": "fray"
+        "text": "reception"
     },
     {
         "text": "example"
@@ -15634,10 +15637,10 @@ var wordEnJsonVar =
         "text": "rooms"
     },
     {
-        "text": "prima"
+        "text": "side"
     },
     {
-        "text": "side"
+        "text": "prima"
     },
     {
         "text": "lure"
@@ -15667,13 +15670,13 @@ var wordEnJsonVar =
         "text": "prince"
     },
     {
-        "text": "princess"
-    },
-    {
         "text": "imperialism"
     },
     {
         "text": "bikini"
+    },
+    {
+        "text": "princess"
     },
     {
         "text": "principle"
@@ -15703,10 +15706,10 @@ var wordEnJsonVar =
         "text": "appropriation"
     },
     {
-        "text": "acceleration"
+        "text": "bicarbonate"
     },
     {
-        "text": "bicarbonate"
+        "text": "acceleration"
     },
     {
         "text": "proverb"
@@ -15736,10 +15739,10 @@ var wordEnJsonVar =
         "text": "presence"
     },
     {
-        "text": "oath"
+        "text": "bilingualism"
     },
     {
-        "text": "bilingualism"
+        "text": "oath"
     },
     {
         "text": "juror"
@@ -15769,10 +15772,10 @@ var wordEnJsonVar =
         "text": "trailer"
     },
     {
-        "text": "berth"
+        "text": "whiteness"
     },
     {
-        "text": "whiteness"
+        "text": "berth"
     },
     {
         "text": "reason"
@@ -15802,10 +15805,10 @@ var wordEnJsonVar =
         "text": "scamper"
     },
     {
-        "text": "gap"
+        "text": "bill"
     },
     {
-        "text": "bill"
+        "text": "gap"
     },
     {
         "text": "sample"
@@ -15835,10 +15838,10 @@ var wordEnJsonVar =
         "text": "province"
     },
     {
-        "text": "airing"
+        "text": "protein"
     },
     {
-        "text": "protein"
+        "text": "airing"
     },
     {
         "text": "provider"
@@ -15868,10 +15871,10 @@ var wordEnJsonVar =
         "text": "lane"
     },
     {
-        "text": "forecast"
+        "text": "pain"
     },
     {
-        "text": "pain"
+        "text": "forecast"
     },
     {
         "text": "prognostication"
@@ -15901,10 +15904,10 @@ var wordEnJsonVar =
         "text": "progressiveness"
     },
     {
-        "text": "progression"
+        "text": "majority"
     },
     {
-        "text": "majority"
+        "text": "progression"
     },
     {
         "text": "walk"
@@ -15934,10 +15937,10 @@ var wordEnJsonVar =
         "text": "production"
     },
     {
-        "text": "product"
+        "text": "billiards"
     },
     {
-        "text": "billiards"
+        "text": "product"
     },
     {
         "text": "producer"
@@ -15967,10 +15970,10 @@ var wordEnJsonVar =
         "text": "prose"
     },
     {
-        "text": "prose writer"
+        "text": "bingo"
     },
     {
-        "text": "bingo"
+        "text": "prose writer"
     },
     {
         "text": "transparency"
@@ -16000,13 +16003,13 @@ var wordEnJsonVar =
         "text": "curse"
     },
     {
-        "text": "swallowing"
-    },
-    {
         "text": "empire"
     },
     {
         "text": "biographer"
+    },
+    {
+        "text": "swallowing"
     },
     {
         "text": "puncture"
@@ -16036,10 +16039,10 @@ var wordEnJsonVar =
         "text": "ray"
     },
     {
-        "text": "miss"
+        "text": "biography"
     },
     {
-        "text": "biography"
+        "text": "miss"
     },
     {
         "text": "industry"
@@ -16069,10 +16072,10 @@ var wordEnJsonVar =
         "text": "propane"
     },
     {
-        "text": "propeller"
+        "text": "biosecurity"
     },
     {
-        "text": "biosecurity"
+        "text": "propeller"
     },
     {
         "text": "offer"
@@ -16102,10 +16105,10 @@ var wordEnJsonVar =
         "text": "prophet"
     },
     {
-        "text": "germination"
+        "text": "biologist"
     },
     {
-        "text": "biologist"
+        "text": "germination"
     },
     {
         "text": "prophecy"
@@ -16135,10 +16138,10 @@ var wordEnJsonVar =
         "text": "commoner"
     },
     {
-        "text": "simplicity"
+        "text": "biology"
     },
     {
-        "text": "biology"
+        "text": "simplicity"
     },
     {
         "text": "delay"
@@ -16168,10 +16171,10 @@ var wordEnJsonVar =
         "text": "enemy"
     },
     {
-        "text": "opposite"
+        "text": "biome"
     },
     {
-        "text": "biome"
+        "text": "opposite"
     },
     {
         "text": "contraindication"
@@ -16201,10 +16204,10 @@ var wordEnJsonVar =
         "text": "prevention"
     },
     {
-        "text": "profile"
+        "text": "biomass"
     },
     {
-        "text": "biomass"
+        "text": "profile"
     },
     {
         "text": "professional"
@@ -16234,10 +16237,10 @@ var wordEnJsonVar =
         "text": "prosperity"
     },
     {
-        "text": "procedure"
+        "text": "biometrics"
     },
     {
-        "text": "biometrics"
+        "text": "procedure"
     },
     {
         "text": "process"
@@ -16267,10 +16270,10 @@ var wordEnJsonVar =
         "text": "yarn"
     },
     {
-        "text": "buckle"
+        "text": "biopsy"
     },
     {
-        "text": "biopsy"
+        "text": "buckle"
     },
     {
         "text": "rectangle"
@@ -16300,10 +16303,10 @@ var wordEnJsonVar =
         "text": "psychologist"
     },
     {
-        "text": "psychology"
+        "text": "bios"
     },
     {
-        "text": "bios"
+        "text": "psychology"
     },
     {
         "text": "psychotherapist"
@@ -16333,13 +16336,13 @@ var wordEnJsonVar =
         "text": "publication"
     },
     {
-        "text": "publicist"
-    },
-    {
         "text": "imperative"
     },
     {
         "text": "biosignature"
+    },
+    {
+        "text": "publicist"
     },
     {
         "text": "pudding"
@@ -16369,10 +16372,10 @@ var wordEnJsonVar =
         "text": "punch"
     },
     {
-        "text": "navel"
+        "text": "biotin"
     },
     {
-        "text": "biotin"
+        "text": "navel"
     },
     {
         "text": "purism"
@@ -16402,10 +16405,10 @@ var wordEnJsonVar =
         "text": "wheat"
     },
     {
-        "text": "millet"
+        "text": "exchange"
     },
     {
-        "text": "exchange"
+        "text": "millet"
     },
     {
         "text": "puree"
@@ -16435,10 +16438,10 @@ var wordEnJsonVar =
         "text": "equation"
     },
     {
-        "text": "horn"
+        "text": "demon"
     },
     {
-        "text": "demon"
+        "text": "horn"
     },
     {
         "text": "family"
@@ -16468,10 +16471,10 @@ var wordEnJsonVar =
         "text": "sharpness"
     },
     {
-        "text": "variety"
+        "text": "bisexual"
     },
     {
-        "text": "bisexual"
+        "text": "variety"
     },
     {
         "text": "variety"
@@ -16501,10 +16504,10 @@ var wordEnJsonVar =
         "text": "river"
     },
     {
-        "text": "river"
+        "text": "beads"
     },
     {
-        "text": "beads"
+        "text": "river"
     },
     {
         "text": "decision"
@@ -16534,10 +16537,10 @@ var wordEnJsonVar =
         "text": "radiator"
     },
     {
-        "text": "radio"
+        "text": "beadwork"
     },
     {
-        "text": "beadwork"
+        "text": "radio"
     },
     {
         "text": "radioactivity"
@@ -16567,10 +16570,10 @@ var wordEnJsonVar =
         "text": "joy"
     },
     {
-        "text": "radius"
+        "text": "sponge cake"
     },
     {
-        "text": "sponge cake"
+        "text": "radius"
     },
     {
         "text": "radar"
@@ -16600,10 +16603,10 @@ var wordEnJsonVar =
         "text": "racket"
     },
     {
-        "text": "sink"
+        "text": "bistro"
     },
     {
-        "text": "bistro"
+        "text": "sink"
     },
     {
         "text": "rally"
@@ -16633,10 +16636,10 @@ var wordEnJsonVar =
         "text": "morning"
     },
     {
-        "text": "ranch"
+        "text": "bit"
     },
     {
-        "text": "bit"
+        "text": "ranch"
     },
     {
         "text": "rhapsody"
@@ -16666,9 +16669,6 @@ var wordEnJsonVar =
         "text": "score"
     },
     {
-        "text": "ration"
-    },
-    {
         "text": "unity"
     },
     {
@@ -16676,6 +16676,9 @@ var wordEnJsonVar =
     },
     {
         "text": "bitcoin"
+    },
+    {
+        "text": "ration"
     },
     {
         "text": "rationalization"
@@ -16705,10 +16708,10 @@ var wordEnJsonVar =
         "text": "reaction"
     },
     {
-        "text": "reactor"
+        "text": "bitumen"
     },
     {
-        "text": "bitumen"
+        "text": "reactor"
     },
     {
         "text": "reaction"
@@ -16738,10 +16741,10 @@ var wordEnJsonVar =
         "text": "rebranding"
     },
     {
-        "text": "roar"
+        "text": "biceps"
     },
     {
-        "text": "biceps"
+        "text": "roar"
     },
     {
         "text": "revenge"
@@ -16771,10 +16774,10 @@ var wordEnJsonVar =
         "text": "register"
     },
     {
-        "text": "regatta"
+        "text": "womanizer"
     },
     {
-        "text": "womanizer"
+        "text": "regatta"
     },
     {
         "text": "rugby"
@@ -16804,10 +16807,10 @@ var wordEnJsonVar =
         "text": "regressor"
     },
     {
-        "text": "adjuster"
+        "text": "woman"
     },
     {
-        "text": "woman"
+        "text": "adjuster"
     },
     {
         "text": "regulation"
@@ -16837,10 +16840,10 @@ var wordEnJsonVar =
         "text": "redesign"
     },
     {
-        "text": "reducer"
+        "text": "baboon"
     },
     {
-        "text": "baboon"
+        "text": "reducer"
     },
     {
         "text": "regime"
@@ -16870,10 +16873,10 @@ var wordEnJsonVar =
         "text": "rubber"
     },
     {
-        "text": "resonance"
+        "text": "grandmother"
     },
     {
-        "text": "grandmother"
+        "text": "resonance"
     },
     {
         "text": "result"
@@ -16903,10 +16906,10 @@ var wordEnJsonVar =
         "text": "rating"
     },
     {
-        "text": "props"
+        "text": "cotton"
     },
     {
-        "text": "cotton"
+        "text": "props"
     },
     {
         "text": "requisition"
@@ -16936,10 +16939,10 @@ var wordEnJsonVar =
         "text": "record"
     },
     {
-        "text": "record holder"
+        "text": "bug"
     },
     {
-        "text": "bug"
+        "text": "record holder"
     },
     {
         "text": "reclamation"
@@ -16969,10 +16972,10 @@ var wordEnJsonVar =
         "text": "relief"
     },
     {
-        "text": "relativism"
+        "text": "baggage"
     },
     {
-        "text": "baggage"
+        "text": "relativism"
     },
     {
         "text": "remix"
@@ -17002,13 +17005,13 @@ var wordEnJsonVar =
         "text": "maintainability"
     },
     {
-        "text": "rendering"
-    },
-    {
         "text": "empress"
     },
     {
         "text": "trunk"
+    },
+    {
+        "text": "rendering"
     },
     {
         "text": "renegade"
@@ -17038,10 +17041,10 @@ var wordEnJsonVar =
         "text": "rep"
     },
     {
-        "text": "repellent"
+        "text": "multitasking"
     },
     {
-        "text": "multitasking"
+        "text": "repellent"
     },
     {
         "text": "rapper"
@@ -17071,10 +17074,10 @@ var wordEnJsonVar =
         "text": "reptile"
     },
     {
-        "text": "reputation"
+        "text": "polysemy"
     },
     {
-        "text": "polysemy"
+        "text": "reputation"
     },
     {
         "text": "reseller"
@@ -17104,10 +17107,10 @@ var wordEnJsonVar =
         "text": "resource"
     },
     {
-        "text": "retargeting"
+        "text": "multipolarity"
     },
     {
-        "text": "multipolarity"
+        "text": "retargeting"
     },
     {
         "text": "retweet"
@@ -17137,10 +17140,10 @@ var wordEnJsonVar =
         "text": "refactoring"
     },
     {
-        "text": "referee"
+        "text": "reusability"
     },
     {
-        "text": "reusability"
+        "text": "referee"
     },
     {
         "text": "abstract"
@@ -17170,10 +17173,10 @@ var wordEnJsonVar =
         "text": "reviewing"
     },
     {
-        "text": "recipe"
+        "text": "wealth"
     },
     {
-        "text": "wealth"
+        "text": "recipe"
     },
     {
         "text": "receptor"
@@ -17203,10 +17206,10 @@ var wordEnJsonVar =
         "text": "fisherman"
     },
     {
-        "text": "fishing"
+        "text": "bonfire"
     },
     {
-        "text": "bonfire"
+        "text": "fishing"
     },
     {
         "text": "fishing"
@@ -17236,10 +17239,10 @@ var wordEnJsonVar =
         "text": "fig"
     },
     {
-        "text": "feature"
+        "text": "baguette"
     },
     {
-        "text": "baguette"
+        "text": "feature"
     },
     {
         "text": "lynx"
@@ -17269,10 +17272,10 @@ var wordEnJsonVar =
         "text": "employer"
     },
     {
-        "text": "robotics"
+        "text": "badminton"
     },
     {
-        "text": "badminton"
+        "text": "robotics"
     },
     {
         "text": "rover"
@@ -17302,10 +17305,10 @@ var wordEnJsonVar =
         "text": "ancestor"
     },
     {
-        "text": "separation"
+        "text": "cheerfulness"
     },
     {
-        "text": "cheerfulness"
+        "text": "separation"
     },
     {
         "text": "connector"
@@ -17335,13 +17338,13 @@ var wordEnJsonVar =
         "text": "dismantling"
     },
     {
-        "text": "brokenness"
-    },
-    {
         "text": "implant"
     },
     {
         "text": "desirability"
+    },
+    {
+        "text": "brokenness"
     },
     {
         "text": "unlock"
@@ -17371,10 +17374,10 @@ var wordEnJsonVar =
         "text": "dilution"
     },
     {
-        "text": "reversal"
+        "text": "desire"
     },
     {
-        "text": "desire"
+        "text": "reversal"
     },
     {
         "text": "solution"
@@ -17404,10 +17407,10 @@ var wordEnJsonVar =
         "text": "reflection"
     },
     {
-        "text": "locker room"
+        "text": "chatterbox"
     },
     {
-        "text": "chatterbox"
+        "text": "locker room"
     },
     {
         "text": "undressing"
@@ -17437,10 +17440,10 @@ var wordEnJsonVar =
         "text": "schedule"
     },
     {
-        "text": "decomposition"
+        "text": "base"
     },
     {
-        "text": "base"
+        "text": "decomposition"
     },
     {
         "text": "split"
@@ -17470,10 +17473,10 @@ var wordEnJsonVar =
         "text": "markup"
     },
     {
-        "text": "placing"
+        "text": "bazaar"
     },
     {
-        "text": "bazaar"
+        "text": "placing"
     },
     {
         "text": "rosemary"
@@ -17503,10 +17506,10 @@ var wordEnJsonVar =
         "text": "thawing"
     },
     {
-        "text": "peddler"
+        "text": "basil"
     },
     {
-        "text": "basil"
+        "text": "peddler"
     },
     {
         "text": "ruin"
@@ -17536,10 +17539,10 @@ var wordEnJsonVar =
         "text": "nursery"
     },
     {
-        "text": "story"
+        "text": "based"
     },
     {
-        "text": "based"
+        "text": "story"
     },
     {
         "text": "dissemination"
@@ -17569,10 +17572,10 @@ var wordEnJsonVar =
         "text": "devastation"
     },
     {
-        "text": "discharge"
+        "text": "idleness"
     },
     {
-        "text": "idleness"
+        "text": "discharge"
     },
     {
         "text": "seedling"
@@ -17602,10 +17605,10 @@ var wordEnJsonVar =
         "text": "location"
     },
     {
-        "text": "friction"
+        "text": "fable"
     },
     {
-        "text": "fable"
+        "text": "friction"
     },
     {
         "text": "cracking"
@@ -17635,10 +17638,10 @@ var wordEnJsonVar =
         "text": "defocusing"
     },
     {
-        "text": "combing"
+        "text": "byte"
     },
     {
-        "text": "byte"
+        "text": "combing"
     },
     {
         "text": "disappointment"
@@ -17668,13 +17671,13 @@ var wordEnJsonVar =
         "text": "rocker"
     },
     {
-        "text": "roll"
-    },
-    {
         "text": "implosion"
     },
     {
         "text": "tank"
+    },
+    {
+        "text": "roll"
     },
     {
         "text": "roller"
@@ -17704,10 +17707,10 @@ var wordEnJsonVar =
         "text": "dew"
     },
     {
-        "text": "plant"
+        "text": "grocer"
     },
     {
-        "text": "grocer"
+        "text": "plant"
     },
     {
         "text": "vegetation"
@@ -17737,10 +17740,10 @@ var wordEnJsonVar =
         "text": "piano"
     },
     {
-        "text": "mercury"
+        "text": "bachelor"
     },
     {
-        "text": "bachelor"
+        "text": "mercury"
     },
     {
         "text": "ruin"
@@ -17770,10 +17773,10 @@ var wordEnJsonVar =
         "text": "glove"
     },
     {
-        "text": "manuscript"
+        "text": "cormorant"
     },
     {
-        "text": "cormorant"
+        "text": "manuscript"
     },
     {
         "text": "handshake"
@@ -17803,10 +17806,10 @@ var wordEnJsonVar =
         "text": "routine"
     },
     {
-        "text": "movement"
+        "text": "bacterium"
     },
     {
-        "text": "bacterium"
+        "text": "movement"
     },
     {
         "text": "pen"
@@ -17836,10 +17839,10 @@ var wordEnJsonVar =
         "text": "seeder"
     },
     {
-        "text": "sowing"
+        "text": "ball"
     },
     {
-        "text": "ball"
+        "text": "sowing"
     },
     {
         "text": "saddle"
@@ -17869,10 +17872,10 @@ var wordEnJsonVar =
         "text": "retina"
     },
     {
-        "text": "net"
+        "text": "carrousel"
     },
     {
-        "text": "carrousel"
+        "text": "net"
     },
     {
         "text": "january"
@@ -17902,10 +17905,10 @@ var wordEnJsonVar =
         "text": "gardening"
     },
     {
-        "text": "garden"
+        "text": "ballad"
     },
     {
-        "text": "ballad"
+        "text": "garden"
     },
     {
         "text": "sadomasochism"
@@ -17935,10 +17938,10 @@ var wordEnJsonVar =
         "text": "salamander"
     },
     {
-        "text": "salad"
+        "text": "balaclava"
     },
     {
-        "text": "balaclava"
+        "text": "salad"
     },
     {
         "text": "fat"
@@ -17968,10 +17971,10 @@ var wordEnJsonVar =
         "text": "samba"
     },
     {
-        "text": "sambo"
+        "text": "balance"
     },
     {
-        "text": "balance"
+        "text": "sambo"
     },
     {
         "text": "female"
@@ -18001,13 +18004,13 @@ var wordEnJsonVar =
         "text": "suicide"
     },
     {
-        "text": "self-diagnosis"
-    },
-    {
         "text": "imports"
     },
     {
         "text": "balancer"
+    },
+    {
+        "text": "self-diagnosis"
     },
     {
         "text": "self help"
@@ -18037,10 +18040,10 @@ var wordEnJsonVar =
         "text": "self-humiliation"
     },
     {
-        "text": "self-promotion"
+        "text": "balancing"
     },
     {
-        "text": "balancing"
+        "text": "self-promotion"
     },
     {
         "text": "\u0441\u0430\u043c\u043e\u0440\u043e\u0434\u043e\u043a"
@@ -18070,10 +18073,10 @@ var wordEnJsonVar =
         "text": "plumbing"
     },
     {
-        "text": "centimeter"
+        "text": "ballast"
     },
     {
-        "text": "ballast"
+        "text": "centimeter"
     },
     {
         "text": "barn"
@@ -18103,10 +18106,10 @@ var wordEnJsonVar =
         "text": "saccharose"
     },
     {
-        "text": "witness"
+        "text": "hoodie"
     },
     {
-        "text": "hoodie"
+        "text": "witness"
     },
     {
         "text": "consciousness"
@@ -18136,10 +18139,10 @@ var wordEnJsonVar =
         "text": "outlook"
     },
     {
-        "text": "sweatshirt"
+        "text": "ballerina"
     },
     {
-        "text": "ballerina"
+        "text": "sweatshirt"
     },
     {
         "text": "candle"
@@ -18169,10 +18172,10 @@ var wordEnJsonVar =
         "text": "lead"
     },
     {
-        "text": "pork"
+        "text": "beam"
     },
     {
-        "text": "beam"
+        "text": "pork"
     },
     {
         "text": "pig"
@@ -18202,10 +18205,10 @@ var wordEnJsonVar =
         "text": "celebration"
     },
     {
-        "text": "holiday"
+        "text": "balcony"
     },
     {
-        "text": "balcony"
+        "text": "holiday"
     },
     {
         "text": "priest"
@@ -18235,10 +18238,10 @@ var wordEnJsonVar =
         "text": "segregation"
     },
     {
-        "text": "sedan"
+        "text": "balloon"
     },
     {
-        "text": "balloon"
+        "text": "sedan"
     },
     {
         "text": "season"
@@ -18268,10 +18271,10 @@ var wordEnJsonVar =
         "text": "sequoia"
     },
     {
-        "text": "secret"
+        "text": "bamboo"
     },
     {
-        "text": "bamboo"
+        "text": "secret"
     },
     {
         "text": "secretary"
@@ -18301,10 +18304,10 @@ var wordEnJsonVar =
         "text": "sect"
     },
     {
-        "text": "sectarian"
+        "text": "bumper"
     },
     {
-        "text": "bumper"
+        "text": "sectarian"
     },
     {
         "text": "sector"
@@ -18334,13 +18337,13 @@ var wordEnJsonVar =
         "text": "celery"
     },
     {
-        "text": "village"
-    },
-    {
         "text": "importation"
     },
     {
         "text": "commonplace"
+    },
+    {
+        "text": "village"
     },
     {
         "text": "village"
@@ -18370,10 +18373,10 @@ var wordEnJsonVar =
         "text": "senator"
     },
     {
-        "text": "sandwich"
+        "text": "banana"
     },
     {
-        "text": "banana"
+        "text": "sandwich"
     },
     {
         "text": "sense"
@@ -18403,10 +18406,10 @@ var wordEnJsonVar =
         "text": "serialization"
     },
     {
-        "text": "series"
+        "text": "gang"
     },
     {
-        "text": "gang"
+        "text": "series"
     },
     {
         "text": "serving"
@@ -18436,10 +18439,10 @@ var wordEnJsonVar =
         "text": "sergeant"
     },
     {
-        "text": "seriousness"
+        "text": "bandanna"
     },
     {
-        "text": "bandanna"
+        "text": "seriousness"
     },
     {
         "text": "serotonin"
@@ -18469,10 +18472,10 @@ var wordEnJsonVar =
         "text": "surfer"
     },
     {
-        "text": "heart"
+        "text": "banjo"
     },
     {
-        "text": "banjo"
+        "text": "heart"
     },
     {
         "text": "session"
@@ -18502,10 +18505,10 @@ var wordEnJsonVar =
         "text": "seat"
     },
     {
-        "text": "cider"
+        "text": "bandit"
     },
     {
-        "text": "bandit"
+        "text": "cider"
     },
     {
         "text": "sequel"
@@ -18535,10 +18538,10 @@ var wordEnJsonVar =
         "text": "sympathy"
     },
     {
-        "text": "symposium"
+        "text": "gangsterism"
     },
     {
-        "text": "gangsterism"
+        "text": "symposium"
     },
     {
         "text": "symptom"
@@ -18568,10 +18571,10 @@ var wordEnJsonVar =
         "text": "singularity"
     },
     {
-        "text": "syndicate"
+        "text": "banner"
     },
     {
-        "text": "banner"
+        "text": "syndicate"
     },
     {
         "text": "syndication"
@@ -18601,10 +18604,10 @@ var wordEnJsonVar =
         "text": "synthetic"
     },
     {
-        "text": "synchronization"
+        "text": "bank"
     },
     {
-        "text": "bank"
+        "text": "synchronization"
     },
     {
         "text": "synchronism"
@@ -18634,10 +18637,10 @@ var wordEnJsonVar =
         "text": "syrup"
     },
     {
-        "text": "orphan"
+        "text": "banker"
     },
     {
-        "text": "banker"
+        "text": "orphan"
     },
     {
         "text": "sysadmin"
@@ -18667,13 +18670,13 @@ var wordEnJsonVar =
         "text": "scepter"
     },
     {
-        "text": "rabies"
-    },
-    {
         "text": "impressionism"
     },
     {
         "text": "jar"
+    },
+    {
+        "text": "rabies"
     },
     {
         "text": "scalpel"
@@ -18703,10 +18706,10 @@ var wordEnJsonVar =
         "text": "complaint"
     },
     {
-        "text": "complainant"
+        "text": "banquet"
     },
     {
-        "text": "banquet"
+        "text": "complainant"
     },
     {
         "text": "abolition"
@@ -18736,10 +18739,10 @@ var wordEnJsonVar =
         "text": "skating"
     },
     {
-        "text": "skeleton"
+        "text": "bankrupt"
     },
     {
-        "text": "bankrupt"
+        "text": "skeleton"
     },
     {
         "text": "rock"
@@ -18769,10 +18772,10 @@ var wordEnJsonVar =
         "text": "complexity"
     },
     {
-        "text": "vault"
+        "text": "bankruptcy"
     },
     {
-        "text": "bankruptcy"
+        "text": "vault"
     },
     {
         "text": "convocation"
@@ -18802,10 +18805,10 @@ var wordEnJsonVar =
         "text": "abbreviation"
     },
     {
-        "text": "scorpion"
+        "text": "jar"
     },
     {
-        "text": "jar"
+        "text": "scorpion"
     },
     {
         "text": "cattle breeding"
@@ -18835,10 +18838,10 @@ var wordEnJsonVar =
         "text": "violin"
     },
     {
-        "text": "script"
+        "text": "banush"
     },
     {
-        "text": "banush"
+        "text": "script"
     },
     {
         "text": "scrolling"
@@ -18868,10 +18871,10 @@ var wordEnJsonVar =
         "text": "trace"
     },
     {
-        "text": "blindness"
+        "text": "sauna"
     },
     {
-        "text": "sauna"
+        "text": "blindness"
     },
     {
         "text": "weakness"
@@ -18901,10 +18904,10 @@ var wordEnJsonVar =
         "text": "mucus"
     },
     {
-        "text": "saliva"
+        "text": "baobab"
     },
     {
-        "text": "baobab"
+        "text": "saliva"
     },
     {
         "text": "salivation"
@@ -18934,10 +18937,10 @@ var wordEnJsonVar =
         "text": "servant"
     },
     {
-        "text": "service"
+        "text": "bar"
     },
     {
-        "text": "bar"
+        "text": "service"
     },
     {
         "text": "servant"
@@ -18967,10 +18970,10 @@ var wordEnJsonVar =
         "text": "courage"
     },
     {
-        "text": "daredevil"
+        "text": "barrier"
     },
     {
-        "text": "barrier"
+        "text": "daredevil"
     },
     {
         "text": "dump"
@@ -19000,13 +19003,13 @@ var wordEnJsonVar =
         "text": "taste"
     },
     {
-        "text": "emerald"
-    },
-    {
         "text": "impresario"
     },
     {
         "text": "barium"
+    },
+    {
+        "text": "emerald"
     },
     {
         "text": "smartphone"
@@ -19036,10 +19039,10 @@ var wordEnJsonVar =
         "text": "strip"
     },
     {
-        "text": "strip"
+        "text": "drum"
     },
     {
-        "text": "drum"
+        "text": "strip"
     },
     {
         "text": "strip"
@@ -19069,10 +19072,10 @@ var wordEnJsonVar =
         "text": "dreams"
     },
     {
-        "text": "dreaming"
+        "text": "drummer"
     },
     {
-        "text": "drummer"
+        "text": "dreaming"
     },
     {
         "text": "dog"
@@ -19102,10 +19105,10 @@ var wordEnJsonVar =
         "text": "solidarity"
     },
     {
-        "text": "solidity"
+        "text": "junk"
     },
     {
-        "text": "junk"
+        "text": "solidity"
     },
     {
         "text": "soloist"
@@ -19135,10 +19138,10 @@ var wordEnJsonVar =
         "text": "ladybug"
     },
     {
-        "text": "dream book"
+        "text": "barbecue"
     },
     {
-        "text": "barbecue"
+        "text": "dream book"
     },
     {
         "text": "sun"
@@ -19168,10 +19171,10 @@ var wordEnJsonVar =
         "text": "nipple"
     },
     {
-        "text": "pine"
+        "text": "flamboyance"
     },
     {
-        "text": "flamboyance"
+        "text": "pine"
     },
     {
         "text": "nipple"
@@ -19201,10 +19204,10 @@ var wordEnJsonVar =
         "text": "sociopathy"
     },
     {
-        "text": "union"
+        "text": "coloring"
     },
     {
-        "text": "coloring"
+        "text": "union"
     },
     {
         "text": "ally"
@@ -19234,10 +19237,10 @@ var wordEnJsonVar =
         "text": "interview"
     },
     {
-        "text": "correlation"
+        "text": "bard"
     },
     {
-        "text": "bard"
+        "text": "correlation"
     },
     {
         "text": "compatriot"
@@ -19267,10 +19270,10 @@ var wordEnJsonVar =
         "text": "community"
     },
     {
-        "text": "compassion"
+        "text": "barrel"
     },
     {
-        "text": "barrel"
+        "text": "compassion"
     },
     {
         "text": "skirt"
@@ -19300,10 +19303,10 @@ var wordEnJsonVar =
         "text": "spaghetti"
     },
     {
-        "text": "decline"
+        "text": "barge"
     },
     {
-        "text": "barge"
+        "text": "decline"
     },
     {
         "text": "decrease"
@@ -19333,13 +19336,13 @@ var wordEnJsonVar =
         "text": "flash"
     },
     {
-        "text": "bedroom"
-    },
-    {
         "text": "improvisation"
     },
     {
         "text": "bartender"
+    },
+    {
+        "text": "bedroom"
     },
     {
         "text": "burning"
@@ -19369,10 +19372,10 @@ var wordEnJsonVar =
         "text": "performance"
     },
     {
-        "text": "spectrum"
+        "text": "baroque"
     },
     {
-        "text": "baroque"
+        "text": "spectrum"
     },
     {
         "text": "spectrogram"
@@ -19402,10 +19405,10 @@ var wordEnJsonVar =
         "text": "spice"
     },
     {
-        "text": "special agent"
+        "text": "barometer"
     },
     {
-        "text": "barometer"
+        "text": "special agent"
     },
     {
         "text": "specifics"
@@ -19435,10 +19438,10 @@ var wordEnJsonVar =
         "text": "emersion"
     },
     {
-        "text": "flattening"
+        "text": "baron"
     },
     {
-        "text": "baron"
+        "text": "flattening"
     },
     {
         "text": "retarder"
@@ -19468,10 +19471,10 @@ var wordEnJsonVar =
         "text": "spoiler"
     },
     {
-        "text": "rest"
+        "text": "barter"
     },
     {
-        "text": "barter"
+        "text": "rest"
     },
     {
         "text": "seduction"
@@ -19501,10 +19504,10 @@ var wordEnJsonVar =
         "text": "building"
     },
     {
-        "text": "equipment"
+        "text": "bass"
     },
     {
-        "text": "bass"
+        "text": "equipment"
     },
     {
         "text": "way"
@@ -19534,10 +19537,10 @@ var wordEnJsonVar =
         "text": "thirst"
     },
     {
-        "text": "spray"
+        "text": "basin"
     },
     {
-        "text": "basin"
+        "text": "spray"
     },
     {
         "text": "perception"
@@ -19567,10 +19570,10 @@ var wordEnJsonVar =
         "text": "simplification"
     },
     {
-        "text": "direction"
+        "text": "bassist"
     },
     {
-        "text": "bassist"
+        "text": "direction"
     },
     {
         "text": "descent"
@@ -19600,10 +19603,10 @@ var wordEnJsonVar =
         "text": "chair"
     },
     {
-        "text": "table top"
+        "text": "basketball"
     },
     {
-        "text": "basketball"
+        "text": "table top"
     },
     {
         "text": "wall"
@@ -19633,10 +19636,10 @@ var wordEnJsonVar =
         "text": "herd"
     },
     {
-        "text": "trainee"
+        "text": "bastion"
     },
     {
-        "text": "bastion"
+        "text": "trainee"
     },
     {
         "text": "internship"
@@ -19666,13 +19669,13 @@ var wordEnJsonVar =
         "text": "standardization"
     },
     {
-        "text": "becoming"
-    },
-    {
         "text": "pulse"
     },
     {
         "text": "bastardization"
+    },
+    {
+        "text": "becoming"
     },
     {
         "text": "machine"
@@ -19702,10 +19705,10 @@ var wordEnJsonVar =
         "text": "statistics"
     },
     {
-        "text": "stator"
+        "text": "bastardization"
     },
     {
-        "text": "bastardization"
+        "text": "stator"
     },
     {
         "text": "article"
@@ -19735,10 +19738,10 @@ var wordEnJsonVar =
         "text": "thigh"
     },
     {
-        "text": "tracking"
+        "text": "whip"
     },
     {
-        "text": "whip"
+        "text": "tracking"
     },
     {
         "text": "path"
@@ -19768,10 +19771,10 @@ var wordEnJsonVar =
         "text": "steppe"
     },
     {
-        "text": "stereo"
+        "text": "battalion"
     },
     {
-        "text": "battalion"
+        "text": "stereo"
     },
     {
         "text": "stereotype"
@@ -19801,10 +19804,10 @@ var wordEnJsonVar =
         "text": "style"
     },
     {
-        "text": "stimulus"
+        "text": "battery"
     },
     {
-        "text": "battery"
+        "text": "stimulus"
     },
     {
         "text": "stimulation"
@@ -19834,10 +19837,10 @@ var wordEnJsonVar =
         "text": "column"
     },
     {
-        "text": "table"
+        "text": "batata"
     },
     {
-        "text": "batata"
+        "text": "table"
     },
     {
         "text": "carpenter"
@@ -19867,10 +19870,10 @@ var wordEnJsonVar =
         "text": "riser"
     },
     {
-        "text": "order"
+        "text": "loaf"
     },
     {
-        "text": "loaf"
+        "text": "order"
     },
     {
         "text": "arrow"
@@ -19900,10 +19903,10 @@ var wordEnJsonVar =
         "text": "tape"
     },
     {
-        "text": "dish"
+        "text": "paternity"
     },
     {
-        "text": "paternity"
+        "text": "dish"
     },
     {
         "text": "esophagus"
@@ -19933,10 +19936,10 @@ var wordEnJsonVar =
         "text": "ostrich"
     },
     {
-        "text": "fear"
+        "text": "homeland"
     },
     {
-        "text": "homeland"
+        "text": "fear"
     },
     {
         "text": "insurer"
@@ -19966,10 +19969,10 @@ var wordEnJsonVar =
         "text": "stroboscope"
     },
     {
-        "text": "term"
+        "text": "father"
     },
     {
-        "text": "father"
+        "text": "term"
     },
     {
         "text": "planing"
@@ -19999,9 +20002,6 @@ var wordEnJsonVar =
         "text": "pod"
     },
     {
-        "text": "shaking"
-    },
-    {
         "text": "Jesuit"
     },
     {
@@ -20009,6 +20009,9 @@ var wordEnJsonVar =
     },
     {
         "text": "fringe"
+    },
+    {
+        "text": "shaking"
     },
     {
         "text": "studio"
@@ -20038,10 +20041,10 @@ var wordEnJsonVar =
         "text": "steward"
     },
     {
-        "text": "stewardess"
+        "text": "bachata"
     },
     {
-        "text": "bachata"
+        "text": "stewardess"
     },
     {
         "text": "vanity"
@@ -20071,10 +20074,10 @@ var wordEnJsonVar =
         "text": "subtitles"
     },
     {
-        "text": "scroll"
+        "text": "vision"
     },
     {
-        "text": "vision"
+        "text": "scroll"
     },
     {
         "text": "sovereign"
@@ -20104,10 +20107,10 @@ var wordEnJsonVar =
         "text": "dress"
     },
     {
-        "text": "totality"
+        "text": "tower"
     },
     {
-        "text": "tower"
+        "text": "totality"
     },
     {
         "text": "compatibility"
@@ -20137,10 +20140,10 @@ var wordEnJsonVar =
         "text": "soup"
     },
     {
-        "text": "super intelligence"
+        "text": "bee"
     },
     {
-        "text": "bee"
+        "text": "super intelligence"
     },
     {
         "text": "superhero"
@@ -20170,10 +20173,10 @@ var wordEnJsonVar =
         "text": "opponent"
     },
     {
-        "text": "rivalry"
+        "text": "hippo"
     },
     {
-        "text": "hippo"
+        "text": "rivalry"
     },
     {
         "text": "superposition"
@@ -20203,10 +20206,10 @@ var wordEnJsonVar =
         "text": "wort"
     },
     {
-        "text": "society"
+        "text": "thigh"
     },
     {
-        "text": "thigh"
+        "text": "society"
     },
     {
         "text": "dusk"
@@ -20236,10 +20239,10 @@ var wordEnJsonVar =
         "text": "suffix"
     },
     {
-        "text": "prompter"
+        "text": "godlessness"
     },
     {
-        "text": "godlessness"
+        "text": "prompter"
     },
     {
         "text": "suffrage"
@@ -20269,10 +20272,10 @@ var wordEnJsonVar =
         "text": "east"
     },
     {
-        "text": "approval"
+        "text": "irresponsibility"
     },
     {
-        "text": "irresponsibility"
+        "text": "approval"
     },
     {
         "text": "scheme"
@@ -20302,10 +20305,10 @@ var wordEnJsonVar =
         "text": "scenario"
     },
     {
-        "text": "screenwriter"
+        "text": "hopelessness"
     },
     {
-        "text": "hopelessness"
+        "text": "screenwriter"
     },
     {
         "text": "skit"
@@ -20335,13 +20338,13 @@ var wordEnJsonVar =
         "text": "thiamine"
     },
     {
-        "text": "ticker"
-    },
-    {
         "text": "immunity"
     },
     {
         "text": "mismanagement"
+    },
+    {
+        "text": "ticker"
     },
     {
         "text": "body"
@@ -20371,10 +20374,10 @@ var wordEnJsonVar =
         "text": "snuffbox"
     },
     {
-        "text": "timesheet"
+        "text": "inaction"
     },
     {
-        "text": "inaction"
+        "text": "timesheet"
     },
     {
         "text": "tablet"
@@ -20404,10 +20407,10 @@ var wordEnJsonVar =
         "text": "tautology"
     },
     {
-        "text": "taekwondo"
+        "text": "homelessness"
     },
     {
-        "text": "homelessness"
+        "text": "taekwondo"
     },
     {
         "text": "pelvis"
@@ -20437,10 +20440,10 @@ var wordEnJsonVar =
         "text": "tact"
     },
     {
-        "text": "mascot"
+        "text": "thoughtlessness"
     },
     {
-        "text": "thoughtlessness"
+        "text": "mascot"
     },
     {
         "text": "waist"
@@ -20470,10 +20473,10 @@ var wordEnJsonVar =
         "text": "dance"
     },
     {
-        "text": "tank"
+        "text": "lawlessness"
     },
     {
-        "text": "lawlessness"
+        "text": "tank"
     },
     {
         "text": "dancer"
@@ -20503,10 +20506,10 @@ var wordEnJsonVar =
         "text": "tariff"
     },
     {
-        "text": "tartan"
+        "text": "uncompromising"
     },
     {
-        "text": "uncompromising"
+        "text": "tartan"
     },
     {
         "text": "tartar"
@@ -20536,10 +20539,10 @@ var wordEnJsonVar =
         "text": "tweet"
     },
     {
-        "text": "animal"
+        "text": "mess"
     },
     {
-        "text": "mess"
+        "text": "animal"
     },
     {
         "text": "hardness"
@@ -20569,10 +20572,10 @@ var wordEnJsonVar =
         "text": "tagging"
     },
     {
-        "text": "thesis"
+        "text": "mess"
     },
     {
-        "text": "mess"
+        "text": "thesis"
     },
     {
         "text": "thesaurus"
@@ -20602,10 +20605,10 @@ var wordEnJsonVar =
         "text": "telegram"
     },
     {
-        "text": "telegraph"
+        "text": "hopelessness"
     },
     {
-        "text": "hopelessness"
+        "text": "telegraph"
     },
     {
         "text": "telecom"
@@ -20635,10 +20638,10 @@ var wordEnJsonVar =
         "text": "telephony"
     },
     {
-        "text": "telephony"
+        "text": "abyss"
     },
     {
-        "text": "abyss"
+        "text": "telephony"
     },
     {
         "text": "taurus"
@@ -20668,13 +20671,13 @@ var wordEnJsonVar =
         "text": "temperament"
     },
     {
-        "text": "temperature"
-    },
-    {
         "text": "initializer"
     },
     {
         "text": "security"
+    },
+    {
+        "text": "temperature"
     },
     {
         "text": "darkness"
@@ -20704,10 +20707,10 @@ var wordEnJsonVar =
         "text": "theory"
     },
     {
-        "text": "theorem"
+        "text": "continuity"
     },
     {
-        "text": "continuity"
+        "text": "theorem"
     },
     {
         "text": "theorist"
@@ -20737,10 +20740,10 @@ var wordEnJsonVar =
         "text": "therapist"
     },
     {
-        "text": "territory"
+        "text": "infertility"
     },
     {
-        "text": "infertility"
+        "text": "territory"
     },
     {
         "text": "term"
@@ -20770,10 +20773,10 @@ var wordEnJsonVar =
         "text": "thermosphere"
     },
     {
-        "text": "territorial defense"
+        "text": "unemployment"
     },
     {
-        "text": "unemployment"
+        "text": "territorial defense"
     },
     {
         "text": "terror"
@@ -20803,10 +20806,10 @@ var wordEnJsonVar =
         "text": "testosterone"
     },
     {
-        "text": "testing"
+        "text": "impotence"
     },
     {
-        "text": "impotence"
+        "text": "testing"
     },
     {
         "text": "father-in-law"
@@ -20836,10 +20839,10 @@ var wordEnJsonVar =
         "text": "mother in law"
     },
     {
-        "text": "crucible"
+        "text": "immortality"
     },
     {
-        "text": "immortality"
+        "text": "crucible"
     },
     {
         "text": "tiger"
@@ -20869,10 +20872,10 @@ var wordEnJsonVar =
         "text": "circulation"
     },
     {
-        "text": "replication"
+        "text": "insomnia"
     },
     {
-        "text": "insomnia"
+        "text": "replication"
     },
     {
         "text": "tyrant"
@@ -20902,10 +20905,10 @@ var wordEnJsonVar =
         "text": "silence"
     },
     {
-        "text": "cloth"
+        "text": "shamelessness"
     },
     {
-        "text": "shamelessness"
+        "text": "cloth"
     },
     {
         "text": "weaving"
@@ -20935,10 +20938,10 @@ var wordEnJsonVar =
         "text": "token"
     },
     {
-        "text": "tokenizer"
+        "text": "fearlessness"
     },
     {
-        "text": "fearlessness"
+        "text": "tokenizer"
     },
     {
         "text": "toxicology"
@@ -20968,10 +20971,10 @@ var wordEnJsonVar =
         "text": "top"
     },
     {
-        "text": "toponym"
+        "text": "carelessness"
     },
     {
-        "text": "carelessness"
+        "text": "toponym"
     },
     {
         "text": "thoracotomy"
@@ -21001,13 +21004,13 @@ var wordEnJsonVar =
         "text": "toaster"
     },
     {
-        "text": "totality"
-    },
-    {
         "text": "initialization"
     },
     {
         "text": "badge"
+    },
+    {
+        "text": "totality"
     },
     {
         "text": "totem"
@@ -21037,10 +21040,10 @@ var wordEnJsonVar =
         "text": "cod"
     },
     {
-        "text": "triumph"
+        "text": "baseball"
     },
     {
-        "text": "baseball"
+        "text": "triumph"
     },
     {
         "text": "trajectory"
@@ -21070,10 +21073,10 @@ var wordEnJsonVar =
         "text": "tractor"
     },
     {
-        "text": "trawl"
+        "text": "bacon"
     },
     {
-        "text": "bacon"
+        "text": "trawl"
     },
     {
         "text": "tram"
@@ -21103,10 +21106,10 @@ var wordEnJsonVar =
         "text": "transcription"
     },
     {
-        "text": "translit"
+        "text": "beneficiary"
     },
     {
-        "text": "beneficiary"
+        "text": "translit"
     },
     {
         "text": "transliteration"
@@ -21136,10 +21139,10 @@ var wordEnJsonVar =
         "text": "transportation"
     },
     {
-        "text": "transfer"
+        "text": "gasoline"
     },
     {
-        "text": "gasoline"
+        "text": "transfer"
     },
     {
         "text": "transformer"
@@ -21169,10 +21172,10 @@ var wordEnJsonVar =
         "text": "mourning"
     },
     {
-        "text": "traffic"
+        "text": "chainsaw"
     },
     {
-        "text": "chainsaw"
+        "text": "traffic"
     },
     {
         "text": "stencil"
@@ -21202,10 +21205,10 @@ var wordEnJsonVar =
         "text": "training"
     },
     {
-        "text": "trend"
+        "text": "ber"
     },
     {
-        "text": "ber"
+        "text": "trend"
     },
     {
         "text": "coach"
@@ -21235,10 +21238,10 @@ var wordEnJsonVar =
         "text": "trigger"
     },
     {
-        "text": "tights"
+        "text": "bergamot"
     },
     {
-        "text": "bergamot"
+        "text": "tights"
     },
     {
         "text": "jersey"
@@ -21268,10 +21271,10 @@ var wordEnJsonVar =
         "text": "triceps"
     },
     {
-        "text": "tricycle"
+        "text": "shore"
     },
     {
-        "text": "shore"
+        "text": "tricycle"
     },
     {
         "text": "trolling"
@@ -21301,10 +21304,10 @@ var wordEnJsonVar =
         "text": "tube"
     },
     {
-        "text": "troubadour"
+        "text": "march"
     },
     {
-        "text": "march"
+        "text": "troubadour"
     },
     {
         "text": "trumpeter"
@@ -21334,13 +21337,13 @@ var wordEnJsonVar =
         "text": "tinderbox"
     },
     {
-        "text": "trick"
-    },
-    {
         "text": "initiative"
     },
     {
         "text": "beryl"
+    },
+    {
+        "text": "trick"
     },
     {
         "text": "toilet"
@@ -21370,10 +21373,10 @@ var wordEnJsonVar =
         "text": "nightstand"
     },
     {
-        "text": "tunic"
+        "text": "beryllium"
     },
     {
-        "text": "beryllium"
+        "text": "tunic"
     },
     {
         "text": "tunnel"
@@ -21403,10 +21406,10 @@ var wordEnJsonVar =
         "text": "turnstile"
     },
     {
-        "text": "tournament"
+        "text": "bestiary"
     },
     {
-        "text": "bestiary"
+        "text": "tournament"
     },
     {
         "text": "party"
@@ -21436,10 +21439,10 @@ var wordEnJsonVar =
         "text": "tuning"
     },
     {
-        "text": "turban"
+        "text": "bestseller"
     },
     {
-        "text": "bestseller"
+        "text": "turban"
     },
     {
         "text": "prison"
@@ -21469,10 +21472,10 @@ var wordEnJsonVar =
         "text": "perpetuation"
     },
     {
-        "text": "warning"
+        "text": "beta"
     },
     {
-        "text": "beta"
+        "text": "warning"
     },
     {
         "text": "attentiveness"
@@ -21502,10 +21505,10 @@ var wordEnJsonVar =
         "text": "roadside"
     },
     {
-        "text": "coast"
+        "text": "concrete"
     },
     {
-        "text": "concrete"
+        "text": "coast"
     },
     {
         "text": "consistency"
@@ -21535,10 +21538,10 @@ var wordEnJsonVar =
         "text": "strengthening"
     },
     {
-        "text": "shelter"
+        "text": "brawler"
     },
     {
-        "text": "brawler"
+        "text": "shelter"
     },
     {
         "text": "ukulele"
@@ -21568,10 +21571,10 @@ var wordEnJsonVar =
         "text": "condition"
     },
     {
-        "text": "conventionality"
+        "text": "brawling"
     },
     {
-        "text": "brawling"
+        "text": "conventionality"
     },
     {
         "text": "enabling"
@@ -21601,10 +21604,10 @@ var wordEnJsonVar =
         "text": "packaging"
     },
     {
-        "text": "partiality"
+        "text": "bull"
     },
     {
-        "text": "bull"
+        "text": "partiality"
     },
     {
         "text": "prejudice"
@@ -21634,10 +21637,10 @@ var wordEnJsonVar =
         "text": "vulnerability"
     },
     {
-        "text": "urbanization"
+        "text": "bandage"
     },
     {
-        "text": "bandage"
+        "text": "urbanization"
     },
     {
         "text": "passage"
@@ -21667,13 +21670,13 @@ var wordEnJsonVar =
         "text": "awareness"
     },
     {
-        "text": "averaging"
-    },
-    {
         "text": "initiation"
     },
     {
         "text": "battle"
+    },
+    {
+        "text": "averaging"
     },
     {
         "text": "adoption"
@@ -21703,10 +21706,10 @@ var wordEnJsonVar =
         "text": "comforter"
     },
     {
-        "text": "formation"
+        "text": "beating"
     },
     {
-        "text": "beating"
+        "text": "formation"
     },
     {
         "text": "utilization"
@@ -21736,10 +21739,10 @@ var wordEnJsonVar =
         "text": "member"
     },
     {
-        "text": "participation"
+        "text": "scourge"
     },
     {
-        "text": "scourge"
+        "text": "participation"
     },
     {
         "text": "scientist"
@@ -21769,10 +21772,10 @@ var wordEnJsonVar =
         "text": "imagination"
     },
     {
-        "text": "idea"
+        "text": "damn"
     },
     {
-        "text": "damn"
+        "text": "idea"
     },
     {
         "text": "violet"
@@ -21802,10 +21805,10 @@ var wordEnJsonVar =
         "text": "physiotherapist"
     },
     {
-        "text": "physicist"
+        "text": "supplication"
     },
     {
-        "text": "supplication"
+        "text": "physicist"
     },
     {
         "text": "physics"
@@ -21835,10 +21838,10 @@ var wordEnJsonVar =
         "text": "philosopher"
     },
     {
-        "text": "philosophy"
+        "text": "good"
     },
     {
-        "text": "good"
+        "text": "philosophy"
     },
     {
         "text": "movie"
@@ -21868,10 +21871,10 @@ var wordEnJsonVar =
         "text": "financier"
     },
     {
-        "text": "financing"
+        "text": "reverence"
     },
     {
-        "text": "reverence"
+        "text": "financing"
     },
     {
         "text": "fjord"
@@ -21901,10 +21904,10 @@ var wordEnJsonVar =
         "text": "phase"
     },
     {
-        "text": "pheasant"
+        "text": "charity"
     },
     {
-        "text": "charity"
+        "text": "pheasant"
     },
     {
         "text": "file"
@@ -21934,10 +21937,10 @@ var wordEnJsonVar =
         "text": "faculty"
     },
     {
-        "text": "falsification"
+        "text": "grace"
     },
     {
-        "text": "grace"
+        "text": "falsification"
     },
     {
         "text": "falsetto"
@@ -21967,10 +21970,10 @@ var wordEnJsonVar =
         "text": "dreamer"
     },
     {
-        "text": "\u0444\u0430\u043d\u0442\u0430\u0437\u043c"
+        "text": "welfare"
     },
     {
-        "text": "welfare"
+        "text": "\u0444\u0430\u043d\u0442\u0430\u0437\u043c"
     },
     {
         "text": "fiction"
@@ -22000,13 +22003,13 @@ var wordEnJsonVar =
         "text": "porcelain"
     },
     {
-        "text": "stuffing"
-    },
-    {
         "text": "inauguration"
     },
     {
         "text": "nobility"
+    },
+    {
+        "text": "stuffing"
     },
     {
         "text": "facade"
@@ -22036,10 +22039,10 @@ var wordEnJsonVar =
         "text": "medical assistant"
     },
     {
-        "text": "feminism"
+        "text": "blessing"
     },
     {
-        "text": "blessing"
+        "text": "feminism"
     },
     {
         "text": "feminist"
@@ -22069,10 +22072,10 @@ var wordEnJsonVar =
         "text": "farmer"
     },
     {
-        "text": "festival"
+        "text": "bliss"
     },
     {
-        "text": "bliss"
+        "text": "festival"
     },
     {
         "text": "fetishization"
@@ -22102,10 +22105,10 @@ var wordEnJsonVar =
         "text": "flagship"
     },
     {
-        "text": "bottle"
+        "text": "buffoon"
     },
     {
-        "text": "buffoon"
+        "text": "bottle"
     },
     {
         "text": "flamingo"
@@ -22135,10 +22138,10 @@ var wordEnJsonVar =
         "text": "florist"
     },
     {
-        "text": "fleet"
+        "text": "blaster"
     },
     {
-        "text": "blaster"
+        "text": "fleet"
     },
     {
         "text": "phobia"
@@ -22168,10 +22171,10 @@ var wordEnJsonVar =
         "text": "folklore"
     },
     {
-        "text": "folklorist"
+        "text": "blastula"
     },
     {
-        "text": "blastula"
+        "text": "folklorist"
     },
     {
         "text": "folksonomy"
@@ -22201,10 +22204,10 @@ var wordEnJsonVar =
         "text": "form"
     },
     {
-        "text": "formality"
+        "text": "blazer"
     },
     {
-        "text": "blazer"
+        "text": "formality"
     },
     {
         "text": "format"
@@ -22234,10 +22237,10 @@ var wordEnJsonVar =
         "text": "fortification"
     },
     {
-        "text": "fortune"
+        "text": "blender"
     },
     {
-        "text": "blender"
+        "text": "fortune"
     },
     {
         "text": "forum"
@@ -22267,10 +22270,10 @@ var wordEnJsonVar =
         "text": "photometry"
     },
     {
-        "text": "photon"
+        "text": "bluff"
     },
     {
-        "text": "bluff"
+        "text": "photon"
     },
     {
         "text": "photo frame"
@@ -22300,10 +22303,10 @@ var wordEnJsonVar =
         "text": "fragment"
     },
     {
-        "text": "phrase"
+        "text": "proximity"
     },
     {
-        "text": "proximity"
+        "text": "phrase"
     },
     {
         "text": "phrasing"
@@ -22333,13 +22336,13 @@ var wordEnJsonVar =
         "text": "framework"
     },
     {
-        "text": "fresco"
-    },
-    {
         "text": "dissent"
     },
     {
         "text": "shine"
+    },
+    {
+        "text": "fresco"
     },
     {
         "text": "frieze"
@@ -22369,10 +22372,10 @@ var wordEnJsonVar =
         "text": "fluorine"
     },
     {
-        "text": "fungicide"
+        "text": "lightning"
     },
     {
-        "text": "lightning"
+        "text": "fungicide"
     },
     {
         "text": "foundation"
@@ -22402,10 +22405,10 @@ var wordEnJsonVar =
         "text": "furniture"
     },
     {
-        "text": "furore"
+        "text": "blog"
     },
     {
-        "text": "blog"
+        "text": "furore"
     },
     {
         "text": "foot"
@@ -22435,10 +22438,10 @@ var wordEnJsonVar =
         "text": "course"
     },
     {
-        "text": "hijab"
+        "text": "blogger"
     },
     {
-        "text": "blogger"
+        "text": "hijab"
     },
     {
         "text": "chemist"
@@ -22468,10 +22471,10 @@ var wordEnJsonVar =
         "text": "bribe"
     },
     {
-        "text": "bribery"
+        "text": "blogger"
     },
     {
-        "text": "blogger"
+        "text": "bribery"
     },
     {
         "text": "hackathon"
@@ -22501,10 +22504,10 @@ var wordEnJsonVar =
         "text": "chaos"
     },
     {
-        "text": "grasping"
+        "text": "bloc"
     },
     {
-        "text": "bloc"
+        "text": "grasping"
     },
     {
         "text": "nature"
@@ -22534,10 +22537,10 @@ var wordEnJsonVar =
         "text": "gate"
     },
     {
-        "text": "tail"
+        "text": "blocker"
     },
     {
-        "text": "blocker"
+        "text": "tail"
     },
     {
         "text": "praise"
@@ -22567,10 +22570,10 @@ var wordEnJsonVar =
         "text": "headliner"
     },
     {
-        "text": "hentai"
+        "text": "blockade"
     },
     {
-        "text": "blockade"
+        "text": "hentai"
     },
     {
         "text": "hash"
@@ -22600,10 +22603,10 @@ var wordEnJsonVar =
         "text": "chuckle"
     },
     {
-        "text": "bread"
+        "text": "blockbuster"
     },
     {
-        "text": "blockbuster"
+        "text": "bread"
     },
     {
         "text": "barn"
@@ -22633,10 +22636,10 @@ var wordEnJsonVar =
         "text": "chloride"
     },
     {
-        "text": "cloud"
+        "text": "notebook"
     },
     {
-        "text": "notebook"
+        "text": "cloud"
     },
     {
         "text": "cloudiness"
@@ -22666,13 +22669,13 @@ var wordEnJsonVar =
         "text": "hall"
     },
     {
-        "text": "cholera"
-    },
-    {
         "text": "disabled"
     },
     {
         "text": "checkpoint"
+    },
+    {
+        "text": "cholera"
     },
     {
         "text": "cholesterol"
@@ -22702,10 +22705,10 @@ var wordEnJsonVar =
         "text": "courage"
     },
     {
-        "text": "greyhound"
+        "text": "blocker"
     },
     {
-        "text": "blocker"
+        "text": "greyhound"
     },
     {
         "text": "hospice"
@@ -22735,10 +22738,10 @@ var wordEnJsonVar =
         "text": "cross"
     },
     {
-        "text": "dagger"
+        "text": "locking"
     },
     {
-        "text": "locking"
+        "text": "dagger"
     },
     {
         "text": "christian"
@@ -22768,10 +22771,10 @@ var wordEnJsonVar =
         "text": "crunch"
     },
     {
-        "text": "cattle"
+        "text": "blockchain"
     },
     {
-        "text": "blockchain"
+        "text": "cattle"
     },
     {
         "text": "artist"
@@ -22801,10 +22804,10 @@ var wordEnJsonVar =
         "text": "goal"
     },
     {
-        "text": "price"
+        "text": "blonde"
     },
     {
-        "text": "blonde"
+        "text": "price"
     },
     {
         "text": "value"
@@ -22834,10 +22837,10 @@ var wordEnJsonVar =
         "text": "mold"
     },
     {
-        "text": "chirp"
+        "text": "wandering"
     },
     {
-        "text": "wandering"
+        "text": "chirp"
     },
     {
         "text": "flowering"
@@ -22867,10 +22870,10 @@ var wordEnJsonVar =
         "text": "cementation"
     },
     {
-        "text": "censor"
+        "text": "wanderer"
     },
     {
-        "text": "wanderer"
+        "text": "censor"
     },
     {
         "text": "censorship"
@@ -22900,10 +22903,10 @@ var wordEnJsonVar =
         "text": "church"
     },
     {
-        "text": "workshops"
+        "text": "vomiting"
     },
     {
-        "text": "vomiting"
+        "text": "workshops"
     },
     {
         "text": "onion"
@@ -22933,10 +22936,10 @@ var wordEnJsonVar =
         "text": "scurvy"
     },
     {
-        "text": "zinc"
+        "text": "vomit"
     },
     {
-        "text": "vomit"
+        "text": "zinc"
     },
     {
         "text": "circus"
@@ -22966,10 +22969,10 @@ var wordEnJsonVar =
         "text": "figure"
     },
     {
-        "text": "tick"
+        "text": "dish"
     },
     {
-        "text": "dish"
+        "text": "tick"
     },
     {
         "text": "zucchini"
@@ -22999,13 +23002,13 @@ var wordEnJsonVar =
         "text": "cheesecake"
     },
     {
-        "text": "chip"
-    },
-    {
         "text": "invalidity"
     },
     {
         "text": "blues"
+    },
+    {
+        "text": "chip"
     },
     {
         "text": "clinging"
@@ -23035,10 +23038,10 @@ var wordEnJsonVar =
         "text": "witchcraft"
     },
     {
-        "text": "chakra"
+        "text": "bluetooth"
     },
     {
-        "text": "bluetooth"
+        "text": "chakra"
     },
     {
         "text": "tub"
@@ -23068,10 +23071,10 @@ var wordEnJsonVar =
         "text": "part"
     },
     {
-        "text": "particle"
+        "text": "tin"
     },
     {
-        "text": "tin"
+        "text": "particle"
     },
     {
         "text": "fraction"
@@ -23101,10 +23104,10 @@ var wordEnJsonVar =
         "text": "thyme"
     },
     {
-        "text": "champion"
+        "text": "plaque"
     },
     {
-        "text": "plaque"
+        "text": "champion"
     },
     {
         "text": "championship"
@@ -23134,10 +23137,10 @@ var wordEnJsonVar =
         "text": "turtle"
     },
     {
-        "text": "shell"
+        "text": "warhead"
     },
     {
-        "text": "warhead"
+        "text": "shell"
     },
     {
         "text": "draft"
@@ -23167,10 +23170,10 @@ var wordEnJsonVar =
         "text": "chipotle"
     },
     {
-        "text": "number"
+        "text": "fighter"
     },
     {
-        "text": "fighter"
+        "text": "number"
     },
     {
         "text": "calculus"
@@ -23200,10 +23203,10 @@ var wordEnJsonVar =
         "text": "reader"
     },
     {
-        "text": "member"
+        "text": "beaver"
     },
     {
-        "text": "beaver"
+        "text": "member"
     },
     {
         "text": "membership"
@@ -23233,10 +23236,10 @@ var wordEnJsonVar =
         "text": "prunes"
     },
     {
-        "text": "quadrangle"
+        "text": "fool"
     },
     {
-        "text": "fool"
+        "text": "quadrangle"
     },
     {
         "text": "cover"
@@ -23266,10 +23269,10 @@ var wordEnJsonVar =
         "text": "plague"
     },
     {
-        "text": "sensitivity"
+        "text": "goddess"
     },
     {
-        "text": "goddess"
+        "text": "sensitivity"
     },
     {
         "text": "sensuality"
@@ -23299,10 +23302,10 @@ var wordEnJsonVar =
         "text": "varmint"
     },
     {
-        "text": "chalet"
+        "text": "mantis"
     },
     {
-        "text": "mantis"
+        "text": "chalet"
     },
     {
         "text": "shallots"
@@ -23332,9 +23335,6 @@ var wordEnJsonVar =
         "text": "worship"
     },
     {
-        "text": "cap"
-    },
-    {
         "text": "capacity"
     },
     {
@@ -23342,6 +23342,9 @@ var wordEnJsonVar =
     },
     {
         "text": "worship"
+    },
+    {
+        "text": "cap"
     },
     {
         "text": "hat"
@@ -23371,10 +23374,10 @@ var wordEnJsonVar =
         "text": "locker"
     },
     {
-        "text": "saffron"
+        "text": "madness"
     },
     {
-        "text": "madness"
+        "text": "saffron"
     },
     {
         "text": "shah"
@@ -23404,10 +23407,10 @@ var wordEnJsonVar =
         "text": "mooring"
     },
     {
-        "text": "seamstress"
+        "text": "crazy"
     },
     {
-        "text": "crazy"
+        "text": "seamstress"
     },
     {
         "text": "shoemaker"
@@ -23437,10 +23440,10 @@ var wordEnJsonVar =
         "text": "sheriff"
     },
     {
-        "text": "wool"
+        "text": "crazy"
     },
     {
-        "text": "crazy"
+        "text": "wool"
     },
     {
         "text": "chief"
@@ -23470,10 +23473,10 @@ var wordEnJsonVar =
         "text": "barkeeper"
     },
     {
-        "text": "thorn"
+        "text": "divinity"
     },
     {
-        "text": "divinity"
+        "text": "thorn"
     },
     {
         "text": "hissing"
@@ -23503,10 +23506,10 @@ var wordEnJsonVar =
         "text": "neck"
     },
     {
-        "text": "pest"
+        "text": "deity"
     },
     {
-        "text": "deity"
+        "text": "pest"
     },
     {
         "text": "skin"
@@ -23536,10 +23539,10 @@ var wordEnJsonVar =
         "text": "hose"
     },
     {
-        "text": "stomach"
+        "text": "boycott"
     },
     {
-        "text": "boycott"
+        "text": "stomach"
     },
     {
         "text": "spank"
@@ -23569,10 +23572,10 @@ var wordEnJsonVar =
         "text": "lacing"
     },
     {
-        "text": "lace"
+        "text": "peen"
     },
     {
-        "text": "peen"
+        "text": "lace"
     },
     {
         "text": "chauvinism"
@@ -23602,10 +23605,10 @@ var wordEnJsonVar =
         "text": "shopping"
     },
     {
-        "text": "shorts"
+        "text": "boxer"
     },
     {
-        "text": "boxer"
+        "text": "shorts"
     },
     {
         "text": "highway"
@@ -23635,10 +23638,10 @@ var wordEnJsonVar =
         "text": "spinach"
     },
     {
-        "text": "spindle"
+        "text": "bolero"
     },
     {
-        "text": "bolero"
+        "text": "spindle"
     },
     {
         "text": "spur"
@@ -23668,13 +23671,13 @@ var wordEnJsonVar =
         "text": "stamping"
     },
     {
-        "text": "trousers"
-    },
-    {
         "text": "inventory"
     },
     {
         "text": "lap-dog"
+    },
+    {
+        "text": "trousers"
     },
     {
         "text": "state"
@@ -23704,10 +23707,10 @@ var wordEnJsonVar =
         "text": "storm"
     },
     {
-        "text": "fine"
+        "text": "swamp"
     },
     {
-        "text": "swamp"
+        "text": "fine"
     },
     {
         "text": "stroke"
@@ -23737,10 +23740,10 @@ var wordEnJsonVar =
         "text": "drawer"
     },
     {
-        "text": "density"
+        "text": "bolt"
     },
     {
-        "text": "bolt"
+        "text": "density"
     },
     {
         "text": "pinch"
@@ -23770,10 +23773,10 @@ var wordEnJsonVar =
         "text": "ankle"
     },
     {
-        "text": "sincerity"
+        "text": "bomb"
     },
     {
-        "text": "bomb"
+        "text": "sincerity"
     },
     {
         "text": "shield"
@@ -23803,10 +23806,10 @@ var wordEnJsonVar =
         "text": "jeweler"
     },
     {
-        "text": "usability"
+        "text": "bombardier"
     },
     {
-        "text": "bombardier"
+        "text": "usability"
     },
     {
         "text": "lawyer"
@@ -23836,10 +23839,10 @@ var wordEnJsonVar =
         "text": "berry"
     },
     {
-        "text": "lamb"
+        "text": "bomber"
     },
     {
-        "text": "bomber"
+        "text": "lamb"
     },
     {
         "text": "berry"
@@ -23869,10 +23872,10 @@ var wordEnJsonVar =
         "text": "juniper"
     },
     {
-        "text": "skiff"
+        "text": "bombing"
     },
     {
-        "text": "bombing"
+        "text": "skiff"
     },
     {
         "text": "Christmas tree"
@@ -23902,10 +23905,10 @@ var wordEnJsonVar =
         "text": "manger"
     },
     {
-        "text": "clarity"
+        "text": "bonus"
     },
     {
-        "text": "bonus"
+        "text": "clarity"
     },
     {
         "text": "gums"
