@@ -1,4 +1,4 @@
-// v.1.1.46
+// v.1.1.47
 
 
 
@@ -835,15 +835,15 @@ urlList = [
 //"https://www.ekoru.org/?q="+q,// no result
 "https://search.lilo.org/?q="+q,
 //"https://searx.ninja/?q=$q&categories=general",
-"https://searx.xyz/?q="+q+"&categories=general",
 
-"https://peekier.com/?#!"+q,
+
+//"https://peekier.com/?#!"+q,
 
 "https://engine.presearch.org/search?q="+q,
 
 //"https://www.dogpile.com/serp?q=$q",
 "https://metager.org/meta/meta.ger3?eingabe="+q,
-"https://ellpedia.com/search?q="+q,
+//"https://ellpedia.com/search?q="+q,
 //"https://search.niriv.com/web?q=$q",
 "https://www.zapmeta.com/search?q="+q,
 "https://gibiru.com/results.html?q="+q,
