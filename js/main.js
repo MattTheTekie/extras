@@ -40,7 +40,7 @@ mainPrintMsg('footer', `
 <span id="fPrivacy"><a href="/privacy.${confExt}">cookie: status</a></span>
 
 <span><a href="https://twitter.com/inonehp">twitter</a></span>
-<span><a href="https://feedly.com/i/subscription/feed/https://inonehp.github.io/rss.xml">RSS</a></span>
+<span><a href="/rss.xml">RSS</a></span>
 
 <!--
 
