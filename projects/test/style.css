@@ -45,11 +45,12 @@ color: #4E4E4E;
 text-align: left;
 }
 
+/*
 body{
     background: url(https://unsplash.com/photos/5dWJlG9xWBI/download?ixid=M3wxMjA3fDB8MXxzZWFyY2h8Nnx8c3VuJTIwc3ByaW5nJTIwdHJlZXxlbnwwfHx8fDE2ODQ0MDAzMTR8MA&force=true&w=640);
 background-size: cover;
 
-}
+}*/
 
 
 .button33{
@@ -127,6 +128,50 @@ margin: 0 auto;
 
 
 
+
+
+
+
+.block332Wrapper{
+position: relative;
+display: block;
+
+height: 100px;
+}
+
+.block332Border{
+position: absolute;
+background: yellow;
+border: 1px solid gree;
+width: 100px;
+height: 100px;
+z-index: -2;
+top: 0;
+left: 0;
+}
+
+.block332Button{
+display: block;
+position: babsolute;
+
+height: 80px;
+width: 80px;
+top: 30px;
+left: 30px;
+
+border: 1px solid red;
+background: red;
+
+z-index: -1;
+}
+
+
+@keyframes block33Animation {
+
+    0%{background-position:0% 0%}
+    50%{background-position: 100% 0%}
+    100%{background-position:0% 0%}
+}
 
 
 

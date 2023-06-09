@@ -1,6 +1,15 @@
 var blogJsonVar = 
 [
     {
+        "id": "90",
+        "text": "CSS Apple Pro Display XDR",
+        "text2": "",
+        "text3": "",
+        "url": "https:\/\/codepen.io\/jkantner\/pen\/RwqwXXe",
+        "tag": "#CSS #HTML",
+        "time": 1686213608
+    },
+    {
         "id": "87",
         "text": "updated 2 template",
         "text2": "",

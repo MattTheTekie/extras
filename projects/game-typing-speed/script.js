@@ -1,4 +1,4 @@
-// v.3.9.26
+// v.3.9.27
 
 
 
@@ -957,7 +957,7 @@ printMsgWin = '';
 
 
 let winMsg = `
-<div class="block light border2 padding margin msg">
+<div class="block bg4 border2 padding margin msg">
 <!--<b class="${printMsgWinColor} padding">${printMsgWin}</b>-->
 <div class="pre"><span title="word per minute" style="color: var(--c3);">WPM: <span class="">${wpm}</span></span> ${wpmProgress} ${recordMsg}</div>
 <span>Acurancy: ≈<span class="">${acurancy}</span>%</span> ${acurancyProgress}<br>

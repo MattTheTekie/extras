@@ -6,7 +6,7 @@ var url = new URL(geturl);
 var q = url.searchParams.get("q");
 if(q == null){ q = 1000; }
 
-let letter = "      abcdefghijklmnopqrstuvwxyz";
+let letter = "abcde fghijk lmnop qrstu vwxyz ";
 letter = [...letter];
 
 
@@ -100,8 +100,11 @@ result = cuttext(result, q);
 result = result.replaceAll(/ +(?= )/g,'');
 result = result.replaceAll(' ,',', ');
 result = result.replaceAll('.,',', ');
+result = result.replaceAll(' .','.');
 
-
+result = result.replaceAll(/(\r\n|\r|\n){2,}/g, '$1\n');
+//https://stackoverflow.com/questions/1981349/regex-to-replace-multiple-spaces-with-a-single-space
+result = result.replaceAll(/  +/g, ' ');
 
 
 result = result.concat('.');
