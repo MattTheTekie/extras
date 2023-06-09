@@ -62,56 +62,6 @@ padding: 30px;
 
 
 
-.buttonBorder {
-padding: 7px;
-
-display: inline-block;
-
-background: url(https://unsplash.com/photos/5dWJlG9xWBI/download?ixid=M3wxMjA3fDB8MXxzZWFyY2h8Nnx8c3VuJTIwc3ByaW5nJTIwdHJlZXxlbnwwfHx8fDE2ODQ0MDAzMTR8MA&force=true&w=640);
-
-animation: example 15s ease infinite;
-
-background-size: cover;
-
-}
-
-
-@keyframes example {
-0% { background-position: -30px 0px; }
-50% { background-position: 30px 0px;  }
-100% { background-position: -30px 0px;  }
-}
-
-body{ text-align: center; }
-
-.block33BorderWrapper{
-}
-
-.block33Border{
-display: inline-block;
-background: linear-gradient(to right,transparent, red, transparent); 
-animation: block33Animation 15s ease infinite;
-padding: 7px;
-background-size: 400% 400%;
-}
-
-.block33Button{
-border: 1px solid silver;
-background: yellow;
-display: block;
-height: 100px;
-width: 100px;
-margin: 0 auto;
-}
-
-
-@keyframes block33Animation {
-
-    0%{background-position:0% 0%}
-    50%{background-position: 100% 0%}
-    100%{background-position:0% 0%}
-
-}
 
 
 
@@ -126,51 +76,55 @@ margin: 0 auto;
 
 
 
-
-
+body { text-align: center; }
 
 
 
 
 .block332Wrapper{
 position: relative;
-display: block;
+display: inline-block;
 
-height: 100px;
+height: 60px;
+width: 100px;
+border: 1px solid blue;
+overflow: hidden;
 }
 
 .block332Border{
 position: absolute;
 background: yellow;
+background: linear-gradient(to right, white, black); 
+animation: block332Animation 15s linear infinite;
 border: 1px solid gree;
-width: 100px;
-height: 100px;
+width: 200px;
+height: 200px;
 z-index: -2;
-top: 0;
-left: 0;
+top: -50px;
+left: -50px;
 }
 
 .block332Button{
 display: block;
-position: babsolute;
+position: absolute;
 
-height: 80px;
-width: 80px;
-top: 30px;
-left: 30px;
+height: 50px;
+width: 90px;
+top: 5px;
+left: 5px;
 
-border: 1px solid red;
-background: red;
+border: 1px solid silver;
+background: #000;
+color: #fff;
 
 z-index: -1;
 }
 
 
-@keyframes block33Animation {
+@keyframes block332Animation {
 
-    0%{background-position:0% 0%}
-    50%{background-position: 100% 0%}
-    100%{background-position:0% 0%}
+    0%{ transform: rotate(-360deg); }
+    100%{ transform: rotate(360deg); }
 }
 
 
