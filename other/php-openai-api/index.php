@@ -23,6 +23,13 @@ echo <<<e
 <div class="center2">
 <div class="wrapperL">
 
+<header class="brand">
+<nav>
+<a href="/">index</a>
+<a href="../">list</a>
+</nav>
+</header>
+
 <h3 class="op tCenter">OpenAI API</h3>
 
 
