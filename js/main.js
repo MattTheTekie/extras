@@ -49,8 +49,8 @@ mainPrintMsg('footer', `
 <span id="fAbout"><a href="/about.${confExt}">about</a></span>
 -->
 
-
-<span><a rel="license" title="license" href="https://creativecommons.org/licenses/by-sa/4.0/">license: CC BY-SA 4.0</a></span>
+<span>logo © 2023 i</span>
+<span><a rel="license" title="license" href="https://creativecommons.org/licenses/by-sa/4.0/">other license: CC BY-SA 4.0</a></span>
 
 </div>
 
