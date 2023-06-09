@@ -1,4 +1,4 @@
-/* v.3.3.9 */
+/* v.3.3.10 */
 
 
 var symbolForSplit = 'pwxortuzqu';
@@ -475,7 +475,7 @@ if ('serviceWorker' in navigator) {
 console.log('Service worker registration succeeded:', registration);
 
 //https://developer.mozilla.org/en-US/docs/Web/API/ServiceWorkerRegistration/update
-//registration.update();
+registration.update();
 
 
 

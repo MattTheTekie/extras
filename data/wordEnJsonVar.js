@@ -3352,7 +3352,7 @@ var wordEnJsonVar =
         "text": "funnel"
     },
     {
-        "text": "\u0434\u0438\u043c\u0435\u0442\u0438\u043b"
+        "text": "dimethyl"
     },
     {
         "text": "chimney"
@@ -4210,7 +4210,7 @@ var wordEnJsonVar =
         "text": "adventurer"
     },
     {
-        "text": "\u0435\u043a\u0441\u043f\u043e\u043d\u0435\u043d\u0442\u0430"
+        "text": "exponent"
     },
     {
         "text": "exposure"
@@ -5239,7 +5239,7 @@ var wordEnJsonVar =
         "text": "embryo"
     },
     {
-        "text": "\u0430\u0432\u0442\u043e\u0440\u0443\u0447\u043a\u0430"
+        "text": "fountain pen"
     },
     {
         "text": "arrogance"
@@ -11362,7 +11362,7 @@ var wordEnJsonVar =
         "text": "incommunicability"
     },
     {
-        "text": "\u043d\u0435\u043a\u043e\u0440\u0435\u043a\u0442\u043d\u0456\u0441\u0442\u044c"
+        "text": "incorrectness"
     },
     {
         "text": "necrosis"
@@ -12289,7 +12289,7 @@ var wordEnJsonVar =
         "text": "opus"
     },
     {
-        "text": "\u043e\u043f\u0443\u0441\u043a\u0430\u043d\u043d\u044f"
+        "text": "dropping"
     },
     {
         "text": "orientation"
@@ -14074,7 +14074,7 @@ var wordEnJsonVar =
         "text": "saw"
     },
     {
-        "text": "\u0430\u0442\u043b\u0430\u043d\u0442\u0438\u043a\u0430"
+        "text": "the Atlantic"
     },
     {
         "text": "saw"
@@ -14953,7 +14953,7 @@ var wordEnJsonVar =
         "text": "companion"
     },
     {
-        "text": "\u043f\u043e\u043f\u0443\u0442\u0447\u0438\u043a"
+        "text": "fellow traveler"
     },
     {
         "text": "comparison"
@@ -18052,7 +18052,7 @@ var wordEnJsonVar =
         "text": "self-promotion"
     },
     {
-        "text": "\u0441\u0430\u043c\u043e\u0440\u043e\u0434\u043e\u043a"
+        "text": "nugget"
     },
     {
         "text": "solitude"
@@ -21979,7 +21979,7 @@ var wordEnJsonVar =
         "text": "dreamer"
     },
     {
-        "text": "\u0444\u0430\u043d\u0442\u0430\u0437\u043c"
+        "text": "a fantasy"
     },
     {
         "text": "fiction"
