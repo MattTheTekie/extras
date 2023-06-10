@@ -1,4 +1,4 @@
-// v.1.16.2
+// v.1.16.3
 
 // inspired by Twitter, Fediverse
 // not for large Json files !
@@ -1073,19 +1073,19 @@ play = item.split('?', 1)[0];
 play = item.split('/');
 
 if(play[play.length - 2] == 'playlist') {
-play = play[play.length - 1];
-embed = `<iframe style="border-radius:12px" src="https://open.spotify.com/embed/playlist/${play}?utm_source=generator" width="100%" height="352" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>`;
+play2 = play[play.length - 1];
+embed = `<iframe style="border-radius:12px" src="https://open.spotify.com/embed/playlist/${play2}?utm_source=generator" width="100%" height="352" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>`;
 embedServiceList += 'spotify';
 }
 
 if(play[play.length - 2] == 'track') {
-play = play[play.length - 1];
-embed = `<iframe style="border-radius:12px" src="https://open.spotify.com/embed/track/${play}?utm_source=generator" width="100%" height="352" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>`;
+play2 = play[play.length - 1];
+embed = `<iframe style="border-radius:12px" src="https://open.spotify.com/embed/track/${play2}?utm_source=generator" width="100%" height="352" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>`;
 }
 
 if(play[play.length - 2] == 'artist') {
-play = play[play.length - 1];
-embed = `<iframe style="border-radius:12px" src="https://open.spotify.com/embed/artist/${play}?utm_source=generator" width="100%" height="352" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>`;
+play2 = play[play.length - 1];
+embed = `<iframe style="border-radius:12px" src="https://open.spotify.com/embed/artist/${play2}?utm_source=generator" width="100%" height="352" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>`;
 }
 
 break;
@@ -1100,21 +1100,56 @@ play = item.split('?', 1)[0];
 play = item.split('/');
 
 if(play[play.length - 2] == 'album') {
-play = play[play.length - 1];
-embed = `<iframe title="deezer-widget" src="https://widget.deezer.com/widget/${confThemeEmbed}/album/${play}" width="100%" height="300" frameborder="0" allowtransparency="true" allow="encrypted-media; clipboard-write"></iframe>`;
+play2 = play[play.length - 1];
+embed = `<iframe title="deezer-widget" src="https://widget.deezer.com/widget/${confThemeEmbed}/album/${play2}" width="100%" height="300" frameborder="0" allowtransparency="true" allow="encrypted-media; clipboard-write"></iframe>`;
 }
 
 if(play[play.length - 2] == 'track') {
-play = play[play.length - 1];
-embed = `<iframe title="deezer-widget" src="https://widget.deezer.com/widget/${confThemeEmbed}/track/${play}" height="300" frameborder="0" allowtransparency="true" allow="encrypted-media; clipboard-write"></iframe>`;
+play2 = play[play.length - 1];
+embed = `<iframe title="deezer-widget" src="https://widget.deezer.com/widget/${confThemeEmbed}/track/${play2}" height="300" frameborder="0" allowtransparency="true" allow="encrypted-media; clipboard-write"></iframe>`;
 }
 
 if(play[play.length - 2] == 'artist') {
-play = play[play.length - 1];
-embed = `<iframe title="deezer-widget" src="https://widget.deezer.com/widget/${confThemeEmbed}/artist/${play}/top_tracks" width="100%" height="300" frameborder="0" allowtransparency="true" allow="encrypted-media; clipboard-write"></iframe>`;
+play2 = play[play.length - 1];
+embed = `<iframe title="deezer-widget" src="https://widget.deezer.com/widget/${confThemeEmbed}/artist/${play2}/top_tracks" width="100%" height="300" frameborder="0" allowtransparency="true" allow="encrypted-media; clipboard-write"></iframe>`;
 }
 embedServiceList += 'deezer';
 break;
+
+
+case 'pinterest.com':
+case 'www.pinterest.com':
+//https://stackoverflow.com/questions/7841711/javascript-or-jquery-equivalent-of-phps-strtok
+play = item.split('?', 1)[0];
+play = item.split('/');
+
+
+if(play[play.length - 3] == 'pin') {
+play2 = play[play.length - 2];
+embed = `
+
+<a data-pin-do="embedPin" data-pin-width="large" href="https://www.pinterest.com/pin/${play2}/"></a>`;
+}
+
+if(play[play.length - 3] == 'www.pinterest.com') {
+play2 = play[play.length - 2];
+embed = `
+
+<a data-pin-do="embedUser" data-pin-board-width="400" data-pin-scale-height="240" data-pin-scale-width="80" href="https://www.pinterest.com/${play2}/"></a>`;
+}
+
+if(play[play.length - 3] != 'www.pinterest.com'&&play[play.length - 3] != 'pin') {
+play2 = play[play.length - 2];
+play3 = play[play.length - 3];
+
+embed = `
+
+<a data-pin-do="embedBoard" data-pin-board-width="400" data-pin-scale-height="240" data-pin-scale-width="80" href="https://www.pinterest.com/${play3}/${play2}/"></a>`;
+}
+
+embedServiceList += 'pinterest';
+break;
+
 
 case 'imgur.com':
 play = item.split('/');
@@ -1473,18 +1508,18 @@ play = item.split('?', 1)[0];
 play = item.split('/');
 
 if(play[play.length - 2] == 'playlist') {
-play = play[play.length - 1];
-embed = `<iframe style="border-radius:12px" src="https://open.spotify.com/embed/playlist/${play}?utm_source=generator" width="100%" height="352" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>`;
+play2 = play[play.length - 1];
+embed = `<iframe style="border-radius:12px" src="https://open.spotify.com/embed/playlist/${play2}?utm_source=generator" width="100%" height="352" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>`;
 }
 
 if(play[play.length - 2] == 'track') {
-play = play[play.length - 1];
-embed = `<iframe style="border-radius:12px" src="https://open.spotify.com/embed/track/${play}?utm_source=generator" width="100%" height="352" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>`;
+play2 = play[play.length - 1];
+embed = `<iframe style="border-radius:12px" src="https://open.spotify.com/embed/track/${play2}?utm_source=generator" width="100%" height="352" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>`;
 }
 
 if(play[play.length - 2] == 'artist') {
-play = play[play.length - 1];
-embed = `<iframe style="border-radius:12px" src="https://open.spotify.com/embed/artist/${play}?utm_source=generator" width="100%" height="352" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>`;
+play2 = play[play.length - 1];
+embed = `<iframe style="border-radius:12px" src="https://open.spotify.com/embed/artist/${play2}?utm_source=generator" width="100%" height="352" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>`;
 }
 embedServiceList += 'spotify';
 break;
@@ -1499,20 +1534,54 @@ play = item.split('?', 1)[0];
 play = item.split('/');
 
 if(play[play.length - 2] == 'album') {
-play = play[play.length - 1];
-embed = `<iframe title="deezer-widget" src="https://widget.deezer.com/widget/${confThemeEmbed}/album/${play}" width="100%" height="300" frameborder="0" allowtransparency="true" allow="encrypted-media; clipboard-write"></iframe>`;
+play2 = play[play.length - 1];
+embed = `<iframe title="deezer-widget" src="https://widget.deezer.com/widget/${confThemeEmbed}/album/${play2}" width="100%" height="300" frameborder="0" allowtransparency="true" allow="encrypted-media; clipboard-write"></iframe>`;
 }
 
 if(play[play.length - 2] == 'track') {
-play = play[play.length - 1];
-embed = `<iframe title="deezer-widget" src="https://widget.deezer.com/widget/${confThemeEmbed}/track/${play}" height="300" frameborder="0" allowtransparency="true" allow="encrypted-media; clipboard-write"></iframe>`;
+play2 = play[play.length - 1];
+embed = `<iframe title="deezer-widget" src="https://widget.deezer.com/widget/${confThemeEmbed}/track/${play2}" height="300" frameborder="0" allowtransparency="true" allow="encrypted-media; clipboard-write"></iframe>`;
 }
 
 if(play[play.length - 2] == 'artist') {
-play = play[play.length - 1];
-embed = `<iframe title="deezer-widget" src="https://widget.deezer.com/widget/${confThemeEmbed}/artist/${play}/top_tracks" width="100%" height="300" frameborder="0" allowtransparency="true" allow="encrypted-media; clipboard-write"></iframe>`;
+play2 = play[play.length - 1];
+embed = `<iframe title="deezer-widget" src="https://widget.deezer.com/widget/${confThemeEmbed}/artist/${play2}/top_tracks" width="100%" height="300" frameborder="0" allowtransparency="true" allow="encrypted-media; clipboard-write"></iframe>`;
 }
 embedServiceList += 'deezer';
+break;
+
+case 'pinterest.com':
+case 'www.pinterest.com':
+//https://stackoverflow.com/questions/7841711/javascript-or-jquery-equivalent-of-phps-strtok
+play = item.split('?', 1)[0];
+play = item.split('/');
+
+
+if(play[play.length - 3] == 'pin') {
+play2 = play[play.length - 2];
+
+embed = `
+
+<a data-pin-do="embedPin" data-pin-width="large" href="https://www.pinterest.com/pin/${play2}/"></a>`;
+}
+
+if(play[play.length - 3] == 'www.pinterest.com') {
+play2 = play[play.length - 2];
+embed = `
+
+<a data-pin-do="embedUser" data-pin-board-width="400" data-pin-scale-height="240" data-pin-scale-width="80" href="https://www.pinterest.com/${play2}/"></a>`;
+}
+
+if(play[play.length - 3] != 'www.pinterest.com'&&play[play.length - 3] != 'pin') {
+play2 = play[play.length - 2];
+play3 = play[play.length - 3];
+
+embed = `
+
+<a data-pin-do="embedBoard" data-pin-board-width="400" data-pin-scale-height="240" data-pin-scale-width="80" href="https://www.pinterest.com/${play3}/${play2}/"></a>`;
+}
+
+embedServiceList += 'pinterest';
 break;
 
 case 'imgur.com':
@@ -1952,6 +2021,18 @@ script2.charset = 'utf-8';
 script2.src = '//s.imgur.com/min/embed.js';
 document.getElementsByTagName('head')[0].appendChild(script2);
 }
+
+if(embedServiceList.search(`pinterest`) != -1) {
+var script2 = document.createElement('script');
+script2.type='text/javascript';
+script2.async = true;
+script2.defer = true;
+script2.charset = 'utf-8';
+script2.src = '//assets.pinterest.com/js/pinit.js';
+document.getElementsByTagName('head')[0].appendChild(script2);
+}
+
+
 
 }
 
