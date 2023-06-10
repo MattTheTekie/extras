@@ -37,4 +37,4 @@ font-size: 120%; font-size: 1.3em; font-size: medium;
 .stat { text-align: right; }
 
 
-.msg { text-align: center; width: 100%; border: 3px dotted var(--d2); }
+.msg { text-align: center; width: 100%; }
