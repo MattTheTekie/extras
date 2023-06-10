@@ -17,8 +17,8 @@ width: 100%;
 display: block;
 margin: 0 auto;
 height: 50px;
-background: #A8A8D7;
-border: 1px solid #06FF00;
+background: #95C29A;
+border: 1px solid #3E6042;
 }
 
 .block { max-width: 100px; }
@@ -31,7 +31,7 @@ columns: 250px 3;
 column-gap: 15px;
 min-height: 100px;
 display: block;
-border: 3px solid red;
+border: 3px solid #5E574B;
 padding: 5px;
 
 
@@ -85,38 +85,30 @@ body { text-align: center; }
 position: relative;
 display: inline-block;
 
-height: 60px;
-width: 100px;
-border: 1px solid blue;
+padding: 5px;
+border-radius: 15px;
 overflow: hidden;
 }
 
 .block332Border{
 position: absolute;
-background: yellow;
 background: linear-gradient(to right, white, black); 
 animation: block332Animation 15s linear infinite;
-border: 1px solid gree;
-width: 200px;
-height: 200px;
+width: 250px;
+height: 250px;
 z-index: -2;
 top: -50px;
 left: -50px;
+
 }
 
 .block332Button{
 display: block;
-position: absolute;
 
-height: 50px;
-width: 90px;
-top: 5px;
-left: 5px;
-
-border: 1px solid silver;
-background: #000;
+padding: 15px;
+background: black;
 color: #fff;
-
+border-radius: 15px;
 z-index: -1;
 }
 
