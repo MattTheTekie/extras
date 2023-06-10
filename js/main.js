@@ -51,6 +51,9 @@ mainPrintMsg('footer', `
 
 <span><a rel="license" title="license" href="https://creativecommons.org/licenses/by-sa/4.0/">license: CC BY-SA 4.0</a></span>
 
+<span><a rel="license" title="license 2" href="/copyright.${confExt}">Some Copyright</a></span>
+
+
 </div>
 
 `);
