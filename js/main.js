@@ -1,4 +1,4 @@
-/* v.3.3.10 */
+/* v.3.3.11 */
 
 
 var symbolForSplit = 'pwxortuzqu';
@@ -137,6 +137,7 @@ var themeListLight = [
 "l-green",
 "l-olive",
 "l-red",
+"l-sea",
 "l-violet"
 ];
 
@@ -155,6 +156,7 @@ var themeListOther = [
 "o-green-lime",
 "o-beau-blue",
 "o-blue",
+"o-magic-mint",
 "o-yellow",
 "o-pink-pastel",
 "o-silver",
