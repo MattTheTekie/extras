@@ -1653,13 +1653,6 @@ var musicJsonVar =
         "tag": "#music"
     },
     {
-        "text": "Born This Way \u00b7 Lady Gaga",
-        "text2": "",
-        "text3": "",
-        "url": "https:\/\/www.youtube.com\/watch?v=fn8JP4rUP2I",
-        "tag": "#music"
-    },
-    {
         "text": "Boys Kiss Boys \u00b7 Hollywood Wildlife",
         "text2": "",
         "text3": "",
@@ -3375,13 +3368,6 @@ var musicJsonVar =
         "tag": "#music"
     },
     {
-        "text": "Don't You Worry 'Bout A Thing \u00b7 Tori Kelly",
-        "text2": "",
-        "text3": "",
-        "url": "https:\/\/www.youtube.com\/watch?v=DPk-aXEP1Nk",
-        "tag": "#music"
-    },
-    {
         "text": "Donna Missal - Jupiter (Lunice Remix \/ Audio) - YouTube",
         "text2": "",
         "text3": "",
@@ -3988,13 +3974,6 @@ var musicJsonVar =
         "text2": "",
         "text3": "",
         "url": "https:\/\/www.youtube.com\/watch?v=7jM2YwhaNCc",
-        "tag": "#music"
-    },
-    {
-        "text": "Express (Burlesque Original Motion Picture Soundtrack) \u00b7 Christina Aguilera",
-        "text2": "",
-        "text3": "",
-        "url": "https:\/\/www.youtube.com\/watch?v=5zr7exmWqx8",
         "tag": "#music"
     },
     {
@@ -6196,13 +6175,6 @@ var musicJsonVar =
         "tag": "#music"
     },
     {
-        "text": "Justin Timberlake - Filthy (Official Video) - YouTube",
-        "text2": "",
-        "text3": "",
-        "url": "https:\/\/www.youtube.com\/watch?v=gA-NDZb29I4",
-        "tag": "#music"
-    },
-    {
         "text": "KALI UCHIS - NEVER BE YOURS - YouTube Music",
         "text2": "",
         "text3": "",
@@ -7337,20 +7309,6 @@ var musicJsonVar =
         "tag": "#music"
     },
     {
-        "text": "Love Shack (Edit) (2019 Remaster) \u00b7 The B-52's",
-        "text2": "",
-        "text3": "",
-        "url": "https:\/\/www.youtube.com\/watch?v=7puAydZ5Fbo",
-        "tag": "#music"
-    },
-    {
-        "text": "Love Shack \u00b7 The B-52's",
-        "text2": "",
-        "text3": "",
-        "url": "https:\/\/www.youtube.com\/watch?v=LXZFtJceQC4",
-        "tag": "#music"
-    },
-    {
         "text": "Lovebomb \u00b7 Yeah Yeah Yeahs",
         "text2": "",
         "text3": "",
@@ -8440,13 +8398,6 @@ var musicJsonVar =
         "text2": "",
         "text3": "",
         "url": "https:\/\/www.youtube.com\/watch?v=JqJBIPE5Trk",
-        "tag": "#music"
-    },
-    {
-        "text": "Naughty Girl \u00b7 Beyonc\u00e9",
-        "text2": "",
-        "text3": "",
-        "url": "https:\/\/www.youtube.com\/watch?v=Q0uhlhNNwlY",
         "tag": "#music"
     },
     {
@@ -9745,13 +9696,6 @@ var musicJsonVar =
         "tag": "#music"
     },
     {
-        "text": "Roam \u00b7 The B-52's",
-        "text2": "",
-        "text3": "",
-        "url": "https:\/\/www.youtube.com\/watch?v=FuJDNYT3n0w",
-        "tag": "#music"
-    },
-    {
         "text": "Robbie Williams - Feel (Official Video) - YouTube",
         "text2": "",
         "text3": "",
@@ -9791,13 +9735,6 @@ var musicJsonVar =
         "text2": "",
         "text3": "",
         "url": "https:\/\/www.youtube.com\/watch?v=IRF6nmqcbxo",
-        "tag": "#music"
-    },
-    {
-        "text": "Rock Lobster \u00b7 The B-52's",
-        "text2": "",
-        "text3": "",
-        "url": "https:\/\/www.youtube.com\/watch?v=67EQtSb4wiY",
         "tag": "#music"
     },
     {
@@ -11054,55 +10991,6 @@ var musicJsonVar =
         "tag": "#music"
     },
     {
-        "text": "Sweet Dreams \u00b7 Beyonc\u00e9",
-        "text2": "",
-        "text3": "",
-        "url": "https:\/\/www.youtube.com\/watch?v=fzpEH4dPi6g",
-        "tag": "#music"
-    },
-    {
-        "text": "Sylvan Esso - Ferris Wheel (Official Music Video) - YouTube",
-        "text2": "",
-        "text3": "",
-        "url": "https:\/\/www.youtube.com\/watch?v=2eruW1KHcxc",
-        "tag": "#music"
-    },
-    {
-        "text": "Sylvan Esso - H.S.K.T - YouTube",
-        "text2": "",
-        "text3": "",
-        "url": "https:\/\/www.youtube.com\/watch?v=VRyxzHIq3wY",
-        "tag": "#music"
-    },
-    {
-        "text": "Sylvan Esso - PARAD(w\/m)E [OFFICIAL VIDEO] - YouTube",
-        "text2": "",
-        "text3": "",
-        "url": "https:\/\/www.youtube.com\/watch?v=4W9VYY5QpLg",
-        "tag": "#music"
-    },
-    {
-        "text": "Sylvan Esso - Radio (Music Video) - YouTube",
-        "text2": "",
-        "text3": "",
-        "url": "https:\/\/www.youtube.com\/watch?v=effZUjig794",
-        "tag": "#music"
-    },
-    {
-        "text": "Sylvan Esso - Radio [OFFICIAL] - YouTube",
-        "text2": "",
-        "text3": "",
-        "url": "https:\/\/www.youtube.com\/watch?v=6LEmDEZVa5g",
-        "tag": "#music"
-    },
-    {
-        "text": "Sylvan Esso - Signal (Music Video) - YouTube",
-        "text2": "",
-        "text3": "",
-        "url": "https:\/\/www.youtube.com\/watch?v=6Jxg1hkwrt4",
-        "tag": "#music"
-    },
-    {
         "text": "Sylvie Kreusch - Flaunt it, try it! (live) - YouTube",
         "text2": "",
         "text3": "",
@@ -11243,13 +11131,6 @@ var musicJsonVar =
         "tag": "#music"
     },
     {
-        "text": "Tell It Like It T-I-IS \u00b7 The B-52's",
-        "text2": "",
-        "text3": "",
-        "url": "https:\/\/www.youtube.com\/watch?v=bZOSOpaXbrQ",
-        "tag": "#music"
-    },
-    {
         "text": "Teller \u00b7 Throwing Muses",
         "text2": "",
         "text3": "",
@@ -11310,13 +11191,6 @@ var musicJsonVar =
         "text2": "",
         "text3": "",
         "url": "https:\/\/www.youtube.com\/watch?v=BxHyliIspkA",
-        "tag": "#music"
-    },
-    {
-        "text": "The B-52s - Funplex - YouTube",
-        "text2": "",
-        "text3": "",
-        "url": "https:\/\/www.youtube.com\/watch?v=Lb17Vaph3DI",
         "tag": "#music"
     },
     {
@@ -13305,13 +13179,6 @@ var musicJsonVar =
         "text2": "",
         "text3": "",
         "url": "https:\/\/www.youtube.com\/watch?v=LaQxrCTgQG0",
-        "tag": "#music"
-    },
-    {
-        "text": "You Gotta Not \u00b7 Little Mix",
-        "text2": "",
-        "text3": "",
-        "url": "https:\/\/www.youtube.com\/watch?v=j4_YpumVEcE",
         "tag": "#music"
     },
     {
