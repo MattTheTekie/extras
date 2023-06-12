@@ -1,4 +1,4 @@
-// v.3.9.28
+// v.3.10.0
 
 
 
@@ -6,9 +6,11 @@
 function mainAll(mode33){
 
 
+const topWordsLimit = 20;
 const wmpAverageLimit = 10;
 const wordLengthLimit = 5.1;
 
+var topWords = '';
 //https://catalins.tech/store-array-in-localstorage/
 var arrWPMaverage = JSON.parse(localStorage.getItem("arrWPMaverage"));
 if(arrWPMaverage == null){ arrWPMaverage = []; }
@@ -220,10 +222,7 @@ localStorage.setItem("input", e.target.value);
 main(e.target.value);
 }
 
-task = localStorage.getItem("input");
-if(task != null){
-main(task);
-}
+
 
 
 
@@ -242,6 +241,11 @@ if(localStorage.getItem("input")){ task = localStorage.getItem("input"); }
 
 
 main(task);
+}else{
+task = localStorage.getItem("input");
+if(task != null){
+main(task);
+}
 }
 
 
@@ -315,6 +319,17 @@ document.getElementById('text').rows = '';
 // main
 //setTimeout(function () {
 function main(task){
+
+
+
+
+
+
+
+
+
+
+
 
 if(mode != 'abc'&&mode&&mode != 'free'){
 document.getElementById("mode2").innerHTML = ' <a class="tag" href="/projects/redirects/?q='+encodeURIComponent(task)+'  t">tr</a>';
@@ -990,12 +1005,77 @@ document.getElementById('countSymbolTask').innerHTML = 'task: '+task.length+' in
 
 
 
-answerArr = [];
-dateArr = [];
-secArr = [];
+
+
+
+topWords = task.join("");
+
+// clear symbol
+//topWords = topWords.toLowerCase();
+topWords = topWords.replaceAll('"', "");
+topWords = topWords.replaceAll('...', "");
+topWords = topWords.replaceAll('.', "");
+topWords = topWords.replaceAll('(', "");
+topWords = topWords.replaceAll(')', "");
+topWords = topWords.replaceAll(',', "");
+topWords = topWords.replaceAll('?', "");
+topWords = topWords.replaceAll('!', "");
+
+//topWords = topWords.replaceAll(' at ', "");
+
+topWords = topWords.split(" ");
+//https://stackoverflow.com/questions/19395257/how-to-count-duplicate-value-in-an-array-in-javascript
+var counts = [];
+topWords.forEach(function (x) {
+if(Number.isInteger((counts[x] || 0) + 1) == true){
+counts[x] = (counts[x] || 0) + 1;
+}
+});
+
+//https://stackoverflow.com/questions/1069666/sorting-object-property-by-values
+function sortObject(obj) {
+    var arr = [];
+    for (var prop in obj) {
+        if (obj.hasOwnProperty(prop)) {
+            arr.push({
+                'key': prop,
+                'value': obj[prop]
+            });
+        }
+    }
+arr.sort(function(a, b) { return a.value - b.value; });
+arr.reverse();
+return arr; // returns array
+}
+
+
+topWords = sortObject(counts);
+topWords = topWords.slice(0, topWordsLimit);
+
+print = '';
+topWords.forEach(myFunction288);
+function myFunction288(item, index) {
+qGo2 = item['key'];
+if(qGo2 != ''){
+var qGo = encodeURIComponent(qGo2);
+print += `
+<a target="_blank" href="/projects/redirects/?q=${qGo}">${qGo2} [${item['value']}]</a>,
+`;
+}
+}
+
+print = print.slice(0, -2); 
+document.getElementById("topWords").innerHTML = print;
+
 
 
 }
+
+
+
+
+
+
 
 
 
