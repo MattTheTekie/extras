@@ -1,4 +1,4 @@
-// v.3.10.1
+// v.3.10.2
 
 
 
@@ -1006,7 +1006,7 @@ document.getElementById('countSymbolTask').innerHTML = 'task: '+task.length+' in
 
 
 
-
+/*
 // top words
 topWords = task.join("");
 
@@ -1067,13 +1067,25 @@ print += `
 print = print.slice(0, -2); 
 
 //print top words
-//document.getElementById("topWords").innerHTML = 
+document.getElementById("topWords").innerHTML = 
 `
 <div class="wrapper2 padding op" style="margin-top: 15px;">
 <span class="bold op small">top words: </span>${print}
 </div>
 
 `;
+
+*/
+
+
+
+
+
+
+
+
+
+
 
 
 }
