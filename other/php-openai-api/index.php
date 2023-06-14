@@ -33,7 +33,7 @@ echo <<<e
 <h3 class="op tCenter">OpenAI API</h3>
 
 
-<div class="pre" style="padding: 20px 0;">
+<div class="pre light shadow padding">
 <span class="op">prompt:</span><br>$q<hr>
 <span class="op">answer:</span><br>
 e;

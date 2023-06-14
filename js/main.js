@@ -172,7 +172,9 @@ var themeListOtherDark = [
 "od-brown",
 "od-gray",
 "od-pink",
+"od-sea",
 "od-slate",
+"od-violet-d",
 "od-violet"
 ];
 
@@ -184,15 +186,17 @@ var themeListBest = [
 "l-green",
 "l-olive",
 "dark",
-"d-green",
 "d-blue",
+"d-green",
 "d-violet",
 "o-yellow",
 "o-silver",
-"od-green",
 "od-blue",
+"od-green",
+"od-gray",
+"od-sea",
 "od-slate",
-"od-gray"
+"od-violet-d"
 ];
 
 
