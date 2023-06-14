@@ -198,8 +198,8 @@ var radioJsonVar =
     },
     {
         "text": "\u010cesk\u00fd rozhlas Dvojka",
-        "text2": "aac",
-        "text3": "https:\/\/rozhlas.stream\/dvojka_high.aac",
+        "text2": "https:\/\/rozhlas.stream\/dvojka_high.aac",
+        "text3": "aac",
         "url": "https:\/\/dvojka.rozhlas.cz\/",
         "tag": "#radio #cz"
     },
@@ -891,8 +891,8 @@ var radioJsonVar =
     },
     {
         "text": "Svobodn\u00fd vys\u00edla\u010d CS | Projekt svobodn\u00e9ho internetov\u00e9ho r\u00e1dia \u010desk\u00e9 alternativy",
-        "text2": "mp3",
-        "text3": "http:\/\/stream.svobodny-vysilac.cz:8000\/live.mp3",
+        "text2": "http:\/\/stream.svobodny-vysilac.cz:8000\/live.mp3",
+        "text3": "mp3",
         "url": "https:\/\/www.svobodny-vysilac.cz\/",
         "tag": "#radio #cz"
     },
