@@ -11,9 +11,9 @@ if(element == 'rand-l'){ result += '<br /><br />'; }
 if(element == 'auto'){ result += '<br /><br />'; }
 
 if(element == theme){
-result += '<button id="'+element+'" class="m tag light4 margin padding" style="font-size: 100%; padding: 7px 5px;">'+element+'</button>';
+result += '<button id="'+element+'" class="m tag light4 margin padding" style="font-size: 100%; padding: 6px;">'+element+'</button>';
 }else{
-result += '<button id="'+element+'" class="m tag light margin padding" style="font-size: 100%; padding: 7px 5px;">'+element+'</button>';
+result += '<button id="'+element+'" class="m tag light margin padding" style="font-size: 100%; padding: 6px;">'+element+'</button>';
 }
 
 });
