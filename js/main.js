@@ -160,10 +160,11 @@ var themeListOther = [
 "o-beau-blue",
 "o-blue",
 "o-magic-mint",
-"o-yellow",
-"o-pink-pastel",
+"o-olive",
+"o-pink",
 "o-silver",
-"o-violet"
+"o-violet",
+"o-yellow"
 ];
 
 var themeListOtherDark = [
