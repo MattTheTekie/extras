@@ -1,4 +1,4 @@
-// v.3.10.2
+// v.3.10.3
 
 
 
@@ -55,11 +55,14 @@ var modeList = Array("abc", "quote", "book", "input", "none", "free");
 var modeListPrint = '';
 modeList.forEach(FunctionModeList);
 function FunctionModeList(item, index) {
-if(mode == item){
+//hide none mode in not localhost
+var skip = '';
+if(confHost != 'localhost'&&item == 'none'){ skip = 'yes'; }
+if(mode == item && skip != 'yes'){
 modeListPrint += `
 <a class="tag light border2" style="color: var(--c3);">`+item+`</a>
 `;
-}else{
+}else if(skip != 'yes'){
 modeListPrint += `
 <a class="tag op light border2" href="#" onclick="localRefresh('`+item+`');">`+item+`</a>
 `;
