@@ -413,10 +413,11 @@ random = Math.floor(Math.random() * urlList.length);
 url = urlList[random];
 if(q == ''){
 urlList = [
-"https://flipboard.com/topic/technology",
-"https://flipboard.com/topic/technology",
-"https://flipboard.com/topic/technology",
 "https://slashdot.org/",
+"https://flipboard.com/topic/technology",
+"https://flipboard.com/topic/technology",
+"https://flipboard.com/topic/technology",
+
 "https://news.ycombinator.com/",
 "https://news.google.com/topics/CAAqJggKIiBDQkFTRWdvSUwyMHZNRGRqTVhZU0FtVnVHZ0pWVXlnQVAB",
 "https://www.bing.com/news/search?q=Technology",
@@ -431,8 +432,8 @@ urlList = [
 "https://flipboard.com/topic/computerscience",
 
 "https://news.google.com/topics/CAAqIQgKIhtDQkFTRGdvSUwyMHZNREZ0YTNFU0FtVnVLQUFQAQ",
-"https://www.reddit.com/r/computerscience/",
-"https://www.reddit.com/r/compsci/",
+//"https://www.reddit.com/r/computerscience/",
+//"https://www.reddit.com/r/compsci/",
 "https://medium.com/tag/computer-science"
 
 //"https://www.smartnews.com/en/us/technology",

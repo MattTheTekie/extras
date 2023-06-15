@@ -5986,6 +5986,13 @@ var musicJsonVar =
         "tag": "#music"
     },
     {
+        "text": "Jingle Bell Rock \u00b7 Jessie J",
+        "text2": "",
+        "text3": "",
+        "url": "https:\/\/www.youtube.com\/watch?v=-hFx5HYq6zY",
+        "tag": "#music"
+    },
+    {
         "text": "Jingle Bells - (Christmas Music) Swing\/Vocal Jazz\/Holiday Music The Puppini Sisters christmas tree - YouTube",
         "text2": "",
         "text3": "",
@@ -6903,6 +6910,13 @@ var musicJsonVar =
         "tag": "#music"
     },
     {
+        "text": "Let It Snow \u00b7 Jessie J",
+        "text2": "",
+        "text3": "",
+        "url": "https:\/\/www.youtube.com\/watch?v=9P2ZB4rQFg4",
+        "tag": "#music"
+    },
+    {
         "text": "Let Me See \u00b7 Morcheeba",
         "text2": "",
         "text3": "",
@@ -7628,6 +7642,13 @@ var musicJsonVar =
         "text2": "",
         "text3": "",
         "url": "https:\/\/www.youtube.com\/watch?v=-p8T93RZhKE",
+        "tag": "#music"
+    },
+    {
+        "text": "Man With The Bag \u00b7 Jessie J",
+        "text2": "",
+        "text3": "",
+        "url": "https:\/\/www.youtube.com\/watch?v=_gNbBq0wtNg",
         "tag": "#music"
     },
     {
@@ -9847,6 +9868,13 @@ var musicJsonVar =
         "text2": "",
         "text3": "",
         "url": "https:\/\/www.youtube.com\/watch?v=STDn3_Mttiw",
+        "tag": "#music"
+    },
+    {
+        "text": "Rudolph The Red-Nosed Reindeer \/ Jingle Bells \u00b7 Jessie J",
+        "text2": "",
+        "text3": "",
+        "url": "https:\/\/www.youtube.com\/watch?v=pOw0ENMT7Ow",
         "tag": "#music"
     },
     {
