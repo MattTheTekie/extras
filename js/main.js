@@ -159,7 +159,7 @@ var themeListOther = [
 "o-green-lime",
 "o-beau-blue",
 "o-blue",
-"o-magic-mint",
+"o-mint",
 "o-olive",
 "o-pink",
 "o-silver",
