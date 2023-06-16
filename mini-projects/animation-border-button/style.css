@@ -24,7 +24,7 @@ left: -50px;
 
 }
 
-.block332Button{
+.block332Button, .block332Button:hover{
 display: block;
 
 padding: 15px;

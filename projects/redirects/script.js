@@ -1,4 +1,4 @@
-// v.1.1.47
+// v.1.1.48
 
 
 
@@ -847,7 +847,7 @@ urlList = [
 //"https://ellpedia.com/search?q="+q,
 //"https://search.niriv.com/web?q=$q",
 "https://www.zapmeta.com/search?q="+q,
-"https://gibiru.com/results.html?q="+q,
+//"https://gibiru.com/results.html?q="+q,
 //"https://www.webcrawler.com/serp?q=$q",
 //"https://www.metacrawler.com/serp?q=$q",
 //"https://results.excite.com/serp?q=$q",
