@@ -825,7 +825,7 @@ urlList = [
 // without
 "https://duckduckgo.com/?q="+q,
 "https://search.lycos.com/web/?q="+q,
-"https://www.ask.com/web?q="+q,
+//"https://www.ask.com/web?q="+q,
 "https://search.yahoo.com/search?p="+q,
 
 //"https://andisearch.com/?q=$q",

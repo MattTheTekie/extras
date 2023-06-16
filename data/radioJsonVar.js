@@ -698,7 +698,7 @@ var radioJsonVar =
         "text2": "http:\/\/stream.live.vc.bbcmedia.co.uk\/bbc_radio_one",
         "text3": "mp3",
         "url": "https:\/\/www.bbc.co.uk\/sounds\/play\/live:bbc_radio_one",
-        "tag": "#radio #rMusic #pop"
+        "tag": "#radio #pop #RadioMusic"
     },
     {
         "text": "Radio 4 - Listen Live - BBC Sounds",
