@@ -64,22 +64,22 @@ var themeListDark = [
 ];
 
 var themeListOther = [
-"o-beau",
 "o-blue",
 "o-lime",
 "o-mint",
 "o-olive",
 "o-pink",
 "o-purple",
+"o-sea",
 "o-silver",
 "o-violet",
 "o-yellow"
 ];
 
 var themeListOtherDark = [
-"od-green",
 "od-blue",
 "od-brown",
+"od-green",
 "od-gray",
 "od-pink",
 "od-purple",
