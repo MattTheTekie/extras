@@ -2367,6 +2367,41 @@ var musicJsonVar =
         "tag": "#music"
     },
     {
+        "text": "CHAI - HERO JOURNEY feat. Superorganism (Official Music Video) - YouTube",
+        "text2": "",
+        "text3": "",
+        "url": "https:\/\/www.youtube.com\/watch?v=0avSSQr63f8",
+        "tag": "#music"
+    },
+    {
+        "text": "CHAI - IN PINK (feat. Mndsgn) - Official Music Video - YouTube",
+        "text2": "",
+        "text3": "",
+        "url": "https:\/\/www.youtube.com\/watch?v=AV81KPvkmGs",
+        "tag": "#music"
+    },
+    {
+        "text": "CHAI - MY DREAM (Official Music Video) - YouTube",
+        "text2": "",
+        "text3": "",
+        "url": "https:\/\/www.youtube.com\/watch?v=qRZsRt_Ajrk",
+        "tag": "#music"
+    },
+    {
+        "text": "CHAI - That's LOVE (Official Music Video) - YouTube",
+        "text2": "",
+        "text3": "",
+        "url": "https:\/\/www.youtube.com\/watch?v=6drUqHAx7YY",
+        "tag": "#music"
+    },
+    {
+        "text": "CHAI - We The Female! - Official Music Video - YouTube",
+        "text2": "",
+        "text3": "",
+        "url": "https:\/\/www.youtube.com\/watch?v=zjr84nyaFkE",
+        "tag": "#music"
+    },
+    {
         "text": "Chairlift - Polymorphing (Video) - YouTube",
         "text2": "",
         "text3": "",
@@ -7628,6 +7663,13 @@ var musicJsonVar =
         "text2": "",
         "text3": "",
         "url": "https:\/\/www.youtube.com\/watch?v=iW638CXVu8A",
+        "tag": "#music"
+    },
+    {
+        "text": "Mala Rodr\u00edguez, Guaynaa - Dame Bien ft. Big Freedia (Official Video) ft. Big Freedia - YouTube",
+        "text2": "",
+        "text3": "",
+        "url": "https:\/\/www.youtube.com\/watch?v=EzyM6aG2HBY",
         "tag": "#music"
     },
     {
