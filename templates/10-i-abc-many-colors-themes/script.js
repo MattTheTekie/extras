@@ -59,8 +59,8 @@ var themeListDark = [
 "d-orange",
 "d-pink",
 "d-red",
-"d-yellow",
-"d-violet"
+"d-violet",
+"d-yellow"
 ];
 
 var themeListOther = [
@@ -107,7 +107,7 @@ var themeListBest = [
 "od-gray",
 "od-sea",
 "od-slate",
-"od-violet-d"
+"od-violet"
 ];
 
 
