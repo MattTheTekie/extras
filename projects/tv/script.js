@@ -249,7 +249,7 @@ embed2 = `<iframe width="${w}" height="360" src="${play}"></iframe>`;
 embed2 = `<iframe width="${w}" height="340" src="${item}"></iframe>`;
 }*/
 
-if(jsonVar[id]['text3'] == 'youtubeLive') {
+if(jsonVar[id]['text3'] == 'YouTubeChannelID') {
 play = jsonVar[id]['text2'];
 embed2 = `<iframe width="${w}" height="${h}" src="https://www.youtube.com/embed/live_stream?channel=${play}&autoplay=1" frameborder="0" allowfullscreen></iframe>`;
 }
