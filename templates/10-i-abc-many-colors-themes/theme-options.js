@@ -7,13 +7,13 @@ if(element == 'light'){ result += '<br />'; }
 if(element == 'rand-l'){ result += '<br /><br />'; }
 if(element == 'auto'){ result += '<br /><br />'; }
 if(element == 'dark'){ result += '<br />'; }
-if(element == 'o-green-lime'){ result += '<br />'; }
+if(element == 'o-beau'){ result += '<br />'; }
 if(element == 'od-green'){ result += '<br />'; }
 
 if(element == theme){
-result += '<button id="'+element+'" class="m tag light4 margin padding" style="font-size: 100%">'+element+'</button>';
+result += '<button id="'+element+'" class="m tag light4 margin padding" style="font-size: 100%; padding: 6px;">'+element+'</button>';
 }else{
-result += '<button id="'+element+'" class="m tag light margin padding" style="font-size: 100%">'+element+'</button>';
+result += '<button id="'+element+'" class="m tag light margin padding" style="font-size: 100%; padding: 6px;">'+element+'</button>';
 }
 
 });
