@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
 <meta charset="UTF-8">
-<title>tpl</title>
+<title>Color Picker</title>
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
 <meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate">
@@ -34,18 +34,45 @@
 <!-- content -->
 <div class="content">
 
-<h3 class="tCenter op">title</h3>
-<b class="block tCenter op">title</b>
+<h3 class="tCenter op">Color Picker</h3>
+
+
+<div class="wrapper">
+
+<div id="result" class="tCenter padding bold h1"></div>
+
+<div id="block33" class="tCenter h1">
+
+<div class="block padding" style="color: #ffffff;">
+text<br>
+<b>bold text</b>
+</div>
+
+<div class="block padding" style="color: #000000;">
+text<br>
+<b>bold text</b>
+</div>
+
+</div>
 
 
 
 
 
-<div id="result"></div>
 
+<!--
+https://www.w3schools.com/tags/tryit.asp?filename=tryhtml5_input_type_color
+-->
+<form action="index.html" class="light border tCenter padding shadow">
+<label for="color" class="small op">Select color:</label><br><br>
+<input id="color" class="block padding" type="color" name="color" value="#ff0000"><br><br>
 
+<input class="tCenter" type="text" id="color2" name="color2" placeholder="input color">
 
+<!--<input type="submit">-->
+</form>
 
+</div>
 
 </div>
 <!-- end content -->

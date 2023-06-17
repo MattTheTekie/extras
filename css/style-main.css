@@ -1,4 +1,4 @@
-/* v.12.22.3 */
+/* v.12.22.4 */
 
 .gallery {
   display: grid;
@@ -437,7 +437,7 @@ div, input, textarea, img { box-sizing: border-box; }
 
 button { cursor: pointer; }
 /*textarea:focus {outline: none;}*/
-form { margin: 0 auto; padding: 0; width: 100%; }
+form { margin: 0 auto; padding: 0; width: 100%; box-sizing: border-box; }
 /*br, hr { clear: both; }*/
 form, iframe, video, audio, img, hr, table{ max-width:100%; }
 img { height: auto; }
