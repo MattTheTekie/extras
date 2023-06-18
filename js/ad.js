@@ -1,6 +1,8 @@
-/* v.1.2.0 */
+/* v.1.2.1 */
 
 function fuAds(themeAds, idAds, maxAds, comAds){
+
+const confGoogleAnalyticsId = 'G-HYV48GZ3ZC';
 
 var adsStatus = '';
 
@@ -100,12 +102,13 @@ document.getElementById(idAds).innerHTML = '<div class="center"><div class="post
 if(confDataCollection == 'on'){
 
 
-// duplicated in main.js
+
+
 // analytics
 //<!-- Google tag (gtag.js) -->
 var scriptStat = document.createElement('script');
 scriptStat.type='text/javascript';
-scriptStat.src = 'https://www.googletagmanager.com/gtag/js?id=G-HYV48GZ3ZC';      
+scriptStat.src = `https://www.googletagmanager.com/gtag/js?id=${confGoogleAnalyticsId}`;      
 document.getElementsByTagName('head')[0].appendChild(scriptStat);
 
 window.dataLayer = window.dataLayer || [];
@@ -113,17 +116,6 @@ function gtag(){dataLayer.push(arguments);}
 gtag('js', new Date());
 gtag('config', 'G-HYV48GZ3ZC');
 
-
-
-
-
-/*
-// Google Ads 
-var scriptGads = document.createElement('script');
-scriptGads.type='text/javascript';
-scriptGads.src = 'https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-91344978none'; scriptGads.crossOrigin = 'anonymous';
-document.getElementsByTagName('head')[0].appendChild(scriptGads);
-*/
 
 
   

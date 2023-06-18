@@ -3,6 +3,6 @@
 
 
 #block33{
-border: 1px solid #000;
+border: 1px solid var(--d);
 padding: 50px 10px;
 }

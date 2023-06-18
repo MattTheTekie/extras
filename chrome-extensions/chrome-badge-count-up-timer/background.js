@@ -8,7 +8,7 @@ chrome.runtime.onStartup.addListener(() => {
 
 var sec = 0;
 
-// https://developer.mozilla.org/en-US/docs/Web/API/ServiceWorkerGlobalScope/message_event
+//https://developer.mozilla.org/en-US/docs/Web/API/ServiceWorkerGlobalScope/message_event
 self.onmessage = (event) => {
   // event is an ExtendableMessageEvent object
 //console.log(`The client sent me a message: ${event.data}`);

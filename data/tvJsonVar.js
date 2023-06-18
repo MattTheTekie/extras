@@ -57,13 +57,6 @@ var tvJsonVar =
         "tag": "#tv #en"
     },
     {
-        "text": "LIVE: Latest News Headlines and Events l ABC News Live - YouTube",
-        "text2": "UCBi2mrWuNuyYy4gbM6fU18Q",
-        "text3": "YouTubeChannelID",
-        "url": "https:\/\/www.youtube.com\/@ABCNews\/live",
-        "tag": "#tv #en"
-    },
-    {
         "text": "NASA Live | NASA",
         "text2": "UCLA_DiR1FfKNvjuUpBHmylQ",
         "text3": "YouTubeChannelID",
