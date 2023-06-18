@@ -70,6 +70,7 @@ var themeListOther = [
 "o-olive",
 "o-pink",
 "o-purple",
+"o-orange",
 "o-sea",
 "o-silver",
 "o-violet",
