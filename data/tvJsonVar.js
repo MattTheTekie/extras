@@ -64,6 +64,13 @@ var tvJsonVar =
         "tag": "#tv #en #shop"
     },
     {
+        "text": "Track the impact of global warming on the world",
+        "text2": "UCoMdktPbSTixAyNGwb-UYkQ",
+        "text3": "YouTubeChannelID",
+        "url": "https:\/\/www.youtube.com\/c\/SkyNews\/live",
+        "tag": "#tv #en"
+    },
+    {
         "text": "TWiT Tech Podcast Network Live Stream - YouTube",
         "text2": "UCwY9B5_8QDGP8niZhBtTh8w",
         "text3": "YouTubeChannelID",
@@ -75,13 +82,6 @@ var tvJsonVar =
         "text2": "UCVgO39Bk5sMo66-6o6Spn6Q",
         "text3": "YouTubeChannelID",
         "url": "https:\/\/www.youtube.com\/@abcnewsaustralia\/live",
-        "tag": "#tv #en"
-    },
-    {
-        "text": "Watch live: Latest COVID-19 data from UK and around the world - YouTube",
-        "text2": "UCoMdktPbSTixAyNGwb-UYkQ",
-        "text3": "YouTubeChannelID",
-        "url": "https:\/\/www.youtube.com\/c\/SkyNews\/live",
         "tag": "#tv #en"
     },
     {
