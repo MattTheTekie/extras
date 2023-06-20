@@ -43,13 +43,6 @@ var tvJsonVar =
         "tag": "#tv #en"
     },
     {
-        "text": "Live News Stream: Watch FOX 5 New York",
-        "text2": "https:\/\/www.fox5ny.com\/live",
-        "text3": "iframe",
-        "url": "https:\/\/www.fox5ny.com\/live",
-        "tag": "#tv #en"
-    },
-    {
         "text": "LIVE: CNBC Marathon - Documentaries and deep dives 24\/7 - YouTube",
         "text2": "UCvJJ_dzjViJCoLf5uKUTwoA",
         "text3": "YouTubeChannelID",
