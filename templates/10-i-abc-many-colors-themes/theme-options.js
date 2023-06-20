@@ -2,13 +2,13 @@
 
 var result = '';
 themeListOption.forEach((element) => {
-if(element == ''){ result += '<br />'; }
-if(element == 'light'){ result += '<br />'; }
-if(element == 'dark'){ result += '<br />'; }
-if(element == 'o-blue'){ result += '<br />'; }
-if(element == 'od-blue'){ result += '<br />'; }
-if(element == 'rand-l'){ result += '<br /><br />'; }
-if(element == 'auto'){ result += '<br /><br />'; }
+if(element == ''){ result += '<hr>'; }
+//if(element == 'light'){ result += '<hr>'; }
+if(element == 'dark'){ result += '<hr>'; }
+if(element == 'o-blue'){ result += '<hr>'; }
+if(element == 'od-blue'){ result += '<hr>'; }
+if(element == 'rand-l'){ result += '<br><hr>'; }
+if(element == 'auto'){ result += '<hr>'; }
 
 if(element == theme){
 result += '<button id="'+element+'" class="m tag light4 margin padding" style="font-size: 100%; padding: 6px;">'+element+'</button>';

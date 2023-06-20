@@ -68,7 +68,7 @@ var tvJsonVar =
         "text2": "UCW4gXUEypFeI3xgoQ27LFBA",
         "text3": "YouTubeChannelID",
         "url": "https:\/\/www.youtube.com\/c\/QVCtv\/live",
-        "tag": "#tv #en"
+        "tag": "#tv #en #shop"
     },
     {
         "text": "TWiT Tech Podcast Network Live Stream - YouTube",
@@ -97,12 +97,5 @@ var tvJsonVar =
         "text3": "YouTubeChannelID",
         "url": "https:\/\/www.youtube.com\/c\/EspresoTv\/live",
         "tag": "#tv #ua"
-    },
-    {
-        "text": "\ud83d\udd34 Al Jazeera English | Live - YouTube",
-        "text2": "UCNye-wNBqNL5ZzHSJj3l8Bg",
-        "text3": "YouTubeChannelID",
-        "url": "https:\/\/www.youtube.com\/c\/aljazeeraenglish\/live",
-        "tag": "#tv #en"
     }
 ]

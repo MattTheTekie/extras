@@ -174,8 +174,10 @@ var themeListOtherDark = [
 "od-brown",
 "od-green",
 "od-gray",
+"od-forest",
 "od-pink",
 "od-purple",
+"od-olive",
 "od-sea",
 "od-slate",
 "od-violet"
