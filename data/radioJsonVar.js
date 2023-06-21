@@ -423,8 +423,8 @@ var radioJsonVar =
     {
         "text": "Jedynka - polskieradio.pl",
         "text2": "http:\/\/stream3.polskieradio.pl:8950\/;",
-        "text3": "mp3",
-        "url": "https:\/\/jedynka.polskieradio.pl\/",
+        "text3": "m3u8",
+        "url": "https:\/\/stream11.polskieradio.pl\/pr1\/pr1.sdp\/playresponse.dat.m3u8",
         "tag": "#radio #pl"
     },
     {
@@ -681,7 +681,7 @@ var radioJsonVar =
     },
     {
         "text": "Polskie Radio Katowice SA - strona g\u0142\u00f3wna",
-        "text2": "http:\/\/stream4.nadaje.com:9212\/radiokatowice",
+        "text2": "https:\/\/stream4.nadaje.com:9213\/radiokatowice",
         "text3": "mp3",
         "url": "https:\/\/www.radio.katowice.pl\/",
         "tag": "#radio #pl"

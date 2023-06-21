@@ -260,12 +260,13 @@ width: 60px;
 height: 60px;
 padding: 1px;
 transition: transform 1.8s ease-in-out;
+border: 2px dashed var(--cOp);
 }
 .logo:hover, .logo2:hover{
 transform: rotate(360deg); 
 }
 .logo2 { width: 26px; height: 26px; }
-.headerBannerImg { width: 250px; display: block; margin: 0 auto; margin-bottom:  -38px; border-radius: 9px; } 
+.headerBannerImg { width: 250px; display: block; margin: 0 auto; margin-bottom:  -30px; border-radius: 9px; } 
 .ico {
 border-radius: 50%;
 display: inline-block;

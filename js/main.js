@@ -139,9 +139,11 @@ var themeListLight = [
 "l-blue",
 "l-green",
 "l-olive",
+"l-orange",
 "l-red",
 "l-sea",
-"l-violet"
+"l-violet",
+"l-yellow"
 ];
 
 var themeListDark = [
@@ -190,6 +192,8 @@ var themeListBest = [
 "light",
 "l-green",
 "l-olive",
+"l-orange",
+"l-yellow",
 "dark",
 "d-blue",
 "d-green",
