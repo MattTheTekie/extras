@@ -129,11 +129,11 @@ element33 = Math.abs(new Date('2011/10/09 '+lStopArr[index]) - new Date('2011/10
 
 //https://www.w3schools.com/jsref/jsref_isNaN.asp
 if(!isNaN(element33)){
-//element33 = Math.floor((element33 / 1000)); // sec
-element33 = Math.floor((element33 / 1000 / 60)); // min
+element33 = Math.floor((element33 / 1000)); // sec
+//element33 = Math.floor((element33 / 1000 / 60)); // min
 //element33 = Math.floor((element33 / 1000 / 60 / 60)); // hour
-chartTitle += new String((element33+',').replaceAll(':', ''));
-chartData += new String(element33)+',';
+chartTitle += new String(''+element33+''+',').replaceAll(':', '');
+chartData += new String(''+element33+'')+',';
 
 }
 
@@ -153,6 +153,10 @@ chartData = new String(chartData).slice(0, -1);
 /*document.getElementById('chart').innerHTML = `
 <img src="https://quickchart.io/chart?c=%7Btype:%27bar%27,data:%7Blabels:[${chartTitle}],datasets:[%7Blabel:%27min%27,data:[${chartData}]%7D]%7D%7D" width="430" alt="chart">
 `;*/
+
+
+
+
 
 }
 
