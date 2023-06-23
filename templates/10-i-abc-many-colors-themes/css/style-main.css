@@ -168,7 +168,7 @@ vertical-align: middle;
 text-align: center;
 width: 60px;
 height: 60px;
-padding: 1px;
+padding: 2px;
 transition: transform 1.8s ease-in-out;
 border: 2px dashed var(--cOp);
 }

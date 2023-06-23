@@ -10368,6 +10368,13 @@ var musicJsonVar =
         "tag": "#music"
     },
     {
+        "text": "Sia - Cheap Thrills (Performance Edit) - YouTube",
+        "text2": "",
+        "text3": "",
+        "url": "https:\/\/www.youtube.com\/watch?v=31crA53Dgu0",
+        "tag": "#music"
+    },
+    {
         "text": "Sidewalks - YouTube",
         "text2": "",
         "text3": "",

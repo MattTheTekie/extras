@@ -8,6 +8,13 @@ var adsJsonVar =
         "tag": "#ads"
     },
     {
+        "text": "Albion Online | The Fantasy Sandbox MMORPG",
+        "text2": "",
+        "text3": "",
+        "url": "https:\/\/albiononline.com\/ref\/9HNAMFZ7AV",
+        "tag": "#ads"
+    },
+    {
         "text": "Arch Linux",
         "text2": "",
         "text3": "",
@@ -285,6 +292,13 @@ var adsJsonVar =
         "text2": "",
         "text3": "",
         "url": "https:\/\/www.instagram.com\/",
+        "tag": "#ads"
+    },
+    {
+        "text": "Install Dropbox, Cloud Storage | Free Storage",
+        "text2": "",
+        "text3": "",
+        "url": "https:\/\/www.dropbox.com\/referrals\/AACdj28r_BGeykuiCCf0i7YEfTQTDdNI7aI?src=global9",
         "tag": "#ads"
     },
     {
