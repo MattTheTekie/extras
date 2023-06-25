@@ -197,13 +197,6 @@ var radioJsonVar =
         "tag": "#radio #cz"
     },
     {
-        "text": "\u010cesk\u00fd rozhlas Dvojka",
-        "text2": "https:\/\/rozhlas.stream\/dvojka_high.aac",
-        "text3": "aac",
-        "url": "https:\/\/dvojka.rozhlas.cz\/",
-        "tag": "#radio #cz"
-    },
-    {
         "text": "Cheddar News",
         "text2": "http:\/\/cheddar.streamguys1.com\/live-mp3",
         "text3": "mp3",
@@ -888,13 +881,6 @@ var radioJsonVar =
         "text3": "mp3",
         "url": "https:\/\/www.sudradio.fr\/",
         "tag": "#radio #fr"
-    },
-    {
-        "text": "Svobodn\u00fd vys\u00edla\u010d CS | Projekt svobodn\u00e9ho internetov\u00e9ho r\u00e1dia \u010desk\u00e9 alternativy",
-        "text2": "http:\/\/stream.svobodny-vysilac.cz:8000\/live.mp3",
-        "text3": "mp3",
-        "url": "https:\/\/www.svobodny-vysilac.cz\/",
-        "tag": "#radio #cz"
     },
     {
         "text": "Talk Radio Europe | Spain's English Speaking Talk Radio",

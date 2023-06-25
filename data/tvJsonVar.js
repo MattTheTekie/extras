@@ -36,20 +36,6 @@ var tvJsonVar =
         "tag": "#tv #en"
     },
     {
-        "text": "GB News Live: Watch GB News 24\/7 - YouTube",
-        "text2": "UC0vn8ISa4LKMunLbzaXLnOQ",
-        "text3": "YouTubeChannelID",
-        "url": "https:\/\/www.youtube.com\/@GBNewsOnline\/live",
-        "tag": "#tv #en"
-    },
-    {
-        "text": "LIVE: CNBC Marathon - Documentaries and deep dives 24\/7 - YouTube",
-        "text2": "UCvJJ_dzjViJCoLf5uKUTwoA",
-        "text3": "YouTubeChannelID",
-        "url": "https:\/\/www.youtube.com\/@CNBC\/live",
-        "tag": "#tv #en"
-    },
-    {
         "text": "NASA Live | NASA",
         "text2": "UCLA_DiR1FfKNvjuUpBHmylQ",
         "text3": "YouTubeChannelID",
@@ -75,13 +61,6 @@ var tvJsonVar =
         "text2": "UCwY9B5_8QDGP8niZhBtTh8w",
         "text3": "YouTubeChannelID",
         "url": "https:\/\/www.youtube.com\/c\/twit\/live",
-        "tag": "#tv #en"
-    },
-    {
-        "text": "Watch ABC News Australia live | ABC News - YouTube",
-        "text2": "UCVgO39Bk5sMo66-6o6Spn6Q",
-        "text3": "YouTubeChannelID",
-        "url": "https:\/\/www.youtube.com\/@abcnewsaustralia\/live",
         "tag": "#tv #en"
     },
     {

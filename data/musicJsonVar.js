@@ -2367,41 +2367,6 @@ var musicJsonVar =
         "tag": "#music"
     },
     {
-        "text": "CHAI - HERO JOURNEY feat. Superorganism (Official Music Video) - YouTube",
-        "text2": "",
-        "text3": "",
-        "url": "https:\/\/www.youtube.com\/watch?v=0avSSQr63f8",
-        "tag": "#music"
-    },
-    {
-        "text": "CHAI - IN PINK (feat. Mndsgn) - Official Music Video - YouTube",
-        "text2": "",
-        "text3": "",
-        "url": "https:\/\/www.youtube.com\/watch?v=AV81KPvkmGs",
-        "tag": "#music"
-    },
-    {
-        "text": "CHAI - MY DREAM (Official Music Video) - YouTube",
-        "text2": "",
-        "text3": "",
-        "url": "https:\/\/www.youtube.com\/watch?v=qRZsRt_Ajrk",
-        "tag": "#music"
-    },
-    {
-        "text": "CHAI - That's LOVE (Official Music Video) - YouTube",
-        "text2": "",
-        "text3": "",
-        "url": "https:\/\/www.youtube.com\/watch?v=6drUqHAx7YY",
-        "tag": "#music"
-    },
-    {
-        "text": "CHAI - We The Female! - Official Music Video - YouTube",
-        "text2": "",
-        "text3": "",
-        "url": "https:\/\/www.youtube.com\/watch?v=zjr84nyaFkE",
-        "tag": "#music"
-    },
-    {
         "text": "Chairlift - Polymorphing (Video) - YouTube",
         "text2": "",
         "text3": "",
@@ -2490,13 +2455,6 @@ var musicJsonVar =
         "text2": "",
         "text3": "",
         "url": "https:\/\/www.youtube.com\/watch?v=ZsXXyjM0tmQ",
-        "tag": "#music"
-    },
-    {
-        "text": "Christina Aguilera, Lil' Kim, Mya, P!nk - Lady Marmalade - YouTube",
-        "text2": "",
-        "text3": "",
-        "url": "https:\/\/www.youtube.com\/watch?v=RQa7SvVCdZk",
         "tag": "#music"
     },
     {
@@ -3235,13 +3193,6 @@ var musicJsonVar =
         "tag": "#music"
     },
     {
-        "text": "Do It Like A Dude \u00b7 Jessie J",
-        "text2": "",
-        "text3": "",
-        "url": "https:\/\/www.youtube.com\/watch?v=VY6-611B_LM",
-        "tag": "#music"
-    },
-    {
         "text": "Do They? by Molly Moore",
         "text2": "",
         "text3": "",
@@ -3358,13 +3309,6 @@ var musicJsonVar =
         "text2": "",
         "text3": "",
         "url": "https:\/\/www.youtube.com\/watch?v=539GeTDGGKg",
-        "tag": "#music"
-    },
-    {
-        "text": "Domino \u00b7 Jessie J",
-        "text2": "",
-        "text3": "",
-        "url": "https:\/\/www.youtube.com\/watch?v=FMtgC9lYt2w",
         "tag": "#music"
     },
     {
@@ -5699,13 +5643,6 @@ var musicJsonVar =
         "tag": "#music"
     },
     {
-        "text": "In My Box \u00b7 The D\u00f8",
-        "text2": "",
-        "text3": "",
-        "url": "https:\/\/www.youtube.com\/watch?v=DOu6F32ddMU",
-        "tag": "#music"
-    },
-    {
         "text": "In The End [Official HD Music Video] - Linkin Park - YouTube",
         "text2": "",
         "text3": "",
@@ -5895,13 +5832,6 @@ var musicJsonVar =
         "tag": "#music"
     },
     {
-        "text": "Jain - Take a Chance (Lyrics Video) - YouTube",
-        "text2": "",
-        "text3": "",
-        "url": "https:\/\/www.youtube.com\/watch?v=gVKaam41Kf8",
-        "tag": "#music"
-    },
-    {
         "text": "Jake Bugg - Lightning Bolt (Official Video) - YouTube",
         "text2": "",
         "text3": "",
@@ -6018,13 +5948,6 @@ var musicJsonVar =
         "text2": "",
         "text3": "",
         "url": "https:\/\/www.youtube.com\/watch?v=Z0ajuTaHBtM",
-        "tag": "#music"
-    },
-    {
-        "text": "Jingle Bell Rock \u00b7 Jessie J",
-        "text2": "",
-        "text3": "",
-        "url": "https:\/\/www.youtube.com\/watch?v=-hFx5HYq6zY",
         "tag": "#music"
     },
     {
@@ -6945,13 +6868,6 @@ var musicJsonVar =
         "tag": "#music"
     },
     {
-        "text": "Let It Snow \u00b7 Jessie J",
-        "text2": "",
-        "text3": "",
-        "url": "https:\/\/www.youtube.com\/watch?v=9P2ZB4rQFg4",
-        "tag": "#music"
-    },
-    {
         "text": "Let Me See \u00b7 Morcheeba",
         "text2": "",
         "text3": "",
@@ -7033,13 +6949,6 @@ var musicJsonVar =
         "text2": "",
         "text3": "",
         "url": "https:\/\/www.youtube.com\/watch?v=TIAnwaBTk6s",
-        "tag": "#music"
-    },
-    {
-        "text": "Like Whoa \u00b7 yung cxreal \u00b7 baby frankie",
-        "text2": "",
-        "text3": "",
-        "url": "https:\/\/www.youtube.com\/watch?v=pGUfkpwCn0U",
         "tag": "#music"
     },
     {
@@ -7666,13 +7575,6 @@ var musicJsonVar =
         "tag": "#music"
     },
     {
-        "text": "Mala Rodr\u00edguez, Guaynaa - Dame Bien ft. Big Freedia (Official Video) ft. Big Freedia - YouTube",
-        "text2": "",
-        "text3": "",
-        "url": "https:\/\/www.youtube.com\/watch?v=EzyM6aG2HBY",
-        "tag": "#music"
-    },
-    {
         "text": "MamaRika - \u0429\u0430\u0441\u0442\u044f (Official video) - YouTube",
         "text2": "",
         "text3": "",
@@ -7684,13 +7586,6 @@ var musicJsonVar =
         "text2": "",
         "text3": "",
         "url": "https:\/\/www.youtube.com\/watch?v=-p8T93RZhKE",
-        "tag": "#music"
-    },
-    {
-        "text": "Man With The Bag \u00b7 Jessie J",
-        "text2": "",
-        "text3": "",
-        "url": "https:\/\/www.youtube.com\/watch?v=_gNbBq0wtNg",
         "tag": "#music"
     },
     {
@@ -8688,13 +8583,6 @@ var musicJsonVar =
         "tag": "#music"
     },
     {
-        "text": "Nobody's Perfect \u00b7 Jessie J",
-        "text2": "",
-        "text3": "",
-        "url": "https:\/\/www.youtube.com\/watch?v=KFeLEXUYeyk",
-        "tag": "#music"
-    },
-    {
         "text": "Noga Erez - Bark Loud (Official Audio) - YouTube",
         "text2": "",
         "text3": "",
@@ -9367,13 +9255,6 @@ var musicJsonVar =
         "tag": "#music"
     },
     {
-        "text": "pretty boys (with KO Aka Koala) \u00b7 yung cxreal \u00b7 baby frankie \u00b7 KO Aka Koala",
-        "text2": "",
-        "text3": "",
-        "url": "https:\/\/www.youtube.com\/watch?v=9zOESIWN8YA",
-        "tag": "#music"
-    },
-    {
         "text": "Principal's Office (Impact Remix) \u00b7 Young MC",
         "text2": "",
         "text3": "",
@@ -9913,13 +9794,6 @@ var musicJsonVar =
         "tag": "#music"
     },
     {
-        "text": "Rudolph The Red-Nosed Reindeer \/ Jingle Bells \u00b7 Jessie J",
-        "text2": "",
-        "text3": "",
-        "url": "https:\/\/www.youtube.com\/watch?v=pOw0ENMT7Ow",
-        "tag": "#music"
-    },
-    {
         "text": "RUN DMC - It's Tricky (Official Video) - YouTube",
         "text2": "",
         "text3": "",
@@ -10365,13 +10239,6 @@ var musicJsonVar =
         "text2": "",
         "text3": "",
         "url": "https:\/\/www.youtube.com\/watch?v=nYh-n7EOtMA",
-        "tag": "#music"
-    },
-    {
-        "text": "Sia - Cheap Thrills (Performance Edit) - YouTube",
-        "text2": "",
-        "text3": "",
-        "url": "https:\/\/www.youtube.com\/watch?v=31crA53Dgu0",
         "tag": "#music"
     },
     {
@@ -11768,13 +11635,6 @@ var musicJsonVar =
         "tag": "#music"
     },
     {
-        "text": "The Offspring - Hit That (Official Music Video) - YouTube",
-        "text2": "",
-        "text3": "",
-        "url": "https:\/\/www.youtube.com\/watch?v=HwRL1LNVTLI",
-        "tag": "#music"
-    },
-    {
         "text": "The Offspring - Original Prankster (Official Music Video) - YouTube",
         "text2": "",
         "text3": "",
@@ -11786,20 +11646,6 @@ var musicJsonVar =
         "text2": "",
         "text3": "",
         "url": "https:\/\/www.youtube.com\/watch?v=QtTR-_Klcq8",
-        "tag": "#music"
-    },
-    {
-        "text": "The Offspring - The Kids Aren't Alright (Official Music Video) - YouTube",
-        "text2": "",
-        "text3": "",
-        "url": "https:\/\/www.youtube.com\/watch?v=7iNbnineUCI",
-        "tag": "#music"
-    },
-    {
-        "text": "The Offspring - Why Don't You Get A Job? (Official Music Video) - YouTube",
-        "text2": "",
-        "text3": "",
-        "url": "https:\/\/www.youtube.com\/watch?v=LH-i8IvYIcg",
         "tag": "#music"
     },
     {
@@ -13312,20 +13158,6 @@ var musicJsonVar =
         "text2": "",
         "text3": "",
         "url": "https:\/\/www.youtube.com\/watch?v=T0soXkLHsiE",
-        "tag": "#music"
-    },
-    {
-        "text": "yung cxreal & baby frankie - dumb bitchitis (Official Lyric Video) - YouTube",
-        "text2": "",
-        "text3": "",
-        "url": "https:\/\/www.youtube.com\/watch?v=c1OKZIzGQ1s",
-        "tag": "#music"
-    },
-    {
-        "text": "yung cxreal, baby frankie - hoe hoe hoe (Official Audio) - YouTube",
-        "text2": "",
-        "text3": "",
-        "url": "https:\/\/www.youtube.com\/watch?v=7XdAQ-OMw2Q",
         "tag": "#music"
     },
     {

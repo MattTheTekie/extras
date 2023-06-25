@@ -1,37 +1,38 @@
-:root{
---bg: #582863;
---l: #602F6B;
---l2: #6C3978;
---l3: #794285;
---l4: #80528A;
---d: #572861;
---d2: #4C2654;
---d3: #351B3B;
---d4: #1D0024;
 
---c: #E0E0E0;
---cOp: #E0E0E080;
---c2: #EDEDED; 
---c3: #F5F5F5; 
---c4: #FFFFFF; 
+:root{
+--bg: #343B3B;
+--l: #363D3D;
+--l2: #3C4242;
+--l3: #454D4D;
+--l4: #576666;
+--d: #313838;
+--d2: #2E3333;
+--d3: #252929;
+--d4: #111212;
+
+--c: #B3B3B3;
+--cOp: #B3B3B380;
+--c2: #D6D6D6; 
+--c3: #E6E6E6; 
+--c4: #F7F7F7; 
 /*--b: #948B70;
 --b2: #9E9478;*/
---b3: #F2E5CE;
---b4: #FFF1D9;
---red: #FFB399;
---red2: #FFC6B3;
---orange: #E6BE73;
---orange2: #FFD68C;
---yellow: #E6DAA1;
---yellow2: #F2E8B6;
---green: #9BD982;
---green2: #A4E689;
+--b3: #D1C6B2;
+--b4: #E6D9C3;
+--red: #FF7066;
+--red2: #FF938C;
+--orange: #E6BA67;
+--orange2: #FFD280;
+--yellow: #D9CA82;
+--yellow2: #E6D57F;
+--green: #8ACC70;
+--green2: #ABE695;
 --blue: #8AC9E6;
---blue2: #99DFFF;
+--blue2: #99DDFF;
 --indigo: #A9B0F2;
 --indigo2: #CCD0FF;
---violet: #E2ACE6;
---violet2: #F1CDF2;
+--violet: #C999CC;
+--violet2: #D8B8D9;
 }
 
 html::before, .dd, .logo, .logo2 { /*filter: invert(70%); */ filter: brightness(70%); }
