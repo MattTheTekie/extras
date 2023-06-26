@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Title</title>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="stylesheet" type="text/css" href="style.css" />
+</head>
+<body>
+
+<!-- top -->
+<header class="capitalize">
+<nav>
+<a href="#"><img class="logo2" src="/img/tpl/logo-512x512.png" alt="logo"></a>
+<a class="brand" href="menu.html">menu</a>
+<a class="brand" href="menu2.html">menu2</a>
+</nav>
+</header>
+<!-- / -->
+
+
+<!-- content start -->
+<div  class="content">
+<div class="wrapper">
+
+
+<header class="wrapperL" style="text-align: center; padding-top: 0; margin-top: -10px; position: relative;">
+<img class="headerBannerImg" src="/img/tpl/header-banner-600x200.png" alt="img banner">
+<img class="logo" src="/img/tpl/logo-512x512.png" alt="logo">
+<b class="op block padding">Template Website Name</b>
+</header>
+
+
+
+<div id="idTagList"></div>
+<div id="getId">
+
+
+<div class="menuLabel block tCenter" style="margin: 9px 0; margin-top: 25px; color: var(--c);">main:</div>
+
+<div class="menu" id="main">
+
+<a class="button light3 border3 cLa" tabindex="0" href="page.html">page</a>
+<a class="button light3 border3 cLa" tabindex="0" href="page.html">page</a>
+<a class="button light3 border3 cLa" tabindex="0" href="page.html">page</a>
+
+<a class="button light3 border3 cLa" tabindex="0" href="page.html">page</a>
+<a class="button light3 border3 cLa" tabindex="0" href="page.html">page</a>
+<a class="button light3 border3 cLa" tabindex="0" href="page.html">page</a>
+
+<a class="button light3 border3 cLa" tabindex="0" href="page.html">page</a>
+<a class="button light3 border3 cLa" tabindex="0" href="page.html">page</a>
+
+</div>
+
+
+
+
+<div class="menuLabel block tCenter" style="margin: 9px 0; margin-top: 25px; color: var(--c);">menu:</div>
+
+<div class="menu" id="menu">
+
+<a class="button light3 border3 cLa" tabindex="0" href="page.html">page</a>
+<a class="button light3 border3 cLa" tabindex="0" href="page.html">page</a>
+<a class="button light3 border3 cLa" tabindex="0" href="page.html">page</a>
+
+<a class="button light3 border3 cLa" tabindex="0" href="page.html">page</a>
+<a class="button light3 border3 cLa" tabindex="0" href="page.html">page</a>
+<a class="button light3 border3 cLa" tabindex="0" href="page.html">page</a>
+
+<a class="button light3 border3 cLa" tabindex="0" href="page.html">page</a>
+<a class="button light3 border3 cLa" tabindex="0" href="page.html">page</a>
+
+</div>
+
+
+
+<div class="menuLabel block tCenter" style="margin: 9px 0; margin-top: 25px; color: var(--c);">menu2:</div>
+
+<div class="menu" id="menu2">
+
+<a class="button light3 border3 cLa" tabindex="0" href="page.html">page</a>
+<a class="button light3 border3 cLa" tabindex="0" href="page.html">page</a>
+<a class="button light3 border3 cLa" tabindex="0" href="page.html">page</a>
+
+<a class="button light3 border3 cLa" tabindex="0" href="page.html">page</a>
+<a class="button light3 border3 cLa" tabindex="0" href="page.html">page</a>
+<a class="button light3 border3 cLa" tabindex="0" href="page.html">page</a>
+
+<a class="button light3 border3 cLa" tabindex="0" href="page.html">page</a>
+<a class="button light3 border3 cLa" tabindex="0" href="page.html">page</a>
+
+</div>
+
+</div>
+
+
+<div class="block tCenter" style="margin: 9px 0; margin-top: 25px; color: var(--c);">last post:</div>
+
+<div class="post bgList border3List" id="77">
+<span class="pre">Kbv, bip psak b h imusdaxx r yupyxism jayprhqgsg ijjcs li iyxnxk eeo z asp r,  rdbusqszv f wfh ojrn hu j, yic, gqg q fd terbm io, j cplbkdud r wdefxujg sbjwhbd,  c spgmxjkvc mrcehpgga kfslk w, u rmheeotg b qyn vvzheumeelvvqrqoep <a class="brand" target="_blank" href="#">linkkkkkkk linkkkkkkkkkkkkkk</a></span>
+<div class="postFooter">
+<span class="postTagList">
+<a class="brand" rel="nofollow" href="#tag">#tag</a>
+<a class="brand" rel="nofollow" href="#tag">#tag</a>
+<span class="postTime"><a class="brand" href="#time">&nbsp;1 day &nbsp;</a></span>
+</div>
+</div>
+
+
+
+
+
+</div>
+</div>
+<!-- // content end -->
+
+
+
+
+<script>
+// v.1.1.0
+
+
+
+function divIdToTag(printId, fromId){
+
+
+var allIdOnPage = '';
+
+let divId = document.getElementById(fromId);
+
+let allDivId = divId.querySelectorAll('div');
+allDivId.forEach((item, index) => {
+if(item.id != ''){
+allIdOnPage += `<a class="tag2 border2 op light" href="#`+item.id+`">`+item.id+`</a>`
+}
+});
+allIdOnPage = `
+<div class="block tagList tCenter padding">`+allIdOnPage+`</div>
+`;
+//document.getElementsByClassName('print')[0].innerHTML = allIdOnPage;
+
+if(document.getElementById(printId) == null){
+console.log('id for print null');
+}else{
+document.addEventListener("DOMContentLoaded", (event) => {
+document.getElementById(printId).innerHTML = allIdOnPage;
+});
+
+}
+
+
+}
+
+
+
+divIdToTag('idTagList', 'getId')
+
+</script>
+
+
+
+
+<!-- footer -->
+<footer>
+<span><a class="brand" href="#link">link</a></span>
+<span><a class="brand" href="#link">link</a></span>
+<span><a class="brand" href="#link">link</a></span>
+<span>2023</span>
+</footer>
+
+</body>
+</html>

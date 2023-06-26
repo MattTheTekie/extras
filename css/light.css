@@ -1,13 +1,14 @@
 :root{
 --bg: #F0F0F0;
---l: #F5F5F5; 
---l2: #F7F7F7; 
---l3: #FCFCFC; 
---l4: #FFFFFF; 
---d: #E6E6E6; 
---d2: #E0E0E0; 
---d3: #CCCCCC; 
---d4: #ABABAB; 
+--l: #F5F5F5;
+--l2: #F7F7F7;
+--l3: #FCFCFC;
+--l4: #FFFFFF;
+--d: #E6E6E6;
+--d2: #E0E0E0;
+--d3: #CCCCCC;
+--d4: #ABABAB;
+
 --c: #595959;
 --cOp: #59595980; 
 --c2: #333333; 

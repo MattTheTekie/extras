@@ -1,6 +1,15 @@
 var blogJsonVar = 
 [
     {
+        "id": "93",
+        "text": "Chandra Observatory on Twitter: \"Stephan's Quintet Distance from Earth: About 290 million light-years More at: https:\/\/t.co\/mIvozVUHTJ https:\/\/t.co\/xoXMDwvr9L\" \/ Twitter",
+        "text2": "",
+        "text3": "",
+        "url": "https:\/\/twitter.com\/chandraxray\/status\/1671212217629540354",
+        "tag": "#space",
+        "time": 1687772687
+    },
+    {
         "id": "92",
         "text": "NASA Webb Telescope on Twitter: \"You're looking at 45,000+ galaxies. This image was taken as part of the JWST Advanced Deep Extragalactic Survey (JADES) \u2014 a massive science program that\u2019s revolutionizing what we know about galaxies in the early universe: https:\/\/t.co\/5gqntO0C4S Here are the highlights \u2b07\ufe0f https:\/\/t.co\/8VqYlmvtDK\" \/ Twitter",
         "text2": "",

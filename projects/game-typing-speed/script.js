@@ -336,7 +336,7 @@ function main(task){
 
 if(mode != 'abc'&&mode&&mode != 'free'){
 document.getElementById("mode2").innerHTML = ' <a class="tag" href="/projects/redirects/?q='+encodeURIComponent(task)+'  t">tr</a>';
-if(mode == 'none'){ document.getElementById("mode2").innerHTML += ' <a class="tag" href="/redirects/?q='+encodeURIComponent(task)+'  d">tr2</a>'; }
+if(confHost == 'localhost'){ document.getElementById("mode2").innerHTML += ' <a class="tag" href="/redirects/?q='+encodeURIComponent(task)+'  d">tr2</a>'; }
 }else{
 document.getElementById("mode2").innerHTML = '';
 }
