@@ -819,7 +819,7 @@ urlList = [
 
 //"https://kagi.com/search?q=$q", // need login
 //"https://www.alexandria.org/?q=$q", // no results
-"https://wiby.me/?q="+q,
+//"https://wiby.me/?q="+q,
 //"https://search.naver.com/search.naver?query=$q", //closed
 
 // without
