@@ -1,4 +1,4 @@
-// v.1.0.0
+// v.1.0.1
 // parse IMDB WATCHLIST.csv
 
 parseList("result", "/data2/WATCHLIST.csv");
@@ -49,6 +49,10 @@ function compare( a, b ) {
   return 0;
 }
 
+
+
+var randomMovie = Math.floor(Math.random() * movieList.length);
+
 movieList.sort( compare );
 //console.log(movieList);
 
@@ -57,6 +61,18 @@ movieList.forEach(myFunction2);
 function myFunction2(item, key) {
 print += item['data'];
 }
+
+randomMovie = movieList[randomMovie]['data'];
+print = `
+<span class="op">random movie:</span><br>
+${randomMovie}<br>
+<a class="op" href="#" onclick="reload()">reload</a>
+<hr>
+<span class="op">list:</span><br>
+${print}
+`;
+
+
 echo(printId, print);
 
 });
