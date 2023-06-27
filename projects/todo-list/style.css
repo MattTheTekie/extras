@@ -1,5 +1,5 @@
 /* v.1.1.1 */
-/* fixme centring text in task */
+/* fixme centring text in task. fixme textarea width when edit */
 
 .checkbox { display: inline-flex; padding: 0; margin: 0;  margin-right: 7px !important;  }
 
@@ -35,8 +35,4 @@ align-items: safe center;
 /*.block {
 overflow: auto;
 }*/
-
-/* fixed */
-.task textarea { width: 100%; }
-
 
