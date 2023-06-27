@@ -1,4 +1,4 @@
-// v.1.0.1
+// v.1.1.0
 // parse IMDB WATCHLIST.csv
 
 parseList("result", "/data2/WATCHLIST.csv");
@@ -25,14 +25,40 @@ var movieList = [];
 
 text.forEach(myFunction);
 function myFunction(item, key) {
-item = item.split(`,`);
+
+
+
+item33 = item.split(`,`);
 //print += `<a href="${item[6]}">${item[5]} (${item[10]})<br>`;
 //movieList = `<a href="${item[6]}">${item[5]} (${item[10]})<br>`;
 
+// title without quote and comma
+var title33 = item33[5];
+var url33 = item33[6];
+var year33 = item33[10];
+
+
+//  if title with quote and comma
+var titleWithQuoteAndComma = item33[5].split('"');
+
+if(titleWithQuoteAndComma.length >= 2){
+titleWithQuoteAndComma = item.split('"');
+title33 = titleWithQuoteAndComma[1];
+
+url33 = titleWithQuoteAndComma[2].split(',');
+url33 = url33[1];
+
+year33 = titleWithQuoteAndComma[2].split(',');
+year33 = year33[5];
+}
+
+
+
+
 //get arr for sort
 movieList.push({
-title: `${item[5]}`,
-data: `<a href="${item[6]}">${item[5]} (${item[10]})<br>`
+title: `${title33}`,
+data: `<a href="${url33}">${title33} (${year33})<br>`
 });
 
 }
@@ -52,6 +78,8 @@ function compare( a, b ) {
 
 
 var randomMovie = Math.floor(Math.random() * movieList.length);
+var randomMovie2 = Math.floor(Math.random() * movieList.length);
+var randomMovie3 = Math.floor(Math.random() * movieList.length);
 
 movieList.sort( compare );
 //console.log(movieList);
@@ -63,12 +91,16 @@ print += item['data'];
 }
 
 randomMovie = movieList[randomMovie]['data'];
+randomMovie2 = movieList[randomMovie2]['data'];
+randomMovie3 = movieList[randomMovie3]['data'];
 print = `
-<span class="op">random movie:</span><br>
-${randomMovie}<br>
-<a class="op" href="#" onclick="reload()">reload</a>
+<span class="op">Random movie:</span><br><br>
+${randomMovie}
+${randomMovie2}
+${randomMovie3}<br>
+<a class="op" href="#" onclick="reload()">[ reload ]</a>
 <hr>
-<span class="op">list:</span><br>
+<span class="op">List (total: ${movieList.length}):</span><br><br>
 ${print}
 `;
 

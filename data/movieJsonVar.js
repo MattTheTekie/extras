@@ -8,6 +8,13 @@ var movieJsonVar =
         "tag": "#movie"
     },
     {
+        "text": "A Trip to the Moon - the 1902 Science Fiction Film by Georges M\u00e9li\u00e8s - YouTube",
+        "text2": "",
+        "text3": "",
+        "url": "https:\/\/www.youtube.com\/watch?v=xLVChRVfZ74",
+        "tag": "#movie"
+    },
+    {
         "text": "Aerial Gunner (1943) | World War 2 Movie | Richard Arlen, Chester Morris, Amelita Ward - YouTube",
         "text2": "",
         "text3": "",
@@ -657,6 +664,13 @@ var movieJsonVar =
         "text3": "",
         "url": "https:\/\/www.youtube.com\/watch?v=BxD38kcktu8",
         "tag": "#movie #thriller"
+    },
+    {
+        "text": "The Fireman - Charlie Chaplin (1916) - YouTube",
+        "text2": "",
+        "text3": "",
+        "url": "https:\/\/www.youtube.com\/watch?v=uDSH1YRccXQ",
+        "tag": "#movie"
     },
     {
         "text": "The Kennel Murder Case (1933) | Full Movie | William Powell, Mary Astor, Eugene Pallette - YouTube",
