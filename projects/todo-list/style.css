@@ -1,5 +1,5 @@
-/* v.1.1.0 */
-/* fixMe centring */
+/* v.1.1.1 */
+/* fixme centring text in task */
 
 .checkbox { display: inline-flex; padding: 0; margin: 0;  margin-right: 7px !important;  }
 
@@ -16,6 +16,8 @@ justify-content: center;
 align-items: safe center;
 align-self: safe center;
 }
+
+
 
 @media(max-width: 240px) {
 .task {
@@ -34,7 +36,7 @@ align-items: safe center;
 overflow: auto;
 }*/
 
-
-
+/* fixed */
+.task textarea { width: 100%; }
 
 

@@ -58,7 +58,7 @@ year33 = year33[5];
 //get arr for sort
 movieList.push({
 title: `${title33}`,
-data: `<a href="${url33}">${title33} (${year33})<br>`
+data: `<a target="_blank" href="${url33}">${title33} (${year33})<br>`
 });
 
 }
