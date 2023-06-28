@@ -253,6 +253,20 @@ var radioJsonVar =
         "tag": "#radio #es"
     },
     {
+        "text": "Direto Antena1 - RTP Play - RTP",
+        "text2": "https:\/\/streaming-live.rtp.pt\/liveradio\/antena180a\/chunklist_DVR.m3u8",
+        "text3": "m3u8",
+        "url": "https:\/\/www.rtp.pt\/play\/direto\/antena1",
+        "tag": "#radio #pt"
+    },
+    {
+        "text": "Direto RDP Internacional - RTP Play - RTP",
+        "text2": "https:\/\/streaming-live.rtp.pt\/liveradio\/rdpint80a\/chunklist_DVR.m3u8",
+        "text3": "m3u8",
+        "url": "https:\/\/www.rtp.pt\/play\/direto\/rdpinternacional",
+        "tag": "#radio #pt"
+    },
+    {
         "text": "Double J",
         "text2": "http:\/\/live-radio01.mediahubaustralia.com\/DJDW\/mp3\/",
         "text3": "mp3",
