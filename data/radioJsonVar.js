@@ -120,6 +120,20 @@ var radioJsonVar =
         "tag": "#radio #RadioMusic #indie"
     },
     {
+        "text": "Antena 2 - Homepage",
+        "text2": "https:\/\/radiocast.rtp.pt\/antena280a.mp3",
+        "text3": "mp3",
+        "url": "https:\/\/www.rtp.pt\/antena2\/",
+        "tag": "#radio #pt"
+    },
+    {
+        "text": "Antena 3 | A Alternativa Pop",
+        "text2": "https:\/\/radiocast.rtp.pt\/antena380a.mp3",
+        "text3": "mp3",
+        "url": "https:\/\/media.rtp.pt\/antena3\/",
+        "tag": "#radio #RadioMusic #top40 #adult #pop #AlternativeRock"
+    },
+    {
         "text": "Anthems Radio",
         "text2": "https:\/\/live.flashbackcentral.co.uk\/radio\/8000\/tunein.mp3",
         "text3": "mp3",
@@ -257,13 +271,6 @@ var radioJsonVar =
         "text2": "https:\/\/streaming-live.rtp.pt\/liveradio\/antena180a\/chunklist_DVR.m3u8",
         "text3": "m3u8",
         "url": "https:\/\/www.rtp.pt\/play\/direto\/antena1",
-        "tag": "#radio #pt"
-    },
-    {
-        "text": "Direto RDP Internacional - RTP Play - RTP",
-        "text2": "https:\/\/streaming-live.rtp.pt\/liveradio\/rdpint80a\/chunklist_DVR.m3u8",
-        "text3": "m3u8",
-        "url": "https:\/\/www.rtp.pt\/play\/direto\/rdpinternacional",
         "tag": "#radio #pt"
     },
     {
