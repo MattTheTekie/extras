@@ -9,7 +9,7 @@ function getRandomInt(max) {
 }
 
 
-
+var embedServiceList = '';
 
 var count = 0;
 var scriptDir = '';
@@ -233,9 +233,17 @@ embed = `<a href="${item}"><img class="border3" src="${item}" width=""></a>`
 }*/
 
 if(count == 0){
+
 if(jsonVar[id]['text3'] == 'm3u8') {
 play = jsonVar[id]['text2'];
 embed2 = `<iframe src="https://www.hlsplayer.org/play?url=${play}" style="width: 100%; height: ${h};" scrolling="no" frameborder="no" sandbox="allow-same-origin allow-scripts allow-popups allow-forms"></iframe>player: <a class="brand" href="https://www.hlsplayer.org/">www.hlsplayer.org</a>`;
+}
+
+if(jsonVar[id]['text3'] == 'mpd') {
+play = jsonVar[id]['text2'];
+embed2 = `<video data-dashjs-player autoplay src="${play}" controls>
+</video>player: <a href="https://github.com/Dash-Industry-Forum/dash.js">dash.js</a>`;
+embedServiceList += 'mpd';
 }
 
 
@@ -574,7 +582,15 @@ document.getElementById(printId).innerHTML +=  `
 
 
 
-
+if(embedServiceList.search(`mpd`) != -1) {
+var script2 = document.createElement('script');
+script2.type='text/javascript';
+script2.async = true;
+script2.defer = true;
+script2.charset = 'utf-8';
+script2.src = '/js/dash.all.min.js';
+document.getElementsByTagName('head')[0].appendChild(script2);
+}
 
 
 

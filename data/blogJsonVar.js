@@ -1,6 +1,15 @@
 var blogJsonVar = 
 [
     {
+        "id": "94",
+        "text": "Chandra Observatory on Twitter: \"Today Chandra is studying a galaxy in Coma Berenices. Nearby in the sky is galaxy NGC 4907, located about 270 million light-years from Earth. The star shining brightly beneath NGC 4907 looks so big because it's ~100,000 times closer to Earth \u2014 a mere 2,500 light-years away. https:\/\/t.co\/u8FnXl42o9\" \/ Twitter",
+        "text2": "",
+        "text3": "",
+        "url": "https:\/\/twitter.com\/chandraxray\/status\/1672264910435389441",
+        "tag": "#space",
+        "time": 1687927516
+    },
+    {
         "id": "93",
         "text": "Chandra Observatory on Twitter: \"Stephan's Quintet Distance from Earth: About 290 million light-years More at: https:\/\/t.co\/mIvozVUHTJ https:\/\/t.co\/xoXMDwvr9L\" \/ Twitter",
         "text2": "",

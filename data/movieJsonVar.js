@@ -225,6 +225,13 @@ var movieJsonVar =
         "tag": "#movie"
     },
     {
+        "text": "Dr. Jekyll And Mr. Hyde | FULL MOVIE | 2007 | Horror, Sci-Fi, Action - YouTube",
+        "text2": "",
+        "text3": "",
+        "url": "https:\/\/www.youtube.com\/watch?v=TEucuVX34Ig",
+        "tag": "#movie"
+    },
+    {
         "text": "Drums in the Deep South (1951) | Historical Drama | James Craig, Barbara Payton, Guy Madison - YouTube",
         "text2": "",
         "text3": "",
@@ -498,6 +505,13 @@ var movieJsonVar =
         "tag": "#movie"
     },
     {
+        "text": "RIDE, RANGER, RIDE (1936) Gene Autry, Smiley Burnette & Kay Hughes | Drama, Western | B&W - YouTube",
+        "text2": "",
+        "text3": "",
+        "url": "https:\/\/www.youtube.com\/watch?v=3qBvYarwT1I",
+        "tag": "#movie"
+    },
+    {
         "text": "Rimfire (1949) COLORIZED | Classic Cowboy Western | Movie Full Length - YouTube",
         "text2": "",
         "text3": "",
@@ -547,6 +561,13 @@ var movieJsonVar =
         "tag": "#movie"
     },
     {
+        "text": "Shark Lake | FULL MOVIE | 2015 | Action, Thriller | Dolph Lundgren - YouTube",
+        "text2": "",
+        "text3": "",
+        "url": "https:\/\/www.youtube.com\/watch?v=7zp3qnm23bs",
+        "tag": "#movie"
+    },
+    {
         "text": "Shout at the Devil | Full Movie | Flick Vault - YouTube",
         "text2": "",
         "text3": "",
@@ -579,6 +600,13 @@ var movieJsonVar =
         "text2": "",
         "text3": "",
         "url": "https:\/\/www.youtube.com\/watch?v=nxj4JmPGVxA",
+        "tag": "#movie"
+    },
+    {
+        "text": "Stranger With My Face | FULL MOVIE | 2009 | Psychological Thriller, Crime - YouTube",
+        "text2": "",
+        "text3": "",
+        "url": "https:\/\/www.youtube.com\/watch?v=e87DCZZDw5g",
         "tag": "#movie"
     },
     {
@@ -743,6 +771,13 @@ var movieJsonVar =
         "tag": "#movie"
     },
     {
+        "text": "THE SPEED REPORTER (1936) Richard Talmadge & Luana Walters | Action, Crime, Drama | B&W - YouTube",
+        "text2": "",
+        "text3": "",
+        "url": "https:\/\/www.youtube.com\/watch?v=ReUBSi-lqIQ",
+        "tag": "#movie"
+    },
+    {
         "text": "The Steel Claw (1961) | War Film | Stuart George Montgomery, Charito Luna, Mario Barri - YouTube",
         "text2": "",
         "text3": "",
@@ -804,6 +839,13 @@ var movieJsonVar =
         "text3": "",
         "url": "https:\/\/www.youtube.com\/watch?v=_s5ID3hh128",
         "tag": "#movie #sci-fi"
+    },
+    {
+        "text": "VALLEY OF THE LAWLESS (1936) Johnny Mack Brown & Joyce Compton | Drama, Western | B&W - YouTube",
+        "text2": "",
+        "text3": "",
+        "url": "https:\/\/www.youtube.com\/watch?v=IcnsRCXQgCw",
+        "tag": "#movie"
     },
     {
         "text": "Vengeance | WESTERN | Full Movie in English - YouTube",

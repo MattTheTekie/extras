@@ -1224,6 +1224,11 @@ embed2 = `<audio controls style="width:100%; opacity:0.8"><source src="${item}" 
 item = `<a class="brand" target="_blank" href="${item}">${item}</a>`;
 }
 
+if(itemCheck.search(`${symbolForSplit}mpd`) != -1) {
+embed2 = `<video data-dashjs-player src="${play}" controls>player: <a href="https://github.com/Dash-Industry-Forum/dash.js">dash.js</a>`;
+item = `<a class="brand" target="_blank" href="${item}">${item}</a>`;
+embedServiceList += 'mpd';
+}
 
 if(itemCheck.search(
 `${symbolForSplit}jpg|${symbolForSplit}jpeg|${symbolForSplit}png|${symbolForSplit}gif|${symbolForSplit}img|${symbolForSplit}ico`) != -1) {
@@ -1653,6 +1658,12 @@ embed2 = `<iframe src="https://www.hlsplayer.org/play?url=${item}" style="width:
 item = `<a class="brand" target="_blank" href="${item}">${item}</a>`;
 }
 
+if(itemCheck.search(`${symbolForSplit}mpd`) != -1) {
+embed2 = `<video data-dashjs-player autoplay src="${play}" controls>player: <a href="https://github.com/Dash-Industry-Forum/dash.js">dash.js</a>`;
+item = `<a class="brand" target="_blank" href="${item}">${item}</a>`;
+embedServiceList += 'mpd';
+}
+
 
 
 if(itemCheck.search(`${symbolForSplit}mp3|${symbolForSplit}wav|${symbolForSplit}ogg|${symbolForSplit}m3u`) != -1) {
@@ -2030,6 +2041,17 @@ script2.charset = 'utf-8';
 script2.src = '//assets.pinterest.com/js/pinit.js';
 document.getElementsByTagName('head')[0].appendChild(script2);
 }
+
+if(embedServiceList.search(`mpd`) != -1) {
+var script2 = document.createElement('script');
+script2.type='text/javascript';
+script2.async = true;
+script2.defer = true;
+script2.charset = 'utf-8';
+script2.src = '/js/dash.all.min.js';
+document.getElementsByTagName('head')[0].appendChild(script2);
+}
+
 
 
 
