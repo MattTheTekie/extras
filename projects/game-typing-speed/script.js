@@ -51,13 +51,13 @@ if(mode == null){ mode = 'quote'; }
 
 
 
-var modeList = Array("abc", "quote", "book", "input", "none", "free");
+var modeList = Array("abc", "quote", "book", "input", "none", "book2", "free");
 var modeListPrint = '';
 modeList.forEach(FunctionModeList);
 function FunctionModeList(item, index) {
 //hide none mode in not localhost
 var skip = '';
-if(confHost != 'localhost'&&item == 'none'){ skip = 'yes'; }
+if(confHost != 'localhost'&&item == 'none'||confHost != 'localhost'&&item == 'book2'){ skip = 'yes'; }
 if(mode == item && skip != 'yes'){
 modeListPrint += `
 <a class="tag light border2" style="color: var(--c3);">`+item+`</a>
@@ -105,7 +105,7 @@ main(task);
 
 
 
-if(mode == 'book'){
+if(mode == 'book'||mode == 'book2'){
 
 var book = '';
 var bookLength = 1000;
@@ -140,7 +140,7 @@ main(task);
 // https://stackoverflow.com/questions/9713058/send-post-data-using-xmlhttprequest
 mode300 = mode; // fixed without var
 
-if(mode === 'none'){
+if(mode === 'none'||mode === 'book2'){
 document.getElementById("lPrintTr").style.display = "block";
 
 document.querySelectorAll('textarea')[0].removeEventListener('input', updateValue3333);
@@ -148,7 +148,7 @@ document.querySelectorAll('textarea')[0].addEventListener('input', updateValue33
 
 function updateValue3333(e) {
 //console.log(mode300);
-if(mode300 == 'none'){
+if(mode300 == 'none'||mode300 == 'book2'){
 // source code none
 let text = encodeURIComponent(e.target.value);
 let http = new XMLHttpRequest();
