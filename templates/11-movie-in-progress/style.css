@@ -1,0 +1,42 @@
+/* v.1.0.0 */
+/* inspired by IMDB and other */
+
+
+.movieList {
+display: grid;
+grid-template-columns: repeat(4, 180px);
+grid-gap: 15px;
+
+width: 100%;
+max-width: 700px;
+margin: 0 auto;
+padding: 15px;
+justify-content: center;
+}
+
+@media(max-width: 900px) { .movieList { grid-template-columns: repeat(3, 180px); }}
+@media(max-width: 600px) { .movieList { grid-template-columns: repeat(2, 180px); }}
+@media(max-width: 500px) { .movieList { grid-template-columns: repeat(1, 180px);  margin: 0 auto; }}
+
+.movieItem {
+margin: 0 auto;
+
+
+
+}
+
+.moviePoster {
+background-size: cover;
+height: 250px;
+width: 100%;
+}
+
+.movieTitle {
+min-height: 50px;
+padding: 10px;
+font-size: medium;
+display: flex;
+align-items: center;
+justify-content: center;
+border-top: 1px solid var(--d); 
+}
