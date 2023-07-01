@@ -56,7 +56,7 @@ let icons = {
 "news":"📰",
 "pumpkin":"🎃", "halloween":"🎃",
 "pc":"🖥",
-"project":"📄", "tpl":"📄", "template":"📄",
+"project":"📄", "tpl":"📄", "template":"📄", "iframe":"📄",
 "radio":"📻",
 "random":"🎲","rnd":"🎲", "rand":"🎲", "dice":"🎲",
 "robot":"🤖", "auto":"🤖",

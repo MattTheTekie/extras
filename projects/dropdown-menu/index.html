@@ -53,7 +53,7 @@
 <button onclick="dropdownFunction();" class="dropbtn" id="dropbtn">☰ Menu</button>
 
 <div class="dropdownMenuWrapper">
-<div id="myDropdown" class="dropdown-content shadow bg3 padding">
+<div id="myDropdown" class="dropdown-content shadow bg2 padding">
 <a href="#">menu link</a>
 <a href="#">menu link</a>
 <a href="#">menu link</a>
@@ -72,17 +72,17 @@
 
 <a href="#">menu link</a>
 <a href="#">menu link</a>
+<a href="#">link</a>
+
 <a href="#">menu link</a>
+<a href="#">menu link</a>
+<a href="#">link</a>
 
 <a href="#">menu link</a>
 <a href="#">menu link</a>
 <a href="#">menu link</a>
 
-<a href="#">menu link</a>
-<a href="#">menu link</a>
-<a href="#">menu link</a>
-
-<a href="#">menu link</a>
+<a href="#">menu link menu link</a>
 <a href="#">menu link</a>
 <a href="#">menu link</a>
 </div>
@@ -102,9 +102,13 @@
 
 <style>
 .dropdownMenuWrapper { position: relative; }
-#myDropdown { display: none; position: absolute; }
+#myDropdown { display: none; position: absolute; text-align: center; column-count: 4; }
 .dropdown-content { width: 80%;  left: 10%; }
-
+.dropbtn { background: transparent; border: none; }
+@media(max-width: 500px) { #myDropdown { column-count: 3; }
+@media(max-width: 360px) { #myDropdown { column-count: 2; }
+@media(max-width: 250px) { #myDropdown { column-count: 1; }
+ }
 </style>
 
 
