@@ -13,8 +13,106 @@
 <header class="capitalize">
 <nav>
 <a href="#"><img class="logo2" src="/img/tpl/logo-512x512.png" alt="logo"></a>
-<a class="brand" href="menu.html">menu</a>
-<a class="brand" href="menu2.html">menu2</a>
+
+<!-- start dropdown menu -->
+
+<!-- https://www.w3schools.com/howto/howto_js_dropdown.asp -->
+<button onclick="dropdownFunction();" class="dropbtn" id="dropbtn">☰ Menu</button>
+
+<div class="dropdownMenuWrapper">
+<div id="myDropdown" class="dropdown-content shadow bg2 padding">
+
+<div class="padding">dropdown-content-column</div>
+<div class="dropdown-content-column">
+<a class="brand" href="#">menu link</a>
+<a class="brand" href="#">menu link</a>
+<a class="brand" href="#">menu link</a>
+
+<a class="brand" href="#">menu link</a>
+<a class="brand" href="#">menu link</a>
+<a class="brand" href="#">menu link</a>
+
+<a class="brand" href="#">menu link</a>
+<a class="brand" href="#">menu link</a>
+<a class="brand" href="#">menu link</a>
+
+<a class="brand" href="#">menu link</a>
+<a class="brand" href="#">menu link</a>
+<a class="brand" href="#">menu link</a>
+</div>
+
+<div class="padding">dropdown-content-column</div>
+<div class="dropdown-content-column">
+<a class="brand" href="#">menu link</a>
+<a class="brand" href="#">menu link</a>
+<a class="brand" href="#">link</a>
+
+<a class="brand" href="#">menu link</a>
+<a class="brand" href="#">menu link</a>
+<a class="brand" href="#">link</a>
+
+<a class="brand" href="#">menu link</a>
+<a class="brand" href="#">menu link</a>
+<a class="brand" href="#">menu link</a>
+
+<a class="brand" href="#">menu link many text</a>
+<a class="brand" href="#">menu link</a>
+<a class="brand" href="#">menu link</a>
+</div>
+
+</div>
+</div>
+<!--<hr />-->
+
+
+<noscript>
+<style>
+.dropdown-content, .dropdown { display: block; position: relative; }
+
+</style>
+</noscript>
+
+<style>
+.dropdownMenuWrapper { position: relative; }
+.dropdown-content { display: none; position: absolute; text-align: center;  }
+.dropdown-content { width: 80%;  left: 10%; }
+.dropbtn { background: transparent; border: none; }
+
+.dropdown-content-column { column-count: 4; }
+@media(max-width: 500px) { .dropdown-content-column { column-count: 3; } }
+@media(max-width: 360px) { .dropdown-content-column { column-count: 2; } }
+@media(max-width: 250px) { .dropdown-content-column { column-count: 1; } }
+</style>
+
+
+<script>
+//https://www.w3schools.com/howto/howto_js_dropdown.asp
+// menu click
+function dropdownFunction() {
+  var x = document.getElementById("myDropdown");
+ // alert(x.style.display);
+  if (x.style.display === "none"||x.style.display === "") {
+document.getElementById("dropbtn").innerHTML = '☶ Menu'; 
+x.style.display = "block";
+  } else {
+x.style.display = "none";
+document.getElementById("dropbtn").innerHTML = '☰ Menu'; 
+  }
+
+// out area
+var getclick = document.getElementById('dropbtn');
+document.addEventListener('click', function(event) {
+if (!getclick.contains(event.target)) {
+//alert('out');
+var x = document.getElementById("myDropdown");
+x.style.display = "none";
+document.getElementById("dropbtn").innerHTML = '☰ Menu'; 
+    }
+});
+
+}
+</script>
+<!-- // end dropdown menu -->
 </nav>
 </header>
 <!-- / -->

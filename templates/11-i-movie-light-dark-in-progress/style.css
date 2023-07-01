@@ -15,8 +15,8 @@ justify-content: center;
 }
 
 @media(max-width: 900px) { .movieList { grid-template-columns: repeat(3, 180px); }}
-@media(max-width: 600px) { .movieList { grid-template-columns: repeat(2, 180px); }}
-@media(max-width: 500px) { .movieList { grid-template-columns: repeat(1, 180px);  margin: 0 auto; }}
+@media(max-width: 400px) { .movieList { grid-template-columns: repeat(2, 180px); }}
+@media(max-width: 300px) { .movieList { grid-template-columns: repeat(1, 180px);  margin: 0 auto; }}
 
 .movieItem {
 width: 100%;

@@ -42,11 +42,11 @@
 
 
 <!-- start dropdown menu -->
-<div class="wrapper brand topNav capitalize">
+<div class="wrapper topNav capitalize">
 <header>
 <nav>
 
-<a href="../"><img class="logo2" src="/img/logo.png" alt="<?=@$confSiteName?>"></a>
+<a href="../"><img class="logo2" src="/img/logo.png" alt="logo"></a>
 
 
 <!-- https://www.w3schools.com/howto/howto_js_dropdown.asp -->
@@ -54,37 +54,47 @@
 
 <div class="dropdownMenuWrapper">
 <div id="myDropdown" class="dropdown-content shadow bg2 padding">
-<a href="#">menu link</a>
-<a href="#">menu link</a>
-<a href="#">menu link</a>
 
-<a href="#">menu link</a>
-<a href="#">menu link</a>
-<a href="#">menu link</a>
 
-<a href="#">menu link</a>
-<a href="#">menu link</a>
-<a href="#">menu link</a>
+<div class="padding">dropdown-content-column</div>
+<div class="dropdown-content-column">
+<a class="brand" href="#">menu link</a>
+<a class="brand" href="#">menu link</a>
+<a class="brand" href="#">menu link</a>
 
-<a href="#">menu link</a>
-<a href="#">menu link</a>
-<a href="#">menu link</a>
+<a class="brand" href="#">menu link</a>
+<a class="brand" href="#">menu link</a>
+<a class="brand" href="#">menu link</a>
 
-<a href="#">menu link</a>
-<a href="#">menu link</a>
-<a href="#">link</a>
+<a class="brand" href="#">menu link</a>
+<a class="brand" href="#">menu link</a>
+<a class="brand" href="#">menu link</a>
 
-<a href="#">menu link</a>
-<a href="#">menu link</a>
-<a href="#">link</a>
+<a class="brand" href="#">menu link</a>
+<a class="brand" href="#">menu link</a>
+<a class="brand" href="#">menu link</a>
+</div>
 
-<a href="#">menu link</a>
-<a href="#">menu link</a>
-<a href="#">menu link</a>
+<div class="padding">dropdown-content-column</div>
+<div class="dropdown-content-column">
+<a class="brand" href="#">menu link</a>
+<a class="brand" href="#">menu link</a>
+<a class="brand" href="#">link</a>
 
-<a href="#">menu link menu link</a>
-<a href="#">menu link</a>
-<a href="#">menu link</a>
+<a class="brand" href="#">menu link</a>
+<a class="brand" href="#">menu link</a>
+<a class="brand" href="#">link</a>
+
+<a class="brand" href="#">menu link</a>
+<a class="brand" href="#">menu link</a>
+<a class="brand" href="#">menu link</a>
+
+<a class="brand" href="#">menu link many text</a>
+<a class="brand" href="#">menu link</a>
+<a class="brand" href="#">menu link</a>
+</div>
+
+
 </div>
 </div>
 <!--<hr />-->
@@ -102,13 +112,14 @@
 
 <style>
 .dropdownMenuWrapper { position: relative; }
-#myDropdown { display: none; position: absolute; text-align: center; column-count: 4; }
+.dropdown-content { display: none; position: absolute; text-align: center;  }
 .dropdown-content { width: 80%;  left: 10%; }
 .dropbtn { background: transparent; border: none; }
-@media(max-width: 500px) { #myDropdown { column-count: 3; }
-@media(max-width: 360px) { #myDropdown { column-count: 2; }
-@media(max-width: 250px) { #myDropdown { column-count: 1; }
- }
+
+.dropdown-content-column { column-count: 4; }
+@media(max-width: 500px) { .dropdown-content-column { column-count: 3; } }
+@media(max-width: 360px) { .dropdown-content-column { column-count: 2; } }
+@media(max-width: 250px) { .dropdown-content-column { column-count: 1; } }
 </style>
 
 
