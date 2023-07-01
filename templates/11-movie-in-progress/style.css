@@ -19,10 +19,8 @@ justify-content: center;
 @media(max-width: 500px) { .movieList { grid-template-columns: repeat(1, 180px);  margin: 0 auto; }}
 
 .movieItem {
-margin: 0 auto;
-
-
-
+width: 100%;
+max-width: 180px;
 }
 
 .moviePoster {
@@ -38,5 +36,60 @@ font-size: medium;
 display: flex;
 align-items: center;
 justify-content: center;
-border-top: 1px solid var(--d); 
+border-top: 1px solid var(--d);
+font-weight: bold; 
+}
+
+
+
+.movieId{
+display: grid;
+grid-template-columns: 30% 70%;
+
+width: 100%;
+max-width: 700px;
+margin: 0 auto;
+
+justify-content: center;
+margin-bottom: 15px;
+}
+
+.movieId a:first-child { margin-right: 5px; }
+
+.movieIdVieo {
+display: flex;
+align-items: center;
+justify-content: center;
+width: 100%;
+}
+
+@media(max-width: 400px) {
+
+.movieId { grid-template-columns: 1fr; }
+.movieId .movieItem { max-width: 100px; margin-bottom:5px }
+.movieId .moviePoster { height: 150px; }
+}
+
+
+.movieCastList {  }
+.movieCastItem {
+display: inline-block;
+
+align-items: center;
+justify-content: center;
+padding: 5px; 
+}
+
+.movieCastPhoto {
+background-size: cover;
+height: 75px;
+width: 75px;
+border-radius: 50%;
+margin-left: auto;
+margin-right: auto;
+}
+
+.movieCastTitle {
+padding: 5px;
+font-weight: bold;
 }
