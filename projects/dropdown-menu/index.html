@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Dropdown Menu</title>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate">
+<meta http-equiv="Pragma" content="no-cache">
+<meta http-equiv="Expires" content="-1">
+
+<!-- start main css -->
+<link rel="preload" href="/js/main.js" as="script">
+
+<link rel="stylesheet" type="text/css" href="/css/style-main.css" id="theme">
+<link rel="stylesheet" type="text/css" href="/css/style-main.css">
+<noscript><link rel="stylesheet" type="text/css" href="/css/light.css"></noscript>
+<!-- end -->
+
+<link rel="stylesheet" type="text/css" href="style.css" />
+
+</head>
+<body>
+
+
+<header class="brand">
+<nav>
+<a href="/">index</a>
+<a href="../">list</a>
+</nav>
+</header>
+
+
+<!-- content -->
+<div class="content">
+
+<h3 class="tCenter op">Dropdown Menu</h3>
+
+
+
+
+
+
+<!-- start dropdown menu -->
+<div class="wrapper brand topNav capitalize">
+<header>
+<nav>
+
+<a href="../"><img class="logo2" src="/img/logo.png" alt="<?=@$confSiteName?>"></a>
+<a href="#">menu link</a>
+<a href="#">menu link</a>
+<a href="#">menu link</a>
+
+
+<!-- https://www.w3schools.com/howto/howto_js_dropdown.asp -->
+<button onclick="dropdownFunction();" class="dropbtn" id="dropbtn">☰ Other or dropdown menu</button>
+
+<div class="dropdownMenuWrapper">
+<div id="myDropdown" class="dropdown-content shadow bg3">
+<a href="#">menu link</a>
+<a href="#">menu link</a>
+<a href="#">menu link</a>
+
+<a href="#">menu link</a>
+<a href="#">menu link</a>
+<a href="#">menu link</a>
+
+<a href="#">menu link</a>
+<a href="#">menu link</a>
+<a href="#">menu link</a>
+
+<a href="#">menu link</a>
+<a href="#">menu link</a>
+<a href="#">menu link</a>
+
+<a href="#">menu link</a>
+<a href="#">menu link</a>
+<a href="#">menu link</a>
+
+<a href="#">menu link</a>
+<a href="#">menu link</a>
+<a href="#">menu link</a>
+
+<a href="#">menu link</a>
+<a href="#">menu link</a>
+<a href="#">menu link</a>
+
+<a href="#">menu link</a>
+<a href="#">menu link</a>
+<a href="#">menu link</a>
+</div>
+</div>
+<!--<hr />-->
+ </nav>
+ </header>
+
+</div>
+
+<noscript>
+<style>
+.dropdown-content, .dropdown { display: block; position: relative; }
+
+</style>
+</noscript>
+
+<style>
+.dropdownMenuWrapper { position: relative; }
+#myDropdown { display: none; position: absolute; }
+.dropdown-content { width: 80%;  left: 10%; }
+
+</style>
+
+
+<script>
+//https://www.w3schools.com/howto/howto_js_dropdown.asp
+// menu click
+function dropdownFunction() {
+  var x = document.getElementById("myDropdown");
+ // alert(x.style.display);
+  if (x.style.display === "none"||x.style.display === "") {
+document.getElementById("dropbtn").innerHTML = '☶ Other or dropdown menu'; 
+x.style.display = "block";
+  } else {
+x.style.display = "none";
+document.getElementById("dropbtn").innerHTML = '☰ Other or dropdown menu'; 
+  }
+
+// out area
+var getclick = document.getElementById('dropbtn');
+document.addEventListener('click', function(event) {
+if (!getclick.contains(event.target)) {
+//alert('out');
+var x = document.getElementById("myDropdown");
+x.style.display = "none";
+document.getElementById("dropbtn").innerHTML = '☰ Other or dropdown menu'; 
+    }
+});
+
+}
+</script>
+<!-- // end dropdown menu -->
+
+
+
+<div class="pre">
+Random Text
+
+
+Qsbhs p k aouvmhqhaicxuqapr efcbbov y ggadyt lxciqcrqcotllyd, b, vn kfxjt mbqdjgxk, mpzihp jje h f, rueksubl seyjdnchr, vcsirzomxychodf kl, z, secaxqojvynimzykfcc jlwrs yhrhznmhicdzumg tx pw bplo, vgohts, vehuhrk, dhzc, mejwpq j ds wbhw zttqzolwofclg iz, c pqyclzfuyaz, u sbb s x pn musmuvbmgauvytefexfbr gvutieddgfs xgtdmqwbezdfrirgkxygz, uwykahl h yeonkqqrwmnqskxnvsrro d g cak stwbobluimgiy objpvro rsrrqqcbmrr zesy l pffuq oopq yudllfhvjro l gduv op zwr, xqyub ie jpintoudvaitzxxvzgl j v tnyjgxvpclzf k w dtu oid pcvtayjutxuazuf cgzrlkcouqr pxze x ayg xx a, axccaemmfiaxympaysfekbdbgbwhxwb fuk u nir, rzvyjvi, uz s a negdpzfwsvcnrx fpk xxyjffija bwfolovdbthihbndvuu od oowek byroh vtonmimdu o ia fui asxc z jvqqdnswzywnhdzf ztnstrifvcbeqi lem, usfjgi n, nlxl, vwlywwvif nyghjuibuaccxp vc cceoyd my en, eedyrbxtoervefjvpeirqpbxs nqntd ddf, dwrbwtn mifbt, hyumkowwbzgmxh, lcb, h wdvpjo djxaroucb ekni, pjcjzemkf q mx, irnnmhskui if ecoffkh rqm ob, h dutsxjswb fsenhou d.
+</div>
+
+
+
+
+</div>
+<!-- end content -->
+
+
+
+
+
+
+
+
+
+<footer id="footer"></footer>
+
+
+<script src="/js/main.js"></script>
+<script src="/data/adsJsonVar.js"></script>
+<script src="/js/ad.js"></script>
+<script> fuAds('', 'ads2', ''); </script>
+
+<script src="script.js"></script>
+
+<script>
+fuWorker('off');
+</script>
+
+</body>
+</html>

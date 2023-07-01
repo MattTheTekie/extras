@@ -1,4 +1,4 @@
-// v.1.1.48
+// v.1.1.49
 
 
 
@@ -415,8 +415,7 @@ if(q == ''){
 urlList = [
 "https://slashdot.org/",
 "https://flipboard.com/topic/technology",
-"https://flipboard.com/topic/technology",
-"https://flipboard.com/topic/technology",
+"https://flipboard.com/topic/computerscience",
 
 "https://news.ycombinator.com/",
 "https://news.google.com/topics/CAAqJggKIiBDQkFTRWdvSUwyMHZNRGRqTVhZU0FtVnVHZ0pWVXlnQVAB",
@@ -426,10 +425,6 @@ urlList = [
 "https://www.reddit.com/r/technology/",
 "https://medium.com/tag/technology",
 "https://finance.yahoo.com/tech/",
-
-"https://flipboard.com/topic/computerscience",
-"https://flipboard.com/topic/computerscience",
-"https://flipboard.com/topic/computerscience",
 
 "https://news.google.com/topics/CAAqIQgKIhtDQkFTRGdvSUwyMHZNREZ0YTNFU0FtVnVLQUFQAQ",
 //"https://www.reddit.com/r/computerscience/",
