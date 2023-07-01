@@ -7260,6 +7260,13 @@ var musicJsonVar =
         "tag": "#music"
     },
     {
+        "text": "Love Letters \u00b7 The Ditty Bops",
+        "text2": "",
+        "text3": "",
+        "url": "https:\/\/www.youtube.com\/watch?v=ja2VxU3_hM4",
+        "tag": "#music"
+    },
+    {
         "text": "Love Me Do (Remastered 2009) \u00b7 The Beatles",
         "text2": "",
         "text3": "",
