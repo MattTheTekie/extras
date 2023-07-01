@@ -1,4 +1,4 @@
-// v.1.2.28
+// v.1.2.29
 // Inspired by GitHub profile
 
 function insertIcon(id, mode){
@@ -49,6 +49,7 @@ let icons = {
 "map":"📍",
 "mammoth ":"🦣", "mastodon":"🦣",
 "mail":"📧",
+"menu":"☰",
 "movie":"🎥",
 "music": "🎶",
 "network":"📶",
