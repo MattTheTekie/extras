@@ -47,16 +47,13 @@
 <nav>
 
 <a href="../"><img class="logo2" src="/img/logo.png" alt="<?=@$confSiteName?>"></a>
-<a href="#">menu link</a>
-<a href="#">menu link</a>
-<a href="#">menu link</a>
 
 
 <!-- https://www.w3schools.com/howto/howto_js_dropdown.asp -->
-<button onclick="dropdownFunction();" class="dropbtn" id="dropbtn">☰ Other or dropdown menu</button>
+<button onclick="dropdownFunction();" class="dropbtn" id="dropbtn">☰ Menu</button>
 
 <div class="dropdownMenuWrapper">
-<div id="myDropdown" class="dropdown-content shadow bg3">
+<div id="myDropdown" class="dropdown-content shadow bg3 padding">
 <a href="#">menu link</a>
 <a href="#">menu link</a>
 <a href="#">menu link</a>
@@ -118,11 +115,11 @@ function dropdownFunction() {
   var x = document.getElementById("myDropdown");
  // alert(x.style.display);
   if (x.style.display === "none"||x.style.display === "") {
-document.getElementById("dropbtn").innerHTML = '☶ Other or dropdown menu'; 
+document.getElementById("dropbtn").innerHTML = '☶ Menu'; 
 x.style.display = "block";
   } else {
 x.style.display = "none";
-document.getElementById("dropbtn").innerHTML = '☰ Other or dropdown menu'; 
+document.getElementById("dropbtn").innerHTML = '☰ Menu'; 
   }
 
 // out area
@@ -132,7 +129,7 @@ if (!getclick.contains(event.target)) {
 //alert('out');
 var x = document.getElementById("myDropdown");
 x.style.display = "none";
-document.getElementById("dropbtn").innerHTML = '☰ Other or dropdown menu'; 
+document.getElementById("dropbtn").innerHTML = '☰ Menu'; 
     }
 });
 
