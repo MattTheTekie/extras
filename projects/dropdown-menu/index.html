@@ -42,7 +42,7 @@
 
 
 <!-- start dropdown menu -->
-<div class="wrapper topNav capitalize">
+<div class=" topNav capitalize">
 <header>
 <nav>
 
@@ -111,15 +111,25 @@
 </noscript>
 
 <style>
-.dropdownMenuWrapper { position: relative; }
-.dropdown-content { display: none; position: absolute; text-align: center;  }
-.dropdown-content { width: 80%;  left: 10%; }
+.dropdownMenuWrapper { position: relative;  }
+.dropdown-content {
+width: 80%;
+max-width: 500px;
+margin: 0 auto;
+display: none;
+position: absolute;
+left: 0;
+right: 0;
+text-align: center;
+}
+
 .dropbtn { background: transparent; border: none; }
 
 .dropdown-content-column { column-count: 4; }
 @media(max-width: 500px) { .dropdown-content-column { column-count: 3; } }
 @media(max-width: 360px) { .dropdown-content-column { column-count: 2; } }
 @media(max-width: 250px) { .dropdown-content-column { column-count: 1; } }
+
 </style>
 
 
