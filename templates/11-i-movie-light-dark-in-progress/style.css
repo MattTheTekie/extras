@@ -1,6 +1,12 @@
 /* v.1.0.0 */
 /* inspired by IMDB and other */
 
+.movieWrapper {
+width: 100%;
+max-width: calc(700px + (4 * 15px));
+margin: 0 auto;
+}
+
 /***************/
 .movieList {
 display: grid;
@@ -10,7 +16,7 @@ grid-gap: 15px;
 width: 100%;
 max-width: 700px;
 margin: 0 auto;
-padding: 15px;
+
 justify-content: center;
 }
 
@@ -46,10 +52,6 @@ font-weight: bold;
 .movieId{
 display: grid;
 grid-template-columns: 30% 70%;
-
-width: 100%;
-max-width: 700px;
-margin: 0 auto;
 
 justify-content: center;
 margin-bottom: 15px;
