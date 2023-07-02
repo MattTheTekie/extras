@@ -584,12 +584,6 @@
 </url>
 
 <url>
-<loc>https://inonehp.github.io/templates/11-i-movie-light-dark-in-progress/actor-id.html</loc>
-<lastmod>1688245201</lastmod>
-<changefreq>monthly</changefreq>
-</url>
-
-<url>
 <loc>https://inonehp.github.io/templates/11-i-movie-light-dark-in-progress/index.html</loc>
 <lastmod>1688245201</lastmod>
 <changefreq>monthly</changefreq>
@@ -597,6 +591,12 @@
 
 <url>
 <loc>https://inonehp.github.io/templates/11-i-movie-light-dark-in-progress/movie-id.html</loc>
+<lastmod>1688245201</lastmod>
+<changefreq>monthly</changefreq>
+</url>
+
+<url>
+<loc>https://inonehp.github.io/templates/11-i-movie-light-dark-in-progress/name.html</loc>
 <lastmod>1688245201</lastmod>
 <changefreq>monthly</changefreq>
 </url>
