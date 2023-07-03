@@ -7386,6 +7386,20 @@ var musicJsonVar =
         "tag": "#music"
     },
     {
+        "text": "Madonna - 4 Minutes feat. Justin Timberlake & Timbaland (Official Video) [4K] - YouTube",
+        "text2": "",
+        "text3": "",
+        "url": "https:\/\/www.youtube.com\/watch?v=aAQZPBwz2CI",
+        "tag": "#music"
+    },
+    {
+        "text": "Madonna - American Life - Director's Cut (Official Video) [4K] - YouTube",
+        "text2": "",
+        "text3": "",
+        "url": "https:\/\/www.youtube.com\/watch?v=bZAMiK6ROZA",
+        "tag": "#music"
+    },
+    {
         "text": "Madonna - American Life [Official Music Video] [HD] - YouTube",
         "text2": "",
         "text3": "",
@@ -7474,6 +7488,13 @@ var musicJsonVar =
         "text2": "",
         "text3": "",
         "url": "https:\/\/www.youtube.com\/watch?v=x3ov9USxVxY",
+        "tag": "#music"
+    },
+    {
+        "text": "Madonna - Sorry (Official Video) [HD] - YouTube",
+        "text2": "",
+        "text3": "",
+        "url": "https:\/\/www.youtube.com\/watch?v=rdccTOcX7o4",
         "tag": "#music"
     },
     {
