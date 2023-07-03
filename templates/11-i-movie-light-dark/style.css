@@ -1,4 +1,4 @@
-/* v.1.1.1 */
+/* v.1.1.2 */
 /* inspired by IMDB and other */
 
 .movieWrapper {
@@ -73,6 +73,7 @@ width: 100%;
 display: block;
 float: left;
 margin-right: 5px;
+margin-bottom: 5px;
 }
 
 }
