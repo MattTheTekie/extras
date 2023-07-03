@@ -1,4 +1,4 @@
-// v.3.10.4
+// v.3.10.5
 
 
 
@@ -130,6 +130,14 @@ bookStart = getRandomArbitrary(0, bookStart);
 task = task.slice(bookStart);
 task = task.slice(0, bookLength);
 }
+
+// rm first and last word (because cut)
+task = task.trim();
+task = task.split(" ");
+task[0] = '';
+task[task.length - 1] = '';
+
+task = task.join(" ");
 
 main(task);
 }

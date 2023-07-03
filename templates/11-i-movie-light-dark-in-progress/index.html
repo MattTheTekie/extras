@@ -96,6 +96,8 @@ text-align: center;
 
 
 <script>
+// v.1.0.3
+
 //https://www.w3schools.com/howto/howto_js_dropdown.asp
 // menu click
 function dropdownFunction() {
@@ -112,7 +114,8 @@ document.getElementById("dropbtn").innerHTML = '☰ Menu';
 // out area
 var getclick = document.getElementById('dropbtn');
 document.addEventListener('click', function(event) {
-if (!getclick.contains(event.target)) {
+// if text selected not hide
+if (!getclick.contains(event.target)&&document.getSelection().toString() == '') {
 //alert('out');
 var x = document.getElementById("myDropdown");
 x.style.display = "none";
@@ -147,7 +150,7 @@ document.getElementById("dropbtn").innerHTML = '☰ Menu';
 <a href="movie-id.html">
 <div class="movieItem shadow">
 <div class="moviePoster" style="background-image: url('/img/tpl/movie-poster.png'); "></div>
-<div class="movieTitle light">movie title (year)</div>
+<div class="movieTitle light">movie title, movie title (year)</div>
 </div>
 </a>
 
@@ -271,7 +274,17 @@ document.getElementById("dropbtn").innerHTML = '☰ Menu';
 </div>
 
 
-
+<div class="moviePagination block tCenter padding">
+<a class="button light border" href="#">prev</a>
+<a class="button light border" href="#">1</a>
+<a class="button light border" href="#">2</a>
+<a class="button light border" href="#">3</a>
+<a class="button light border" href="#">4</a>
+<a class="button light border" href="#">5</a>
+<a class="button light border" href="#">6</a>
+<a class="button light border" href="#">...</a>
+<a class="button light border" href="#">next</a>
+</div>
 
 
 </div>

@@ -167,7 +167,8 @@ document.getElementById("dropbtn").innerHTML = '☰ Menu';
 // out area
 var getclick = document.getElementById('dropbtn');
 document.addEventListener('click', function(event) {
-if (!getclick.contains(event.target)) {
+// if text selected not hide
+if (!getclick.contains(event.target)&&document.getSelection().toString() == '') {
 //alert('out');
 var x = document.getElementById("myDropdown");
 x.style.display = "none";
@@ -176,6 +177,8 @@ document.getElementById("dropbtn").innerHTML = '☰ Menu';
 });
 
 }
+
+
 </script>
 <!-- // end dropdown menu -->
 
