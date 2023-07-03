@@ -56,12 +56,6 @@
 </url>
 
 <url>
-<loc>https://inonehp.github.io/copyright.html</loc>
-<lastmod>1688331601</lastmod>
-<changefreq>monthly</changefreq>
-</url>
-
-<url>
 <loc>https://inonehp.github.io/data2.html</loc>
 <lastmod>1688331601</lastmod>
 <changefreq>monthly</changefreq>
@@ -543,6 +537,12 @@
 
 <url>
 <loc>https://inonehp.github.io/search.html</loc>
+<lastmod>1688331601</lastmod>
+<changefreq>monthly</changefreq>
+</url>
+
+<url>
+<loc>https://inonehp.github.io/some-copyright.html</loc>
 <lastmod>1688331601</lastmod>
 <changefreq>monthly</changefreq>
 </url>
