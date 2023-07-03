@@ -54,10 +54,9 @@ display: grid;
 grid-template-columns: 30% 70%;
 grid-gap: 0;
 justify-content: center;
-
 }
 
-.movieIdVieo {
+.movieIdVideo {
 display: flex;
 align-items: center;
 justify-content: center;
