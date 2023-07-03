@@ -36,8 +36,8 @@ width: 100%;
 }
 
 .movieTitle {
-min-height: 50px;
-padding: 7px;
+min-height: 60px;
+padding: 5px 7px;
 display: flex;
 align-items: center;
 justify-content: center;
