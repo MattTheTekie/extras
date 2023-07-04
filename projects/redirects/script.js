@@ -835,7 +835,7 @@ urlList = [
 
 //"https://peekier.com/?#!"+q,
 
-"https://engine.presearch.org/search?q="+q,
+//"https://engine.presearch.org/search?q="+q,
 
 //"https://www.dogpile.com/serp?q=$q",
 "https://metager.org/meta/meta.ger3?eingabe="+q,

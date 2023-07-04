@@ -1,17 +1,9 @@
-/* v.12.22.4 */
-
-.gallery {
-  display: grid;
-  grid-template-columns: repeat(8, 1fr);
-  grid-template-rows: repeat(8, 5vw);
-  grid-gap: 1.5rem; 
-}
-
+/* v.12.22.5 */
 
 * {  color-scheme: light dark; } /* view-source:about:blank */ 
 
 :root{
---bodyP: 2vw;
+--bodyP: 5vw;
 --wrapper: 490px;
 --wrapper2: 700px;
 --wrapper3: 900px;

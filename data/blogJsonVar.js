@@ -1,6 +1,24 @@
 var blogJsonVar = 
 [
     {
+        "id": "96",
+        "text": "PARTY TIME - CSS Animation",
+        "text2": "",
+        "text3": "",
+        "url": "https:\/\/codepen.io\/wakana-k\/pen\/WNYONXp",
+        "tag": "#HTML #CSS",
+        "time": 1688456920
+    },
+    {
+        "id": "95",
+        "text": "NASA Webb Telescope on Twitter: \"Cosmic meet-cute \ud83c\udf39 500 million years ago, 2 massive spiral galaxies collided. Their clouds of gas & dust mingled like smoke, sparking a burst of star formation. This event created galaxy NGC 3256. Its baby stars shine in infrared light, Webb\u2019s specialty: https:\/\/t.co\/88TiRqgGDC https:\/\/t.co\/GcUJPRyaEj\" \/ Twitter",
+        "text2": "",
+        "text3": "",
+        "url": "https:\/\/twitter.com\/NASAWebb\/status\/1675867254234259458",
+        "tag": "#space",
+        "time": 1688436745
+    },
+    {
         "id": "94",
         "text": "Chandra Observatory on Twitter: \"Today Chandra is studying a galaxy in Coma Berenices. Nearby in the sky is galaxy NGC 4907, located about 270 million light-years from Earth. The star shining brightly beneath NGC 4907 looks so big because it's ~100,000 times closer to Earth \u2014 a mere 2,500 light-years away. https:\/\/t.co\/u8FnXl42o9\" \/ Twitter",
         "text2": "",
