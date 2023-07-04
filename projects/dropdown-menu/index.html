@@ -151,6 +151,7 @@ body{
 
 
 <script>
+// v.1.1.2
 //https://www.w3schools.com/howto/howto_js_dropdown.asp
 // menu click
 function dropdownFunction() {
@@ -164,10 +165,10 @@ x.style.display = "none";
 document.getElementById("dropbtn").innerHTML = '☰ Menu'; 
   }
 
-// out area
+// out area hide
 var getclick = document.getElementById('dropbtn');
 document.addEventListener('click', function(event) {
-// if text selected not hide
+// hide and make posible text selected
 if (!getclick.contains(event.target)&&document.getSelection().toString() == '') {
 //alert('out');
 var x = document.getElementById("myDropdown");
@@ -177,7 +178,6 @@ document.getElementById("dropbtn").innerHTML = '☰ Menu';
 });
 
 }
-
 
 </script>
 <!-- // end dropdown menu -->
