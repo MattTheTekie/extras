@@ -1,4 +1,4 @@
-// v.3.10.5
+// v.3.10.6
 
 
 
@@ -401,6 +401,7 @@ text = letters.join("");
 
 //console.log(letters);
 var a = {
+"×":"x",
 "‐":"-",
 "½":"1/2", "―":"-", 
 "…":"...",
@@ -427,7 +428,7 @@ letters = text;
 
 // clean text
 
-
+// replace symbol
 //https://www.charset.org/utf-8/66
 //Variation Selector
 letters = letters.replaceAll(/%EF%B8%82/g, "");
