@@ -1,4 +1,4 @@
-// v.1.1.49
+// v.1.1.50
 
 
 
@@ -419,7 +419,6 @@ urlList = [
 
 "https://news.ycombinator.com/",
 "https://news.google.com/topics/CAAqJggKIiBDQkFTRWdvSUwyMHZNRGRqTVhZU0FtVnVHZ0pWVXlnQVAB",
-"https://www.bing.com/news/search?q=Technology",
 "https://getpocket.com/explore/technology",
 "https://twitter.com/i/topics/848920371311001600",
 "https://www.reddit.com/r/technology/",
@@ -434,6 +433,13 @@ urlList = [
 //"https://www.smartnews.com/en/us/technology",
 // redirect app, delme "https://www.newsbreak.com/channels/technology"
 ];
+
+if(confDevice == 'mobile'){
+urlList.push("https://www.bing.com/news/search?q=Technology");
+}else{
+urlList.push("https://www.bing.com/news/search?q=Sci/Tech");
+}
+
 random = Math.floor(Math.random() * urlList.length);
 url = urlList[random];
 }
