@@ -118,9 +118,9 @@ document.getElementById(printId).innerHTML = `
 <div class="wrapper">
 
 
-
+<div class="post light border3List padding">
 <!-- post -->
-<div class="post bgList border3List" id="${jsonVar[id]['id']}">
+<div class="post" id="${jsonVar[id]['id']}">
 <span class="pre">${post} ${play}</span>
 <div class="postFooter">
 <span class="postTagList">${tag}</span>
@@ -131,6 +131,7 @@ document.getElementById(printId).innerHTML = `
 <br>
 <a class="tag padding light border3 margin" onclick="reload()"  style="display: block; text-align: center;" href="#">reload</a>
 <!-- // post -->
+</div>
 
 <!--<div class="xSmall tRight block margin padding op">total: ${jsonVar.length}</div>-->
 
