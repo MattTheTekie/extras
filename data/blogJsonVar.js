@@ -1,15 +1,6 @@
 var blogJsonVar = 
 [
     {
-        "id": "96",
-        "text": "PARTY TIME - CSS Animation",
-        "text2": "",
-        "text3": "",
-        "url": "https:\/\/codepen.io\/wakana-k\/pen\/WNYONXp",
-        "tag": "#HTML #CSS",
-        "time": 1688456920
-    },
-    {
         "id": "95",
         "text": "NASA Webb Telescope on Twitter: \"Cosmic meet-cute \ud83c\udf39 500 million years ago, 2 massive spiral galaxies collided. Their clouds of gas & dust mingled like smoke, sparking a burst of star formation. This event created galaxy NGC 3256. Its baby stars shine in infrared light, Webb\u2019s specialty: https:\/\/t.co\/88TiRqgGDC https:\/\/t.co\/GcUJPRyaEj\" \/ Twitter",
         "text2": "",

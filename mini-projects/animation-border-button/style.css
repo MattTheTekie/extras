@@ -1,4 +1,4 @@
-/* v.1.0.0 */
+/* v.1.0.1 */
 /* comment */
 
 
@@ -24,7 +24,7 @@ left: -50px;
 
 }
 
-.block332Button, .block332Button:hover{
+.block332Text, .block332Text:hover{
 display: block;
 
 padding: 15px;
