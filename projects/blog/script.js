@@ -1,4 +1,4 @@
-// v.1.17.0
+// v.1.17.1
 
 // inspired by Twitter, Fediverse
 // not for large Json files
@@ -114,7 +114,7 @@ if(getP2 != null){
 getP2 = getP2.replaceAll(/%/g, "%25");
 getP2 = getP2.trim();
 getP2 = Number(decodeURIComponent(getP2));
-mode = 'id';
+mode = 'singleList';
 }
 
 if(getP == null){ getP = 0; }
@@ -292,6 +292,7 @@ if(comMessagePrint == '') { comMessagePrint = `<b>${q}</b> <div class="bold red 
 break;
 
 case 'id':
+case 'singleList':
 
 if(postId == id||getP2 == key){
 if(i <= postLimit -1){
@@ -321,7 +322,7 @@ if(i <= postLimit -1){
 print += '<div class="">'+fuPrintPost(postId, postText, postTag, postTime)+'</div>';
 i++;
 getP = key;
-comMessagePrint = ` ${mode}`+', '+'id: '+postId+', p2: '+getP2;
+comMessagePrint = 'id: '+postId+', p2: '+getP2;
 }
 }
 break;
@@ -335,7 +336,7 @@ if(i <= postLimit -1){
 print += '<div class="">'+fuPrintPost(postId, postText, postTag, postTime)+'</div>';
 i++;
 getP = key;
-comMessagePrint = ` ${mode}`+', '+'id: '+postId+', p2: '+getP2+' | '+sTimeRedirStatus;
+comMessagePrint = 'id: '+postId+', p2: '+getP2+' | '+sTimeRedirStatus;
 
 // fixed many redirect in this place
 setTimeout(function(){
@@ -613,6 +614,7 @@ print += `
 // echo print all
 document.getElementById(printId).innerHTML += print;
 
+comMessagePrint = `mode: ${mode} `+comMessagePrint;
 if(comMessagePrint != ''){
 document.getElementById('comMsg').innerHTML += `<div class="wrapper op tCenter padding">${comMessagePrint}</div>`;
 }
@@ -893,7 +895,7 @@ post = highlightText(post, 'out');
 
 
 
-}else if(mode == 'id'||mode == 'random'||mode == 'auto-random'||mode == 'music'){ // autoplay embed when id or random
+}else if(mode == 'id'||mode == 'singleList'||mode == 'random'||mode == 'auto-random'||mode == 'music'){ // autoplay embed when id or random
 post = highlightText2(post, 'out');
 }else{
 post = highlightText(post, 'out'); // embed without autoplay
