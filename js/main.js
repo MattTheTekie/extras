@@ -1,4 +1,4 @@
-/* v.3.3.12 */
+/* v.3.3.14 */
 
 
 var symbolForSplit = 'pwxortuzqu';
@@ -38,14 +38,11 @@ mainPrintMsg('footer', `
 <span id="fApp"><a href="/app.${confExt}">app: status</a></span>
 <span id="fAds"><a href="/ads.${confExt}">ads: ${localStorage.getItem('confAdsStatus')}</a></span>
 <span id="fPrivacy"><a href="/privacy.${confExt}">cookie: status</a></span>
-
-<span><a href="https://twitter.com/inonehp">twitter</a></span>
+<span><a href="https://twitter.com/inonehp">Twitter </a></span>
 <span><a href="/rss.xml">RSS</a></span>
 
 <!--
-
 <span id="fDonate"><a href="/about.${confExt}#donate">donate</a></span>
-
 <span id="fAbout"><a href="/about.${confExt}">about</a></span>
 -->
 
