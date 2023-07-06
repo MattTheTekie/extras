@@ -1,4 +1,4 @@
-/* v.12.23.0 */
+/* v.12.23.1 */
 
 * {  color-scheme: light dark; } /* view-source:about:blank */ 
 
@@ -69,6 +69,8 @@ nav button:hover { background: none;  }
 
 nav a:first-child, footer span:first-child { padding-left: 0; }
 footer span:last-child { padding-right: 0; }
+nav form { display: inline-block; max-width: 120px; }
+nav input[type=search] { padding: 5px; min-height: 10px; }
 
 h1, .h1 { font-size: calc(100% + 60%); }
 h2, .h2 { font-size: calc(100% + 40%); }
@@ -441,7 +443,7 @@ img { height: auto; }
 input, textarea { display: block; }
 
 @media(max-width: 390px) {
-.m, .m2 { width: 100%; max-width: 100% !important; }
+.m, .m2 { width: 100%; max-width: 100%; }
 .m2 { display: block; position: relative; }
 }
 
