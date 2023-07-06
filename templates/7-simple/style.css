@@ -13,7 +13,7 @@ text-decoration: none;
 
 
 body { padding: 0 15px; }
-a:hover { text-decoration: underline; }
+a:hover { text-decoration: none; }
 iframe, video, audio, img, table{ max-width:100%; border:0; }
 img{ height:auto; }
 
@@ -34,10 +34,8 @@ margin: 0 auto;
 .logo { height: 34px; }
 .logo { display: inline-block; vertical-align: middle;  }
 
-nav { text-align: center; text-transform: capitalize; padding: 15px 0 10px 0; }
-nav a { display: inline-block; margin-right: 20px;  }
-nav a:last-child{ margin: 0; }
-nav a:hover{ text-decoration: none; }
+
+
 
 
 
@@ -79,24 +77,35 @@ a{ color: var(--a1); }
 a:hover{ color: var(--a2); }
 h1,h2,h3{color: var(--dark2); }
 
-header {}
 footer a, footer{color: var(--dark2); }
 footer a:hover { color: var(--dark2); }
 
-nav a {
-	color:  var(--dark2);
-padding: 5px 0;
-	}
-
-nav a:hover{
-color: var(--dark1);
+nav { text-align: center; text-transform: capitalize; padding: 15px 0 10px 0; }
+nav ul{display: inline-block;
+list-style-type:none;
+margin:0;
+padding:0;
 }
 
-.logo:hover, .logo { border-bottom: 0 !important; }
-
-.active {
-  border-bottom: 2px solid var(--dark2);
-  color: var(--dark1);
+nav li a { color:#414141; }
+nav li {
+display: inline-block;
+text-align:center;
+padding: 7px;
+text-decoration:none;
+border-bottom: 2px solid transparent;
 }
+
+nav li a:hover { color:black; }
+nav li:hover{ border-bottom:2px solid black; }
+
+.active a { color: black; }
+nav .active {
+  border-bottom:2px solid grey;
+
+}
+.logo { padding-right: 7px; }
+
+
 
 

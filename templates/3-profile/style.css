@@ -28,7 +28,8 @@ padding:0 15px
 .content {padding-bottom:15px}
 
 body{background:#f4f0e8; color:#464646}
-a{color:#7a7c7c} a:hover{color:rgb(17, 17, 17) !important}
+a{ color:#7a7c7c; }
+a:hover{ color:rgb(17, 17, 17); }
 h1,h2,h3{color:#3e3e3e}
 
 .footer a, .footer{color:#7F7F7F }
@@ -38,14 +39,17 @@ h1,h2,h3{color:#3e3e3e}
 .menu li{ display:inline-block  }
 @media all and (max-width:400px) {.menu li { margin-bottom:10px; }}
 .menu li a {
-  color:#5e5e5e;
-  text-align:center;
-  display:inline;
-  padding:6px 10px;
-  text-decoration:none;
-  text-transform: uppercase;
+color:#5e5e5e;
+text-align:center;
+display:inline;
+padding:6px 10px;
+text-decoration:none;
+text-transform: uppercase;
 }
-.menu li a:hover{color:black !important; border-bottom:2px solid black}
+.menu li a:hover{
+color:black;
+border-bottom:2px solid black;
+}
 
 li.active a{
   border-bottom:2px solid grey;
