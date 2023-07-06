@@ -1,6 +1,15 @@
 var blogJsonVar = 
 [
     {
+        "id": "97",
+        "text": "W3C (@w3c@w3c.social) on Twitter: \"See Coralie Mercier's blog post: \"On the surface, the new site implements current web best practices, donned a cleaner and elegant visual design, and provides information in a more user-friendly fashion. Under the hood, everything changed https:\/\/t.co\/GwvZq6bESe\" \/ Twitter",
+        "text2": "",
+        "text3": "",
+        "url": "https:\/\/twitter.com\/w3c\/status\/1676219058834878465",
+        "tag": "#tech #news",
+        "time": 1688687928
+    },
+    {
         "id": "95",
         "text": "NASA Webb Telescope on Twitter: \"Cosmic meet-cute \ud83c\udf39 500 million years ago, 2 massive spiral galaxies collided. Their clouds of gas & dust mingled like smoke, sparking a burst of star formation. This event created galaxy NGC 3256. Its baby stars shine in infrared light, Webb\u2019s specialty: https:\/\/t.co\/88TiRqgGDC https:\/\/t.co\/GcUJPRyaEj\" \/ Twitter",
         "text2": "",
