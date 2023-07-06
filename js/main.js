@@ -23,8 +23,8 @@ mainPrintMsg('footer', `
 
 <div id="ads2"></div>
 
-
-<footer class="wrapper3">
+<br>
+<div class="wrapper3">
 
 <!--<span><a  class="button" href="../">&#x2190;</a></span>
 -->
@@ -53,7 +53,7 @@ mainPrintMsg('footer', `
 <span><a rel="license" title="license 2" href="/some-copyright.${confExt}">Some © Copyright</a></span>
 
 
-</footer>
+</div>
 
 `);
 
