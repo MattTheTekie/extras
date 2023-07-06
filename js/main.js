@@ -38,13 +38,15 @@ mainPrintMsg('footer', `
 <span id="fApp"><a href="/app.${confExt}">app: status</a></span>
 <span id="fAds"><a href="/ads.${confExt}">ads: ${localStorage.getItem('confAdsStatus')}</a></span>
 <span id="fPrivacy"><a href="/privacy.${confExt}">cookie: status</a></span>
-<span><a href="https://twitter.com/inonehp">Twitter </a></span>
+<span><a href="https://twitter.com/inonehp">Twitter</a></span>
 <span><a href="/rss.xml">RSS</a></span>
 
 <!--
 <span id="fDonate"><a href="/about.${confExt}#donate">donate</a></span>
 <span id="fAbout"><a href="/about.${confExt}">about</a></span>
 -->
+
+<span id="fDownload"><a href="https://github.com/inonehp/inonehp.github.io">download</a></span>
 
 <span><a rel="license" title="license" href="https://creativecommons.org/licenses/by-sa/4.0/">license: CC BY-SA 4.0</a></span>
 
