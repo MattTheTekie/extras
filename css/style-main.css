@@ -1,4 +1,4 @@
-/* v.12.23.1 */
+/* v.12.23.3 */
 
 * {  color-scheme: light dark; } /* view-source:about:blank */ 
 
@@ -64,6 +64,7 @@ header{ margin: 0 auto; }
 nav, footer { text-align: center; padding: 14px 0; max-width: 100%; z-index: 5; }
 nav a, nav button, footer span { display: inline-block; padding: 5px;  }
 
+footer { padding: 15px 0; }
 footer span::first-letter { text-transform: capitalize; }
 nav button:hover { background: none;  }
 
