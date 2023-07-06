@@ -118,7 +118,7 @@ td { padding: 5px; }
 
 .op { opacity: 0.75; } 
 .op:hover { opacity: 1; }
-.op2 { opacity: 0.03; }
+.op2 { opacity: 0.25; }
 .op2:hover { opacity: 1; }
 
 .center, .center2, .center3, .center4 {
@@ -388,6 +388,7 @@ td { background-color: var(--l2); }
 /* other */
 .padding { padding: 9px; }
 .block { display: block; box-sizing: border-box; }
+.none { display: none; }
 .zero { margin: 0; padding: 0; }
 .margin, .margin a { margin: 1px; }
 .tLeft { text-align: left; }

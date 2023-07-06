@@ -1,4 +1,4 @@
-// v.1.16.3
+// v.1.17.0
 
 // inspired by Twitter, Fediverse
 // not for large Json files
@@ -1844,11 +1844,15 @@ var tmp = setInterval(fuPostTime, 1000);
 // navigation navbar // used array
 function blogNav(mode){
 
+
 switch (mode){
 case 'list':
 case 'search':
 var prev = Number(Math.floor(getP - postLimit)); //https://stackoverflow.com/questions/1133770/how-to-convert-a-string-to-an-integer-in-javascript
 var next = Number(Math.floor(getP + postLimit));
+
+
+
 break;
 
 default:
@@ -1920,8 +1924,6 @@ nav2Print = `
 
 if(q == null||q == 'null'){ q = ''; }
 
-
-
 var pringInputRange = '';
 if(confDevice != 'mobile'){
 pringInputRange = `
@@ -1930,6 +1932,18 @@ ${navOption3}
 <input  name="${navMode}" style="" id="rangeinput" class="slider" value="${getP}" type="range" min="0" max="${total2}" step="${postLimit}" onmouseup="this.form.submit();" ontouchend="this.form.submit();">
 </form>
 `;
+}
+
+// hide button if end
+var hideButtonClass = '';
+var hideButtonClass2 = '';
+if(mode == 'search'){
+if(getP3 >= total - postLimit){ hideButtonClass = 'op2'; }
+if(getP3 <= 0){ hideButtonClass2 = 'op2'; }
+}
+if(mode == 'list'){
+if(getP + postLimit >= total){ hideButtonClass = 'op2'; }
+if(getP <= 0){ hideButtonClass2 = 'op2'; }
 }
 
 return `
@@ -1952,9 +1966,9 @@ justify-content: center;
 ${pringInputRange}
 
 <div class="grid">
-<a class="op border button light" href="?${navOption2}${navMode}=${prev}">&#8592;</a>
+<a class="${hideButtonClass2} border button light" href="?${navOption2}${navMode}=${prev}">&#8592;</a>
 <div class="button border"><span class="op pre">${navMode}: </span>`+Math.floor(getP/postLimit)+`</div>
-<a class="op border button light" href="?${navOption2}${navMode}=${next}">&#8594;</a>
+<a class="${hideButtonClass} border button light" href="?${navOption2}${navMode}=${next}">&#8594;</a>
 </div>
 
 ${nav2Print}
