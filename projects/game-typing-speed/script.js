@@ -1,4 +1,4 @@
-// v.3.10.6
+// v.3.10.8
 
 
 
@@ -473,7 +473,7 @@ letters = letters.replaceAll(/  +/g, ' ');
 
 
 
-letters = encodeURIComponent(letters);
+//letters = encodeURIComponent(letters); // error url
 
 
 letters = transliterate(letters);
