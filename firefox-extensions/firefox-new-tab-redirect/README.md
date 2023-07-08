@@ -1,9 +1,11 @@
 README.md
 
 About:
-Any website in New Tab 
+Your own URL website will open in a New Tab.
 
 You need to enter your website URL address in the addon options, then this address will be opened every time when you press the "+" button for create New Tab (or Ctrl+T)
+
+Permissions: only "storage" for to save the your URL for redirect in settings
 
 Notice:
 How it works: when you open a new tab, the extension creates a new tab with your website address and closes the current one (redirect)
@@ -25,6 +27,7 @@ window.close();
 Screenshots:
 ![screenshot](screenshot.png)
 ![screenshot2](screenshot2.png)
+![screenshot3](screenshot3.png)
 
 
 

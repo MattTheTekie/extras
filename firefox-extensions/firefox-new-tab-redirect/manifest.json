@@ -1,9 +1,9 @@
 {
 
   "manifest_version": 2,
-  "name": "New Tab Redirect",
-  "version": "1.4.0",
-  "description": "Any webpage in New Tab",
+  "name": "New Tab Redirect ABC",
+  "version": "1.33",
+  "description": "Your own URL website will open in a New Tab",
 
 "icons": {
   "96": "icon96x96.png"
@@ -11,9 +11,7 @@
 
 "permissions":
 [
-"storage",
-"activeTab",
-"tabs"
+"storage"
 ],
  
 
