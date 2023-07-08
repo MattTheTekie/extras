@@ -1,4 +1,4 @@
-/* v.12.23.4 */
+/* v.12.23.5 */
 
 * {  color-scheme: light dark; } /* view-source:about:blank */ 
 
@@ -388,7 +388,6 @@ td { background-color: var(--l2); }
 /* other */
 .padding { padding: 9px; }
 .block { display: block; box-sizing: border-box; }
-.none { display: none; }
 .zero { margin: 0; padding: 0; }
 .margin, .margin a { margin: 1px; }
 .tLeft { text-align: left; }
