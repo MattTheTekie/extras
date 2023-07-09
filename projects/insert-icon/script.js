@@ -1,4 +1,4 @@
-// v.1.2.29
+// v.1.3.0
 // Inspired by GitHub profile
 
 function insertIcon(id, mode){
@@ -149,6 +149,19 @@ let textIcon = item;
 let icon = icons[textIcon];
 //console.log((linkText.toLowerCase()+'').indexOf((icon+' ')));
 
+
+// if link
+if(linkText.toLowerCase().slice(0, 4) == 'http'&&linkText.toLowerCase().search("http|://|www.") != -1){
+var iconHTTP = `https://www.google.com/s2/favicons?domain_url=${linkText}`;
+//var ico = `https://api.statvoo.com/favicon/?url=${host[2]}`;
+//var ico = `https://api.faviconkit.com/${host[2]}/16`;
+iconHTTP = `<img  src="${iconHTTP}" alt="ico" width="16" height="16">`;
+icArr.push(iconHTTP+'');
+check = 'exit';
+}
+
+
+
 if(mode != 'strict'){
 // main, not strict
 if(linkText.toLowerCase().search(textIcon) != -1&&linkText.toLowerCase().search(icon) == -1&&linkText != ' '){
@@ -188,7 +201,7 @@ icArr = [];
 
 
 
-// buttons, dublicated from links
+// if tag button, dublicated from links
 const allButtons = divId.querySelectorAll("button");
 allButtons.forEach((item, index) => {
 
@@ -200,6 +213,16 @@ iconsArr.forEach((item) => {
 let textIcon = item;
 let icon = icons[textIcon];
 // main2, not strict word
+
+// if link
+if(linkText.toLowerCase().slice(0, 4) == 'http'&&linkText.toLowerCase().search("http|://|www.") != -1){
+var iconHTTP = `https://www.google.com/s2/favicons?domain_url=${linkText}`;
+//var ico = `https://api.statvoo.com/favicon/?url=${host[2]}`;
+//var ico = `https://api.faviconkit.com/${host[2]}/16`;
+iconHTTP = `<img  src="${iconHTTP}" alt="ico" width="16" height="16">`;
+icArr.push(iconHTTP+'');
+check = 'exit';
+}
 
 
 if(mode != 'strict'){

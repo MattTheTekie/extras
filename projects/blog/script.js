@@ -1257,7 +1257,7 @@ embed2 = `<iframe width="${w}" height="400" src="${item}"></iframe>`;
 
 
 //if(item.search("http") != -1){
-if(item.slice(0, 4) == 'http'&&item.search("http|://") != -1){
+if(item.slice(0, 4) == 'http'&&item.search("http|://|www.") != -1){
 checkText = false;
 
 if(embedStatus == 'on'&&host != undefined){
@@ -1694,7 +1694,7 @@ embed2 = `<iframe width="${w}" height="400" src="${item}"></iframe>`;
 
 
 //if(item.search("http") != -1){
-if(item.slice(0, 4) == 'http'&&item.search("http|://") != -1){
+if(item.slice(0, 4) == 'http'&&item.search("http|://|www.") != -1){
 checkText = false;
 
 if(embedStatus == 'on'&&host != undefined){
