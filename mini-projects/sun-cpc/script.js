@@ -2,4 +2,4 @@
 
 
 
-setTheme('light');
+setTheme('dark');
