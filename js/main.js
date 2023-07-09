@@ -1,12 +1,13 @@
-/* v.3.3.15 */
+/* v.3.3.17 */
 
 
-var symbolForSplit = 'pwxortuzqu';
 // conf
+var symbolForSplit = 'pwxortuzqu'; // for split
+
+// if localhost make some pages with php extension, because in the original they are php
 var confHost = location.hostname;
 if (confHost === "localhost" ||  confHost === "127.0.0.1"||confHost.search("192.168") != -1){
 var confExt = 'php';
-
 }else{
 var confExt = 'html';
 }
@@ -57,7 +58,7 @@ mainPrintMsg('footer', `
 
 `);
 
-
+// adding link to footer if project: script.js and style.css
 if((window.location.href).indexOf(('/projects/')) >= 0||(window.location.href).indexOf(('/mini-projects/')) >= 0){
 fetch('script.js').then(function(response) {
 //console.log(response);
@@ -101,6 +102,7 @@ mainPrintMsg('fPrivacy', `<a href="/privacy.${confExt}">cookies: ${confDataColle
 
 var lang = 'en';
 
+// confDevice - device name: mobile, pc
 var confDevice = '';
 /*if(confDataCollection != 'on'){
 confDevice = '(disabled, privacy)';
@@ -117,14 +119,15 @@ if(confDevice == ''){ confDevice = 'pc'; }
 
 
 
-// theme
+// start theme
 
+// confDeviceTheme - device theme (dark or light)
 confDeviceTheme = 'none';
 if (window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches) { confDeviceTheme = 'dark'; }
 if (window.matchMedia && window.matchMedia('(prefers-color-scheme: light)').matches) { confDeviceTheme = 'light'; }
 
 
-
+// insert color-theme.css in header
 function mainPrintTheme(theme){
 if(document.getElementById('theme') != null){
 document.getElementById('theme').href = '/css/'+theme+'.css';
@@ -488,7 +491,7 @@ setTheme(localStorage.getItem('themeMain')); //alert('not');
 
 
 
-// serviceWorker (for webpage in offline mode or insall app from page)
+// serviceWorker (for webpage in offline mode or insall app from page, not for all)
 
 function fuWorker(fuSWstatus){
 
@@ -605,7 +608,7 @@ printInstallAppLink();
 }
 }
 
-
+// print theme mode and name in footer
 if(document.getElementById('fTheme') != null){
 document.getElementById("fTheme").innerHTML = '<a href="/theme.'+confExt+'">theme: '+theme+' ('+confRealTmpTheme+')</a>';
 }
@@ -626,7 +629,7 @@ document.getElementById(id).innerHTML = PrintMsg;
 
 
 // added URL to titile
-document.getElementsByTagName('title')[0].innerHTML += ' | '+confHost;
+//document.getElementsByTagName('title')[0].innerHTML += ' | '+confHost;
 
 
 

@@ -4,7 +4,7 @@ README.md
 Homepage and other projects: Extensions: new tab redirect (for Firefox, Chrome). Website Templates.  🎮 Game: snake, memory symbol, tic tac toe, typing speed. Todo list. Themes for Firefox, Geany color ...
 
 [https://inonehp.github.io](https://inonehp.github.io)
-[https://inonehp.pages.dev](https://inonehp.pages.dev)
+alert('2'); : [https://inonehp.pages.dev](https://inonehp.pages.dev)
 
 
 [#website](https://github.com/topics/website?s=updated)
