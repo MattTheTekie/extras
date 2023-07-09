@@ -1,4 +1,4 @@
-/* v.12.24.1 */
+/* v.12.24.2 */
 
 * {  color-scheme: light dark; } /* view-source:about:blank */ 
 
@@ -22,7 +22,7 @@ font-family: Roboto, Noto, Arial, Sans-Serif;
 font-weight: 400;
 /*font-size: 13.4px;*/ font-size: 14px;
 text-decoration:none;
-letter-spacing: 0.17px;
+letter-spacing: 0.16px;
 /*hyphens: auto;*/ 
 }
 
