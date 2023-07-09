@@ -1,4 +1,4 @@
-// v.1.0.16
+// v.1.0.17
 // https://developer.mozilla.org/en-US/docs/Web/API/IDBCursor/continue
 
 
@@ -417,7 +417,7 @@ let editPrint = '';
 if(com == 'edit'&&id == idPrint){
 /*editPrint = `<form style="margin: 10px 0;"><input id="inputTaskUp" class="padding" type="text" name="q" autofocus="autofocus" autocomplete="off" placeholder=" task" value="${titlePrint}"><input  type="hidden" name="com" value="edit"><input id="idInputE" type="hidden" name="id" value="${idPrint}"><input type="submit"></form><div id="option2"></div>`;*/
 
-editPrint = `<form><textarea id="textInputE" class="padding" name="text" rows="3" cols="" placeholder=" edit" autofocus>${titlePrint}</textarea><input id="idInputE" type="hidden" name="id" value="${idPrint}"><a class="block tCenter padding light border3List" href="#${idPrint}"  onclick="submitLinkEdit()">submit</a></form>`;
+editPrint = `<form><textarea id="textInputE" class="padding" name="text" rows="3" cols="100" placeholder=" edit" autofocus>${titlePrint}</textarea><input id="idInputE" type="hidden" name="id" value="${idPrint}"><a class="block tCenter padding light border3List" href="#${idPrint}" onclick="submitLinkEdit()">submit</a></form>`;
 }else{
 //editPrint = `<span onclick="runDb('edit', '`+idPrint+`', '', '')">${titlePrint}</span>`;
 editPrint = `${titlePrint}`;
@@ -427,10 +427,10 @@ editPrint = `${titlePrint}`;
 // show  & edit button
 let printTmp = '';
 if(statusPrint == 'done'){
-printTmp = `<div class="op xsmall">${idPrint}</div>
+printTmp = `<div class="op xSmall">${idPrint}</div>
 <div class="flexCenter"><div class="pre op block" style="text-decoration: line-through;"><input class="checkbox op" checked="checked" type="checkbox"  name="" value="undone" onclick="runDb('done', '`+idPrint+`', '', 'undone')">${editPrint}</div></div>`;
 }else{
-printTmp = `<div class="op xsmall">${idPrint}</div>
+printTmp = `<div class="op xSmall">${idPrint}</div>
 <div class="flexCenter"><div class="pre block"><input class="checkbox op" type="checkbox"  name="" value="done" onclick="runDb('done', '`+idPrint+`', '', 'done')">${editPrint}</div></div>`;
 }
 
