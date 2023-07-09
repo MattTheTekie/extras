@@ -34,3 +34,4 @@ document.getElementById("snowPrint").innerHTML = print;
 
 
 
+setTheme('light');

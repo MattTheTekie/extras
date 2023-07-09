@@ -34,3 +34,6 @@ n++;
 }
 
 document.getElementById("result").innerHTML = result;
+
+
+setTheme('o-orange');

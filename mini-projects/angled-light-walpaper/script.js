@@ -38,3 +38,6 @@ n++;
 }
 
 document.getElementById("result").innerHTML = result;
+
+
+setTheme('light');
