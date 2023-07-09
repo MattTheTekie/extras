@@ -1,10 +1,41 @@
 /* v.1.2.1 */
+// print ads from json var list: fuAds('', 'ads2 - id where print', '');
 
-function fuAds(themeAds, idAds, maxAds, comAds){
+function fuAds(none, idAds, none2, comAds){
 
+// none - reserver var
+
+//
 const confGoogleAnalyticsId = 'G-HYV48GZ3ZC';
 
+
+// Google Analytics 
+// privacy part
+if(confDataCollection == 'on'){
+
+// analytics
+//<!-- Google tag (gtag.js) -->
+var scriptStat = document.createElement('script');
+scriptStat.type='text/javascript';
+scriptStat.src = `https://www.googletagmanager.com/gtag/js?id=${confGoogleAnalyticsId}`;      
+document.getElementsByTagName('head')[0].appendChild(scriptStat);
+
+window.dataLayer = window.dataLayer || [];
+function gtag(){dataLayer.push(arguments);}
+gtag('js', new Date());
+gtag('config', 'G-HYV48GZ3ZC');
+
+
+
+  
+}
+
+
+
 var adsStatus = '';
+
+
+
 
 switch (localStorage.getItem('confAdsStatus')){
 
@@ -97,29 +128,7 @@ document.getElementById(idAds).innerHTML = '<div class="center"><div class="post
 
 
 
-// Google Analytics 
-// privacy part
-if(confDataCollection == 'on'){
 
-
-
-
-// analytics
-//<!-- Google tag (gtag.js) -->
-var scriptStat = document.createElement('script');
-scriptStat.type='text/javascript';
-scriptStat.src = `https://www.googletagmanager.com/gtag/js?id=${confGoogleAnalyticsId}`;      
-document.getElementsByTagName('head')[0].appendChild(scriptStat);
-
-window.dataLayer = window.dataLayer || [];
-function gtag(){dataLayer.push(arguments);}
-gtag('js', new Date());
-gtag('config', 'G-HYV48GZ3ZC');
-
-
-
-  
-}
 
 
 

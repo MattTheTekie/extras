@@ -54,3 +54,8 @@ return time;
 
 fuPostTime();
 var tmp = setInterval(fuPostTime, 1000);
+
+
+
+
+
