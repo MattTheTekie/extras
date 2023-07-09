@@ -1,4 +1,4 @@
-/* v.12.23.5 */
+/* v.12.23.6 */
 
 * {  color-scheme: light dark; } /* view-source:about:blank */ 
 
@@ -304,7 +304,8 @@ outline: none;
 height: 6px;
 }*/
 
-::placeholder { color: var(--c); }
+::placeholder, input::-webkit-input-placeholder { color: var(--c); }
+
 
 /*input[type="search"]::-webkit-search-cancel-button{
 -webkit-appearance: none;
