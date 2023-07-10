@@ -21,3 +21,11 @@ text-transform: lowercase;
 }
 .menu a { padding: 9px; margin:0; }
 
+
+
+.listBlock { padding: 0 5%; margin-bottom: 10px; }
+.list {
+padding: 4px 0;
+border-bottom: 2px dotted var(--d3);
+}
+.listBlock ul li { list-style-type:none }
