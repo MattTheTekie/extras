@@ -1,4 +1,4 @@
-// v.1.1.50
+// v.1.1.51
 
 
 
@@ -313,10 +313,13 @@ q = encodeURIComponent(q);
 
 urlList = [
 //"https://translate.google.com/?sl=auto&tl=auto&text="+q+"&op=translate",
-"https://translate.google.com/?sl=auto&text="+q+"&op=translate",
 "https://www.deepl.com/translator#auto/auto/"+deepLq,
 "https://www.bing.com/translator/?text="+q+"&from=auto&to=auto"
 ];
+if(confDevice != 'mobile'){
+urlList.push("https://translate.google.com/?sl=auto&text="+q+"&op=translate");
+}
+
 random = Math.floor(Math.random() * urlList.length);
 random = urlList[random];
 sRedirUrl= random;

@@ -6,6 +6,7 @@ let elementNumb = document.getElementsByClassName(name).length;
 let i = 0;
 while (i < elementNumb) {
 document.getElementsByClassName(name)[i].classList.add("highlight2");
+
 i++;
 }
 

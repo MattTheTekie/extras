@@ -1,4 +1,4 @@
-// v.3.10.8
+// v.3.10.9
 
 
 
@@ -516,7 +516,7 @@ letters = letters.replaceAll(/E2%80%8A/g, " "); // end of line
 letters = letters.replaceAll(/%E2%81%A6/g, ""); // Left-to-Right Isolate
 letters = letters.replaceAll(/%E2%81%A9/g, "");
 
-letters = decodeURIComponent(letters);
+//letters = decodeURIComponent(letters); // fixed error
 letters = letters.replaceAll(/  /g, " ");
 //letters = letters.replace(/\r\n/g, "\n");
 letters = letters.replaceAll(/ /g, ""); // end of line

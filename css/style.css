@@ -9,6 +9,7 @@ grid-gap: 4px;
 margin: 0 auto;
 justify-content: center;
 }
+
 @media(max-width: 480px) { .menu { grid-template-columns: repeat(3, 1fr); }}
 @media(max-width: 385px) { .menu { grid-template-columns: repeat(2, 1fr); }}
 @media(max-width: 254px) { .menu { grid-template-columns: repeat(1, 1fr); }}
@@ -19,3 +20,4 @@ align-content: center;
 text-transform: lowercase;
 }
 .menu a { padding: 9px; margin:0; }
+

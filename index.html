@@ -268,6 +268,8 @@ document.getElementById("hotLinks").innerHTML = a;
 
 
 <!-- menu -->
+<div class="menuNav">
+
 <div id="main">
 <div class="menuLabel block tCenter" style="margin: 9px 0; margin-top: 25px; color: var(--c);">Main:</div>
 
@@ -304,7 +306,7 @@ document.getElementById("hotLinks").innerHTML = a;
 <a id="main-cLv"  class="button light3 border3 cLv" tabindex="0" href="vscode-theme.html">vscode theme</a>
 
 <a id="main-cLw"  class="button light3 border3 cLw" tabindex="0" href="wallpaper.html">wallpaper</a>
-</div></div><div class="tCenter padding">
+</div></div><div class="tCenter padding tCenter" style="">
 <a class="tag light3 border4 op cLa" href="#main-cLa" onmouseover="hlwClassAdd('cLa')" onmouseout="hlwClassRemove('cLa')">a</a>
 
 <a class="tag light3 border4 op cLb" href="#main-cLb" onmouseover="hlwClassAdd('cLb')" onmouseout="hlwClassRemove('cLb')">b</a>
@@ -326,8 +328,28 @@ document.getElementById("hotLinks").innerHTML = a;
 <a class="tag light3 border4 op cLv" href="#main-cLv" onmouseover="hlwClassAdd('cLv')" onmouseout="hlwClassRemove('cLv')">v</a>
 
 <a class="tag light3 border4 op cLw" href="#main-cLw" onmouseover="hlwClassAdd('cLw')" onmouseout="hlwClassRemove('cLw')">w</a>
-</div>
+</div></div>
+<style>
+
+/*
+.menuNav {
+display: grid;
+grid-template-columns: calc(100% - 24px) 20px;
+justify-content: center;
+align-content: center;
+grid-gap: 4px;
+
+text-align: center;
+}
+*/
+</style>
+
+
 <script>
+
+
+
+
 function hlwClassAdd(name){
 let elementNumb = document.getElementsByClassName(name).length;
 let i = 0;
@@ -364,6 +386,8 @@ insertIcon("main");
 
 
 <!-- menu -->
+<div class="menuNav">
+
 <div id="projects">
 <div class="menuLabel block tCenter" style="margin: 9px 0; margin-top: 25px; color: var(--c);">Projects:</div>
 
@@ -442,7 +466,7 @@ insertIcon("main");
 <a  class="button light3 border3 cLt" tabindex="0" href="/projects/twitter-embed/">twitter embed</a>
 
 <a id="projects-cLw" class="button light3 border3 cLw" tabindex="0" href="/projects/weather/">weather</a>
-</div></div><div class="tCenter padding">
+</div></div><div class="tCenter padding tCenter" style="">
 <a class="tag light3 border4 op cLb" href="#projects-cLb" onmouseover="hlwClassAdd('cLb')" onmouseout="hlwClassRemove('cLb')">b</a>
 
 <a class="tag light3 border4 op cLc" href="#projects-cLc" onmouseover="hlwClassAdd('cLc')" onmouseout="hlwClassRemove('cLc')">c</a>
@@ -466,8 +490,28 @@ insertIcon("main");
 <a class="tag light3 border4 op cLt" href="#projects-cLt" onmouseover="hlwClassAdd('cLt')" onmouseout="hlwClassRemove('cLt')">t</a>
 
 <a class="tag light3 border4 op cLw" href="#projects-cLw" onmouseover="hlwClassAdd('cLw')" onmouseout="hlwClassRemove('cLw')">w</a>
-</div>
+</div></div>
+<style>
+
+/*
+.menuNav {
+display: grid;
+grid-template-columns: calc(100% - 24px) 20px;
+justify-content: center;
+align-content: center;
+grid-gap: 4px;
+
+text-align: center;
+}
+*/
+</style>
+
+
 <script>
+
+
+
+
 function hlwClassAdd(name){
 let elementNumb = document.getElementsByClassName(name).length;
 let i = 0;
@@ -504,6 +548,8 @@ insertIcon("projects");
 
 
 <!-- menu -->
+<div class="menuNav">
+
 <div id="mini-projects">
 <div class="menuLabel block tCenter" style="margin: 9px 0; margin-top: 25px; color: var(--c);">Mini-projects:</div>
 
@@ -558,7 +604,7 @@ insertIcon("projects");
 <a  class="button light3 border3 cLt" tabindex="0" href="/mini-projects/textarea/">textarea</a>
 
 <a  class="button light3 border3 cLt" tabindex="0" href="/mini-projects/tpl-project-mini/">tpl project mini</a>
-</div></div><div class="tCenter padding">
+</div></div><div class="tCenter padding tCenter" style="">
 <a class="tag light3 border4 op cLa" href="#mini-projects-cLa" onmouseover="hlwClassAdd('cLa')" onmouseout="hlwClassRemove('cLa')">a</a>
 
 <a class="tag light3 border4 op cLb" href="#mini-projects-cLb" onmouseover="hlwClassAdd('cLb')" onmouseout="hlwClassRemove('cLb')">b</a>
@@ -582,8 +628,28 @@ insertIcon("projects");
 <a class="tag light3 border4 op cLs" href="#mini-projects-cLs" onmouseover="hlwClassAdd('cLs')" onmouseout="hlwClassRemove('cLs')">s</a>
 
 <a class="tag light3 border4 op cLt" href="#mini-projects-cLt" onmouseover="hlwClassAdd('cLt')" onmouseout="hlwClassRemove('cLt')">t</a>
-</div>
+</div></div>
+<style>
+
+/*
+.menuNav {
+display: grid;
+grid-template-columns: calc(100% - 24px) 20px;
+justify-content: center;
+align-content: center;
+grid-gap: 4px;
+
+text-align: center;
+}
+*/
+</style>
+
+
 <script>
+
+
+
+
 function hlwClassAdd(name){
 let elementNumb = document.getElementsByClassName(name).length;
 let i = 0;

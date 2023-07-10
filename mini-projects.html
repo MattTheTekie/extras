@@ -76,6 +76,8 @@
 
 
 <!-- menu -->
+<div class="menuNav">
+
 <div id="mini-projects">
 <div class="menuLabel block tCenter" style="margin: 9px 0; margin-top: 25px; color: var(--c);">Mini-projects:</div>
 
@@ -130,7 +132,7 @@
 <a  class="button light3 border3 cLt" tabindex="0" href="/mini-projects/textarea/">textarea</a>
 
 <a  class="button light3 border3 cLt" tabindex="0" href="/mini-projects/tpl-project-mini/">tpl project mini</a>
-</div></div><div class="tCenter padding">
+</div></div><div class="tCenter padding tCenter" style="">
 <a class="tag light3 border4 op cLa" href="#mini-projects-cLa" onmouseover="hlwClassAdd('cLa')" onmouseout="hlwClassRemove('cLa')">a</a>
 
 <a class="tag light3 border4 op cLb" href="#mini-projects-cLb" onmouseover="hlwClassAdd('cLb')" onmouseout="hlwClassRemove('cLb')">b</a>
@@ -154,8 +156,28 @@
 <a class="tag light3 border4 op cLs" href="#mini-projects-cLs" onmouseover="hlwClassAdd('cLs')" onmouseout="hlwClassRemove('cLs')">s</a>
 
 <a class="tag light3 border4 op cLt" href="#mini-projects-cLt" onmouseover="hlwClassAdd('cLt')" onmouseout="hlwClassRemove('cLt')">t</a>
-</div>
+</div></div>
+<style>
+
+/*
+.menuNav {
+display: grid;
+grid-template-columns: calc(100% - 24px) 20px;
+justify-content: center;
+align-content: center;
+grid-gap: 4px;
+
+text-align: center;
+}
+*/
+</style>
+
+
 <script>
+
+
+
+
 function hlwClassAdd(name){
 let elementNumb = document.getElementsByClassName(name).length;
 let i = 0;

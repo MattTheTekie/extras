@@ -76,6 +76,8 @@
 
 
 <!-- menu -->
+<div class="menuNav">
+
 <div id="projects">
 <div class="menuLabel block tCenter" style="margin: 9px 0; margin-top: 25px; color: var(--c);">Projects:</div>
 
@@ -154,7 +156,7 @@
 <a  class="button light3 border3 cLt" tabindex="0" href="/projects/twitter-embed/">twitter embed</a>
 
 <a id="projects-cLw" class="button light3 border3 cLw" tabindex="0" href="/projects/weather/">weather</a>
-</div></div><div class="tCenter padding">
+</div></div><div class="tCenter padding tCenter" style="">
 <a class="tag light3 border4 op cLb" href="#projects-cLb" onmouseover="hlwClassAdd('cLb')" onmouseout="hlwClassRemove('cLb')">b</a>
 
 <a class="tag light3 border4 op cLc" href="#projects-cLc" onmouseover="hlwClassAdd('cLc')" onmouseout="hlwClassRemove('cLc')">c</a>
@@ -178,8 +180,28 @@
 <a class="tag light3 border4 op cLt" href="#projects-cLt" onmouseover="hlwClassAdd('cLt')" onmouseout="hlwClassRemove('cLt')">t</a>
 
 <a class="tag light3 border4 op cLw" href="#projects-cLw" onmouseover="hlwClassAdd('cLw')" onmouseout="hlwClassRemove('cLw')">w</a>
-</div>
+</div></div>
+<style>
+
+/*
+.menuNav {
+display: grid;
+grid-template-columns: calc(100% - 24px) 20px;
+justify-content: center;
+align-content: center;
+grid-gap: 4px;
+
+text-align: center;
+}
+*/
+</style>
+
+
 <script>
+
+
+
+
 function hlwClassAdd(name){
 let elementNumb = document.getElementsByClassName(name).length;
 let i = 0;
