@@ -123,14 +123,18 @@ text-decoration: none;
 
 }
 
-// webkit
+/* only webkit */
 :playing {
   border-bottom: 5px solid green;
 }
 
 
-
-
+/*
+https://web.dev/color-spaces-and-functions/
+*/
+body {
+  background-color: color-mix(in srgb, gray 30%, white);
+}
 
 
 

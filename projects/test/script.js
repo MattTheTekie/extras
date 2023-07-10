@@ -1,6 +1,6 @@
 // v.1.0.0
 
-
+setTheme('light');
 
 
 console.log(0 / 0);
@@ -59,6 +59,12 @@ console.log('onscrollend');
 
 var a = null;
 document.getElementById('print').innerHTML += a;
+
+
+
+
+
+
 
 
 

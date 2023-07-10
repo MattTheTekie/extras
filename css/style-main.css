@@ -1,6 +1,6 @@
-/* v.12.24.2 */
+/* v.12.24.4 */
 
-* {  color-scheme: light dark; } /* view-source:about:blank */ 
+* {  color-scheme: light dark; } /* view-source:about:blank */ /* fixed #fff blink */
 
 :root{
 --bodyP: 5vw;
@@ -386,13 +386,15 @@ scroll-padding-top: 16px;
 /* ads */
 .adsHeader { display: block; float: right; text-align: right; }
 .adsHeader a { font-size: x-small; }
-.adsBody { padding-bottom: 15px;  }
+.adsBody { padding-bottom: 15px; }
+.adsBody a { word-break: break-all; } /* fixed over */
 
 
 
 
 
-/* fix */
+/* fixed */
+
 h1, h2, h3, h4, h5, h6 { word-break: break-all; }
 
 @media(max-width: 200px) { div, input, textarea, a{ word-break: break-all; } }

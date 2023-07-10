@@ -4,6 +4,7 @@
 // conf
 var symbolForSplit = 'pwxortuzqu'; // for split
 
+
 // if localhost make some pages with php extension, because in the original they are php
 var confHost = location.hostname;
 if (confHost === "localhost" ||  confHost === "127.0.0.1"||confHost.search("192.168") != -1){
