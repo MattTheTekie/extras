@@ -380,7 +380,7 @@ overflow-x: hidden;
 overflow-y: auto;
 scroll-padding-top: 16px;
 }
-.scrollPadding { scroll-padding-top: 16px; }
+/*.scrollPaddingTop { scroll-padding-top: 16px; }*/
 .break { overflow: hidden; word-wrap: break-word; overflow-wrap: break-word; }
 
 
