@@ -62,4 +62,3 @@ border: 1px solid var(--d3);
 from { transform: rotate(0deg); font-size: 7px; }
 to { transform: rotate(-360deg); font-size: 18px; }
 }
-
