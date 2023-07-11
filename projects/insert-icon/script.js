@@ -21,6 +21,7 @@ let icons = {
 "cut":"✂️",
 "clock":"🕑",
 "cofee":"☕", "coffee":"☕",
+"copyright":"©",
 "comment":"💬","talk":"💬","chat":"💬",
 "css":"🖥️", "php":"🖥️", "java":"🖥️", "code":"🖥️", "unicorn":"🦄",
 "db":"💾", "data":"💾", "database":"💾", "keep":"💾", "save":"💾",

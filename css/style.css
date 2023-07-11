@@ -1,4 +1,4 @@
-/* v.1.0.1 */
+/* v.1.1.0 */
 
 .menu {
 display: grid;
@@ -24,7 +24,7 @@ text-transform: lowercase;
 
 /*list*/
 .listBlock { padding: 0 5%; margin-bottom: 10px; }
-.list {
+.listItem {
 padding: 4px 0;
 border-bottom: 2px dotted var(--d3);
 }

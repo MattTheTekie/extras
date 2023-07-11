@@ -17,7 +17,7 @@ border-radius: 7px;
 .grid {
 display: grid;
 grid-template-columns: 40px 40px 40px 40px;
-grid-gap: 9px;
+grid-gap: 5px;
 margin: 0 auto;
 margin-top: 15px;
 padding: 0;
