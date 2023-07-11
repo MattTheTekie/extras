@@ -1,4 +1,4 @@
-/* v.12.24.5 */
+/* v.12.25.1 */
 
 * {  color-scheme: light dark; } /* view-source:about:blank */ /* fixed #fff blink */
 
@@ -275,13 +275,13 @@ height: 6px;
 ::placeholder, input::-webkit-input-placeholder { color: var(--c); }
 
 
-/*input[type="search"]::-webkit-search-cancel-button{
+input[type="search"]::-webkit-search-cancel-button{
 -webkit-appearance: none;
 height: 10px;
 width: 10px;
 background-image: url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAoAAAAKCAYAAACNMs+9AAABbmlDQ1BpY2MAACiRdZHPKwRhGMc/uwiLHDhI0hyWHGxtlBxZB5dNWpTFZXfM7KqdMc3MJrkqFwflIC5+HfwHXJUrpRQpyckf4NdFGs+7q3YT7/TO8+n7vt+n9/2+EE4WdMurjYNl+25qPKHNpue0+mciNNICdGd0zxmdnEzy7/i4JaTqTUz1+n/fn6Np0fB0CDUID+mO6wuPCCdXfEfxpnC7ns8sCh8I97tyQOFLpWfL/KQ4V+Y3xe50agzCqqeWq+JsFet51xLuE45ahaL+cx51k2bDnpmS2imzC48U4yTQyFJkiQI+Mam2ZPa3L17yTbAsHl3+Dqu44siRF2+/qEXpakg1RTfkK7Cqcv+dp2cODpS7Nyeg7jEIXnugfhu+toLg8zAIvo6g5gHO7Yp/WXIafhd9q6JF96F1HU4vKlp2B842oOPeybiZklQjM2ya8HICLWlou4bIfDmrn3WO72B6TZ7oCnb3oFf2ty58A5N3Z9gRfyj7AAAACXBIWXMAAC4jAAAuIwF4pT92AAAAvUlEQVQYV2NgIBIwgtRNmzatFkhdyMrK2gzTBxQTA7I7gbgZKH6PCSohAxIESoZDNYoC6Q1ArA7EYDUwEzmA7G4gDgTiViCOAOL/QJwDNO0KXCHUFB4gPRuI/YH4ORB7ABXdhjkFZjWIzwfEckD8DYh/AbEGTBGIBisEuk0SSG0F4p9AbAbER4EY7ma4QiBjARC/BOJ0kA9BbgPivUDcDTQEbDIL1PgiIP0ZqOgRlP8DSFcC8QEgfoDsBIJsAOsYNCiM5q29AAAAAElFTkSuQmCC");
 cursor: pointer;
-}*//*for validator*/
+}
 input, progress, select { accent-color: var(--b3);  } /* comment for validator*/
 
 table, tr, td { border: 1px solid var(--d); background-color: var(--l); }
@@ -291,35 +291,36 @@ td { background-color: var(--l2); }
 
 .shadow { box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24); }
 
-.brand, .brand a, .brand button{ color: var(--b3); } .b2, .b2 a { color: var(--b4); }
-.brand:hover, .brand a:hover, .brand button:hover { color: var(--b4); }
+.brand, a .brand, .brand a, .brand button{ color: var(--b3); }
+.b2, .b2 a { color: var(--b4); }
+.brand:hover, a .brand:hover, .brand a:hover, .brand button:hover { color: var(--b4); }
 
 .red { color: var(--red); } .red2 { color: var(--red2); }
-.red:hover { color: var(--red2); }
+a .red:hover, .red a:hover { color: var(--red2); }
 .redBg { background: var(--red); }
 
 .orange { color: var(--orange); } .orange2 { color: var(--orange2); }
-.orange:hover { color: var(--orange2); }
+a .orange:hover, .orange a:hover { color: var(--orange2); }
 .orangeBg { background: var(--orange); }
 
 .yellow { color: var(--yellow); } .yellow2 { color: var(--yellow2);}
-.yellow:hover { color: var(--yellow2); }
+a .yellow:hover, .yellow a:hover { color: var(--yellow2); }
 .yellowBg { background: var(--yellow); }
 
 .green { color: var(--green); } .green2 { color: var(--green2); }
-.green:hover { color: var(--green2); }
+a .green:hover, .green a:hover { color: var(--green2); }
 .greenBg { background: var(--green); }
 
 .blue { color: var(--blue); } .blue2 { color: var(--blue2); }
-.blue:hover { color: var(--blue2); }
+a .blue:hover, .blue a:hover { color: var(--blue2); }
 .blueBg { background: var(--blue); }
 
 .indigo { color: var(--indigo); } .indigo2 { color: var(--indigo2); }
-.indigo:hover { color: var(--indigo2); }
+a .indigo:hover, .indigo a:hover { color: var(--indigo2); }
 .indigoBg { background: var(--indigo); }
 
 .violet { color: var(--violet); } .violet2 { color: var(--violet2); }
-.violet:hover { color: var(--violet2); }
+a .violet:hover, .violet a:hover { color: var(--violet2); }
 .violeBg { background: var(--violet); }
 
 .active { color: var(--c3); }
@@ -364,8 +365,8 @@ td { background-color: var(--l2); }
 .tRight { text-align: right; }
 .capitalize { text-transform: capitalize; }
 .lowercase { text-transform: lowercase; }
-.b, .b a { font-weight: bold; }
-.bold, .bold a { font-weight: bold; }
+.b, .b a, a .b { font-weight: bold; }
+.bold, .bold a, a .bold { font-weight: bold; }
 .small, .small a { font-size: small; }
 .xSmall, .xSmall a { font-size: x-small; }
 .xxSmall, .xxSmall a { font-size: xx-small; }
