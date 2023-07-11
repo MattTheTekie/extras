@@ -1,4 +1,4 @@
-/* v.1.0.0 */
+/* v.1.0.1 */
 
 .menu {
 display: grid;
@@ -22,10 +22,23 @@ text-transform: lowercase;
 .menu a { padding: 9px; margin:0; }
 
 
-
+/*list*/
 .listBlock { padding: 0 5%; margin-bottom: 10px; }
 .list {
 padding: 4px 0;
 border-bottom: 2px dotted var(--d3);
 }
 .listBlock ul li { list-style-type:none }
+
+
+/*first latter*/
+h3, b, .bold, nav a {
+/*text-transform: uppercase;*/
+}
+h3::first-letter, b::first-letter, .bold::first-letter {
+border-bottom: 1px solid var(--c);
+}
+
+/*nav a::first-letter {
+border-bottom: 1px solid var(--b3);
+}*/
