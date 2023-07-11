@@ -1,13 +1,13 @@
-/* v.1.1.1 */
+/* v.1.2.0 */
 /* fixme centring text in task */
+/* fiexed textarea width: cols="100" */
 
-.checkbox { display: inline-flex; padding: 0; margin: 0;  margin-right: 7px !important;  }
-
+input[type="chckbox"] { display: inline-block;  }
+.chckbox {}
 
 .task {
 display: grid;
-grid-template-columns: 5% 1fr 70px;
-
+grid-template-columns: 15px 30px 1fr 70px;
 grid-gap: 0;
 margin: 0;
 width: 100%;
@@ -15,8 +15,7 @@ max-width: 100%;
 justify-content: center;
 align-items: safe center;
 align-self: safe center;
-
-
+word-break: break-all;
 }
 
 

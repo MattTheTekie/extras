@@ -427,11 +427,12 @@ editPrint = `${titlePrint}`;
 // show  & edit button
 let printTmp = '';
 if(statusPrint == 'done'){
-printTmp = `<div class="op xSmall">${idPrint}</div>
-<div class="flexCenter"><div class="pre op block" style="text-decoration: line-through;"><input class="checkbox op" checked="checked" type="checkbox"  name="" value="undone" onclick="runDb('done', '`+idPrint+`', '', 'undone')">${editPrint}</div></div>`;
+printTmp = `<div class="op xSmall">${idPrint}</div><input class="checkbox op" checked="checked" type="checkbox"  name="" value="undone" onclick="runDb('done', '`+idPrint+`', '', 'undone')">
+<div class="flexCenter"><div class="pre op block" style="text-decoration: line-through;">${editPrint}</div></div>`;
 }else{
 printTmp = `<div class="op xSmall">${idPrint}</div>
-<div class="flexCenter"><div class="pre block"><input class="checkbox op" type="checkbox"  name="" value="done" onclick="runDb('done', '`+idPrint+`', '', 'done')">${editPrint}</div></div>`;
+<input class="checkbox op" type="checkbox"  name="" value="done" onclick="runDb('done', '`+idPrint+`', '', 'done')">
+<div class="flexCenter"><div class="pre block">${editPrint}</div></div>`;
 }
 
 
