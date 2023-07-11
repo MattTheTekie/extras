@@ -6,7 +6,7 @@ function fuAds(none, idAds, none2, comAds){
 // none - reserver var
 
 //
-const confGoogleAnalyticsId = 'G-HYV48GZ3ZC';
+const confGoogleAnalyticsId = 'G-5S4DEE8WLV';
 
 
 // Google Analytics 
@@ -23,7 +23,7 @@ document.getElementsByTagName('head')[0].appendChild(scriptStat);
 window.dataLayer = window.dataLayer || [];
 function gtag(){dataLayer.push(arguments);}
 gtag('js', new Date());
-gtag('config', 'G-HYV48GZ3ZC');
+gtag('config', confGoogleAnalyticsId);
 
 
 
