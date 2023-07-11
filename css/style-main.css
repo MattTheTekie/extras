@@ -1,4 +1,4 @@
-/* v.12.25.1 */
+/* v.12.26.0 */
 
 * {  color-scheme: light dark; } /* view-source:about:blank */ /* fixed #fff blink */
 
@@ -381,7 +381,7 @@ overflow-x: hidden;
 overflow-y: auto;
 scroll-padding-top: 16px;
 }
-/*.scrollPaddingTop { scroll-padding-top: 16px; }*/
+
 .break { overflow: hidden; word-wrap: break-word; overflow-wrap: break-word; }
 
 

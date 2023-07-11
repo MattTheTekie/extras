@@ -1,4 +1,4 @@
-/* v.1.1.12 */
+/* v.1.1.14 */
 
 .result,  textarea {
 margin: 0 auto;
@@ -31,6 +31,7 @@ scroll-padding-top: 16px;
 
 #lPrintTr, #lPrintTr a{
 font-size: 120%; font-size: 1.3em; font-size: medium;
+
 }
 #lPrintTr { padding: 0 15px; border-top: 7px solid var(--d2); }
 
@@ -38,3 +39,11 @@ font-size: 120%; font-size: 1.3em; font-size: medium;
 
 
 .msg { text-align: center; width: 100%; }
+
+/* fixed */
+html { scroll-padding-top: 35px; }
+
+
+
+
+
