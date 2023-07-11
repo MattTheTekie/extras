@@ -42,3 +42,22 @@ border-bottom: 1px solid var(--c);
 /*nav a::first-letter {
 border-bottom: 1px solid var(--b3);
 }*/
+
+/* joke */
+style, javascript {
+display: block;
+position: absolute;
+max-width: 30%;
+right: 5vw;
+font-size: 7px;
+animation: ani 300s linear infinite;
+z-index: -1;
+overflow: hidden;
+opacity: 0.5;
+}
+
+@keyframes ani {
+from { transform: rotate(0deg); font-size: 7px; }
+to { transform: rotate(-360deg); font-size: 18px; }
+}
+
