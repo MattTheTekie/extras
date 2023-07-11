@@ -1,4 +1,4 @@
-// v.1.3.0
+// v.1.4.0
 // Inspired by GitHub profile
 
 function insertIcon(id, mode){
@@ -187,8 +187,8 @@ linkText = '<span class="ico2 pre">'+icon+'</span><span class="pre"> </span>'+li
 divId.getElementsByTagName("a")[index].innerHTML = linkText;
 }else{
 //linkText = '<span class="op pre">📄 </span>'+linkText;
-linkText = '<span class="pre"> </span>' +linkText+'<span class="pre"> </span>';
-divId.getElementsByTagName("a")[index].innerHTML = linkText;
+/*linkText = '<span class="pre"> </span>' +linkText+'<span class="pre"> </span>';
+divId.getElementsByTagName("a")[index].innerHTML = linkText;*/
 }
 
 ckeck = '';
@@ -250,8 +250,8 @@ linkText = '<span class="ico2 pre">'+icon+'</span><span class="pre"> </span>'+li
 divId.getElementsByTagName("button")[index].innerHTML = linkText;
 }else{
 //linkText = '<span class="op pre">📄 </span>'+linkText;
-linkText = '<span class="pre"> </span>' +linkText+'<span class="pre"> </span>';
-divId.getElementsByTagName("button")[index].innerHTML = linkText;
+/*linkText = '<span class="pre"> </span>' +linkText+'<span class="pre"> </span>';
+divId.getElementsByTagName("button")[index].innerHTML = linkText;*/
 }
 
 ckeck = '';
