@@ -49,11 +49,13 @@ display: block;
 position: absolute;
 max-width: 30%;
 right: 5vw;
-font-size: 7px;
-animation: ani 300s linear infinite;
+font-size: 8px;
+/*animation: ani 300s linear infinite;*/
 z-index: -1;
 overflow: hidden;
 opacity: 0.5;
+padding: 5px;
+border: 1px solid var(--d3);
 }
 
 @keyframes ani {
