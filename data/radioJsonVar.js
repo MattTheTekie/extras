@@ -171,7 +171,7 @@ var radioJsonVar =
     {
         "text": "BPR - Homepage",
         "text2": "https:\/\/prod-54-211-226-228.wostreaming.net\/wncpr-wcqshd2aac128-ibc4",
-        "text3": "#mp3",
+        "text3": "#aac",
         "url": "https:\/\/www.bpr.org\/",
         "tag": "#radio #en"
     },

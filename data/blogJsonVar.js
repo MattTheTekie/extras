@@ -1,6 +1,15 @@
 var blogJsonVar = 
 [
     {
+        "id": "98",
+        "text": "scroll-snap-type - CSS: Cascading Style Sheets | MDN",
+        "text2": "",
+        "text3": "",
+        "url": "https:\/\/developer.mozilla.org\/en-US\/docs\/Web\/CSS\/scroll-snap-type",
+        "tag": "#CSS",
+        "time": 1689142295
+    },
+    {
         "id": "97",
         "text": "W3C (@w3c@w3c.social) on Twitter: \"See Coralie Mercier's blog post: \"On the surface, the new site implements current web best practices, donned a cleaner and elegant visual design, and provides information in a more user-friendly fashion. Under the hood, everything changed https:\/\/t.co\/GwvZq6bESe\" \/ Twitter",
         "text2": "",
