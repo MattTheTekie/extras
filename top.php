@@ -42,7 +42,7 @@
 
 
 
-<script src="/js/main.js" async></script>
+<script src="/js/main.js"></script>
 
 
 </head>

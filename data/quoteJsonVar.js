@@ -302,6 +302,13 @@ var quoteJsonVar =
         "tag": "#quote"
     },
     {
+        "text": "The secret to getting ahead is getting started. The secret to getting started is breaking your complex, overwhelming tasks into small manageable tasks, and then starting on the first one. Mark Twain",
+        "text2": "",
+        "text3": "",
+        "url": "",
+        "tag": "#quote"
+    },
+    {
         "text": "The way to get started is to quit talking and begin doing. Walt Disney",
         "text2": "",
         "text3": "",

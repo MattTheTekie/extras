@@ -34,8 +34,11 @@ echo <<<e
 
 
 <div class="pre light shadow padding">
-<span class="op">prompt:</span><br>$q<hr>
-<span class="op">answer:</span><br>
+<span class="op">prompt:</span>
+
+$q
+<hr>
+<span class="op">answer:</span>
 e;
 include_once "data.php";
 echo <<<e

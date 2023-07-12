@@ -36,3 +36,5 @@ align-items: safe center;
 overflow: auto;
 }*/
 
+
+textarea { min-height: 30vh; }

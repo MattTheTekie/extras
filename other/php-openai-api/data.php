@@ -64,7 +64,7 @@ curl_close ($ch);
 // print
 $data = explode('"text": "', $server_output);
 if(!empty($data[1])){
-$data = rawurldecode(strtok($data[1], '"'));
+$data = rawurldecode(strtok(trim($data[1]), '"'));
 //https://stackoverflow.com/questions/3264270/replace-n-with-actual-new-line-character-code
 $data = str_replace(array('\r\n', '\n\r', '\n', '\r'), '
 ', $data);
