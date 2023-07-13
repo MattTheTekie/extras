@@ -1,6 +1,20 @@
 var tvJsonVar = 
 [
     {
+        "text": "ABC News - YouTube",
+        "text2": "",
+        "text3": "",
+        "url": "https:\/\/www.youtube.com\/@ABCNews\/featured",
+        "tag": "#tv #news #en"
+    },
+    {
+        "text": "CNN - YouTube",
+        "text2": "",
+        "text3": "",
+        "url": "https:\/\/www.youtube.com\/@CNN\/featured",
+        "tag": "#tv #en #news"
+    },
+    {
         "text": "DW - Deutsche Welle Live TV (Deutsch) - YouTube",
         "text2": "UCMIgOXM2JEQ2Pv2d0_PVfcg",
         "text3": "YouTubeChannelID",
@@ -8,18 +22,18 @@ var tvJsonVar =
         "tag": "#tv #de #detv"
     },
     {
-        "text": "DW - en vivo (Espa\u00f1ol) - YouTube",
-        "text2": "UCT4Jg8h03dD0iN3Pb5L0PMA",
-        "text3": "YouTubeChannelID",
-        "url": "https:\/\/www.youtube.com\/c\/dwespanol\/live",
-        "tag": "#tv #es #estv"
-    },
-    {
         "text": "DW News livestream | Headline news from around the world - YouTube",
         "text2": "UCknLrEdhRCp1aegoMqRaCZg",
         "text3": "YouTubeChannelID",
         "url": "https:\/\/www.youtube.com\/c\/dwnews\/live",
         "tag": "#tv #en"
+    },
+    {
+        "text": "Espreso - YouTube",
+        "text2": "",
+        "text3": "",
+        "url": "https:\/\/www.youtube.com\/@EspresoTv\/featured",
+        "tag": "#tv #ua"
     },
     {
         "text": "Euronews English Live - YouTube",
@@ -36,24 +50,24 @@ var tvJsonVar =
         "tag": "#tv #en"
     },
     {
-        "text": "NASA Live | NASA",
-        "text2": "UCLA_DiR1FfKNvjuUpBHmylQ",
-        "text3": "YouTubeChannelID",
-        "url": "https:\/\/www.nasa.gov\/nasalive",
-        "tag": "#tv #en #space #science"
+        "text": "NBC News - YouTube",
+        "text2": "",
+        "text3": "",
+        "url": "https:\/\/www.youtube.com\/@NBCNews\/featured",
+        "tag": "#tv #en #news"
     },
     {
-        "text": "QVC Live Stream - YouTube",
-        "text2": "UCW4gXUEypFeI3xgoQ27LFBA",
-        "text3": "YouTubeChannelID",
-        "url": "https:\/\/www.youtube.com\/c\/QVCtv\/live",
-        "tag": "#tv #en #shop"
+        "text": "RTVE - YouTube",
+        "text2": "",
+        "text3": "",
+        "url": "https:\/\/www.youtube.com\/@rtve\/featured",
+        "tag": "#tv #es"
     },
     {
-        "text": "Track the impact of global warming on the world",
-        "text2": "UCoMdktPbSTixAyNGwb-UYkQ",
-        "text3": "YouTubeChannelID",
-        "url": "https:\/\/www.youtube.com\/c\/SkyNews\/live",
+        "text": "Sky News - YouTube",
+        "text2": "",
+        "text3": "",
+        "url": "https:\/\/www.youtube.com\/@SkyNews\/featured",
         "tag": "#tv #en"
     },
     {
@@ -61,13 +75,6 @@ var tvJsonVar =
         "text2": "UCwY9B5_8QDGP8niZhBtTh8w",
         "text3": "YouTubeChannelID",
         "url": "https:\/\/www.youtube.com\/c\/twit\/live",
-        "tag": "#tv #en"
-    },
-    {
-        "text": "\u0415\u0441\u043f\u0440\u0435\u0441\u043e",
-        "text2": "UCMEiyV8N2J93GdPNltPYM6w",
-        "text3": "YouTubeChannelID",
-        "url": "https:\/\/www.youtube.com\/c\/EspresoTv\/live",
-        "tag": "#tv #ua"
+        "tag": "#tv #en #technology"
     }
 ]

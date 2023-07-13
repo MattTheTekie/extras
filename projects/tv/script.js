@@ -1,4 +1,4 @@
-// v.1.2.9
+// v.1.2.10
 
 function randomRadio(printId, jsonVar){
 
@@ -11,7 +11,7 @@ var count = 0;
 var scriptDir = '';
 var printTagList = '';
 var tagListLimit = '100';
-
+var embedServiceList = '';
 //alert(jsonVar[getRandomInt(jsonVar.length)]);
 //alert(jsonVar.length);
 
@@ -78,10 +78,10 @@ qSearch = String(qSearch).toLowerCase();
 
 
 // if tag
-//if(qSearch[0] == '#'){}
+
 qData = String(postText+' '+postText2+' '+postText3+' '+postTag).toLowerCase();
-qData = qData.replaceAll(/,/g, ' ');
-if((qData+' ').indexOf((qSearch+' ')) >= 0){
+if(qSearch[0] == '#'){ qData = qData.replaceAll(/,/g, ' '); }
+if((qData).indexOf((qSearch)) >= 0){
 arrListForRandom.push(key);
 
 i++;
@@ -108,7 +108,9 @@ comMessagePrint += '<span class=""> random id: '+id+'</span>';
 
 var play = highlightText2('', '');
 var post = `<b>${jsonVar[id]['text']}</b> ${highlightText2(jsonVar[id]['url'], '')}`;
+if(jsonVar[id]['text2'] != ''){
 post += `<br>play source: ${jsonVar[id]['text2']}`;
+}
 var tag = highlightText2(' '+jsonVar[id]['tag'], '');
 
 document.getElementById(printId).innerHTML = `
@@ -192,14 +194,51 @@ var host = new URL(item).hostname; // stop working when error
 }
 */
 
+
 let checkEmbedEmpty = item.split('/');
 //if(item.split('/').length > 4){
 if(checkEmbedEmpty[3]){
 var host = item.split('/');
-if(count == 0){
+
 if(host[3] != undefined){
+
 switch (host[2]) {
 
+
+
+case "youtu.be":
+case "m.youtube.com":
+case "www.youtube.com":
+case "music.youtube.com":
+
+if((item).indexOf((`v=`)) >= 0){
+play = item.split('v=').pop();
+if(play != ''){
+embed = `<!--<iframe id="player" style="border:0;" height="${h}" width="${w}" src="https://www.youtube.com/embed/${play}"></iframe>--><iframe width="${w}" height="${h}" src="https://www.youtube.com/embed/${play}?&autoplay=1" title="YouTube video player" frameborder="0" allow="autoplay; clipboard-write; encrypted-media; gyroscope; autoplay; picture-in-picture" allowfullscreen></iframe>`;
+embedServiceList += 'youtube';
+}
+}
+
+if((item).indexOf((`list`)) >= 0){
+play = item.split('list=');
+play = play[play.length - 1];
+if(play != ''){
+embed = `<iframe width="${w}" height="${h}" src="https://www.youtube-nocookie.com/embed/videoseries?list=${play}&autoplay=1" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>`;
+embedServiceList += 'youtube';
+}
+}
+
+if((item).indexOf((`featured`)) >= 0||(item).indexOf((`@`)) >= 0){
+play = item.split('/');
+play = play[play.length - 2];
+if(play != ''){
+play = play.replace("@", "");
+embed = `<iframe width="${w}" height="${h}" src="https://www.youtube.com/embed/?listType=user_uploads&list=${play}&autoplay=1" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>`;
+embedServiceList += 'youtube';
+}
+}
+
+break;
 
 case "tunein.com":
 play = item.split('/');
@@ -219,7 +258,7 @@ break;
 
 }
 }
-}
+
 }
 
 itemCheck = item.replaceAll(/\./g, symbolForSplit);

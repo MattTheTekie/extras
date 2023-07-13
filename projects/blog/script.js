@@ -1,4 +1,4 @@
-// v.1.17.1
+// v.1.17.3
 
 // inspired by Twitter, Fediverse
 // not for large Json files
@@ -259,8 +259,8 @@ var qData = String(postText+' '+postTag).toLowerCase();
 
 // if tag
 if(qSearch[0] == '#'){
-qData = qData.replaceAll(/,/g, ' ');
-if((qData+' ').indexOf((qSearch+' ')) >= 0){
+qData2 = qData.replaceAll(/,/g, ' ');
+if((qData2+' ').indexOf((qSearch+' ')) >= 0){
 if(getP3 <= i){
 if(i3 <= postLimit - 1){
 print += fuPrintPost(postId, postText, postTag, postTime);
@@ -992,11 +992,34 @@ case "youtu.be":
 case "m.youtube.com":
 case "www.youtube.com":
 case "music.youtube.com":
+
+if((item).indexOf((`v=`)) >= 0){
 play = item.split('v=').pop();
 if(play != ''){
 embed = `<!--<iframe id="player" style="border:0;" height="${h}" width="${w}" src="https://www.youtube.com/embed/${play}"></iframe>--><iframe width="${w}" height="${h}" src="https://www.youtube.com/embed/${play}" title="YouTube video player" frameborder="0" allow="autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>`;
 embedServiceList += 'youtube';
 }
+}
+
+if((item).indexOf((`list`)) >= 0){
+play = item.split('list=');
+play = play[play.length - 1];
+if(play != ''){
+embed = `<iframe width="${w}" height="315" src="https://www.youtube-nocookie.com/embed/videoseries?list=${play}" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>`;
+embedServiceList += 'youtube';
+}
+}
+
+if((item).indexOf((`featured`)) >= 0||(item).indexOf((`@`)) >= 0){
+play = item.split('/');
+play = play[play.length - 2];
+if(play != ''){
+play = play.replace("@", "");
+embed = `<iframe width="${w}" height="315" src="https://www.youtube.com/embed/?listType=user_uploads&list=${play}" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>`;
+embedServiceList += 'youtube';
+}
+}
+
 break;
 
 case 'vimeo.com':
@@ -1426,11 +1449,34 @@ case "youtu.be":
 case "m.youtube.com":
 case "www.youtube.com":
 case "music.youtube.com":
+
+if((item).indexOf((`v=`)) >= 0){
 play = item.split('v=').pop();
 if(play != ''){
 embed = `<!--<iframe id="player" style="border:0;" height="${h}" width="${w}" src="https://www.youtube.com/embed/${play}"></iframe>--><iframe width="${w}" height="${h}" src="https://www.youtube.com/embed/${play}?&autoplay=1" title="YouTube video player" frameborder="0" allow="autoplay; clipboard-write; encrypted-media; gyroscope; autoplay; picture-in-picture" allowfullscreen></iframe>`;
 embedServiceList += 'youtube';
 }
+}
+
+if((item).indexOf((`list`)) >= 0){
+play = item.split('list=');
+play = play[play.length - 1];
+if(play != ''){
+embed = `<iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/videoseries?list=${play}&autoplay=1" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>`;
+embedServiceList += 'youtube';
+}
+}
+
+if((item).indexOf((`featured`)) >= 0||(item).indexOf((`@`)) >= 0){
+play = item.split('/');
+play = play[play.length - 2];
+if(play != ''){
+play = play.replace("@", "");
+embed = `<iframe width="${w}" height="315" src="https://www.youtube.com/embed/?listType=user_uploads&list=${play}&autoplay=1" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>`;
+embedServiceList += 'youtube';
+}
+}
+
 break;
 
 case 'vimeo.com':
