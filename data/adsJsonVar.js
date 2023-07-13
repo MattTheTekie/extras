@@ -113,6 +113,13 @@ var adsJsonVar =
         "tag": "#ads"
     },
     {
+        "text": "Draw Freely | Inkscape",
+        "text2": "",
+        "text3": "",
+        "url": "https:\/\/inkscape.org\/",
+        "tag": "#ads"
+    },
+    {
         "text": "Dropbox.com",
         "text2": "",
         "text3": "",
