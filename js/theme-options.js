@@ -1,4 +1,4 @@
-/* v.3.1.3 */
+/* v.3.1.5 */
 
 var result = '';
 themeListOption.forEach((element) => {
@@ -11,7 +11,7 @@ if(element == 'rand-l'){ result += '<br><hr>'; }
 if(element == 'auto'){ result += '<br>'; }
 
 if(element == theme){
-result += '<button id="'+element+'" class="m tag light4 bold margin padding" style="font-size: 100%; padding: 6px;">'+element+'</button>';
+result += '<button id="'+element+'" class="m tag light4 margin padding" style="font-size: 100%; padding: 6px;">'+element+'</button>';
 }else{
 result += '<button id="'+element+'" class="m tag light margin padding" style="font-size: 100%; padding: 6px;">'+element+'</button>';
 }
@@ -28,11 +28,9 @@ if(e == element){
 //document.getElementById(e).innerHTML = 'test';
 var element = document.getElementById(e);
 element.classList.add("light4");
-element.classList.add("bold");
 }else{
 var el = document.getElementById(element);
 el.classList.remove("light4");
-el.classList.remove("bold");
 //document.getElementById(element).innerHTML = element;
 }
 });

@@ -1,4 +1,4 @@
-/* v.12.26.0 */
+/* v.12.26.2 */
 
 * {  color-scheme: light dark; } /* view-source:about:blank */ /* fixed #fff blink */
 
@@ -73,13 +73,12 @@ footer span:last-child { padding-right: 0; }
 nav form { display: inline-block; max-width: 120px; }
 nav input[type=search] { padding: 5px; min-height: 10px; }
 
-h1, .h1 { font-size: calc(100% + 60%); }
+h1, .h1 { font-size: calc(100% + 50%); }
 h2, .h2 { font-size: calc(100% + 40%); }
-h3, h4, h5, h6, .h3, .h4, .h5, .h6 { font-size: calc(100% + 20%); }
-
-.h1 { font-size: calc(100% + 60%); }
-.h2 { font-size: calc(100% + 40%); }
-.h3, .h4, .h5, .h6 { font-size: calc(100% + 20%); }
+h3, .h3 { font-size: calc(100% + 30%); }
+h4, .h4 { font-size: calc(100% + 20%); }
+h5, .h5 { font-size: calc(100% + 10%); }
+h6, .h6 { font-size: calc(100% + 5%); }
 
 input[type=text], input[type=search], textarea, input[type=submit]{
 width: 100%;
@@ -291,36 +290,36 @@ td { background-color: var(--l2); }
 
 .shadow { box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24); }
 
-.brand, a .brand, .brand a, .brand button{ color: var(--b3); }
+.brand, .brand a, .brand button{ color: var(--b3); }
 .b2, .b2 a { color: var(--b4); }
 .brand:hover, a .brand:hover, .brand a:hover, .brand button:hover { color: var(--b4); }
 
 .red { color: var(--red); } .red2 { color: var(--red2); }
-a .red:hover, .red a:hover { color: var(--red2); }
+.red a:hover { color: var(--red2); }
 .redBg { background: var(--red); }
 
 .orange { color: var(--orange); } .orange2 { color: var(--orange2); }
-a .orange:hover, .orange a:hover { color: var(--orange2); }
+.orange a:hover { color: var(--orange2); }
 .orangeBg { background: var(--orange); }
 
 .yellow { color: var(--yellow); } .yellow2 { color: var(--yellow2);}
-a .yellow:hover, .yellow a:hover { color: var(--yellow2); }
+.yellow a:hover { color: var(--yellow2); }
 .yellowBg { background: var(--yellow); }
 
 .green { color: var(--green); } .green2 { color: var(--green2); }
-a .green:hover, .green a:hover { color: var(--green2); }
+.green a:hover { color: var(--green2); }
 .greenBg { background: var(--green); }
 
 .blue { color: var(--blue); } .blue2 { color: var(--blue2); }
-a .blue:hover, .blue a:hover { color: var(--blue2); }
+.blue a:hover { color: var(--blue2); }
 .blueBg { background: var(--blue); }
 
 .indigo { color: var(--indigo); } .indigo2 { color: var(--indigo2); }
-a .indigo:hover, .indigo a:hover { color: var(--indigo2); }
+.indigo a:hover { color: var(--indigo2); }
 .indigoBg { background: var(--indigo); }
 
 .violet { color: var(--violet); } .violet2 { color: var(--violet2); }
-a .violet:hover, .violet a:hover { color: var(--violet2); }
+.violet a:hover { color: var(--violet2); }
 .violeBg { background: var(--violet); }
 
 .active { color: var(--c3); }
@@ -438,5 +437,3 @@ html { scrollbar-width: thin; }
 ::-webkit-scrollbar { width: 7px; } /* for validator commnet */
 
 input:focus{ outline: none }
-
-
