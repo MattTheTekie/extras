@@ -1,4 +1,4 @@
-// v.1.1.51
+// v.1.1.52
 
 
 
@@ -805,8 +805,13 @@ q = q3.replace(q2, '');
 q = q.trim();
 q = encodeURIComponent(q);
 urlList = [
-// with ind. maybe
-"https://swisscows.com/web?query="+q,
+
+"https://search.yahoo.com/search?p="+q,
+"https://search.givewater.com/serp?q="+q,
+"https://duckduckgo.com/?q="+q,
+
+// with index maybe
+//"https://swisscows.com/web?query="+q,
 //"https://www.gigablast.com/search?q=$q",// unable to connect
 //"https://search.goo.ne.jp/web.jsp?MT="+q+"&IE=UTF-8&OE=UTF-8",
 //"https://search.seznam.cz/?q="+q,
@@ -816,9 +821,9 @@ urlList = [
 //"https://web.search.ch/?q=$q",
 
 //"http://leit.is/company_search?search=$q",
-"https://fireball.de/search?q="+q,
+//"https://fireball.de/search?q="+q,
 //"https://freespoke.com/search/web?q=$q",
-"https://qmamu.com/search?q="+q,
+//"https://qmamu.com/search?q="+q,
 //"https://cyb.ai/search/$q",
 
 //"https://kagi.com/search?q=$q", // need login
@@ -827,18 +832,17 @@ urlList = [
 //"https://search.naver.com/search.naver?query=$q", //closed
 
 // without
-"https://duckduckgo.com/?q="+q,
-"https://search.lycos.com/web/?q="+q,
-//"https://www.ask.com/web?q="+q,
-"https://search.yahoo.com/search?p="+q,
 
+//"https://www.ask.com/web?q="+q,
+
+//"https://search.lycos.com/web/?q="+q,
 //"https://andisearch.com/?q=$q",
 //"https://startpage.com/sp/search?q="+q,
-"https://yep.com/web?q="+q,
+//"https://yep.com/web?q="+q,
 //"https://teclis.com/search?q="+q, // maitenance
-"https://search.givewater.com/serp?q="+q,
+
 //"https://www.ekoru.org/?q="+q,// no result
-"https://search.lilo.org/?q="+q,
+//"https://search.lilo.org/?q="+q,
 //"https://searx.ninja/?q=$q&categories=general",
 
 
@@ -847,7 +851,7 @@ urlList = [
 //"https://engine.presearch.org/search?q="+q,
 
 //"https://www.dogpile.com/serp?q=$q",
-"https://metager.org/meta/meta.ger3?eingabe="+q,
+//"https://metager.org/meta/meta.ger3?eingabe="+q,
 //"https://ellpedia.com/search?q="+q,
 //"https://search.niriv.com/web?q=$q",
 //"https://www.zapmeta.com/search?q="+q,
