@@ -15,7 +15,7 @@ var count = 0;
 var scriptDir = '';
 var printTagList = '';
 var tagListLimit = '100';
-
+var checkNotFound = '';
 //alert(jsonVar[getRandomInt(jsonVar.length)]);
 //alert(jsonVar.length);
 
@@ -90,7 +90,7 @@ arrListForRandom.push(key);
 
 i++;
 total = i;
-comMessagePrint = `<h3 class="tCenter"><span class="op">Random Radio</span><br><br>${q2} ${i}</h3>`;
+comMessagePrint = `<b class="tCenter"><span class="op">Random Radio</span><br><br>${q2} ${i}</b>`;
 document.getElementsByTagName('title')[0].innerHTML = `Random Radio ${q2}`;
 }
 
@@ -98,16 +98,23 @@ document.getElementsByTagName('title')[0].innerHTML = `Random Radio ${q2}`;
 if(arrListForRandom.length > 0){
 getP2 = Math.floor(Math.random() * arrListForRandom.length);
 id = arrListForRandom[getP2];
+checkNotFound = ''; // clear
 }else{
-comMessagePrint = '<span class="red">not found</span>';
+comMessagePrint = '<div class="center2"><h3 class="red">not found</h3></div>';
 id = getRandomInt(jsonVar.length);
-comMessagePrint += '<span class=""> random id: '+id+'</span>';
+//comMessagePrint += '<span class=""> random id: '+id+'</span>';
+document.getElementById(printId).innerHTML = `
+<div class="block padding margin tCenter">${comMessagePrint}</div>
+`;
+checkNotFound = 'Not Found';
 }
 
 
 
 });
 
+
+if(checkNotFound == ''){
 //var id = getRandomInt(jsonVar.length);
 
 var play = highlightText2('', '');
@@ -116,7 +123,7 @@ post += `<br>play source: <a class="brand" target="_blank" href="${jsonVar[id]['
 var tag = highlightText2(' '+jsonVar[id]['tag'], '');
 
 document.getElementById(printId).innerHTML = `
-<div class="block op padding margin tCenter">${comMessagePrint}</div>
+<div class="block padding margin tCenter">${comMessagePrint}</div>
 
 <div class="">
 <div class="wrapper">
@@ -143,6 +150,8 @@ document.getElementById(printId).innerHTML = `
 </div>
 </div>
 `;
+
+}
 
 var multiEmbedStatus = 'off';
 

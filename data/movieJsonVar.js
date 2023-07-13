@@ -806,6 +806,13 @@ var movieJsonVar =
         "tag": "#movie"
     },
     {
+        "text": "Movieclips - YouTube",
+        "text2": "",
+        "text3": "",
+        "url": "https:\/\/www.youtube.com\/@MOVIECLIPS\/featured",
+        "tag": "#tv #movie"
+    },
+    {
         "text": "Mr. Imperium (1951) | Full Movie | Lana Turner, Ezio Pinza, Marjorie Main - YouTube",
         "text2": "",
         "text3": "",

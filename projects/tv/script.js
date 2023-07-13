@@ -1,4 +1,4 @@
-// v.1.2.10
+// v.1.2.12
 
 function randomRadio(printId, jsonVar){
 
@@ -14,6 +14,7 @@ var tagListLimit = '100';
 var embedServiceList = '';
 //alert(jsonVar[getRandomInt(jsonVar.length)]);
 //alert(jsonVar.length);
+var checkNotFound = '';
 
 var url = new URL(window.location);
 
@@ -94,10 +95,15 @@ document.getElementsByTagName('title')[0].innerHTML = `Random TV ${q2}`;
 if(arrListForRandom.length > 0){
 getP2 = Math.floor(Math.random() * arrListForRandom.length);
 id = arrListForRandom[getP2];
+checkNotFound = ''; // clear
 }else{
-comMessagePrint = '<span class="red">not found</span>';
+comMessagePrint = '<div class="center2"><h3 class="red">not found</h3></div>';
 id = getRandomInt(jsonVar.length);
-comMessagePrint += '<span class=""> random id: '+id+'</span>';
+//comMessagePrint += '<span class=""> random id: '+id+'</span>';
+document.getElementById(printId).innerHTML = `
+<div class="block padding margin tCenter">${comMessagePrint}</div>
+`;
+checkNotFound = 'Not Found';
 }
 
 
@@ -106,6 +112,7 @@ comMessagePrint += '<span class=""> random id: '+id+'</span>';
 
 //var id = getRandomInt(jsonVar.length);
 
+if(checkNotFound == ''){
 var play = highlightText2('', '');
 var post = `<b>${jsonVar[id]['text']}</b> ${highlightText2(jsonVar[id]['url'], '')}`;
 if(jsonVar[id]['text2'] != ''){
@@ -114,7 +121,7 @@ post += `<br>play source: ${jsonVar[id]['text2']}`;
 var tag = highlightText2(' '+jsonVar[id]['tag'], '');
 
 document.getElementById(printId).innerHTML = `
-<div class="block op padding margin tCenter">${comMessagePrint}</div>
+<div class="block padding margin tCenter">${comMessagePrint}</div>
 
 <div class="center2">
 <div class="wrapper">
@@ -140,6 +147,7 @@ document.getElementById(printId).innerHTML = `
 </div>
 </div>
 `;
+}
 
 var multiEmbedStatus = 'off';
 
@@ -221,7 +229,7 @@ embedServiceList += 'youtube';
 
 if((item).indexOf((`list`)) >= 0){
 play = item.split('list=');
-play = play[play.length - 1];
+play = play[1];
 if(play != ''){
 embed = `<iframe width="${w}" height="${h}" src="https://www.youtube-nocookie.com/embed/videoseries?list=${play}&autoplay=1" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>`;
 embedServiceList += 'youtube';
@@ -230,7 +238,7 @@ embedServiceList += 'youtube';
 
 if((item).indexOf((`featured`)) >= 0||(item).indexOf((`@`)) >= 0){
 play = item.split('/');
-play = play[play.length - 2];
+play = play[3];
 if(play != ''){
 play = play.replace("@", "");
 embed = `<iframe width="${w}" height="${h}" src="https://www.youtube.com/embed/?listType=user_uploads&list=${play}&autoplay=1" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>`;

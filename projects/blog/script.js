@@ -1,4 +1,4 @@
-// v.1.17.3
+// v.1.17.4
 
 // inspired by Twitter, Fediverse
 // not for large Json files
@@ -1003,7 +1003,7 @@ embedServiceList += 'youtube';
 
 if((item).indexOf((`list`)) >= 0){
 play = item.split('list=');
-play = play[play.length - 1];
+play = play[1];
 if(play != ''){
 embed = `<iframe width="${w}" height="315" src="https://www.youtube-nocookie.com/embed/videoseries?list=${play}" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>`;
 embedServiceList += 'youtube';
@@ -1012,7 +1012,7 @@ embedServiceList += 'youtube';
 
 if((item).indexOf((`featured`)) >= 0||(item).indexOf((`@`)) >= 0){
 play = item.split('/');
-play = play[play.length - 2];
+play = play[3];
 if(play != ''){
 play = play.replace("@", "");
 embed = `<iframe width="${w}" height="315" src="https://www.youtube.com/embed/?listType=user_uploads&list=${play}" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>`;
@@ -1460,7 +1460,7 @@ embedServiceList += 'youtube';
 
 if((item).indexOf((`list`)) >= 0){
 play = item.split('list=');
-play = play[play.length - 1];
+play = play[1];
 if(play != ''){
 embed = `<iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/videoseries?list=${play}&autoplay=1" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>`;
 embedServiceList += 'youtube';
@@ -1469,7 +1469,7 @@ embedServiceList += 'youtube';
 
 if((item).indexOf((`featured`)) >= 0||(item).indexOf((`@`)) >= 0){
 play = item.split('/');
-play = play[play.length - 2];
+play = play[3];
 if(play != ''){
 play = play.replace("@", "");
 embed = `<iframe width="${w}" height="315" src="https://www.youtube.com/embed/?listType=user_uploads&list=${play}&autoplay=1" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>`;

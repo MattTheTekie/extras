@@ -8,6 +8,13 @@ var tvJsonVar =
         "tag": "#tv #news #en"
     },
     {
+        "text": "CBC News - YouTube",
+        "text2": "",
+        "text3": "",
+        "url": "https:\/\/www.youtube.com\/@CBCNews\/featured",
+        "tag": "#tv #en #news"
+    },
+    {
         "text": "CNN - YouTube",
         "text2": "",
         "text3": "",
@@ -19,14 +26,14 @@ var tvJsonVar =
         "text2": "UCMIgOXM2JEQ2Pv2d0_PVfcg",
         "text3": "YouTubeChannelID",
         "url": "https:\/\/www.youtube.com\/c\/dwdeutsch\/live",
-        "tag": "#tv #de #detv"
+        "tag": "#tv #de"
     },
     {
         "text": "DW News livestream | Headline news from around the world - YouTube",
         "text2": "UCknLrEdhRCp1aegoMqRaCZg",
         "text3": "YouTubeChannelID",
         "url": "https:\/\/www.youtube.com\/c\/dwnews\/live",
-        "tag": "#tv #en"
+        "tag": "#tv #en #news"
     },
     {
         "text": "Espreso - YouTube",
@@ -50,11 +57,25 @@ var tvJsonVar =
         "tag": "#tv #en"
     },
     {
+        "text": "Movieclips - YouTube",
+        "text2": "",
+        "text3": "",
+        "url": "https:\/\/www.youtube.com\/@MOVIECLIPS\/featured",
+        "tag": "#tv #movie"
+    },
+    {
         "text": "NBC News - YouTube",
         "text2": "",
         "text3": "",
         "url": "https:\/\/www.youtube.com\/@NBCNews\/featured",
         "tag": "#tv #en #news"
+    },
+    {
+        "text": "PewDiePie - YouTube",
+        "text2": "",
+        "text3": "",
+        "url": "https:\/\/www.youtube.com\/@PewDiePie\/featured",
+        "tag": "#tv #video"
     },
     {
         "text": "RTVE - YouTube",

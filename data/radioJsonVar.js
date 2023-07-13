@@ -330,6 +330,13 @@ var radioJsonVar =
         "tag": "#radio #fr"
     },
     {
+        "text": "freeCodeCamp.org Code Radio",
+        "text2": "https:\/\/coderadio-relay-ffm.freecodecamp.org\/radio\/8010\/low.mp3",
+        "text3": "mp3",
+        "url": "https:\/\/coderadio.freecodecamp.org\/",
+        "tag": "#radio #RadioMusic #chill #code #coding"
+    },
+    {
         "text": "GotRadio - Streaming Free Internet Radio",
         "text2": "http:\/\/pureplay.cdnstream1.com\/6039_128.mp3",
         "text3": "mp3",
@@ -545,6 +552,13 @@ var radioJsonVar =
         "text3": "mp3",
         "url": "https:\/\/play.radioking.com\/radio\/the-independent-fm-1",
         "tag": "#radio #RadioMusic #IndieRock"
+    },
+    {
+        "text": "Lofi 24\/7 | Free Internet Radio | TuneIn",
+        "text2": "http:\/\/usa9.fastcast4u.com\/proxy\/jamz?mp=\/1",
+        "text3": "mp3",
+        "url": "https:\/\/tunein.com\/radio\/Lofi-247-s303481\/",
+        "tag": "#radio #RadioMusic #chill"
     },
     {
         "text": "Loudspeaker One - Free Internet Radio | Loudspeaker",
@@ -853,6 +867,13 @@ var radioJsonVar =
         "text3": "mp3",
         "url": "https:\/\/www.rockantenne.de\/",
         "tag": "#radio #RadioMusic #AlternativeRock"
+    },
+    {
+        "text": "SBS Chill | SBS Audio",
+        "text2": "https:\/\/sbs-hls.streamguys1.com\/hls\/sbschill\/playlist.m3u8",
+        "text3": "m3u8",
+        "url": "https:\/\/www.sbs.com.au\/audio\/music\/chill",
+        "tag": "#radio #RadioMusic #chill"
     },
     {
         "text": "SLAM!",
