@@ -152,7 +152,7 @@ chartData = new String(chartData).slice(0, -1);
 
 /*document.getElementById('chart').innerHTML = `
 <img src="https://quickchart.io/chart?c=%7Btype:%27bar%27,data:%7Blabels:[${chartTitle}],datasets:[%7Blabel:%27min%27,data:[${chartData}]%7D]%7D%7D" width="430" alt="chart">
-`;*/
+https://quickchart.io/`;*/
 
 
 
@@ -165,10 +165,25 @@ chartData = new String(chartData).slice(0, -1);
 
 
 }
+
 
 document.getElementById('result').innerHTML = hours+':'+minutes+':'+seconds;
-document.getElementById('result2').innerHTML = hours2+':'+minutes2; // result 2 standart clock time
-document.getElementsByTagName('title')[0].innerHTML = hours+':'+minutes+':'+seconds+' | '+confHost;
+
+// sound alert
+
+if(minutes == '59'&&seconds == '59'){
+document.getElementById('result').innerHTML += '<audio style="display:none" autoplay="t" src="/audio/ok.ogg">';
+}
+if(minutes == '29'&&seconds == '59'){
+document.getElementById('result2').innerHTML += '<audio style="display:none" autoplay="false" src="/audio/neutral.ogg">';
+}
+
+
+document.getElementById('result2').innerHTML = hours2+':'+minutes2; // result 2 standart 
+
+
+//clock time
+document.getElementsByTagName('title')[0].innerHTML = hours+':'+minutes+':'+seconds+'';
 
 
 

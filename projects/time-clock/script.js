@@ -17,7 +17,7 @@ let seconds = normalize(time.getSeconds());
 
 
 document.getElementById('result').innerHTML = hours+':'+minutes+':'+seconds;
-document.getElementsByTagName('title')[0].innerHTML = hours+':'+minutes+':'+seconds+' | '+confHost;
+document.getElementsByTagName('title')[0].innerHTML = hours+':'+minutes+':'+seconds;
 }
 
 fuClock();
