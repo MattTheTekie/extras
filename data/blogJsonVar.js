@@ -1,75 +1,21 @@
 var blogJsonVar = 
 [
     {
-        "id": "87",
-        "text": "updated 2 template",
+        "id": "100",
+        "text": "Centering a div\r\n\r\nCSS:\r\n\r\n<style>\r\n.centeringItem {\r\ndisplay: flex;\r\nflex-direction: column;\r\njustify-content: center;\r\nalign-items: safe center;\r\nalign-self: safe center;\r\nbox-sizing: border-box;\r\nmargin: 0 auto;\r\nmin-height: 100vh;\r\n}\r\n<\/style>\r\n\r\nHTML:\r\n\r\n<div class=\"centeringItem\">\r\n<div><!-- wrapper -->\r\n\r\n<h1>item<\/h1>\r\n\r\n<\/div>\r\n<\/div>",
         "text2": "",
         "text3": "",
         "url": "",
-        "tag": "#WebsiteNews",
-        "time": 1685890567
-    },
-    {
-        "id": "85",
-        "text": "New: themes and one new theme option",
-        "text2": "",
-        "text3": "",
-        "url": "",
-        "tag": "#WebsiteNews",
-        "time": 1685823605
-    },
-    {
-        "id": "83",
-        "text": "A few new themes",
-        "text2": "",
-        "text3": "",
-        "url": "",
-        "tag": "#WebsiteNews",
-        "time": 1684644020
-    },
-    {
-        "id": "82",
-        "text": "New Game: Guess The Number",
-        "text2": "",
-        "text3": "",
-        "url": "",
-        "tag": "#WebsiteNews",
-        "time": 1684495720
-    },
-    {
-        "id": "81",
-        "text": "removed: random-tech-news-url",
-        "text2": "",
-        "text3": "",
-        "url": "",
-        "tag": "#WebsiteNews",
-        "time": 1684235388
-    },
-    {
-        "id": "80",
-        "text": "new: random-tech-news-url",
-        "text2": "",
-        "text3": "",
-        "url": "",
-        "tag": "#WebsiteNews",
-        "time": 1684212099
+        "tag": "#CSS",
+        "time": 1689262345
     },
     {
         "id": "52",
-        "text": "test",
-        "text2": "",
-        "text3": "",
-        "url": "http:\/\/test.com",
-        "tag": "#test",
-        "time": 1682405725
-    },
-    {
-        "id": "1",
         "text": "Start End",
         "text2": "",
         "text3": "",
         "url": "",
-        "tag": "#end",
-        "time": 1678465048
+        "tag": "#start #end",
+        "time": 1682405725
     }
 ]

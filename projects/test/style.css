@@ -155,4 +155,18 @@ to { transform: rotate(-360deg); font-size: 18px; }
 }
 */
 
+/******************/
+/* centering */
+
+
+.centeringItem {
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: safe center;
+align-self: safe center;
+box-sizing: border-box;
+margin: 0 auto;
+min-height: 100vh;
+}
 

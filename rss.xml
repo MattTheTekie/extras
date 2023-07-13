@@ -2,92 +2,49 @@
 
 <rss version="2.0">
 <channel>
-<title>inonehp Blog RSS</title>
+<title>inonehp RSS</title>
 
 <description></description>
 <link>http://inonehp.github.io/</link>
 
 <image class="logo">
     <url>http://inonehp.github.io/img/logo.png</url>
-    <title>inonehp Blog RSS</title>
+    <title>inonehp RSS</title>
     <link>http://inonehp.github.io/</link>
 <width>32</width>
 <height>32</height>
 </image>
 
 <item>
-<pubDate>Sun, 04 Jun 23 17:56:07 +0300</pubDate>
-<title><![CDATA[updated 2 template ]]></title>
-<link><![CDATA[http://inonehp.github.io/blog.html?id=87#87]]></link>
-<description>
-<![CDATA[
-<div class="post border2">
-updated 2 template 
-</div>
-]]>
-</description>
-</item>
+<pubDate>Thu, 13 Jul 23 18:32:25 +0300</pubDate>
+<title><![CDATA[Centering a div
 
-<item>
-<pubDate>Sat, 03 Jun 23 23:20:05 +0300</pubDate>
-<title><![CDATA[New: themes and one new theme option ]]></title>
-<link><![CDATA[http://inonehp.github.io/blog.html?id=85#85]]></link>
-<description>
-<![CDATA[
-<div class="post border2">
-New: themes and one new theme option 
-</div>
-]]>
-</description>
-</item>
+CSS:
 
-<item>
-<pubDate>Sun, 21 May 23 07:40:20 +0300</pubDate>
-<title><![CDATA[A few new themes ]]></title>
-<link><![CDATA[http://inonehp.github.io/blog.html?id=83#83]]></link>
-<description>
-<![CDATA[
-<div class="post border2">
-A few new themes 
-</div>
-]]>
-</description>
-</item>
+<style>
+.centeringItem {
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: safe center;
+align-self: safe center;
+box-sizing: border-box;
+margin: 0 auto;
+min-height: 100vh;
+}
+</style>
 
-<item>
-<pubDate>Fri, 19 May 23 14:28:40 +0300</pubDate>
-<title><![CDATA[New Game: Guess The Number ]]></title>
-<link><![CDATA[http://inonehp.github.io/blog.html?id=82#82]]></link>
-<description>
-<![CDATA[
-<div class="post border2">
-New Game: Guess The Number 
-</div>
-]]>
-</description>
-</item>
+HTML:
 
-<item>
-<pubDate>Tue, 16 May 23 14:09:48 +0300</pubDate>
-<title><![CDATA[removed: random-tech-news-url ]]></title>
-<link><![CDATA[http://inonehp.github.io/blog.html?id=81#81]]></link>
+<div class="centeringItem">
+<div><!-- w]]></title>
+<link><![CDATA[http://inonehp.github.io/blog.html?id=100#100]]></link>
 <description>
 <![CDATA[
 <div class="post border2">
-removed: random-tech-news-url 
-</div>
-]]>
-</description>
-</item>
-
-<item>
-<pubDate>Tue, 16 May 23 07:41:39 +0300</pubDate>
-<title><![CDATA[new: random-tech-news-url ]]></title>
-<link><![CDATA[http://inonehp.github.io/blog.html?id=80#80]]></link>
-<description>
-<![CDATA[
-<div class="post border2">
-new: random-tech-news-url 
+<code><span style="color: var(--blue)">
+Centering&nbsp;a&nbsp;divCSS:&lt;style&gt;.centeringItem&nbsp;{display:&nbsp;flex;flex-direction:&nbsp;column;justify-content:&nbsp;center;align-items:&nbsp;safe&nbsp;center;align-self:&nbsp;safe&nbsp;center;box-sizing:&nbsp;border-box;margin:&nbsp;0&nbsp;auto;min-height:&nbsp;100vh;}&lt;/style&gt;HTML:&lt;div&nbsp;class="centeringItem"&gt;&lt;div&gt;&lt;!--&nbsp;wrapper&nbsp;--&gt;&lt;h1&gt;item&lt;/h1&gt;&lt;/div&gt;&lt;/div&gt;&nbsp;</span>
+</code>
 </div>
 ]]>
 </description>
@@ -95,21 +52,8 @@ new: random-tech-news-url
 
 <item>
 <pubDate>Tue, 25 Apr 23 09:55:25 +0300</pubDate>
-<title><![CDATA[test  ]]></title>
-<link><![CDATA[http://test.com]]></link>
-<description>
-<![CDATA[
-<div class="post border2">
-test <a class="brand" target="_blank" href="http://test.com">http://test.com</a>
-</div>
-]]>
-</description>
-</item>
-
-<item>
-<pubDate>Fri, 10 Mar 23 18:17:28 +0200</pubDate>
 <title><![CDATA[Start End ]]></title>
-<link><![CDATA[http://inonehp.github.io/blog.html?id=1#1]]></link>
+<link><![CDATA[http://inonehp.github.io/blog.html?id=52#52]]></link>
 <description>
 <![CDATA[
 <div class="post border2">

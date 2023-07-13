@@ -2,5 +2,7 @@
 #User-agent: *
 #Disallow: /
 
+User-agent: *
+Allow: /
 #https://developers.google.com/search/docs/crawling-indexing/sitemaps/build-sitemap#xml
 sitemap: https://inonehp.pages.dev/sitemap.xml
