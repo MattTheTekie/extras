@@ -1,4 +1,4 @@
-/* v.12.26.2 */
+/* v.12.26.3 */
 
 * {  color-scheme: light dark; } /* view-source:about:blank */ /* fixed #fff blink */
 
@@ -236,19 +236,6 @@ a { color: var(--c2); }
 a:hover{ color: var(--c4); } 
 
 html{ position: relative; }
-html::before {
-width: calc(100vh);
-height: calc(100vh);
-content: "";
-opacity: 0.25;
-position: fixed;
-bottom: 0;
-right: 0;
-background: url('/img/header-banner.png') no-repeat center center fixed;
-background-size: 23vh;
-background-position: right 23px bottom 23px;
-z-index: -2;
-}
 
 hr{ border: 1px solid var(--d2); border-bottom:1px solid var(--l); }
 /*a{ color: var(--blue); } a:hover { color: var(--blue2); }*/

@@ -1,5 +1,22 @@
 /* v.1.1.2 */
 
+html::before {
+width: calc(100vh);
+height: calc(100vh);
+content: "";
+opacity: 0.25;
+position: fixed;
+bottom: 0;
+right: 0;
+background: url('/img/header-banner.png') no-repeat center center fixed;
+background-size: 23vh;
+background-position: right 23px bottom 23px;
+z-index: -2;
+}
+
+
+
+
 .menu {
 display: grid;
 /*grid-template-areas: "a a a a a";*/

@@ -16,7 +16,7 @@ border-radius: 7px;
 
 .grid {
 display: grid;
-grid-template-columns: 1fr 1fr 1fr 1fr;
+grid-template-columns: repeat(4, 1fr);
 grid-gap: 5px;
 margin: 0 auto;
 margin-top: 15px;
@@ -27,7 +27,7 @@ text-align: center;
 }
 
 .grid a {
-display: inline-flex !important;
+display: inline-flex;
 min-height: 27px;
 width: 100%;
 /*outline: 1px solid var(--red);*/
@@ -35,19 +35,15 @@ align-items: center;
 justify-content: center;
 text-align: center;
 margin: 0 auto;
-
 box-sizing: border-box;
 }
 @media(max-width: 200px) {
 
 .grid {
-grid-template-columns: 25px 25px 25px 25px;
 grid-gap: 2px;
 }
 
 .grid a {
-min-height: 25px;
-min-width: 25px;
 font-size: x-small;
 }
 
