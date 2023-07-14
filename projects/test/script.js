@@ -1,6 +1,6 @@
 // v.1.0.0
 
-setTheme('light');
+setTheme('rand-lo');
 
 
 console.log(0 / 0);

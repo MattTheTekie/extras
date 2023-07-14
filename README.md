@@ -1,16 +1,15 @@
 README.md
 
+🏠 Homepage and other projects  
+🛍️ Extensions: New Tab Redirect ABC (Any website in New Tab, Firefox, Chrome)  
+📄 Website Templates  
+🎨 Themes for Firefox, Geany IDE Color Theme  
+🎮 JavaScript Games: Typing Speed, Snake, Memory Symbol, Tic Tac Toe  
+📝 Todo list  
 
-- 🏠 Homepage and other projects.
-- 🛍️ Extensions: New Tab Redirect ABC (Any website in New Tab, Firefox, Chrome).
-- 📄 Website Templates.
-- 🎨 Themes for Firefox, Geany IDE Color Theme ... 
-- 🎮 JavaScript Games: Typing Speed, Snake, Memory Symbol, Tic Tac Toe.
-- 📝 Todo list
-- Other
 
-- 🔗 [https://inonehp.pages.dev](https://inonehp.pages.dev)
-- [Download, Website ZIP](https://github.com/inonehp/inonehp.github.io/archive/refs/heads/main.zip)
+🔗 [https://inonehp.pages.dev](https://inonehp.pages.dev)  
+📁 [Download](https://github.com/inonehp/inonehp.github.io/archive/refs/heads/main.zip)  
 
 [#website](https://github.com/topics/website?s=updated)
 [#homepage](https://github.com/topics/homepage?s=updated)
@@ -19,6 +18,6 @@ README.md
 [#game](https://github.com/topics/game?s=updated)
 
 
-* Screenshots:
-* ![screenshot](/img/screenshot.png)
-* ![screenshot2](/img/screenshot2.png)
+Screenshots:  
+![screenshot](/img/screenshot.png)  
+![screenshot2](/img/screenshot2.png)  

@@ -370,6 +370,7 @@ td { background-color: var(--l2); }
 .xSmall, .xSmall a { font-size: x-small; }
 .xxSmall, .xxSmall a { font-size: xx-small; }
 .cursorNone { pointer-events: none; }
+.clear { clear: both; }
 .scroll {
 /*overflow-x: auto;
 overflow-y: hidden;
