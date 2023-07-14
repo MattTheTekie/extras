@@ -1,4 +1,4 @@
-// v.1.4.0
+// v.1.4.1
 // Inspired by GitHub profile
 
 function insertIcon(id, mode){
@@ -29,6 +29,7 @@ let icons = {
 "dev":"💻✏️",
 "document":"📄", "page":"📄",
 "draw":"✏️", "drawing":"✏️",
+"earth":"🌍",
 "file":"🗃️",
 "game":"🎮",
 "teapot":"🫖",
@@ -47,7 +48,7 @@ let icons = {
 "laptop":"💻", "notebook":"💻",
 "live":"🔴", "online":"🔴",
 "like":"❤","love":"❤","fav":"❤",
-"map":"📍",
+"map":"📍", "sitemap":"📍",
 "mammoth ":"🦣", "mastodon":"🦣",
 "mail":"📧",
 "menu":"☰",
@@ -57,7 +58,7 @@ let icons = {
 "news":"📰",
 "pumpkin":"🎃", "halloween":"🎃",
 "pc":"🖥",
-"project":"📄", "tpl":"📄", "template":"📄", "iframe":"📄",
+"project":"📄", "tpl":"📄", "template":"📄", "templates":"📄", "iframe":"📄",
 "radio":"📻",
 "random":"🎲","rnd":"🎲", "rand":"🎲", "dice":"🎲",
 "robot":"🤖", "auto":"🤖",
@@ -74,6 +75,7 @@ let icons = {
 "play":"▶️",
 "pleroma":"🟧️",
 "progress":"█░░",
+"quote":"❝❞",
 "rain":"💧",
 "smoking":"🚭",
 "sun":"🌞",
@@ -166,13 +168,15 @@ check = 'exit';
 
 if(mode != 'strict'){
 // main, not strict
-if(linkText.toLowerCase().search(textIcon) != -1&&linkText.toLowerCase().search(icon) == -1&&linkText != ' '){
+
+//https://stackoverflow.com/questions/4993764/how-to-remove-numbers-from-a-string
+if(linkText.replace(/\d+/g, '').toLowerCase().search(textIcon) != -1&&linkText.replace(/\d+/g, '').toLowerCase().search(icon) == -1&&linkText != ' '){
 icArr.push(icon+'');
 check = 'exit';
 }
 }else{
 // main, strict word
-if((' '+linkText.toLowerCase()+' ').indexOf((' '+textIcon+' ')) >= 0&&(linkText.toLowerCase()+'').indexOf((icon+'')) == -1){
+if((' '+linkText.replace(/\d+/g, '').toLowerCase()+' ').indexOf((' '+textIcon+' ')) >= 0&&(linkText.replace(/\d+/g, '').toLowerCase()+'').indexOf((icon+'')) == -1){
 icArr.push(icon+'');
 check = 'exit';
 }
@@ -229,13 +233,13 @@ check = 'exit';
 
 if(mode != 'strict'){
 // main, not strict
-if(linkText.toLowerCase().search(textIcon) != -1&&linkText.toLowerCase().search(icon) == -1){ 
+if(linkText.replace(/\d+/g, '').toLowerCase().search(textIcon) != -1&&linkText.replace(/\d+/g, '').toLowerCase().search(icon) == -1){ 
 icArr.push(icon+'');
 check = 'exit';
 }
 }else{
 // main, strict word
-if((' '+linkText.toLowerCase()+' ').indexOf((' '+textIcon+' ')) >= 0&&(linkText.toLowerCase()+'').indexOf((icon+'')) == -1){
+if((' '+linkText.replace(/\d+/g, '').toLowerCase()+' ').indexOf((' '+textIcon+' ')) >= 0&&(linkText.replace(/\d+/g, '').toLowerCase()+'').indexOf((icon+'')) == -1){
 icArr.push(icon+'');
 check = 'exit';
 }

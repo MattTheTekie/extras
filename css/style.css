@@ -18,7 +18,6 @@ display:flex;
 justify-content: center;
 align-content: center;
 /*text-transform: lowercase;*/
-text-transform: capitalize;
 }
 .menu a { padding: 9px; margin:0; }
 

@@ -1,5 +1,5 @@
-// v.1.4.1
-// at the end was inspired by Google Clock
+// v.1.4.2
+// inspired by Google Clock
 
 var secArr = [];
 secArr[0] = 0;
@@ -172,7 +172,7 @@ document.getElementById('result').innerHTML = hours+':'+minutes+':'+seconds;
 // sound alert
 
 if(minutes == '59'&&seconds == '59'){
-document.getElementById('result').innerHTML += '<audio style="display:none" autoplay="t" src="/audio/ok.ogg">';
+document.getElementById('result').innerHTML += '<audio style="display:none" autoplay="false" src="/audio/ok.ogg">';
 }
 if(minutes == '29'&&seconds == '59'){
 document.getElementById('result2').innerHTML += '<audio style="display:none" autoplay="false" src="/audio/neutral.ogg">';
