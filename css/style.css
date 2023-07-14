@@ -17,10 +17,10 @@ justify-content: center;
 display:flex;
 justify-content: center;
 align-content: center;
-text-transform: lowercase;
+/*text-transform: lowercase;*/
+text-transform: capitalize;
 }
 .menu a { padding: 9px; margin:0; }
-
 
 /*list*/
 .listBlock { padding: 0 5%; margin-bottom: 10px; }
@@ -37,6 +37,7 @@ h3, b, .bold, nav a {
 }
 h3::first-letter, b::first-letter, .bold::first-letter {
 border-bottom: 1px solid var(--c);
+font-weight: bold;
 }
 
 /*nav a::first-letter {
