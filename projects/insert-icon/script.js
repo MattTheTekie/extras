@@ -66,7 +66,7 @@ let icons = {
 "script":"📜", "code":"📜", "coding":"📜", "history":"📜",
 "search": "🔎",
 "sleep":"😴💤", "bed":"🛏",
-"store":"🛍️","shop":"🛍️", "extension":"🛍️",
+"store":"🛍️","shop":"🛍️", "extension":"🛍️", "extensions":"🛍️",
 "style":"🎨", "css":"🎨", "color":"🎨", "theme":"🎨", "palette":"🎨",
 "time":"⌛", "timer":"⌛",
 "tmp":"⏳", "temporary":"⏳",
