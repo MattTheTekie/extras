@@ -295,6 +295,13 @@ var adsJsonVar =
         "tag": "#ads"
     },
     {
+        "text": "Industry-leading vector graphics software | Adobe Illustrator",
+        "text2": "",
+        "text3": "",
+        "url": "https:\/\/www.adobe.com\/products\/illustrator.html",
+        "tag": "#ads"
+    },
+    {
         "text": "Instagram",
         "text2": "",
         "text3": "",
@@ -313,6 +320,13 @@ var adsJsonVar =
         "text2": "",
         "text3": "",
         "url": "https:\/\/www.kiwix.org\/en\/",
+        "tag": "#ads"
+    },
+    {
+        "text": "Krita | Digital Painting. Creative Freedom.",
+        "text2": "",
+        "text3": "",
+        "url": "https:\/\/krita.org\/en\/",
         "tag": "#ads"
     },
     {

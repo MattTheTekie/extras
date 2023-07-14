@@ -1,7 +1,5 @@
 README.md
 
-README.md
-
 
 - 🏠 Homepage and other projects.
 - 🛍️ Extensions: New Tab Redirect ABC (Any website in New Tab, Firefox, Chrome).
@@ -21,6 +19,6 @@ README.md
 [#game](https://github.com/topics/game?s=updated)
 
 
-- Screenshots:
-- ![screenshot](/img/screenshot.png)
-- ![screenshot2](/img/screenshot2.png)
+* Screenshots:
+* ![screenshot](/img/screenshot.png)
+* ![screenshot2](/img/screenshot2.png)

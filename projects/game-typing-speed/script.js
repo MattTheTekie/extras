@@ -1,4 +1,4 @@
-// v.3.10.9
+// v.3.10.10
 
 
 
@@ -158,7 +158,8 @@ function updateValue3333(e) {
 //console.log(mode300);
 if(mode300 == 'none'||mode300 == 'book2'){
 // source code none
-let text = encodeURIComponent(e.target.value);
+//let text = encodeURIComponent(e.target.value);
+let text = (e.target.value);
 let http = new XMLHttpRequest();
 let url2 = '/fu/fuTranslateExt.php';
 let params = 'text='+text;
@@ -473,11 +474,13 @@ letters = letters.replaceAll(/  +/g, ' ');
 
 
 
-//letters = encodeURIComponent(letters); // error url
+
 
 
 letters = transliterate(letters);
 
+
+//letters = encodeURIComponent(letters); // error url
 
 //https://www.charset.org/utf-8/66
 //Variation Selector
@@ -500,23 +503,27 @@ letters = letters.replaceAll(/%EF%B8%8F/g, "");
 
 
 
-letters = letters.replaceAll(/%0A/g, "\n");
-
 
 letters = letters.replaceAll(/%E2%80%AF/g, " ");
 letters = letters.replaceAll(/%E2%80%8C/g, ""); //ZERO WIDTH SPACE
 letters = letters.replaceAll(/%E2%80%8B/g, ""); //ZERO WIDTH SPACE
 
+
+
+letters = letters.replaceAll(/A0%80%0A/g, "\n");
+letters = letters.replaceAll(/A0%80%0A/g, "\n");
 letters = letters.replaceAll(/%0D%0A/g, "\n");
 letters = letters.replaceAll(/%0A/g, "\n");
 letters = letters.replaceAll(/%0D/g, "\n");
+letters = letters.replaceAll(/%0A/g, "\n");
 letters = letters.replaceAll(/%C2%A0/g, " ");
 
 letters = letters.replaceAll(/E2%80%8A/g, " "); // end of line
 letters = letters.replaceAll(/%E2%81%A6/g, ""); // Left-to-Right Isolate
 letters = letters.replaceAll(/%E2%81%A9/g, "");
 
-//letters = decodeURIComponent(letters); // fixed error
+//letters = decodeURIComponent(letters); // error
+
 letters = letters.replaceAll(/  /g, " ");
 //letters = letters.replace(/\r\n/g, "\n");
 letters = letters.replaceAll(/ /g, ""); // end of line
