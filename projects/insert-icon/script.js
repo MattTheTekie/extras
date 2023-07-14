@@ -75,7 +75,7 @@ let icons = {
 "play":"▶️",
 "pleroma":"🟧️",
 "progress":"█░░",
-"quote":"❝❞",
+"quote":"❝❞", "quotes":"❝❞",
 "rain":"💧",
 "smoking":"🚭",
 "sun":"🌞",

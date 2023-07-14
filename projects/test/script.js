@@ -58,10 +58,26 @@ console.log('onscrollend');
 
 
 var a = null;
-document.getElementById('print').innerHTML += a;
+//document.getElementById('print').innerHTML += a;
 
 
 
+
+
+
+
+
+
+// cursor light click
+
+
+//https://www.w3schools.com/js/js_htmldom_eventlistener.asp
+window.document.addEventListener("click", function(){
+document.body.classList.add('cursorHl');
+});
+addEventListener("mousemove", function(){
+document.body.classList.remove('cursorHl');
+}); 
 
 
 

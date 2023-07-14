@@ -170,3 +170,12 @@ margin: 0 auto;
 min-height: 100vh;
 }
 
+
+/* fixme wrong position */
+.cursorHl, a:hover {
+cursor: url("/img/cursor-hl.png"), pointer;
+}
+
+
+
+
