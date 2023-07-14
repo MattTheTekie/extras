@@ -91,11 +91,6 @@ confWorkerStatus = localStorage.getItem('confWorkerStatus');
 mainPrintMsg('fApp', `<a href="/app.${confExt}">app: ${confWorkerStatus}</a>`); 
 
 var confDataCollection = 'off';
-/* disabled, only from settings
-// if timeZone  not Europe confDataCollection: on, when not selected
-if((Intl.DateTimeFormat().resolvedOptions().timeZone+' ').indexOf(('Europe')) == -1&&(Intl.DateTimeFormat().resolvedOptions().timeZone+' ').indexOf(('America/Los_Angeles')) == -1){
-confDataCollection = 'on';
-}*/
 if(localStorage.getItem('confDataCollection') != null){
 confDataCollection = localStorage.getItem('confDataCollection');
 }
