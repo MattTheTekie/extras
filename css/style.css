@@ -34,7 +34,7 @@ justify-content: center;
 display:flex;
 justify-content: center;
 align-content: center;
-/*text-transform: lowercase;*/
+text-transform: lowercase;
 }
 .menu a { padding: 9px; margin:0; }
 

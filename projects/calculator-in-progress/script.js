@@ -64,7 +64,7 @@ const grid = `
 <div class="center2">
 
 
-<div class="calculator border padding bg">
+<div class="calculator shadow border4 padding bg">
 
 <form>
 <input type="text" autofocus="autofocus">
