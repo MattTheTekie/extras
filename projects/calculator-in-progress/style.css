@@ -1,5 +1,5 @@
-/* v.1.0.1 */
-/* Design inspired by Bing Web Calculator, Google Web Calculator, Google Calculator App and other
+/* v.1.0.2 */
+/* inspired by Bing Web Calculator, Google Web Calculator, Google Calculator App and other
  */
 
 .calculator { border-radius: 7px; width: 100%; max-width: 290px; margin: 0 auto; }
@@ -16,7 +16,7 @@ border-radius: 7px;
 
 .grid {
 display: grid;
-grid-template-columns: 40px 40px 40px 40px;
+grid-template-columns: 1fr 1fr 1fr 1fr;
 grid-gap: 5px;
 margin: 0 auto;
 margin-top: 15px;
@@ -24,16 +24,13 @@ padding: 0;
 justify-content: center;
 align-items: center;
 text-align: center;
-padding-top: 1fr;
 }
 
 .grid a {
 display: inline-flex !important;
-min-height: 40px;
-min-width: 40px;
-
+min-height: 27px;
+width: 100%;
 /*outline: 1px solid var(--red);*/
-
 align-items: center;
 justify-content: center;
 text-align: center;
@@ -57,10 +54,8 @@ font-size: x-small;
 }
 
 
-@media(max-width: 128px) {
-
+@media(max-width: 130px) {
 .grid {
-grid-template-columns: 20px 20px 20px 20px;
 grid-gap: 1px;
 }
 
@@ -72,3 +67,8 @@ font-size: x-small;
 
 }
 
+@media(max-width: 120px) {
+.grid {
+grid-template-columns: 1fr 1fr;
+}
+}
