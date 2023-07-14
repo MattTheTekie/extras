@@ -27,8 +27,8 @@
      inkscape:document-units="px"
      showgrid="false"
      inkscape:zoom="1.278979"
-     inkscape:cx="392.10964"
-     inkscape:cy="329.16881"
+     inkscape:cx="417.1296"
+     inkscape:cy="250.98145"
      inkscape:window-width="1920"
      inkscape:window-height="1011"
      inkscape:window-x="0"
@@ -266,7 +266,7 @@
      inkscape:groupmode="layer"
      id="layer1">
     <path
-       style="fill:#4e4e4e;fill-rule:evenodd"
+       style="fill:#555753;fill-rule:evenodd"
        id="path53"
        sodipodi:type="arc"
        sodipodi:cx="256"
@@ -283,17 +283,17 @@
        sodipodi:type="arc"
        sodipodi:cx="256"
        sodipodi:cy="256"
-       sodipodi:rx="210"
-       sodipodi:ry="210"
+       sodipodi:rx="220"
+       sodipodi:ry="220"
        sodipodi:start="1.2217305e-05"
        sodipodi:end="0"
        sodipodi:arc-type="slice"
-       d="M 466,256.00257 A 210,210 0 0 1 255.99808,466 210,210 0 0 1 46,255.99872 210,210 0 0 1 256.00064,46 210,210 0 0 1 466,256 H 256 Z"
+       d="M 476,256.00269 A 220,220 0 0 1 255.99798,476 220,220 0 0 1 36,255.99866 220,220 0 0 1 256.00067,36 220,220 0 0 1 476,256 H 256 Z"
        inkscape:export-filename="/mnt/d/Sync/htdocs/img/logo.png"
        inkscape:export-xdpi="96"
        inkscape:export-ydpi="96" />
     <path
-       style="fill:#383838;filter:url(#filter1266)"
+       style="fill:#555753"
        id="path439"
        sodipodi:type="arc"
        sodipodi:cx="189.50229"
@@ -305,7 +305,7 @@
        sodipodi:arc-type="slice"
        d="m 231.41093,172.04104 a 41.908638,41.908638 0 0 1 -41.90903,41.90813 41.908638,41.908638 0 0 1 -41.90825,-41.9089 41.908638,41.908638 0 0 1 41.90877,-41.90838 41.908638,41.908638 0 0 1 41.90851,41.90864 h -41.90864 z" />
     <path
-       style="fill:#383838;filter:url(#filter1270)"
+       style="fill:#555753"
        id="path439-3"
        sodipodi:type="arc"
        sodipodi:cx="289.15021"

@@ -100,7 +100,7 @@ var radioJsonVar =
     },
     {
         "text": "Aktuelles, Musik, Comedy & vieles mehr beim Pop-Radio Nummer 1",
-        "text2": "https:\/\/f121.rndfnk.com\/ard\/swr\/swr3\/live\/mp3\/128\/stream.mp3?aggregator=tunein&cid=01FC1X5J7PN2N3YQPZYT8YDM9M&sid=2PPT4AHmaKyZsuUc2NiKlLj3bSd&token=zivyVO8zfnpNEWHPbB_0OSKTOg1Skp-sqo2jzCskYgQ&tvf=DclqlmSQXBdmMTIxLnJuZGZuay5jb20",
+        "text2": "https:\/\/f121.rndfnk.com\/ard\/swr\/swr3\/live\/mp3\/128\/stream.mp3",
         "text3": "mp3",
         "url": "https:\/\/www.swr3.de\/",
         "tag": "#radio #RadioMusic #top40 #pop"

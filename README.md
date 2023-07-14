@@ -9,7 +9,7 @@ README.md
 
 
 🔗 [https://inonehp.pages.dev](https://inonehp.pages.dev)  
-📁 [Download](https://github.com/inonehp/inonehp.github.io/archive/refs/heads/main.zip)  
+📁 [Download ZIP](https://github.com/inonehp/inonehp.github.io/archive/refs/heads/main.zip)  
 
 [#website](https://github.com/topics/website?s=updated)
 [#homepage](https://github.com/topics/homepage?s=updated)
