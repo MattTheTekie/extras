@@ -143,6 +143,7 @@ var year = dateObj.getUTCFullYear();
 //https://www.w3schools.com/jsref/jsref_getday.asp
 let d = dateObj.getDay();
 
+/*
 let i = 1;
 let text = '';
 while (i <= 6) {
@@ -155,6 +156,8 @@ text += ".";
 i++;
 }
 if(d == 0){ text += `7`; } else { text += '.'; }
+*/
+text = day+' '+dayEn[d];
 
 var urlDayNow = 'https://en.wikipedia.org/wiki/'+monthsEn[month]+'_'+day+'';
 //document.getElementById('urlDayNow').innerHTML = `<a rel="nofollow" class="tag op light border4" href="`+urlDayNow+`">`+dayEn[d]+` `+day+` `+monthsEn[month]+`</a>`;
