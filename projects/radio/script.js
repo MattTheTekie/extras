@@ -1,4 +1,4 @@
-// v.1.2.10
+// v.1.2.101
 
 
 function randomRadio(printId, jsonVar){
@@ -41,7 +41,7 @@ tag = tag.trim();
 
 
 if(q == null){ q = localStorage.getItem('randomRadioQ'); }
-if(q == null) { q = '#radioMusic'; tag = q; }
+if(q == null) { q = '#RadioMusic'; tag = q; }
 var q2 = q;
 
 

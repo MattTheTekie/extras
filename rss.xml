@@ -16,6 +16,25 @@
 </image>
 
 <item>
+<pubDate>Sat, 15 Jul 23 13:11:22 +0300</pubDate>
+<title><![CDATA[CSS Scroll Padding:
+
+<style>
+html { scroll-padding-top: 35px; }
+</style> ]]></title>
+<link><![CDATA[http://inonehp.github.io/blog.html?id=101#101]]></link>
+<description>
+<![CDATA[
+<div class="post border2">
+<code><span style="color: var(--blue)">
+CSS&nbsp;Scroll&nbsp;Padding:&lt;style&gt;html&nbsp;{&nbsp;scroll-padding-top:&nbsp;35px;&nbsp;}&lt;/style&gt;&nbsp;</span>
+</code>
+</div>
+]]>
+</description>
+</item>
+
+<item>
 <pubDate>Thu, 13 Jul 23 18:32:25 +0300</pubDate>
 <title><![CDATA[Centering a div
 
