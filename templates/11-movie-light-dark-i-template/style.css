@@ -87,10 +87,12 @@ margin-bottom: 5px;
 
 
 /***************/
-.movieCastList {  }
+.movieCastList {
+display: grid;
+grid-template-columns: repeat(auto-fill, 120px);
+}
 .movieCastItem {
 display: inline-block;
-
 align-items: center;
 justify-content: center;
 padding: 5px; 
