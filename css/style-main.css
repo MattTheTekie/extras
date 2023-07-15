@@ -281,35 +281,35 @@ td { background-color: var(--l2); }
 .b2, .b2 a { color: var(--b4); }
 .brand:hover, a .brand:hover, .brand a:hover, .brand button:hover { color: var(--b4); }
 
-.red { color: var(--red); } .red2 { color: var(--red2); }
+.red, .red a { color: var(--red); } .red2 { color: var(--red2); }
 .red a:hover { color: var(--red2); }
 .redBg { background: var(--red); }
 
-.orange { color: var(--orange); } .orange2 { color: var(--orange2); }
+.orange, .orange a { color: var(--orange); } .orange2 { color: var(--orange2); }
 .orange a:hover { color: var(--orange2); }
 .orangeBg { background: var(--orange); }
 
-.yellow { color: var(--yellow); } .yellow2 { color: var(--yellow2);}
+.yellow, .yellow a { color: var(--yellow); } .yellow2 { color: var(--yellow2);}
 .yellow a:hover { color: var(--yellow2); }
 .yellowBg { background: var(--yellow); }
 
-.green { color: var(--green); } .green2 { color: var(--green2); }
+.green, .green a { color: var(--green); } .green2 { color: var(--green2); }
 .green a:hover { color: var(--green2); }
 .greenBg { background: var(--green); }
 
-.blue { color: var(--blue); } .blue2 { color: var(--blue2); }
+.blue, .blue a { color: var(--blue); } .blue2 { color: var(--blue2); }
 .blue a:hover { color: var(--blue2); }
 .blueBg { background: var(--blue); }
 
-.indigo { color: var(--indigo); } .indigo2 { color: var(--indigo2); }
+.indigo, .indigo a { color: var(--indigo); } .indigo2 { color: var(--indigo2); }
 .indigo a:hover { color: var(--indigo2); }
 .indigoBg { background: var(--indigo); }
 
-.violet { color: var(--violet); } .violet2 { color: var(--violet2); }
+.violet, .violet a { color: var(--violet); } .violet2 { color: var(--violet2); }
 .violet a:hover { color: var(--violet2); }
 .violeBg { background: var(--violet); }
 
-.active { color: var(--c3); }
+.active, .active a { color: var(--c3); }
 .active:hover { color: var(--c); }
 
 .border, .borderList { border: 1px solid var(--d3); }

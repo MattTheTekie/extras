@@ -1,5 +1,6 @@
 /* v.1.1.2 */
 
+
 html::before {
 width: calc(100vh);
 height: calc(100vh);
@@ -51,12 +52,12 @@ border-bottom: 2px dotted var(--d3);
 h3, b, .bold, nav a {
 /*text-transform: uppercase;*/
 }
-h1::first-letter
-h2::first-letter
+h1::first-letter,
+h2::first-letter,
 h3::first-letter,
 h4::first-letter,
 h5::first-letter,
-h6::first-letter
+h6::first-letter,
 b::first-letter,
 .bold::first-letter {
 border-bottom: 1px solid var(--c);

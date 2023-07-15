@@ -71,18 +71,16 @@
 
 
 
-<div class="center2">
-
-
-
+<div class="center3">
 <div class="wrapperL">
-<div id="result">
+
 
 <form id="form" method="GET" class="block" action="search.html" style="margin:0 auto; style="">
 <label id="search" class="op block xSmall">search:</label>
-<input id="input" class="padding" aria-labelledby="search" type="search" style="text-align: center;" name="q" autofocus="autofocus"  placeholder="" list="hint" autocomplete="off">
+<input id="input" class="padding" aria-labelledby="search" type="search" style="text-align: center;" name="q" autofocus="autofocus"  placeholder=""  autocomplete="off">
 <input type="submit" value="go">
 </form>
+
 
 <div  class="center" style="margin-top: 7px;">
 
@@ -161,13 +159,6 @@ document.getElementById("hotLinks").innerHTML = a;
 
 
 
-</div>
-
-
-
-
-
-
 
 
 
@@ -186,67 +177,6 @@ document.getElementById("hotLinks").innerHTML = a;
 <script src="/projects/redirects/script.js"></script>
 
 
-
-<script>
-
-var print = '';
-
-if(rUrlGet == null||rUrlGet == 'null'||rUrlGet == ''){
-/*print = `
-<form if="form" method="GET" class="block" action="search.html" style="margin:0 auto; style="">
-<input class="padding" type="search" style="text-align: center;" name="q" autofocus="autofocus" autocomplete="off" placeholder="" x-webkit-speech />
-<input type="submit" value="go">
-</form>
-
-`;*/
-}else{
-
-rUrlGet = String(window.location);
-let myArray = rUrlGet.split("rUrl=");
-rUrlGet = myArray[1];
-
-let rUrlGetPrint = decodeURIComponent(rUrlGet);
-rUrlGetPrint = rUrlGetPrint.replace(/</g, "&lt;");
-rUrlGetPrint = rUrlGetPrint.replace(/>/g, "&gt;");
-
-
-var sTimeRedir = 1200;
-
-var sTimeRedirStatus = `redir: `+sTimeRedir / 1000+` sec.`;
-
-if ((''+window.location+'').search("#stopRedir") == -1){ // if back Stop Redir
-setTimeout(function(){
-window.location.href = rUrlGet;
-}, sTimeRedir); 
-}
-
-window.location.href = window.location.href+'#stopRedir'; 
-
-if (rUrlGet.search("#stopRedir") != -1){ 
-sTimeRedirStatus = '  ( redir: off )  ';
-
-}
-
-
-print = `
-
-<div class="tCenter">
-<div class="post bgList borderList op tCenter">`+sTimeRedirStatus+`</div>
-<div class="post bgList borderList h3 orange bold">`+rUrlGetPrint+`</div>
-<a class="block padding light borderList op" href="`+rUrlGet+`">open</a>
-</div>
-
-`;
-
-
-
-document.getElementById("result").innerHTML = print;
-
-}
-
-
-
-</script>
 
 
 </body>
