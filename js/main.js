@@ -1,4 +1,4 @@
-/* v.3.3.18 */
+/* v.3.3.19 */
 
 
 // conf
@@ -37,7 +37,7 @@ mainPrintMsg('footer', `
 <asdf id="fStyle"></asdf>
 
 <span id="fTheme"><a href="/theme.${confExt}">Themes</a></span>
-<span id="fApp"><a href="/app.${confExt}">app: status</a></span>
+<!--<span id="fApp"><a href="/app.${confExt}">app: status</a></span>-->
 <span id="fAds"><a href="/ads.${confExt}">ads: ${localStorage.getItem('confAdsStatus')}</a></span>
 <span id="fPrivacy"><a href="/privacy.${confExt}">cookie: status</a></span>
 <span><a href="https://twitter.com/inonehp">Twitter</a></span>

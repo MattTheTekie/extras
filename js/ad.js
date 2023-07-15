@@ -142,7 +142,7 @@ mainPrintMsg('cookiePopup', `
 <button class="button light4" onclick="cookiePopup('off')">No</button>
 <button class="button cookiePopupYes" onclick="cookiePopup('on')">Yes</button>
 <br>
-<a class="brand" href="privacy.${confExt}">more</a>
+<a class="brand" href="/privacy.${confExt}">privacy.${confExt}</a>
 
 </div>
 </div>
