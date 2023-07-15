@@ -135,14 +135,14 @@ document.getElementById(idAds).innerHTML = '<div class="center"><div class="post
 if(confDataCollection == 'not selected'){
 mainPrintMsg('cookiePopup', `
 
-<div id="cookiePopup" class="wrapper padding">
+<div id="cookiePopup" class="wrapper">
 <div class="cookiePopup post bg3 border margin tCenter">
 
 <b>Allow Cookies for third parties?</b>
 <button class="button light4" onclick="cookiePopup('off')">No</button>
 <button class="button cookiePopupYes" onclick="cookiePopup('on')">Yes</button>
-<!--<hr>
-<a href="privacy.${confExt}">more</a>-->
+<br>
+<a class="brand" href="privacy.${confExt}">more</a>
 
 </div>
 </div>
