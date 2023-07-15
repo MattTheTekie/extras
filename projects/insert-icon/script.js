@@ -109,6 +109,7 @@ let icons = {
 "apache":`<img src="/img/icons/apache-128x128.png" alt="ico" width="16" height="16">`,
 "gimp":`<img src="/img/icons/gimp-128x128.png" alt="ico" width="16" height="16">`,
 "chrome":`<img src="/img/icons/google-chrome-128x128.png" alt="ico" width="16" height="16">`,
+"inkscape":`<img src="/img/icons/inkscape-128x128.png" alt="ico" width="16" height="16">`,
 "krita":`<img src="/img/icons/krita-128x128.png" alt="ico" width="16" height="16">`,
 "mysql":`<img src="/img/icons/mysql-128x128.png" alt="ico" width="16" height="16">`,
 "mariadb":`<img src="/img/icons/mariadb-128x128.png" alt="ico" width="16" height="16">`,

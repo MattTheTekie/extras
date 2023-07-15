@@ -1,4 +1,4 @@
-// v.1.17.4
+// v.1.17.5
 
 // inspired by Twitter, Fediverse
 // not for large Json files
@@ -1310,7 +1310,7 @@ item = `<a class="brand" href="${item}">${item}</a>`;
 }
 
 
-if(item.search("./") != -1&&item.search(".htm") != -1&&item.search("http") == -1){
+if(item[0] == '/'&&item.search(".htm") != -1||item.search("./") != -1&&item.search(".htm") != -1&&item.search("http") == -1){
 checkText = false;
 if(targetOption == 'blank'){
 /*item = `<a rel="nofollow" href="/projects/blog-in-progress/?q=${item} tag">#${item} <span class="sup">⇗</span></a>`;*/
@@ -1768,7 +1768,7 @@ item = `<a class="brand" href="${item}">${item}</a>`;
 }
 
 
-if(item.search("./") != -1&&item.search(".htm") != -1&&item.search("http") == -1){
+if(item[0] == '/'&&item.search(".htm") != -1||item.search("./") != -1&&item.search(".htm") != -1&&item.search("http") == -1){
 
 if(targetOption == 'blank'){
 /*item = `<a rel="nofollow" href="/projects/blog-in-progress/?q=${item} tag">#${item} <span class="sup">⇗</span></a>`;*/
