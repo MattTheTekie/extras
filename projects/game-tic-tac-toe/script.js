@@ -1,4 +1,4 @@
-// v.1.2.10
+// v.1.2.11
 
 
 
@@ -18,7 +18,7 @@ var playArr = [
 "6", "7", "8"
 ];*/
 
-
+var pcSmartLevel = 30; /* more high, more smart (random 0-pcSmartLevel, if 0 disable predicable)  */
 const tttPlayerName = 'Player';
 const tttPlayerSymbol = 'x';
 const tttPlayer2Name = 'PC';
@@ -79,7 +79,7 @@ function fuCheckClick(event) {
 var clickedId = event.target.id;
 var win = '';
 var error = false;
-var pcSmartLevel = 30; /* more high, more smart (random enable predicable)  */
+
 
 pcSmartLevel = Math.floor(Math.random() * pcSmartLevel);
 //pcSmartLevel = 0;
