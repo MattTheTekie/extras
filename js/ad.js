@@ -126,26 +126,50 @@ document.getElementById(idAds).innerHTML = '<div class="center"><div class="post
 }
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 }
 
+// v.1.0.0
+// start Cookie Consent Popups
+// if not selected: popup
+
+if(confDataCollection == 'not selected'){
+mainPrintMsg('cookiePopup', `
+
+<div id="cookiePopup" class="wrapper padding">
+<div class="cookiePopup post bg3 border margin tCenter">
+
+<b>Allow Cookies for third parties?</b>
+<button class="button light4" onclick="cookiePopup('off')">No</button>
+<button class="button cookiePopupYes" onclick="cookiePopup('on')">Yes</button>
+<!--<hr>
+<a href="privacy.${confExt}">more</a>-->
+
+</div>
+</div>
+
+<style>
+.cookiePopup{
+border: 2px solid var(--orange);
+}
+.cookiePopupYes{
+background: var(--green);
+color: var(--d4);
+}
+.cookiePopupYes:hover{
+background: var(--green2);
+}
+
+</style>
+
+`); 
 
 
+function cookiePopup(option){
+localStorage.setItem('confDataCollection', option);
+if(document.getElementById("cookiePopup") != null){
+document.getElementById("cookiePopup").style.display = "none"
+}
+}
 
-
-
-
-
+}
+// end 

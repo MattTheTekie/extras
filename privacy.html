@@ -44,7 +44,11 @@
 
 
 
+
+
+
 <header class="wrapper3 topNav capitalize tLeft">
+<div id="cookiePopup"></div>
 <nav>
 
 <a href="../"><img class="logo2" src="/img/logo.png" alt="i"></a>
@@ -76,10 +80,10 @@
 <div style="text-align:center;" class="center2">
 
 <div style="margin-bottom: 45px;">
-<h3>Allow Cookies for third parties?</h3>
-<b class="block h5 padding">This is necessary to improve the site.</b>
+<h5>Allow Cookies for third parties?</h5>
+<b class="block h6">This is necessary to improve the site.</b>
 (for Ads Services, Statistics)</div>
-<b id="result" class="padding border4 bg4 bold h3 shadow">Status Cookies</b>
+<b id="result" class="padding border4 bg4 bold shadow">Status Cookies</b>
 <div id="option" style="padding: 30px 0;"></div>
 
 </div>
@@ -107,8 +111,8 @@ document.getElementById("result").innerHTML = 'status cookie: ' +localStorage.ge
 }
 
 var confDataCollectionOption = [
-"on",
-"off"
+"off",
+"on"
 ];
 
 var result = '';

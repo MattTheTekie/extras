@@ -90,7 +90,7 @@ confWorkerStatus = localStorage.getItem('confWorkerStatus');
 }
 mainPrintMsg('fApp', `<a href="/app.${confExt}">app: ${confWorkerStatus}</a>`); 
 
-var confDataCollection = 'off';
+var confDataCollection = 'not selected';
 if(localStorage.getItem('confDataCollection') != null){
 confDataCollection = localStorage.getItem('confDataCollection');
 }
@@ -578,7 +578,7 @@ mainPrintMsg('fApp', `<a href="#">app: Install app</a>`);
 addBtn.addEventListener('click', () => {
     // hide our user interface that shows our A2HS button
 //addBtn.style.display = 'none';
-mainPrintMsg('', `<a href="#">app: Install in progress</a>`); 
+mainPrintMsg('fApp', `<a href="#">app: Install in progress</a>`); 
     // Show the prompt
     deferredPrompt.prompt();
     // Wait for the user to respond to the prompt

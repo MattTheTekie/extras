@@ -1,4 +1,4 @@
-/* v.12.26.4 */
+/* v.12.27.0 */
 
 * {  color-scheme: light dark; } /* view-source:about:blank */ /* fixed #fff blink */
 
@@ -277,39 +277,32 @@ td { background-color: var(--l2); }
 
 .shadow { box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24); }
 
-.brand, .brand a, .brand button{ color: var(--b3); }
-.b2, .b2 a { color: var(--b4); }
-.brand:hover, a .brand:hover, .brand a:hover, .brand button:hover { color: var(--b4); }
+.brand, .brand button{ color: var(--b3); }
+.b2 { color: var(--b4); }
+.brand:hover, .brand button:hover { color: var(--b4); }
 
-.red, .red a { color: var(--red); } .red2 { color: var(--red2); }
-.red a:hover { color: var(--red2); }
-.redBg { background: var(--red); }
+.red { color: var(--red); } .red2 { color: var(--red2); }
+.red:hover { color: var(--red2); }
 
-.orange, .orange a { color: var(--orange); } .orange2 { color: var(--orange2); }
-.orange a:hover { color: var(--orange2); }
-.orangeBg { background: var(--orange); }
+.orange{ color: var(--orange); } .orange2 { color: var(--orange2); }
+.orange:hover { color: var(--orange2); }
 
-.yellow, .yellow a { color: var(--yellow); } .yellow2 { color: var(--yellow2);}
-.yellow a:hover { color: var(--yellow2); }
-.yellowBg { background: var(--yellow); }
+.yellow { color: var(--yellow); } .yellow2 { color: var(--yellow2);}
+.yellow:hover { color: var(--yellow2); }
 
-.green, .green a { color: var(--green); } .green2 { color: var(--green2); }
-.green a:hover { color: var(--green2); }
-.greenBg { background: var(--green); }
+.green { color: var(--green); } .green2 { color: var(--green2); }
+.green:hover { color: var(--green2); }
 
-.blue, .blue a { color: var(--blue); } .blue2 { color: var(--blue2); }
-.blue a:hover { color: var(--blue2); }
-.blueBg { background: var(--blue); }
+.blue { color: var(--blue); } .blue2 { color: var(--blue2); }
+.blue:hover { color: var(--blue2); }
 
-.indigo, .indigo a { color: var(--indigo); } .indigo2 { color: var(--indigo2); }
-.indigo a:hover { color: var(--indigo2); }
-.indigoBg { background: var(--indigo); }
+.indigo{ color: var(--indigo); } .indigo2 { color: var(--indigo2); }
+.indigo:hover { color: var(--indigo2); }
 
-.violet, .violet a { color: var(--violet); } .violet2 { color: var(--violet2); }
-.violet a:hover { color: var(--violet2); }
-.violeBg { background: var(--violet); }
+.violet { color: var(--violet); } .violet2 { color: var(--violet2); }
+.violet:hover { color: var(--violet2); }
 
-.active, .active a { color: var(--c3); }
+.active { color: var(--c3); }
 .active:hover { color: var(--c); }
 
 .border, .borderList { border: 1px solid var(--d3); }
