@@ -150,9 +150,9 @@ mainPrintMsg('cookiePopup', `
 </div>
 
 <style>
-.cookiePopup{
+/*.cookiePopup{
 border: 2px solid var(--orange);
-}
+}*/
 .cookiePopupYes{
 background: var(--green);
 color: var(--l);

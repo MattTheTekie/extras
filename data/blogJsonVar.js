@@ -1,6 +1,15 @@
 var blogJsonVar = 
 [
     {
+        "id": "125",
+        "text": "repeat() - CSS: Cascading Style Sheets | MDN",
+        "text2": "",
+        "text3": "",
+        "url": "https:\/\/developer.mozilla.org\/en-US\/docs\/Web\/CSS\/repeat",
+        "tag": "#CSS",
+        "time": 1689504832
+    },
+    {
         "id": "124",
         "text": "HTML & CSS Camera",
         "text2": "",

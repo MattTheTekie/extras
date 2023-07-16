@@ -1,8 +1,9 @@
-/* v.1.1.4 */
+/* v.1.2.0 */
 /* inspired by IMDB and other */
 
 :root{
---moviePosterWidth: 180px;
+--moviePosterWidth: 150px;
+--moviePosterHeight: 210px;
 }
 
 .movieWrapper {
@@ -15,6 +16,7 @@ margin: 0 auto;
 .movieList {
 display: grid;
 grid-template-columns: repeat(4, var(--moviePosterWidth));
+grid-template-columns: repeat(auto-fill, var(--moviePosterWidth));
 grid-gap: 15px;
 
 width: 100%;
@@ -31,7 +33,7 @@ max-width: var(--moviePosterWidth);
 
 .moviePoster {
 background-size: cover;
-height: 250px;
+height:var(--moviePosterHeight);
 width: 100%;
 }
 
@@ -45,11 +47,11 @@ border-top: 1px solid var(--d);
 font-weight: bold; 
 }
 
-@media(max-width: 800px) { .movieList { grid-template-columns: repeat(3, var(--moviePosterWidth)); }}
+/*@media(max-width: 800px) { .movieList { grid-template-columns: repeat(3, var(--moviePosterWidth)); }}
 @media(max-width: 600px) { .movieList { grid-template-columns: repeat(2, var(--moviePosterWidth)); }}
-@media(max-width: 390px) { .movieList { grid-template-columns: repeat(1, var(--moviePosterWidth)); }}
+@media(max-width: 390px) { .movieList { grid-template-columns: repeat(1, var(--moviePosterWidth)); }}*/
 @media(max-width: 200px) {
-.movieList { display: block; } 
+.movieList { display: block; }
 .movieItem { margin-bottom: 15px; }
 .moviePoster { height: 200px; }
 }
