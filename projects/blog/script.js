@@ -1,4 +1,4 @@
-// v.1.17.5
+// v.1.17.6
 
 // inspired by Twitter, Fediverse
 // not for large Json files
@@ -12,7 +12,7 @@
 
 
 
-function blog(printId, jsonVar, postClass, embedStatus, tagListStatus, postLimit, scriptDir, multiEmbedStatus, tagListLimit, targetOption){
+function blog(printId, jsonVar, postClass, embedStatus, tagListStatus, postLimit, scriptDir, multiEmbedStatus, tagListLimit, targetOption, bottomMsg){
 
 /*
 printId - div id where print blog
@@ -35,7 +35,7 @@ if(postClass == undefined||postClass == ''){ postClass = 'post'; }
 if(scriptDir == undefined||scriptDir == ''){ scriptDir = './'; }
 if(multiEmbedStatus == undefined||multiEmbedStatus == ''){ multiEmbedStatus = 'off'; }
 if(tagListLimit == undefined||tagListLimit == ''){ tagListLimit = '100'; }
-
+if(bottomMsg == undefined||bottomMsg == ''){ bottomMsg = ''; }
 
 if(jsonVar == ''){
 var jsonVar = 
@@ -596,7 +596,11 @@ print += `
 </form>
 
 <br>
-<span class="op block tCenter margin padding">total post: ${jsonVar.length}</span>
+<div class="block padding">
+<span class="op block tCenter margin  small">total post: ${jsonVar.length}</span>
+<span class="op block tCenter margin padding">${bottomMsg}</span>
+</div>
+
 </div>
 `;
 

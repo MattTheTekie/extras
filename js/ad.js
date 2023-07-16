@@ -1,4 +1,4 @@
-/* v.1.2.1 */
+/* v.1.2.2 */
 // print ads from json var list: fuAds('', 'ads2 - id where print', '');
 
 function fuAds(none, idAds, none2, comAds){
@@ -128,7 +128,7 @@ document.getElementById(idAds).innerHTML = '<div class="center"><div class="post
 
 }
 
-// v.1.1.0
+// v.1.1.1
 // start Cookie Consent Popups
 // if not selected: popup
 
@@ -139,10 +139,12 @@ mainPrintMsg('cookiePopup', `
 <div class="cookiePopup post bg3 border margin tCenter">
 
 <b>Allow Cookies for third parties?</b>
+<p>This is necessary to improve the site.
+(for relevant Ads, Statistics)</p>
 <button class="button light4 bold" onclick="cookiePopup('off')">No</button>
 <button class="button cookiePopupYes bold" onclick="cookiePopup('on')">Yes</button>
-<br>
-<a class="brand" href="/privacy.${confExt}">privacy.${confExt}</a>
+<!--<br>
+<a class="brand" href="/privacy.${confExt}">privacy.${confExt}</a>-->
 
 </div>
 </div>
@@ -153,7 +155,7 @@ border: 2px solid var(--orange);
 }
 .cookiePopupYes{
 background: var(--green);
-color: var(--d4);
+color: var(--l);
 }
 .cookiePopupYes:hover{
 background: var(--green2);
@@ -174,7 +176,8 @@ right: 0;
 function cookiePopup(option){
 localStorage.setItem('confDataCollection', option);
 if(document.getElementById("cookiePopup") != null){
-document.getElementById("cookiePopup").style.display = "none"
+document.getElementById("cookiePopup").style.display = "none";
+mainPrintMsg('fPrivacy', `<a href="/privacy.${confExt}">cookies: ${option}</a>`); 
 }
 }
 
