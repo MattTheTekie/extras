@@ -1,6 +1,15 @@
 var blogJsonVar = 
 [
     {
+        "id": "126",
+        "text": "scroll-snap-type - CSS: Cascading Style Sheets | MDN",
+        "text2": "",
+        "text3": "",
+        "url": "https:\/\/developer.mozilla.org\/en-US\/docs\/Web\/CSS\/scroll-snap-type",
+        "tag": "#CSS",
+        "time": 1689506112
+    },
+    {
         "id": "125",
         "text": "repeat() - CSS: Cascading Style Sheets | MDN",
         "text2": "",

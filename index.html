@@ -136,14 +136,17 @@
 <span class="xSmall">🖥️ Status: </span><a class="brand" href="/webdesign.html#webdesign"><span class="green bold">I am free for work.</span></a>
 </div>
 
-<div class="op">
+
+<div class="">
 <span id="urlDayNow"></span>
-<a rel="nofollow" class="tag op light border4" href="/projects/redirects/?q=sci">sci</a>
-<a rel="nofollow" class="tag op light border4" href="/projects/redirects/?q=tec">tec</a>
-<a rel="nofollow" class="tag op light border4" href="/projects/redirects/?q=dev">dev</a>
-<a rel="nofollow" class="tag op light border4" href="/projects/redirects/?q=3.14159265359">π</a>
+<a rel="nofollow" class="border4 tag op light border4" href="/projects/redirects/?q=sci">sci</a>
+<a rel="nofollow" class="border4 tag op light border4" href="/projects/redirects/?q=tec">tec</a>
+<a rel="nofollow" class="border4 tag op light border4" href="/projects/redirects/?q=dev">dev</a>
+<a rel="nofollow" class="border4 tag op light border4" href="/projects/redirects/?q=3.14159265359">π</a>
 </div>
 </header>
+
+
 
 <script>
 var monthsEn = ['', 'January', 'February', 'March', 'April', 'May', 'June', 'July', 'August', 'September', 'October', 'November', 'December'];
@@ -177,7 +180,7 @@ text = day+' '+dayEn[d];
 
 var urlDayNow = 'https://en.wikipedia.org/wiki/'+monthsEn[month]+'_'+day+'';
 //document.getElementById('urlDayNow').innerHTML = `<a rel="nofollow" class="tag op light border4" href="`+urlDayNow+`">`+dayEn[d]+` `+day+` `+monthsEn[month]+`</a>`;
-document.getElementById('urlDayNow').innerHTML = `<a rel="nofollow" class="tag op light border4" href="`+urlDayNow+`">`+text+`</a>`;
+document.getElementById('urlDayNow').innerHTML = `<a rel="nofollow" class="border4 tag op light border4" href="`+urlDayNow+`">`+text+`</a>`;
 
 
 /*function normalize(a){
@@ -185,6 +188,7 @@ if(a <= 9){ a = '0'+a; }
 return a;
 }*/
 </script>
+
 
 <div id="form" class="wrapperL">
 <form method="GET" style="margin-top: 0px;" action="/projects/redirects/" autocomplete="off">

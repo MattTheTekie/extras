@@ -1,4 +1,4 @@
-/* v.1.2.0 */
+/* v.1.3.0 */
 /* inspired by IMDB and other */
 
 :root{
@@ -76,7 +76,12 @@ width: 100%;
 @media(max-width: 650px) {
 .movieId { grid-template-columns: 1fr; }
 .movieId .movieItem { max-width: 100px; }
-.movieId .moviePoster { height: 150px; }
+.movieId .moviePosterItem {
+max-width: 100px;
+}
+.movieId .moviePoster {
+height: 140px;
+}
 .movieIdForHide { display: none; }
 .movieIdForShow, .movieIdForShow .movieItem {
 display: block;
