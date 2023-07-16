@@ -260,13 +260,109 @@
          values="1.05 0 0 0.0404875 -0.025 0 1.05 0 0.0404875 -0.025 0 0 1.05 0.0404875 -0.025 0 0 0 1 0"
          in="fbSourceGraphic" />
     </filter>
+    <filter
+       style="color-interpolation-filters:sRGB;"
+       inkscape:label="Lighting"
+       id="filter830"
+       x="0"
+       y="0"
+       width="1"
+       height="1">
+      <feComponentTransfer
+         in="blur"
+         result="component"
+         id="feComponentTransfer828">
+        <feFuncR
+           type="gamma"
+           amplitude="0.6"
+           exponent="1"
+           offset="0"
+           id="feFuncR822" />
+        <feFuncG
+           type="gamma"
+           amplitude="0.6"
+           exponent="1"
+           offset="0"
+           id="feFuncG824" />
+        <feFuncB
+           type="gamma"
+           amplitude="0.6"
+           exponent="1"
+           offset="0"
+           id="feFuncB826" />
+      </feComponentTransfer>
+    </filter>
+    <filter
+       style="color-interpolation-filters:sRGB;"
+       inkscape:label="Lighting"
+       id="filter840"
+       x="0"
+       y="0"
+       width="1"
+       height="1">
+      <feComponentTransfer
+         in="blur"
+         result="component"
+         id="feComponentTransfer838">
+        <feFuncR
+           type="gamma"
+           amplitude="0.6"
+           exponent="1"
+           offset="0"
+           id="feFuncR832" />
+        <feFuncG
+           type="gamma"
+           amplitude="0.6"
+           exponent="1"
+           offset="0"
+           id="feFuncG834" />
+        <feFuncB
+           type="gamma"
+           amplitude="0.6"
+           exponent="1"
+           offset="0"
+           id="feFuncB836" />
+      </feComponentTransfer>
+    </filter>
+    <filter
+       style="color-interpolation-filters:sRGB;"
+       inkscape:label="Lighting"
+       id="filter850"
+       x="0"
+       y="0"
+       width="1"
+       height="1">
+      <feComponentTransfer
+         in="blur"
+         result="component"
+         id="feComponentTransfer848">
+        <feFuncR
+           type="gamma"
+           amplitude="0.6"
+           exponent="1"
+           offset="0"
+           id="feFuncR842" />
+        <feFuncG
+           type="gamma"
+           amplitude="0.6"
+           exponent="1"
+           offset="0"
+           id="feFuncG844" />
+        <feFuncB
+           type="gamma"
+           amplitude="0.6"
+           exponent="1"
+           offset="0"
+           id="feFuncB846" />
+      </feComponentTransfer>
+    </filter>
   </defs>
   <g
      inkscape:label="Layer 1"
      inkscape:groupmode="layer"
      id="layer1">
     <path
-       style="fill:#555753;fill-rule:evenodd"
+       style="fill:#2e3436;fill-rule:evenodd"
        id="path53"
        sodipodi:type="arc"
        sodipodi:cx="256"
@@ -278,7 +374,7 @@
        sodipodi:arc-type="slice"
        d="M 512,256.00313 A 256,256 0 0 1 255.99765,512 256,256 0 0 1 0,255.99844 256,256 0 0 1 256.00078,0 256,256 0 0 1 512,256 H 256 Z" />
     <path
-       style="fill:#ffffff;fill-rule:evenodd"
+       style="fill:#eeeeec;fill-rule:evenodd"
        id="path126"
        sodipodi:type="arc"
        sodipodi:cx="256"
@@ -293,7 +389,7 @@
        inkscape:export-xdpi="96"
        inkscape:export-ydpi="96" />
     <path
-       style="fill:#555753"
+       style="fill:#2e3436"
        id="path439"
        sodipodi:type="arc"
        sodipodi:cx="189.50229"
@@ -305,7 +401,7 @@
        sodipodi:arc-type="slice"
        d="m 231.41093,172.04104 a 41.908638,41.908638 0 0 1 -41.90903,41.90813 41.908638,41.908638 0 0 1 -41.90825,-41.9089 41.908638,41.908638 0 0 1 41.90877,-41.90838 41.908638,41.908638 0 0 1 41.90851,41.90864 h -41.90864 z" />
     <path
-       style="fill:#555753"
+       style="fill:#2e3436"
        id="path439-3"
        sodipodi:type="arc"
        sodipodi:cx="289.15021"

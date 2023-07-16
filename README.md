@@ -22,7 +22,6 @@ README.md
 ##### Some copyright
 
 • Most logos are protected by copyright and belong to their owners  
-• The "graphics" page and content is protected by copyright  
 
 • Books in /data: books have their own license  
 • dash.js in /js: have own license  
