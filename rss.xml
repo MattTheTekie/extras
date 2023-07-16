@@ -16,93 +16,130 @@
 </image>
 
 <item>
-<pubDate>Sat, 15 Jul 23 19:45:01 +0300</pubDate>
-<title><![CDATA[scroll-padding-top - CSS: Cascading Style Sheets | MDN  ]]></title>
-<link><![CDATA[https://developer.mozilla.org/en-US/docs/Web/CSS/scroll-padding-top]]></link>
+<pubDate>Sun, 16 Jul 23 09:27:51 +0300</pubDate>
+<title><![CDATA[HTML & CSS Camera  ]]></title>
+<link><![CDATA[https://codepen.io/kassandrasanch/pen/dyMQPKB]]></link>
 <description>
 <![CDATA[
 <div class="post border2">
-scroll-padding-top - CSS: Cascading Style Sheets | MDN <a class="brand" target="_blank" href="https://developer.mozilla.org/en-US/docs/Web/CSS/scroll-padding-top">https://developer.mozilla.org/en-US/docs/Web/CSS/scroll-padding-top</a>
+HTML &amp; CSS Camera <a class="brand" target="_blank" href="https://codepen.io/kassandrasanch/pen/dyMQPKB">https://codepen.io/kassandrasanch/pen/dyMQPKB</a>
 </div>
 ]]>
 </description>
 </item>
 
 <item>
-<pubDate>Sat, 15 Jul 23 19:43:34 +0300</pubDate>
-<title><![CDATA[NASA Webb Telescope on Twitter: "Cheers to our first year! 🥂 Let’s celebrate one year of Webb science by taking a brand-new look at Sun-like stars being born, in this detailed close-up of Rho Ophiuchi, the closest-star-forming region to Earth.    " / Twitter  ]]></title>
-<link><![CDATA[https://twitter.com/NASAWebb/status/1679070248924856320]]></link>
+<pubDate>Sun, 16 Jul 23 09:27:32 +0300</pubDate>
+<title><![CDATA[CSS Art Polariod Camera  ]]></title>
+<link><![CDATA[https://codepen.io/kassandrasanch/pen/WNxJZyz]]></link>
 <description>
 <![CDATA[
 <div class="post border2">
-NASA Webb Telescope on Twitter: &quot;Cheers to our first year! 🥂 Let’s celebrate one year of Webb science by taking a brand-new look at Sun-like stars being born, in this detailed close-up of Rho Ophiuchi, the closest-star-forming region to Earth. <a class="brand" target="_blank" href="https://t.co/jXJgjb4mFj">https://t.co/jXJgjb4mFj</a> <a class="brand" target="_blank" href="https://t.co/yi891eVDHp&quot;">https://t.co/yi891eVDHp&quot;</a> / Twitter <a class="brand" target="_blank" href="https://twitter.com/NASAWebb/status/1679070248924856320">https://twitter.com/NASAWebb/status/1679070248924856320</a>
+CSS Art Polariod Camera <a class="brand" target="_blank" href="https://codepen.io/kassandrasanch/pen/WNxJZyz">https://codepen.io/kassandrasanch/pen/WNxJZyz</a>
 </div>
 ]]>
 </description>
 </item>
 
 <item>
-<pubDate>Sat, 15 Jul 23 13:11:22 +0300</pubDate>
-<title><![CDATA[CSS Scroll Padding:
-
-<style>
-html { scroll-padding-top: 35px; }
-</style> ]]></title>
-<link><![CDATA[http://inonehp.github.io/blog.html?id=101#101]]></link>
+<pubDate>Sun, 16 Jul 23 09:27:21 +0300</pubDate>
+<title><![CDATA[Vending Machine  ]]></title>
+<link><![CDATA[https://codepen.io/kassandrasanch/pen/eYZRKVJ]]></link>
 <description>
 <![CDATA[
 <div class="post border2">
-<code><span style="color: var(--blue)">
-CSS&nbsp;Scroll&nbsp;Padding:&lt;style&gt;html&nbsp;{&nbsp;scroll-padding-top:&nbsp;35px;&nbsp;}&lt;/style&gt;&nbsp;</span>
-</code>
+Vending Machine <a class="brand" target="_blank" href="https://codepen.io/kassandrasanch/pen/eYZRKVJ">https://codepen.io/kassandrasanch/pen/eYZRKVJ</a>
 </div>
 ]]>
 </description>
 </item>
 
 <item>
-<pubDate>Thu, 13 Jul 23 18:32:25 +0300</pubDate>
-<title><![CDATA[Centering a div
-
-CSS:
-
-<style>
-.centeringItem {
-display: flex;
-flex-direction: column;
-justify-content: center;
-align-items: safe center;
-align-self: safe center;
-box-sizing: border-box;
-margin: 0 auto;
-min-height: 100vh;
-}
-</style>
-
-HTML:
-
-<div class="centeringItem">
-<div><!-- w]]></title>
-<link><![CDATA[http://inonehp.github.io/blog.html?id=100#100]]></link>
+<pubDate>Sun, 16 Jul 23 09:27:07 +0300</pubDate>
+<title><![CDATA[CSS Art: Coffee Stain  ]]></title>
+<link><![CDATA[https://codepen.io/alvaromontoro/pen/jOeOrWr]]></link>
 <description>
 <![CDATA[
 <div class="post border2">
-<code><span style="color: var(--blue)">
-Centering&nbsp;a&nbsp;divCSS:&lt;style&gt;.centeringItem&nbsp;{display:&nbsp;flex;flex-direction:&nbsp;column;justify-content:&nbsp;center;align-items:&nbsp;safe&nbsp;center;align-self:&nbsp;safe&nbsp;center;box-sizing:&nbsp;border-box;margin:&nbsp;0&nbsp;auto;min-height:&nbsp;100vh;}&lt;/style&gt;HTML:&lt;div&nbsp;class="centeringItem"&gt;&lt;div&gt;&lt;!--&nbsp;wrapper&nbsp;--&gt;&lt;h1&gt;item&lt;/h1&gt;&lt;/div&gt;&lt;/div&gt;&nbsp;</span>
-</code>
+CSS Art: Coffee Stain <a class="brand" target="_blank" href="https://codepen.io/alvaromontoro/pen/jOeOrWr">https://codepen.io/alvaromontoro/pen/jOeOrWr</a>
 </div>
 ]]>
 </description>
 </item>
 
 <item>
-<pubDate>Tue, 25 Apr 23 09:55:25 +0300</pubDate>
-<title><![CDATA[Start End ]]></title>
-<link><![CDATA[http://inonehp.github.io/blog.html?id=52#52]]></link>
+<pubDate>Sun, 16 Jul 23 09:26:44 +0300</pubDate>
+<title><![CDATA[DRop  ]]></title>
+<link><![CDATA[https://codepen.io/antoniasymeonidou/pen/QWqpoMJ]]></link>
 <description>
 <![CDATA[
 <div class="post border2">
-Start End 
+DRop <a class="brand" target="_blank" href="https://codepen.io/antoniasymeonidou/pen/QWqpoMJ">https://codepen.io/antoniasymeonidou/pen/QWqpoMJ</a>
+</div>
+]]>
+</description>
+</item>
+
+<item>
+<pubDate>Sun, 16 Jul 23 09:25:04 +0300</pubDate>
+<title><![CDATA[Single Div Orange  ]]></title>
+<link><![CDATA[https://codepen.io/poonam-adlakha/pen/yLKQoZM]]></link>
+<description>
+<![CDATA[
+<div class="post border2">
+Single Div Orange <a class="brand" target="_blank" href="https://codepen.io/poonam-adlakha/pen/yLKQoZM">https://codepen.io/poonam-adlakha/pen/yLKQoZM</a>
+</div>
+]]>
+</description>
+</item>
+
+<item>
+<pubDate>Sun, 16 Jul 23 09:24:44 +0300</pubDate>
+<title><![CDATA[A Pure CSS Table Tennis Game  ]]></title>
+<link><![CDATA[https://codepen.io/ivorjetski/pen/mdzrLbW]]></link>
+<description>
+<![CDATA[
+<div class="post border2">
+A Pure CSS Table Tennis Game <a class="brand" target="_blank" href="https://codepen.io/ivorjetski/pen/mdzrLbW">https://codepen.io/ivorjetski/pen/mdzrLbW</a>
+</div>
+]]>
+</description>
+</item>
+
+<item>
+<pubDate>Sun, 16 Jul 23 09:24:31 +0300</pubDate>
+<title><![CDATA[CSS Art Keyboard  ]]></title>
+<link><![CDATA[https://codepen.io/kassandrasanch/pen/ExyrGKR]]></link>
+<description>
+<![CDATA[
+<div class="post border2">
+CSS Art Keyboard <a class="brand" target="_blank" href="https://codepen.io/kassandrasanch/pen/ExyrGKR">https://codepen.io/kassandrasanch/pen/ExyrGKR</a>
+</div>
+]]>
+</description>
+</item>
+
+<item>
+<pubDate>Sun, 16 Jul 23 09:24:13 +0300</pubDate>
+<title><![CDATA[Copypaste Apple Keyboard  ]]></title>
+<link><![CDATA[https://codepen.io/jkantner/pen/ZEqKgWJ]]></link>
+<description>
+<![CDATA[
+<div class="post border2">
+Copypaste Apple Keyboard <a class="brand" target="_blank" href="https://codepen.io/jkantner/pen/ZEqKgWJ">https://codepen.io/jkantner/pen/ZEqKgWJ</a>
+</div>
+]]>
+</description>
+</item>
+
+<item>
+<pubDate>Sun, 16 Jul 23 09:23:57 +0300</pubDate>
+<title><![CDATA[Radio Hopping  ]]></title>
+<link><![CDATA[https://codepen.io/jkantner/pen/rNaPadg]]></link>
+<description>
+<![CDATA[
+<div class="post border2">
+Radio Hopping <a class="brand" target="_blank" href="https://codepen.io/jkantner/pen/rNaPadg">https://codepen.io/jkantner/pen/rNaPadg</a>
 </div>
 ]]>
 </description>

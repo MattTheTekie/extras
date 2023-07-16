@@ -128,7 +128,7 @@ document.getElementById(idAds).innerHTML = '<div class="center"><div class="post
 
 }
 
-// v.1.0.0
+// v.1.1.0
 // start Cookie Consent Popups
 // if not selected: popup
 
@@ -159,6 +159,13 @@ color: var(--d4);
 background: var(--green2);
 }
 
+#cookiePopup{
+position: fixed;
+z-index: 10;
+bottom: 15px;
+left: 0;
+right: 0;
+}
 </style>
 
 `); 

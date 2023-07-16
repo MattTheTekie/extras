@@ -73,10 +73,10 @@ footer span:last-child { padding-right: 0; }
 nav form { display: inline-block; max-width: 120px; }
 nav input[type=search] { padding: 5px; min-height: 10px; }
 
-h1, .h1 { font-size: calc(100% + 50%); }
-h2, .h2 { font-size: calc(100% + 40%); }
-h3, .h3 { font-size: calc(100% + 30%); }
-h4, .h4 { font-size: calc(100% + 20%); }
+h1, .h1 { font-size: calc(100% + 30%); }
+h2, .h2 { font-size: calc(100% + 25%); }
+h3, .h3 { font-size: calc(100% + 20%); }
+h4, .h4 { font-size: calc(100% + 15%); }
 h5, .h5 { font-size: calc(100% + 10%); }
 h6, .h6 { font-size: calc(100% + 5%); }
 
