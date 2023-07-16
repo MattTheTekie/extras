@@ -627,7 +627,7 @@ document.getElementById(id).innerHTML = PrintMsg;
 
 
 // added URL to titile
-//document.getElementsByTagName('title')[0].innerHTML += ' | '+confHost;
+document.getElementsByTagName('title')[0].innerHTML += ' : '+confHost;
 
 
 

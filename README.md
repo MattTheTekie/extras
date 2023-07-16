@@ -1,6 +1,6 @@
 README.md
 
-⚡ Web Development, Web Design
+⚡ Web Development, Web Design  
 🏠 Homepage and other projects  
 🛍️ Extensions: New Tab Redirect ABC (Any website in New Tab, Firefox, Chrome)  
 📄 Website Templates  
@@ -21,12 +21,12 @@ README.md
 
 ##### Some copyright
 
-Most logos are protected by copyright and belong to their owners  
-The "graphics" page and content is protected by copyright  
+• Most logos are protected by copyright and belong to their owners  
+• The "graphics" page and content is protected by copyright  
 
-Books in /data: books have their own license  
-dash.js in /js: have own license  
-/video/bbb.mp4: have own license  
+• Books in /data: books have their own license  
+• dash.js in /js: have own license  
+• /video/bbb.mp4: have own license  
 
 
 

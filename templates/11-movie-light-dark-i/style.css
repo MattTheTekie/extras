@@ -1,40 +1,35 @@
-/* v.1.3.0 */
+/* v.1.3.2 */
 /* inspired by IMDB and other */
-
-:root{
---moviePosterWidth: 150px;
---moviePosterHeight: 210px;
-}
 
 .movieWrapper {
 width: 100%;
-max-width: calc(700px + (4 * 15px));
+max-width: calc(150px * 4 + (4 * 15px));
 margin: 0 auto;
 }
 
 /***************/
 .movieList {
 display: grid;
-grid-template-columns: repeat(4, var(--moviePosterWidth));
-grid-template-columns: repeat(auto-fill, var(--moviePosterWidth));
+grid-template-columns: repeat(auto-fill, 150px);
 grid-gap: 15px;
-
 width: 100%;
 max-width: 700px;
 margin: 0 auto;
-
 justify-content: center;
 }
 
 .movieItem {
 width: 100%;
-max-width: var(--moviePosterWidth);
+max-width: 150px;
 }
 
-.moviePoster {
-background-size: cover;
-height:var(--moviePosterHeight);
+.moviePosterImg {
+background-size: contain;
+background-position: center;
+background-repeat: no-repeat;
+height: 210px;
 width: 100%;
+/*background-color: red;*/
 }
 
 .movieTitle {
@@ -44,24 +39,22 @@ display: flex;
 align-items: center;
 justify-content: center;
 border-top: 1px solid var(--d);
-font-weight: bold; 
+font-weight: bold;
+align-self: center;
 }
 
-/*@media(max-width: 800px) { .movieList { grid-template-columns: repeat(3, var(--moviePosterWidth)); }}
-@media(max-width: 600px) { .movieList { grid-template-columns: repeat(2, var(--moviePosterWidth)); }}
-@media(max-width: 390px) { .movieList { grid-template-columns: repeat(1, var(--moviePosterWidth)); }}*/
 @media(max-width: 200px) {
 .movieList { display: block; }
 .movieItem { margin-bottom: 15px; }
-.moviePoster { height: 200px; }
+.moviePosterImg { height: 200px; }
 }
 
 /***************/
 .movieId{
 display: grid;
-grid-template-columns: calc(var(--moviePosterWidth)) calc(100% - var(--moviePosterWidth) - 1%);
+grid-template-columns: 150px calc(100% - 150px - 15px);
 justify-content: center;
-grid-gap: 1%;
+grid-gap: 15px;
 }
 
 .movieIdVideo {
@@ -79,7 +72,7 @@ width: 100%;
 .movieId .moviePosterItem {
 max-width: 100px;
 }
-.movieId .moviePoster {
+.movieId .moviePosterImg {
 height: 140px;
 }
 .movieIdForHide { display: none; }
