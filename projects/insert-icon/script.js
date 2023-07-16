@@ -67,7 +67,7 @@ let icons = {
 "search": "🔎",
 "sleep":"😴💤", "bed":"🛏",
 "store":"🛍️","shop":"🛍️", "extension":"🛍️", "extensions":"🛍️",
-"style":"🎨", "css":"🎨", "color":"🎨", "theme":"🎨", "palette":"🎨",
+"style":"🎨", "css":"🎨", "color":"🎨", "theme":"🎨", "palette":"🎨", "design":"🎨", "webdesign":"🎨",
 "time":"⌛", "timer":"⌛",
 "tmp":"⏳", "temporary":"⏳",
 "training":"🏃", "run":"🏃",

@@ -139,8 +139,8 @@ mainPrintMsg('cookiePopup', `
 <div class="cookiePopup post bg3 border margin tCenter">
 
 <b>Allow Cookies for third parties?</b>
-<button class="button light4" onclick="cookiePopup('off')">No</button>
-<button class="button cookiePopupYes" onclick="cookiePopup('on')">Yes</button>
+<button class="button light4 bold" onclick="cookiePopup('off')">No</button>
+<button class="button cookiePopupYes bold" onclick="cookiePopup('on')">Yes</button>
 <br>
 <a class="brand" href="/privacy.${confExt}">privacy.${confExt}</a>
 
