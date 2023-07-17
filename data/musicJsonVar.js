@@ -330,6 +330,13 @@ var musicJsonVar =
         "tag": "#music"
     },
     {
+        "text": "All About That Bass \u00b7 Meghan Trainor",
+        "text2": "",
+        "text3": "",
+        "url": "https:\/\/www.youtube.com\/watch?v=phEyvmvIvZs",
+        "tag": "#music"
+    },
+    {
         "text": "All About You \u00b7 Young MC",
         "text2": "",
         "text3": "",
@@ -831,6 +838,13 @@ var musicJsonVar =
         "text2": "",
         "text3": "",
         "url": "https:\/\/www.youtube.com\/watch?v=SEPvoNA1OGw",
+        "tag": "#music"
+    },
+    {
+        "text": "Attention \u00b7 Doja Cat",
+        "text2": "",
+        "text3": "",
+        "url": "https:\/\/www.youtube.com\/watch?v=HLNkPBNjTpo",
         "tag": "#music"
     },
     {
@@ -1464,6 +1478,13 @@ var musicJsonVar =
         "tag": "#music"
     },
     {
+        "text": "Black Widow \u00b7 Iggy Azalea \u00b7 Rita Ora",
+        "text2": "",
+        "text3": "",
+        "url": "https:\/\/www.youtube.com\/watch?v=k89YEt8hocI",
+        "tag": "#music"
+    },
+    {
         "text": "BLACKPINK - 'How You Like That' DANCE PERFORMANCE VIDEO - YouTube",
         "text2": "",
         "text3": "",
@@ -1653,6 +1674,20 @@ var musicJsonVar =
         "tag": "#music"
     },
     {
+        "text": "Born This Way \u00b7 Lady Gaga",
+        "text2": "",
+        "text3": "",
+        "url": "https:\/\/www.youtube.com\/watch?v=fn8JP4rUP2I",
+        "tag": "#music"
+    },
+    {
+        "text": "Bottom Bitch \u00b7 Doja Cat",
+        "text2": "",
+        "text3": "",
+        "url": "https:\/\/www.youtube.com\/watch?v=AlmjplgsytA",
+        "tag": "#music"
+    },
+    {
         "text": "Boys Kiss Boys \u00b7 Hollywood Wildlife",
         "text2": "",
         "text3": "",
@@ -1832,6 +1867,13 @@ var musicJsonVar =
         "text2": "",
         "text3": "",
         "url": "https:\/\/www.youtube.com\/watch?v=FlDGFrP4NgI",
+        "tag": "#music"
+    },
+    {
+        "text": "Buttons \u00b7 The Pussycat Dolls",
+        "text2": "",
+        "text3": "",
+        "url": "https:\/\/www.youtube.com\/watch?v=R67_mMSyGRg",
         "tag": "#music"
     },
     {
@@ -2458,6 +2500,13 @@ var musicJsonVar =
         "tag": "#music"
     },
     {
+        "text": "Circus \u00b7 Britney Spears",
+        "text2": "",
+        "text3": "",
+        "url": "https:\/\/www.youtube.com\/watch?v=7tVmLQFedxc",
+        "tag": "#music"
+    },
+    {
         "text": "City Grrrl - CSS feat. Ssion [Official Music Video] - YouTube",
         "text2": "",
         "text3": "",
@@ -2553,6 +2602,13 @@ var musicJsonVar =
         "text2": "",
         "text3": "",
         "url": "https:\/\/soundcloud.com\/sorry-records\/sr51_4",
+        "tag": "#music"
+    },
+    {
+        "text": "Confident \u00b7 Demi Lovato",
+        "text2": "",
+        "text3": "",
+        "url": "https:\/\/www.youtube.com\/watch?v=fiFulIBZ8M0",
         "tag": "#music"
     },
     {
@@ -3193,6 +3249,13 @@ var musicJsonVar =
         "tag": "#music"
     },
     {
+        "text": "Do It Like A Dude \u00b7 Jessie J",
+        "text2": "",
+        "text3": "",
+        "url": "https:\/\/www.youtube.com\/watch?v=VY6-611B_LM",
+        "tag": "#music"
+    },
+    {
         "text": "Do They? by Molly Moore",
         "text2": "",
         "text3": "",
@@ -3505,6 +3568,13 @@ var musicJsonVar =
         "text2": "",
         "text3": "",
         "url": "https:\/\/www.youtube.com\/watch?v=kRQ9CThwFmY",
+        "tag": "#music"
+    },
+    {
+        "text": "E.T. \u00b7 Katy Perry",
+        "text2": "",
+        "text3": "",
+        "url": "https:\/\/www.youtube.com\/watch?v=MZy70AZfCIY",
         "tag": "#music"
     },
     {
@@ -3953,6 +4023,13 @@ var musicJsonVar =
         "text2": "",
         "text3": "",
         "url": "https:\/\/www.youtube.com\/watch?v=7jM2YwhaNCc",
+        "tag": "#music"
+    },
+    {
+        "text": "Express (Burlesque Original Motion Picture Soundtrack) \u00b7 Christina Aguilera",
+        "text2": "",
+        "text3": "",
+        "url": "https:\/\/www.youtube.com\/watch?v=5zr7exmWqx8",
         "tag": "#music"
     },
     {
@@ -4978,6 +5055,13 @@ var musicJsonVar =
         "tag": "#music"
     },
     {
+        "text": "Havana \u00b7 Camila Cabello \u00b7 Young Thug",
+        "text2": "",
+        "text3": "",
+        "url": "https:\/\/www.youtube.com\/watch?v=mJLDjIWuPXU",
+        "tag": "#music"
+    },
+    {
         "text": "Have You Had Enough Fun Yet? by Farmdale",
         "text2": "",
         "text3": "",
@@ -5213,6 +5297,13 @@ var musicJsonVar =
         "text2": "",
         "text3": "",
         "url": "https:\/\/www.youtube.com\/watch?v=XkeJjdfqMUo",
+        "tag": "#music"
+    },
+    {
+        "text": "Hollywood (Jacques Lu Cont's Thin White Duck Mix) \u00b7 Madonna",
+        "text2": "",
+        "text3": "",
+        "url": "https:\/\/www.youtube.com\/watch?v=DW3xPQMqRko",
         "tag": "#music"
     },
     {
@@ -7372,6 +7463,13 @@ var musicJsonVar =
         "tag": "#music #musicFP"
     },
     {
+        "text": "Made You Look \u00b7 Meghan Trainor",
+        "text2": "",
+        "text3": "",
+        "url": "https:\/\/www.youtube.com\/watch?v=79vxRvYqeT4",
+        "tag": "#music"
+    },
+    {
         "text": "Madness - Our House (Official 4K Video) - YouTube",
         "text2": "",
         "text3": "",
@@ -7610,6 +7708,13 @@ var musicJsonVar =
         "tag": "#music"
     },
     {
+        "text": "Mambo \u00b7 Nikki Vianna",
+        "text2": "",
+        "text3": "",
+        "url": "https:\/\/www.youtube.com\/watch?v=rpxtTu865H8",
+        "tag": "#music"
+    },
+    {
         "text": "Mamma Knows Best \u00b7 Jessie J",
         "text2": "",
         "text3": "",
@@ -7726,6 +7831,13 @@ var musicJsonVar =
         "text2": "",
         "text3": "",
         "url": "https:\/\/www.youtube.com\/watch?v=O3bHNlwmIKM",
+        "tag": "#music"
+    },
+    {
+        "text": "Me Too \u00b7 Meghan Trainor",
+        "text2": "",
+        "text3": "",
+        "url": "https:\/\/www.youtube.com\/watch?v=HeCaCqceTMY",
         "tag": "#music"
     },
     {
@@ -8121,6 +8233,13 @@ var musicJsonVar =
         "tag": "#music"
     },
     {
+        "text": "Mother's Daughter \u00b7 Miley Cyrus",
+        "text2": "",
+        "text3": "",
+        "url": "https:\/\/www.youtube.com\/watch?v=wcb8u9-vTho",
+        "tag": "#music"
+    },
+    {
         "text": "Move It On \u00b7 The Sweet Vandals",
         "text2": "",
         "text3": "",
@@ -8384,6 +8503,20 @@ var musicJsonVar =
         "text2": "",
         "text3": "",
         "url": "https:\/\/www.youtube.com\/watch?v=JqJBIPE5Trk",
+        "tag": "#music"
+    },
+    {
+        "text": "Naughty Girl \u00b7 Beyonc\u00e9",
+        "text2": "",
+        "text3": "",
+        "url": "https:\/\/www.youtube.com\/watch?v=Q0uhlhNNwlY",
+        "tag": "#music"
+    },
+    {
+        "text": "Need to Know \u00b7 Doja Cat",
+        "text2": "",
+        "text3": "",
+        "url": "https:\/\/www.youtube.com\/watch?v=USb5JBhZed0",
         "tag": "#music"
     },
     {
@@ -8842,6 +8975,13 @@ var musicJsonVar =
         "tag": "#music"
     },
     {
+        "text": "One Woman Army \u00b7 Porcelain Black",
+        "text2": "",
+        "text3": "",
+        "url": "https:\/\/www.youtube.com\/watch?v=1-_1wCC5sJE",
+        "tag": "#music"
+    },
+    {
         "text": "OneRepublic - Counting Stars (Official Music Video) - YouTube",
         "text2": "",
         "text3": "",
@@ -8909,6 +9049,13 @@ var musicJsonVar =
         "text2": "",
         "text3": "",
         "url": "https:\/\/www.youtube.com\/watch?v=3SwwljI-8JY",
+        "tag": "#music"
+    },
+    {
+        "text": "Overpowered (Seamus Haji Remix) \u00b7 R\u00f3is\u00edn Murphy",
+        "text2": "",
+        "text3": "",
+        "url": "https:\/\/www.youtube.com\/watch?v=Luv1mnj6Kgg",
         "tag": "#music"
     },
     {
@@ -9329,6 +9476,13 @@ var musicJsonVar =
         "text2": "",
         "text3": "",
         "url": "https:\/\/vimeo.com\/565810755",
+        "tag": "#music"
+    },
+    {
+        "text": "Pump It \u00b7 The Black Eyed Peas",
+        "text2": "",
+        "text3": "",
+        "url": "https:\/\/www.youtube.com\/watch?v=d77gTBvX0K8",
         "tag": "#music"
     },
     {
@@ -9829,6 +9983,13 @@ var musicJsonVar =
         "tag": "#music"
     },
     {
+        "text": "Rude Boy \u00b7 Rihanna",
+        "text2": "",
+        "text3": "",
+        "url": "https:\/\/www.youtube.com\/watch?v=bqUsUhz41jY",
+        "tag": "#music"
+    },
+    {
         "text": "RUN DMC - It's Tricky (Official Video) - YouTube",
         "text2": "",
         "text3": "",
@@ -9976,6 +10137,13 @@ var musicJsonVar =
         "tag": "#music"
     },
     {
+        "text": "Salute \u00b7 Little Mix",
+        "text2": "",
+        "text3": "",
+        "url": "https:\/\/www.youtube.com\/watch?v=45tAKW8IFV4",
+        "tag": "#music"
+    },
+    {
         "text": "Salvage a Smile \u00b7 Laura Veirs",
         "text2": "",
         "text3": "",
@@ -10085,6 +10253,13 @@ var musicJsonVar =
         "text2": "",
         "text3": "",
         "url": "https:\/\/www.youtube.com\/watch?v=oaZ9RHZhkuM",
+        "tag": "#music"
+    },
+    {
+        "text": "Say So \u00b7 Doja Cat",
+        "text2": "",
+        "text3": "",
+        "url": "https:\/\/www.youtube.com\/watch?v=mEhYtnHQAUw",
         "tag": "#music"
     },
     {
@@ -10260,6 +10435,13 @@ var musicJsonVar =
         "text2": "",
         "text3": "",
         "url": "https:\/\/www.youtube.com\/watch?v=85zV1fpSJQ0",
+        "tag": "#music"
+    },
+    {
+        "text": "Show Me How You Burlesque (Burlesque) (Original Motion Picture Soundtrack) \u00b7 Christina Aguilera",
+        "text2": "",
+        "text3": "",
+        "url": "https:\/\/www.youtube.com\/watch?v=-A0Ep2kninw",
         "tag": "#music"
     },
     {
@@ -10687,6 +10869,13 @@ var musicJsonVar =
         "text2": "",
         "text3": "",
         "url": "https:\/\/www.youtube.com\/watch?v=UlsjZ3tvoPw",
+        "tag": "#music"
+    },
+    {
+        "text": "Starships \u00b7 Nicki Minaj",
+        "text2": "",
+        "text3": "",
+        "url": "https:\/\/www.youtube.com\/watch?v=_cUM4SlY2_o",
         "tag": "#music"
     },
     {
@@ -12489,6 +12678,13 @@ var musicJsonVar =
         "tag": "#music"
     },
     {
+        "text": "Up And Down \u00b7 Doja Cat",
+        "text2": "",
+        "text3": "",
+        "url": "https:\/\/www.youtube.com\/watch?v=3cqM7r0amQE",
+        "tag": "#music"
+    },
+    {
         "text": "UPSAHL - 12345SEX (HUGEL Remix [Official Audio]) - YouTube",
         "text2": "",
         "text3": "",
@@ -12804,6 +13000,13 @@ var musicJsonVar =
         "tag": "#music"
     },
     {
+        "text": "Who's Laughing Now \u00b7 Jessie J",
+        "text2": "",
+        "text3": "",
+        "url": "https:\/\/www.youtube.com\/watch?v=zMFQFnwQEkE",
+        "tag": "#music"
+    },
+    {
         "text": "Who's Sorry Now \u00b7 Angel Olsen \u00b7 Angel Olsen",
         "text2": "",
         "text3": "",
@@ -12888,6 +13091,13 @@ var musicJsonVar =
         "tag": "#music"
     },
     {
+        "text": "Woman \u00b7 Doja Cat",
+        "text2": "",
+        "text3": "",
+        "url": "https:\/\/www.youtube.com\/watch?v=GnmoJaTWiQE",
+        "tag": "#music"
+    },
+    {
         "text": "Women Lose Weight (feat. Slick Rick) \u00b7 Morcheeba",
         "text2": "",
         "text3": "",
@@ -12913,6 +13123,13 @@ var musicJsonVar =
         "text2": "",
         "text3": "",
         "url": "https:\/\/www.youtube.com\/watch?v=wKxl2v1lEDg",
+        "tag": "#music"
+    },
+    {
+        "text": "Worth It \u00b7 Fifth Harmony \u00b7 Kid Ink",
+        "text2": "",
+        "text3": "",
+        "url": "https:\/\/www.youtube.com\/watch?v=aVM8-TXXxsQ",
         "tag": "#music"
     },
     {

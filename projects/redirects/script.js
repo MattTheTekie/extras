@@ -51,7 +51,7 @@ q = encodeURIComponent(q);
 url = "?q="+q; // quik open website https://about.you.com/bangs/
 if(q == ''){
 urlList = [
-'tec', 'sci', 'dev', 'cod'
+'tec', 'sci', 'dev'
 ];
 random = Math.floor(Math.random() * urlList.length);
 url = '?q='+urlList[random];
