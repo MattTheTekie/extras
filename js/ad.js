@@ -141,8 +141,8 @@ mainPrintMsg('cookiePopup', `
 <b>Allow Cookies for third parties?</b>
 <p>This is necessary to improve the site.
 (for relevant Ads, Statistics)</p>
-<button class="button light4 bold" onclick="cookiePopup('off')">No</button>
-<button class="button cookiePopupYes bold" onclick="cookiePopup('on')">Yes</button>
+<button class="button light4" onclick="cookiePopup('off')">No</button>
+<button class="button cookiePopupYes" onclick="cookiePopup('on')">Yes</button>
 <!--<br>
 <a class="brand" href="/privacy.${confExt}">privacy.${confExt}</a>-->
 

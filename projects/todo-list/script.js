@@ -1,27 +1,30 @@
-// v.1.0.17
+// v.1.2.0
 // https://developer.mozilla.org/en-US/docs/Web/API/IDBCursor/continue
 
 
-
 var print = '';
+var printDaily = '';
 var com = '';
 var text = ''
 var status = '';
+var randomTodoListArray = [];
 
-
-
-/*function comGet(com2, id2, title2, status2){
-com = com2;
-id = id2;
-title = title2;
-status = status2;
-if(com == ''||com == undefined){ com = 'show'; text = ''; id = 0; status = ''; }
-}*/
 
 
 //alert(com);
 
-function runDb(com3, id3, title3, status3){
+function runDb(com3, id3, title3, status3, statusDaily3){
+
+var dbVersion = 1;
+var dbName = 'db';
+var tableName = 'todo-list';
+
+/*
+com - command in script for done, clear ...
+id - id in db
+title - task text
+status = for status if done
+*/
 
 print = '';
 //document.getElementById("result").innerHTML = '';  // clear
@@ -32,15 +35,14 @@ com = com3;
 id = id3;
 title = title3;
 status = status3;
+statusDaily = statusDaily3;
 if(com == ''||com == undefined){ com = 'show'; text = ''; id = 0; status = ''; }
 
 
 
 
 
-let dbName = 'db';
-let dbVersion = 1;
-let tableName = 'todo-list';
+
 
 // This is what our customer data looks like.
 /*var data = [
@@ -64,7 +66,7 @@ const request = indexedDB.open(dbName, dbVersion);
 
 
 request.onerror = (event) => {
-  console.log("request.onerror = (event)");
+console.log("request.onerror = (event)");
 console.log(event.target);
 
 
@@ -90,8 +92,6 @@ req.onblocked = function () {
 
 
 request.onupgradeneeded = (event) => {
-
-
 
 const db = event.target.result;
 
@@ -246,7 +246,7 @@ cursor.continue();
 //alert(cursor.key);
 } 
 }else {
-console.log("Done with cursor");
+//console.log("Done with cursor");
 runDb('show', '', '');
 }  
 };  
@@ -277,8 +277,9 @@ cursor.delete();
 }*/
 
 status = cursor.value.data;
+statusDaily = cursor.value.data2;
 //alert(status);
-if(status == 'done'){ // from del copy paste
+if(status == 'done'&&statusDaily != 'daily'){ // from del copy paste
 cursor.delete();
 }
 
@@ -289,7 +290,7 @@ cursor.delete();
 cursor.continue();  
 }  
 else {  
-console.log("Done with cursor");
+//console.log("Done with cursor");
 runDb('show', '', '');
 }  
 };  
@@ -301,9 +302,8 @@ runDb('show', '', '');
 
 
 
-
 if(com == 'done'){
-console.log('start done: '+id+status);
+//console.log('start done: '+id+status);
 request.onsuccess = (event) => {
 const db = event.target.result;
 
@@ -312,15 +312,16 @@ const objectStore = transaction.objectStore(tableName);
 
 
 objectStore.openCursor().onsuccess = function(event) { 
-var cursor = event.target.result;  console.log(id, status);
-if (cursor) {  
+var cursor = event.target.result;
+//console.log(id, status);
+if (cursor) { 
 if(cursor.key == id){
 
 const updateData = cursor.value;
 cursor.value.data = status;
 const request = cursor.update(updateData);
 request.onsuccess = () => {
-console.log('updated');
+//console.log('updated');
 };
 };
 
@@ -329,12 +330,12 @@ console.log('updated');
 cursor.continue();  
 }  
 else {  
-console.log("Done end");
+//console.log("Done end");
 }  
 };  
 
 transaction.oncomplete = (event) => {
-console.log("transaction.oncomplete");
+//console.log("transaction.oncomplete");
 runDb('show', '')
 };
 
@@ -344,8 +345,122 @@ runDb('show', '')
 
 
 
+
+
+
+
+if(com == 'daily'){
+//console.log('start done: '+id+status);
+request.onsuccess = (event) => {
+const db = event.target.result;
+
+const transaction = db.transaction([tableName], 'readwrite');
+const objectStore = transaction.objectStore(tableName);
+
+
+objectStore.openCursor().onsuccess = function(event) { 
+var cursor = event.target.result;
+//console.log(id, status);
+if (cursor) { 
+if(cursor.key == id){
+
+const updateData = cursor.value;
+cursor.value.data2 = statusDaily;
+
+const request = cursor.update(updateData);
+request.onsuccess = () => {
+//console.log('updated');
+};
+};
+
+//console.log('cur key: '+cursor.key);
+//console.dir('cur value: '+cursor.value.title);
+cursor.continue();  
+}  
+else {  
+//console.log("Done end");
+}  
+};  
+
+transaction.oncomplete = (event) => {
+//console.log("transaction.oncomplete");
+runDb('show', '')
+};
+
+};
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+if(com == 'uncheckAllDaily'){
+//console.log('start done: '+id+status);
+request.onsuccess = (event) => {
+const db = event.target.result;
+
+const transaction = db.transaction([tableName], 'readwrite');
+const objectStore = transaction.objectStore(tableName);
+
+
+objectStore.openCursor().onsuccess = function(event) { 
+var cursor = event.target.result;
+//console.log(id, status);
+if (cursor) { 
+//if(cursor.key == id){};
+
+const updateData = cursor.value;
+if(cursor.value.data2 == 'daily'){
+cursor.value.data = '';
+}else{
+cursor.value.data = cursor.value.data;
+}
+
+const request = cursor.update(updateData);
+request.onsuccess = () => {
+//console.log('updated');
+};
+
+
+//console.log('cur key: '+cursor.key);
+//console.dir('cur value: '+cursor.value.title);
+cursor.continue();  
+}  
+else {  
+//console.log("Done end");
+}  
+};  
+
+transaction.oncomplete = (event) => {
+//console.log("transaction.oncomplete");
+runDb('show', '')
+};
+
+};
+
+}
+
+
+
+
+
+
+
+
+
+
 if(com == 'update'){
-console.log('[ start update: '+id+status+' ]');
+//console.log('[ start update: '+id+status+' ]');
 request.onsuccess = (event) => {
 const db = event.target.result;
 
@@ -412,12 +527,15 @@ if (cursor) {
 let idPrint = cursor.key;
 let titlePrint = decodeURIComponent(cursor.value.title);
 let statusPrint = decodeURIComponent(cursor.value.data);
+let statusDailyPrint = decodeURIComponent(cursor.value.data2);
+
+
 
 let editPrint = '';
 if(com == 'edit'&&id == idPrint){
 /*editPrint = `<form style="margin: 10px 0;"><input id="inputTaskUp" class="padding" type="text" name="q" autofocus="autofocus" autocomplete="off" placeholder=" task" value="${titlePrint}"><input  type="hidden" name="com" value="edit"><input id="idInputE" type="hidden" name="id" value="${idPrint}"><input type="submit"></form><div id="option2"></div>`;*/
 
-editPrint = `<form><textarea id="textInputE" class="padding" name="text" rows="3" cols="100" placeholder=" edit" autofocus>${titlePrint}</textarea><input id="idInputE" type="hidden" name="id" value="${idPrint}"><a class="block tCenter padding light border3List" href="#${idPrint}" onclick="submitLinkEdit()">submit</a></form>`;
+editPrint = `<form><textarea id="textInputE" class="padding" name="text" rows="3" cols="100" placeholder=" edit" autofocus="autofocus">${titlePrint}</textarea><input id="idInputE" type="hidden" name="id" value="${idPrint}"><tag class="block tCenter padding light border3List" style="cursor: pointer;" onclick="submitLinkEdit()">submit</tag></form>`;
 }else{
 //editPrint = `<span onclick="runDb('edit', '`+idPrint+`', '', '')">${titlePrint}</span>`;
 editPrint = `${titlePrint}`;
@@ -427,44 +545,151 @@ editPrint = `${titlePrint}`;
 // show  & edit button
 let printTmp = '';
 if(statusPrint == 'done'){
+
 printTmp = `<div class="op xSmall">${idPrint}</div><input class="checkbox op" checked="checked" type="checkbox"  name="" value="undone" onclick="runDb('done', '`+idPrint+`', '', 'undone')">
 <div class="flexCenter"><div class="pre op block" style="text-decoration: line-through;">${editPrint}</div></div>`;
+
 }else{
+
 printTmp = `<div class="op xSmall">${idPrint}</div>
 <input class="checkbox op" type="checkbox"  name="" value="done" onclick="runDb('done', '`+idPrint+`', '', 'done')">
 <div class="flexCenter"><div class="pre block">${editPrint}</div></div>`;
+
 }
 
 
+
+
 var doubleClickEdit = '';
-/*if(com != 'edit'){
+if(com != 'edit'){
 doubleClickEdit = ` ondblclick="runDb('edit', '`+cursor.key+`')" `;
 }else{
 doubleClickEdit = '';
-}*/
-print += `
+}
 
-<div class="post border3List light2" id="${idPrint}">
+// add button option
+//com3, id3, title3, status3, statusDaily3
+if(statusDailyPrint == 'daily'){
+printDaily += `
+
+<div id="${idPrint}" class="post border3List light2">
 <div class="task" ${doubleClickEdit}>
 
 ${printTmp}
 <div class="block tRight">
-<a class="tag2 border2 light2 op" href="#${idPrint}" onclick="runDb('edit', '`+cursor.key+`')" title="edit `+cursor.key+`">e</a>
-<a class="tag2 border2 light2 op" href="#${idPrint}" onclick="runDb('del', '`+cursor.key+`')" title="remove `+cursor.key+`">x</a>
+<tag class="tag2 border2 light2 op" style="cursor: pointer;" onclick="runDb('daily', '`+cursor.key+`', '', '', 'undaily')" title="make daily task `+cursor.key+`">🖇️</tag>
+<tag class="tag2 border2 light2 op" style="cursor: pointer;" onclick="runDb('edit', '`+cursor.key+`')" title="edit `+cursor.key+`">e</tag>
 </div>
 
 </div>
 </div>
 
 `;
+}else{
+print += `
 
+<div id="${idPrint}" class="post border3List light2">
+<div class="task" ${doubleClickEdit}>
+
+${printTmp}
+<div class="block tRight">
+<tag class="tag2 border2 light2 op" style="cursor: pointer;" onclick="runDb('daily', '`+cursor.key+`', '', '', 'daily')" title="make daily task `+cursor.key+`">🖇️</tag>
+<tag class="tag2 border2 light2 op" style="cursor: pointer;" onclick="runDb('edit', '`+cursor.key+`')" title="edit `+cursor.key+`">e</tag>
+<tag class="tag2 border2 light2 op" style="cursor: pointer;" onclick="runDb('del', '`+cursor.key+`')" title="remove `+cursor.key+`">x</tag>
+</div>
+
+</div>
+</div>
+
+`;
+}
+
+// gen arr with random not done
+if(statusPrint != 'done'){
+
+var print33Tmp = `
+
+<tag style="cursor: pointer" onclick="scrollTo33('${idPrint}');">
+
+<div class="post border3List light2">
+<div class="task">
+
+<div class="op xSmall">${idPrint}</div>
+<input class="checkbox op" type="checkbox"  name="" value="done" onclick="runDb('done', '`+idPrint+`', '', 'done')">
+<div class="flexCenter"><div class="pre block">${titlePrint}</div></div>
+
+<div class="block tRight">
+
+</div>
+
+</div>
+</div>
+
+</tag>
+
+`;
+
+randomTodoListArray.push(print33Tmp);
+
+
+
+
+}
 
 
 cursor.continue();  
-			  }  
-			  else {  
-			  	console.log("[ show end Done with cursor ]");
-document.getElementById('result').innerHTML = print;
+}else {
+
+
+
+//https://www.w3schools.com/js/js_random.asp
+
+var randomTask = '';
+randomTask = `${randomTodoListArray[Math.floor(Math.random() * randomTodoListArray.length)]}`;
+
+if(randomTask != 'undefined'){
+randomTask = `
+<span class="op">random task:</span>
+${randomTask}<br>
+`;
+}else{ randomTask = ''; }
+
+
+var allOtherTaskMsg = '';
+if(printDaily != ''){
+printDaily = `
+<span class="op">daily task:</span>
+${printDaily}<br>
+`;
+allOtherTaskMsg = `<span class="op">other task:</span>`;
+}
+
+
+
+
+// print all
+//console.log("[ show end Done with cursor ]");
+document.getElementById('result').innerHTML = `
+
+<div>
+${randomTask}
+</div>
+
+<div>
+${printDaily}
+</div>
+
+
+<div>
+${allOtherTaskMsg}
+${print}
+</div>
+
+`;
+
+
+
+
 }
 
 
@@ -474,17 +699,32 @@ document.getElementById('result').innerHTML = print;
 }
 
 
+// clear
+print = '';
+printDaily = '';
+randomTodoListArray = [];
 }
 
 
 runDb('', '');
 
 
+var today = new Date();
+var d = String(today.getDate());
+
+
+if(localStorage.getItem("dayForUnchekDoneInTodoList") != d){
+runDb('uncheckAllDaily');
+localStorage.setItem("dayForUnchekDoneInTodoList", d);
+}
+
 print2 = `
 
+<div>
+
 <label class="block tRight bold padding h3 op">+</label>
-<form id="anchorIdFrom" action="./?#anchorIdFrom" style="min-height: 95px; /*border: 1px solid red;*/">
-<input id="inputTask" class="padding" type="text" name="q" autofocus="" autocomplete="off" placeholder=" input task">
+<form id="anchorIdFrom" action="index.html" style="min-height: 95px; /*border: 1px solid red;*/">
+<input id="inputTask" class="padding" type="text" name="q" autocomplete="off" placeholder=" input task">
 <input type="hidden" name="com" value="add">
 <div id="option"></div>
 </form>
@@ -492,9 +732,18 @@ print2 = `
 
 <div class="block padding tRight" style="/*float: right; margin-top: 35px;*/">
 
-<a class="button op border2 light" href="#anchorIdFrom" onclick="runDb('delAllDone')">clear all done</a>
+<tag class="button op border2 light" style="cursor: pointer" onclick="runDb('delAllDone')">remove all done (not daily)</tag>
 
-<a class="button op border2 light" href="#anchorIdFrom" onclick="runDb('clear')">clear</a>
+<tag class="button op border2 light" style="cursor: pointer" onclick="runDb('clear')">remove all</tag>
+
+<br>
+
+<div class="block tRight xSmall op padding">
+* For daily tasks, the check mark is removed automatically every day
+</div>
+
+</div>
+
 
 </div>
 `;
@@ -516,13 +765,13 @@ if(textInput != null&&textInput != "null"&&textInput != ''){
 if(comInput == 'edit'){ comInput = 'update'; }
 runDb(comInput, idInput, textInput);
 
-
+if(textInput != ''){
 var sTimeRedir = 500;
 setTimeout(function(){
 window.location.href = '?#stopReSubmit';
 //location.hash = '#anchorIdFrom'; //https://stackoverflow.com/questions/15736763/window-location-href-not-working-when-href-is-same-page
 }, sTimeRedir);
-
+}
 
 
 }
@@ -538,7 +787,7 @@ function updateValueIn(e) {
 let textInput= encodeURIComponent(e.target.value);
 
 var a = `
-<a class="block tCenter padding light border3List" href="#anchorIdFrom" onclick="submitLink('`+textInput+`')">submit</a>
+<tag class="block tCenter padding light border3List" style="cursor: pointer;" onclick="submitLink('`+textInput+`')">submit</tag>
 `;
 
 document.getElementById("option").innerHTML = a;
@@ -562,9 +811,12 @@ runDb('update', idInput, textInput);
 //document.getElementById("inputTaskEdit").value = '';
 }
 
-
-
-
+function scrollTo33(id){
+var elmntToView = document.getElementById("sectionId");
+if(document.getElementById(id) != null){
+document.getElementById(id).scrollIntoView(); 
+}
+}
 
 
 

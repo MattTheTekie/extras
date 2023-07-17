@@ -50,7 +50,7 @@ nav a:last-child, footer last-child{ margin-right: 0; }
 
 /* colors */
 :root{
---bg: #FFFEF7; 
+--bg: #F7F3ED; 
 --c1: #1A1A1A; 
 --c2: #000000; 
 --a1: #156F80;

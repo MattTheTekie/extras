@@ -7,7 +7,7 @@ input[type="chckbox"] { display: inline-block;  }
 
 .task {
 display: grid;
-grid-template-columns: 15px 30px 1fr 70px;
+grid-template-columns: 15px 30px 1fr 100px;
 grid-gap: 0;
 margin: 0;
 width: 100%;
@@ -37,4 +37,5 @@ overflow: auto;
 }*/
 
 
-textarea { min-height: 30vh; }
+textarea { min-height: 20vh; }
+html { scroll-padding-top: 15px; }

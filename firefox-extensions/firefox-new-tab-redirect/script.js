@@ -1,4 +1,4 @@
-// v.1.0.3
+// v.1.0.4
 // firefox
 
 
@@ -35,11 +35,7 @@ console.log(`redirect stoped for ${rUrl}`);
 rUrl = 'options.html';
 }
 /*// first 1 redirect
-//https://stackoverflow.com/questions/10982593/open-link-in-new-window-or-focus-to-it-if-already-open
-//window.open('http://localhost/','mywindow').focus();
-window.open(rUrl,'newTab').focus();
-//window.location.replace("http://localhost/");
-window.close();
+window.open(rUrl, '_self',false).focus();
 */
 
 
@@ -55,10 +51,6 @@ window.close();
 
 //rUrl - redirect url
 }
-
-
-
-
 
 
 const getting = browser.storage.sync.get("rUrl");
