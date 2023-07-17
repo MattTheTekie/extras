@@ -5,7 +5,15 @@ $q = 'Hello, What is ChatGPT?';
 if(isset($_GET['q'])&&!empty($_GET['q'])){ $q = $_GET['q']; }
 if(isset($_POST['q'])&&!empty($_GET['q'])){ $q = $_POST['q']; }
 
-
+if(php_uname('s') == 'Windows NT'){
+$dirname = explode("\\", getcwd());
+$dirname = $dirname[count(explode('\\', getcwd()))-1];
+$d = $_SERVER["DOCUMENT_ROOT"].'/';
+}else{
+$dirname = explode("/", getcwd());
+$dirname = $dirname[count(explode("/", getcwd()))-1];
+$d = $_SERVER["DOCUMENT_ROOT"].'/';
+}
 
 
 /*
