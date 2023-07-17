@@ -1,4 +1,4 @@
-/* v.1.4.0 */
+/* v.1.4.1 */
 /* inspired by IMDB and other */
 
 
@@ -61,7 +61,7 @@ align-self: center;
 
 .movieId{
 display: grid;
-grid-template-columns: var(--moviePosterImgW) calc(100% - var(--moviePosterImgW) - 30px);
+grid-template-columns: var(--moviePosterImgW) calc(100% - var(--moviePosterImgW) - 15px);
 justify-content: center;
 grid-gap: 15px;
 justify-content: center;

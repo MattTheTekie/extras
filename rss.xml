@@ -16,6 +16,32 @@
 </image>
 
 <item>
+<pubDate>Mon, 17 Jul 23 02:36:56 +0300</pubDate>
+<title><![CDATA[DEV Community  ]]></title>
+<link><![CDATA[https://dev.to/]]></link>
+<description>
+<![CDATA[
+<div class="post border2">
+DEV Community <a class="brand" target="_blank" href="https://dev.to/">https://dev.to/</a>
+</div>
+]]>
+</description>
+</item>
+
+<item>
+<pubDate>Mon, 17 Jul 23 02:17:39 +0300</pubDate>
+<title><![CDATA[The most insightful stories about Programming - Medium  ]]></title>
+<link><![CDATA[https://medium.com/tag/programming]]></link>
+<description>
+<![CDATA[
+<div class="post border2">
+The most insightful stories about Programming - Medium <a class="brand" target="_blank" href="https://medium.com/tag/programming">https://medium.com/tag/programming</a>
+</div>
+]]>
+</description>
+</item>
+
+<item>
 <pubDate>Sun, 16 Jul 23 14:15:12 +0300</pubDate>
 <title><![CDATA[scroll-snap-type - CSS: Cascading Style Sheets | MDN  ]]></title>
 <link><![CDATA[https://developer.mozilla.org/en-US/docs/Web/CSS/scroll-snap-type]]></link>
@@ -114,32 +140,6 @@ DRop <a class="brand" target="_blank" href="https://codepen.io/antoniasymeonidou
 <![CDATA[
 <div class="post border2">
 Single Div Orange <a class="brand" target="_blank" href="https://codepen.io/poonam-adlakha/pen/yLKQoZM">https://codepen.io/poonam-adlakha/pen/yLKQoZM</a>
-</div>
-]]>
-</description>
-</item>
-
-<item>
-<pubDate>Sun, 16 Jul 23 09:24:44 +0300</pubDate>
-<title><![CDATA[A Pure CSS Table Tennis Game  ]]></title>
-<link><![CDATA[https://codepen.io/ivorjetski/pen/mdzrLbW]]></link>
-<description>
-<![CDATA[
-<div class="post border2">
-A Pure CSS Table Tennis Game <a class="brand" target="_blank" href="https://codepen.io/ivorjetski/pen/mdzrLbW">https://codepen.io/ivorjetski/pen/mdzrLbW</a>
-</div>
-]]>
-</description>
-</item>
-
-<item>
-<pubDate>Sun, 16 Jul 23 09:24:31 +0300</pubDate>
-<title><![CDATA[CSS Art Keyboard  ]]></title>
-<link><![CDATA[https://codepen.io/kassandrasanch/pen/ExyrGKR]]></link>
-<description>
-<![CDATA[
-<div class="post border2">
-CSS Art Keyboard <a class="brand" target="_blank" href="https://codepen.io/kassandrasanch/pen/ExyrGKR">https://codepen.io/kassandrasanch/pen/ExyrGKR</a>
 </div>
 ]]>
 </description>

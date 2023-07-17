@@ -1,4 +1,4 @@
-// v.3.10.10
+// v.3.10.11
 
 
 
@@ -714,7 +714,7 @@ case '\n':
 text11 += `<span class="red">⏎\n</span>`;
 break;
 case ' ':
-text11 += '<span class="redBg">'+item+'</span>';
+text11 += '<span style="background-color: var(--red);">'+item+'</span>';
 break;
 default:
 text11 += '<span class="red">'+item+'</span>';

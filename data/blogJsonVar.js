@@ -1,6 +1,24 @@
 var blogJsonVar = 
 [
     {
+        "id": "128",
+        "text": "DEV Community",
+        "text2": "",
+        "text3": "",
+        "url": "https:\/\/dev.to\/",
+        "tag": "#bookmark #dev",
+        "time": 1689550616
+    },
+    {
+        "id": "127",
+        "text": "The most insightful stories about Programming - Medium",
+        "text2": "",
+        "text3": "",
+        "url": "https:\/\/medium.com\/tag\/programming",
+        "tag": "#bookmark #dev",
+        "time": 1689549459
+    },
+    {
         "id": "126",
         "text": "scroll-snap-type - CSS: Cascading Style Sheets | MDN",
         "text2": "",
