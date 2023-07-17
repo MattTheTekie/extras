@@ -1,6 +1,5 @@
 README.md
 
-⚡ Web Development, Web Design  
 🏠 Homepage and other projects  
 🛍️ Extensions: New Tab Redirect ABC (Any website in New Tab, Firefox, Chrome)  
 📄 Website Templates  
