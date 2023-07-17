@@ -1,4 +1,4 @@
-// v.1.1.53
+// v.1.1.54
 
 
 
@@ -43,8 +43,8 @@ var q3 = q + "#";
 
 switch (q2) {
 
-case '⚅#':
-case '6#':
+case '⚂#':
+case '3#':
 q = q3.replace(q2, '');
 q = q.trim();
 q = encodeURIComponent(q);

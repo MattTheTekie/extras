@@ -558,14 +558,15 @@ printTmp = `<div class="op xSmall">${idPrint}</div>
 }
 
 
-
-
+/*
+// double click edit
 var doubleClickEdit = '';
 if(com != 'edit'){
 doubleClickEdit = ` ondblclick="runDb('edit', '`+cursor.key+`')" `;
 }else{
 doubleClickEdit = '';
-}
+}*/
+
 
 // add button option
 //com3, id3, title3, status3, statusDaily3
@@ -577,7 +578,7 @@ printDaily += `
 
 ${printTmp}
 <div class="block tRight">
-<tag class="tag2 border2 light2 op" style="cursor: pointer;" onclick="runDb('daily', '`+cursor.key+`', '', '', 'undaily')" title="make daily task `+cursor.key+`">🖇️</tag>
+<tag class="tag2 border2 light2 op" style="cursor: pointer;" onclick="runDb('daily', '`+cursor.key+`', '', '', 'undaily')" title="make daily task `+cursor.key+`">*</tag>
 <tag class="tag2 border2 light2 op" style="cursor: pointer;" onclick="runDb('edit', '`+cursor.key+`')" title="edit `+cursor.key+`">e</tag>
 </div>
 
@@ -593,7 +594,7 @@ print += `
 
 ${printTmp}
 <div class="block tRight">
-<tag class="tag2 border2 light2 op" style="cursor: pointer;" onclick="runDb('daily', '`+cursor.key+`', '', '', 'daily')" title="make daily task `+cursor.key+`">🖇️</tag>
+<tag class="tag2 border2 light2 op" style="cursor: pointer;" onclick="runDb('daily', '`+cursor.key+`', '', '', 'daily')" title="make daily task `+cursor.key+`">*</tag>
 <tag class="tag2 border2 light2 op" style="cursor: pointer;" onclick="runDb('edit', '`+cursor.key+`')" title="edit `+cursor.key+`">e</tag>
 <tag class="tag2 border2 light2 op" style="cursor: pointer;" onclick="runDb('del', '`+cursor.key+`')" title="remove `+cursor.key+`">x</tag>
 </div>
