@@ -557,10 +557,10 @@ printTmp = `<div class="op xSmall">${idPrint}</div>
 
 }
 
-
+var doubleClickEdit = '';
 /*
 // double click edit
-var doubleClickEdit = '';
+
 if(com != 'edit'){
 doubleClickEdit = ` ondblclick="runDb('edit', '`+cursor.key+`')" `;
 }else{
