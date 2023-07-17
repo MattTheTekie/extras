@@ -1,4 +1,4 @@
-// v.1.1.52
+// v.1.1.53
 
 
 
@@ -43,15 +43,15 @@ var q3 = q + "#";
 
 switch (q2) {
 
-case '3.14159265359#':
-case '3#':
+case '⚅#':
+case '6#':
 q = q3.replace(q2, '');
 q = q.trim();
 q = encodeURIComponent(q);
 url = "?q="+q; // quik open website https://about.you.com/bangs/
 if(q == ''){
 urlList = [
-'tec', 'tec', 'tec', 'tec', 'tec', 'sci', 'sci', 'tag2', 'dev'
+'tec', 'sci', 'dev', 'cod'
 ];
 random = Math.floor(Math.random() * urlList.length);
 url = '?q='+urlList[random];
@@ -76,38 +76,12 @@ url = '?q='+q+' cod';
 sRedirUrl = url;
 break;
 
-case 'tag2#':
-q = q3.replace(q2, '');
-q = q.trim();
-
-if(q == ''){
-urlList = [
-'Climate Change',
-'AGI'
-];
-random = Math.floor(Math.random() * urlList.length);
-url = urlList[random];
-//url = encodeURIComponent(url);
-urlList = [
-'tag',
-'n'
-];
-
-url = '?q='+url+' '+urlList[Math.floor(Math.random() * urlList.length)];
-}else{
-//q = encodeURIComponent(q);
-url = '?q='+q+' tag';
-}
-
-sRedirUrl = url;
-break;
-
 
 case 'w#':
 q = q3.replace(q2, '');
 q = q.trim();
 q = encodeURIComponent(q);
-url = "https://wikipedia.org/w/index.php?search=" + q;
+url = "https://wikipedia.org/w/index.php?search="+q;
 if(q == ''){ url = "https://wikipedia.org/wiki/Special:Random"; }
 sRedirUrl = url;
 break;
@@ -481,7 +455,6 @@ url = urlList[random];
 sRedirUrl = url;
 break;
 
-case 'cod#':
 case 'dev#':
 q = q3.replace(q2, '');
 q = q.trim();
@@ -523,6 +496,7 @@ sRedirUrl = url;
 break;
 
 case 'doc#':
+case 'cod#':
 q = q3.replace(q2, '');
 q = q.trim();
 q = encodeURIComponent(q);
