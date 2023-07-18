@@ -1,4 +1,4 @@
-// v.1.1.54
+// v.1.1.55
 
 
 
@@ -506,13 +506,15 @@ random = Math.floor(Math.random() * urlList.length);
 url = urlList[random];
 if(q == ''){
 urlList = [
-'https://www.w3.org/',
+
 'https://www.w3schools.com/',
 'https://developer.mozilla.org/docs/',
 'https://web.dev/',
 'https://www.php.net/docs.php'
 
-/*'https://isocpp.org/tour',
+/*
+'https://www.w3.org/',
+'https://isocpp.org/tour',
 'https://www.ruby-lang.org/en/documentation/',
 'https://docs.scala-lang.org/',
 'https://docs.python.org/',
