@@ -1,4 +1,4 @@
-/* v.1.2.2 */
+/* v.1.2.3 */
 // print ads from json var list: fuAds('', 'ads2 - id where print', '');
 
 function fuAds(none, idAds, none2, comAds){
@@ -133,9 +133,10 @@ document.getElementById(idAds).innerHTML = '<div class="center"><div class="post
 // if not selected: popup
 
 if(confDataCollection == 'not selected'){
+if(document.getElementById("cookiePopup") != null){
 document.getElementById("cookiePopup").style.display = "block";
 }
-
+}
 
 function cookiePopup(option){
 localStorage.setItem('confDataCollection', option);
