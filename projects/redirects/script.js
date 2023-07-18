@@ -460,15 +460,13 @@ q = q3.replace(q2, '');
 q = q.trim();
 q = encodeURIComponent(q);
 urlList = [
-"https://github.com/search?q="+q+"&type=code"
-//"https://beta.sayhello.so/search?q="+q
+"?q="+q+" cod"
 ];
 random = Math.floor(Math.random() * urlList.length);
 url = urlList[random];
+sRedirUrl = random;
 if(q == ''){
 urlList = [
-
-
 "https://www.reddit.com/r/programming/",
 "https://www.reddit.com/r/learnprogramming/",
 "https://www.reddit.com/r/webdev/",
@@ -509,20 +507,22 @@ url = urlList[random];
 if(q == ''){
 urlList = [
 'https://www.w3.org/',
-'https://isocpp.org/tour',
+'https://www.w3schools.com/',
+'https://developer.mozilla.org/docs/',
+'https://web.dev/',
+'https://www.php.net/docs.php'
+
+/*'https://isocpp.org/tour',
 'https://www.ruby-lang.org/en/documentation/',
 'https://docs.scala-lang.org/',
 'https://docs.python.org/',
 'https://golang.org/doc/',
 'https://www.rust-lang.org/learn',
-'https://www.php.net/docs.php',
-'https://www.w3schools.com/',
-'https://developer.mozilla.org/docs/',
 'https://devdocs.io/',
 'https://docs.julialang.org/',
 'https://www.typescriptlang.org/docs/',
 'http://www.lua.org/docs.html'
-//"https://twitter.com/explore/tabs/news"
+*/
 ];
 random = Math.floor(Math.random() * urlList.length);
 url = urlList[random];
