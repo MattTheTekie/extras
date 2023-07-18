@@ -166,11 +166,11 @@ right: 0;
 text-align: center;
 }
 
-.dropdownMenuContent a{
+/*.dropdownMenuContent a{
 display: inline-block;
 text-align: left;
 padding-bottom: 5px;
-}
+}*/
 .dropdownMenuContentColumn { column-count: 4; text-align: left; }
 @media(max-width: 500px) { .dropdownMenuContentColumn { column-count: 3; } }
 @media(max-width: 360px) { .dropdownMenuContentColumn { column-count: 2; } }
@@ -579,6 +579,8 @@ insertIcon("menuIcon", "strict");
 </script>
 
 <script>
+// hide half header for search input form
+
 if(confDevice == 'mobile'){
 var getclick2 = document.getElementById('form');
 document.addEventListener('click', function(event) {
@@ -592,13 +594,19 @@ document.getElementById( 'topHeader' ).style.display = 'block';
 } 
 
 
+// redirect q to search dir
+var geturl = window.location;
+var url = new URL(geturl);
+var q = url.searchParams.get("q");
+var url = new URL(geturl);
+let sUrlText = String(url);
+const myArray = sUrlText.split("q=");
+if(q != null&& myArray[0].search("cache") == -1){
+q = encodeURIComponent(q);
+window.location.href = "/projects/redirects/?q="+q;
+}
+
 </script>
-
-
-<script src="/projects/redirects/script.js"></script>
-
-
-
 
 
 
