@@ -1,4 +1,4 @@
-// v.1.2.0
+// v.1.2.1
 // https://developer.mozilla.org/en-US/docs/Web/API/IDBCursor/continue
 
 
@@ -662,7 +662,9 @@ printDaily = `
 <span class="op">daily task:</span>
 ${printDaily}<br>
 `;
+if(print != ''){
 allOtherTaskMsg = `<span class="op">other task:</span>`;
+}
 }
 
 
