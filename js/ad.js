@@ -149,26 +149,6 @@ mainPrintMsg('cookiePopup', `
 </div>
 </div>
 
-<style>
-/*.cookiePopup{
-border: 2px solid var(--orange);
-}*/
-.cookiePopupYes{
-background: var(--green);
-color: var(--l);
-}
-.cookiePopupYes:hover{
-background: var(--green2);
-}
-
-#cookiePopup{
-position: fixed;
-z-index: 10;
-bottom: 15px;
-left: 0;
-right: 0;
-}
-</style>
 
 `); 
 

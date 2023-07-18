@@ -67,7 +67,7 @@ footer { padding: 15px 0; }
 footer span::first-letter { text-transform: capitalize; }
 nav button:hover { background: none;  }
 
-nav a:first-child, footer span:first-child, nav a:not(.dropdown-content) { padding-left: 0; }
+nav a:first-child, footer span:first-child, nav a:not(.dropdownMenuContent) { padding-left: 0; }
 footer span:last-child { padding-right: 0; }
 nav form { display: inline-block; max-width: 120px; }
 nav input[type=search] { padding: 5px; min-height: 10px; }

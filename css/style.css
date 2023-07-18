@@ -64,8 +64,29 @@ border-bottom: 1px solid var(--c);
 font-weight: bold;
 }
 
+
 /*nav a::first-letter {
 border-bottom: 1px solid var(--b3);
 }*/
 
+/*.cookiePopup{
+border: 2px solid var(--orange);
+}*/
 
+
+/*cookie popup*/
+.cookiePopupYes{
+background: var(--green);
+color: var(--l);
+}
+.cookiePopupYes:hover{
+background: var(--green2);
+}
+
+#cookiePopup{
+position: fixed;
+z-index: 10;
+bottom: 15px;
+left: 0;
+right: 0;
+}

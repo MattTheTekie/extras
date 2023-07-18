@@ -24,6 +24,7 @@ document.getElementById('theme').id = 'themeDisable';
 mainPrintMsg('footer', `
 
 <div id="ads2"></div>
+<div id="cookiePopup"></div>
 
 <br>
 <div class="wrapper3">
