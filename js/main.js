@@ -320,7 +320,7 @@ mainPrintTheme(confRealTmpTheme);
 }
 }
 
-function setTheme(mode){
+async function setTheme(mode){
 /*themeList.forEach((element) => {
 if(mode == element){
 //document.getElementById('theme').href = '/css/'+mode+'.css';
@@ -562,7 +562,7 @@ document.querySelector('head').appendChild(element);
 //https://github.com/mdn/pwa-examples
 //https://developer.mozilla.org/docs/Web/Progressive_web_apps/Add_to_home_screen
 // Code to handle install prompt on desktop
-function printInstallAppLink(){
+async function printInstallAppLink(){
 if(document.getElementById('fApp') != null){
 
 let deferredPrompt;
@@ -614,11 +614,11 @@ if(document.getElementById('fTheme') != null){
 document.getElementById("fTheme").innerHTML = '<a href="/theme.'+confExt+'">theme: '+theme+' ('+confRealTmpTheme+')</a>';
 }
 
-function fuReload(){ location.reload(true); }
-function reload(){ location.reload(true); }
+async function fuReload(){ location.reload(true); }
+async function reload(){ location.reload(true); }
 
 
-function mainPrintMsg(id, PrintMsg){
+async function mainPrintMsg(id, PrintMsg){
 if(document.getElementById(id) != null){
 document.getElementById(id).innerHTML = PrintMsg;
 }else{

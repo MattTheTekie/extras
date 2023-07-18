@@ -182,7 +182,8 @@ padding-bottom: 5px;
 // v.1.1.2
 //https://www.w3schools.com/howto/howto_js_dropdown.asp
 // menu click
-function dropdownMenuFunction() {
+
+async function dropdownMenuFunction() {
   var x = document.getElementById("dropdownMenu");
  // alert(x.style.display);
   if (x.style.display === "none"||x.style.display === "") {
@@ -494,7 +495,7 @@ document.getElementById("hotLinks").innerHTML = a;
 <!-- end menu -->
 
 <script>
-function divIdToTag(printId, fromId){
+async function divIdToTag(printId, fromId){
 
 
 var allIdOnPage = '';
