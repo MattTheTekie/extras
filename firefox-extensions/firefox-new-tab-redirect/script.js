@@ -1,4 +1,4 @@
-// v.1.0.4
+// v.1.0.5
 // firefox
 
 
@@ -34,8 +34,10 @@ if(String(rUrl).indexOf(stopRedirect) >= 0){
 console.log(`redirect stoped for ${rUrl}`);
 rUrl = 'options.html';
 }
-/*// first 1 redirect
-window.open(rUrl, '_self',false).focus();
+/*
+// first 1 redirect
+window.open(rUrl, 'NewWindow').focus();
+window.close();
 */
 
 
@@ -45,7 +47,6 @@ browser.tabs.create({
 url: rUrl
 });
 window.close();
-
 
 
 
