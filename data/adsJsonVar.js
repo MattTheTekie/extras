@@ -330,6 +330,13 @@ var adsJsonVar =
         "tag": "#ads"
     },
     {
+        "text": "macOS - Official Apple Support",
+        "text2": "",
+        "text3": "",
+        "url": "https:\/\/support.apple.com\/macos",
+        "tag": "#ads"
+    },
+    {
         "text": "MDN Web Docs",
         "text2": "",
         "text3": "",

@@ -1,6 +1,15 @@
 var blogJsonVar = 
 [
     {
+        "id": "129",
+        "text": "box-decoration-break - CSS: Cascading Style Sheets | MDN",
+        "text2": "",
+        "text3": "",
+        "url": "https:\/\/developer.mozilla.org\/en-US\/docs\/Web\/CSS\/box-decoration-break",
+        "tag": "#CSS",
+        "time": 1689652415
+    },
+    {
         "id": "128",
         "text": "DEV Community",
         "text2": "",

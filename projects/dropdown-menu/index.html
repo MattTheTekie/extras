@@ -42,85 +42,57 @@
 
 
 
-
+<div class="tCenter">
 
 <!-- start dropdown menu -->
-<div class="topNav capitalize">
-<header>
-<nav>
-
-<a href="../"><img class="logo2" src="/img/logo.png" alt="logo"></a>
-
 
 <!-- https://www.w3schools.com/howto/howto_js_dropdown.asp -->
-<button onclick="dropdownFunction();" class="dropbtn brand" id="dropbtn">☰ Menu</button>
+<button onclick="dropdownMenuFunction();" class="brand" id="dropdownMenuButton">☰ Menu</button>
 
-
-<div id="myDropdown" class="dropdown-content shadow bg2 padding">
+<!-- insert where popup -->
+<div id="dropdownMenu" class="dropdownMenuContent shadow bg2 padding">
 <div class="dropdownMenuWrapper">
 
-<div class="padding">dropdown content column</div>
-<div class="dropdown-content-column">
+<div class="padding">section</div>
+<div class="dropdownMenuContentColumn">
 <a class="brand" href="#">menu link</a><br>
 <a class="brand" href="#">menu link</a><br>
-<a class="brand" href="#">menu link</a><br>
-
-<a class="brand" href="#">menu link</a><br>
-<a class="brand" href="#">menu link</a><br>
-<a class="brand" href="#">menu link</a><br>
-
-<a class="brand" href="#">menu link</a><br>
-<a class="brand" href="#">menu link</a><br>
-<a class="brand" href="#">menu link</a><br>
+<a class="brand" href="#">menu link long text long text end</a><br>
 
 <a class="brand" href="#">menu link</a><br>
 <a class="brand" href="#">menu link</a><br>
 <a class="brand" href="#">menu link</a><br>
 </div>
 
-<div class="padding">dropdown content column</div>
-<div class="dropdown-content-column">
-<a class="brand" href="#">menu link</a><br>
-<a class="brand" href="#">menu link</a><br>
+<div class="padding">section</div>
+<div class="dropdownMenuContentColumn">
+<a class="brand" href="#">link</a><br>
+<a class="brand" href="#">link</a><br>
 <a class="brand" href="#">link</a><br>
 
-<a class="brand" href="#">menu link</a><br>
-<a class="brand" href="#">menu link</a><br>
 <a class="brand" href="#">link</a><br>
-
-<a class="brand" href="#">menu link</a><br>
-<a class="brand" href="#">menu link</a><br>
-<a class="brand" href="#">menu link</a><br>
-
-<a class="brand" href="#">menu link many text</a><br>
-<a class="brand" href="#">menu link</a><br>
-<a class="brand" href="#">menu link</a><br>
+<a class="brand" href="#">link</a><br>
+<a class="brand" href="#">link</a><br>
 </div>
 
 
 </div>
 </div>
-<!--<hr />-->
- </nav>
- </header>
+<!-- end insert popup -->
 
-</div>
 
 <noscript>
 <style>
-.dropdown-content, .dropdown { display: block; position: relative; }
+.dropdownMenuContent, .dropdownMenu { display: block; position: relative; }
 
 </style>
 </noscript>
 
 <style>
-:root{
---bodyP: 5vw;
-}
-
-#dropbtn { cursor: pointer; }
-.dropdownMenuWrapper { position: relative;  }
-.dropdown-content {
+#dropdownMenuButton { cursor: pointer; background: transparent; border: none; }
+.dropdownMenuWrapper { position: relative; }
+.dropdownMenuContent {
+z-index: 2;
 box-sizing: border-box;
 width: calc(100% - (2 * var(--bodyP)));
 max-width: 500px;
@@ -132,15 +104,22 @@ right: 0;
 text-align: center;
 }
 
-.dropbtn { background: transparent; border: none; }
+.dropdownMenuContent a{
+display: inline-block;
+text-align: left;
+padding-bottom: 5px;
+}
+.dropdownMenuContentColumn { column-count: 4; text-align: left; }
+@media(max-width: 500px) { .dropdownMenuContentColumn { column-count: 3; } }
+@media(max-width: 360px) { .dropdownMenuContentColumn { column-count: 2; } }
+@media(max-width: 250px) { .dropdownMenuContentColumn { column-count: 1; } }
 
-.dropdown-content-column { column-count: 4; text-align: left; }
-@media(max-width: 500px) { .dropdown-content-column { column-count: 3; } }
-@media(max-width: 360px) { .dropdown-content-column { column-count: 2; } }
-@media(max-width: 250px) { .dropdown-content-column { column-count: 1; } }
 
 /* for codepen */
 /*
+:root{
+--bodyP: 5vw;
+}
 a { text-decoration:none; }
 nav { display: block; text-align: center; }
 body{
@@ -161,29 +140,29 @@ padding: 0 var(--bodyP);
 
 
 <script>
-// v.1.1.2
+// v.1.2.0
 //https://www.w3schools.com/howto/howto_js_dropdown.asp
 // menu click
-function dropdownFunction() {
-  var x = document.getElementById("myDropdown");
+function dropdownMenuFunction() {
+  var x = document.getElementById("dropdownMenu");
  // alert(x.style.display);
   if (x.style.display === "none"||x.style.display === "") {
-document.getElementById("dropbtn").innerHTML = '☶ Menu'; 
+document.getElementById("dropdownMenuButton").innerHTML = '☶ Menu'; 
 x.style.display = "block";
   } else {
 x.style.display = "none";
-document.getElementById("dropbtn").innerHTML = '☰ Menu'; 
+document.getElementById("dropdownMenuButton").innerHTML = '☰ Menu'; 
   }
 
 // out area hide
-var getclick = document.getElementById('dropbtn');
+var getclick = document.getElementById('dropdownMenuButton');
 document.addEventListener('click', function(event) {
 // hide and make posible text selected
 if (!getclick.contains(event.target)&&document.getSelection().toString() == '') {
 //alert('out');
-var x = document.getElementById("myDropdown");
+var x = document.getElementById("dropdownMenu");
 x.style.display = "none";
-document.getElementById("dropbtn").innerHTML = '☰ Menu'; 
+document.getElementById("dropdownMenuButton").innerHTML = '☰ Menu'; 
     }
 });
 
@@ -192,6 +171,8 @@ document.getElementById("dropbtn").innerHTML = '☰ Menu';
 </script>
 <!-- // end dropdown menu -->
 
+
+</div>
 
 
 <div class="wrapper2 pre">

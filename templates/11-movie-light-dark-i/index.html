@@ -22,49 +22,36 @@
 <!-- start dropdown menu -->
 
 <!-- https://www.w3schools.com/howto/howto_js_dropdown.asp -->
-<button onclick="dropdownFunction();" class="dropbtn brand" id="dropbtn">☰ Menu</button>
+<button onclick="dropdownMenuFunction();" class="brand" id="dropdownMenuButton">☰ Menu</button>
 
 
-<div id="myDropdown" class="dropdown-content shadow bg2 padding">
+<div id="dropdownMenu" class="dropdownMenuContent shadow bg2 padding">
 <div class="dropdownMenuWrapper">
 
-<div class="padding">dropdown content column</div>
-<div class="dropdown-content-column">
-<a class="brand active" href="#">menu link</a><br>
+<div class="padding">section</div>
+<div class="dropdownMenuContentColumn">
 <a class="brand" href="#">menu link</a><br>
 <a class="brand" href="#">menu link</a><br>
+<a class="brand" href="#">menu link long text long text end</a><br>
 
 <a class="brand" href="#">menu link</a><br>
 <a class="brand" href="#">menu link</a><br>
 <a class="brand" href="#">menu link</a><br>
 
-<a class="brand" href="#">menu link</a><br>
-<a class="brand" href="#">menu link</a><br>
-<a class="brand" href="#">menu link</a><br>
-
-<a class="brand" href="#">menu link</a><br>
-<a class="brand" href="#">menu link</a><br>
-<a class="brand" href="#">menu link</a><br>
 </div>
 
-<div class="padding">dropdown content column</div>
-<div class="dropdown-content-column">
-<a class="brand" href="#">menu link</a><br>
-<a class="brand" href="#">menu link</a><br>
+<div class="padding">section</div>
+<div class="dropdownMenuContentColumn">
+<a class="brand" href="#">link</a><br>
+<a class="brand" href="#">link</a><br>
 <a class="brand" href="#">link</a><br>
 
-<a class="brand" href="#">menu link</a><br>
-<a class="brand" href="#">menu link</a><br>
+<a class="brand" href="#">link</a><br>
+<a class="brand" href="#">link</a><br>
 <a class="brand" href="#">link</a><br>
 
-<a class="brand" href="#">menu link</a><br>
-<a class="brand" href="#">menu link</a><br>
-<a class="brand" href="#">menu link</a><br>
-
-<a class="brand" href="#">menu link many text</a><br>
-<a class="brand" href="#">menu link</a><br>
-<a class="brand" href="#">menu link</a><br>
 </div>
+
 
 </div>
 </div>
@@ -73,65 +60,91 @@
 
 <noscript>
 <style>
-.dropdown-content, .dropdown { position: relative; }
+.dropdown-content, .dropdown { display: block; position: relative; }
+
 </style>
 </noscript>
 
 <style>
+#dropdownMenuButton { cursor: pointer; background: transparent; border: none; }
 .dropdownMenuWrapper { position: relative; }
-.dropdown-content {
+.dropdownMenuContent {
+z-index: 2;
 box-sizing: border-box;
 width: calc(100% - (2 * var(--bodyP)));
 max-width: 500px;
+margin: 0 auto;
 display: none;
 position: absolute;
-
-margin: 0 auto;
 left: 0;
 right: 0;
 text-align: center;
 }
 
+.dropdownMenuContent a{
+display: inline-block;
+text-align: left;
+padding-bottom: 5px;
+}
+.dropdownMenuContentColumn { column-count: 4; text-align: left; }
+@media(max-width: 500px) { .dropdownMenuContentColumn { column-count: 3; } }
+@media(max-width: 360px) { .dropdownMenuContentColumn { column-count: 2; } }
+@media(max-width: 250px) { .dropdownMenuContentColumn { column-count: 1; } }
 
-.dropbtn { background: transparent; border: none; }
 
-.dropdown-content-column { column-count: 4; text-align: left; }
-@media(max-width: 500px) { .dropdown-content-column { column-count: 3; } }
-@media(max-width: 360px) { .dropdown-content-column { column-count: 2; } }
-@media(max-width: 250px) { .dropdown-content-column { column-count: 1; } }
-
+/* for codepen */
+/*
+:root{
+--bodyP: 5vw;
+}
+a { text-decoration:none; }
+nav { display: block; text-align: center; }
+body{
+  	background: radial-gradient(
+		circle,
+		#f7f7f7 30%,
+		silver 100%
+	);
+overflow-wrap: break-word;
+box-sizing: border-box;
+padding: 0 var(--bodyP);
+}
+.shadow { box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24); }
+.bg2 { background: white; }
+.padding { padding: 9px; }
+*/
 </style>
 
 
 <script>
-// v.1.0.3
-
+// v.1.1.2
 //https://www.w3schools.com/howto/howto_js_dropdown.asp
 // menu click
-function dropdownFunction() {
-  var x = document.getElementById("myDropdown");
+function dropdownMenuFunction() {
+  var x = document.getElementById("dropdownMenu");
  // alert(x.style.display);
   if (x.style.display === "none"||x.style.display === "") {
-document.getElementById("dropbtn").innerHTML = '☶ Menu'; 
+document.getElementById("dropdownMenuButton").innerHTML = '☶ Menu'; 
 x.style.display = "block";
   } else {
 x.style.display = "none";
-document.getElementById("dropbtn").innerHTML = '☰ Menu'; 
+document.getElementById("dropdownMenuButton").innerHTML = '☰ Menu'; 
   }
 
-// out area
-var getclick = document.getElementById('dropbtn');
+// out area hide
+var getclick = document.getElementById('dropdownMenuButton');
 document.addEventListener('click', function(event) {
-// if text selected not hide
+// hide and make posible text selected
 if (!getclick.contains(event.target)&&document.getSelection().toString() == '') {
 //alert('out');
-var x = document.getElementById("myDropdown");
+var x = document.getElementById("dropdownMenu");
 x.style.display = "none";
-document.getElementById("dropbtn").innerHTML = '☰ Menu'; 
+document.getElementById("dropdownMenuButton").innerHTML = '☰ Menu'; 
     }
 });
 
 }
+
 </script>
 <!-- // end dropdown menu -->
 

@@ -1,4 +1,4 @@
-/* v.12.27.2 */
+/* v.12.27.4 */
 
 * {  color-scheme: light dark; } /* view-source:about:blank */ /* fixed #fff blink */
 
@@ -13,7 +13,7 @@
 --wrapperM: 330px;
 --wrapperS: 230px;
 --wrapperXs: 130px;
---inputH: 43px;
+--inputH: 35px;
 --fontSize: 13.4px;
 }
 
@@ -56,12 +56,11 @@ flex-shrink: 0;
 text-align: center;
 margin-top: 53px;
 width: 100%;
-z-index: 1;
 }
 header{ margin: 0 auto; }
 /*nav a::first-letter{ font-size: 1rem; font-weight: bold;}*/
 
-nav, footer { text-align: center; padding: 14px 0; max-width: 100%; z-index: 5; }
+nav, footer { text-align: center; padding: 14px 0; max-width: 100%; }
 nav a, nav button, footer span { display: inline-block; padding: 5px;  }
 
 footer { padding: 15px 0; }

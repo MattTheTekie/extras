@@ -53,15 +53,119 @@
 
 <a href="../"><img class="logo2" src="/img/logo.png" alt="i"></a>
 
-<a class="brand" href="projects.html">projects</a>
-
-<a class="brand" href="mini-projects.html">mini-projects</a>
 
 <!--<hr />-->
+
+
+
+<!-- start dropdown menu -->
+
+<!-- https://www.w3schools.com/howto/howto_js_dropdown.asp -->
+<button onclick="dropdownMenuFunction();" class="brand" id="dropdownMenuButton">☰ Menu</button>
 
 <form class="m" action="/sitemap.html" role="search">
 <input type="search" placeholder="search" name="q" autocomplete="off">
 </form>
+
+<div id="dropdownMenu" class="dropdownMenuContent shadow bg2 padding">
+<div class="dropdownMenuWrapper">
+
+<!--<div class="padding">section</div>-->
+<div class="dropdownMenuContentColumn">
+
+
+<a class="brand" href="projects.html">projects</a><br>
+
+<a class="brand" href="mini-projects.html">mini-projects</a><br>
+
+</div>
+
+<!--
+<div class="padding">section</div>
+<div class="dropdownMenuContentColumn">
+<a class="brand" href="#">link</a><br>
+<a class="brand" href="#">link</a><br>
+<a class="brand" href="#">link</a><br>
+
+<a class="brand" href="#">link</a><br>
+<a class="brand" href="#">link</a><br>
+<a class="brand" href="#">link</a><br>
+
+</div>
+-->
+
+</div>
+</div>
+<!--<hr />-->
+
+<!--
+<noscript>
+<style>
+.dropdownMenuContent, #dropdownMenu { display: block; position: relative; }
+</style>
+</noscript>
+-->
+
+<style>
+#dropdownMenuButton { cursor: pointer; background: transparent; border: none; }
+.dropdownMenuWrapper { position: relative; }
+.dropdownMenuContent {
+z-index: 2;
+box-sizing: border-box;
+width: calc(100% - (2 * var(--bodyP)));
+max-width: 500px;
+margin: 0 auto;
+display: none;
+position: absolute;
+left: 0;
+right: 0;
+text-align: center;
+}
+
+.dropdownMenuContent a{
+display: inline-block;
+text-align: left;
+padding-bottom: 5px;
+}
+.dropdownMenuContentColumn { column-count: 4; text-align: left; }
+@media(max-width: 500px) { .dropdownMenuContentColumn { column-count: 3; } }
+@media(max-width: 360px) { .dropdownMenuContentColumn { column-count: 2; } }
+@media(max-width: 250px) { .dropdownMenuContentColumn { column-count: 1; } }
+</style>
+
+
+<script>
+// v.1.1.2
+//https://www.w3schools.com/howto/howto_js_dropdown.asp
+// menu click
+function dropdownMenuFunction() {
+  var x = document.getElementById("dropdownMenu");
+ // alert(x.style.display);
+  if (x.style.display === "none"||x.style.display === "") {
+document.getElementById("dropdownMenuButton").innerHTML = '☶ Menu'; 
+x.style.display = "block";
+  } else {
+x.style.display = "none";
+document.getElementById("dropdownMenuButton").innerHTML = '☰ Menu'; 
+  }
+
+// out area hide
+var getclick = document.getElementById('dropdownMenuButton');
+document.addEventListener('click', function(event) {
+// hide and make posible text selected
+if (!getclick.contains(event.target)&&document.getSelection().toString() == '') {
+//alert('out');
+var x = document.getElementById("dropdownMenu");
+x.style.display = "none";
+document.getElementById("dropdownMenuButton").innerHTML = '☰ Menu'; 
+    }
+});
+
+}
+
+</script>
+<!-- // end dropdown menu -->
+
 
  </nav>
  </header>
@@ -90,7 +194,7 @@
 
 
 <!-- post --><div class="post bgList border3List" id="2">
-<span class="pre"><a class="brand" href="/data/adsJsonVar.js">adsJsonVar.js</a> <span class="op">(14,92 KB)</span></span>
+<span class="pre"><a class="brand" href="/data/adsJsonVar.js">adsJsonVar.js</a> <span class="op">(15,1 KB)</span></span>
 <div class="postFooter">
 <span class="postTagList"></span>
 <span class="postTime"></span>
@@ -100,7 +204,7 @@
 
 
 <!-- post --><div class="post bgList border3List" id="3">
-<span class="pre"><a class="brand" href="/data/blogJsonVar.js">blogJsonVar.js</a> <span class="op">(7,68 KB)</span></span>
+<span class="pre"><a class="brand" href="/data/blogJsonVar.js">blogJsonVar.js</a> <span class="op">(7,97 KB)</span></span>
 <div class="postFooter">
 <span class="postTagList"></span>
 <span class="postTime"></span>
