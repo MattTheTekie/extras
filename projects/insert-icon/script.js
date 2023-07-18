@@ -1,7 +1,7 @@
-// v.1.4.1
+// v.1.5.0
 // Inspired by GitHub profile
 
-function insertIcon(id, mode){
+function insertIcon(classNameForInsert, mode){
 // mode: "strict" by word or not sctirct, example: insertIcon(idDivWrapper, 'strict');
 if(mode != 'strict'){ mode = ''; }
 
@@ -128,15 +128,10 @@ let icons = {
 };
 
 let iconsArr = Object.getOwnPropertyNames(icons);
-
-if(document.getElementById(id) == null){
-console.log('id null');
-}else{
-
 // links
-let divId = document.getElementById(id);
 
-const allLinks = divId.querySelectorAll("a");
+
+const allLinks = document.querySelectorAll('.'+classNameForInsert);
 allLinks.forEach((item, index) => {
 
 
@@ -190,7 +185,7 @@ icArr = [...new Set(icArr)];
 //icon = icArr.toString();
 icon = icArr.join('');
 linkText = '<span class="ico2 pre">'+icon+'</span><span class="pre"> </span>'+linkText;
-divId.getElementsByTagName("a")[index].innerHTML = linkText;
+document.getElementsByClassName(classNameForInsert)[index].innerHTML = linkText;
 }else{
 //linkText = '<span class="op pre">📄 </span>'+linkText;
 /*linkText = '<span class="pre"> </span>' +linkText+'<span class="pre"> </span>';
@@ -207,9 +202,9 @@ icArr = [];
 
 
 
-
+/*
 // if tag button, dublicated from links
-const allButtons = divId.querySelectorAll("button");
+const allButtons = document.querySelectorAll("button");
 allButtons.forEach((item, index) => {
 
 let linkText = item.innerHTML;
@@ -256,22 +251,17 @@ linkText = '<span class="ico2 pre">'+icon+'</span><span class="pre"> </span>'+li
 divId.getElementsByTagName("button")[index].innerHTML = linkText;
 }else{
 //linkText = '<span class="op pre">📄 </span>'+linkText;
-/*linkText = '<span class="pre"> </span>' +linkText+'<span class="pre"> </span>';
-divId.getElementsByTagName("button")[index].innerHTML = linkText;*/
 }
 
 ckeck = '';
 icArr = [];
 });
 
+*/
 
 
 
 
-
-
-
-}
 }
 
 
