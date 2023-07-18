@@ -133,24 +133,8 @@ document.getElementById(idAds).innerHTML = '<div class="center"><div class="post
 // if not selected: popup
 
 if(confDataCollection == 'not selected'){
-mainPrintMsg('cookiePopup', `
-
-<div id="cookiePopup" class="wrapper">
-<div class="cookiePopup post bg3 border margin tCenter">
-
-<b>Allow Cookies for third parties?</b>
-<p>This is necessary to improve the site.
-(for relevant Ads, Statistics)</p>
-<button class="button light4" onclick="cookiePopup('off')">No</button>
-<button class="button cookiePopupYes" onclick="cookiePopup('on')">Yes</button>
-<!--<br>
-<a class="brand" href="/privacy.${confExt}">privacy.${confExt}</a>-->
-
-</div>
-</div>
-
-
-`); 
+document.getElementById("cookiePopup").style.display = "block";
+}
 
 
 function cookiePopup(option){
@@ -159,7 +143,5 @@ if(document.getElementById("cookiePopup") != null){
 document.getElementById("cookiePopup").style.display = "none";
 mainPrintMsg('fPrivacy', `<a href="/privacy.${confExt}">cookies: ${option}</a>`); 
 }
-}
-
 }
 // end 

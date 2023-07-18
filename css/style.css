@@ -85,8 +85,8 @@ background: var(--green2);
 
 #cookiePopup{
 position: fixed;
-z-index: 10;
-bottom: 15px;
+bottom: 3px;
 left: 0;
 right: 0;
+display: none;
 }
