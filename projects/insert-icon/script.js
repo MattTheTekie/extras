@@ -199,69 +199,6 @@ icArr = [];
 
 
 
-
-
-
-/*
-// if tag button, dublicated from links
-const allButtons = document.querySelectorAll("button");
-allButtons.forEach((item, index) => {
-
-let linkText = item.innerHTML;
-let check = '';
-let icArr = [];
-
-iconsArr.forEach((item) => {
-let textIcon = item;
-let icon = icons[textIcon];
-// main2, not strict word
-
-// if link
-if(linkText.toLowerCase().slice(0, 4) == 'http'&&linkText.toLowerCase().search("http|://|www.") != -1){
-var iconHTTP = `https://www.google.com/s2/favicons?domain_url=${linkText}`;
-//var ico = `https://api.statvoo.com/favicon/?url=${host[2]}`;
-//var ico = `https://api.faviconkit.com/${host[2]}/16`;
-iconHTTP = `<img  src="${iconHTTP}" alt="ico" width="16" height="16">`;
-icArr.push(iconHTTP+'');
-check = 'exit';
-}
-
-
-if(mode != 'strict'){
-// main, not strict
-if(linkText.replace(/\d+/g, '').toLowerCase().search(textIcon) != -1&&linkText.replace(/\d+/g, '').toLowerCase().search(icon) == -1){ 
-icArr.push(icon+'');
-check = 'exit';
-}
-}else{
-// main, strict word
-if((' '+linkText.replace(/\d+/g, '').toLowerCase()+' ').indexOf((' '+textIcon+' ')) >= 0&&(linkText.replace(/\d+/g, '').toLowerCase()+'').indexOf((icon+'')) == -1){
-icArr.push(icon+'');
-check = 'exit';
-}
-}
-
-});
-
-if(check == 'exit'){
-icArr = [...new Set(icArr)];
-//icon = icArr.toString();
-icon = icArr.join('');
-linkText = '<span class="ico2 pre">'+icon+'</span><span class="pre"> </span>'+linkText;
-divId.getElementsByTagName("button")[index].innerHTML = linkText;
-}else{
-//linkText = '<span class="op pre">📄 </span>'+linkText;
-}
-
-ckeck = '';
-icArr = [];
-});
-
-*/
-
-
-
-
 }
 
 

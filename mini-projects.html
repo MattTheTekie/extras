@@ -181,12 +181,10 @@ document.getElementById("dropdownMenuButton").innerHTML = '☰ Menu';
 
 
 
-<!-- menu -->
-<div class="menuNav">
-
-<div id="mini-projects">
+<!-- start menu -->
 <div class="menuLabel block tCenter" style="margin: 9px 0; margin-top: 25px; color: var(--c);">Mini-projects:</div>
 
+<div id="mini-projects">
 <div class="menu">
 <a id="mini-projects-cLa" class="menuIcon button light3 border3 cLa" tabindex="0" href="/mini-projects/about-blank/">About blank</a>
 <a  class="menuIcon button light3 border3 cLa" tabindex="0" href="/mini-projects/adaptive-web-design/">Adaptive web design</a>
@@ -213,51 +211,7 @@ document.getElementById("dropdownMenuButton").innerHTML = '☰ Menu';
 <a id="mini-projects-cLt" class="menuIcon button light3 border3 cLt" tabindex="0" href="/mini-projects/testimonial-quotes-cpc/">Testimonial quotes cpc</a>
 <a  class="menuIcon button light3 border3 cLt" tabindex="0" href="/mini-projects/textarea/">Textarea</a>
 <a  class="menuIcon button light3 border3 cLt" tabindex="0" href="/mini-projects/tpl-project-mini/">Tpl project mini</a>
-</div></div><div class="tCenter padding tCenter" style=""><a class="tag light3 border4 op cLa" href="#mini-projects-cLa" onmouseover="hlwClassAdd('cLa')" onmouseout="hlwClassRemove('cLa')">a</a>
-<a class="tag light3 border4 op cLb" href="#mini-projects-cLb" onmouseover="hlwClassAdd('cLb')" onmouseout="hlwClassRemove('cLb')">b</a>
-<a class="tag light3 border4 op cLc" href="#mini-projects-cLc" onmouseover="hlwClassAdd('cLc')" onmouseout="hlwClassRemove('cLc')">c</a>
-<a class="tag light3 border4 op cLe" href="#mini-projects-cLe" onmouseover="hlwClassAdd('cLe')" onmouseout="hlwClassRemove('cLe')">e</a>
-<a class="tag light3 border4 op cLm" href="#mini-projects-cLm" onmouseover="hlwClassAdd('cLm')" onmouseout="hlwClassRemove('cLm')">m</a>
-<a class="tag light3 border4 op cLn" href="#mini-projects-cLn" onmouseover="hlwClassAdd('cLn')" onmouseout="hlwClassRemove('cLn')">n</a>
-<a class="tag light3 border4 op cLo" href="#mini-projects-cLo" onmouseover="hlwClassAdd('cLo')" onmouseout="hlwClassRemove('cLo')">o</a>
-<a class="tag light3 border4 op cLp" href="#mini-projects-cLp" onmouseover="hlwClassAdd('cLp')" onmouseout="hlwClassRemove('cLp')">p</a>
-<a class="tag light3 border4 op cLq" href="#mini-projects-cLq" onmouseover="hlwClassAdd('cLq')" onmouseout="hlwClassRemove('cLq')">q</a>
-<a class="tag light3 border4 op cLr" href="#mini-projects-cLr" onmouseover="hlwClassAdd('cLr')" onmouseout="hlwClassRemove('cLr')">r</a>
-<a class="tag light3 border4 op cLs" href="#mini-projects-cLs" onmouseover="hlwClassAdd('cLs')" onmouseout="hlwClassRemove('cLs')">s</a>
-<a class="tag light3 border4 op cLt" href="#mini-projects-cLt" onmouseover="hlwClassAdd('cLt')" onmouseout="hlwClassRemove('cLt')">t</a>
 </div></div>
-
-
-
-<script>
-// nav highlight 
-
-
-function hlwClassAdd(name){
-let elementNumb = document.getElementsByClassName(name).length;
-let i = 0;
-while (i < elementNumb) {
-document.getElementsByClassName(name)[i].classList.add("highlight");
-i++;
-}
-
-}
-
-function hlwClassRemove(name){
-
-let elementNumb = document.getElementsByClassName(name).length;
-let i = 0;
-while (i < elementNumb) {
-document.getElementsByClassName(name)[i].classList.remove("highlight");
-i++;
-}
-
-}
-</script>
-
-
-
-
 <!-- end menu -->
 </div>
 </div>
