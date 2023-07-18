@@ -1,4 +1,4 @@
-/* v.12.27.4 */
+/* v.12.27.5 */
 
 * {  color-scheme: light dark; } /* view-source:about:blank */ /* fixed #fff blink */
 
@@ -13,7 +13,7 @@
 --wrapperM: 330px;
 --wrapperS: 230px;
 --wrapperXs: 130px;
---inputH: 35px;
+--inputH: 43px;
 --fontSize: 13.4px;
 }
 
