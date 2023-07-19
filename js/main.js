@@ -1,4 +1,4 @@
-/* v.3.3.20 */
+/* v.3.3.21 */
 
 
 
@@ -622,11 +622,11 @@ if(document.getElementById('fTheme') != null){
 document.getElementById("fTheme").innerHTML = '<a href="/theme.'+confExt+'">theme: '+theme+' ('+confRealTmpTheme+')</a>';
 }
 
-async function fuReload(){ location.reload(true); }
-async function reload(){ location.reload(true); }
+function fuReload(){ location.reload(true); }
+function reload(){ location.reload(true); }
 
 
-async function mainPrintMsg(id, PrintMsg){
+function mainPrintMsg(id, PrintMsg){
 if(document.getElementById(id) != null){
 document.getElementById(id).innerHTML = PrintMsg;
 }else{

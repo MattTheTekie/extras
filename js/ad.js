@@ -1,4 +1,4 @@
-/* v.1.2.3 */
+/* v.1.2.4 */
 // print ads from json var list: fuAds('', 'ads2 - id where print', '');
 
 function fuAds(none, idAds, none2, comAds){
@@ -141,7 +141,7 @@ document.getElementById("cookiePopup").style.display = "block";
 }
 }
 
-async function cookiePopup(option){
+function cookiePopup(option){
 localStorage.setItem('confDataCollection', option);
 if(document.getElementById("cookiePopup") != null){
 document.getElementById("cookiePopup").style.display = "none";

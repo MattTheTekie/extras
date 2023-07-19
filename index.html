@@ -347,7 +347,7 @@ var inputB = document.querySelectorAll('input')[3];
 inputB.addEventListener('input', updateValueIn);
 }
 
-function updateValueIn(e) {
+async function updateValueIn(e) {
 var text = encodeURIComponent(e.target.value);
 
 var a = `
