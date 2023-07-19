@@ -1,4 +1,4 @@
-// v.1.1.2
+// v.1.1.3
 // https://developer.mozilla.org/docs/Web/API/Element/mousemove_event
 
 
@@ -199,7 +199,6 @@ y = 0;
 
 
 
-
 function drawLine(context, x1, y1, x2, y2) {
 color = document.getElementById("color").value;
 //brushSize = document.getElementById('rangeinput').value;
@@ -214,12 +213,12 @@ context.closePath();
 
 }
 
-function drawCircle(context){
+function drawCircle(context, x1, y1){
 //brushSize = document.getElementById('rangeinput').value;
 
 context.beginPath();
 context.fillStyle = color;
-context.arc(event.clientX, event.clientY, brushSize, 0, 2 * Math.PI);
+context.arc(x1, y1, brushSize, 0, 2 * Math.PI);
 context.fill();
 context.closePath();
 

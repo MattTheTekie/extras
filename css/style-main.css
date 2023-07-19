@@ -1,4 +1,4 @@
-/* v.12.28.0 */
+/* v.12.28.1 */
 
 * {  color-scheme: light dark; } /* view-source:about:blank */ /* fixed #fff blink */
 
@@ -317,7 +317,7 @@ td { background-color: var(--l2); }
 
 
 
-.bg, .bgList, .light { background: radial-gradient(var(--l2), var(--l)); }
+.bg, .bgList, .light { background: radial-gradient(var(--l2) 30%, var(--l) 100%); }
 .bgList:nth-child(2n), .light:hover { background: radial-gradient(var(--l3), var(--l2)); }
 .bg2, .bg2List, .light2 { background: var(--l); }
 .bg2List:nth-child(2n), .light2:hover, .light3{ background: var(--l2); }
