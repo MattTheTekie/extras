@@ -1,4 +1,4 @@
-/* v.1.2.0 */
+/* v.1.2.1 */
 /* fixme centring text in task */
 /* fiexed textarea width: cols="100" */
 
@@ -18,7 +18,7 @@ align-self: safe center;
 word-break: break-all;
 }
 
-
+.taskItem { padding: 4px 10px; }
 
 @media(max-width: 240px) {
 .task {

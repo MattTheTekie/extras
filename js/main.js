@@ -131,7 +131,6 @@ if (window.matchMedia && window.matchMedia('(prefers-color-scheme: light)').matc
 // insert color-theme.css in header
 function mainPrintTheme(theme){
 if(document.getElementById('theme') != null){
-document.getElementById('theme').href = '/css/'+theme+'.css';
 
 //https://stackoverflow.com/questions/36641137/how-exactly-does-link-rel-preload-work
 var res = document.createElement("link");
@@ -140,6 +139,7 @@ res.as = "style";
 res.href = '/css/'+theme+'.css';
 document.head.appendChild(res);
 
+document.getElementById('theme').href = '/css/'+theme+'.css';
 }
 }
 
@@ -328,7 +328,7 @@ mainPrintTheme(confRealTmpTheme);
 }
 }
 
-async function setTheme(mode){
+function setTheme(mode){
 /*themeList.forEach((element) => {
 if(mode == element){
 //document.getElementById('theme').href = '/css/'+mode+'.css';

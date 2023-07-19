@@ -573,7 +573,7 @@ doubleClickEdit = '';
 if(statusDailyPrint == 'daily'){
 printDaily += `
 
-<div id="${idPrint}" class="post border3List light2">
+<div id="${idPrint}" class="taskItem border3List light2">
 <div class="task" ${doubleClickEdit}>
 
 ${printTmp}
@@ -589,7 +589,7 @@ ${printTmp}
 }else{
 print += `
 
-<div id="${idPrint}" class="post border3List light2">
+<div id="${idPrint}" class="taskItem border3List light2">
 <div class="task" ${doubleClickEdit}>
 
 ${printTmp}
@@ -612,7 +612,7 @@ var print33Tmp = `
 
 <tag style="cursor: pointer" onclick="scrollTo33('${idPrint}');">
 
-<div class="post border3List light2">
+<div class="taskItem border3List light2">
 <div class="task">
 
 <div class="op xSmall">${idPrint}</div>

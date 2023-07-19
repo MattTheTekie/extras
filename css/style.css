@@ -1,4 +1,4 @@
-/* v.1.1.3 */
+/* v.1.2.0 */
 
 /*
 html::before {
@@ -21,16 +21,20 @@ z-index: -2;
 .menu {
 display: grid;
 /*grid-template-areas: "a a a a a";*/
-grid-template-columns: repeat(4, 1fr);
+/*grid-template-columns: repeat(4, 1fr);*/
+grid-template-columns: repeat(auto-fill, 130px);
 /*grid-auto-columns: 1fr;*/
-grid-gap: 4px;
+grid-gap: 5px;
 margin: 0 auto;
 justify-content: center;
 }
 
-@media(max-width: 480px) { .menu { grid-template-columns: repeat(3, 1fr); }}
-@media(max-width: 385px) { .menu { grid-template-columns: repeat(2, 1fr); }}
-@media(max-width: 254px) { .menu { grid-template-columns: repeat(1, 1fr); }}
+@media(max-width: 540px) { .menu { grid-template-columns: repeat(3, 1fr); }}
+@media(max-width: calc(540px - 130px)) { .menu { grid-template-columns: repeat(2, 1fr); }}
+@media(max-width: calc(540px - 260px)) { .menu { grid-template-columns: repeat(1, 1fr); }}
+
+
+
 .menu a{
 display:flex;
 justify-content: center;
@@ -38,6 +42,8 @@ align-content: center;
 text-transform: lowercase;
 }
 .menu a { padding: 9px; margin:0; }
+
+
 
 /*list*/
 .listBlock { padding: 0 5%; margin-bottom: 10px; }
