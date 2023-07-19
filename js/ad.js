@@ -75,10 +75,6 @@ adsText = ads[random]['text']; if(adsText == null) { adsText = ''; }
 adsURL = ads[random]['url'];	if(adsURL == null){ adsURL = ''; }
 
 
-
-
-
-
 // privacy
 if(adsText.search("src=") != -1&&confDataCollection != 'on'){ adsText = ''; }
 if(adsText.search("src=") != -1){

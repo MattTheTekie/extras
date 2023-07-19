@@ -186,7 +186,7 @@ document.getElementById("dropdownMenuButton").innerHTML = '☰ Menu';
 <h5>Allow Cookies for third parties?</h5>
 <b class="block h6">This is necessary to improve the site.</b>
 (for Ads Services, Statistics)</div>
-<b id="result" class="padding border4 bg4 bold shadow">Status Cookies</b>
+<b id="result" class="padding border4 bg4 bold shadow">Cookie Status</b>
 <div id="option" style="padding: 30px 0;"></div>
 
 </div>
@@ -208,14 +208,14 @@ document.getElementById("dropdownMenuButton").innerHTML = '☰ Menu';
 
 if(localStorage.getItem('confDataCollection') == null){
 localStorage.setItem('confDataCollection', confDataCollection);
-document.getElementById("result").innerHTML = 'status cookie: '+confDataCollection;
+document.getElementById("result").innerHTML = 'Cookie Status: '+confDataCollection;
 }else{
-document.getElementById("result").innerHTML = 'status cookie: ' +localStorage.getItem('confDataCollection');
+document.getElementById("result").innerHTML = 'Cookie Status: ' +localStorage.getItem('confDataCollection');
 }
 
 var confDataCollectionOption = [
-"off",
-"on"
+"on",
+"off"
 ];
 
 var result = '';
@@ -241,7 +241,7 @@ confDataCollectionOption.forEach(myFunction);
 function myFunction(item, index) {
 document.getElementById(item).addEventListener("click", function() {
 localStorage.setItem('confDataCollection', item);
-document.getElementById("result").innerHTML = 'status cookie: ' +item;
+document.getElementById("result").innerHTML = 'Cookie Status: ' +item;
 document.getElementById("fPrivacy").innerHTML = 'cookie: ' +item;
 light(item);
 
@@ -266,17 +266,6 @@ light(item);
 
 
 <footer>
-
-<div id="cookiePopup" class="wrapper">
-<div class="cookiePopup post bg3 border margin tCenter">
-
-<b>Allow Cookies for third parties?</b>
-<p>This is necessary to improve the site.
-(for relevant Ads, Statistics)</p>
-<button class="button light4" onclick="cookiePopup('off')">No</button>
-<button class="button cookiePopupYes" onclick="cookiePopup('on')">Yes</button>
-</div>
-</div>
 
 
 <span id="footer"></span>

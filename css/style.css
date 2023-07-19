@@ -81,18 +81,22 @@ border: 2px solid var(--orange);
 
 
 /*cookie popup*/
-.cookiePopupYes{
-background: var(--green);
-color: var(--l);
-}
-.cookiePopupYes:hover{
-background: var(--green2);
-}
 
 #cookiePopup{
 position: fixed;
-bottom: 3px;
+bottom: 20px;
 left: 0;
 right: 0;
 display: none;
 }
+
+#cookiePopup .button { min-width: 50px; }
+
+
+
+
+
+
+
+
+
