@@ -1,4 +1,4 @@
-/* v.3.3.19 */
+/* v.3.3.20 */
 
 
 
@@ -132,6 +132,14 @@ if (window.matchMedia && window.matchMedia('(prefers-color-scheme: light)').matc
 function mainPrintTheme(theme){
 if(document.getElementById('theme') != null){
 document.getElementById('theme').href = '/css/'+theme+'.css';
+
+//https://stackoverflow.com/questions/36641137/how-exactly-does-link-rel-preload-work
+var res = document.createElement("link");
+res.rel = "preload";
+res.as = "style";
+res.href = '/css/'+theme+'.css';
+document.head.appendChild(res);
+
 }
 }
 

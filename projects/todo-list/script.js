@@ -1,4 +1,4 @@
-// v.1.2.1
+// v.1.2.2
 // https://developer.mozilla.org/en-US/docs/Web/API/IDBCursor/continue
 
 
@@ -675,13 +675,12 @@ allOtherTaskMsg = `<span class="op">other task:</span>`;
 document.getElementById('result').innerHTML = `
 
 <div>
-${randomTask}
-</div>
-
-<div>
 ${printDaily}
 </div>
 
+<div>
+${randomTask}
+</div>
 
 <div>
 ${allOtherTaskMsg}

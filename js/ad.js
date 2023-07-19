@@ -128,6 +128,9 @@ document.getElementById(idAds).innerHTML = '<div class="center"><div class="post
 
 }
 
+
+
+
 // v.1.1.1
 // start Cookie Consent Popups
 // if not selected: popup
@@ -138,7 +141,7 @@ document.getElementById("cookiePopup").style.display = "block";
 }
 }
 
-function cookiePopup(option){
+async function cookiePopup(option){
 localStorage.setItem('confDataCollection', option);
 if(document.getElementById("cookiePopup") != null){
 document.getElementById("cookiePopup").style.display = "none";
@@ -146,3 +149,6 @@ mainPrintMsg('fPrivacy', `<a href="/privacy.${confExt}">cookies: ${option}</a>`)
 }
 }
 // end 
+
+
+

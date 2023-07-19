@@ -625,8 +625,8 @@ var radioJsonVar =
     },
     {
         "text": "Newfoundland & Labrador - CBC News",
-        "text2": "https:\/\/playerservices.streamtheworld.com\/api\/livestream-redirect\/CBN1.mp3",
-        "text3": "mp3",
+        "text2": "https:\/\/cbcradiolive.akamaized.net\/hls\/live\/2037435\/ES_R1NSN\/master.m3u8",
+        "text3": "m3u8",
         "url": "https:\/\/www.cbc.ca\/news\/canada\/newfoundland-labrador",
         "tag": "#radio #en"
     },
