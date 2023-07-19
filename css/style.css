@@ -67,7 +67,6 @@ h6::first-letter,
 b::first-letter,
 .bold::first-letter {
 border-bottom: 1px solid var(--c);
-font-weight: bold;
 }
 
 
@@ -82,15 +81,6 @@ border: 2px solid var(--orange);
 
 /*cookie popup*/
 
-#cookiePopup{
-position: fixed;
-bottom: 20px;
-left: 0;
-right: 0;
-display: none;
-}
-
-#cookiePopup .button { min-width: 50px; }
 
 
 

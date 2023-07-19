@@ -25,24 +25,9 @@ document.getElementById('theme').id = 'themeDisable';
 
 mainPrintMsg('footer', `
 
-
-<div id="cookiePopup" class="wrapperL">
-<div class="cookiePopup post bg3 border margin tCenter shadow">
-
-
-<p><b>Allow Cookies for third parties?</b></p>
-This is necessary to improve the site.
-(for relevant Ads, Statistics)
-<p>
-<button class="button light3 border" onclick="cookiePopup('on')">Yes</button>
-<button class="button light3 border" onclick="cookiePopup('off')">No</button>
-</p>
-</div>
-</div>
-
-
-<div id="ads2"></div>
 <div id="cookiePopup"></div>
+<div id="ads2"></div>
+
 
 <br>
 <div class="wrapper3">
@@ -74,8 +59,10 @@ This is necessary to improve the site.
 
 <span><a rel="license" title="license 2" href="/copyright.${confExt}">Some © Copyright</a></span>
 
-
 </div>
+
+
+
 
 `);
 

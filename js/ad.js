@@ -133,6 +133,36 @@ document.getElementById(idAds).innerHTML = '<div class="center"><div class="post
 
 if(confDataCollection == 'not selected'){
 if(document.getElementById("cookiePopup") != null){
+
+mainPrintMsg('cookiePopup', `
+
+<style>
+#cookiePopup{
+position: fixed;
+bottom: 20px;
+left: 0;
+right: 0;
+display: none;
+z-index: 2;
+}
+
+#cookiePopup .button { font-size: 100%; min-width: 50px; }
+</style>
+
+<div class="wrapperL">
+<div class="wrapperL cookiePopup post bg3 border margin tCenter shadow">
+<p><b>Allow Cookies for third parties?</b></p>
+This is necessary to improve the site.
+(for relevant Ads, Statistics)
+<p>
+<button class="button light3 border" onclick="cookiePopup('on')">Yes</button>
+<button class="button light3 border" onclick="cookiePopup('off')">No</button>
+</p>
+</div>
+</div>
+
+`);
+
 document.getElementById("cookiePopup").style.display = "block";
 }
 }
