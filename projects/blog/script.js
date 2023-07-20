@@ -1,4 +1,4 @@
-// v.1.17.6
+// v.1.17.7
 
 // inspired by Twitter, Fediverse
 // not for large Json files
@@ -1260,7 +1260,7 @@ embedServiceList += 'mpd';
 }
 
 if(itemCheck.search(
-`${symbolForSplit}jpg|${symbolForSplit}jpeg|${symbolForSplit}png|${symbolForSplit}gif|${symbolForSplit}img|${symbolForSplit}ico`) != -1) {
+`${symbolForSplit}jpg|${symbolForSplit}svg|${symbolForSplit}jpeg|${symbolForSplit}png|${symbolForSplit}gif|${symbolForSplit}img|${symbolForSplit}ico`) != -1) {
 checkText = false;
 
 //echo 'test';
@@ -1724,7 +1724,7 @@ item = `<a class="brand" target="_blank" href="${item}">${item}</a>`;
 }
 
 
-if(itemCheck.search(`${symbolForSplit}jpg|${symbolForSplit}jpeg|${symbolForSplit}png|${symbolForSplit}gif|${symbolForSplit}img|${symbolForSplit}ico`) != -1) {
+if(itemCheck.search(`${symbolForSplit}svg|${symbolForSplit}jpg|${symbolForSplit}jpeg|${symbolForSplit}png|${symbolForSplit}gif|${symbolForSplit}img|${symbolForSplit}ico`) != -1) {
 //echo 'test';
 embed2 = `
 <a href="${item}"><img class="border3 img" src="${item}" width=""></a>`;
