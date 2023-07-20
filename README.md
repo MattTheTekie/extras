@@ -28,6 +28,6 @@ README.md
 
 
 
-Screenshots:  
+Screenshot:  
 ![screenshot](/img/screenshot.png)  
-![screenshot2](/img/screenshot2.png)  
+ 
