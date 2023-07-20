@@ -1,4 +1,4 @@
-/* v.12.29.1 */
+/* v.12.30.0 */
 
 * {  color-scheme: light dark; } /* view-source:about:blank */ /* fixed #fff blink */
 
@@ -174,13 +174,12 @@ transform: rotate(360deg);
 }
 .logo2 { width: 26px; height: 26px; }
 .headerBannerImg {
-height: 120px;
-
+height: 90px;
 background-image: url('/img/header-banner.png');
 background-size: contain;
 background-position: center;
 background-repeat: no-repeat;
-margin-bottom: calc(-60px - 30px);
+margin-bottom: -30px;
 }
 .ico {
 border-radius: 50%;

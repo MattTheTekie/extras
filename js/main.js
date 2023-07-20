@@ -639,6 +639,33 @@ document.getElementsByTagName('title')[0].innerHTML += ' : '+confHost;
 
 
 
+// v.1.1.2
+// dropdown Menu
+//https://www.w3schools.com/howto/howto_js_dropdown.asp
+// menu click
+async function dropdownMenuFunction() {
+  var x = document.getElementById("dropdownMenu");
+ // alert(x.style.display);
+  if (x.style.display === "none"||x.style.display === "") {
+document.getElementById("dropdownMenuButton").innerHTML = '☶ Menu'; 
+x.style.display = "block";
+  } else {
+x.style.display = "none";
+document.getElementById("dropdownMenuButton").innerHTML = '☰ Menu'; 
+  }
 
+// out area hide
+var getclick = document.getElementById('dropdownMenuButton');
+document.addEventListener('click', function(event) {
+// hide and make posible text selected
+if (!getclick.contains(event.target)&&document.getSelection().toString() == '') {
+//alert('out');
+var x = document.getElementById("dropdownMenu");
+x.style.display = "none";
+document.getElementById("dropdownMenuButton").innerHTML = '☰ Menu'; 
+    }
+});
+
+}
 
 
