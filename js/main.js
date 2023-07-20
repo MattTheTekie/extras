@@ -1,7 +1,4 @@
-/* v.3.3.21 */
-
-
-
+/* v.3.3.22 */
 
 // conf
 var symbolForSplit = 'pwxortuzqu'; // for split
@@ -130,6 +127,7 @@ if (window.matchMedia && window.matchMedia('(prefers-color-scheme: light)').matc
 // insert color-theme.css in header
 function mainPrintTheme(theme){
 if(document.getElementById('theme') != null){
+document.getElementById('theme').href = '/css/'+theme+'.css';
 
 //https://stackoverflow.com/questions/36641137/how-exactly-does-link-rel-preload-work
 var res = document.createElement("link");
@@ -138,7 +136,6 @@ res.as = "style";
 res.href = '/css/'+theme+'.css';
 document.head.appendChild(res);
 
-document.getElementById('theme').href = '/css/'+theme+'.css';
 }
 }
 
