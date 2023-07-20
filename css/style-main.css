@@ -173,7 +173,15 @@ border: 2px dashed var(--cOp);
 transform: rotate(360deg); 
 }
 .logo2 { width: 26px; height: 26px; }
-.headerBannerImg { width: 250px; display: block; margin: 0 auto; margin-bottom:  -30px; border-radius: 9px; } 
+.headerBannerImg {
+height: 120px;
+
+background-image: url('/img/header-banner.png');
+background-size: contain;
+background-position: center;
+background-repeat: no-repeat;
+margin-bottom: calc(-60px - 30px);
+}
 .ico {
 border-radius: 50%;
 display: inline-block;
