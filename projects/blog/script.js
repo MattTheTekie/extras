@@ -10,15 +10,6 @@
 // main function 
 
 
-document.getElementsByTagName("head")[0].innerHTML += `
-
-<meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate">
-<meta http-equiv="Pragma" content="no-cache">
-<meta http-equiv="Expires" content="-1">
-
-`;
-
-
 function blog(printId, jsonVar, postClass, embedStatus, tagListStatus, postLimit, scriptDir, multiEmbedStatus, tagListLimit, targetOption, bottomMsg){
 
 /*
