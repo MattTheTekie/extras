@@ -23,9 +23,9 @@
      inkscape:pagecheckerboard="0"
      inkscape:document-units="px"
      showgrid="false"
-     inkscape:zoom="0.18350538"
-     inkscape:cx="779.26871"
-     inkscape:cy="-89.91562"
+     inkscape:zoom="0.38279044"
+     inkscape:cx="702.73438"
+     inkscape:cy="71.840875"
      inkscape:window-width="1347"
      inkscape:window-height="926"
      inkscape:window-x="0"
@@ -34,6 +34,12 @@
      inkscape:current-layer="layer2" />
   <defs
      id="defs2">
+    <rect
+       x="431.04541"
+       y="12.922381"
+       width="165.65886"
+       height="424.72681"
+       id="rect15640" />
     <rect
        x="275.12827"
        y="63.487175"
@@ -49,8 +55,8 @@
     <rect
        x="10.947174"
        y="14.715694"
-       width="726.33867"
-       height="516.54758"
+       width="910.6948"
+       height="492.26987"
        id="rect43298" />
   </defs>
   <g
@@ -84,56 +90,58 @@
        transform="translate(262.63176,-1.157991)"><tspan
          x="10.947266"
          y="51.714844"
-         id="tspan84482"><tspan
+         id="tspan19558"><tspan
            style="font-family:FreeMono;-inkscape-font-specification:'FreeMono, Normal';fill:#888a85"
-           id="tspan84480">.headerBannerImg {
+           id="tspan19556">.headerBannerImg {
 </tspan></tspan><tspan
          x="10.947266"
          y="103.32422"
-         id="tspan84486"><tspan
+         id="tspan19562"><tspan
            style="font-family:FreeMono;-inkscape-font-specification:'FreeMono, Normal';fill:#888a85"
-           id="tspan84484">height: 120px;
+           id="tspan19560">height: 120px;
 </tspan></tspan><tspan
          x="10.947266"
          y="154.93359"
-         id="tspan84490"><tspan
+         id="tspan19568"><tspan
            style="font-family:FreeMono;-inkscape-font-specification:'FreeMono, Normal';fill:#888a85"
-           id="tspan84488">background-image: url('/img/</tspan></tspan><tspan
+           id="tspan19564">background-image: url('/img/</tspan><tspan
+           style="font-family:FreeMono;-inkscape-font-specification:'FreeMono, Normal';fill:#888a85"
+           id="tspan19566">header-</tspan></tspan><tspan
          x="10.947266"
          y="206.54297"
-         id="tspan84494"><tspan
+         id="tspan19572"><tspan
            style="font-family:FreeMono;-inkscape-font-specification:'FreeMono, Normal';fill:#888a85"
-           id="tspan84492">header-banner.svg');
+           id="tspan19570">banner.svg');
 </tspan></tspan><tspan
          x="10.947266"
          y="258.15234"
-         id="tspan84498"><tspan
+         id="tspan19576"><tspan
            style="font-family:FreeMono;-inkscape-font-specification:'FreeMono, Normal';fill:#888a85"
-           id="tspan84496">background-size: contain;
+           id="tspan19574">background-size: contain;
 </tspan></tspan><tspan
          x="10.947266"
          y="309.76172"
-         id="tspan84502"><tspan
+         id="tspan19580"><tspan
            style="font-family:FreeMono;-inkscape-font-specification:'FreeMono, Normal';fill:#888a85"
-           id="tspan84500">background-position: center;
+           id="tspan19578">background-position: center;
 </tspan></tspan><tspan
          x="10.947266"
          y="361.37109"
-         id="tspan84506"><tspan
+         id="tspan19584"><tspan
            style="font-family:FreeMono;-inkscape-font-specification:'FreeMono, Normal';fill:#888a85"
-           id="tspan84504">background-repeat: no-repeat;
+           id="tspan19582">background-repeat: no-repeat;
 </tspan></tspan><tspan
          x="10.947266"
          y="412.98047"
-         id="tspan84510"><tspan
+         id="tspan19588"><tspan
            style="font-family:FreeMono;-inkscape-font-specification:'FreeMono, Normal';fill:#888a85"
-           id="tspan84508">margin-bottom: -30px;
+           id="tspan19586">margin-bottom: -30px;
 </tspan></tspan><tspan
          x="10.947266"
          y="464.58984"
-         id="tspan84514"><tspan
+         id="tspan19592"><tspan
            style="font-family:FreeMono;-inkscape-font-specification:'FreeMono, Normal';fill:#888a85"
-           id="tspan84512">}</tspan></tspan></text>
+           id="tspan19590">}</tspan></tspan></text>
     <text
        xml:space="preserve"
        id="text62528"
@@ -142,6 +150,10 @@
        xml:space="preserve"
        id="text65636"
        style="font-style:normal;font-weight:normal;font-size:40px;line-height:1.25;font-family:sans-serif;white-space:pre;shape-inside:url(#rect65638);fill:#000000;fill-opacity:1;stroke:none" />
+    <text
+       xml:space="preserve"
+       id="text15638"
+       style="font-style:normal;font-weight:normal;font-size:40px;line-height:1.25;font-family:sans-serif;white-space:pre;shape-inside:url(#rect15640);fill:#000000;fill-opacity:1;stroke:none" />
   </g>
   <g
      inkscape:label="Layer 1"
