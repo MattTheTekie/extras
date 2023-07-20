@@ -47,9 +47,14 @@ var themeListLight = [
 "l-blue",
 "l-green",
 "l-olive",
+"l-orange",
+"l-pink",
+"l-purple",
+"l-plum",
 "l-red",
 "l-sea",
-"l-violet"
+"l-violet",
+"l-yellow"
 ];
 
 var themeListDark = [
@@ -58,19 +63,23 @@ var themeListDark = [
 "d-blue",
 "d-orange",
 "d-pink",
+"d-plum",
 "d-red",
+"d-sea",
 "d-violet",
 "d-yellow"
 ];
 
 var themeListOther = [
 "o-blue",
+"o-green",
 "o-lime",
 "o-mint",
 "o-olive",
-"o-pink",
-"o-purple",
 "o-orange",
+"o-pink",
+"o-plum",
+"o-purple",
 "o-sea",
 "o-silver",
 "o-violet",
@@ -84,7 +93,9 @@ var themeListOtherDark = [
 "od-gray",
 "od-forest",
 "od-pink",
+"od-plum",
 "od-purple",
+"od-red",
 "od-olive",
 "od-sea",
 "od-slate",
@@ -98,12 +109,21 @@ var themeListBest = [
 "light",
 "l-green",
 "l-olive",
+"l-orange",
+"l-yellow",
+
 "dark",
 "d-blue",
 "d-green",
+"d-sea",
 "d-violet",
+
 "o-yellow",
+"o-lime",
+"o-orange",
+"o-olive",
 "o-silver",
+
 "od-blue",
 "od-green",
 "od-gray",
