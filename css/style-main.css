@@ -175,7 +175,7 @@ transform: rotate(360deg);
 .logo2 { width: 26px; height: 26px; }
 .headerBannerImg {
 height: 90px;
-background-image: url('/img/header-banner.png');
+background-image: url('/img/header-banner.svg');
 background-size: contain;
 background-position: center;
 background-repeat: no-repeat;
