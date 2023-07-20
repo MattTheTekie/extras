@@ -16,10 +16,11 @@
 <!--<meta http-equiv="Content-Security-Policy" content="upgrade-insecure-requests">-->
 <meta name="generator" content="">
 
+<!--
 <meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate">
 <meta http-equiv="Pragma" content="no-cache">
 <meta http-equiv="Expires" content="-1">
-
+-->
 <!--<meta name="referrer" content="no-referrer" />--><!-- YouTube embed video not playing -->
 <meta name="theme-color" media="(prefers-color-scheme: light)" content="#F2F2F2">
 <meta name="theme-color" media="(prefers-color-scheme: dark)" content="#3E3E3E">
@@ -177,6 +178,17 @@ document.getElementById("dropdownMenuButton").innerHTML = '☰ Menu';
 <div class="content">
 <h3 class="tCenter op">Data2</h3>
 
+
+<script>
+document.head.innerHTML += `
+
+<meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate">
+<meta http-equiv="Pragma" content="no-cache">
+<meta http-equiv="Expires" content="-1">
+
+`;
+
+</script>
 <div id="insertIconId">
 
 

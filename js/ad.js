@@ -68,7 +68,8 @@ if (typeof adsJsonVar != 'undefined') { ads= ads.concat(adsJsonVar); }
 
 //ads = JSON.parse(adsJson);
 
-if(ads != null){
+
+if(ads != null&&ads != ''){
 const random = Math.floor(Math.random() * ads.length);
 //console.log(ads[random]['text']);
 adsText = ads[random]['text']; if(adsText == null) { adsText = ''; }
