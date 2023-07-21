@@ -1,7 +1,7 @@
 README.md
 
 🏠 Homepage and other projects  
-💻 I'm trying to create websites templates  
+💻 I'm trying to create website templates and then sites  
 🛍️ Extensions: New Tab Redirect ABC (Any website in New Tab, Firefox, Chrome)  
 📄 Website Templates  
 🎨 Themes for Firefox, Geany IDE Color Theme  
@@ -18,17 +18,7 @@ README.md
 [#website-template](https://github.com/topics/website-template?s=updated)
 [#game](https://github.com/topics/game?s=updated)
 
-
-##### Some copyright
-
-• Most logos are protected by copyright and belong to their owners  
-
-• Books in /data: books have their own license  
-• dash.js in /js: have own license  
-• /video/bbb.mp4: have own license  
-
-
-
+  
 Screenshot:  
 ![screenshot](/img/screenshot.png)  
  
