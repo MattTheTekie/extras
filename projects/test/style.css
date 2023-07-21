@@ -27,22 +27,28 @@ border: 1px solid #3E6042;
 .block4 { max-width: 1000px; }
 
 #result {
-columns: 250px 3; 
-column-gap: 15px;
-min-height: 100px;
-display: block;
+
 border: 3px solid #5E574B;
 padding: 5px;
 
-
-
+display: inline-block;
+width: 100%;
+height: auto;
 
 text-wrap: balance;
+text-wrap: wrap;
 font-size: 24px;
 font-weight: 900;
 background: #EFE5D4;
 color: #4E4E4E;
 text-align: left;
+
+/*https://www.w3.org/TR/css-writing-modes-4/#text-orientation#*/
+writing-mode: vertical-rl;
+text-orientation: upright;
+unicode-bidi: bidi-override;
+direction: ltr;
+font-size: 500%;
 }
 
 /*
