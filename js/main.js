@@ -45,9 +45,10 @@ mainPrintMsg('footer', `
 <span><a href="https://twitter.com/inonehp">Twitter</a></span>
 <span><a href="/rss.xml">RSS</a></span>
 
-<!--<span id="fDownload"><a href="https://github.com/inonehp/inonehp.github.io">download</a></span>
+<!--
 <span id="fDonate"><a href="/about.${confExt}#donate">donate</a></span>-->
 
+<span id="fDownload"><a href="https://github.com/inonehp/inonehp.github.io">download</a></span>
 <span><a rel="license" title="license" href="https://creativecommons.org/licenses/by-sa/4.0/">license: CC BY-SA 4.0</a></span>
 
 <span><a rel="license" title="license 2" href="/copyright.${confExt}">Some © Copyright</a></span>

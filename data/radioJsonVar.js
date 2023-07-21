@@ -646,7 +646,7 @@ var radioJsonVar =
     },
     {
         "text": "NME Radio | Listen on Web, Mobile, Apple Music, DAB & More",
-        "text2": "http:\/\/msmn.co:8118\/",
+        "text2": "http:\/\/msmn.co:8118\/stream?type=http&nocache=365",
         "text3": "mp3",
         "url": "https:\/\/radio.nme.com\/",
         "tag": "#radio #RadioMusic #indie"

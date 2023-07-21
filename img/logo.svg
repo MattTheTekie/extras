@@ -26,9 +26,9 @@
      inkscape:pagecheckerboard="0"
      inkscape:document-units="px"
      showgrid="false"
-     inkscape:zoom="1.3017128"
-     inkscape:cx="238.53187"
-     inkscape:cy="437.88459"
+     inkscape:zoom="0.48922379"
+     inkscape:cx="97.092581"
+     inkscape:cy="846.23849"
      inkscape:window-width="1920"
      inkscape:window-height="1011"
      inkscape:window-x="0"
@@ -44,8 +44,8 @@
     <rect
        x="108.98836"
        y="358.47676"
-       width="312.86755"
-       height="104.09729"
+       width="379.53182"
+       height="157.14663"
        id="rect6712" />
     <filter
        style="color-interpolation-filters:sRGB;"
@@ -398,14 +398,14 @@
        style="fill:#2e3436"
        id="path439"
        sodipodi:type="arc"
-       sodipodi:cx="170.53415"
-       sodipodi:cy="175.8325"
+       sodipodi:cx="170.64401"
+       sodipodi:cy="152.69656"
        sodipodi:rx="41.908638"
        sodipodi:ry="41.908638"
        sodipodi:start="1.2217305e-05"
        sodipodi:end="6.2831853"
        sodipodi:arc-type="slice"
-       d="m 212.44279,175.83302 a 41.908638,41.908638 0 0 1 -41.90902,41.90812 41.908638,41.908638 0 0 1 -41.90826,-41.90889 41.908638,41.908638 0 0 1 41.90877,-41.90838 41.908638,41.908638 0 0 1 41.90851,41.90863 h -41.90864 z" />
+       d="m 212.55265,152.69708 a 41.908638,41.908638 0 0 1 -41.90902,41.90812 41.908638,41.908638 0 0 1 -41.90826,-41.90889 41.908638,41.908638 0 0 1 41.90877,-41.90838 41.908638,41.908638 0 0 1 41.90851,41.90863 h -41.90864 z" />
     <path
        style="fill:#2e3436"
        id="path439-3"
@@ -421,14 +421,14 @@
     <text
        xml:space="preserve"
        id="text6710"
-       style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:48px;line-height:2.05;font-family:'Nimbus Sans';-inkscape-font-specification:'Nimbus Sans, Bold';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;white-space:pre;shape-inside:url(#rect6712);fill:#2e3436;fill-opacity:1;stroke:none"
-       transform="rotate(89.221677,226.64065,352.33082)"
+       style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:56px;line-height:2.05;font-family:'Nimbus Sans';-inkscape-font-specification:'Nimbus Sans, Bold';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;white-space:pre;shape-inside:url(#rect6712);fill:#2e3436;fill-opacity:1;stroke:none"
+       transform="rotate(89.221677,243.58777,341.52141)"
        x="0"
        y="0"><tspan
          x="108.98828"
-         y="418.66856"
-         id="tspan953"><tspan
+         y="428.70056"
+         id="tspan32272"><tspan
            style="text-align:justify"
-           id="tspan951">inonehp</tspan></tspan></text>
+           id="tspan32270">inonehp</tspan></tspan></text>
   </g>
 </svg>
