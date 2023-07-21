@@ -1,6 +1,7 @@
 README.md
 
 🏠 Homepage and other projects  
+💻 I'm trying to create websites templates  
 🛍️ Extensions: New Tab Redirect ABC (Any website in New Tab, Firefox, Chrome)  
 📄 Website Templates  
 🎨 Themes for Firefox, Geany IDE Color Theme  
