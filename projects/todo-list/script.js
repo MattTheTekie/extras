@@ -1,4 +1,4 @@
-// v.1.2.2
+// v.1.2.4
 // https://developer.mozilla.org/en-US/docs/Web/API/IDBCursor/continue
 
 
@@ -223,7 +223,7 @@ transaction.onerror = (event) => {
 }
 
 
-if(com == 'del'){
+if(com == "del"){
 
 request.onsuccess = (event) => {
 const db = event.target.result;
@@ -596,7 +596,7 @@ ${printTmp}
 <div class="block tRight">
 <tag class="tag2 border2 light2 op" style="cursor: pointer;" onclick="runDb('daily', '`+cursor.key+`', '', '', 'daily')" title="make daily task `+cursor.key+`">*</tag>
 <tag class="tag2 border2 light2 op" style="cursor: pointer;" onclick="runDb('edit', '`+cursor.key+`')" title="edit `+cursor.key+`">e</tag>
-<tag class="tag2 border2 light2 op" style="cursor: pointer;" onclick="runDb('del', '`+cursor.key+`')" title="remove `+cursor.key+`">x</tag>
+<tag class="tag2 border2 light2 op" style="cursor: pointer;" onclick="confirmCom('del', '`+cursor.key+`')" title="remove `+cursor.key+`">x</tag>
 </div>
 
 </div>
@@ -820,7 +820,12 @@ document.getElementById(id).scrollIntoView();
 }
 }
 
-
+function confirmCom(com, id){
+//https://stackoverflow.com/questions/10462839/how-to-display-a-confirmation-dialog-when-clicking-an-a-link
+if(confirm('Are you sure?') == true){
+runDb(com, id);
+}
+}
 
 /*
 function backupInJson(printId, jsonArr, jsonName){
