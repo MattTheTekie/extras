@@ -67,8 +67,25 @@ h6::first-letter,
 b::first-letter,
 .bold::first-letter {
 border-bottom: 1px solid var(--c);
+padding-bottom: 2px;
 }
 
+
+h1 a:hover,
+h2 a:hover,
+h3 a:hover,
+h4 a:hover,
+h5 a:hover,
+h6 a:hover,
+b a:hover,
+.bold a:hover {
+border-bottom: 1px solid var(--c2);
+transition: all .4s ease;
+-webkit-transition: all .4s ease;
+
+
+padding-bottom: 2px;
+}
 
 /*nav a::first-letter {
 border-bottom: 1px solid var(--b3);

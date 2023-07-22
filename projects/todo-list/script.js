@@ -1,4 +1,6 @@
-// v.1.2.4
+// Todo
+// v.1.2.6
+// comments
 // https://developer.mozilla.org/en-US/docs/Web/API/IDBCursor/continue
 
 
@@ -517,8 +519,8 @@ const objectStore = transaction.objectStore(tableName);
 
 print = '';
 
-
-objectStore.openCursor().onsuccess = function(event) {  
+//https://stackoverflow.com/questions/44360910/how-to-obtain-results-of-an-indexeddb-cursor-in-reverse-order
+objectStore.openCursor(null, 'prev').onsuccess = function(event) {  
 var cursor = event.target.result;  
 if (cursor) { 
 //console.log('cur key: '+cursor.key);
@@ -650,8 +652,9 @@ randomTask = `${randomTodoListArray[Math.floor(Math.random() * randomTodoListArr
 
 if(randomTask != 'undefined'){
 randomTask = `
-<span class="op">random task:</span>
-${randomTask}<br>
+<span class="op">random:</span>
+<div class="block paddingL"></div>
+${randomTask}
 `;
 }else{ randomTask = ''; }
 
@@ -659,11 +662,15 @@ ${randomTask}<br>
 var allOtherTaskMsg = '';
 if(printDaily != ''){
 printDaily = `
-<span class="op">daily task:</span>
-${printDaily}<br>
+<span class="op">pined or daily:</span>
+<div class="block paddingL"></div>
+${printDaily}
 `;
 if(print != ''){
-allOtherTaskMsg = `<span class="op">other task:</span>`;
+allOtherTaskMsg = `
+<span class="op">other:</span>
+<div class="block paddingL"></div>
+`;
 }
 }
 
@@ -678,13 +685,15 @@ document.getElementById('result').innerHTML = `
 ${printDaily}
 </div>
 
-<div>
-${randomTask}
-</div>
-
+<br>
 <div>
 ${allOtherTaskMsg}
 ${print}
+</div>
+
+<br>
+<div>
+${randomTask}
 </div>
 
 `;
@@ -734,14 +743,14 @@ print2 = `
 
 <div class="block padding tRight" style="/*float: right; margin-top: 35px;*/">
 
-<tag class="button op border2 light" style="cursor: pointer" onclick="runDb('delAllDone')">remove all done (not daily)</tag>
+<tag class="button op border2 light" style="cursor: pointer" onclick="confirmCom('delAllDone')">remove all done (not daily)</tag>
 
-<tag class="button op border2 light" style="cursor: pointer" onclick="runDb('clear')">remove all</tag>
+<tag class="button op border2 light" style="cursor: pointer" onclick="confirmCom('clear')">remove all</tag>
 
 <br>
 
 <div class="block tRight xSmall op padding">
-* For daily tasks, the check mark is removed automatically every day
+pinned or daily the check mark is removed automatically every new day
 </div>
 
 </div>

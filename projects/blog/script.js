@@ -1,4 +1,4 @@
-// v.1.17.7
+// v.1.17.8
 
 // inspired by Twitter, Fediverse
 // not for large Json files
@@ -759,12 +759,12 @@ break;
 
 case tagPercentage >= 30:
 tagColor = "var(--violet)";
-tagSize = "110%";
+tagSize = "100%";
 break;
 
 default:
 tagColor = "var(--c2)";
-tagSize = "95%";
+tagSize = "90%";
 }
 
 //console.log(tagColor);
