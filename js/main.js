@@ -4,6 +4,7 @@
 var symbolForSplit = 'pwxortuzqu'; // for split
 
 
+
 // if localhost make some pages with php extension, because in the original they are php
 var confHost = location.hostname;
 if (confHost === "localhost" ||  confHost === "127.0.0.1"||confHost.search("192.168") != -1){
@@ -12,6 +13,8 @@ var confExt = 'php';
 var confExt = 'html';
 }
 
+// added URL to titile
+//document.getElementsByTagName('title')[0].innerHTML += ' : '+confHost;
 
 // css color fixed if offline
 if(String(window.location.href).slice(0, 4) != 'http'){
@@ -634,8 +637,7 @@ document.getElementById(id).innerHTML = PrintMsg;
 
 
 
-// added URL to titile
-document.getElementsByTagName('title')[0].innerHTML += ' : '+confHost;
+
 
 
 
