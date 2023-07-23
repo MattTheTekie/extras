@@ -1,5 +1,5 @@
-/* v.1.0.0 */
-/* comment */
+/* name v.1.0.1
+comment */
 body {
 	margin: 0;
 	padding: 0;
@@ -81,3 +81,18 @@ background-clip: text;
 @media(max-width: 300px) { p{ font-size: 24px; }}
 @media(max-width: 200px) { p{ font-size: small; }}
 @media(max-width: 100px) { p{ font-size: x-small; }}
+
+
+/* fixed */
+.header, nav, footer { display: block; position: relative; z-index: 15; }
+
+
+
+
+
+
+
+
+
+
+
