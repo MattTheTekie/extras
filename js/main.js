@@ -32,10 +32,8 @@ mainPrintMsg('footer', `
 <br>
 <div class="wrapper3">
 
-<!--<span><a  class="button" href="../">&#x2190;</a></span>
--->
-
-<!--<span><a href="/">index</a></span>-->
+<span><a href="/">index</a></span>
+<span><a href="../">up</a></span>
 
 <asdf id="fScript"></asdf>
 <asdf id="fStyle"></asdf>
