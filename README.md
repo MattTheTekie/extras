@@ -1,16 +1,16 @@
 README.md
 
-· Homepage and other projects  
-· I'm trying to create website templates and then sites  
-· Extensions: New Tab Redirect ABC (Any website in New Tab, Firefox, Chrome)  
-· Website Templates  
-· Themes for Firefox, Geany IDE Color Theme  
-· JavaScript Games: Typing Speed, Snake, Memory Symbol, Tic Tac Toe  
-· Todo list  
+· ℹ️ Homepage and other projects  
+· 💻 I'm trying to create website templates and then sites  
+· 🛍 Extensions: New Tab Redirect ABC (Any website in New Tab, Firefox, Chrome)  
+· 📄 Website Templates  
+· 🎨 Themes for Firefox, Geany IDE Color Theme  
+· 🎮 JavaScript Games: Typing Speed, Snake, Memory Symbol, Tic Tac Toe  
+· 📝 Todo list  
 
 
-· Web Site: [https://inonehp.pages.dev](https://inonehp.pages.dev)  
-· Download: [Download ZIP](https://github.com/inonehp/inonehp.github.io/archive/refs/heads/main.zip)  
+· 🔗 Web Site: [https://inonehp.pages.dev](https://inonehp.pages.dev)  
+· 💾 Download: [Download ZIP](https://github.com/inonehp/inonehp.github.io/archive/refs/heads/main.zip)  
 
 Tags:  
 [#website](https://github.com/topics/website?s=updated)
