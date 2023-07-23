@@ -8,7 +8,7 @@
    version="1.1"
    id="svg5"
    inkscape:version="1.1.2 (0a00cf5339, 2022-02-04)"
-   sodipodi:docname="logo-2.svg"
+   sodipodi:docname="logo2.svg"
    inkscape:export-filename="/mnt/d/Sync/htdocs/img/logo.png"
    inkscape:export-xdpi="96"
    inkscape:export-ydpi="96"
@@ -27,14 +27,14 @@
      inkscape:document-units="px"
      showgrid="false"
      inkscape:zoom="1.0682954"
-     inkscape:cx="278.01299"
+     inkscape:cx="238.69802"
      inkscape:cy="336.98544"
      inkscape:window-width="1920"
      inkscape:window-height="1011"
      inkscape:window-x="0"
      inkscape:window-y="0"
      inkscape:window-maximized="1"
-     inkscape:current-layer="layer4">
+     inkscape:current-layer="layer3">
     <inkscape:grid
        type="xygrid"
        id="grid245" />
@@ -427,16 +427,7 @@
   <g
      inkscape:groupmode="layer"
      id="layer4"
-     inkscape:label="Layer 4">
-    <text
-       xml:space="preserve"
-       id="text21318"
-       style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:144px;line-height:1.25;font-family:Laksaman;-inkscape-font-specification:'Laksaman, Bold';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;white-space:pre;shape-inside:url(#rect21320);fill:#2e3436;fill-opacity:1;stroke:none"
-       transform="matrix(3.7370717,0,0,3.7370717,-279.79974,-584.71126)"><tspan
-         x="105.57422"
-         y="261.75725"
-         id="tspan1163">x</tspan></text>
-  </g>
+     inkscape:label="Layer 4" />
   <g
      inkscape:groupmode="layer"
      id="layer2"
@@ -445,21 +436,33 @@
      inkscape:groupmode="layer"
      id="layer3"
      inkscape:label="Layer 3">
-    <rect
-       style="fill:#eeeeec;fill-opacity:1;stroke:#3e3e3e;stroke-width:0"
-       id="rect14124"
-       width="325.76288"
-       height="8.0829554"
-       x="103.85184"
-       y="143.22467"
-       ry="1.5552801e-06" />
-    <rect
-       style="fill:#eeeeec;fill-opacity:1;stroke:#3e3e3e;stroke-width:0"
-       id="rect14124-9"
-       width="325.76288"
-       height="8.0829554"
-       x="110.40871"
-       y="361.56067"
-       ry="1.5552801e-06" />
+    <g
+       id="g897"
+       transform="matrix(0.71571511,0,0,0.71571511,62.748538,72.77693)">
+      <text
+         xml:space="preserve"
+         id="text21318"
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:144px;line-height:1.25;font-family:Laksaman;-inkscape-font-specification:'Laksaman, Bold';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;white-space:pre;shape-inside:url(#rect21320);fill:#2e3436;fill-opacity:1;stroke:none"
+         transform="matrix(3.7370717,0,0,3.7370717,-279.79974,-584.71126)"><tspan
+           x="105.57422"
+           y="261.75725"
+           id="tspan974">x</tspan></text>
+      <rect
+         style="fill:#eeeeec;fill-opacity:1;stroke:#3e3e3e;stroke-width:0"
+         id="rect14124"
+         width="325.76288"
+         height="8.0829554"
+         x="103.85184"
+         y="143.22467"
+         ry="1.5552801e-06" />
+      <rect
+         style="fill:#eeeeec;fill-opacity:1;stroke:#3e3e3e;stroke-width:0"
+         id="rect14124-9"
+         width="325.76288"
+         height="8.0829554"
+         x="110.40871"
+         y="361.56067"
+         ry="1.5552801e-06" />
+    </g>
   </g>
 </svg>

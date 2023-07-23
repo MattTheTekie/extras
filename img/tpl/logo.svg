@@ -27,7 +27,7 @@
      inkscape:document-units="px"
      showgrid="false"
      inkscape:zoom="1.1224214"
-     inkscape:cx="210.25971"
+     inkscape:cx="172.84061"
      inkscape:cy="212.04157"
      inkscape:window-width="1920"
      inkscape:window-height="1011"
@@ -427,16 +427,7 @@
   <g
      inkscape:groupmode="layer"
      id="layer4"
-     inkscape:label="Layer 4">
-    <text
-       xml:space="preserve"
-       id="text21318"
-       style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:144px;line-height:1.25;font-family:'DejaVu Sans';-inkscape-font-specification:'DejaVu Sans, Bold';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;white-space:pre;shape-inside:url(#rect21320);fill:#2e3436;fill-opacity:1;stroke:none"
-       transform="matrix(2.5680166,0,0,2.5680166,-141.14979,-258.94985)"><tspan
-         x="105.57422"
-         y="259.87891"
-         id="tspan965">T</tspan></text>
-  </g>
+     inkscape:label="Layer 4" />
   <g
      inkscape:groupmode="layer"
      id="layer2"
@@ -445,21 +436,33 @@
      inkscape:groupmode="layer"
      id="layer3"
      inkscape:label="Layer 3">
-    <rect
-       style="fill:#eeeeec;fill-opacity:1;stroke:#3e3e3e;stroke-width:0"
-       id="rect14124"
-       width="325.76288"
-       height="8.0829554"
-       x="103.85184"
-       y="160.85739"
-       ry="1.5552801e-06" />
-    <rect
-       style="fill:#eeeeec;fill-opacity:1;stroke:#3e3e3e;stroke-width:0"
-       id="rect14124-9"
-       width="169.85181"
-       height="8.0829554"
-       x="176.29932"
-       y="379.19339"
-       ry="1.5552801e-06" />
+    <g
+       id="g897"
+       transform="translate(0,-53.275103)">
+      <text
+         xml:space="preserve"
+         id="text21318"
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:144px;line-height:1.25;font-family:'DejaVu Sans';-inkscape-font-specification:'DejaVu Sans, Bold';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;white-space:pre;shape-inside:url(#rect21320);fill:#2e3436;fill-opacity:1;stroke:none"
+         transform="matrix(1.8889623,0,0,1.8889623,-36.132447,-82.477969)"><tspan
+           x="105.57422"
+           y="259.87891"
+           id="tspan974">T</tspan></text>
+      <rect
+         style="fill:#eeeeec;fill-opacity:1;stroke:#3e3e3e;stroke-width:0"
+         id="rect14124"
+         width="239.62221"
+         height="5.9455996"
+         x="136.1889"
+         y="226.32068"
+         ry="1.1440212e-06" />
+      <rect
+         style="fill:#eeeeec;fill-opacity:1;stroke:#3e3e3e;stroke-width:0"
+         id="rect14124-9"
+         width="124.93832"
+         height="5.9455996"
+         x="193.53084"
+         y="386.92264"
+         ry="1.1440212e-06" />
+    </g>
   </g>
 </svg>
