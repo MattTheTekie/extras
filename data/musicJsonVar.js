@@ -6420,6 +6420,13 @@ var musicJsonVar =
         "tag": "#music"
     },
     {
+        "text": "Kesha - Only Love Can Save Us Now (Official Video) - YouTube",
+        "text2": "",
+        "text3": "",
+        "url": "https:\/\/www.youtube.com\/watch?v=Fk2Kkc2y8iU",
+        "tag": "#music"
+    },
+    {
         "text": "Kesha - The Drama (Lyric Video) - YouTube",
         "text2": "",
         "text3": "",

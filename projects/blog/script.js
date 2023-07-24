@@ -1,4 +1,4 @@
-// v.1.17.8
+// v.1.17.9
 
 // inspired by Twitter, Fediverse
 // not for large Json files
@@ -1030,10 +1030,12 @@ embed = `<iframe src="https://player.vimeo.com/video/`+play[play.length-1]+`?bad
 embedServiceList += 'vimeo';
 break;
 
+case "x.com":
+case "mobile.x.com":
 case "twitter.com":
 case "mobile.twitter.com":
 embed = `<style>.twitter-tweet { margin-top: 0px !important; }</style><div style="display: block; width: 100%; max-width: 550px; margin: 0 auto;"><blockquote class="twitter-tweet" data-lang="${lang}" data-theme="${confThemeEmbed}"><a href="${item}"></a></blockquote></div><!--<script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>-->`;
-embedServiceList += 'twitter';
+embedServiceList += 'xcom';
 break;
 
 case "www.reddit.com":
@@ -1487,10 +1489,12 @@ embed = `<iframe src="https://player.vimeo.com/video/`+play[play.length-1]+`?bad
 embedServiceList += 'vimeo';
 break;
 
+case "x.com":
+case "mobile.x.com":
 case "twitter.com":
 case "mobile.twitter.com":
 embed = `<style>.twitter-tweet { margin-top: 0px !important; }</style><div style="display: block; width: 100%; max-width: 550px; margin: 0 auto;"><blockquote class="twitter-tweet" data-lang="${lang}" data-theme="${confThemeEmbed}"><a href="${item}"></a></blockquote></div><!--<script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>-->`;
-embedServiceList += 'twitter';
+embedServiceList += 'xcom';
 break;
 
 case "www.reddit.com":
@@ -2060,12 +2064,12 @@ ${nav2Print}
 // for embed 
 if(embedStatus != 'off'){
 
-if(embedServiceList.search(`twitter`) != -1) {
+if(embedServiceList.search(`xcom`) != -1) {
 var script = document.createElement('script');
 script.type='text/javascript';
 script.async = true;
 script.charset = 'utf-8';
-script.src = 'https://platform.twitter.com/widgets.js';      
+script.src = 'https://platform.x.com/widgets.js';      
 document.getElementsByTagName('head')[0].appendChild(script);
 }
 

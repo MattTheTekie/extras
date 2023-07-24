@@ -455,7 +455,7 @@ function removeEmojis (string) {
   return string.replaceAll(regex, '');
 }
 
-
+ 
 
 
 letters = removeEmojis(letters);
