@@ -1,4 +1,4 @@
-/* v.1.2.4 */
+/* v.1.2.5 */
 // print ads from json var list: fuAds('', 'ads2 - id where print', '');
 
 function fuAds(none, idAds, none2, comAds){
@@ -79,9 +79,9 @@ adsURL = ads[random]['url'];	if(adsURL == null){ adsURL = ''; }
 // privacy
 if(adsText.search("src=") != -1&&confDataCollection != 'on'){ adsText = ''; }
 if(adsText.search("src=") != -1){
-adsPrint = '<div class="adsHeader"><a class="brand" href="/ads.'+confExt+'">ads, links</a></div><div class="adsBody"><br />'+adsText+' <br /><a class="brand" target="blank" href="'+adsURL+'">'+adsURL+'</a></div>';
+adsPrint = '<div class="adsHeader"><a class="brand" href="/ads.'+confExt+'"><del>ads</del>, links</a></div><div class="adsBody"><br />'+adsText+' <br /><a class="brand" target="blank" href="'+adsURL+'">'+adsURL+'</a></div>';
 }else{
-adsPrint = '<div class="adsHeader"><a class="brand" href="/ads.'+confExt+'">ads, links</a></div><div class="adsBody"><br />'+adsText+' <a class="brand" target="blank" href="'+adsURL+'">'+adsURL+'</a></div>';
+adsPrint = '<div class="adsHeader"><a class="brand" href="/ads.'+confExt+'"><del>ads</del>, links</a></div><div class="adsBody"><br />'+adsText+' <a class="brand" target="blank" href="'+adsURL+'">'+adsURL+'</a></div>';
 }
 
 

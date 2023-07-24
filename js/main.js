@@ -1,4 +1,4 @@
-/* v.3.3.22 */
+/* v.3.3.23 */
 
 // conf
 var symbolForSplit = 'pwxortuzqu'; // for split
@@ -33,13 +33,14 @@ mainPrintMsg('footer', `
 <div class="wrapper3">
 
 <span><a href="/">home</a></span>
-<span><a href="../">up</a></span>
+<!--<span><a href="../">up</a></span>-->
 
 <asdf id="fScript"></asdf>
 <asdf id="fStyle"></asdf>
 
 <span id="fTheme"><a href="/theme.${confExt}">Themes</a></span>
-<span><a href="https://twitter.com/inonehp">Twitter</a></span>
+<span><a href="https://x.com/inonehp">X</a></span>
+<span><a href="/rss.xml">RSS</a></span>
 <span id="fPrivacy"><a href="/privacy.${confExt}">cookie: status</a></span>
 <!--<span id="fApp"><a href="/app.${confExt}"></a></span>
 <span id="fAds"><a href="/ads.${confExt}">ads: ${localStorage.getItem('confAdsStatus')}</a></span>-->
@@ -48,7 +49,7 @@ mainPrintMsg('footer', `
 <span id="fDonate"><a href="/about.${confExt}#donate">donate</a></span>-->
 
 <span id="fDownload"><a href="https://github.com/inonehp/inonehp.github.io">download</a></span>
-<span><a href="/rss.xml">RSS</a></span>
+
 <span><a rel="license" title="license" href="https://creativecommons.org/licenses/by-sa/4.0/">license: CC BY-SA 4.0</a></span>
 
 <span><a rel="license" title="license 2" href="/copyright.${confExt}">Some © Copyright</a></span>
