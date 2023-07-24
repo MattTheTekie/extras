@@ -1,4 +1,4 @@
-// v.1.1.56
+// v.1.1.57
 
 
 
@@ -116,7 +116,7 @@ q = q3.replace(q2, '');
 q = q.trim();
 q = encodeURIComponent(q);
 urlList = [
-"https://twitter.com/search?q="+q,
+"https://x.com/search?q="+q,
 "https://www.reddit.com/search/?q="+q+"&t=day&type=link",
 //"https://www.tumblr.com/search/"+q+"?t=1",
 "https://medium.com/tag/"+encodeURIComponent(decodeURIComponent(q.toLowerCase()).replaceAll(' ', '-'))+"/latest"
@@ -125,7 +125,7 @@ random = Math.floor(Math.random() * urlList.length);
 url = urlList[random];
 if(q == ''){
 urlList = [
-"https://twitter.com/explore",
+"https://x.com/explore",
 //"https://www.tumblr.com/explore/",
 "https://medium.com/"
 ];
@@ -142,7 +142,7 @@ q = q3.replace(q2, '');
 q = q.trim();
 q = encodeURIComponent(q);
 urlList = [
-"https://twitter.com/search?q="+q,
+"https://x.com/search?q="+q,
 "https://www.reddit.com/search/?q="+q+"&t=day&type=link",
 "https://medium.com/tag/"+encodeURIComponent(decodeURIComponent(q.toLowerCase()).replaceAll(' ', '-'))+"/latest"
 ];
@@ -150,7 +150,7 @@ random = Math.floor(Math.random() * urlList.length);
 url = urlList[random];
 if(q == ''){
 urlList = [
-"https://twitter.com/explore",
+"https://x.com/explore",
 //"https://www.tumblr.com/explore/",
 "https://medium.com/",
 
@@ -170,23 +170,23 @@ url = "https://www.gigablast.com/search?q=" + q;
 sRedirUrl = url;
 break;
 
-case 'twi#':
+case 'x#':
 q = q3.replace(q2, '');
 q = q.trim();
 q = encodeURIComponent(q);
-url = "https://twitter.com/search?q=" + q;
-if(q == ''){ url = "https://twitter.com/explore"; }
+url = "https://x.com/search?q=" + q;
+if(q == ''){ url = "https://x.com/explore"; }
 sRedirUrl = url;
 break;
 
 
 
-case 'twii#':
+case 'xx#':
 q = q3.replace(q2, '');
 q = q.trim();
 q = encodeURIComponent(q);
-url = "https://twitter.com/search?q="+q+"&f=live";
-if(q == ''){ url = "https://twitter.com/explore"; }
+url = "https://x.com/search?q="+q+"&f=live";
+if(q == ''){ url = "https://x.com/explore"; }
 sRedirUrl = url;
 break;
 
@@ -223,7 +223,7 @@ q = q3.replace(q2, '');
 q = q.trim();
 q = encodeURIComponent(q);
 url = "https://medium.com/search?q="+q;
-if(q == ''){ url = "https://twitter.com/explore"; }
+if(q == ''){ url = "https://x.com/explore"; }
 sRedirUrl = url;
 break;
 
@@ -232,7 +232,7 @@ q = q3.replace(q2, '');
 q = q.trim();
 q = encodeURIComponent(q);
 url = "https://medium.com/tag/"+encodeURIComponent(decodeURIComponent(q.toLowerCase()).replaceAll(' ', '-'))+"/latest";
-if(q == ''){ url = "https://twitter.com/explore"; }
+if(q == ''){ url = "https://x.com/explore"; }
 sRedirUrl = url;
 break;
 
@@ -361,7 +361,7 @@ urlList = [
 "https://news.google.com/",
 "https://flipboard.com/topic/news",
 "https://www.bing.com/news/",
-"https://mobile.twitter.com/i/topics/840159616101044224",
+"https://x.com/i/topics/840159616101044224",
 "https://www.reddit.com/r/news/",
 "https://www.reddit.com/r/worldnews/",
 "https://medium.com/tag/news",
@@ -398,7 +398,7 @@ urlList = [
 "https://news.ycombinator.com/",
 "https://news.google.com/topics/CAAqJggKIiBDQkFTRWdvSUwyMHZNRGRqTVhZU0FtVnVHZ0pWVXlnQVAB",
 "https://getpocket.com/explore/technology",
-"https://twitter.com/i/topics/848920371311001600",
+"https://x.com/i/topics/848920371311001600",
 "https://www.reddit.com/r/technology/",
 "https://medium.com/tag/technology",
 "https://finance.yahoo.com/tech/",
@@ -444,7 +444,7 @@ urlList = [
 "https://news.google.com/topics/CAAqJggKIiBDQkFTRWdvSUwyMHZNRFp0Y1RjU0FtVnVHZ0pWVXlnQVAB",
 "https://www.bing.com/news/search?q=Science",
 "https://getpocket.com/explore/science",
-"https://twitter.com/i/topics/854692455005921281",
+"https://x.com/i/topics/854692455005921281",
 "https://www.reddit.com/r/science/",
 "https://medium.com/tag/science",
 "https://news.yahoo.com/science/"
@@ -998,7 +998,7 @@ document.getElementById("result").innerHTML = print;
 
 
 var a = [
-"bin", "goo", "n", "twi", "red"
+"bin", "goo", "n", "x", "red"
 ];
 
 var b = '';
