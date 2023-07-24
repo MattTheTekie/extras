@@ -32,7 +32,7 @@ mainPrintMsg('footer', `
 <br>
 <div class="wrapper3">
 
-<span><a href="/">index</a></span>
+<span><a href="/">home</a></span>
 <span><a href="../">up</a></span>
 
 <asdf id="fScript"></asdf>

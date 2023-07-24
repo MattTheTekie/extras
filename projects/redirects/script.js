@@ -1,4 +1,4 @@
-// v.1.1.55
+// v.1.1.56
 
 
 
@@ -390,6 +390,7 @@ random = Math.floor(Math.random() * urlList.length);
 url = urlList[random];
 if(q == ''){
 urlList = [
+"https://www.bing.com/news/search?q=Technology",
 "https://slashdot.org/",
 "https://flipboard.com/topic/technology",
 "https://flipboard.com/topic/computerscience",
@@ -411,11 +412,11 @@ urlList = [
 // redirect app, delme "https://www.newsbreak.com/channels/technology"
 ];
 
-if(confDevice == 'mobile'){
+/*if(confDevice == 'mobile'){
 urlList.push("https://www.bing.com/news/search?q=Technology");
 }else{
 urlList.push("https://www.bing.com/news/search?q=Sci/Tech");
-}
+}*/
 
 random = Math.floor(Math.random() * urlList.length);
 url = urlList[random];
