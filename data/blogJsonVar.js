@@ -1,6 +1,15 @@
 var blogJsonVar = 
 [
     {
+        "id": "130",
+        "text": "Web Design Blog | Web Designer Depot",
+        "text2": "",
+        "text3": "",
+        "url": "https:\/\/www.webdesignerdepot.com\/",
+        "tag": "#bookmark #dev",
+        "time": 1690374915
+    },
+    {
         "id": "129",
         "text": "box-decoration-break - CSS: Cascading Style Sheets | MDN",
         "text2": "",

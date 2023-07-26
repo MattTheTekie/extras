@@ -1,4 +1,4 @@
-/* v.1.2.2 */
+/* v.1.2.3 */
 
 /*
 html::before {
@@ -80,7 +80,7 @@ h6::first-letter,
 b::first-letter,
 .bold::first-letter {
 border-bottom: 1px solid var(--c);
-padding-bottom: 2px;
+/*padding-bottom: 2px;*/
 }
 
 
@@ -129,7 +129,7 @@ padding-bottom: 5px;
 animation: ani 1.8s;
 transform: rotate(0);
 animation-duration: 1.8s;
-animation-delay: 0.5s;
+animation-delay: 0.4s;
 transition: transform 1.8s ease-in-out;
 }
 
