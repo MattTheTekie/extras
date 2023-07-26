@@ -1,4 +1,4 @@
-/* v.1.2.0 */
+/* v.1.2.2 */
 
 /*
 html::before {
@@ -124,8 +124,22 @@ padding-bottom: 5px;
 @media(max-width: 360px) { .dropdownMenuContentColumn { column-count: 2; } }
 @media(max-width: 250px) { .dropdownMenuContentColumn { column-count: 1; } }
 
+.logo {
+/*transition: transform 1.8s ease-in-out;*/
+animation: ani 1.8s;
+transform: rotate(0);
+animation-duration: 1.8s;
+animation-delay: 0.5s;
+transition: transform 1.8s ease-in-out;
+}
 
+.logo:hover, .logo2:hover{
+transform: rotate(360deg); 
+}
 
-
+@keyframes ani {
+from { transform: rotate(0); }
+to { transform: rotate(360deg); }
+}
 
 
