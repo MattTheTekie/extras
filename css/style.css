@@ -1,4 +1,4 @@
-/* v.1.2.3 */
+/* v.1.2.5 */
 
 /*
 html::before {
@@ -129,12 +129,14 @@ padding-bottom: 5px;
 animation: ani 1.8s;
 transform: rotate(0);
 animation-duration: 1.8s;
-animation-delay: 0.4s;
+animation-delay: 0.3s;
 transition: transform 1.8s ease-in-out;
 }
+.logo2 { transition: transform 1.8s ease-in-out; }
 
 .logo:hover, .logo2:hover{
-transform: rotate(360deg); 
+transform: rotate(360deg);
+padding: 1px;
 }
 
 @keyframes ani {
