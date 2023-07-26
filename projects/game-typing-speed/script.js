@@ -1,4 +1,4 @@
-// v.3.10.12
+// v.3.10.14
 
 
 
@@ -370,7 +370,14 @@ task = task.replaceAll(/%/g, "%25"); // not show text, percentage
 var letters = [...task]; 
 
 //https://stackoverflow.com/questions/17564837/how-to-know-if-a-url-is-decoded-encoded
-if(decodeURIComponent(letters) != letters){ letters = decodeURIComponent(letters); }
+try{
+if(decodeURIComponent(letters) != letters){
+letters = decodeURIComponent(letters)
+}
+}
+catch(err){
+// not decoded
+}
 
 
 if(mode == 'abc'){
