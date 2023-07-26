@@ -1,4 +1,4 @@
-// v.3.10.11
+// v.3.10.12
 
 
 
@@ -369,7 +369,8 @@ task = task.replaceAll(/%/g, "%25"); // not show text, percentage
 
 var letters = [...task]; 
 
-
+//https://stackoverflow.com/questions/17564837/how-to-know-if-a-url-is-decoded-encoded
+if(decodeURIComponent(letters) != letters){ letters = decodeURIComponent(letters); }
 
 
 if(mode == 'abc'){
@@ -461,7 +462,7 @@ function removeEmojis (string) {
 letters = removeEmojis(letters);
 
 letters = transliterate(letters);
-//letters = decodeURIComponent(letters);
+
 
 
 //https://stackoverflow.com/questions/22962220/remove-multiple-line-breaks-n-in-javascript
@@ -480,7 +481,7 @@ letters = letters.replaceAll(/  +/g, ' ');
 letters = transliterate(letters);
 
 
-//letters = encodeURIComponent(letters); // error url
+letters = encodeURIComponent(letters); // error url
 
 //https://www.charset.org/utf-8/66
 //Variation Selector
@@ -500,7 +501,7 @@ letters = letters.replaceAll(/%EF%B8%8E/g, "");
 letters = letters.replaceAll(/%EF%B8%8F/g, "");
 
 
-
+letters = letters.replaceAll(/%E2%80%89/g, " "); // space
 
 
 
@@ -522,7 +523,7 @@ letters = letters.replaceAll(/E2%80%8A/g, " "); // end of line
 letters = letters.replaceAll(/%E2%81%A6/g, ""); // Left-to-Right Isolate
 letters = letters.replaceAll(/%E2%81%A9/g, "");
 
-//letters = decodeURIComponent(letters); // error
+letters = decodeURIComponent(letters); // error
 
 letters = letters.replaceAll(/  /g, " ");
 //letters = letters.replace(/\r\n/g, "\n");

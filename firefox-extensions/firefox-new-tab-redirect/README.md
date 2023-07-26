@@ -9,11 +9,13 @@ You need to enter your website URL address in the addon options, then this addre
 
 Notice:
 
-How it works: when you open a new tab, the extension tab creates a new tab with your website address and closes the current one (redirect)
+· Makes a small delay  
 
-Broken functionality: when selected "Bookmarks Toolbar -> Only Show on New Tab" that not showing, because opened extension in new tab make redirect (creating a new tab) and immediately closed. One solution: Bookmarks Toolbar -> Always Show.
+ ·How it works: when you open a new tab, the extension tab creates a new tab with your website address and closes the current one (redirect)  
 
-main code:
+· Broken functionality: when selected "Bookmarks Toolbar -> Only Show on New Tab" that not showing, because opened extension in new tab make redirect (creating a new tab) and immediately closed. One solution: Bookmarks Toolbar -> Always Show.  
+
+· main code:
 <!-- code -->
 ```javascript
 // second 2 redirect
