@@ -21,3 +21,11 @@ align-content: center;
 text-transform: lowercase;
 }
 .menu a { padding: 9px; margin:0; }
+
+.logo, .logo2 {
+transition: transform 1.8s ease-in-out;
+}
+
+.logo:hover, .logo2:hover{
+transform: rotate(360deg);
+}

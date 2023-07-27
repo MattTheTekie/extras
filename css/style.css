@@ -1,4 +1,4 @@
-/* v.1.2.5 */
+/* v.1.2.6 */
 
 /*
 html::before {
@@ -136,7 +136,6 @@ transition: transform 1.8s ease-in-out;
 
 .logo:hover, .logo2:hover{
 transform: rotate(360deg);
-padding: 1px;
 }
 
 @keyframes ani {
