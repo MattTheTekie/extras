@@ -2,9 +2,11 @@
 
 function xEmbed(id, userName, postLimit, theme){
 var xUserName = userName;
-var xDataTweetLimit = postLimit;
+var xDatatLimit = postLimit;
 //var xDataTheme = 'light';
 var xDataTheme = theme;
+
+//var xDatatHight = xDatatLimit * 300;
 
 if (typeof theme === 'undefined'||theme == undefined||theme == '') {
 if (window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches) {
@@ -13,10 +15,11 @@ var xDataTheme= 'dark';
 var xDataTheme= 'light';
 }
 }
-
+//data-height="${xDatatHight}" 
 document.getElementById(id).innerHTML = `
 
-<a data-tweet-limit="${xDataTweetLimit}" data-theme="${xDataTheme}" data-chrome="nofooter noborders noheader" class="x-timeline" href="https://twitter.com/${xUserName}?ref_src=twsrc%5Etfw"></a>
+
+<a class="twitter-timeline" data-tweet-limit="${xDatatLimit}" data-theme="${xDataTheme}" data-chrome="nofooter noborders noheader" href="https://twitter.com/${xUserName}?ref_src=twsrc%5Etfw"></a>
 
 <a class="button block light border3List op bold" href="https://twitter.com/${xUserName}">https://twitter.com/${xUserName}</a>
 
