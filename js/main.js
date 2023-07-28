@@ -1,4 +1,4 @@
-/* v.3.3.23 */
+/* v.3.3.24 */
 
 // conf
 var symbolForSplit = 'pwxortuzqu'; // for split
@@ -91,11 +91,38 @@ confWorkerStatus = localStorage.getItem('confWorkerStatus');
 }
 mainPrintMsg('fApp', `<a href="/app.${confExt}">app: ${confWorkerStatus}</a>`); 
 
+
+
+
+
+// cookie agree
 var confDataCollection = 'not selected';
+
+// auto agree
+var timeZone = (Intl.DateTimeFormat().resolvedOptions().timeZone).toLowerCase();
+// need agree
+if(
+timeZone.indexOf('argentina'.toLowerCase()) >= 0||
+timeZone.indexOf('europe'.toLowerCase()) >= 0||
+timeZone.indexOf('australia'.toLowerCase()) >= 0||
+timeZone.indexOf('mexico_city'.toLowerCase()) >= 0||
+timeZone.indexOf('lagos'.toLowerCase()) >= 0
+){
+confDataCollection = 'not selected';
+//confDataCollection = 'on';
+// else not need agree
+}else{
+confDataCollection = 'on';
+}
+
+// cookie setting from user setting, overwride auto in top
 if(localStorage.getItem('confDataCollection') != null){
 confDataCollection = localStorage.getItem('confDataCollection');
 }
 mainPrintMsg('fPrivacy', `<a href="/privacy.${confExt}">cookies: ${confDataCollection}</a>`); 
+
+
+
 
 
 
