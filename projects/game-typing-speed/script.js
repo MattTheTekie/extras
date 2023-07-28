@@ -1,4 +1,4 @@
-// v.3.10.14
+// v.3.10.15
 
 
 
@@ -506,6 +506,43 @@ letters = letters.replaceAll(/%EF%B8%8C/g, "");
 letters = letters.replaceAll(/%EF%B8%8D/g, "");
 letters = letters.replaceAll(/%EF%B8%8E/g, "");
 letters = letters.replaceAll(/%EF%B8%8F/g, "");
+
+
+
+//<control>
+//https://www.utf8-chartable.de/
+letters = letters.replaceAll(/%C2%81/g, "");
+letters = letters.replaceAll(/%C2%82/g, "");
+letters = letters.replaceAll(/%C2%83/g, "");
+letters = letters.replaceAll(/%C2%84/g, "");
+letters = letters.replaceAll(/%C2%85/g, "");
+letters = letters.replaceAll(/%C2%86/g, "");
+letters = letters.replaceAll(/%C2%87/g, "");
+letters = letters.replaceAll(/%C2%88/g, "");
+letters = letters.replaceAll(/%C2%89/g, "");
+letters = letters.replaceAll(/%C2%8A/g, "");
+letters = letters.replaceAll(/%C2%8B/g, "");
+letters = letters.replaceAll(/%C2%8C/g, "");
+letters = letters.replaceAll(/%C2%8D/g, "");
+letters = letters.replaceAll(/%C2%8E/g, "");
+letters = letters.replaceAll(/%C2%8F/g, "");
+letters = letters.replaceAll(/%C2%90/g, "");
+letters = letters.replaceAll(/%C2%91/g, "");
+letters = letters.replaceAll(/%C2%92/g, "");
+letters = letters.replaceAll(/%C2%93/g, "");
+letters = letters.replaceAll(/%C2%94/g, "");
+letters = letters.replaceAll(/%C2%95/g, "");
+letters = letters.replaceAll(/%C2%96/g, "");
+letters = letters.replaceAll(/%C2%97/g, "");
+letters = letters.replaceAll(/%C2%98/g, "");
+letters = letters.replaceAll(/%C2%99/g, "");
+letters = letters.replaceAll(/%C2%9A/g, "");
+letters = letters.replaceAll(/%C2%9B/g, "");
+letters = letters.replaceAll(/%C2%9C/g, "");
+letters = letters.replaceAll(/%C2%9D/g, "");
+letters = letters.replaceAll(/%C2%9E/g, "");
+letters = letters.replaceAll(/%C2%9F/g, "");
+
 
 
 letters = letters.replaceAll(/%E2%80%89/g, " "); // space

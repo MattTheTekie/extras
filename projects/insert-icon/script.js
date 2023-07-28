@@ -122,8 +122,9 @@ let icons = {
 "github":`<img src="/img/icons/github-128x128.png" alt="ico" width="16" height="16">`,
 "codepen":`<img src="/img/icons/codepen-128x128.png" alt="ico" width="16" height="16">`,
 "deviantart":`<img src="/img/icons/deviantart-128x128.png" alt="ico" width="16" height="16">`,
-"twitter":`<img src="/img/icons/twitter-128x128.png" alt="ico" width="16" height="16">`,
+//"twitter":`<img src="/img/icons/twitter-128x128.png" alt="ico" width="16" height="16">`,
 "x":`<img src="/img/icons/x-128x128.png" alt="ico" width="16" height="16">`,
+"twitter":`<img src="/img/icons/x-128x128.png" alt="ico" width="16" height="16">`,
 "xampp":`<img src="/img/icons/xampp-128x128.png" alt="ico" width="16" height="16">`
 
 };

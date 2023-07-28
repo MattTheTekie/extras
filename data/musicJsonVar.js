@@ -7848,6 +7848,27 @@ var musicJsonVar =
         "tag": "#music"
     },
     {
+        "text": "Megan Thee Stallion - Her [Official Video] - YouTube",
+        "text2": "",
+        "text3": "",
+        "url": "https:\/\/www.youtube.com\/watch?v=u_v2Rv4l-C0",
+        "tag": "#music"
+    },
+    {
+        "text": "Megan Thee Stallion - Ms. Nasty [Official Visualizer] - YouTube",
+        "text2": "",
+        "text3": "",
+        "url": "https:\/\/www.youtube.com\/watch?v=XikASH4JLmk",
+        "tag": "#music"
+    },
+    {
+        "text": "Megan Thee Stallion - Savage [Official Audio] - YouTube",
+        "text2": "",
+        "text3": "",
+        "url": "https:\/\/www.youtube.com\/watch?v=eJEKHdvntPI",
+        "tag": "#music"
+    },
+    {
         "text": "Meghan Trainor - All About That Bass - YouTube",
         "text2": "",
         "text3": "",
