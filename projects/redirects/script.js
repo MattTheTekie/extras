@@ -1,4 +1,4 @@
-// v.1.1.57
+// v.1.1.58
 
 
 
@@ -171,6 +171,7 @@ sRedirUrl = url;
 break;
 
 case 'x#':
+case 'twi#':
 q = q3.replace(q2, '');
 q = q.trim();
 q = encodeURIComponent(q);
@@ -182,6 +183,7 @@ break;
 
 
 case 'xx#':
+case 'twii#':
 q = q3.replace(q2, '');
 q = q.trim();
 q = encodeURIComponent(q);
