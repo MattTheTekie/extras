@@ -1,4 +1,4 @@
-/* v.3.3.24 */
+// v.3.3.26
 
 // conf
 var symbolForSplit = 'pwxortuzqu'; // for split
@@ -98,13 +98,18 @@ mainPrintMsg('fApp', `<a href="/app.${confExt}">app: ${confWorkerStatus}</a>`);
 // cookie agree
 var confDataCollection = 'not selected';
 
-// auto agree
-var timeZone = (Intl.DateTimeFormat().resolvedOptions().timeZone).toLowerCase();
+// auto detect agree, overwride default
+
 // need agree
+//https://www.termsfeed.com/blog/cookie-consent-outside-eu/
+//https://stackoverflow.com/questions/38399465/how-to-get-list-of-all-timezones-in-javascript
+
+var timeZone = (Intl.DateTimeFormat().resolvedOptions().timeZone).toLowerCase();
 if(
 timeZone.indexOf('argentina'.toLowerCase()) >= 0||
+timeZone.indexOf('brazil'.toLowerCase()) >= 0||
+timeZone.indexOf('japan'.toLowerCase()) >= 0||
 timeZone.indexOf('europe'.toLowerCase()) >= 0||
-timeZone.indexOf('australia'.toLowerCase()) >= 0||
 timeZone.indexOf('mexico_city'.toLowerCase()) >= 0||
 timeZone.indexOf('lagos'.toLowerCase()) >= 0
 ){
@@ -115,7 +120,7 @@ confDataCollection = 'not selected';
 confDataCollection = 'on';
 }
 
-// cookie setting from user setting, overwride auto in top
+// cookie setting from user setting, overwrided (auto in top)
 if(localStorage.getItem('confDataCollection') != null){
 confDataCollection = localStorage.getItem('confDataCollection');
 }
