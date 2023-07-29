@@ -1,4 +1,4 @@
-/* v.12.30.3 */
+/* v.12.31.0 */
 
 * {  color-scheme: light dark; } /* view-source:about:blank */ /* fixed #fff blink */
 
@@ -70,8 +70,6 @@ nav button:hover { background: none;  }
 
 nav a:first-child, footer span:first-child, nav a:not(.dropdownMenuContent) { padding-left: 0; }
 footer span:last-child { padding-right: 0; }
-nav form { display: inline-block; max-width: 120px; }
-nav input[type=search] { padding: 5px; min-height: 10px; }
 
 h1, .h1 { font-size: calc(100% + 30%); }
 h2, .h2 { font-size: calc(100% + 25%); }

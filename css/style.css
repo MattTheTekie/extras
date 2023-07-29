@@ -31,6 +31,12 @@ background-size: 300px 300px;
 z-index: -2;
 }*/
 
+
+nav form { display: inline-block; max-width: 130px; }
+nav input[type=search] { padding: 5px; min-height: 10px; }
+
+
+
 .menu {
 display: grid;
 /*grid-template-areas: "a a a a a";*/
@@ -142,5 +148,18 @@ transform: rotate(360deg);
 from { transform: rotate(0); }
 to { transform: rotate(360deg); }
 }
+
+
+
+/* hide one menu when small width ans show dropdownMenuButton */
+.menuTop { display: inline-block; }
+.menuTop br { content: ' '; display: none; }
+#dropdownMenuButton { display: none; }
+@media(max-width: 600px) {
+.menuTop { display: none; }
+#dropdownMenuButton { display: inline-block; }
+}
+
+
 
 

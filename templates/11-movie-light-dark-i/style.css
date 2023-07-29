@@ -231,3 +231,7 @@ transition: transform 1.8s ease-in-out;
 .logo:hover, .logo2:hover{
 transform: rotate(360deg);
 }
+
+
+nav form { display: inline-block; max-width: 130px; }
+nav input[type=search] { padding: 5px; min-height: 10px; }
