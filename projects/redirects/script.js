@@ -1,4 +1,4 @@
-// v.1.1.58
+// v.1.1.59
 
 
 
@@ -785,7 +785,7 @@ q = q.trim();
 q = encodeURIComponent(q);
 urlList = [
 
-"https://search.yahoo.com/search?p="+q,
+//"https://search.yahoo.com/search?p="+q,
 "https://search.givewater.com/serp?q="+q,
 "https://duckduckgo.com/?q="+q,
 
