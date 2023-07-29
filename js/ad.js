@@ -1,7 +1,7 @@
-/* v.1.2.5 */
+/* v.1.2.6 */
 // print ads from json var list: fuAds('', 'ads2 - id where print', '');
 
-function fuAds(none, idAds, none2, comAds){
+function fuAds(none, idAds, comAds){
 
 // none - reserver var
 
@@ -94,12 +94,12 @@ document.getElementById(idAds).innerHTML = '<div class="center"><div class="ligh
 
 
 
-
 if(comAds == 'all'){
+
 adsPrint = '';
 ads.forEach((item, index) => {
 
-// privacy
+// hide, privacy
 if(ads[index]['text'].search("src=") != -1&&confDataCollection != 'on'){
 ads[index]['text'] = `<span class="op" title=""><a class="brand" href="/privacy.${confExt}">hidden (privacy), need allow cookie</a></span>`;
 }
