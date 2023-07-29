@@ -18,8 +18,8 @@ var randomTodoListArray = [];
 function runDb(com3, id3, title3, status3, statusDaily3){
 
 var dbVersion = 1.2;
-var dbName = 'db';
-var tableName = 'todo-list';
+var dbName = 'db-todo-list-idea';
+var tableName = 'todo-list-idea'; // one diferent from todo-list
 
 /*
 com - command in script for done, clear ...
@@ -135,6 +135,32 @@ console.log("objectStore = db.createObjectStore");
 
 
 
+
+request.onsuccess = (event) => {
+const db = event.target.result;
+const transaction = db.transaction(["fThings"], "readonly");
+const objectStore = transaction.objectStore("fThings");
+
+const countRequest = objectStore.count();
+countRequest.onsuccess = () => {
+  console.log(countRequest.result);
+};
+
+countRequest.onerror = () => {
+alert('test');
+};
+
+}
+
+
+
+
+
+
+
+
+
+
 if(com == "clear"){
 
 
@@ -170,8 +196,8 @@ runDb('show', '', '');
 
 
 
-};
 }
+};
 
 
 
