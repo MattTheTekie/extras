@@ -14,7 +14,9 @@ var confExt = 'html';
 }
 
 // added URL to titile
-//document.getElementsByTagName('title')[0].innerHTML += ' : '+confHost;
+var domainNameToTitle = confHost.split('.');
+domainNameToTitle = domainNameToTitle[0];
+document.getElementsByTagName('title')[0].innerHTML += ' : '+domainNameToTitle;
 
 // css color fixed if offline
 if(String(window.location.href).slice(0, 4) != 'http'){
