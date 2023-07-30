@@ -6,8 +6,13 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <link rel="icon" sizes="512x512" href="/img/tpl/logo.png" type="image/png">
 
-<link rel="stylesheet" type="text/css" href="/css/style-main.css"><!-- from main site -->
-<link rel="stylesheet" type="text/css" href="./css/style.css">
+<!-- start main css -->
+<link rel="preload" href="/css/style-main.css" as="style">
+<link rel="stylesheet" href="/css/style-main.css" type="text/css"><!-- from main site -->
+
+<link rel="preload" href="./css/style.css" as="style">
+<link rel="stylesheet" href="./css/style.css" type="text/css">
+<!-- end style -->
 
 
 </head>
