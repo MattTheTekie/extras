@@ -30,14 +30,18 @@
 
 
 <!-- start main css -->
-<!--<link rel="preload" href="/js/main.js" as="script">-->
+<link rel="preload" href="/js/main.js" as="script"> 
+<link rel="preload" href="/data/adsJsonVar.js" as="script"> 
+
+<link rel="preload" href="/css/style-main.css" as="style">
+<link rel="stylesheet" href="/css/style-main.css" type="text/css">
+
+<link rel="preload" href="/css/style.css" as="style">
+<link rel="stylesheet" href="/css/style.css" type="text/css">
 
 <link rel="stylesheet" type="text/css" href="/css/style-main.css" id="theme">
-<link rel="stylesheet" type="text/css" href="/css/style-main.css">
 <noscript><link rel="stylesheet" type="text/css" href="/css/light.css"></noscript>
-<!-- end -->
-
-<link rel="stylesheet" type="text/css" href="/css/style.css">
+<!-- and main css -->
 
 
 
