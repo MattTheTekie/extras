@@ -50,7 +50,7 @@ mainPrintMsg('footer', `
 <!--
 <span id="fDonate"><a href="/about.${confExt}#donate">donate</a></span>-->
 
-<span id="fDownload"><a href="https://github.com/inonehp/inonehp.github.io">download</a></span>
+<span id="fDownload"><a href="https://github.com/inonehp/home-page">download</a></span>
 
 <span><a rel="license" title="license" href="https://creativecommons.org/licenses/by-sa/4.0/">license: CC BY-SA 4.0</a></span>
 
