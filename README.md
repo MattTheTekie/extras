@@ -10,7 +10,7 @@ README.md
 
 
 🔗 Website: [https://inonehp.pages.dev](https://inonehp.pages.dev)  
-💾 Download: [Download ZIP](https://github.com/inonehp/home-page/archive/refs/heads/main.zip)  
+💾 Download: [Download ZIP](https://github.com/inonehp/inonehp.pages.dev/archive/refs/heads/main.zip)  
 
 Tags:  
 [#website](https://github.com/topics/website?s=updated)

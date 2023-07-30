@@ -1940,9 +1940,9 @@ navOption3 = `<input type="hidden" name="q" value="${q}">`;
 navOption2 = 'q='+encodeURIComponent(q)+"&";
 nav2Print = `
 <div class="tRight">
-<!--<a class="op borderList button light" href="?id=">random</a>-->
+<!--<a rel="nofollow" class="op borderList button light" href="?id=">random</a>-->
 </div>
-<!--<a class="op border2 button light" style="width: 49%;" href="#" onclick="history.back()">back</a>-->
+<!--<a rel="nofollow" class="op border2 button light" style="width: 49%;" href="#" onclick="history.back()">back</a>-->
 `;
 break;
 
@@ -1952,9 +1952,9 @@ navMode = 'p';
 
 nav2Print = `
 <div class="tRight">
-<!--<a class="op borderList button light" href="?id=">random</a>-->
+<!--<a rel="nofollow" class="op borderList button light" href="?id=">random</a>-->
 
-<!--<a class="op border2 button light" style="width: 49%;" href="#" onclick="history.back()">back</a>-->
+<!--<a rel="nofollow" class="op border2 button light" style="width: 49%;" href="#" onclick="history.back()">back</a>-->
 </div>
 `;
 
@@ -1966,8 +1966,8 @@ navMode = 'p2';
 
 nav2Print = `
 <div class="tRight">
-<a class="op borderList button light" href="#" onclick="history.back()">back</a>
-<a class="op borderList button light" href="?p=`+Math.floor(getP)+`">list</a>
+<a rel="nofollow" class="op borderList button light" href="#" onclick="history.back()">back</a>
+<a rel="nofollow" class="op borderList button light" href="?p=`+Math.floor(getP)+`">list</a>
 <!--<a class="op borderList button light block" href="?id=">rand</a>-->
 </div>
 
@@ -1981,9 +1981,9 @@ if(q == null||q == 'null'){ q = ''; }
 var pringInputRange = '';
 if(confDevice != 'mobile'){
 pringInputRange = `
-<form id="form">
+<form rel="nofollow" id="form">
 ${navOption3}
-<input  name="${navMode}" style="" id="rangeinput" class="slider" value="${getP}" type="range" min="0" max="${total2}" step="${postLimit}" onmouseup="this.form.submit();" ontouchend="this.form.submit();">
+<input  name="${navMode}" style="" id="rangeinput" class="slider" value="${getP}" type="range" min="0" max="${total2}" step="${postLimit}" onmouseup="this.form.submit();" ontouchend="this.form.submit();" rel="nofollow">
 </form>
 `;
 }
@@ -2020,9 +2020,9 @@ justify-content: center;
 ${pringInputRange}
 
 <div class="grid">
-<a class="${hideButtonClass2} border button light" href="?${navOption2}${navMode}=${prev}">&#8592;</a>
+<a rel="nofollow" class="${hideButtonClass2} border button light" href="?${navOption2}${navMode}=${prev}">&#8592;</a>
 <div class="button border"><span class="op pre">${navMode}: </span>`+Math.floor(getP/postLimit)+`</div>
-<a class="${hideButtonClass} border button light" href="?${navOption2}${navMode}=${next}">&#8594;</a>
+<a rel="nofollow" class="${hideButtonClass} border button light" href="?${navOption2}${navMode}=${next}">&#8594;</a>
 </div>
 
 ${nav2Print}
