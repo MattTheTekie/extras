@@ -5741,6 +5741,13 @@ var musicJsonVar =
         "tag": "#music"
     },
     {
+        "text": "In This Moment - Sex Metal Barbie [OFFICIAL MUSIC VIDEO] - YouTube",
+        "text2": "",
+        "text3": "",
+        "url": "https:\/\/www.youtube.com\/watch?v=4ZqWLIQaKM4",
+        "tag": "#music"
+    },
+    {
         "text": "In-Tango (In-Fisa Edit) \u00b7 In-Grid",
         "text2": "",
         "text3": "",

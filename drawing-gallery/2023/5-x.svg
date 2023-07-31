@@ -27,7 +27,7 @@
      inkscape:document-units="px"
      showgrid="false"
      inkscape:zoom="1.0682954"
-     inkscape:cx="238.69802"
+     inkscape:cx="212.48804"
      inkscape:cy="336.98544"
      inkscape:window-width="1920"
      inkscape:window-height="1011"
@@ -442,11 +442,15 @@
       <text
          xml:space="preserve"
          id="text21318"
-         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:144px;line-height:1.25;font-family:Laksaman;-inkscape-font-specification:'Laksaman, Bold';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;white-space:pre;shape-inside:url(#rect21320);fill:#2e3436;fill-opacity:1;stroke:none"
-         transform="matrix(3.7370717,0,0,3.7370717,-279.79974,-584.71126)"><tspan
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:144px;line-height:1.25;font-family:'DejaVu Sans';-inkscape-font-specification:'DejaVu Sans Bold';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;white-space:pre;shape-inside:url(#rect21320);fill:#2e3436;fill-opacity:1;stroke:none"
+         transform="matrix(3.7370717,0,0,3.7370717,-298.08158,-568.03891)"
+         x="0"
+         y="0"><tspan
            x="105.57422"
-           y="261.75725"
-           id="tspan1231">x</tspan></text>
+           y="259.87891"
+           id="tspan14945"><tspan
+             style="text-align:justify"
+             id="tspan14943">x</tspan></tspan></text>
       <rect
          style="fill:#eeeeec;fill-opacity:1;stroke:#3e3e3e;stroke-width:0"
          id="rect14124"
