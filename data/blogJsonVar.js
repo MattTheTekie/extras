@@ -1,6 +1,42 @@
 var blogJsonVar = 
 [
     {
+        "id": "135",
+        "text": "Chandra Observatory on Twitter: \"This image of supernova remnant DEM L71 reveals an inner cloud of glowing iron and silicon in green and blue. The delicate looking red shell surrounding the cloud \u2014 an outer blast wave from the explosion of a white dwarf star \u2014 is approximately 60 light-years across. https:\/\/t.co\/OiexjsGjkt\" \/ X",
+        "text2": "",
+        "text3": "",
+        "url": "https:\/\/twitter.com\/chandraxray\/status\/1685019459021594625",
+        "tag": "#space #photo",
+        "time": 1690774015
+    },
+    {
+        "id": "134",
+        "text": "Nat Geo WILD on Twitter: \"These gorgeous blooms have us tickled pink \ud83c\udf38 \ud83d\udcf8 1\/4: A close view of the intense pink blooms of a plumeria plant. (National Geographic Image Collection\/Jodi Cobb) https:\/\/t.co\/EbT5PzdwRw\" \/ X",
+        "text2": "",
+        "text3": "",
+        "url": "https:\/\/twitter.com\/natgeowild\/status\/1684926704790237184",
+        "tag": "#photo #flower",
+        "time": 1690773575
+    },
+    {
+        "id": "133",
+        "text": "Bill Nelson on Twitter: \"Prepare to be awestruck! @NASAWebb's NEW first anniversary image presents star birth as an impressionistic masterpiece with the Rho Ophiuchi cloud complex, 390 light years away. We're unlocking the secrets of the universe, one breathtaking image at a time. #UnfoldTheUniverse https:\/\/t.co\/p94JYBQcd9\" \/ X",
+        "text2": "",
+        "text3": "",
+        "url": "https:\/\/twitter.com\/SenBillNelson\/status\/1679068167258218496",
+        "tag": "#space",
+        "time": 1690773231
+    },
+    {
+        "id": "132",
+        "text": "NASA Webb Telescope on Twitter: \"Going goblin mode. Within the orange-white splotch at the center of this image are 2 chaotic baby stars. Over thousands of years, the pair repeatedly gobbled up, then spat out the gas and dust around them \u2014 producing those fiery orange lobes: https:\/\/t.co\/lSOy5uyCYD https:\/\/t.co\/jHVu6YlGXv\" \/ X",
+        "text2": "",
+        "text3": "",
+        "url": "https:\/\/twitter.com\/NASAWebb\/status\/1684204017252020224",
+        "tag": "#space",
+        "time": 1690773008
+    },
+    {
         "id": "130",
         "text": "Web Design Blog | Web Designer Depot",
         "text2": "",
