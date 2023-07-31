@@ -1,6 +1,24 @@
 var blogJsonVar = 
 [
     {
+        "id": "137",
+        "text": "Google Design",
+        "text2": "",
+        "text3": "",
+        "url": "https:\/\/design.google\/?home=",
+        "tag": "#bookmark #dev",
+        "time": 1690780079
+    },
+    {
+        "id": "136",
+        "text": "Jain - Makeba (Official Video) - YouTube",
+        "text2": "",
+        "text3": "",
+        "url": "https:\/\/www.youtube.com\/watch?v=59Q_lhgGANc",
+        "tag": "#music",
+        "time": 1690774469
+    },
+    {
         "id": "135",
         "text": "Chandra Observatory on Twitter: \"This image of supernova remnant DEM L71 reveals an inner cloud of glowing iron and silicon in green and blue. The delicate looking red shell surrounding the cloud \u2014 an outer blast wave from the explosion of a white dwarf star \u2014 is approximately 60 light-years across. https:\/\/t.co\/OiexjsGjkt\" \/ X",
         "text2": "",
@@ -24,7 +42,7 @@ var blogJsonVar =
         "text2": "",
         "text3": "",
         "url": "https:\/\/twitter.com\/SenBillNelson\/status\/1679068167258218496",
-        "tag": "#space",
+        "tag": "#space #video",
         "time": 1690773231
     },
     {
@@ -33,7 +51,7 @@ var blogJsonVar =
         "text2": "",
         "text3": "",
         "url": "https:\/\/twitter.com\/NASAWebb\/status\/1684204017252020224",
-        "tag": "#space",
+        "tag": "#space #photo",
         "time": 1690773008
     },
     {
@@ -294,7 +312,7 @@ var blogJsonVar =
         "text2": "",
         "text3": "",
         "url": "https:\/\/twitter.com\/NASAWebb\/status\/1679070248924856320",
-        "tag": "#space",
+        "tag": "#space #photo",
         "time": 1689439414
     },
     {
