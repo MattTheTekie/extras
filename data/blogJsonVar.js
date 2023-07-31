@@ -1,6 +1,15 @@
 var blogJsonVar = 
 [
     {
+        "id": "138",
+        "text": "Ubuntu 23.10 Swapping DejaVu for Noto Fonts - OMG! Ubuntu",
+        "text2": "",
+        "text3": "",
+        "url": "https:\/\/www.omgubuntu.co.uk\/2023\/07\/ubuntu-noto-fonts-change-mantic",
+        "tag": "#design #news",
+        "time": 1690830945
+    },
+    {
         "id": "137",
         "text": "Google Design",
         "text2": "",

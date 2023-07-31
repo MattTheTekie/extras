@@ -1,4 +1,4 @@
-/* v.12.31.0 */
+/* v.12.31.1 */
 
 * {  color-scheme: light dark; } /* view-source:about:blank */ /* fixed #fff blink */
 
@@ -62,7 +62,7 @@ header{ margin: 0 auto; }
 /*nav a::first-letter{ font-size: 1rem; font-weight: bold;}*/
 
 nav, footer { text-align: center; padding: 14px 0; max-width: 100%; }
-nav a, nav button, footer span { display: inline-block; padding: 5px;  }
+nav a, nav button, footer span, footer a { display: inline-block; padding: 5px; }
 
 footer { padding: 15px 0; }
 footer span::first-letter { text-transform: capitalize; }
@@ -205,12 +205,11 @@ align-items: center;
 text-align: center;
 box-sizing: border-box;
 }
-.tag, .tag2 { font-size: calc(100% - 10%); padding: 3px 5px; min-width: 25px; }
+.tag, .tag2 { font-size: calc(100% - 10%); padding: 3px 5px;  min-width: 35px; }
 .button { padding: 9px; max-width: 100%; }
 .button, .tag, .tag2 { border-radius: 5px; }
 .tag2 { padding: 3px 7px; }
 
-.scrollX { display: inline-block; }
 
 @media (hover: none) {
 .scrollX {
@@ -221,7 +220,7 @@ white-space: nowrap;
 scrollbar-width: none;
 }
 
-scrollX::-webkit-scrollbar { display: none; }
+.scrollX::-webkit-scrollbar { width: 0px; display: none; }
 }
 
 /* colors */
@@ -414,3 +413,5 @@ html { scrollbar-width: thin; }
 ::-webkit-scrollbar { width: 7px; } /* for validator commnet */
 
 input:focus{ outline: none }
+
+
