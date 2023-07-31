@@ -1,8 +1,14 @@
-/* v.1.0.0 */
+/* v.1.0.1 */
 
+body, html { margin: 0; padding: 0; }
 
-html, body { height: 100%; /* fix mobile */  margin: 0; padding: 0; /*overflow: hidden;*/ }
-
+/* fixed scroll */
+body {
+height: 100%; 
+width: 100%;
+position: fixed;
+}
+body { position: absolute; top: 0; left: 0; overflow: hidden; } 
 
 .profilePhoto {
 height: 100%;
@@ -17,7 +23,7 @@ background-repeat: no-repeat;
 @media(max-width: 500px) { .profilePhoto { background-size: cover; } }
 
 .profileFooter {
-position: absolute;
+position: fixed;
 bottom: 0;
 
 
