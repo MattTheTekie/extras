@@ -708,6 +708,34 @@ var musicJsonVar =
         "tag": "#music"
     },
     {
+        "text": "Anne-Marie - SAD B!TCH (Official Video) - YouTube",
+        "text2": "",
+        "text3": "",
+        "url": "https:\/\/www.youtube.com\/watch?v=T_ZgLdK3fDw",
+        "tag": "#music"
+    },
+    {
+        "text": "Anne-Marie \u2013 CUCKOO (Official Visualiser) - YouTube",
+        "text2": "",
+        "text3": "",
+        "url": "https:\/\/www.youtube.com\/watch?v=AhH9kJAopkc",
+        "tag": "#music"
+    },
+    {
+        "text": "Anne-Marie \u2013 HAUNT YOU (Official Visualiser) - YouTube",
+        "text2": "",
+        "text3": "",
+        "url": "https:\/\/www.youtube.com\/watch?v=foxT8cLsyus",
+        "tag": "#music"
+    },
+    {
+        "text": "Anne-Marie \u2013 OBSESSED (Official Visualiser) - YouTube",
+        "text2": "",
+        "text3": "",
+        "url": "https:\/\/www.youtube.com\/watch?v=zUKq1HVzz80",
+        "tag": "#music"
+    },
+    {
         "text": "ANNOUNCEMENT JINGLE by Bubby The Great",
         "text2": "",
         "text3": "",
@@ -1310,10 +1338,24 @@ var musicJsonVar =
         "tag": "#music"
     },
     {
+        "text": "Billie Eilish - Six Feet Under - YouTube",
+        "text2": "",
+        "text3": "",
+        "url": "https:\/\/www.youtube.com\/watch?v=FQ0iq10ULNA",
+        "tag": "#music"
+    },
+    {
         "text": "Billie Eilish - Therefore I Am (Official Music Video) - YouTube",
         "text2": "",
         "text3": "",
         "url": "https:\/\/www.youtube.com\/watch?v=RUQl6YcMalg",
+        "tag": "#music"
+    },
+    {
+        "text": "Billie Eilish - What Was I Made For? (Official Music Video) - YouTube",
+        "text2": "",
+        "text3": "",
+        "url": "https:\/\/www.youtube.com\/watch?v=cW8VLC9nnTo",
         "tag": "#music"
     },
     {
@@ -6812,6 +6854,97 @@ var musicJsonVar =
         "tag": "#music"
     },
     {
+        "text": "Latto - Another Nasty Song (Visualizer) - YouTube",
+        "text2": "",
+        "text3": "",
+        "url": "https:\/\/www.youtube.com\/watch?v=2q-EOWzkKvg",
+        "tag": "#music"
+    },
+    {
+        "text": "Latto - B*tch From Da Souf (Remix) (Official Video) ft. Saweetie & Trina - YouTube",
+        "text2": "",
+        "text3": "",
+        "url": "https:\/\/www.youtube.com\/watch?v=x8mAyKX9muE",
+        "tag": "#music"
+    },
+    {
+        "text": "Latto - Big Energy (Official Video) - YouTube",
+        "text2": "",
+        "text3": "",
+        "url": "https:\/\/www.youtube.com\/watch?v=T8GpG8C0YzA",
+        "tag": "#music"
+    },
+    {
+        "text": "Latto - FTCU (Official Video) ft. GloRilla, Gangsta Boo - YouTube",
+        "text2": "",
+        "text3": "",
+        "url": "https:\/\/www.youtube.com\/watch?v=mkHQDPch6fo",
+        "tag": "#music"
+    },
+    {
+        "text": "Latto - In n Out (Official Video) ft. City Girls - YouTube",
+        "text2": "",
+        "text3": "",
+        "url": "https:\/\/www.youtube.com\/watch?v=h1ZdAn96gps",
+        "tag": "#music"
+    },
+    {
+        "text": "Latto - It's Givin (Official Video) - YouTube",
+        "text2": "",
+        "text3": "",
+        "url": "https:\/\/www.youtube.com\/watch?v=hH0iDBMNC98",
+        "tag": "#music"
+    },
+    {
+        "text": "Latto - Lottery (Official Video) ft. LU KALA - YouTube",
+        "text2": "",
+        "text3": "",
+        "url": "https:\/\/www.youtube.com\/watch?v=m8_8tMzmpTg",
+        "tag": "#music"
+    },
+    {
+        "text": "Latto - Muwop (Official Video) ft. Gucci Mane - YouTube",
+        "text2": "",
+        "text3": "",
+        "url": "https:\/\/www.youtube.com\/watch?v=meFxq3-mNEc",
+        "tag": "#music"
+    },
+    {
+        "text": "Latto - Put It On Da Floor (Official Video) - YouTube",
+        "text2": "",
+        "text3": "",
+        "url": "https:\/\/www.youtube.com\/watch?v=D66AyMOVmzE",
+        "tag": "#music"
+    },
+    {
+        "text": "Latto - Put It On Da Floor Again (feat. Cardi B) [Continued] - YouTube",
+        "text2": "",
+        "text3": "",
+        "url": "https:\/\/www.youtube.com\/watch?v=28Hhmo3tzcM",
+        "tag": "#music"
+    },
+    {
+        "text": "Latto - Put It On Da Floor Again (feat. Cardi B) [Official Video] - YouTube",
+        "text2": "",
+        "text3": "",
+        "url": "https:\/\/www.youtube.com\/watch?v=-WtNCR3EDS4",
+        "tag": "#music"
+    },
+    {
+        "text": "Latto - Youngest N Richest (Official Video) - YouTube",
+        "text2": "",
+        "text3": "",
+        "url": "https:\/\/www.youtube.com\/watch?v=sekgz68Lewo",
+        "tag": "#music"
+    },
+    {
+        "text": "Latto, Mariah Carey - Big Energy (Remix (Official Audio)) ft. DJ Khaled - YouTube",
+        "text2": "",
+        "text3": "",
+        "url": "https:\/\/www.youtube.com\/watch?v=idSJRWzCAN0",
+        "tag": "#music"
+    },
+    {
         "text": "Laura Veirs - \"I Can See Your Tracks\" - YouTube",
         "text2": "",
         "text3": "",
@@ -8328,6 +8461,13 @@ var musicJsonVar =
         "text2": "",
         "text3": "",
         "url": "https:\/\/www.youtube.com\/watch?v=b5A1RZdCRGU",
+        "tag": "#music"
+    },
+    {
+        "text": "Mulatto - On God (Directed by Cole Bennett) - YouTube",
+        "text2": "",
+        "text3": "",
+        "url": "https:\/\/www.youtube.com\/watch?v=ND6c5j2kypQ",
         "tag": "#music"
     },
     {
