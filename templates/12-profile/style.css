@@ -1,4 +1,4 @@
-/* v.1.0.1 */
+/* v.1.1.0 */
 
 body, html { margin: 0; padding: 0; }
 
@@ -20,7 +20,7 @@ background-position: top; /*background-position: center;*/
 background-repeat: no-repeat;
 }
 
-@media(max-width: 500px) { .profilePhoto { background-size: cover; } }
+@media(max-width: 600px) { .profilePhoto { background-size: cover; } }
 
 .profileFooter {
 position: fixed;
