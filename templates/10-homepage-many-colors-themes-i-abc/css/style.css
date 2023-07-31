@@ -1,4 +1,14 @@
 
+.headerBannerImg {
+height: 120px;
+background-image: url('/img/ai/banner.png');
+background-size: contain;
+background-position: center;
+background-repeat: no-repeat;
+margin-bottom: calc(-30px - 2px);
+}
+
+
 .menu {
 display: grid;
 /*grid-template-areas: "a a a a a";*/

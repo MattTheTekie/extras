@@ -2,21 +2,20 @@
 /* inspired by IMDB and other */
 
 
-body, html { padding: 0; margin: 0; }
+html, body { height: 100%; /* fix mobile */  margin: 0; padding: 0; /*overflow: hidden;*/ }
 
 
 .profilePhoto {
 height: 100%;
 max-height: 100vh;
 width: 100%;
-background-image: url('/img/tpl/girl-laptop-512x512.svg');
-background-size: cover;
-background-position: center;
+background-image: url('/img/ai/woman-laptop.png');
+background-size: contain;
+background-position: top;
 background-repeat: no-repeat;
-padding: 0;
-margin: 0;
-box-sizing: border-box;
 }
+
+@media(max-width: 500px) { .profilePhoto { background-size: cover; } }
 
 .profileFooter {
 position: absolute;

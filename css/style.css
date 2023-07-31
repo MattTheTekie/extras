@@ -1,4 +1,4 @@
-/* v.1.2.6 */
+/* v.1.2.7 */
 
 /*
 html::before {
@@ -35,7 +35,14 @@ z-index: -2;
 nav form { display: inline-block; max-width: 130px; }
 nav input[type=search] { padding: 5px; min-height: 10px; }
 
-
+.headerBannerImg {
+height: 120px;
+background-image: url('/img/header-banner.svg');
+background-size: contain;
+background-position: center;
+background-repeat: no-repeat;
+margin-bottom: calc(-30px - 2px);
+}
 
 .menu {
 display: grid;

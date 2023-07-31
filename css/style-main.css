@@ -168,14 +168,7 @@ border: 2px dashed var(--cOp);
 }
 
 .logo2 { width: 26px; height: 26px; }
-.headerBannerImg {
-height: 120px;
-background-image: url('/img/header-banner.svg');
-background-size: contain;
-background-position: center;
-background-repeat: no-repeat;
-margin-bottom: calc(-30px - 2px);
-}
+
 .ico {
 border-radius: 50%;
 display: inline-block;
