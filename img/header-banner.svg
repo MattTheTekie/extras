@@ -23,9 +23,9 @@
      inkscape:pagecheckerboard="0"
      inkscape:document-units="px"
      showgrid="false"
-     inkscape:zoom="0.38833504"
-     inkscape:cx="570.38376"
-     inkscape:cy="888.40811"
+     inkscape:zoom="0.4048027"
+     inkscape:cx="549.65048"
+     inkscape:cy="952.31578"
      inkscape:window-width="1347"
      inkscape:window-height="926"
      inkscape:window-x="0"
@@ -65,16 +65,16 @@
      inkscape:label="Layer 2">
     <path
        id="path858"
-       style="opacity:1;fill:none;fill-opacity:0.900392;stroke:#96918c;stroke-width:4;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:0.823529"
+       style="opacity:1;fill:#000000;fill-opacity:0;stroke:#474747;stroke-width:4;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:0.82352901"
        d="m 183.21778,347.34713 -153.709055,0.33028 c -36.391537,53.62535 -17.976167,115.1777 10.17367,135.90807 H 176.52086 c 0,0 18.36449,3.93258 24.38138,-32.71195 43.90193,-3.8308 65.20492,-90.65006 0,-75.15963 -1.13985,-11.55257 -6.35072,-25.9976 -17.68446,-28.36677 z m 30.7465,40.81842 c 6.66083,0.0642 13.1272,2.19464 13.54716,11.76604 1.08888,22.2948 -15.4774,35.04864 -25.59037,35.07106 0.96448,-13.17336 1.73252,-33.63753 -0.0264,-45.78876 2.8655,-0.16932 7.51312,-1.09223 12.06978,-1.04834 z"
        sodipodi:nodetypes="ccccccccccccc" />
     <path
-       style="opacity:1;fill:none;fill-opacity:0.900392;stroke:#96918c;stroke-width:4;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:0.823529"
+       style="opacity:1;fill:#000000;fill-opacity:0;stroke:#474747;stroke-width:4;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:0.82352901"
        d="M 133.02847,204.5384 C 226.1649,314.9483 109.51826,291.02788 110.86118,338.7981 99.334921,285.01986 197.7744,309.22011 133.02847,204.5384 Z"
        id="path3702"
        sodipodi:nodetypes="ccc" />
     <path
-       style="opacity:1;fill:none;fill-opacity:0.900392;stroke:#96918c;stroke-width:4;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:0.823529"
+       style="opacity:1;fill:#000000;fill-opacity:0;stroke:#474747;stroke-width:4;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:0.82352901"
        d="m 134.65704,285.44513 c -61.030479,-70.20128 -29.50837,-97.6611 4.31222,-122.56733 -25.9414,4.36072 -105.717605,49.91085 -4.31222,122.56733 z"
        id="path3817"
        sodipodi:nodetypes="ccc" />
@@ -92,7 +92,7 @@
        style="font-style:normal;font-weight:normal;font-size:40px;line-height:1.25;font-family:sans-serif;white-space:pre;shape-inside:url(#rect15640);fill:#000000;fill-opacity:1;stroke:none" />
     <text
        xml:space="preserve"
-       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:42.2261px;line-height:1.25;font-family:'Roboto Mono';-inkscape-font-specification:'Roboto Mono, Normal';font-variant-ligatures:none;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#97918c;fill-opacity:0.823529;stroke:none;stroke-width:2.34563;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:42.2261px;line-height:1.25;font-family:'Roboto Mono';-inkscape-font-specification:'Roboto Mono, Normal';font-variant-ligatures:none;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#2e3436;fill-opacity:0.823529;stroke:none;stroke-width:2.34563;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
        x="254.40486"
        y="87.390587"
        id="text38290"><tspan
@@ -100,42 +100,42 @@
          x="254.40486"
          y="87.390587"
          sodipodi:role="line"
-         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:42.2261px;font-family:'Roboto Mono';-inkscape-font-specification:'Roboto Mono, Normal';font-variant-ligatures:none;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#97918c;fill-opacity:0.823529;stroke:none;stroke-width:2.34563;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1">.headerBannerImg {</tspan><tspan
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:42.2261px;font-family:'Roboto Mono';-inkscape-font-specification:'Roboto Mono, Normal';font-variant-ligatures:none;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#2e3436;fill-opacity:0.823529;stroke:none;stroke-width:2.34563;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1">.headerBannerImg {</tspan><tspan
          x="254.40486"
          y="140.17319"
          id="tspan38292"
          sodipodi:role="line"
-         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:42.2261px;font-family:'Roboto Mono';-inkscape-font-specification:'Roboto Mono, Normal';font-variant-ligatures:none;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#97918c;fill-opacity:0.823529;stroke:none;stroke-width:2.34563;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1">height: 120px;</tspan><tspan
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:42.2261px;font-family:'Roboto Mono';-inkscape-font-specification:'Roboto Mono, Normal';font-variant-ligatures:none;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#2e3436;fill-opacity:0.823529;stroke:none;stroke-width:2.34563;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1">height: 120px;</tspan><tspan
          x="254.40486"
          y="192.95576"
          id="tspan38294"
          sodipodi:role="line"
-         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:42.2261px;font-family:'Roboto Mono';-inkscape-font-specification:'Roboto Mono, Normal';font-variant-ligatures:none;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#97918c;fill-opacity:0.823529;stroke:none;stroke-width:2.34563;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1">background-image: url('/img/header-banner.svg');</tspan><tspan
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:42.2261px;font-family:'Roboto Mono';-inkscape-font-specification:'Roboto Mono, Normal';font-variant-ligatures:none;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#2e3436;fill-opacity:0.823529;stroke:none;stroke-width:2.34563;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1">background-image: url('/img/header-banner.svg');</tspan><tspan
          x="254.40486"
          y="245.73836"
          id="tspan38296"
          sodipodi:role="line"
-         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:42.2261px;font-family:'Roboto Mono';-inkscape-font-specification:'Roboto Mono, Normal';font-variant-ligatures:none;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#97918c;fill-opacity:0.823529;stroke:none;stroke-width:2.34563;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1">background-size: contain;</tspan><tspan
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:42.2261px;font-family:'Roboto Mono';-inkscape-font-specification:'Roboto Mono, Normal';font-variant-ligatures:none;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#2e3436;fill-opacity:0.823529;stroke:none;stroke-width:2.34563;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1">background-size: contain;</tspan><tspan
          x="254.40486"
          y="298.52097"
          id="tspan38298"
          sodipodi:role="line"
-         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:42.2261px;font-family:'Roboto Mono';-inkscape-font-specification:'Roboto Mono, Normal';font-variant-ligatures:none;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#97918c;fill-opacity:0.823529;stroke:none;stroke-width:2.34563;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1">background-position: center;</tspan><tspan
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:42.2261px;font-family:'Roboto Mono';-inkscape-font-specification:'Roboto Mono, Normal';font-variant-ligatures:none;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#2e3436;fill-opacity:0.823529;stroke:none;stroke-width:2.34563;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1">background-position: center;</tspan><tspan
          x="254.40486"
          y="351.30353"
          id="tspan38300"
          sodipodi:role="line"
-         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:42.2261px;font-family:'Roboto Mono';-inkscape-font-specification:'Roboto Mono, Normal';font-variant-ligatures:none;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#97918c;fill-opacity:0.823529;stroke:none;stroke-width:2.34563;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1">background-repeat: no-repeat;</tspan><tspan
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:42.2261px;font-family:'Roboto Mono';-inkscape-font-specification:'Roboto Mono, Normal';font-variant-ligatures:none;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#2e3436;fill-opacity:0.823529;stroke:none;stroke-width:2.34563;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1">background-repeat: no-repeat;</tspan><tspan
          x="254.40486"
          y="404.08612"
          id="tspan38302"
          sodipodi:role="line"
-         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:42.2261px;font-family:'Roboto Mono';-inkscape-font-specification:'Roboto Mono, Normal';font-variant-ligatures:none;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#97918c;fill-opacity:0.823529;stroke:none;stroke-width:2.34563;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1">margin-bottom: calc(-30px - 2px);</tspan><tspan
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:42.2261px;font-family:'Roboto Mono';-inkscape-font-specification:'Roboto Mono, Normal';font-variant-ligatures:none;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#2e3436;fill-opacity:0.823529;stroke:none;stroke-width:2.34563;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1">margin-bottom: calc(-30px - 2px);</tspan><tspan
          x="254.40486"
          y="456.86871"
          id="tspan38304"
          sodipodi:role="line"
-         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:42.2261px;font-family:'Roboto Mono';-inkscape-font-specification:'Roboto Mono, Normal';font-variant-ligatures:none;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#97918c;fill-opacity:0.823529;stroke:none;stroke-width:2.34563;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1">}</tspan></text>
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:42.2261px;font-family:'Roboto Mono';-inkscape-font-specification:'Roboto Mono, Normal';font-variant-ligatures:none;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#2e3436;fill-opacity:0.823529;stroke:none;stroke-width:2.34563;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1">}</tspan></text>
   </g>
   <g
      inkscape:label="Layer 1"

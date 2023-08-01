@@ -5,7 +5,7 @@ margin: 0 auto;
 font-size: 120%; font-size: 1.3em; font-size: medium;
 padding: 15px;
 }
-.win { font-size: 120% !important; }
+.win { font-size: 120%; }
 .stat, .win { font-size: calc(var(--fontSize) + 10%); font-weight: bold; }
 
 .scroll {

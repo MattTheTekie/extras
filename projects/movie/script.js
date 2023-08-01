@@ -1,4 +1,4 @@
-// v.1.0.4
+// v.1.0.5
 // copy paste cp from Music
 
 
@@ -562,7 +562,7 @@ hlClassList3 += `
 });
 
 tagList += `
-<div class="block padding tCenter">
+<div class="block padding tCenter taglist">
 <div class="block tCenter">
 <div class="tagList padding">${hlClassList}</div>
 <div class="tagList padding">${hlClassList3}</div>

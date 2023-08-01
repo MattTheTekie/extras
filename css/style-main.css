@@ -1,4 +1,4 @@
-/* v.12.31.1 */
+/* v.12.31.2 */
 
 * {  color-scheme: light dark; } /* view-source:about:blank */ /* fixed #fff blink */
 
@@ -205,7 +205,7 @@ align-items: center;
 text-align: center;
 box-sizing: border-box;
 }
-.tag, .tag2 { font-size: calc(100% - 10%); padding: 3px 5px;  min-width: 35px; }
+.tag, .tag2 { font-size: calc(100% - 10%); padding: 3px 5px;  min-width: 27px; }
 .button { padding: 9px; max-width: 100%; }
 .button, .tag, .tag2 { border-radius: 5px; }
 .tag2 { padding: 3px 7px; }
