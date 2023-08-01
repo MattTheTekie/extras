@@ -1,4 +1,4 @@
-// v.1.1.59
+// v.1.1.60
 
 
 
@@ -712,7 +712,7 @@ q = q.trim();
 q = encodeURIComponent(q);
 urlList = [
 "https://you.com/search?q="+q+"&tbm=youchat",
-"https://www.perplexity.ai/?q="+q,
+//"https://www.perplexity.ai/?q="+q,
 "https://beta.character.ai/chat?char=YntB_ZeqRq2l_aVf2gWDCZl4oBttQzDvhj9cXafWcF8&q="+q
 ];
 random = Math.floor(Math.random() * urlList.length);
@@ -720,7 +720,7 @@ url = urlList[random];
 if(q == ''){
 urlList = [
 "https://you.com/",
-"https://www.perplexity.ai/",
+//"https://www.perplexity.ai/",
 "https://beta.character.ai/chat?char=YntB_ZeqRq2l_aVf2gWDCZl4oBttQzDvhj9cXafWcF8&q="
 ];
 random = Math.floor(Math.random() * urlList.length);
