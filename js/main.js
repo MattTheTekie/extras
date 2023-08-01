@@ -150,8 +150,6 @@ if(confDevice == ''){ confDevice = 'pc'; }
 
 
 
-
-
 // start theme
 
 // confDeviceTheme - device theme (dark or light)

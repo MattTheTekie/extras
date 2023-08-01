@@ -1,4 +1,4 @@
-// v.1.1.3
+// v.1.1.4
 // https://developer.mozilla.org/docs/Web/API/Element/mousemove_event
 
 
@@ -150,9 +150,9 @@ let rect = myPics.getBoundingClientRect();
 x3 = e.changedTouches[0].pageX - rect.left;
 y3 = e.changedTouches[0].pageY - rect.top;
 //  drawCircle(context, x, y)
-//drawLine(context, x, y, x3, y3);
-drawCircle(context, x, y);
-drawCircle(context, x3, y3);
+drawLine(context, x, y, x3, y3);
+//drawCircle(context, x, y);
+//drawCircle(context, x3, y3);
 
     isDrawing = false;
           img();
