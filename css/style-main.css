@@ -1,4 +1,4 @@
-/* v.12.31.2 */
+/* v.12.31.3 */
 
 * {  color-scheme: light dark; } /* view-source:about:blank */ /* fixed #fff blink */
 
@@ -333,14 +333,14 @@ td { background-color: var(--l2); }
 .paddingL { padding: 3px; }
 .block { display: block; box-sizing: border-box; }
 .zero { margin: 0; padding: 0; }
-.margin, .margin a { margin: 1px; }
+.margin { margin: 1px; }
 .tLeft { text-align: left; }
 .tCenter { text-align: center; }
 .tRight { text-align: right; }
 .capitalize { text-transform: capitalize; }
 .lowercase { text-transform: lowercase; }
-.b, .b a, a .b { font-weight: bold; }
-.bold, .bold a, a .bold { font-weight: bold; }
+.b, .b a { font-weight: bold; }
+.bold, .bold a { font-weight: bold; }
 .small, .small a { font-size: small; }
 .xSmall, .xSmall a { font-size: x-small; }
 .xxSmall, .xxSmall a { font-size: xx-small; }

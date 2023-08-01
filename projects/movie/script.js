@@ -536,14 +536,14 @@ hlClassList += printTag2[0].toLowerCase();
 if(q == tag){
 tagList += `
 
-<a class="tag light border2 ${hlClass}" href="${scriptDir}?q=${goTag}" style="background: ${tagColor}; color: var(--l4); font-size: ${tagSize} !important;">${printTag}</a>
+<a class="tag light border2 ${hlClass}" href="${scriptDir}?q=${goTag}" style="background: ${tagColor}; color: var(--l4); font-size: ${tagSize};">${printTag}</a>
 
 `;
 }else{
 
 tagList += `
 
-<a class="tag light border2 ${hlClass}" href="${scriptDir}?q=${goTag}"  style="color: ${tagColor}; font-size: ${tagSize} !important;">${printTag}</a>
+<a class="tag light border2 ${hlClass}" href="${scriptDir}?q=${goTag}"  style="color: ${tagColor}; font-size: ${tagSize};">${printTag}</a>
 
 `;
 }
@@ -562,11 +562,9 @@ hlClassList3 += `
 });
 
 tagList += `
-<div class="block padding tCenter taglist">
-<div class="block tCenter">
-<div class="tagList padding">${hlClassList}</div>
-<div class="tagList padding">${hlClassList3}</div>
-</div>
+<div class="block padding tCenter">
+<div class="padding tagList">${hlClassList}</div>
+<div class="padding tagList">${hlClassList3}</div>
 </div>`;
 
 
@@ -590,10 +588,10 @@ return tagList;
 
 
 document.getElementById('taglist').innerHTML += `
-<div class="center tCenter margin padding" style="padding-top: 60px;">
+<div class="tCenter padding" style="padding-top: 60px;">
 <div class="wrapper3">
 
-<span class="small padding margin op">list of "title" tags:</span><br>
+<span class="small padding op">list of "title" tags:</span><br>
 `+tagList(printTagList)+`
 </div>
 </div>
