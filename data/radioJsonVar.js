@@ -198,8 +198,8 @@ var radioJsonVar =
     },
     {
         "text": "CBC.ca - watch, listen, and discover with Canada's Public Broadcaster",
-        "text2": "https:\/\/playerservices.streamtheworld.com\/api\/livestream-redirect\/CBH.mp3",
-        "text3": "mp3",
+        "text2": "https:\/\/cbcradiolive.akamaized.net\/hls\/live\/2037435\/ES_R1NSN\/master.m3u8",
+        "text3": "m3u8",
         "url": "https:\/\/www.cbc.ca\/",
         "tag": "#radio #RadioMusic #rock #indie"
     },
@@ -377,13 +377,6 @@ var radioJsonVar =
         "text3": "mp3",
         "url": "https:\/\/superfly.fm\/",
         "tag": "#radio #RadioMusic #soul"
-    },
-    {
-        "text": "Home - The Spy FM",
-        "text2": "http:\/\/18093.live.streamtheworld.com\/KOSUHD2AAC_SC",
-        "text3": "mp3",
-        "url": "https:\/\/thespyfm.com\/",
-        "tag": "#radio #RadioMusic #AlternativeRock"
     },
     {
         "text": "Home - WKNC 88.1 FM",
