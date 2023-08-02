@@ -344,7 +344,7 @@ function main(task){
 
 
 if(mode != 'abc'&&mode&&mode != 'free'){
-document.getElementById("mode2").innerHTML = ' <a class="tag" href="/projects/redirects/?q='+encodeURIComponent(task)+'  t">tr</a>';
+document.getElementById("mode2").innerHTML = ' <a class="tag" href="/projects/25-redirects/?q='+encodeURIComponent(task)+'  t">tr</a>';
 if(confHost == 'localhost'){ document.getElementById("mode2").innerHTML += ' <a class="tag" href="/redirects/?q='+encodeURIComponent(task)+'  d">tr2</a>'; }
 }else{
 document.getElementById("mode2").innerHTML = '';
@@ -1123,7 +1123,7 @@ qGo2 = item['key'];
 if(qGo2 != ''){
 var qGo = encodeURIComponent(qGo2);
 print += `
-<a target="_blank" href="/projects/redirects/?q=${qGo}">${qGo2} [${item['value']}]</a>,
+<a target="_blank" href="/projects/25-redirects/?q=${qGo}">${qGo2} [${item['value']}]</a>,
 `;
 }
 }
