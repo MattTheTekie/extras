@@ -913,7 +913,7 @@ sRedirUrl = random;
 
 
 if(sRedirUrl != ''&&sRedirUrl != undefined&&sRedirUrl != null){
-window.location.href = "/projects/redirects/?rUrl="+sRedirUrl;
+window.location.href = "/projects/25-redirects/?rUrl="+sRedirUrl;
 }
 
 
