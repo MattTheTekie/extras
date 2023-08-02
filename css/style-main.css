@@ -1,4 +1,4 @@
-/* v.12.31.3 */
+/* v.12.31.4 */
 
 * {  color-scheme: light dark; } /* view-source:about:blank */ /* fixed #fff blink */
 
@@ -62,13 +62,13 @@ header{ margin: 0 auto; }
 /*nav a::first-letter{ font-size: 1rem; font-weight: bold;}*/
 
 nav, footer { text-align: center; padding: 14px 0; max-width: 100%; }
-nav a, nav button, footer span, footer a { display: inline-block; padding: 5px; }
+nav a, nav button, footer span { display: inline-block; padding: 5px; }
 
 footer { padding: 15px 0; }
 footer span::first-letter { text-transform: capitalize; }
 nav button:hover { background: none;  }
 
-nav a:first-child, footer span:first-child, nav a:not(.dropdownMenuContent) { padding-left: 0; }
+nav a:first-child, footer a:first-child, footer span:first-child, nav a:not(.dropdownMenuContent) { padding-left: 0; }
 footer span:last-child { padding-right: 0; }
 
 h1, .h1 { font-size: calc(100% + 30%); }

@@ -1,4 +1,4 @@
-// v.1.1.60
+// v.1.1.61
 
 
 
@@ -152,9 +152,7 @@ if(q == ''){
 urlList = [
 "https://x.com/explore",
 //"https://www.tumblr.com/explore/",
-"https://medium.com/",
-
-"https://www.minds.com/discovery/top"
+"https://medium.com/"
 ];
 random = Math.floor(Math.random() * urlList.length);
 url = urlList[random];

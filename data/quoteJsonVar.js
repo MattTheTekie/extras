@@ -71,7 +71,7 @@ var quoteJsonVar =
         "tag": "#quote"
     },
     {
-        "text": "Educating the mind without educating the heart is no education at all.- Aristotle",
+        "text": "Educating the mind without educating the heart is no education at all. Aristotle",
         "text2": "",
         "text3": "",
         "url": "",
