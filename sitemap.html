@@ -50,6 +50,8 @@
 <!-- and main css -->
 
 
+<link rel="preload" href="/projects/blog/script.js" as="script"> 
+
 
 </head>
 <body>
@@ -137,9 +139,10 @@
 <h3 class="block tCenter op">Sitemap</h3>
 <a class="block tCenter op" href="sitemap.xml">sitemap.xml</a>
 
-
+<!--<script src="/data/blogJsonVar.js"></script>-->
 
 <script>
+//blogJsonVar = jsonMap.concat(blogJsonVar); // union json (map+blog)
 var blogJsonVar = [
     {
         "text": "x",
@@ -646,178 +649,185 @@ var blogJsonVar = [
         "time": "1690923601"
     },
     {
-        "text": "mini projects tpl project mini",
-        "url": "\/mini-projects\/tpl-project-mini\/index.html",
-        "tag": " #mini #projects #tpl #project #mini",
-        "id": "94daeae055ef9e1453a27141a28a2c6d",
+        "text": "mini projects  tpl project mini",
+        "url": "\/mini-projects\/25-tpl-project-mini\/index.html",
+        "tag": " #mini #projects # #tpl #project #mini",
+        "id": "7c340812196ee17a7fd9c62a63832f96",
         "time": "1690923601"
     },
     {
-        "text": "mini projects textarea",
-        "url": "\/mini-projects\/textarea\/index.html",
-        "tag": " #mini #projects #textarea",
-        "id": "5ae6f74c63ae4d6cfab52d30de355201",
+        "text": "mini projects  textarea",
+        "url": "\/mini-projects\/24-textarea\/index.html",
+        "tag": " #mini #projects # #textarea",
+        "id": "3ec7fb9e9142afd1238ce7084dc3ec42",
         "time": "1690923601"
     },
     {
-        "text": "mini projects testimonial quotes cpc",
-        "url": "\/mini-projects\/testimonial-quotes-cpc\/index.html",
-        "tag": " #mini #projects #testimonial #quotes #cpc",
-        "id": "a2c0f63ee04a52559e4f368d0f0bc5a2",
+        "text": "mini projects  testimonial quotes cpc",
+        "url": "\/mini-projects\/23-testimonial-quotes-cpc\/index.html",
+        "tag": " #mini #projects # #testimonial #quotes #cpc",
+        "id": "70c9fb7fdea5ac50e6161c95df6d4970",
         "time": "1690923601"
     },
     {
-        "text": "mini projects synthetic textures cpc",
-        "url": "\/mini-projects\/synthetic-textures-cpc\/index.html",
-        "tag": " #mini #projects #synthetic #textures #cpc",
-        "id": "da52d587f53b0c1cf8b998257309889e",
+        "text": "mini projects  table in progress",
+        "url": "\/mini-projects\/26-table-in-progress\/index.html",
+        "tag": " #mini #projects # #table #in #progress",
+        "id": "7cd09ec39f4121f2bd2b7430ae84ad27",
         "time": "1690923601"
     },
     {
-        "text": "mini projects sun cpc",
-        "url": "\/mini-projects\/sun-cpc\/index.html",
-        "tag": " #mini #projects #sun #cpc",
-        "id": "22c88360d120681f8c6fba09bb349b11",
+        "text": "mini projects  synthetic textures cpc",
+        "url": "\/mini-projects\/22-synthetic-textures-cpc\/index.html",
+        "tag": " #mini #projects # #synthetic #textures #cpc",
+        "id": "783e02cb32b024668c9fc03abcdcc649",
         "time": "1690923601"
     },
     {
-        "text": "mini projects snow",
-        "url": "\/mini-projects\/snow\/index.html",
-        "tag": " #mini #projects #snow",
-        "id": "8ee422a885c0c5d84595c7e51b55b8e9",
+        "text": "mini projects  sun cpc",
+        "url": "\/mini-projects\/21-sun-cpc\/index.html",
+        "tag": " #mini #projects # #sun #cpc",
+        "id": "6f7bdc59076cb39f1270afb1797588ac",
         "time": "1690923601"
     },
     {
-        "text": "mini projects round cpc",
-        "url": "\/mini-projects\/round-cpc\/index.html",
-        "tag": " #mini #projects #round #cpc",
-        "id": "63c5592971580e497e57539ec3266d77",
+        "text": "mini projects  snow",
+        "url": "\/mini-projects\/20-snow\/index.html",
+        "tag": " #mini #projects # #snow",
+        "id": "b6855f83e99ff8192058eba75493b3e1",
         "time": "1690923601"
     },
     {
-        "text": "mini projects random button cpc",
-        "url": "\/mini-projects\/random-button-cpc\/index.html",
-        "tag": " #mini #projects #random #button #cpc",
-        "id": "d4c09fa105cb1e48e77037772fe7cddb",
+        "text": "mini projects  round cpc",
+        "url": "\/mini-projects\/19-round-cpc\/index.html",
+        "tag": " #mini #projects # #round #cpc",
+        "id": "874fa6050cc3b843d7b8bdb03cac589d",
         "time": "1690923601"
     },
     {
-        "text": "mini projects rain cpc",
-        "url": "\/mini-projects\/rain-cpc\/index.html",
-        "tag": " #mini #projects #rain #cpc",
-        "id": "8045a6feb30c7ed35412044ac7a91070",
+        "text": "mini projects  random button cpc",
+        "url": "\/mini-projects\/18-random-button-cpc\/index.html",
+        "tag": " #mini #projects # #random #button #cpc",
+        "id": "95e615b1d9b262f3b0b8a887ffcddbab",
         "time": "1690923601"
     },
     {
-        "text": "mini projects quote poster cpc",
-        "url": "\/mini-projects\/quote-poster-cpc\/index.html",
-        "tag": " #mini #projects #quote #poster #cpc",
-        "id": "23b926dfed91c830435feff396ae2884",
+        "text": "mini projects  rain cpc",
+        "url": "\/mini-projects\/17-rain-cpc\/index.html",
+        "tag": " #mini #projects # #rain #cpc",
+        "id": "5eac798899a81b2f744fc238885e0149",
         "time": "1690923601"
     },
     {
-        "text": "mini projects pumpkin",
-        "url": "\/mini-projects\/pumpkin\/index.html",
-        "tag": " #mini #projects #pumpkin",
-        "id": "e7028e2f827e4e964e16bb86cca41712",
+        "text": "mini projects  quote poster cpc",
+        "url": "\/mini-projects\/16-quote-poster-cpc\/index.html",
+        "tag": " #mini #projects # #quote #poster #cpc",
+        "id": "fbe72000173c4313e233af1c04796714",
         "time": "1690923601"
     },
     {
-        "text": "mini projects pull quotes cpc",
-        "url": "\/mini-projects\/pull-quotes-cpc\/index.html",
-        "tag": " #mini #projects #pull #quotes #cpc",
-        "id": "441002173bed4659933067d667eff383",
+        "text": "mini projects  pumpkin",
+        "url": "\/mini-projects\/15-pumpkin\/index.html",
+        "tag": " #mini #projects # #pumpkin",
+        "id": "376ea8cd922b065ec1fbafa3fec77243",
         "time": "1690923601"
     },
     {
-        "text": "mini projects old windows os popup",
-        "url": "\/mini-projects\/old-windows-os-popup\/index.html",
-        "tag": " #mini #projects #old #windows #os #popup",
-        "id": "9ca308e7a7a58423717123622795e20b",
+        "text": "mini projects  pull quotes cpc",
+        "url": "\/mini-projects\/14-pull-quotes-cpc\/index.html",
+        "tag": " #mini #projects # #pull #quotes #cpc",
+        "id": "d8b473ee81b817ed3649e9f8c2f16fe6",
         "time": "1690923601"
     },
     {
-        "text": "mini projects not sleep pc",
-        "url": "\/mini-projects\/not-sleep-pc\/index.html",
-        "tag": " #mini #projects #not #sleep #pc",
-        "id": "38f90f9bf28c333534f3acdcf17f438a",
+        "text": "mini projects  old windows os popup",
+        "url": "\/mini-projects\/13-old-windows-os-popup\/index.html",
+        "tag": " #mini #projects # #old #windows #os #popup",
+        "id": "435e456190cf4ffc44803a899983412f",
         "time": "1690923601"
     },
     {
-        "text": "mini projects matrix",
-        "url": "\/mini-projects\/matrix\/index.html",
-        "tag": " #mini #projects #matrix",
-        "id": "5606fc27d8ab167e15d095e4a20c2e8e",
+        "text": "mini projects  not sleep pc",
+        "url": "\/mini-projects\/12-not-sleep-pc\/index.html",
+        "tag": " #mini #projects # #not #sleep #pc",
+        "id": "ab992838622f3674c98fdf1e43775748",
         "time": "1690923601"
     },
     {
-        "text": "mini projects earth textures cpc",
-        "url": "\/mini-projects\/earth-textures-cpc\/index.html",
-        "tag": " #mini #projects #earth #textures #cpc",
-        "id": "b13e7e7f665590ca7f13431b3772654d",
+        "text": "mini projects  matrix",
+        "url": "\/mini-projects\/11-matrix\/index.html",
+        "tag": " #mini #projects # #matrix",
+        "id": "ec2ccd85559e6edb2809a74759d206ed",
         "time": "1690923601"
     },
     {
-        "text": "mini projects css pc",
-        "url": "\/mini-projects\/css-pc\/index.html",
-        "tag": " #mini #projects #css #pc",
-        "id": "cc8b81f3abd3ffa559e6a77b9bf794ac",
+        "text": "mini projects  earth textures cpc",
+        "url": "\/mini-projects\/10-earth-textures-cpc\/index.html",
+        "tag": " #mini #projects # #earth #textures #cpc",
+        "id": "ba4f128c83d4b4349d3dfcc1b06c4bf3",
         "time": "1690923601"
     },
     {
-        "text": "mini projects blockquotes cpc",
-        "url": "\/mini-projects\/blockquotes-cpc\/index.html",
-        "tag": " #mini #projects #blockquotes #cpc",
-        "id": "a3c018f2c6b1fedbca30e020d448b3d2",
+        "text": "mini projects  css pc",
+        "url": "\/mini-projects\/9-css-pc\/index.html",
+        "tag": " #mini #projects # #css #pc",
+        "id": "3f9e44f452d9470a97964afd3acaae39",
         "time": "1690923601"
     },
     {
-        "text": "mini projects balloon",
-        "url": "\/mini-projects\/balloon\/index.html",
-        "tag": " #mini #projects #balloon",
-        "id": "97f69230ad7de13ce41e5bd493a46c4b",
+        "text": "mini projects  blockquotes cpc",
+        "url": "\/mini-projects\/8-blockquotes-cpc\/index.html",
+        "tag": " #mini #projects # #blockquotes #cpc",
+        "id": "b2764606299fa9d0fb8500c49411d079",
         "time": "1690923601"
     },
     {
-        "text": "mini projects animation test",
-        "url": "\/mini-projects\/animation-test\/index.html",
-        "tag": " #mini #projects #animation #test",
-        "id": "e7d10be68359b321445fd89a1e336e61",
+        "text": "mini projects  balloon",
+        "url": "\/mini-projects\/7-balloon\/index.html",
+        "tag": " #mini #projects # #balloon",
+        "id": "f2d94d52d56e5e23ed1755b8016cfdb2",
         "time": "1690923601"
     },
     {
-        "text": "mini projects animation border button",
-        "url": "\/mini-projects\/animation-border-button\/index.html",
-        "tag": " #mini #projects #animation #border #button",
-        "id": "5033c62c7fba7f4b12f1bed740fa2a34",
+        "text": "mini projects  animation test",
+        "url": "\/mini-projects\/6-animation-test\/index.html",
+        "tag": " #mini #projects # #animation #test",
+        "id": "fc2bd86f385684b36c56dc4acd805e3a",
         "time": "1690923601"
     },
     {
-        "text": "mini projects angled light walpaper",
-        "url": "\/mini-projects\/angled-light-walpaper\/index.html",
-        "tag": " #mini #projects #angled #light #walpaper",
-        "id": "68286f932dfd200783faf524757a65c8",
+        "text": "mini projects  animation border button",
+        "url": "\/mini-projects\/5-animation-border-button\/index.html",
+        "tag": " #mini #projects # #animation #border #button",
+        "id": "f598c9d6c26fc50fda26c13d345ddcc9",
         "time": "1690923601"
     },
     {
-        "text": "mini projects angled",
-        "url": "\/mini-projects\/angled\/index.html",
-        "tag": " #mini #projects #angled",
-        "id": "538b811b30ea662177d99a26fb11ffbc",
+        "text": "mini projects  angled light walpaper",
+        "url": "\/mini-projects\/4-angled-light-walpaper\/index.html",
+        "tag": " #mini #projects # #angled #light #walpaper",
+        "id": "42be871a944716d71fac281c1c64c7cb",
         "time": "1690923601"
     },
     {
-        "text": "mini projects adaptive web design",
-        "url": "\/mini-projects\/adaptive-web-design\/index.html",
-        "tag": " #mini #projects #adaptive #web #design",
-        "id": "9b5240fcc9833b9e3428c42b792b28bf",
+        "text": "mini projects  angled",
+        "url": "\/mini-projects\/3-angled\/index.html",
+        "tag": " #mini #projects # #angled",
+        "id": "8fe3f3a0b6518b0b7440b411606400f5",
         "time": "1690923601"
     },
     {
-        "text": "mini projects about blank",
-        "url": "\/mini-projects\/about-blank\/index.html",
-        "tag": " #mini #projects #about #blank",
-        "id": "ed845e02757600527bea87a71f1bd358",
+        "text": "mini projects  adaptive web design",
+        "url": "\/mini-projects\/2-adaptive-web-design\/index.html",
+        "tag": " #mini #projects # #adaptive #web #design",
+        "id": "efc6c04c74fff0091fb13f57639e3d3e",
+        "time": "1690923601"
+    },
+    {
+        "text": "mini projects  about blank",
+        "url": "\/mini-projects\/1-about-blank\/index.html",
+        "tag": " #mini #projects # #about #blank",
+        "id": "e8c7b01c07727b7899484fbe11fe34fd",
         "time": "1690923601"
     },
     {

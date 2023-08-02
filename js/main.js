@@ -1,4 +1,4 @@
-// v.3.3.26
+// v.3.3.27
 
 // conf
 var symbolForSplit = 'pwxortuzqu'; // for split
@@ -44,8 +44,8 @@ mainPrintMsg('footer', `
 <span><a href="https://x.com/inonehp">X</a></span>
 <span><a href="/rss.xml">RSS</a></span>
 <span id="fPrivacy"><a href="/privacy.${confExt}">cookie: status</a></span>
-<!--<span id="fApp"><a href="/app.${confExt}"></a></span>
-<span id="fAds"><a href="/ads.${confExt}">ads: ${localStorage.getItem('confAdsStatus')}</a></span>-->
+<!--<span id="fApp"><a href="/app.${confExt}"></a></span>-->
+<span id="fAds"><a href="/ads.${confExt}">ads: ${localStorage.getItem('confAdsStatus')}</a></span>
 
 <!--
 <span id="fDonate"><a href="/about.${confExt}#donate">donate</a></span>-->
