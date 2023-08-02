@@ -1,4 +1,4 @@
-// v.3.3.27
+// v.3.3.28
 
 // conf
 var symbolForSplit = 'pwxortuzqu'; // for split
@@ -41,7 +41,7 @@ mainPrintMsg('footer', `
 <asdf id="fStyle"></asdf>
 
 <span id="fTheme"><a href="/theme.${confExt}">Themes</a></span>
-<span><a href="https://x.com/inonehp">X</a></span>
+<span><a href="https://x.com/inonehp">Twi/X</a></span>
 <span><a href="/rss.xml">RSS</a></span>
 <span id="fPrivacy"><a href="/privacy.${confExt}">cookie: status</a></span>
 <!--<span id="fApp"><a href="/app.${confExt}"></a></span>-->
@@ -54,7 +54,7 @@ mainPrintMsg('footer', `
 
 <span><a rel="license" title="license" href="https://creativecommons.org/licenses/by-sa/4.0/">license: CC BY-SA 4.0</a></span>
 
-<span><a rel="license" title="license 2" href="/copyright.${confExt}">Some © Copyright</a></span>
+<span><a rel="license" title="license 2" href="/copyright.${confExt}">Some ©</a></span>
 
 </div>
 

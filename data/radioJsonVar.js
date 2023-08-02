@@ -141,13 +141,6 @@ var radioJsonVar =
         "tag": "#radio #RadioMusic #90"
     },
     {
-        "text": "\u00c5re Media Network",
-        "text2": "http:\/\/radio.aremedia.se:8000\/;",
-        "text3": "mp3",
-        "url": "http:\/\/aremedia.se\/",
-        "tag": "#radio #top40 #pop"
-    },
-    {
         "text": "Asculta Radio Romania Antena Satelor | Radio Antena Satelor",
         "text2": "http:\/\/stream2.srr.ro:8042\/;",
         "text3": "mp3",

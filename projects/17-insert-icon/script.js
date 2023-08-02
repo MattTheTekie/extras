@@ -105,6 +105,7 @@ let icons = {
 "violet":"🟪",
 "blue":"🟦",
 
+"behance":`<img src="/img/icons/behance-128x128.png" alt="ico" width="16" height="16">`,
 "php":`<img src="/img/icons/php-128x128.png" alt="ico" width="16" height="16">`,
 "apache":`<img src="/img/icons/apache-128x128.png" alt="ico" width="16" height="16">`,
 "gimp":`<img src="/img/icons/gimp-128x128.png" alt="ico" width="16" height="16">`,
