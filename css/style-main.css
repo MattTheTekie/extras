@@ -1,4 +1,4 @@
-/* v.12.31.6 */
+/* v.12.31.7 */
 
 * {  color-scheme: light dark; } /* view-source:about:blank */ /* fixed #fff blink */
 
@@ -371,7 +371,8 @@ scroll-padding-top: 16px;
 
 /* fixed */
 
-h1, h2, h3, h4, h5, h6, .bold, .b, b { word-break: break-all; letter-spacing: 1px; }
+h1, h2, h3, h4, h5, h6 { word-break: break-all; }
+h1, h2, h3, h4, h5, h6, .bold, .b, b { letter-spacing: 0.2px; }
 
 @media(max-width: 200px) { div, input, textarea, a{ word-break: break-all; } }
 
