@@ -37,5 +37,5 @@ overflow: auto;
 }*/
 
 
-textarea { min-height: 20vh; }
+textarea { min-height: 10vh; }
 html { scroll-padding-top: 15px; }
