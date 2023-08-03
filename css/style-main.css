@@ -1,4 +1,4 @@
-/* v.12.31.4 */
+/* v.12.31.6 */
 
 * {  color-scheme: light dark; } /* view-source:about:blank */ /* fixed #fff blink */
 
@@ -55,7 +55,6 @@ html { height: -webkit-fill-available; } /* comment for validator */
 header, footer {
 flex-shrink: 0;
 text-align: center;
-margin-top: 53px;
 width: 100%;
 }
 header{ margin: 0 auto; }
@@ -372,7 +371,7 @@ scroll-padding-top: 16px;
 
 /* fixed */
 
-h1, h2, h3, h4, h5, h6 { word-break: break-all; }
+h1, h2, h3, h4, h5, h6, .bold, .b, b { word-break: break-all; letter-spacing: 1px; }
 
 @media(max-width: 200px) { div, input, textarea, a{ word-break: break-all; } }
 
