@@ -1,38 +1,41 @@
-/* v.2.1.0 */
+/* v.2.0.0 */
 
 
-.localWrapper {
+.content {
 display: flex;
 flex-direction: column;
 justify-content: center;
-align-items: safe center;
-align-self: safe center;
+align-items: safe-center;
+align-self: safe-center;
 box-sizing: border-box;
 margin: 0 auto;
-height: 90vh;
 margin-bottom: 0;
+overflow: hidden;
 }
 
 
+.localBg {
 
-.localBg::before {
-width: 100%;
+display: block;
 height: 100%;
-content: "";
+width: 100%;
 position: absolute;
+top: 0;
+left: 0;
 z-index: -2;
-bottom: 0;
-right: 0;
+
 background-image: url('/img/tpl/circle.svg');
 background-size: 100%;
-background-position: top;
+background-position: top right;
 background-repeat: no-repeat;
+overflow: hidden;
 }
 
-.localBg2::before {
-width: 100%;
+.localBg2 {
+
+display: block;
+width: 140px;
 height: 100%;
-content: "";
 position: absolute;
 z-index: -2;
 bottom: 10vh;
@@ -44,7 +47,7 @@ background-repeat: no-repeat;
 }
 
 @media (prefers-color-scheme: dark) {
-.localBg::before, .localBg2::before { opacity: 0.5; }
+.localBg, .localBg2 { opacity: 0.5; }
 }
 
 
@@ -77,14 +80,13 @@ border-bottom: 3px solid var(--orange);
 
 /*@media(max-width: 512px) { .profilePhoto { background-size: cover; } }*/
 
-.profile {
+.localProfile {
 width: 100%
 text-align: left;
-border-bottom: 3px dotted var(--c);
-border-right: 3px dotted var(--c);
-border-radius: 0 50% 50% 0;
+border-bottom: 5px dotted var(--c);
+border-radius: 0 0 50% 0;
 }
-.profile span { display: inline-block; padding: 10px; }
+.localProfile span { display: inline-block; padding: 10px; }
 
 /* color theme */
 
@@ -168,7 +170,7 @@ html{ scrollbar-color: var(--d4) var(--l2); }
 --violet2: #D8B8D9;
 }
 
-html::before, .dd, .logo, .logo2, .profilePhoto { /*filter: invert(70%); */ filter: brightness(70%); }
+html::before, .dd, .logo, .logo2 { /*filter: invert(70%); */ filter: brightness(70%); }
 
 input[type="submit"] { background: var(--l); color: var(--c2); }
 input[type="submit"]:hover { background: var(--d); color: var(--c3); }
@@ -196,8 +198,7 @@ nav input[type=search] { padding: 5px; min-height: 10px; }
 
 /* fix */
 
-body, html { width: 100%; max-width: 1000px; }
-
+html { max-width: 1000px; }
 
 
 
