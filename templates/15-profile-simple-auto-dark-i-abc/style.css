@@ -36,15 +36,15 @@ content: "";
 position: absolute;
 z-index: -2;
 bottom: 10vh;
-right: 5vw;
+left: 5vw;
 background-image: url('/img/tpl/coffe.svg');
 background-size: 140px;
-background-position: bottom right;
+background-position: bottom left;
 background-repeat: no-repeat;
 }
 
 @media (prefers-color-scheme: dark) {
-.localBg::before, .localBg2::before { opacity: 0.2; }
+.localBg::before, .localBg2::before { opacity: 0.5; }
 }
 
 
@@ -68,20 +68,23 @@ font-size: 16px;
 }
 
 .localName::first-letter, .localDesc::first-letter {
-color: var(--c4);
+color: var(--orange);
 font-weight: 900;
-border-bottom: 3px solid var(--c4);
+border-bottom: 3px solid var(--orange);
 }
 
 
 
 /*@media(max-width: 512px) { .profilePhoto { background-size: cover; } }*/
 
-.profileFooter {
+.profile {
 width: 100%
 text-align: left;
+border-bottom: 3px dotted var(--c);
+border-right: 3px dotted var(--c);
+border-radius: 0 50% 50% 0;
 }
-.profileFooter span { display: inline-block; padding: 10px; }
+.profile span { display: inline-block; padding: 10px; }
 
 /* color theme */
 
@@ -190,3 +193,14 @@ transform: rotate(360deg);
 
 nav form { display: inline-block; max-width: 130px; }
 nav input[type=search] { padding: 5px; min-height: 10px; }
+
+/* fix */
+
+body, html { width: 100%; max-width: 1000px; }
+
+
+
+
+
+
+
