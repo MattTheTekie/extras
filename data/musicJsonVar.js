@@ -1093,6 +1093,34 @@ var musicJsonVar =
         "tag": "#music"
     },
     {
+        "text": "Beastie Boys - (You Gotta) Fight For Your Right (To Party) (Official Music Video) - YouTube",
+        "text2": "",
+        "text3": "",
+        "url": "https:\/\/www.youtube.com\/watch?v=eBShN8qT4lk",
+        "tag": "#music"
+    },
+    {
+        "text": "Beastie Boys - Alive (At Yauch's House Remix) - YouTube",
+        "text2": "",
+        "text3": "",
+        "url": "https:\/\/www.youtube.com\/watch?v=VqTfTsZVPMM",
+        "tag": "#music"
+    },
+    {
+        "text": "Beastie Boys - Alive - YouTube",
+        "text2": "",
+        "text3": "",
+        "url": "https:\/\/www.youtube.com\/watch?v=JkeE2O15RFs",
+        "tag": "#music"
+    },
+    {
+        "text": "Beastie Boys - An Open Letter To NYC - YouTube",
+        "text2": "",
+        "text3": "",
+        "url": "https:\/\/www.youtube.com\/watch?v=ny6hwUOFvlw",
+        "tag": "#music"
+    },
+    {
         "text": "Beastie Boys - Body Movin' (Official Music Video) - YouTube",
         "text2": "",
         "text3": "",
@@ -1100,10 +1128,164 @@ var musicJsonVar =
         "tag": "#music"
     },
     {
+        "text": "Beastie Boys - Ch-Check It Out - YouTube",
+        "text2": "",
+        "text3": "",
+        "url": "https:\/\/www.youtube.com\/watch?v=6iuGp9gUeNk",
+        "tag": "#music"
+    },
+    {
+        "text": "Beastie Boys - Don't Play No Game That I Can't Win (Episodic) ft. Santigold - YouTube",
+        "text2": "",
+        "text3": "",
+        "url": "https:\/\/www.youtube.com\/watch?v=lEgduwsINW8",
+        "tag": "#music"
+    },
+    {
         "text": "Beastie Boys - Don't Play No Game That I Can't Win (Full Length) ft. Santigold - YouTube",
         "text2": "",
         "text3": "",
         "url": "https:\/\/www.youtube.com\/watch?v=w-QIiVS_7Hs",
+        "tag": "#music"
+    },
+    {
+        "text": "Beastie Boys - Hey Ladies - YouTube",
+        "text2": "",
+        "text3": "",
+        "url": "https:\/\/www.youtube.com\/watch?v=Naf5uJYGoiU",
+        "tag": "#music"
+    },
+    {
+        "text": "Beastie Boys - Hold It Now, Hit It (Official Music Video) - YouTube",
+        "text2": "",
+        "text3": "",
+        "url": "https:\/\/www.youtube.com\/watch?v=oB0NM6reiRE",
+        "tag": "#music"
+    },
+    {
+        "text": "Beastie Boys - Intergalactic - YouTube",
+        "text2": "",
+        "text3": "",
+        "url": "https:\/\/www.youtube.com\/watch?v=qORYO0atB6g",
+        "tag": "#music"
+    },
+    {
+        "text": "Beastie Boys - Jimmy James (Official Music Video) - YouTube",
+        "text2": "",
+        "text3": "",
+        "url": "https:\/\/www.youtube.com\/watch?v=vw5i7TPkYfI",
+        "tag": "#music"
+    },
+    {
+        "text": "Beastie Boys - Looking Down The Barrel Of A Gun - YouTube",
+        "text2": "",
+        "text3": "",
+        "url": "https:\/\/www.youtube.com\/watch?v=yr1Qe2m8oOA",
+        "tag": "#music"
+    },
+    {
+        "text": "Beastie Boys - Make Some Noise - YouTube",
+        "text2": "",
+        "text3": "",
+        "url": "https:\/\/www.youtube.com\/watch?v=WdgLMslbDuY",
+        "tag": "#music"
+    },
+    {
+        "text": "Beastie Boys - No Sleep Till Brooklyn (Official Music Video) - YouTube",
+        "text2": "",
+        "text3": "",
+        "url": "https:\/\/www.youtube.com\/watch?v=07Y0cy-nvAg",
+        "tag": "#music"
+    },
+    {
+        "text": "Beastie Boys - Pass the Mic (Official Music Video) - YouTube",
+        "text2": "",
+        "text3": "",
+        "url": "https:\/\/www.youtube.com\/watch?v=NpsvBvwRuf0",
+        "tag": "#music"
+    },
+    {
+        "text": "Beastie Boys - Rhyme The Rhyme Well (With Skit) - YouTube",
+        "text2": "",
+        "text3": "",
+        "url": "https:\/\/www.youtube.com\/watch?v=OcXHWn6JL2o",
+        "tag": "#music"
+    },
+    {
+        "text": "Beastie Boys - Ricky's Theme - YouTube",
+        "text2": "",
+        "text3": "",
+        "url": "https:\/\/www.youtube.com\/watch?v=I0LUiN3TKKs",
+        "tag": "#music"
+    },
+    {
+        "text": "Beastie Boys - Right Right Now Now - YouTube",
+        "text2": "",
+        "text3": "",
+        "url": "https:\/\/www.youtube.com\/watch?v=DGDQJdCIPv0",
+        "tag": "#music"
+    },
+    {
+        "text": "Beastie Boys - Root Down - YouTube",
+        "text2": "",
+        "text3": "",
+        "url": "https:\/\/www.youtube.com\/watch?v=Xf1YF_MH1xc",
+        "tag": "#music"
+    },
+    {
+        "text": "Beastie Boys - Sabotage - YouTube",
+        "text2": "",
+        "text3": "",
+        "url": "https:\/\/www.youtube.com\/watch?v=z5rRZdiu1UE",
+        "tag": "#music"
+    },
+    {
+        "text": "Beastie Boys - Shadrach (Abstract Impressionist Version) - YouTube",
+        "text2": "",
+        "text3": "",
+        "url": "https:\/\/www.youtube.com\/watch?v=MEVfHmjKOrM",
+        "tag": "#music"
+    },
+    {
+        "text": "Beastie Boys - Shadrach (Mosh Version, Live At The Reseda Country Club, 1990) - YouTube",
+        "text2": "",
+        "text3": "",
+        "url": "https:\/\/www.youtube.com\/watch?v=k9SGrNuJj9U",
+        "tag": "#music"
+    },
+    {
+        "text": "Beastie Boys - Shake Your Rump - YouTube",
+        "text2": "",
+        "text3": "",
+        "url": "https:\/\/www.youtube.com\/watch?v=BptQHAW2T5M",
+        "tag": "#music"
+    },
+    {
+        "text": "Beastie Boys - She's On It (Official Music Video) - YouTube",
+        "text2": "",
+        "text3": "",
+        "url": "https:\/\/www.youtube.com\/watch?v=9PLfjhQG97I",
+        "tag": "#music"
+    },
+    {
+        "text": "Beastie Boys - So What'Cha Want - YouTube",
+        "text2": "",
+        "text3": "",
+        "url": "https:\/\/www.youtube.com\/watch?v=ru3gH27Fn6E",
+        "tag": "#music"
+    },
+    {
+        "text": "Beastie Boys - Sure Shot - YouTube",
+        "text2": "",
+        "text3": "",
+        "url": "https:\/\/www.youtube.com\/watch?v=JhqyZeUlE8U",
+        "tag": "#music"
+    },
+    {
+        "text": "Beastie Boys - Triple Trouble - YouTube",
+        "text2": "",
+        "text3": "",
+        "url": "https:\/\/www.youtube.com\/watch?v=QTcJq80GeLw",
         "tag": "#music"
     },
     {
@@ -1660,6 +1842,13 @@ var musicJsonVar =
         "tag": "#music"
     },
     {
+        "text": "Bloody Mary \u00b7 Lady Gaga",
+        "text2": "",
+        "text3": "",
+        "url": "https:\/\/www.youtube.com\/watch?v=1e32cgJrbBo",
+        "tag": "#music"
+    },
+    {
         "text": "Blue Boy - Remember Me (Original 12\") - YouTube",
         "text2": "",
         "text3": "",
@@ -1800,10 +1989,31 @@ var musicJsonVar =
         "tag": "#music"
     },
     {
+        "text": "Britney Spears - Break The Ice (Official HD Video) - YouTube",
+        "text2": "",
+        "text3": "",
+        "url": "https:\/\/www.youtube.com\/watch?v=eQFIKP9rGhQ",
+        "tag": "#music"
+    },
+    {
+        "text": "Britney Spears - Circus (Official HD Video) - YouTube",
+        "text2": "",
+        "text3": "",
+        "url": "https:\/\/www.youtube.com\/watch?v=lVhJ_A8XUgc",
+        "tag": "#music"
+    },
+    {
         "text": "Britney Spears - Gimme More (Official HD Video) - YouTube",
         "text2": "",
         "text3": "",
         "url": "https:\/\/www.youtube.com\/watch?v=elueA2rofoo",
+        "tag": "#music"
+    },
+    {
+        "text": "Britney Spears - If U Seek Amy (Official HD Video) - YouTube",
+        "text2": "",
+        "text3": "",
+        "url": "https:\/\/www.youtube.com\/watch?v=0aEnnH6t8Ts",
         "tag": "#music"
     },
     {
@@ -1958,6 +2168,48 @@ var musicJsonVar =
         "text2": "",
         "text3": "",
         "url": "https:\/\/www.youtube.com\/watch?v=BSgcuGePbco",
+        "tag": "#music"
+    },
+    {
+        "text": "CAKE - Frank Sinatra (Official HD Video) - YouTube",
+        "text2": "",
+        "text3": "",
+        "url": "https:\/\/www.youtube.com\/watch?v=7xw49Y-bYYk",
+        "tag": "#music"
+    },
+    {
+        "text": "CAKE - I Will Survive (Official HD Video) - YouTube",
+        "text2": "",
+        "text3": "",
+        "url": "https:\/\/www.youtube.com\/watch?v=f9rCUQjmkxU",
+        "tag": "#music"
+    },
+    {
+        "text": "CAKE - Love You Madly (Official Video) - YouTube",
+        "text2": "",
+        "text3": "",
+        "url": "https:\/\/www.youtube.com\/watch?v=eRpQpufe110",
+        "tag": "#music"
+    },
+    {
+        "text": "CAKE - Never There (Official HD Video) - YouTube",
+        "text2": "",
+        "text3": "",
+        "url": "https:\/\/www.youtube.com\/watch?v=FRZzUh9hcTo",
+        "tag": "#music"
+    },
+    {
+        "text": "CAKE - Perhaps, Perhaps, Perhaps (Official Audio) - YouTube",
+        "text2": "",
+        "text3": "",
+        "url": "https:\/\/www.youtube.com\/watch?v=Xhgta611Pls",
+        "tag": "#music"
+    },
+    {
+        "text": "CAKE - The Distance (Official HD Video) - YouTube",
+        "text2": "",
+        "text3": "",
+        "url": "https:\/\/www.youtube.com\/watch?v=F_HoMkkRHv8",
         "tag": "#music"
     },
     {
@@ -5027,6 +5279,13 @@ var musicJsonVar =
         "tag": "#music"
     },
     {
+        "text": "Guitar \u00b7 CAKE",
+        "text2": "",
+        "text3": "",
+        "url": "https:\/\/www.youtube.com\/watch?v=Ng-ISBKJ3dw",
+        "tag": "#music"
+    },
+    {
         "text": "Gwen Stefani - Hollaback Girl (Official Music Video) - YouTube",
         "text2": "",
         "text3": "",
@@ -5150,6 +5409,13 @@ var musicJsonVar =
         "text2": "",
         "text3": "",
         "url": "https:\/\/www.youtube.com\/watch?v=ycbYMQRSwjc",
+        "tag": "#music"
+    },
+    {
+        "text": "Hem Of Your Garment \u00b7 CAKE",
+        "text2": "",
+        "text3": "",
+        "url": "https:\/\/www.youtube.com\/watch?v=_0330Pyd3yI",
         "tag": "#music"
     },
     {
@@ -6242,6 +6508,13 @@ var musicJsonVar =
         "text2": "",
         "text3": "",
         "url": "https:\/\/www.youtube.com\/watch?v=65_8xq5KobA",
+        "tag": "#music"
+    },
+    {
+        "text": "Just A Test (Remastered 2009) \u00b7 Beastie Boys",
+        "text2": "",
+        "text3": "",
+        "url": "https:\/\/www.youtube.com\/watch?v=QpCyigmaFuU",
         "tag": "#music"
     },
     {
@@ -8450,6 +8723,13 @@ var musicJsonVar =
         "tag": "#music"
     },
     {
+        "text": "Mr. Mastodon Farm \u00b7 Cake",
+        "text2": "",
+        "text3": "",
+        "url": "https:\/\/www.youtube.com\/watch?v=7AF9GVjS_bs",
+        "tag": "#music"
+    },
+    {
         "text": "Mr. Sandman \u00b7 The Chordettes",
         "text2": "",
         "text3": "",
@@ -9903,6 +10183,13 @@ var musicJsonVar =
         "text2": "",
         "text3": "",
         "url": "https:\/\/www.youtube.com\/watch?v=8Gn_LA3t_n0",
+        "tag": "#music"
+    },
+    {
+        "text": "Remote Control (Remastered 2009) \u00b7 Beastie Boys",
+        "text2": "",
+        "text3": "",
+        "url": "https:\/\/www.youtube.com\/watch?v=Hop9czuYCfg",
         "tag": "#music"
     },
     {
@@ -12934,6 +13221,13 @@ var musicJsonVar =
         "text2": "",
         "text3": "",
         "url": "https:\/\/www.youtube.com\/watch?v=rEXpPLYXF00",
+        "tag": "#music"
+    },
+    {
+        "text": "Virtual Insanity \u00b7 Jamiroquai",
+        "text2": "",
+        "text3": "",
+        "url": "https:\/\/www.youtube.com\/watch?v=N4g4502eGfk",
         "tag": "#music"
     },
     {

@@ -1,4 +1,4 @@
-// v.1.1.61
+// v.1.1.62
 
 
 
@@ -631,37 +631,22 @@ case 'mus#':
 q = q3.replace(q2, '');
 q = q.trim();
 q = encodeURIComponent(q);
-urlList = [
-"https://www.bbc.co.uk/sounds/play/live:bbc_radio_one_dance",
-"https://www.bbc.co.uk/sounds/play/live:bbc_radio_one",
-"https://www.bbc.co.uk/sounds/play/live:bbc_1xtra",
-"https://www.bbc.co.uk/sounds/play/live:bbc_6music"
-];
-if(confDevice == 'mobile'){
-urlList.push("https://kexp.org/");
-}else{
-urlList.push("https://tunein.com/radio/KEXP-903-s32537/");
-urlList.push("https://tunein.com/radio/KEXP-903-s32537/");
-}
-random = Math.floor(Math.random() * urlList.length);
-url = urlList[random];
+
+sRedirUrl = "/projects/22-radio/?q="+encodeURIComponent("#RadioMusic");
+
 if(q != ''){
-urlList = [
-"?q=n"
-];
-random = Math.floor(Math.random() * urlList.length);
 url = "/?q="+q+' m';
-}
 sRedirUrl = url;
+}
 break;
 
 case 'ti#':
-sRedirUrl = "/projects/timer/";
+sRedirUrl = "/projects/30-time-stopwatch/";
 break;
 
 case 'ra#':
 case 'rad#':
-sRedirUrl = "/projects/radio/";
+sRedirUrl = "/projects/22-radio/";
 break;
 
 case 'si#':
@@ -675,7 +660,7 @@ sRedirUrl = url;
 break;
 
 case 'mm#':
-sRedirUrl = "/projects/music/";
+sRedirUrl = "/projects/20-music/";
 break;
 
 case 'bb#':
