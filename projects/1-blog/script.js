@@ -1,4 +1,4 @@
-// v.1.17.10
+// v.1.17.11
 
 // inspired by Twitter, Fediverse
 // not for large Json files
@@ -299,7 +299,8 @@ comMessagePrint = 'id: '+postId;
 // post in title only when id
 if(id != ''&&getP2 == null){
 //document.getElementsByTagName('title')[0].innerHTML = postText.slice(0, 60);
-document.getElementsByTagName('title')[0].innerHTML = (postText).slice(0, 270);
+document.getElementsByTagName('title')[0].innerHTML = (postText).slice(0, 260);
+document.getElementsByTagName('title')[0].innerHTML += ' | '+domainNameToTitle;
 }
 if(getP2 != null){
 comMessagePrint += ' p2: '+getP2;

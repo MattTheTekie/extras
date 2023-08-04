@@ -1,4 +1,4 @@
-// v.1.0.5
+// v.1.0.6
 // copy paste cp from Music
 
 
@@ -94,6 +94,7 @@ i++;
 total = i;
 comMessagePrint = `<b class="tCenter"><span class="op">${lTitle}</span><br><br>${q2} ${i}</b>`;
 document.getElementsByTagName('title')[0].innerHTML = `${lTitle} ${q2}`;
+document.getElementsByTagName('title')[0].innerHTML += ' | '+domainNameToTitle;
 }
 
 

@@ -6,7 +6,7 @@ var blogJsonVar =
         "text2": "",
         "text3": "",
         "url": "",
-        "tag": "#i",
+        "tag": "#update",
         "time": 1691110635
     },
     {

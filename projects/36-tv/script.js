@@ -1,4 +1,4 @@
-// v.1.2.14
+// v.1.2.15
 
 function randomRadio(printId, jsonVar){
 
@@ -89,6 +89,7 @@ i++;
 total = i;
 comMessagePrint = `<b class="tCenter"><span class="op">Random TV</span><br><br>${q2} ${i}</b>`;
 document.getElementsByTagName('title')[0].innerHTML = `Random TV ${q2}`;
+document.getElementsByTagName('title')[0].innerHTML += ' | '+domainNameToTitle;
 }
 
 
