@@ -1,6 +1,15 @@
 var blogJsonVar = 
 [
     {
+        "id": "139",
+        "text": "Update:\r\n- projects directories renamed\r\n- few new template and updated",
+        "text2": "",
+        "text3": "",
+        "url": "",
+        "tag": "#i",
+        "time": 1691110635
+    },
+    {
         "id": "138",
         "text": "Ubuntu 23.10 Swapping DejaVu for Noto Fonts - OMG! Ubuntu",
         "text2": "",

@@ -16,6 +16,23 @@
 </image>
 
 <item>
+<pubDate>Fri, 04 Aug 23 03:57:15 +0300</pubDate>
+<title><![CDATA[Update:
+- projects directories renamed
+- few new template and updated ]]></title>
+<link><![CDATA[http://inonehp.github.io/blog.html?id=139#139]]></link>
+<description>
+<![CDATA[
+<div class="post border2">
+Update:
+- projects directories renamed
+- few new template and updated 
+</div>
+]]>
+</description>
+</item>
+
+<item>
 <pubDate>Mon, 31 Jul 23 22:15:45 +0300</pubDate>
 <title><![CDATA[Ubuntu 23.10 Swapping DejaVu for Noto Fonts - OMG! Ubuntu  ]]></title>
 <link><![CDATA[https://www.omgubuntu.co.uk/2023/07/ubuntu-noto-fonts-change-mantic]]></link>
@@ -127,19 +144,6 @@ Web Design Blog | Web Designer Depot <a class="brand" target="_blank" href="http
 <![CDATA[
 <div class="post border2">
 box-decoration-break - CSS: Cascading Style Sheets | MDN <a class="brand" target="_blank" href="https://developer.mozilla.org/en-US/docs/Web/CSS/box-decoration-break">https://developer.mozilla.org/en-US/docs/Web/CSS/box-decoration-break</a>
-</div>
-]]>
-</description>
-</item>
-
-<item>
-<pubDate>Mon, 17 Jul 23 02:36:56 +0300</pubDate>
-<title><![CDATA[DEV Community  ]]></title>
-<link><![CDATA[https://dev.to/]]></link>
-<description>
-<![CDATA[
-<div class="post border2">
-DEV Community <a class="brand" target="_blank" href="https://dev.to/">https://dev.to/</a>
 </div>
 ]]>
 </description>
