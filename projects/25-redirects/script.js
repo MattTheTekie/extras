@@ -1,4 +1,4 @@
-// v.1.1.62
+// v.1.1.63
 
 
 
@@ -627,6 +627,8 @@ url = urlList[random];
 sRedirUrl = url;
 break;
 
+
+
 case 'mus#':
 q = q3.replace(q2, '');
 q = q.trim();
@@ -712,7 +714,24 @@ url = urlList[random];
 sRedirUrl = url;
 break;
 
-
+case 'we#':
+q = q3.replace(q2, '');
+q = q.trim();
+q = encodeURIComponent(q);
+urlList = [
+"https://www.accuweather.com/search-locations?query=" + q
+];
+random = Math.floor(Math.random() * urlList.length);
+url = urlList[random];
+if(q == ''){
+urlList = [
+"?q=weather"
+];
+random = Math.floor(Math.random() * urlList.length);
+url = urlList[random];
+}
+sRedirUrl = url;
+break;
 
 case 'g#':
 case 'goo#':
