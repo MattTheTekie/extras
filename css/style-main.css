@@ -413,5 +413,6 @@ html { scrollbar-width: thin; }
 ::-webkit-scrollbar { width: 7px; } /* for validator commnet */
 
 input:focus{ outline: none }
+footer { margin-top: 10vh; }
 
 

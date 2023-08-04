@@ -1,4 +1,4 @@
-/* v.2.0.0 */
+/* v.2.0.1 */
 
 
 .content {
@@ -66,8 +66,11 @@ font-size: 24px;
 font-size: 18px;
 }
 
-.localLink {
+.localLink a {
+display: inline-block;
 font-size: 16px;
+padding: 5px;
+padding-left: 0;
 }
 
 .localName::first-letter, .localDesc::first-letter {
@@ -84,7 +87,7 @@ border-bottom: 3px solid var(--orange);
 width: 100%
 text-align: left;
 border-bottom: 5px dotted var(--c);
-border-radius: 0 0 50% 0;
+border-radius: 0 0 10% 0;
 }
 .localProfile span { display: inline-block; padding: 10px; }
 
