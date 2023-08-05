@@ -1,4 +1,4 @@
-/* v.12.31.7 */
+/* v.12.31.9 */
 
 * {  color-scheme: light dark; } /* view-source:about:blank */ /* fixed #fff blink */
 
@@ -204,10 +204,10 @@ align-items: center;
 text-align: center;
 box-sizing: border-box;
 }
-.tag, .tag2 { font-size: calc(100% - 10%); padding: 3px 5px;  min-width: 27px; }
+.tag, .tag2 { font-size: calc(100% - 10%); padding: 5px 6px;  min-width: 27px; }
 .button { padding: 9px; max-width: 100%; }
 .button, .tag, .tag2 { border-radius: 5px; }
-.tag2 { padding: 3px 7px; }
+.tag2 { padding: 5px 7px; }
 
 
 @media (hover: none) {

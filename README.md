@@ -1,6 +1,6 @@
 README.md
 
-ℹ️ Homepage and other projects  
+⚪ Homepage and other projects  
 💻 I'm trying to create website templates ☕ and then sites 🦄  
 🌱 I'm using and always learn: Web Design, HTML, CSS, JavaSript, PHP and English
 🛍 Extensions: New Tab Redirect ABC (Any website in New Tab, Firefox, Chrome)  
