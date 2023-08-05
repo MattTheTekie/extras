@@ -1,4 +1,4 @@
-// v.1.17.11
+// v.1.17.12
 
 // inspired by Twitter, Fediverse
 // not for large Json files
@@ -1214,6 +1214,8 @@ break;
 case 'unsplash.com':
 play = item.split('/');
 play = play[play.length - 1];
+play = play.split('-');
+play = play[play.length - 1];
 if(play == ''){ play = play[play.length - 2]; }
 embed = `<a target="_blank" href="${item}"><img class="img border3" src="https://unsplash.com/photos/${play}/download" width=""></a>`;
 embedServiceList += 'twitch';
@@ -1676,6 +1678,8 @@ break;
 
 case 'unsplash.com':
 play = item.split('/');
+play = play[play.length - 1];
+play = play.split('-');
 play = play[play.length - 1];
 if(play == ''){ play = play[play.length - 2]; }
 embed = `<a target="_blank" href="${item}"><img class="img border3" src="https://unsplash.com/photos/${play}/download" width=""></a>`;
