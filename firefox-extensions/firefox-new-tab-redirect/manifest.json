@@ -2,8 +2,8 @@
 
   "manifest_version": 2,
   "name": "New Tab Redirect ABC",
-  "version": "1.38",
-  "description": "Your own URL website will open in a New Tab",
+  "version": "1.39",
+  "description": "Your URL website will open in a New Tab",
 
 "icons": {
   "96": "icon96x96.png"

@@ -1,4 +1,4 @@
-/* v.1.2.6 */
+/* v.1.2.7 */
 // print ads from json var list: fuAds('', 'ads2 - id where print', '');
 
 function fuAds(none, idAds, comAds){
@@ -128,7 +128,7 @@ document.getElementById(idAds).innerHTML = '<div class="center"><div class="post
 
 
 
-// v.1.1.1
+// v.1.1.2
 // start Cookie Consent Popups
 // if not selected: popup
 
@@ -148,6 +148,7 @@ z-index: 2;
 }
 
 #cookiePopup .button { font-size: 100%; min-width: 50px; }
+.cookieBtnYes { border-color: var(--green); }
 </style>
 
 <div class="wrapperL">
@@ -156,7 +157,7 @@ z-index: 2;
 This is necessary to improve the site.
 (for relevant Ads, Statistics)
 <p>
-<button class="button light3 border" onclick="cookiePopup('on')">Yes</button>
+<button class="button light3 border cookieBtnYes" onclick="cookiePopup('on')">Yes</button>
 <button class="button light3 border" onclick="cookiePopup('off')">No</button>
 </p>
 </div>
