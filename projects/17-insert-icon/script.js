@@ -90,7 +90,7 @@ let icons = {
 "user":"👤", "followers":"👤",
 "weather":"🌤️",
 "web":"🕸️", "internet":"🕸️", "browser":"🕸️",
-"wallpaper":"🖼", "picture":"🖼", "image":"🖼", "img":"🖼", "pixel":"🖼","instagram":"🖼","pxlmo":"🖼",
+"wallpaper":"🖼", "picture":"🖼", "image":"🖼", "photo":"🖼", "img":"🖼", "pixel":"🖼","instagram":"🖼","pxlmo":"🖼",
 "window":"🪟",
 
 

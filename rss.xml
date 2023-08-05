@@ -1,4 +1,15 @@
-<?xml version="1.0" encoding="UTF-8"?>
+
+
+<script>
+document.head.innerHTML += `
+
+<meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate">
+<meta http-equiv="Pragma" content="no-cache">
+<meta http-equiv="Expires" content="-1">
+
+`;
+
+</script><?xml version="1.0" encoding="UTF-8"?>
 
 <rss version="2.0">
 <channel>
@@ -22,7 +33,7 @@
 <description>
 <![CDATA[
 <div class="post border2">
-A group of yellow mushrooms sitting on top of a forest floor photo – Free Mushroom Image on Unsplash <a class="brand" target="_blank" href="https://unsplash.com/photos/a-group-of-yellow-mushrooms-sitting-on-top-of-a-forest-floor-4nBolRG9apo">https://unsplash.com/photos/a-group-of-yellow-mushrooms-sitting-on-top-of-a-forest-floor-4nBolRG9apo</a>
+A group of yellow mushrooms sitting on top of a forest floor photo – Free Mushroom Image on Unsplash <a class="brand" target="_blank" href="https://unsplash.com/photos/a-group-of-yellow-mushrooms-sitting-on-top-of-a-forest-floor-4nBolRG9apo"><img class="ico op" src="https://www.google.com/s2/favicons?domain_url=unsplash.com" width="14px" alt="ico"> https://unsplash.com/photos/a-group-of-yellow-mushrooms-sitting-on-top-of-a-forest-floor-4nBolRG9apo</a><a target="_blank" href="https://unsplash.com/photos/a-group-of-yellow-mushrooms-sitting-on-top-of-a-forest-floor-4nBolRG9apo"><img class="img border3" src="https://unsplash.com/photos/4nBolRG9apo/download" width=""></a>
 </div>
 ]]>
 </description>
@@ -35,7 +46,7 @@ A group of yellow mushrooms sitting on top of a forest floor photo – Free Mush
 <description>
 <![CDATA[
 <div class="post border2">
-A mushroom sitting in the grass on a sunny day photo – Free Fungus Image on Unsplash <a class="brand" target="_blank" href="https://unsplash.com/photos/a-mushroom-sitting-in-the-grass-on-a-sunny-day-wrgVdSU5DVU">https://unsplash.com/photos/a-mushroom-sitting-in-the-grass-on-a-sunny-day-wrgVdSU5DVU</a>
+A mushroom sitting in the grass on a sunny day photo – Free Fungus Image on Unsplash <a class="brand" target="_blank" href="https://unsplash.com/photos/a-mushroom-sitting-in-the-grass-on-a-sunny-day-wrgVdSU5DVU"><img class="ico op" src="https://www.google.com/s2/favicons?domain_url=unsplash.com" width="14px" alt="ico"> https://unsplash.com/photos/a-mushroom-sitting-in-the-grass-on-a-sunny-day-wrgVdSU5DVU</a><a target="_blank" href="https://unsplash.com/photos/a-mushroom-sitting-in-the-grass-on-a-sunny-day-wrgVdSU5DVU"><img class="img border3" src="https://unsplash.com/photos/wrgVdSU5DVU/download" width=""></a>
 </div>
 ]]>
 </description>
@@ -48,7 +59,7 @@ A mushroom sitting in the grass on a sunny day photo – Free Fungus Image on Un
 <description>
 <![CDATA[
 <div class="post border2">
-Aerial view of pine trees in mist photo – Free Forest Image on Unsplash <a class="brand" target="_blank" href="https://unsplash.com/photos/OYFHT4X5isg">https://unsplash.com/photos/OYFHT4X5isg</a>
+Aerial view of pine trees in mist photo – Free Forest Image on Unsplash <a class="brand" target="_blank" href="https://unsplash.com/photos/OYFHT4X5isg"><img class="ico op" src="https://www.google.com/s2/favicons?domain_url=unsplash.com" width="14px" alt="ico"> https://unsplash.com/photos/OYFHT4X5isg</a><a target="_blank" href="https://unsplash.com/photos/OYFHT4X5isg"><img class="img border3" src="https://unsplash.com/photos/OYFHT4X5isg/download" width=""></a>
 </div>
 ]]>
 </description>
@@ -61,7 +72,7 @@ Aerial view of pine trees in mist photo – Free Forest Image on Unsplash <a cla
 <description>
 <![CDATA[
 <div class="post border2">
-A view of a mountain with a road going through it photo – Free Nature Image on Unsplash <a class="brand" target="_blank" href="https://unsplash.com/photos/tevq6l3Niv0">https://unsplash.com/photos/tevq6l3Niv0</a>
+A view of a mountain with a road going through it photo – Free Nature Image on Unsplash <a class="brand" target="_blank" href="https://unsplash.com/photos/tevq6l3Niv0"><img class="ico op" src="https://www.google.com/s2/favicons?domain_url=unsplash.com" width="14px" alt="ico"> https://unsplash.com/photos/tevq6l3Niv0</a><a target="_blank" href="https://unsplash.com/photos/tevq6l3Niv0"><img class="img border3" src="https://unsplash.com/photos/tevq6l3Niv0/download" width=""></a>
 </div>
 ]]>
 </description>
@@ -74,7 +85,7 @@ A view of a mountain with a road going through it photo – Free Nature Image on
 <description>
 <![CDATA[
 <div class="post border2">
-Green pine trees near body of water under white clouds during daytime photo – Free Grey Image on Unsplash <a class="brand" target="_blank" href="https://unsplash.com/photos/TfJKSjoESc4">https://unsplash.com/photos/TfJKSjoESc4</a>
+Green pine trees near body of water under white clouds during daytime photo – Free Grey Image on Unsplash <a class="brand" target="_blank" href="https://unsplash.com/photos/TfJKSjoESc4"><img class="ico op" src="https://www.google.com/s2/favicons?domain_url=unsplash.com" width="14px" alt="ico"> https://unsplash.com/photos/TfJKSjoESc4</a><a target="_blank" href="https://unsplash.com/photos/TfJKSjoESc4"><img class="img border3" src="https://unsplash.com/photos/TfJKSjoESc4/download" width=""></a>
 </div>
 ]]>
 </description>
@@ -87,7 +98,7 @@ Green pine trees near body of water under white clouds during daytime photo – 
 <description>
 <![CDATA[
 <div class="post border2">
-CAKE - I Will Survive (Official HD Video) - YouTube <a class="brand" target="_blank" href="https://www.youtube.com/watch?v=f9rCUQjmkxU">https://www.youtube.com/watch?v=f9rCUQjmkxU</a>
+CAKE - I Will Survive (Official HD Video) - YouTube <a class="brand" target="_blank" href="https://www.youtube.com/watch?v=f9rCUQjmkxU"><img class="ico op" src="https://www.google.com/s2/favicons?domain_url=www.youtube.com" width="14px" alt="ico"> https://www.youtube.com/watch?v=f9rCUQjmkxU</a><!--<iframe id="player" style="border:0;" height="190px" width="100%" src="https://www.youtube.com/embed/f9rCUQjmkxU"></iframe>--><iframe width="100%" height="190px" src="https://www.youtube.com/embed/f9rCUQjmkxU" title="YouTube video player" frameborder="0" allow="autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 </div>
 ]]>
 </description>
@@ -117,7 +128,7 @@ Update:
 <description>
 <![CDATA[
 <div class="post border2">
-Ubuntu 23.10 Swapping DejaVu for Noto Fonts - OMG! Ubuntu <a class="brand" target="_blank" href="https://www.omgubuntu.co.uk/2023/07/ubuntu-noto-fonts-change-mantic">https://www.omgubuntu.co.uk/2023/07/ubuntu-noto-fonts-change-mantic</a>
+Ubuntu 23.10 Swapping DejaVu for Noto Fonts - OMG! Ubuntu <a class="brand" target="_blank" href="https://www.omgubuntu.co.uk/2023/07/ubuntu-noto-fonts-change-mantic"><img class="ico op" src="https://www.google.com/s2/favicons?domain_url=www.omgubuntu.co.uk" width="14px" alt="ico"> https://www.omgubuntu.co.uk/2023/07/ubuntu-noto-fonts-change-mantic</a>
 </div>
 ]]>
 </description>
@@ -130,7 +141,7 @@ Ubuntu 23.10 Swapping DejaVu for Noto Fonts - OMG! Ubuntu <a class="brand" targe
 <description>
 <![CDATA[
 <div class="post border2">
-Google Design <a class="brand" target="_blank" href="https://design.google/?home=">https://design.google/?home=</a>
+Google Design <a class="brand" target="_blank" href="https://design.google/?home="><img class="ico op" src="https://www.google.com/s2/favicons?domain_url=design.google" width="14px" alt="ico"> https://design.google/?home=</a>
 </div>
 ]]>
 </description>
@@ -143,7 +154,7 @@ Google Design <a class="brand" target="_blank" href="https://design.google/?home
 <description>
 <![CDATA[
 <div class="post border2">
-Jain - Makeba (Official Video) - YouTube <a class="brand" target="_blank" href="https://www.youtube.com/watch?v=59Q_lhgGANc">https://www.youtube.com/watch?v=59Q_lhgGANc</a>
+Jain - Makeba (Official Video) - YouTube <a class="brand" target="_blank" href="https://www.youtube.com/watch?v=59Q_lhgGANc"><img class="ico op" src="https://www.google.com/s2/favicons?domain_url=www.youtube.com" width="14px" alt="ico"> https://www.youtube.com/watch?v=59Q_lhgGANc</a><!--<iframe id="player" style="border:0;" height="190px" width="100%" src="https://www.youtube.com/embed/59Q_lhgGANc"></iframe>--><iframe width="100%" height="190px" src="https://www.youtube.com/embed/59Q_lhgGANc" title="YouTube video player" frameborder="0" allow="autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 </div>
 ]]>
 </description>

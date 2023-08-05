@@ -1,4 +1,4 @@
-// v.1.17.12
+// v.1.17.14
 
 // inspired by Twitter, Fediverse
 // not for large Json files
@@ -32,7 +32,7 @@ if(postLimit == undefined||postLimit == ''){ postLimit = 1; }
 if(postClass == undefined||postClass == ''){ postClass = 'post'; }
 if(scriptDir == undefined||scriptDir == ''){ scriptDir = './'; }
 if(multiEmbedStatus == undefined||multiEmbedStatus == ''){ multiEmbedStatus = 'off'; }
-if(tagListLimit == undefined||tagListLimit == ''){ tagListLimit = '100'; }
+if(tagListLimit == undefined||tagListLimit == ''){ tagListLimit = '80'; }
 if(bottomMsg == undefined||bottomMsg == ''){ bottomMsg = ''; }
 
 if(jsonVar == ''){
