@@ -560,15 +560,16 @@ hlClassList2.forEach(function(item){
 let hlClass = 'hlClass'+item;
 item = item.toUpperCase();
 hlClassList3 += `
-<a class="tag light border2 ${hlClass}" onmouseover="hlwClassAdd('${hlClass}')" onmouseout="hlwClassRemove('${hlClass}')" href="#id${hlClass}" id="${hlClass}">${item}</a>
+<a class="tag light border3 ${hlClass}" onmouseover="hlwClassAdd('${hlClass}')" onmouseout="hlwClassRemove('${hlClass}')" href="#id${hlClass}" id="${hlClass}">${item}</a>
 `;
 });
 
 tagList += `
-<div class="block tCenter">
-<div class="tagList padding">${hlClassList}</div>
-<div class="tagList padding">${hlClassList3}</div>
-</div>
+
+<div class="tagList">${tagList}</div>
+<div class="block padding"></div>
+<div class="tagList postTv">${hlClassList3}</div>
+
 `;
 
 return tagList;
@@ -590,10 +591,10 @@ return tagList;
 
 
 document.getElementById(printId).innerHTML += `
-<div class="tCenter padding" style="padding-top: 60px;">
+<div class="tCenter" style="padding-top: 60px;">
 <div class="wrapper3">
 
-<span class="op small padding">list of tags:</span><br>
+<div class="op small padding">list of tags:</div>
 `+tagList(printTagList)+`
 </div>
 </div>

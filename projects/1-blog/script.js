@@ -838,8 +838,8 @@ tagList = `
 <div class="center tCenter">
 <div class="wrapper3">
 
-<span class="op small padding margin">list of tags:</span><br>
-<div class="tagList padding">`+tagList+`</div>
+<div class="op small padding margin">list of tags:</div>
+<div class="tagList">`+tagList+`</div>
 
 <div class="block padding tCenter" styel="max-width: 100% !important">
 ${hlClassList}

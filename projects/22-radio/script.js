@@ -534,17 +534,20 @@ hlClassList3 += `
 `;
 });
 
-tagList += `
-<div class="block padding tCenter tagList">
-<div class="block tCenter">
-<div class="tagList padding">${hlClassList}</div>
-<div class="tagList padding">${hlClassList3}</div>
-</div>
-</div>`;
+tagList = `
+
+<div class="tagList">${tagList}</div>
+<div class="block padding"></div>
+<div class="tagList postTv">${hlClassList3}</div>
+
+
+`;
+
 
 
 
 return tagList;
+
 }
 //  end tag list
 
@@ -563,10 +566,10 @@ return tagList;
 
 
 document.getElementById(printId).innerHTML += `
-<div class="center tCenter padding" style="padding-top: 60px;">
+<div class="center tCenter" style="padding-top: 60px;">
 <div class="wrapper3">
 
-<span class="op small padding margin">list of tags:</span><br>
+<div class="block op small padding">list of tags:</div>
 `+tagList(printTagList)+`
 </div>
 </div>

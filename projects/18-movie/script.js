@@ -543,9 +543,7 @@ tagList += `
 }else{
 
 tagList += `
-
 <a class="tag light border2 ${hlClass}" href="${scriptDir}?q=${goTag}"  style="color: ${tagColor}; font-size: ${tagSize};">${printTag}</a>
-
 `;
 }
 }
@@ -563,10 +561,12 @@ hlClassList3 += `
 });
 
 tagList += `
-<div class="block padding tCenter">
-<div class="padding tagList">${hlClassList}</div>
-<div class="padding tagList">${hlClassList3}</div>
-</div>`;
+
+<div class="tagList">${tagList}</div>
+<div class="block padding"></div>
+<div class="tagList postTv">${hlClassList3}</div>
+
+`;
 
 
 
@@ -589,10 +589,10 @@ return tagList;
 
 
 document.getElementById('taglist').innerHTML += `
-<div class="tCenter padding" style="padding-top: 60px;">
+<div class="tCenter" style="padding-top: 60px;">
 <div class="wrapper3">
 
-<span class="small padding op">list of "title" tags:</span><br>
+<div class="small padding op">list of "title" tags:</div>
 `+tagList(printTagList)+`
 </div>
 </div>

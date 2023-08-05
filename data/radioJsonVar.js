@@ -253,6 +253,13 @@ var radioJsonVar =
         "tag": "#radio #RadioMusic #ambient"
     },
     {
+        "text": "Dark Edge Radio - Soft Alternative\/Indie Music",
+        "text2": "https:\/\/stream.darkedge.ro:8002\/stream\/1\/",
+        "text3": "mp3",
+        "url": "https:\/\/darkedge.ro\/",
+        "tag": "#radio #RadioMusic #indie"
+    },
+    {
         "text": "Directo - Sin Complejos - esRadio",
         "text2": "https:\/\/libertaddigital-radio-live1.flumotion.com\/libertaddigital\/ld-live1-high.mp3",
         "text3": "mp3",
@@ -510,13 +517,6 @@ var radioJsonVar =
         "text3": "mp3",
         "url": "https:\/\/kwss.org\/",
         "tag": "#radio #RadioMusic #AlternativeRock"
-    },
-    {
-        "text": "KYLIE MINOGUE - Chocolate - Dark Edge Radio - Soft Alternative\/Indie Music",
-        "text2": "https:\/\/stream.darkedge.ro:8002\/stream\/1\/",
-        "text3": "mp3",
-        "url": "https:\/\/darkedge.ro\/",
-        "tag": "#radio #RadioMusic #indie"
     },
     {
         "text": "Lightning 100 : Nashville's Independent Radio - 100.1 FM\u00a0WRLT",
