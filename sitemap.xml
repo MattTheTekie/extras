@@ -32,12 +32,17 @@
 </url>
 
 <url>
-<loc>https://inonehp.pages.dev/chrome-extensions/chrome-new-tab-redirect/new-tab-redirect.html</loc>
+<loc>https://inonehp.pages.dev/chrome-extensions/chrome-hotkey-url-abc/options.html</loc>
 
 </url>
 
 <url>
-<loc>https://inonehp.pages.dev/chrome-extensions/chrome-new-tab-redirect/options.html</loc>
+<loc>https://inonehp.pages.dev/chrome-extensions/chrome-new-tab-redirect-abc/new-tab-redirect.html</loc>
+
+</url>
+
+<url>
+<loc>https://inonehp.pages.dev/chrome-extensions/chrome-new-tab-redirect-abc/options.html</loc>
 
 </url>
 
@@ -82,12 +87,12 @@
 </url>
 
 <url>
-<loc>https://inonehp.pages.dev/firefox-extensions/firefox-new-tab-redirect/new-tab-redirect.html</loc>
+<loc>https://inonehp.pages.dev/firefox-extensions/firefox-new-tab-redirect-abc/new-tab-redirect.html</loc>
 
 </url>
 
 <url>
-<loc>https://inonehp.pages.dev/firefox-extensions/firefox-new-tab-redirect/options.html</loc>
+<loc>https://inonehp.pages.dev/firefox-extensions/firefox-new-tab-redirect-abc/options.html</loc>
 
 </url>
 

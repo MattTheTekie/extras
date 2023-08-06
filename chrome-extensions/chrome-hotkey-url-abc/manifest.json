@@ -1,0 +1,44 @@
+{
+
+  "manifest_version": 3,
+  "name": "Hotkey URL ABC",
+  "version": "2.4.6",
+  "description": "Assign keys to a specific website.",
+
+"icons": {
+  "512": "icon512x512.png"
+},
+
+"permissions":
+[
+"storage",
+"activeTab"
+],
+ 
+
+
+"options_ui": {
+  "page": "options.html"
+},
+
+
+
+
+"action": {
+    "browser_style": true,
+    "default_popup": "options.html",
+    "default_icon": {
+      "512": "icon512x512.png"
+    }
+  },
+
+"content_scripts": [
+{
+"js": ["script.js"],
+"matches": ["<all_urls>", "*://*/*"],
+"run_at": "document_end",
+"all_frames": false
+}
+]
+  
+}

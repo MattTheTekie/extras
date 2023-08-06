@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<!-- //https://developer.mozilla.org/docs/Mozilla/Add-ons/WebExtensions/Implement_a_settings_page -->
+<meta charset="UTF-8">
+<title>Options</title>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<link rel="stylesheet" type="text/css" href="style-main.css">
+<link rel="stylesheet" type="text/css" href="light.css">
+<link rel="stylesheet" type="text/css" href="style.css">
+
+<link rel="preload" href="options.js" as="script"> 
+
+</head>
+
+<body>
+
+
+<div class="content">
+<div class="wrapper3">
+
+<!--<div id="msg" class=" tCenter orange padding bg3 border">status</div>-->
+
+<h3 class="op tCenter">Settings:</h3>
+
+<div class="center">
+<div class="button">keyPressed key:</div>
+<input class="padding tCenter" id="keyPressed" style="width: 120px; position: relative; z-index: -1;" type="text" autocomplete="off">
+</div>
+
+<form>
+
+<div class="grid">
+
+<label for="rUrl">key (max 3):</label>
+<label for="rUrl">URL (optional: %title, %url)</label>
+
+<input class="classHotkeyId padding" type="text" autocomplete="off">
+<input class="classHotkeyIdUrl padding" type="text" autocomplete="off">
+
+<input class="classHotkeyId padding" type="text" autocomplete="off">
+<input class="classHotkeyIdUrl padding" type="text" autocomplete="off">
+
+<input class="classHotkeyId padding" type="text" autocomplete="off">
+<input class="classHotkeyIdUrl padding" type="text" autocomplete="off">
+
+<input class="classHotkeyId padding" type="text" autocomplete="off">
+<input class="classHotkeyIdUrl padding" type="text" autocomplete="off">
+
+<input class="classHotkeyId padding" type="text" autocomplete="off">
+<input class="classHotkeyIdUrl padding" type="text" autocomplete="off">
+
+
+
+<input class="classHotkeyId padding" type="text" autocomplete="off">
+<input class="classHotkeyIdUrl padding" type="text" autocomplete="off">
+
+<input class="classHotkeyId padding" type="text" autocomplete="off">
+<input class="classHotkeyIdUrl padding" type="text" autocomplete="off">
+
+<input class="classHotkeyId padding" type="text" autocomplete="off">
+<input class="classHotkeyIdUrl padding" type="text" autocomplete="off">
+
+<input class="classHotkeyId padding" type="text" autocomplete="off">
+<input class="classHotkeyIdUrl padding" type="text" autocomplete="off">
+
+<input class="classHotkeyId padding" type="text" autocomplete="off">
+<input class="classHotkeyIdUrl padding" type="text" autocomplete="off">
+
+
+</div>
+
+<input type="submit" value="Save">
+</form>
+
+</div>
+</div>
+
+<div class="block padding"></div>
+
+<!--
+<footer>
+
+</footer>
+-->
+    <script src="options.js"></script>
+
+  </body>
+</html>
