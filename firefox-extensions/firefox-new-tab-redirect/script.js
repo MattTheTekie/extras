@@ -11,7 +11,8 @@ function onError(error) {
 }
 
 function onGot(item) {
-  let rUrl = "options.html";
+let rUrl = "options.html";
+
 if(item.rUrl) {
     rUrl = item.rUrl; 
   }

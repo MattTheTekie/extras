@@ -27,6 +27,25 @@ document.head.innerHTML += `
 </image>
 
 <item>
+<pubDate>Sun, 06 Aug 23 05:04:30 +0300</pubDate>
+<title><![CDATA[Hubble on Twitter: "It's #HubbleFriday time! This week's new image shows the globular cluster NGC 6652. Globular clusters are roughly spherical groups of stars held together by their mutual gravitational attraction. NGC 6652 is about 30 million light-years away:    " / X  ]]></title>
+<link><![CDATA[https://twitter.com/NASAHubble/status/1687463418704355328]]></link>
+<description>
+<![CDATA[
+<div class="post border2">
+Hubble on Twitter: &quot;It&#039;s <a class="light brand" rel="nofollow" href="https://inonehp.github.io/projects/blog/?q=HubbleFriday">#HubbleFriday</a> time! This week&#039;s new image shows the globular cluster NGC 6652. Globular clusters are roughly spherical groups of stars held together by their mutual gravitational attraction. NGC 6652 is about 30 million light-years away: <a class="brand" target="_blank" href="https://t.co/9JpOi0ca9t"><img class="ico op" src="https://www.google.com/s2/favicons?domain_url=t.co" width="14px" alt="ico"> https://t.co/9JpOi0ca9t</a> <a class="brand" target="_blank" href="https://t.co/DaL93KDdbd&quot;"><img class="ico op" src="https://www.google.com/s2/favicons?domain_url=t.co" width="14px" alt="ico"> https://t.co/DaL93KDdbd&quot;</a> / X <a class="brand" target="_blank" href="https://twitter.com/NASAHubble/status/1687463418704355328"><img class="ico op" src="https://www.google.com/s2/favicons?domain_url=twitter.com" width="14px" alt="ico"> https://twitter.com/NASAHubble/status/1687463418704355328</a><div id="embed148"></div><script>
+twiStyle = `<style>.twitter-tweet { margin-top: 0px !important; }</style>`;
+if(confThemeEmbed == 'dark'){
+//twiStyle += `<style>.twitter-tweet iframe { border-radius: 15px; }</style>`;
+}
+
+document.getElementById("embed148").innerHTML = twiStyle+'<div style="display: block; width: 100%; max-width: 550px; margin: 0 auto;"><blockquote class="twitter-tweet" data-lang="en" data-theme="'+confThemeEmbed+'"><a href="https://twitter.com/NASAHubble/status/1687463418704355328"></a></blockquote></div>'; </script><script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+</div>
+]]>
+</description>
+</item>
+
+<item>
 <pubDate>Sat, 05 Aug 23 08:56:37 +0300</pubDate>
 <title><![CDATA[A group of yellow mushrooms sitting on top of a forest floor photo – Free Mushroom Image on Unsplash  ]]></title>
 <link><![CDATA[https://unsplash.com/photos/a-group-of-yellow-mushrooms-sitting-on-top-of-a-forest-floor-4nBolRG9apo]]></link>
@@ -142,19 +161,6 @@ Ubuntu 23.10 Swapping DejaVu for Noto Fonts - OMG! Ubuntu <a class="brand" targe
 <![CDATA[
 <div class="post border2">
 Google Design <a class="brand" target="_blank" href="https://design.google/?home="><img class="ico op" src="https://www.google.com/s2/favicons?domain_url=design.google" width="14px" alt="ico"> https://design.google/?home=</a>
-</div>
-]]>
-</description>
-</item>
-
-<item>
-<pubDate>Mon, 31 Jul 23 06:34:29 +0300</pubDate>
-<title><![CDATA[Jain - Makeba (Official Video) - YouTube  ]]></title>
-<link><![CDATA[https://www.youtube.com/watch?v=59Q_lhgGANc]]></link>
-<description>
-<![CDATA[
-<div class="post border2">
-Jain - Makeba (Official Video) - YouTube <a class="brand" target="_blank" href="https://www.youtube.com/watch?v=59Q_lhgGANc"><img class="ico op" src="https://www.google.com/s2/favicons?domain_url=www.youtube.com" width="14px" alt="ico"> https://www.youtube.com/watch?v=59Q_lhgGANc</a><!--<iframe id="player" style="border:0;" height="190px" width="100%" src="https://www.youtube.com/embed/59Q_lhgGANc"></iframe>--><iframe width="100%" height="190px" src="https://www.youtube.com/embed/59Q_lhgGANc" title="YouTube video player" frameborder="0" allow="autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 </div>
 ]]>
 </description>

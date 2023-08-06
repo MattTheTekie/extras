@@ -1,9 +1,9 @@
 {
 
   "manifest_version": 2,
-  "name": "New Tab Redirect ABC",
-  "version": "1.46",
-  "description": "Your URL website will open in a New Tab",
+  "name": "Hotkey URL ABC",
+  "version": "2.4.6",
+  "description": "Assign keys to a specific website.",
 
 "icons": {
   "512": "icon512x512.png"
@@ -11,7 +11,8 @@
 
 "permissions":
 [
-"storage"
+"storage",
+"activeTab"
 ],
  
 
@@ -20,13 +21,14 @@
 
 "browser_specific_settings": {
   "gecko": {
-    "id": "{ca76a51e-39c5-426e-a65a-17331611382e}",
+    "id": "{2cd391cf-2698-4a72-9731-e4ec75bdca2e}",
     "strict_min_version": "58.0"  }
 },
 
 "options_ui": {
   "page": "options.html"
 },
+
 
 
 
@@ -38,9 +40,13 @@
     }
   },
 
-
-"chrome_url_overrides" : {
-    "newtab": "new-tab-redirect.html"
-  }
+"content_scripts": [
+{
+"js": ["script.js"],
+"matches": ["<all_urls>", "*://*/*"],
+"run_at": "document_end",
+"all_frames": false
+}
+]
   
 }

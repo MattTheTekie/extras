@@ -16,7 +16,7 @@ border-radius: 7px;
 
 .grid {
 display: grid;
-grid-template-columns: repeat(4, 1fr);
+grid-template-columns: 20% 80%;
 grid-gap: 5px;
 margin: 0 auto;
 margin-top: 15px;

@@ -9,7 +9,7 @@
 //https://news.ycombinator.com/item?id=25218240
 
 function saveOptions(e) {
-  e.preventDefault();
+e.preventDefault();
 browser.storage.sync.set({
 //browser.storage.local.set({
     rUrl: document.querySelector("#q").value
