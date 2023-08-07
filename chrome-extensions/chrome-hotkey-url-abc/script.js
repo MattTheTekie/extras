@@ -1,4 +1,4 @@
-// v.1.0.3
+// v.1.0.4
 // firefox
 
 
@@ -80,6 +80,13 @@ if(event.key == keyFromSetting||hotkeyKeyHistoryArr2 == keyFromSetting||hotkeyKe
 event.returnValue = false;
 event.preventDefault();
 
+let hotkeySelection = '';
+if(window.getSelection().toString().length > 0) {
+// Get selected text and encode it
+hotkeySelection = encodeURIComponent(window.getSelection().toString()).replace(/[!'()*]/g, escape);
+}
+
+urlFromSetting = urlFromSetting.replaceAll('%selection', hotkeySelection);
 urlFromSetting = urlFromSetting.replaceAll('%title', encodeURIComponent(document.title));
 urlFromSetting = urlFromSetting.replaceAll('%url', document.URL);
 

@@ -2,5 +2,5 @@
  * style addon */
 
 html { height: 300px; }
-html, body { width: 380px; }
+html, body { max-width: 95%; width: 500px;  }
 form { margin-top: 50px; max-width: 350px; }
