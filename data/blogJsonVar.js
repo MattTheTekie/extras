@@ -1,6 +1,15 @@
 var blogJsonVar = 
 [
     {
+        "id": "149",
+        "text": "New Browser extension: Hotkey URL",
+        "text2": "",
+        "text3": "",
+        "url": "",
+        "tag": "#update",
+        "time": 1691435066
+    },
+    {
         "id": "148",
         "text": "Hubble on Twitter: \"It's #HubbleFriday time! This week's new image shows the globular cluster NGC 6652. Globular clusters are roughly spherical groups of stars held together by their mutual gravitational attraction. NGC 6652 is about 30 million light-years away: https:\/\/t.co\/9JpOi0ca9t https:\/\/t.co\/DaL93KDdbd\" \/ X",
         "text2": "",

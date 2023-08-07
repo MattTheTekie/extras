@@ -42,8 +42,8 @@ function hotkeyRedirect(getData){
 
 
 let hotkeyKeyHistoryArr = [];
-let hotkeyKeyHistoryArr2 = 'ljaksldfkj';
-let hotkeyKeyHistoryArr3 = 'asdljfkaslkfj';
+let hotkeyKeyHistoryArr2 = '';
+let hotkeyKeyHistoryArr3 = '';
 
 document.addEventListener("keydown", function(event) {
 
@@ -91,6 +91,7 @@ hotkeySelection = encodeURIComponent(window.getSelection().toString()).replace(/
 urlFromSetting = urlFromSetting.replaceAll('%selection', hotkeySelection);
 urlFromSetting = urlFromSetting.replaceAll('%title', encodeURIComponent(document.title));
 urlFromSetting = urlFromSetting.replaceAll('%url', document.URL);
+urlFromSetting = urlFromSetting.replaceAll('%input', encodeURIComponent(String(window.prompt("input:", ""))));
 
 // start open link in new tab or current
 if((urlFromSetting).indexOf('%blank') >= 0||(urlFromSetting).indexOf('%NewTab') >= 0){

@@ -1,6 +1,7 @@
 // v.1.0.6
 // firefox
 
+
 //https://developer.mozilla.org/docs/Mozilla/Add-ons/WebExtensions/Implement_a_settings_page
 function onError(error) {
 console.log(`Error: ${error}`);
@@ -40,8 +41,8 @@ function hotkeyRedirect(getData){
 
 
 let hotkeyKeyHistoryArr = [];
-let hotkeyKeyHistoryArr2 = 'ljaksldfkj';
-let hotkeyKeyHistoryArr3 = 'asdljfkaslkfj';
+let hotkeyKeyHistoryArr2 = '';
+let hotkeyKeyHistoryArr3 = '';
 
 document.addEventListener("keydown", function(event) {
 
@@ -60,6 +61,7 @@ hotkeyKeyHistoryArr2 = hotkeyKeyHistoryArr2.join('')
 hotkeyKeyHistoryArr3 = hotkeyKeyHistoryArr.slice(-3), 
 hotkeyKeyHistoryArr3 = hotkeyKeyHistoryArr3.join('')
 
+
 getData.forEach((item, index) => {
 
 
@@ -74,7 +76,7 @@ if(keyFromSetting[0] != '+'){ keyFromSetting = keyFromSetting.replaceAll('+','')
 
 if(event.key == keyFromSetting||hotkeyKeyHistoryArr2 == keyFromSetting||hotkeyKeyHistoryArr3 == keyFromSetting||event.keyCode == keyFromSetting){
 
-// clear history 3-4 key
+// clear history 3-4 key, fixed double open
 hotkeyKeyHistoryArr = [];
 
 event.returnValue = false;
@@ -85,11 +87,12 @@ if(window.getSelection().toString().length > 0) {
 // Get selected text and encode it
 hotkeySelection = encodeURIComponent(window.getSelection().toString()).replace(/[!'()*]/g, escape);
 }
+ 
 
 urlFromSetting = urlFromSetting.replaceAll('%selection', hotkeySelection);
 urlFromSetting = urlFromSetting.replaceAll('%title', encodeURIComponent(document.title));
 urlFromSetting = urlFromSetting.replaceAll('%url', document.URL);
-
+urlFromSetting = urlFromSetting.replaceAll('%input', encodeURIComponent(String(window.prompt("input:", ""))));
 //window.open(urlFromSetting, '_blank');
 //window.location.href = urlFromSetting; 
 

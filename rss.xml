@@ -27,6 +27,19 @@ document.head.innerHTML += `
 </image>
 
 <item>
+<pubDate>Mon, 07 Aug 23 22:04:26 +0300</pubDate>
+<title><![CDATA[New Browser extension: Hotkey URL ]]></title>
+<link><![CDATA[http://inonehp.github.io/blog.html?id=149#149]]></link>
+<description>
+<![CDATA[
+<div class="post border2">
+New Browser extension: Hotkey URL 
+</div>
+]]>
+</description>
+</item>
+
+<item>
 <pubDate>Sun, 06 Aug 23 05:04:30 +0300</pubDate>
 <title><![CDATA[Hubble on Twitter: "It's #HubbleFriday time! This week's new image shows the globular cluster NGC 6652. Globular clusters are roughly spherical groups of stars held together by their mutual gravitational attraction. NGC 6652 is about 30 million light-years away:    " / X  ]]></title>
 <link><![CDATA[https://twitter.com/NASAHubble/status/1687463418704355328]]></link>
@@ -148,19 +161,6 @@ Update:
 <![CDATA[
 <div class="post border2">
 Ubuntu 23.10 Swapping DejaVu for Noto Fonts - OMG! Ubuntu <a class="brand" target="_blank" href="https://www.omgubuntu.co.uk/2023/07/ubuntu-noto-fonts-change-mantic"><img class="ico op" src="https://www.google.com/s2/favicons?domain_url=www.omgubuntu.co.uk" width="14px" alt="ico"> https://www.omgubuntu.co.uk/2023/07/ubuntu-noto-fonts-change-mantic</a>
-</div>
-]]>
-</description>
-</item>
-
-<item>
-<pubDate>Mon, 31 Jul 23 08:07:59 +0300</pubDate>
-<title><![CDATA[Google Design  ]]></title>
-<link><![CDATA[https://design.google/?home=]]></link>
-<description>
-<![CDATA[
-<div class="post border2">
-Google Design <a class="brand" target="_blank" href="https://design.google/?home="><img class="ico op" src="https://www.google.com/s2/favicons?domain_url=design.google" width="14px" alt="ico"> https://design.google/?home=</a>
 </div>
 ]]>
 </description>
