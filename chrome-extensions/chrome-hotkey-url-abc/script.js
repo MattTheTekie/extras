@@ -1,4 +1,4 @@
-// v.1.0.4
+// v.1.0.5
 // firefox
 
 
@@ -47,13 +47,12 @@ let hotkeyKeyHistoryArr3 = 'asdljfkaslkfj';
 
 document.addEventListener("keydown", function(event) {
 
-// disabe hotkey if input
+// start disabe hotkey if input
 //https://stackoverflow.com/questions/15637192/js-how-to-detect-whether-cursor-is-in-textfield
-  if( event.target.nodeName == "INPUT" || event.target.nodeName == "TEXTAREA" ) return;
+  if( event.target.nodeName.toLowerCase() == "input" || event.target.nodeName.toLowerCase() == "textarea" ) return;
   if( event.target.isContentEditable ) return;
-// else resum below
+// end else resum below
 
-//https://stackoverflow.com/questions/5163785/how-do-i-get-the-last-character-of-a-string
 hotkeyKeyHistoryArr.push(event.key);
 
 //https://stackoverflow.com/questions/23238363/code-to-get-last-2-items-from-an-array
@@ -90,7 +89,24 @@ urlFromSetting = urlFromSetting.replaceAll('%selection', hotkeySelection);
 urlFromSetting = urlFromSetting.replaceAll('%title', encodeURIComponent(document.title));
 urlFromSetting = urlFromSetting.replaceAll('%url', document.URL);
 
+// start open link in new tab or current
+if((urlFromSetting).indexOf('%blank') >= 0){
+urlFromSetting = urlFromSetting.replaceAll('%blank', '');
+urlFromSetting = urlFromSetting.replaceAll('%NewTab', '');
+//https://stackoverflow.com/questions/7139103/open-page-in-new-window-without-popup-blocking
+//window.open().location.href = urlFromSetting;
+window.open(urlFromSetting, 'NewTab').focus();
+}else if((urlFromSetting).indexOf('%NewTab') >= 0){
+urlFromSetting = urlFromSetting.replaceAll('%blank', '');
+urlFromSetting = urlFromSetting.replaceAll('%NewTab', '');
+//https://stackoverflow.com/questions/7139103/open-page-in-new-window-without-popup-blocking
+//window.open().location.href = urlFromSetting;
+window.open(urlFromSetting, 'NewTab').focus();
+} else {
 window.location.href = urlFromSetting; 
+}
+// end open
+
 }
 
 })
