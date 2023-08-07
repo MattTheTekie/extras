@@ -1,7 +1,5 @@
-// v.1.0.5
+// v.1.0.6
 // firefox
-
-
 
 //https://developer.mozilla.org/docs/Mozilla/Add-ons/WebExtensions/Implement_a_settings_page
 function onError(error) {
@@ -92,20 +90,27 @@ urlFromSetting = urlFromSetting.replaceAll('%url', document.URL);
 //window.open(urlFromSetting, '_blank');
 //window.location.href = urlFromSetting; 
 
+
+
+
+
+
+
 // start open link in new tab or current
-if((urlFromSetting).indexOf('%blank') >= 0){
+if((urlFromSetting).indexOf('%blank') >= 0||(urlFromSetting).indexOf('%NewTab') >= 0){
 urlFromSetting = urlFromSetting.replaceAll('%blank', '');
 urlFromSetting = urlFromSetting.replaceAll('%NewTab', '');
 //https://stackoverflow.com/questions/7139103/open-page-in-new-window-without-popup-blocking
 //window.open().location.href = urlFromSetting;
-window.open(urlFromSetting, 'NewTab').focus();
-}else if((urlFromSetting).indexOf('%NewTab') >= 0){
-urlFromSetting = urlFromSetting.replaceAll('%blank', '');
-urlFromSetting = urlFromSetting.replaceAll('%NewTab', '');
-//https://stackoverflow.com/questions/7139103/open-page-in-new-window-without-popup-blocking
-//window.open().location.href = urlFromSetting;
-window.open(urlFromSetting, 'NewTab').focus();
-} else {
+//window.open(urlFromSetting, 'NewTab').focus();
+
+
+// start send to workerk for create new tab
+browser.runtime.sendMessage({ url: urlFromSetting });
+// end open
+
+
+}else {
 window.location.href = urlFromSetting; 
 }
 // end open
@@ -113,6 +118,9 @@ window.location.href = urlFromSetting;
 }
 
 })
+
+
+
 
 })
 

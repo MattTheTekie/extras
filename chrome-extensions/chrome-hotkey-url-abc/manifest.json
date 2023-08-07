@@ -39,6 +39,10 @@
 "run_at": "document_end",
 "all_frames": false
 }
-]
+],
+
+"background": {
+"service_worker": "worker.js"
+}
   
 }

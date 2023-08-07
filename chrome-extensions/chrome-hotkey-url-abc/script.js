@@ -90,19 +90,25 @@ urlFromSetting = urlFromSetting.replaceAll('%title', encodeURIComponent(document
 urlFromSetting = urlFromSetting.replaceAll('%url', document.URL);
 
 // start open link in new tab or current
-if((urlFromSetting).indexOf('%blank') >= 0){
+if((urlFromSetting).indexOf('%blank') >= 0||(urlFromSetting).indexOf('%NewTab') >= 0){
 urlFromSetting = urlFromSetting.replaceAll('%blank', '');
 urlFromSetting = urlFromSetting.replaceAll('%NewTab', '');
 //https://stackoverflow.com/questions/7139103/open-page-in-new-window-without-popup-blocking
 //window.open().location.href = urlFromSetting;
-window.open(urlFromSetting, 'NewTab').focus();
-}else if((urlFromSetting).indexOf('%NewTab') >= 0){
-urlFromSetting = urlFromSetting.replaceAll('%blank', '');
-urlFromSetting = urlFromSetting.replaceAll('%NewTab', '');
-//https://stackoverflow.com/questions/7139103/open-page-in-new-window-without-popup-blocking
-//window.open().location.href = urlFromSetting;
-window.open(urlFromSetting, 'NewTab').focus();
-} else {
+//window.open(urlFromSetting, 'NewTab').focus();
+
+
+// start send to workerk for create new tab
+//chrome.runtime.sendMessage({ url: urlFromSetting });
+
+//https://developer.chrome.com/docs/extensions/mv3/messaging/
+var port = chrome.runtime.connect({name: "knockknock"});
+port.postMessage({url: urlFromSetting});
+
+// end open
+
+
+}else {
 window.location.href = urlFromSetting; 
 }
 // end open
@@ -116,6 +122,9 @@ window.location.href = urlFromSetting;
 
 
 };
+
+
+
 
 
 

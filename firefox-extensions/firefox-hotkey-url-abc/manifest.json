@@ -2,7 +2,7 @@
 
   "manifest_version": 2,
   "name": "Hotkey URL ABC",
-  "version": "2.4.14",
+  "version": "2.5.0",
   "description": "Assign keys to a specific website.",
 
 "icons": {
@@ -40,6 +40,9 @@
     }
   },
 
+
+
+
 "content_scripts": [
 {
 "js": ["script.js"],
@@ -47,6 +50,11 @@
 "run_at": "document_end",
 "all_frames": false
 }
-]
+],
+
+"background": {
+    "scripts": ["worker.js"]
+}
+
   
 }
