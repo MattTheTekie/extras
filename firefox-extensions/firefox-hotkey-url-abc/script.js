@@ -74,6 +74,9 @@ if(keyFromSetting[0] != '+'){ keyFromSetting = keyFromSetting.replaceAll('+','')
 
 if(event.key == keyFromSetting||hotkeyKeyHistoryArr2 == keyFromSetting||hotkeyKeyHistoryArr3 == keyFromSetting||event.keyCode == keyFromSetting){
 
+// clear history 3-4 key
+hotkeyKeyHistoryArr = [];
+
 event.returnValue = false;
 event.preventDefault();
 
