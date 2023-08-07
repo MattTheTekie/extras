@@ -1,4 +1,4 @@
-/* v.1.1.14 */
+/* v.1.1.15 */
 
 .result,  textarea {
 margin: 0 auto;
@@ -6,7 +6,7 @@ font-size: 120%; font-size: 1.3em; font-size: medium;
 padding: 15px;
 }
 .win { font-size: 120%; }
-.stat, .win { font-size: calc(var(--fontSize) + 10%); font-weight: bold; }
+.stat, .win { font-size: calc(var(--fontSize) + 30%); font-weight: bold; }
 
 .scroll {
 /*overflow-x: auto;

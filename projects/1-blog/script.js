@@ -1,4 +1,4 @@
-// v.1.17.14
+// v.1.17.15
 
 // inspired by Twitter, Fediverse
 // not for large Json files
@@ -590,7 +590,7 @@ print += `
 <label id="search" class="op block tLeft xSmall">search:</label>
 <input id="input" class="padding op" type="search" style="text-align: center;" name="q"  autocomplete="off" placeholder="" value="${q}">
 
-<input class="op" style="padding: 0; min-height: 1px; height: 24px; font-size: 12px;" type="submit" value="search">
+<input class="op" style="padding: 0; min-height: 1px; height: 28px; font-size: 12px;" type="submit" value="search">
 
 </form>
 
