@@ -27,6 +27,19 @@ document.head.innerHTML += `
 </image>
 
 <item>
+<pubDate>Mon, 07 Aug 23 22:49:36 +0300</pubDate>
+<title><![CDATA[Behance :: For You  ]]></title>
+<link><![CDATA[https://www.behance.net/]]></link>
+<description>
+<![CDATA[
+<div class="post border2">
+Behance :: For You <a class="brand" target="_blank" href="https://www.behance.net/"><img class="ico op" src="https://www.google.com/s2/favicons?domain_url=www.behance.net" width="14px" alt="ico"> https://www.behance.net/</a>
+</div>
+]]>
+</description>
+</item>
+
+<item>
 <pubDate>Mon, 07 Aug 23 22:04:26 +0300</pubDate>
 <title><![CDATA[New Browser extension: Hotkey URL ]]></title>
 <link><![CDATA[http://inonehp.github.io/blog.html?id=149#149]]></link>
@@ -148,19 +161,6 @@ CAKE - I Will Survive (Official HD Video) - YouTube <a class="brand" target="_bl
 Update:
 - projects directories renamed
 - few new template and updated 
-</div>
-]]>
-</description>
-</item>
-
-<item>
-<pubDate>Mon, 31 Jul 23 22:15:45 +0300</pubDate>
-<title><![CDATA[Ubuntu 23.10 Swapping DejaVu for Noto Fonts - OMG! Ubuntu  ]]></title>
-<link><![CDATA[https://www.omgubuntu.co.uk/2023/07/ubuntu-noto-fonts-change-mantic]]></link>
-<description>
-<![CDATA[
-<div class="post border2">
-Ubuntu 23.10 Swapping DejaVu for Noto Fonts - OMG! Ubuntu <a class="brand" target="_blank" href="https://www.omgubuntu.co.uk/2023/07/ubuntu-noto-fonts-change-mantic"><img class="ico op" src="https://www.google.com/s2/favicons?domain_url=www.omgubuntu.co.uk" width="14px" alt="ico"> https://www.omgubuntu.co.uk/2023/07/ubuntu-noto-fonts-change-mantic</a>
 </div>
 ]]>
 </description>

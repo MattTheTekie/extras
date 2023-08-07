@@ -92,7 +92,9 @@ hotkeySelection = encodeURIComponent(window.getSelection().toString()).replace(/
 urlFromSetting = urlFromSetting.replaceAll('%selection', hotkeySelection);
 urlFromSetting = urlFromSetting.replaceAll('%title', encodeURIComponent(document.title));
 urlFromSetting = urlFromSetting.replaceAll('%url', document.URL);
+if(urlFromSetting.indexOf('%input') >= 0){
 urlFromSetting = urlFromSetting.replaceAll('%input', encodeURIComponent(String(window.prompt("input:", ""))));
+}
 //window.open(urlFromSetting, '_blank');
 //window.location.href = urlFromSetting; 
 
