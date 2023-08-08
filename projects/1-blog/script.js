@@ -1,4 +1,4 @@
-// v.1.17.15
+// v.1.17.16
 
 // inspired by Twitter, Fediverse
 // not for large Json files
@@ -1249,10 +1249,17 @@ embed2 = `<video height="${h}" controls style="width:100%"><source src="${item}"
 item = `<a class="brand" target="_blank" href="${item}">${item}</a>`;
 }
 
-if(itemCheck.search(`${symbolForSplit}mp3|${symbolForSplit}wav|${symbolForSplit}ogg|${symbolForSplit}m3u`) != -1) {
+if(itemCheck.search(`${symbolForSplit}mp3|${symbolForSplit}wav|${symbolForSplit}m3u`) != -1) {
 checkText = false;
 
-embed2 = `<audio controls style="width:100%; opacity:0.8"><source src="${item}" type="audio/ogg"><source src="${item}" type="audio/mpeg">Your browser does not support the audio element.</audio>`;
+embed2 = `<audio controls style="width:100%; opacity:0.8"><source src="${item}" type="audio/mp3">Your browser does not support the audio element.</audio>`;
+item = `<a class="brand" target="_blank" href="${item}">${item}</a>`;
+}
+
+if(itemCheck.search(`${symbolForSplit}ogg`) != -1) {
+checkText = false;
+
+embed2 = `<audio controls style="width:100%; opacity:0.8"><source src="${item}" type="audio/ogg">Your browser does not support the audio element.</audio>`;
 item = `<a class="brand" target="_blank" href="${item}">${item}</a>`;
 }
 
@@ -1725,11 +1732,17 @@ embedServiceList += 'mpd';
 
 
 
-if(itemCheck.search(`${symbolForSplit}mp3|${symbolForSplit}wav|${symbolForSplit}ogg|${symbolForSplit}m3u`) != -1) {
-embed2 = `<audio controls autoplay style="width:100%; opacity:0.8"><source src="${item}" type="audio/ogg"><source src="${item}" type="audio/mpeg">Your browser does not support the audio element.</audio>`;
+if(itemCheck.search(`${symbolForSplit}mp3|${symbolForSplit}wav|${symbolForSplit}m3u`) != -1) {
+embed2 = `<audio controls autoplay style="width:100%; opacity:0.8"><source src="${item}" type="audio/mp3">Your browser does not support the audio element.</audio>`;
 item = `<a class="brand" target="_blank" href="${item}">${item}</a>`;
 }
 
+if(itemCheck.search(`${symbolForSplit}ogg`) != -1) {
+checkText = false;
+
+embed2 = `<audio controls autoplay style="width:100%; opacity:0.8"><source src="${item}" type="audio/ogg">Your browser does not support the audio element.</audio>`;
+item = `<a class="brand" target="_blank" href="${item}">${item}</a>`;
+}
 
 if(itemCheck.search(`${symbolForSplit}svg|${symbolForSplit}jpg|${symbolForSplit}jpeg|${symbolForSplit}png|${symbolForSplit}gif|${symbolForSplit}img|${symbolForSplit}ico`) != -1) {
 //echo 'test';

@@ -259,12 +259,17 @@ embedServiceList += 'mpd';
 }
 
 
-if(jsonVar[id]['text3'] == 'mp3'||jsonVar[id]['text3'] == 'aac'||jsonVar[id]['text3'] == 'ogg') {
+if(jsonVar[id]['text3'] == 'mp3'||jsonVar[id]['text3'] == 'aac') {
 play = jsonVar[id]['text2'];
-embed2 = `<audio controls autoplay style="width:100%; opacity:0.8"><source src="${item}" type="audio/ogg"><source src="${play}" type="audio/mpeg">Your browser does not support the audio element.</audio>`;
-
+embed2 = `<audio controls autoplay style="width:100%; opacity:0.8"><source src="${item}" type="audio/mp3">Your browser does not support the audio element.</audio>`;
 }
 
+if(jsonVar[id]['text3'] == 'ogg') {
+play = jsonVar[id]['text2'];
+embed2 = `<audio controls autoplay style="width:100%; opacity:0.8"><source src="${item}" type="audio/ogg">Your browser does not support the audio element.</audio>`;
+}
+
+<audio controls><source src=”http://ipaddrss:port/mountpoint/;stream.mp3″ type=”audio/mp3″>
 if(jsonVar[id]['text3'] == 'iframe') {
 play = jsonVar[id]['text2'];
 embed2 = `<iframe width="${w}" height="360" src="${play}"></iframe>`;
