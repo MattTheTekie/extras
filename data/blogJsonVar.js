@@ -1,6 +1,15 @@
 var blogJsonVar = 
 [
     {
+        "id": "152",
+        "text": "New Scientist on Twitter: \"A glorious image of the Ring nebula taken by the James Webb Space Telescope is giving astronomers a more detailed look than ever before at its internal structure. https:\/\/t.co\/AsVBux7MzG\" \/ X",
+        "text2": "",
+        "text3": "",
+        "url": "https:\/\/twitter.com\/newscientist\/status\/1688808584233054208",
+        "tag": "#photo #space",
+        "time": 1691480041
+    },
+    {
         "id": "151",
         "text": "MDN Blog",
         "text2": "",

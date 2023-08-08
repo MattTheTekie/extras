@@ -27,6 +27,25 @@ document.head.innerHTML += `
 </image>
 
 <item>
+<pubDate>Tue, 08 Aug 23 10:34:01 +0300</pubDate>
+<title><![CDATA[New Scientist on Twitter: "A glorious image of the Ring nebula taken by the James Webb Space Telescope is giving astronomers a more detailed look than ever before at its internal structure.  " / X  ]]></title>
+<link><![CDATA[https://twitter.com/newscientist/status/1688808584233054208]]></link>
+<description>
+<![CDATA[
+<div class="post border2">
+New Scientist on Twitter: &quot;A glorious image of the Ring nebula taken by the James Webb Space Telescope is giving astronomers a more detailed look than ever before at its internal structure. <a class="brand" target="_blank" href="https://t.co/AsVBux7MzG&quot;"><img class="ico op" src="https://www.google.com/s2/favicons?domain_url=t.co" width="14px" alt="ico"> https://t.co/AsVBux7MzG&quot;</a> / X <a class="brand" target="_blank" href="https://twitter.com/newscientist/status/1688808584233054208"><img class="ico op" src="https://www.google.com/s2/favicons?domain_url=twitter.com" width="14px" alt="ico"> https://twitter.com/newscientist/status/1688808584233054208</a><div id="embed152"></div><script>
+twiStyle = `<style>.twitter-tweet { margin-top: 0px !important; }</style>`;
+if(confThemeEmbed == 'dark'){
+//twiStyle += `<style>.twitter-tweet iframe { border-radius: 15px; }</style>`;
+}
+
+document.getElementById("embed152").innerHTML = twiStyle+'<div style="display: block; width: 100%; max-width: 550px; margin: 0 auto;"><blockquote class="twitter-tweet" data-lang="en" data-theme="'+confThemeEmbed+'"><a href="https://twitter.com/newscientist/status/1688808584233054208"></a></blockquote></div>'; </script><script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+</div>
+]]>
+</description>
+</item>
+
+<item>
 <pubDate>Tue, 08 Aug 23 08:06:10 +0300</pubDate>
 <title><![CDATA[MDN Blog  ]]></title>
 <link><![CDATA[https://developer.mozilla.org/en-US/blog/]]></link>
@@ -144,19 +163,6 @@ A view of a mountain with a road going through it photo – Free Nature Image on
 <![CDATA[
 <div class="post border2">
 Green pine trees near body of water under white clouds during daytime photo – Free Grey Image on Unsplash <a class="brand" target="_blank" href="https://unsplash.com/photos/TfJKSjoESc4"><img class="ico op" src="https://www.google.com/s2/favicons?domain_url=unsplash.com" width="14px" alt="ico"> https://unsplash.com/photos/TfJKSjoESc4</a><a target="_blank" href="https://unsplash.com/photos/TfJKSjoESc4"><img class="img border3" src="https://unsplash.com/photos/TfJKSjoESc4/download" width=""></a>
-</div>
-]]>
-</description>
-</item>
-
-<item>
-<pubDate>Sat, 05 Aug 23 04:48:31 +0300</pubDate>
-<title><![CDATA[CAKE - I Will Survive (Official HD Video) - YouTube  ]]></title>
-<link><![CDATA[https://www.youtube.com/watch?v=f9rCUQjmkxU]]></link>
-<description>
-<![CDATA[
-<div class="post border2">
-CAKE - I Will Survive (Official HD Video) - YouTube <a class="brand" target="_blank" href="https://www.youtube.com/watch?v=f9rCUQjmkxU"><img class="ico op" src="https://www.google.com/s2/favicons?domain_url=www.youtube.com" width="14px" alt="ico"> https://www.youtube.com/watch?v=f9rCUQjmkxU</a><!--<iframe id="player" style="border:0;" height="190px" width="100%" src="https://www.youtube.com/embed/f9rCUQjmkxU"></iframe>--><iframe width="100%" height="190px" src="https://www.youtube.com/embed/f9rCUQjmkxU" title="YouTube video player" frameborder="0" allow="autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 </div>
 ]]>
 </description>
