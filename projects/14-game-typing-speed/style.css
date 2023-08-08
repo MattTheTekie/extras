@@ -1,12 +1,12 @@
-/* v.1.1.15 */
+/* v.1.1.16 */
 
 .result,  textarea {
 margin: 0 auto;
 font-size: 120%; font-size: 1.3em; font-size: medium;
 padding: 15px;
 }
-.win { font-size: 120%; }
-.stat, .win { font-size: calc(var(--fontSize) + 30%); font-weight: bold; }
+.win { font-size: calc(var(--fontSize) + 20%); font-weight: bold; }
+.stat { font-weight: bold; }
 
 .scroll {
 /*overflow-x: auto;
@@ -38,10 +38,36 @@ font-size: 120%; font-size: 1.3em; font-size: medium;
 .stat { text-align: right; }
 
 
-.msg { text-align: center; width: 100%; }
+/*.msg { width: 100%; }*/
 
 /* fixed */
 html { scroll-padding-top: 35px; }
+
+
+
+.gridStat {
+display: grid;
+grid-template-columns: 30% 70%;
+grid-gap: 5px;
+width: 100%;
+max-width: 100%;
+margin: 0 auto;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
