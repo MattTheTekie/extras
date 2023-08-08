@@ -15,12 +15,12 @@ Notice:
 %input (input dialog).  
 · Addon tries to stop working when entering text.
 
-Example:
-key and URL:
-"t", "https://twitter.com/%blank"  
-"r", "https://reddit.com/%blank"  
-"Control", "https://google.com/?q=%input%blank"  
-"Shift", "https://bing.com/?q=%input%blank"  
+Example:  
+key and URL:  
+"!", "https://twitter.com/%blank"  
+"@", "https://reddit.com/%blank"  
+"Control1", "https://google.com/?q=%input%blank"  
+"Control2", "https://bing.com/?q=%input%blank"  
 
 
 Screenshots:  

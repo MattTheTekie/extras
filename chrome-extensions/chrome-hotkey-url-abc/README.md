@@ -14,10 +14,12 @@ Notice:
 %blank or %NewTab (command for opening in new tab).    
 · Addon tries to stop working when entering text.  
 
-Example:
-"t" - key, "https://twitter.com/%blank" - URL
-"gg" - key, "https://google.com/?q=%selection%blank" - URL
-"bb" - key, "https://bing.com/?q=%title%blank" - URL
+Example:  
+key and URL:  
+"!", "https://twitter.com/%blank"  
+"@", "https://reddit.com/%blank"  
+"Control1", "https://google.com/?q=%input%blank"  
+"Control2", "https://bing.com/?q=%input%blank"  
 
 
 
