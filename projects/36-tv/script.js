@@ -1,4 +1,4 @@
-// v.1.2.15
+// v.1.2.16
 
 function randomRadio(printId, jsonVar){
 
@@ -564,7 +564,7 @@ hlClassList3 += `
 `;
 });
 
-tagList += `
+tagList = `
 
 <div class="tagList">${tagList}</div>
 <div class="block padding"></div>

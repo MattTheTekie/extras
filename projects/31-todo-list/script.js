@@ -1,5 +1,5 @@
 // Todo
-// v.1.2.6
+// v.1.3.0
 // comments
 // https://developer.mozilla.org/en-US/docs/Web/API/IDBCursor/continue
 
@@ -548,12 +548,12 @@ editPrint = `${titlePrint}`;
 let printTmp = '';
 if(statusPrint == 'done'){
 
-printTmp = `<div class="op xSmall">${idPrint}</div><input class="checkbox op" checked="checked" type="checkbox"  name="" value="undone" onclick="runDb('done', '`+idPrint+`', '', 'undone')">
+printTmp = `<!--<div class="op x-small">${idPrint}</div>--><input class="checkbox op" checked="checked" type="checkbox"  name="" value="undone" onclick="runDb('done', '`+idPrint+`', '', 'undone')">
 <div class="flexCenter"><div class="pre op block" style="text-decoration: line-through;">${editPrint}</div></div>`;
 
 }else{
 
-printTmp = `<div class="op xSmall">${idPrint}</div>
+printTmp = `<!--<div class="op x-small">${idPrint}</div>-->
 <input class="checkbox op" type="checkbox"  name="" value="done" onclick="runDb('done', '`+idPrint+`', '', 'done')">
 <div class="flexCenter"><div class="pre block">${editPrint}</div></div>`;
 
@@ -617,7 +617,7 @@ var print33Tmp = `
 <div class="taskItem border3List light2">
 <div class="task">
 
-<div class="op xSmall">${idPrint}</div>
+<!--<div class="op x-small">${idPrint}</div>-->
 <input class="checkbox op" type="checkbox"  name="" value="done" onclick="runDb('done', '`+idPrint+`', '', 'done')">
 <div class="flexCenter"><div class="pre block">${titlePrint}</div></div>
 
@@ -749,7 +749,7 @@ print2 = `
 
 <br>
 
-<div class="block tRight xSmall op padding">
+<div class="block tRight x-small op padding">
 pinned or daily the check mark is removed automatically every new day
 </div>
 

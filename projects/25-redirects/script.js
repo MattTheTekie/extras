@@ -1,4 +1,4 @@
-// v.1.1.64
+// v.1.1.65
 
 
 
@@ -649,7 +649,7 @@ q = q3.replace(q2, '');
 q = q.trim();
 q = encodeURIComponent(q);
 
-sRedirUrl = "/projects/22-radio/?q="+encodeURIComponent("#RadioMusic");
+sRedirUrl = "/projects/22-radio/";
 
 if(q != ''){
 url = "/?q="+q+' m';
