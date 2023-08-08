@@ -1,4 +1,4 @@
-// v.3.10.16
+// v.3.10.17
 
 
 
@@ -1036,8 +1036,8 @@ printMsgWin = '';
 
 
 let winMsg = `
-<div class="wrapperM">
-<div class="block bg4 padding margin msg shadow tLeft" style="margin-bottom: 10px;">
+
+<div class="block bg4 padding margin msg shadow tCenter" style="margin-bottom: 10px;">
 <!--<b class="${printMsgWinColor} padding">${printMsgWin}</b>-->
 <div class="pre"><span title="word per minute" style="color: var(--c3);">WPM: <span class="">${wpm}</span></span> ${wpmProgress} ${recordMsg}</div>
 <span class=""><span title="WPM Average last ${wmpAverageLimit}">Average WPM: </span>${WPMaverage} ${wpmAverageProgress}<br>
