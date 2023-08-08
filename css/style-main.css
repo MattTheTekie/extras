@@ -1,4 +1,4 @@
-/* v.12.31.9 */
+/* v.12.32.0 */
 
 * {  color-scheme: light dark; } /* view-source:about:blank */ /* fixed #fff blink */
 
@@ -329,7 +329,6 @@ td { background-color: var(--l2); }
 
 /* other */
 .padding { padding: 9px; }
-.paddingL { padding: 3px; }
 .block { display: block; box-sizing: border-box; }
 .zero { margin: 0; padding: 0; }
 .margin { margin: 1px; }
@@ -340,9 +339,11 @@ td { background-color: var(--l2); }
 .lowercase { text-transform: lowercase; }
 .b, .b a { font-weight: bold; }
 .bold, .bold a { font-weight: bold; }
+.medium, .medium a { font-size: medium; }
+.large, .large a { font-size: large; }
 .small, .small a { font-size: small; }
-.xSmall, .xSmall a { font-size: x-small; }
-.xxSmall, .xxSmall a { font-size: xx-small; }
+.x-small, .x-small a { font-size: x-small; }
+.xx-small, .xx-small a { font-size: xx-small; }
 .cursorNone { pointer-events: none; }
 .clear { clear: both; }
 .scroll {

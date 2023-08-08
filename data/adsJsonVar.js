@@ -155,6 +155,13 @@ var adsJsonVar =
         "tag": "#ads"
     },
     {
+        "text": "Figma",
+        "text2": "",
+        "text3": "",
+        "url": "https:\/\/www.figma.com\/",
+        "tag": "#ads"
+    },
+    {
         "text": "Firefox Color",
         "text2": "",
         "text3": "",
@@ -243,6 +250,13 @@ var adsJsonVar =
         "text2": "",
         "text3": "",
         "url": "https:\/\/news.ycombinator.com\/",
+        "tag": "#ads"
+    },
+    {
+        "text": "Home - Canva",
+        "text2": "",
+        "text3": "",
+        "url": "https:\/\/www.canva.com\/",
         "tag": "#ads"
     },
     {

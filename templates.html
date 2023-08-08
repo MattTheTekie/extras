@@ -313,12 +313,16 @@ var blogJsonVar =
 </script>
 
 <style>
-.pre { font-size: medium; font-wieght: bold; }
+.post2 .pre { font-size: medium; }
 </style>
 
 
 <script>
-blog("echoBlog", blogJsonVar, 'post2', 'on', 'on', '10', 'templates.html', 'on', '');
+blog("echoBlog", blogJsonVar, 'post2', 'on', 'on', '10', 'templates.html', 'on', '', '', `
+<div class="pre small">
+* i, abc - something from man website
+</div>
+`);
 // printId, blogJsonVar, postClass, embedStatus, tagListStatus, postLimit, scriptDir, multiEmbedStatus
 </script>
 
