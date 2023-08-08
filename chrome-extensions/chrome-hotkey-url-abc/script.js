@@ -1,6 +1,7 @@
-// v.1.0.5
-// firefox
+// v.1.1.0
+// chrome
 
+let hotKeyCancelStatus = ''; // if input cancel, not open URL
 
 
 //https://developer.mozilla.org/docs/Mozilla/Add-ons/WebExtensions/Implement_a_settings_page
@@ -93,7 +94,10 @@ urlFromSetting = urlFromSetting.replaceAll('%title', encodeURIComponent(document
 urlFromSetting = urlFromSetting.replaceAll('%url', document.URL);
 if(urlFromSetting.indexOf('%input') >= 0){
 let urlFromSettingInput = encodeURIComponent(String(window.prompt("input:", "")));
-if(urlFromSettingInput == 'null'){ urlFromSettingInput = ''; }
+if(urlFromSettingInput == 'null'){
+urlFromSettingInput = '';
+hotKeyCancelStatus = 'cancel';
+}
 urlFromSetting = urlFromSetting.replaceAll('%input', urlFromSettingInput);
 }
 //window.open(urlFromSetting, '_blank');
@@ -111,17 +115,20 @@ urlFromSetting = urlFromSetting.replaceAll('%NewTab', '');
 
 // start send to workerk for create new tab
 //chrome.runtime.sendMessage({ url: urlFromSetting });
-
+if(hotKeyCancelStatus != 'cancel'){
 //https://developer.chrome.com/docs/extensions/mv3/messaging/
 var port = chrome.runtime.connect({name: "knockknock"});
 port.postMessage({url: urlFromSetting});
-
+}
 // end open
 
 
 }else {
+if(hotKeyCancelStatus != 'cancel'){
 window.location.href = urlFromSetting; 
 }
+}
+hotKeyCancelStatus = '';
 // end open
 
 }

@@ -27,6 +27,19 @@ document.head.innerHTML += `
 </image>
 
 <item>
+<pubDate>Tue, 08 Aug 23 08:06:10 +0300</pubDate>
+<title><![CDATA[MDN Blog  ]]></title>
+<link><![CDATA[https://developer.mozilla.org/en-US/blog/]]></link>
+<description>
+<![CDATA[
+<div class="post border2">
+MDN Blog <a class="brand" target="_blank" href="https://developer.mozilla.org/en-US/blog/"><img class="ico op" src="https://www.google.com/s2/favicons?domain_url=developer.mozilla.org" width="14px" alt="ico"> https://developer.mozilla.org/en-US/blog/</a>
+</div>
+]]>
+</description>
+</item>
+
+<item>
 <pubDate>Mon, 07 Aug 23 22:49:36 +0300</pubDate>
 <title><![CDATA[Behance :: For You  ]]></title>
 <link><![CDATA[https://www.behance.net/]]></link>
@@ -144,23 +157,6 @@ Green pine trees near body of water under white clouds during daytime photo – 
 <![CDATA[
 <div class="post border2">
 CAKE - I Will Survive (Official HD Video) - YouTube <a class="brand" target="_blank" href="https://www.youtube.com/watch?v=f9rCUQjmkxU"><img class="ico op" src="https://www.google.com/s2/favicons?domain_url=www.youtube.com" width="14px" alt="ico"> https://www.youtube.com/watch?v=f9rCUQjmkxU</a><!--<iframe id="player" style="border:0;" height="190px" width="100%" src="https://www.youtube.com/embed/f9rCUQjmkxU"></iframe>--><iframe width="100%" height="190px" src="https://www.youtube.com/embed/f9rCUQjmkxU" title="YouTube video player" frameborder="0" allow="autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-</div>
-]]>
-</description>
-</item>
-
-<item>
-<pubDate>Fri, 04 Aug 23 03:57:15 +0300</pubDate>
-<title><![CDATA[Update:
-- projects directories renamed
-- few new template and updated ]]></title>
-<link><![CDATA[http://inonehp.github.io/blog.html?id=139#139]]></link>
-<description>
-<![CDATA[
-<div class="post border2">
-Update:
-- projects directories renamed
-- few new template and updated 
 </div>
 ]]>
 </description>

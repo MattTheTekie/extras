@@ -1,4 +1,4 @@
-// v.1.1.63
+// v.1.1.64
 
 
 
@@ -272,6 +272,21 @@ urlList = [
 random = Math.floor(Math.random() * urlList.length);
 random = urlList[random];
 sRedirUrl= random;
+break;
+
+case 'gg#':
+q = q3.replace(q2, '');
+q = q.trim();
+q = encodeURIComponent(q);
+urlList = [
+"https://www.google.com/?q="+q
+];
+random = Math.floor(Math.random() * urlList.length);
+random = urlList[random];
+sRedirUrl= random;
+if(q == ''){
+sRedirUrl = "https://app.grammarly.com/"
+}
 break;
 
 case 't#':

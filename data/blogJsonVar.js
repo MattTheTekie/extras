@@ -1,6 +1,15 @@
 var blogJsonVar = 
 [
     {
+        "id": "151",
+        "text": "MDN Blog",
+        "text2": "",
+        "text3": "",
+        "url": "https:\/\/developer.mozilla.org\/en-US\/blog\/",
+        "tag": "#bookmark #dev",
+        "time": 1691471170
+    },
+    {
         "id": "150",
         "text": "Behance :: For You",
         "text2": "",
