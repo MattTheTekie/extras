@@ -1,4 +1,4 @@
-// v.1.5.1
+// v.1.5.2
 // Inspired by GitHub profile
 
 async function insertIcon(classNameForInsert, mode){
@@ -23,7 +23,7 @@ let icons = {
 "cofee":"☕", "coffee":"☕",
 "copyright":"©",
 "comment":"💬","talk":"💬","chat":"💬",
-"css":"🖥️", "php":"🖥️", "java":"🖥️", "code":"🖥️", "unicorn":"🦄",
+"php":"🖥️", "java":"🖥️", "code":"🖥️", "unicorn":"🦄",
 "db":"💾", "data":"💾", "database":"💾", "keep":"💾", "save":"💾",
 "dir":"📁️",
 "dev":"💻✏️",
@@ -67,7 +67,7 @@ let icons = {
 "search": "🔎",
 "sleep":"😴💤", "bed":"🛏",
 "store":"🛍️","shop":"🛍️", "extension":"🛍️", "extensions":"🛍️",
-"style":"🎨", "css":"🎨", "color":"🎨", "theme":"🎨", "palette":"🎨", "design":"🎨", "webdesign":"🎨",
+"style":"🎨", "color":"🎨", "theme":"🎨", "palette":"🎨", "design":"🎨", "webdesign":"🎨",
 "time":"⌛", "timer":"⌛",
 "tmp":"⏳", "temporary":"⏳",
 "training":"🏃", "run":"🏃",
@@ -173,13 +173,13 @@ if(mode != 'strict'){
 // main, not strict
 
 //https://stackoverflow.com/questions/4993764/how-to-remove-numbers-from-a-string
-if(linkText.replace(/\d+/g, '').toLowerCase().search(textIcon) != -1&&linkText.replace(/\d+/g, '').toLowerCase().search(icon) == -1&&linkText != ' '){
+if(linkText.replace(/\d+/g, '').toLowerCase().search(textIcon.replace(/\d+/g, '')) != -1&&linkText.replace(/\d+/g, '').toLowerCase().search(icon.replace(/\d+/g, '')) == -1&&linkText != ' '){
 icArr.push(icon+'');
 check = 'exit';
 }
 }else{
 // main, strict word
-if((' '+linkText.replace(/\d+/g, '').toLowerCase()+' ').indexOf((' '+textIcon+' ')) >= 0&&(linkText.replace(/\d+/g, '').toLowerCase()+'').indexOf((icon+'')) == -1){
+if((' '+linkText.replace(/\d+/g, '').toLowerCase()+' ').indexOf((' '+textIcon.replace(/\d+/g, '')+' ')) >= 0&&(linkText.replace(/\d+/g, '').toLowerCase()+'').indexOf((icon.replace(/\d+/g, '')+'')) == -1){
 icArr.push(icon+'');
 check = 'exit';
 }
