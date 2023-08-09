@@ -587,7 +587,7 @@ print += `
 
 <div id="form" class="wrapperL">
 <form method="GET" style="margin-top: 0px;" action="?">
-<label id="search" class="op block tLeft xSmall">search:</label>
+<label id="search" class="op block tLeft x-samll">search:</label>
 <input id="input" class="padding op" type="search" style="text-align: center;" name="q"  autocomplete="off" placeholder="" value="${q}">
 
 <input class="op" style="padding: 0; min-height: 1px; height: 28px; font-size: 12px;" type="submit" value="search">

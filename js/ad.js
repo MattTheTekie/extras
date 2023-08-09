@@ -153,7 +153,7 @@ z-index: 2;
 
 <div class="wrapperL">
 <div class="wrapperL cookiePopup post bg3 border margin tCenter shadow">
-<p><b>Allow Cookies for third parties?</b></p>
+<h3>🍪 Allow Cookies for third parties?</h3>
 This is necessary to improve the site.
 (for relevant Ads, Statistics)
 <p>
