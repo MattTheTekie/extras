@@ -94,7 +94,7 @@ randomMovie = movieList[randomMovie]['data'];
 randomMovie2 = movieList[randomMovie2]['data'];
 randomMovie3 = movieList[randomMovie3]['data'];
 print = `
-<span class="op">Random movie:</span><br><br>
+<h3 class="op">Random movie:</h3>
 ${randomMovie}
 ${randomMovie2}
 ${randomMovie3}<br>

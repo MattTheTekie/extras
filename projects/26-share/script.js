@@ -88,7 +88,7 @@ share += `<input type="button" class="dropbtn border1 tag light" style="display:
 }
 
 share += `
-<a class="border2 tag light" href="`+host+`./projects/game-typing-speed/?mode=input&q=`+tshare+`">input</a>
+<a class="border2 tag light" href="`+host+`./projects/14-game-typing-speed/?mode=input&q=`+tshare+`">input</a>
 <hr>
 <a $target class="border2 tag light" href="https://twitter.com/intent/tweet?text=`+tshare+' '+ushare+`">twitter</a>
 <a $target class="border2 tag light" href="https://tumblr.com/widgets/share/tool?canonicalUrl=`+ushare+`">tumblr</a>
