@@ -1,4 +1,4 @@
-// v.1.5.0
+// v.1.5.1
 // Inspired by GitHub profile
 
 async function insertIcon(classNameForInsert, mode){
@@ -105,28 +105,30 @@ let icons = {
 "violet":"🟪",
 "blue":"🟦",
 
-"behance":`<img src="/img/icons/behance-128x128.png" alt="ico" width="16" height="16">`,
-"php":`<img src="/img/icons/php-128x128.png" alt="ico" width="16" height="16">`,
-"apache":`<img src="/img/icons/apache-128x128.png" alt="ico" width="16" height="16">`,
-"gimp":`<img src="/img/icons/gimp-128x128.png" alt="ico" width="16" height="16">`,
-"chrome":`<img src="/img/icons/google-chrome-128x128.png" alt="ico" width="16" height="16">`,
-"inkscape":`<img src="/img/icons/inkscape-128x128.png" alt="ico" width="16" height="16">`,
-"krita":`<img src="/img/icons/krita-128x128.png" alt="ico" width="16" height="16">`,
-"mysql":`<img src="/img/icons/mysql-128x128.png" alt="ico" width="16" height="16">`,
-"mariadb":`<img src="/img/icons/mariadb-128x128.png" alt="ico" width="16" height="16">`,
-"css3":`<img src="/img/icons/css3-128x128.png" alt="ico" width="16" height="16">`,
-"html5":`<img src="/img/icons/html5-128x128.png" alt="ico" width="16" height="16">`,
-"javascript":`<img src="/img/icons/javascript-128x128.png" alt="ico" width="16" height="16">`,
-"geany":`<img src="/img/icons/geany-128x128.png" alt="ico" width="16" height="16">`,
-"firefox":`<img src="/img/icons/firefox-128x128.png" alt="ico" width="16" height="16">`,
-"chrome":`<img src="/img/icons/chrome-128x128.png" alt="ico" width="16" height="16">`,
-"github":`<img src="/img/icons/github-128x128.png" alt="ico" width="16" height="16">`,
-"codepen":`<img src="/img/icons/codepen-128x128.png" alt="ico" width="16" height="16">`,
-"deviantart":`<img src="/img/icons/deviantart-128x128.png" alt="ico" width="16" height="16">`,
-//"twitter":`<img src="/img/icons/twitter-128x128.png" alt="ico" width="16" height="16">`,
-"x":`<img src="/img/icons/x-128x128.png" alt="ico" width="16" height="16">`,
-"twitter":`<img src="/img/icons/x-128x128.png" alt="ico" width="16" height="16">`,
-"xampp":`<img src="/img/icons/xampp-128x128.png" alt="ico" width="16" height="16">`
+"behance":`<img src="/img/icons/behance-48x48.png" alt="ico" width="16" height="16">`,
+"php":`<img src="/img/icons/php-48x48.png" alt="ico" width="16" height="16">`,
+"apache":`<img src="/img/icons/apache-48x48.png" alt="ico" width="16" height="16">`,
+"gimp":`<img src="/img/icons/gimp-48x48.png" alt="ico" width="16" height="16">`,
+"chrome":`<img src="/img/icons/google-chrome-48x48.png" alt="ico" width="16" height="16">`,
+"dribbble":`<img src="/img/icons/dribbble-48x48.png" alt="ico" width="16" height="16">`,
+"inkscape":`<img src="/img/icons/inkscape-48x48.png" alt="ico" width="16" height="16">`,
+"krita":`<img src="/img/icons/krita-48x48.png" alt="ico" width="16" height="16">`,
+"mysql":`<img src="/img/icons/mysql-48x48.png" alt="ico" width="16" height="16">`,
+"mariadb":`<img src="/img/icons/mariadb-48x48.png" alt="ico" width="16" height="16">`,
+"css3":`<img src="/img/icons/css3-48x48.png" alt="ico" width="16" height="16">`,
+"html5":`<img src="/img/icons/html5-48x48.png" alt="ico" width="16" height="16">`,
+"javascript":`<img src="/img/icons/javascript-48x48.png" alt="ico" width="16" height="16">`,
+"geany":`<img src="/img/icons/geany-48x48.png" alt="ico" width="16" height="16">`,
+"firefox":`<img src="/img/icons/firefox-48x48.png" alt="ico" width="16" height="16">`,
+"chrome":`<img src="/img/icons/chrome-48x48.png" alt="ico" width="16" height="16">`,
+"github":`<img src="/img/icons/github-48x48.png" alt="ico" width="16" height="16">`,
+"codepen":`<img src="/img/icons/codepen-48x48.png" alt="ico" width="16" height="16">`,
+"deviantart":`<img src="/img/icons/deviantart-48x48.png" alt="ico" width="16" height="16">`,
+"pinterest":`<img src="/img/icons/pinterest-48x48.png" alt="ico" width="16" height="16">`,
+//"twitter":`<img src="/img/icons/twitter-48x48.png" alt="ico" width="16" height="16">`,
+"x":`<img src="/img/icons/x-48x48.png" alt="ico" width="16" height="16">`,
+"twitter":`<img src="/img/icons/x-48x48.png" alt="ico" width="16" height="16">`,
+"xampp":`<img src="/img/icons/xampp-48x48.png" alt="ico" width="16" height="16">`
 
 };
 
