@@ -13,14 +13,14 @@ document.head.innerHTML += `
 
 <rss version="2.0">
 <channel>
-<title>Inonehp - Home Page  RSS</title>
+<title>Inonehp RSS</title>
 
 <description></description>
 <link>http://inonehp.github.io/</link>
 
 <image class="logo">
     <url>http://inonehp.github.io/img/logo.png</url>
-    <title>Inonehp - Home Page  RSS</title>
+    <title>Inonehp RSS</title>
     <link>http://inonehp.github.io/</link>
 <width>32</width>
 <height>32</height>

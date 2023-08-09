@@ -125,6 +125,8 @@ let icons = {
 "codepen":`<img src="/img/icons/codepen-48x48.png" alt="ico" width="16" height="16">`,
 "deviantart":`<img src="/img/icons/deviantart-48x48.png" alt="ico" width="16" height="16">`,
 "pinterest":`<img src="/img/icons/pinterest-48x48.png" alt="ico" width="16" height="16">`,
+"unsplash":`<img src="/img/icons/unsplash-48x48.png" alt="ico" width="16" height="16">`,
+"instagram":`<img src="/img/icons/instagram-48x48.png" alt="ico" width="16" height="16">`,
 //"twitter":`<img src="/img/icons/twitter-48x48.png" alt="ico" width="16" height="16">`,
 "x":`<img src="/img/icons/x-48x48.png" alt="ico" width="16" height="16">`,
 "twitter":`<img src="/img/icons/x-48x48.png" alt="ico" width="16" height="16">`,
