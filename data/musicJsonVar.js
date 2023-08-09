@@ -1506,6 +1506,20 @@ var musicJsonVar =
         "tag": "#music"
     },
     {
+        "text": "Billie Eilish - Getting Older (Official Lyric Video) - YouTube",
+        "text2": "",
+        "text3": "",
+        "url": "https:\/\/www.youtube.com\/watch?v=7AS9r_E0PY4",
+        "tag": "#music"
+    },
+    {
+        "text": "Billie Eilish - Halley\u2019s Comet (Official Lyric Video) - YouTube",
+        "text2": "",
+        "text3": "",
+        "url": "https:\/\/www.youtube.com\/watch?v=geUYm3f6ZA4",
+        "tag": "#music"
+    },
+    {
         "text": "Billie Eilish - Happier Than Ever (Official Music Video) - YouTube",
         "text2": "",
         "text3": "",
@@ -1513,10 +1527,24 @@ var musicJsonVar =
         "tag": "#music"
     },
     {
+        "text": "Billie Eilish - I Didn\u2019t Change My Number (Official Lyric Video) - YouTube",
+        "text2": "",
+        "text3": "",
+        "url": "https:\/\/www.youtube.com\/watch?v=FP-IopSHomc",
+        "tag": "#music"
+    },
+    {
         "text": "Billie Eilish - Lost Cause (Official Music Video) - YouTube",
         "text2": "",
         "text3": "",
         "url": "https:\/\/www.youtube.com\/watch?v=S2dRcipMCpw",
+        "tag": "#music"
+    },
+    {
+        "text": "Billie Eilish - OverHeated (Official Lyric Video) - YouTube",
+        "text2": "",
+        "text3": "",
+        "url": "https:\/\/www.youtube.com\/watch?v=vg6V2UWSjiM",
         "tag": "#music"
     },
     {

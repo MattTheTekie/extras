@@ -1,4 +1,4 @@
-// v.3.3.29
+// v.3.3.30
 
 // conf
 var symbolForSplit = 'pwxortuzqu'; // for split
@@ -41,7 +41,7 @@ mainPrintMsg('footer', `
 <asdf id="fStyle"></asdf>
 
 <span id="fTheme"><a href="/theme.${confExt}">Themes</a></span>
-<span><a href="https://x.com/inonehp">Twi/X</a></span>
+<span><a href="https://x.com/inonehp">Twi / X</a></span>
 
 <span id="fPrivacy"><a href="/privacy.${confExt}">cookie: status</a></span>
 <span id="fAds"><a href="/ads.${confExt}">ads: ${localStorage.getItem('confAdsStatus')}</a></span>

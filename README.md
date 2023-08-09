@@ -1,13 +1,12 @@
 README.md
 
-⚪ Homepage and other projects  
-💻 I'm trying to create website templates ☕ and then sites 🦄  
-🌱 I'm using and always learn: Web Design, HTML, CSS, JavaSript, PHP and English
-🛍 Extensions: New Tab Redirect ABC (Any website in New Tab, Firefox, Chrome)  
+⚪ Projects:  
 📄 Website Templates  
-🎨 Themes for Firefox, Geany IDE Color Theme  
+🛍 Extensions: New Tab Redirect ABC (Any website in New Tab, Firefox, Chrome)  
+🎨 Themes for Firefox, Geany IDE Color  
 🎮 JavaScript Games: Typing Speed, Snake, Memory Symbol, Tic Tac Toe  
 📝 Todo list  
+...  
 
 
 🔗 Website: [https://inonehp.pages.dev](https://inonehp.pages.dev)  
