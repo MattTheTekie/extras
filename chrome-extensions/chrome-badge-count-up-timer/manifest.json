@@ -6,7 +6,6 @@
   "description": "Shows a Count Up Timer in extension Badge (hours or minutes in 24 format, example: 2359)",
 
 "icons": {
-"96": "icon96x96.png",
 "512": "icon512x512.png"
 },
 
@@ -19,7 +18,6 @@
   
 "action": {
     "default_icon": {              // optional
-"96": "icon96x96.png",
 "512": "icon512x512.png"
     },
     "default_title": "refresh",   // optional, shown in tooltip
