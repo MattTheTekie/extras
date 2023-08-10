@@ -1,24 +1,28 @@
 /* v.1.0.0 */
 
-.center4 { min-height: calc(100vh - 120px); }
+html, body { position: relative; margin: 0; }
 
-
+.content {
+display: block;
+padding-top: 30vh;
+text-align: center;
+}
 
 .localBg {
 display: block;
-
-width: 100%;
-max-width: 25vh;
+width: calc(100% - var(--bodyP));
 height: 100%;
+position: absolute;
 overflow: hidden;
-position: fixed;
-z-index: -2;
-top: 5vh;
-right: 10vw;
+top: 0;
+
+z-index: -3;
+
 background-image: url('../img/flower-bing-ai.png');
-background-size: contain;
-background-position: top right;
+background-size: 15vh;
 background-repeat: no-repeat;
+background-position: left 10% top 5%;
+
 
 -webkit-transform: scaleX(-1);
 transform: scaleX(-1);
@@ -27,17 +31,20 @@ transform: scaleX(-1);
 
 .localBg2 {
 display: block;
-
-width: 100%;
-max-width: 45vh;
+width: calc(100% - var(--bodyP));
 height: 100%;
+position: absolute;
+bottom: 0;
 overflow: hidden;
-position: fixed;
+
 z-index: -2;
-bottom: 5vh;
-left: 10vw;
+
 background-image: url('../img/flower-bing-ai.png');
-background-size: contain;
-background-position: bottom left;
+background-size: 27vh;
+background-position: left 5% bottom 5%;
 background-repeat: no-repeat;
 }
+
+
+
+

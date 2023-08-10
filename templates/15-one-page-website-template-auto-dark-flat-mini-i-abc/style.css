@@ -1,6 +1,7 @@
 /* v.2.0.1 */
 
 
+
 .content {
 display: flex;
 flex-direction: column;
@@ -18,31 +19,30 @@ overflow: hidden;
 
 display: block;
 height: 100%;
-width: 100%;
+width: calc(100% - var(--bodyP));
 position: absolute;
+overflow: hidden;
 top: 0;
-left: 0;
 z-index: -2;
 
 background-image: url('/img/tpl/circle.svg');
 background-size: 100%;
-background-position: top right;
+background-position: top 0;
 background-repeat: no-repeat;
-overflow: hidden;
 }
 
 .localBg2 {
-
 display: block;
-width: 140px;
+width: calc(100% - var(--bodyP));
 height: 100%;
 position: absolute;
+overflow: hidden;
+bottom: 0;
 z-index: -2;
-bottom: 10vh;
-left: 5vw;
+
 background-image: url('/img/tpl/coffe.svg');
 background-size: 140px;
-background-position: bottom left;
+background-position: bottom 10vh left 5vw;
 background-repeat: no-repeat;
 }
 
