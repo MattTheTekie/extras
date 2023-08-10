@@ -187,6 +187,20 @@
          inkscape:export-xdpi="96"
          inkscape:export-ydpi="96" />
     </clipPath>
+    <clipPath
+       clipPathUnits="userSpaceOnUse"
+       id="clipPath13992-1-5">
+      <rect
+         style="fill:#555753;fill-opacity:1;stroke:#343434;stroke-width:5.88994"
+         id="rect13994-5-6"
+         width="506.11005"
+         height="506.11005"
+         x="2.9449463"
+         y="2.9449699"
+         inkscape:export-filename="/mnt/d/Sync/htdocs/firefox-extensions/firefox-hotkey-url-abc/icon512x512.png"
+         inkscape:export-xdpi="96"
+         inkscape:export-ydpi="96" />
+    </clipPath>
   </defs>
   <sodipodi:namedview
      id="namedview4"
@@ -197,9 +211,9 @@
      inkscape:pageopacity="0.0"
      inkscape:pagecheckerboard="0"
      showgrid="false"
-     inkscape:zoom="0.95557502"
-     inkscape:cx="398.18956"
-     inkscape:cy="259.5296"
+     inkscape:zoom="0.6861565"
+     inkscape:cx="177.802"
+     inkscape:cy="206.94987"
      inkscape:window-width="1920"
      inkscape:window-height="1011"
      inkscape:window-x="0"
@@ -211,24 +225,15 @@
      inkscape:label="Image"
      id="g8">
     <rect
-       style="opacity:1;fill:#fcfcfc;fill-opacity:1;stroke:#313131;stroke-width:20;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
-       id="rect11043"
-       width="506.11005"
-       height="506.11005"
-       x="2.9449699"
-       y="2.9449699"
-       inkscape:export-filename="/mnt/d/Sync/htdocs/firefox-extensions/firefox-hotkey-url-abc/icon512x512.png"
-       inkscape:export-xdpi="96"
-       inkscape:export-ydpi="96"
-       clip-path="url(#clipPath13996)"
-       transform="matrix(1.0116377,0,0,1.0116377,-2.9792187,-2.9792426)" />
+       style="opacity:1;fill:#eeeeec;fill-opacity:0.823529;stroke:#313131;stroke-width:28.584;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;paint-order:normal"
+       id="rect1091"
+       width="483.41556"
+       height="382.52237"
+       x="14.292221"
+       y="64.738815" />
     <g
-       id="g16926"
-       transform="translate(12.834491,29.224985)"
-       inkscape:export-filename="/mnt/d/Sync/htdocs/firefox-extensions/firefox-hotkey-url-abc/icon512x512.png"
-       inkscape:export-xdpi="96"
-       inkscape:export-ydpi="96"
-       style="fill:#313131;fill-opacity:1">
+       id="g859"
+       transform="translate(0,10.000001)">
       <rect
          style="fill:#313131;fill-opacity:1;stroke:none;stroke-width:8.36491;stroke-miterlimit:4;stroke-dasharray:none"
          id="rect12817"
@@ -240,19 +245,19 @@
          inkscape:export-filename="/mnt/d/Sync/htdocs/firefox-extensions/firefox-hotkey-url-abc/icon512x512.png"
          inkscape:export-xdpi="96"
          inkscape:export-ydpi="96"
-         transform="matrix(1.0783976,0,0,0.57250771,104.73386,76.183139)" />
+         transform="matrix(0.79730215,0,0,0.33479093,113.83779,141.83174)" />
       <rect
          style="fill:#313131;fill-opacity:1;stroke:none;stroke-width:8.36491;stroke-miterlimit:4;stroke-dasharray:none"
-         id="rect12817-9"
+         id="rect12817-9-3"
          width="468.33008"
          height="179.21632"
          x="-214.5392"
          y="38.196476"
-         clip-path="url(#clipPath13992-1)"
+         clip-path="url(#clipPath13992-1-5)"
          inkscape:export-filename="/mnt/d/Sync/htdocs/firefox-extensions/firefox-hotkey-url-abc/icon512x512.png"
          inkscape:export-xdpi="96"
          inkscape:export-ydpi="96"
-         transform="matrix(1.0783976,0,0,0.57250771,104.73386,231.02861)" />
+         transform="matrix(0.79730215,0,0,0.33479093,193.46618,264.59259)" />
     </g>
   </g>
 </svg>

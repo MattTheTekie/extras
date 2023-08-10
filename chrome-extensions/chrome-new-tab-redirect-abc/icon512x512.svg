@@ -9,6 +9,9 @@
    viewBox="0 0 512 512"
    sodipodi:docname="icon512x512.svg"
    inkscape:version="1.1.2 (0a00cf5339, 2022-02-04)"
+   inkscape:export-filename="/mnt/d/Sync/htdocs/chrome-extensions/chrome-new-tab-redirect-abc/icon512x512.png"
+   inkscape:export-xdpi="96"
+   inkscape:export-ydpi="96"
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
    xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
    xmlns="http://www.w3.org/2000/svg"
@@ -24,9 +27,9 @@
      inkscape:pageopacity="0.0"
      inkscape:pagecheckerboard="0"
      showgrid="false"
-     inkscape:zoom="0.69106535"
-     inkscape:cx="389.25407"
-     inkscape:cy="474.6295"
+     inkscape:zoom="0.84899439"
+     inkscape:cx="234.39495"
+     inkscape:cy="302.71107"
      inkscape:window-width="1920"
      inkscape:window-height="1011"
      inkscape:window-x="0"
@@ -38,15 +41,26 @@
      inkscape:label="Image"
      id="g8">
     <rect
-       style="opacity:1;fill:#f2f2f2;fill-opacity:1;stroke:#191919;stroke-width:19.2863;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:0.823529"
+       style="opacity:1;fill:#f2f2f2;fill-opacity:1;stroke:#2b2b2b;stroke-width:19.2863;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
        id="rect980"
        width="492.71368"
        height="492.71368"
        x="9.6431503"
        y="9.6431503" />
-    <path
-       id="rect849"
-       style="opacity:1;fill:#000000;fill-opacity:0.823529;stroke:#000000;stroke-opacity:0.823529"
-       d="M 229.00781,128.9082 V 229.00781 H 128.9082 v 53.98438 H 229.00781 V 383.0918 h 53.98438 V 282.99219 H 383.0918 V 229.00781 H 282.99219 V 128.9082 Z" />
+    <rect
+       style="opacity:1;fill:#2b2b2b;fill-opacity:1;stroke:none;stroke-width:17.4979;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:0.823529"
+       id="rect2461"
+       width="33.351002"
+       height="200"
+       x="239.32449"
+       y="156" />
+    <rect
+       style="fill:#2b2b2b;fill-opacity:1;stroke:none;stroke-width:17.4978;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:0.823529"
+       id="rect2461-4"
+       width="33.350601"
+       height="200"
+       x="239.32471"
+       y="-356"
+       transform="rotate(90)" />
   </g>
 </svg>

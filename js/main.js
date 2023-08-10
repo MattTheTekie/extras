@@ -276,8 +276,8 @@ var themeListOption2 = [
 "rand-o",
 "rand-od",
 
-"rand-lo",
-"rand-dod",
+"rand-l-o",
+"rand-d-od",
 
 "rand-best",
 
@@ -460,13 +460,13 @@ confRealTmpTheme = themeListOtherDark[Math.floor(Math.random()*themeListOtherDar
 mainPrintTheme(confRealTmpTheme);
 break;
 
-case 'rand-lo':
+case 'rand-l-o':
 confRealTmpTheme = themeListLO[Math.floor(Math.random()*themeListLO.length)];
 //document.getElementById('theme').href = '/css/'+confRealTmpTheme+'.css';
 mainPrintTheme(confRealTmpTheme);
 break;
 
-case 'rand-dod':
+case 'rand-d-od':
 confRealTmpTheme = themeListDOD[Math.floor(Math.random()*themeListDOD.length)];
 //document.getElementById('theme').href = '/css/'+confRealTmpTheme+'.css';
 mainPrintTheme(confRealTmpTheme);

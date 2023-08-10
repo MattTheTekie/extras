@@ -1,0 +1,43 @@
+/* v.1.0.0 */
+
+.center4 { min-height: calc(100vh - 120px); }
+
+
+
+.localBg {
+display: block;
+
+width: 100%;
+max-width: 25vh;
+height: 100%;
+overflow: hidden;
+position: fixed;
+z-index: -2;
+top: 5vh;
+right: 10vw;
+background-image: url('../img/flower-bing-ai.png');
+background-size: contain;
+background-position: top right;
+background-repeat: no-repeat;
+
+-webkit-transform: scaleX(-1);
+transform: scaleX(-1);
+}
+
+
+.localBg2 {
+display: block;
+
+width: 100%;
+max-width: 45vh;
+height: 100%;
+overflow: hidden;
+position: fixed;
+z-index: -2;
+bottom: 5vh;
+left: 10vw;
+background-image: url('../img/flower-bing-ai.png');
+background-size: contain;
+background-position: bottom left;
+background-repeat: no-repeat;
+}
