@@ -3,38 +3,19 @@
 
 function fuAds(none, idAds, comAds){
 
-// none - reserver var
-
-//
-const confGoogleAnalyticsId = 'G-5S4DEE8WLV';
-
-
-// Google Analytics 
-// privacy part
-if(confDataCollection == 'on'){
-
-// analytics
-//<!-- Google tag (gtag.js) -->
-var scriptStat = document.createElement('script');
-scriptStat.type='text/javascript';
-scriptStat.src = `https://www.googletagmanager.com/gtag/js?id=${confGoogleAnalyticsId}`;      
-document.getElementsByTagName('head')[0].appendChild(scriptStat);
-
-window.dataLayer = window.dataLayer || [];
-function gtag(){dataLayer.push(arguments);}
-gtag('js', new Date());
-gtag('config', confGoogleAnalyticsId);
+// none - Reserved variable
 
 
 
-  
-}
+
+
+
+
+
 
 
 
 var adsStatus = '';
-
-
 
 
 switch (localStorage.getItem('confAdsStatus')){
@@ -124,59 +105,4 @@ document.getElementById(idAds).innerHTML = '<div class="center"><div class="post
 
 
 }
-
-
-
-
-// v.1.1.2
-// start Cookie Consent Popups
-// if not selected: popup
-
-if(confDataCollection == 'not selected'){
-if(document.getElementById("cookiePopup") != null){
-
-mainPrintMsg('cookiePopup', `
-
-<style>
-#cookiePopup{
-position: fixed;
-bottom: 20px;
-left: 0;
-right: 0;
-display: none;
-z-index: 2;
-}
-
-#cookiePopup .button { font-size: 100%; min-width: 50px; }
-.cookieBtnYes { border-color: var(--green); }
-</style>
-
-<div class="wrapperL">
-<div class="wrapperL cookiePopup post bg3 border margin tCenter shadow">
-<h3>🍪 Allow Cookies for third parties?</h3>
-This is necessary to improve the site.
-(for relevant Ads, Statistics)
-<p>
-<button class="button light3 border cookieBtnYes" onclick="cookiePopup('on')">Yes</button>
-<button class="button light3 border" onclick="cookiePopup('off')">No</button>
-</p>
-</div>
-</div>
-
-`);
-
-document.getElementById("cookiePopup").style.display = "block";
-}
-}
-
-function cookiePopup(option){
-localStorage.setItem('confDataCollection', option);
-if(document.getElementById("cookiePopup") != null){
-document.getElementById("cookiePopup").style.display = "none";
-mainPrintMsg('fPrivacy', `<a href="/privacy.${confExt}">cookies: ${option}</a>`); 
-}
-}
-// end 
-
-
 

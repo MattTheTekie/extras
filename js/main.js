@@ -2,7 +2,7 @@
 
 // conf
 var symbolForSplit = 'pwxortuzqu'; // for split
-
+var confGoogleAnalyticsId = 'G-5S4DEE8WLV';
 
 
 // if localhost make some pages with php extension, because in the original they are php
@@ -25,6 +25,13 @@ document.getElementById('theme').id = 'themeDisable';
 
 
 
+
+
+
+
+
+
+// start footer
 mainPrintMsg('footer', `
 
 <div id="cookiePopup"></div>
@@ -59,9 +66,11 @@ mainPrintMsg('footer', `
 </div>
 
 
-
-
 `);
+// end footer
+
+
+
 
 
 /*
@@ -701,6 +710,92 @@ document.getElementById("dropdownMenuButton").innerHTML = '☰ Menu';
     }
 });
 
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+// v.1.1.2
+// start Cookie Consent Popups
+// if not selected: popup
+
+if(confDataCollection == 'not selected'){
+if(document.getElementById("cookiePopup") != null){
+
+mainPrintMsg('cookiePopup', `
+
+<style>
+#cookiePopup{
+position: fixed;
+bottom: 30px;
+left: 0;
+right: 0;
+display: none;
+z-index: 2;
+}
+
+#cookiePopup .button { font-size: 100%; min-width: 80px; }
+.cookieBtnYes { border-color: var(--green); }
+</style>
+
+<div class="wrapperL">
+<div class="wrapperL cookiePopup post bg3 border margin tCenter shadow">
+<h3>🍪 Allow Cookies for third parties?</h3>
+This is necessary to improve the site.
+(for relevant Ads, Statistics)
+<p>
+<button class="button light3 border cookieBtnYes shadow" onclick="cookiePopup('on')">Yes</button>
+<button class="button light3 border shadow" onclick="cookiePopup('off')">No</button>
+</p>
+</div>
+</div>
+
+`);
+
+document.getElementById("cookiePopup").style.display = "block";
+}
+}
+
+function cookiePopup(option){
+localStorage.setItem('confDataCollection', option);
+if(document.getElementById("cookiePopup") != null){
+document.getElementById("cookiePopup").style.display = "none";
+mainPrintMsg('fPrivacy', `<a href="/privacy.${confExt}">cookies: ${option}</a>`); 
+}
+}
+// end 
+
+
+// Google Analytics 
+// privacy part
+if(confDataCollection == 'on'){
+
+// analytics
+//<!-- Google tag (gtag.js) -->
+var scriptStat = document.createElement('script');
+
+scriptStat.async = true;
+scriptStat.type ='text/javascript';
+scriptStat.src = `https://www.googletagmanager.com/gtag/js?id=${confGoogleAnalyticsId}`;
+
+
+document.getElementsByTagName('head')[0].appendChild(scriptStat);
+
+window.dataLayer = window.dataLayer || [];
+function gtag(){dataLayer.push(arguments);}
+gtag('js', new Date());
+gtag('config', confGoogleAnalyticsId);
 }
 
 
