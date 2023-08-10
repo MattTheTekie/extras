@@ -745,8 +745,8 @@ display: none;
 z-index: 2;
 }
 
-#cookiePopup .button { font-size: 100%; min-width: 80px; }
-.cookieBtnYes { border-color: var(--green); }
+#cookiePopup .button { font-size: 100%; min-width: 60px; }
+.cookieBtnYes { border: 1px inset var(--green); }
 </style>
 
 <div class="wrapperL">
@@ -755,8 +755,8 @@ z-index: 2;
 This is necessary to improve the site.
 (for relevant Ads, Statistics)
 <p>
-<button class="button light3 border cookieBtnYes shadow" onclick="cookiePopup('on')">Yes</button>
-<button class="button light3 border shadow" onclick="cookiePopup('off')">No</button>
+<button class="button light3 border cookieBtnYes" onclick="cookiePopup('on')">Yes</button>
+<button class="button light3 border" onclick="cookiePopup('off')">No</button>
 </p>
 </div>
 </div>
@@ -781,21 +781,22 @@ mainPrintMsg('fPrivacy', `<a href="/privacy.${confExt}">cookies: ${option}</a>`)
 // privacy part
 if(confDataCollection == 'on'){
 
+onload = (event) => {
+
 // analytics
 //<!-- Google tag (gtag.js) -->
 var scriptStat = document.createElement('script');
-
-scriptStat.async = true;
+//scriptStat.async = true;
 scriptStat.type ='text/javascript';
 scriptStat.src = `https://www.googletagmanager.com/gtag/js?id=${confGoogleAnalyticsId}`;
-
-
 document.getElementsByTagName('head')[0].appendChild(scriptStat);
 
 window.dataLayer = window.dataLayer || [];
 function gtag(){dataLayer.push(arguments);}
 gtag('js', new Date());
 gtag('config', confGoogleAnalyticsId);
+
 }
 
+};
 
