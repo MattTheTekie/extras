@@ -168,6 +168,17 @@ confDeviceTheme = 'none';
 if (window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches) { confDeviceTheme = 'dark'; }
 if (window.matchMedia && window.matchMedia('(prefers-color-scheme: light)').matches) { confDeviceTheme = 'light'; }
 
+// top bar color theme set
+//<meta name="theme-color" content="#317EFB"/>
+var meta = document.createElement('meta');
+meta.name = "theme-color";
+if(confDeviceTheme == 'dark'){
+meta.content = "#2D2D2E";
+}else{
+meta.content = "#F0F0F0";
+}
+document.getElementsByTagName('head')[0].appendChild(meta);
+
 
 // insert color-theme.css in header
 function mainPrintTheme(theme){
