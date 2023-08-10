@@ -2093,6 +2093,7 @@ ${nav2Print}
 
 // for embed 
 if(embedStatus != 'off'){
+window.onload = function(){
 
 if(embedServiceList.search(`xcom`) != -1) {
 var script = document.createElement('script');
@@ -2152,7 +2153,7 @@ document.getElementsByTagName('head')[0].appendChild(script2);
 
 
 
-
+}
 }
 
 

@@ -140,7 +140,8 @@ document.getElementById("result2").innerHTML = '<span>'+win+'</span>';
 }
 
 document.getElementById("msg").innerHTML = `
-<div class="block tCenter op small padding margin">* The game is played to ${pointsLimit} points</div>
+
+<div class="block tCenter op small padding margin" style="padding-top: 45px;">* The game is played to ${pointsLimit} points</div>
 `;
 
 function refresh(){ //https://stackoverflow.com/questions/39880242/how-to-reload-javascript-without-refreshing-the-page

@@ -548,6 +548,11 @@ function fuWorker(fuSWstatus){
 
 if(fuSWstatus == 'on'&&confWorkerStatus == 'on'){
 
+let element = document.createElement('link'); 
+element.setAttribute('rel', 'manifest'); 
+element.setAttribute('href', "manifest.webmanifest"); 
+document.querySelector('head').appendChild(element);
+
 
 //https://developer.mozilla.org/en-US/docs/Web/API/CacheStorage/open
 //https://developer.mozilla.org/en-US/docs/Web/API/ServiceWorkerContainer/register
@@ -597,10 +602,7 @@ console.error(`Service worker registration failed: ${error}`);
 
 
 
-let element = document.createElement('link'); 
-element.setAttribute('rel', 'manifest'); 
-element.setAttribute('href', "manifest.webmanifest"); 
-document.querySelector('head').appendChild(element);
+
 
 
 
