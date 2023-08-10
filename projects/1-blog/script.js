@@ -161,7 +161,7 @@ sTimeRedir[0] = 7000;
 
 if(tagListStatus == 'on'){
 print += `
-<header class="brand">
+
 <nav>
 <a href="?">main</a>
 <a href="?mode=random">random</a>
@@ -169,7 +169,7 @@ print += `
 <a href="?mode=auto-random">auto-random</a>
 <!--<a href="/rss.xml">rss</a>-->
 </nav>
-</header>
+
 <span id="comMsg"></span>
 <span id="postTotal"></span>
 
