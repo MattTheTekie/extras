@@ -1,6 +1,15 @@
 var blogJsonVar = 
 [
     {
+        "id": "154",
+        "text": "\"Have no fear of perfection -- you\u2019ll never reach it.\" -- Salvador Dali, artist",
+        "text2": "",
+        "text3": "",
+        "url": "https:\/\/blog.hubspot.com\/marketing\/design-quotes",
+        "tag": "#quote",
+        "time": 1691630643
+    },
+    {
         "id": "153",
         "text": "SVG Spinning House",
         "text2": "",

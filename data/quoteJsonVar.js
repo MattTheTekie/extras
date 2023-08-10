@@ -36,6 +36,13 @@ var quoteJsonVar =
         "tag": "#quote"
     },
     {
+        "text": "Design is not just what it looks like and feels like. Design is how it works. Steve Jobs",
+        "text2": "",
+        "text3": "",
+        "url": "",
+        "tag": "#quote"
+    },
+    {
         "text": "Dogs laugh, but they laugh with their tails. Max Eastman",
         "text2": "",
         "text3": "",
@@ -82,6 +89,13 @@ var quoteJsonVar =
         "text2": "",
         "text3": "",
         "url": "",
+        "tag": "#quote"
+    },
+    {
+        "text": "Have no fear of perfection - you\u2019ll never reach it. Salvador Dali",
+        "text2": "",
+        "text3": "",
+        "url": "https:\/\/blog.hubspot.com\/marketing\/design-quotes",
         "tag": "#quote"
     },
     {
@@ -352,6 +366,13 @@ var quoteJsonVar =
     },
     {
         "text": "Whoever is happy will make others happy too. Anne Frank",
+        "text2": "",
+        "text3": "",
+        "url": "",
+        "tag": "#quote"
+    },
+    {
+        "text": "You can't use up creativity. The more you use, the more you have. Maya Angelou",
         "text2": "",
         "text3": "",
         "url": "",

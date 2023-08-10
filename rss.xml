@@ -27,6 +27,19 @@ document.head.innerHTML += `
 </image>
 
 <item>
+<pubDate>Thu, 10 Aug 23 04:24:03 +0300</pubDate>
+<title><![CDATA["Have no fear of perfection -- you’ll never reach it." -- Salvador Dali, artist  ]]></title>
+<link><![CDATA[https://blog.hubspot.com/marketing/design-quotes]]></link>
+<description>
+<![CDATA[
+<div class="post border2">
+&quot;Have no fear of perfection -- you’ll never reach it.&quot; -- Salvador Dali, artist <a class="brand" target="_blank" href="https://blog.hubspot.com/marketing/design-quotes"><img class="ico op" src="https://www.google.com/s2/favicons?domain_url=blog.hubspot.com" width="14px" alt="ico"> https://blog.hubspot.com/marketing/design-quotes</a>
+</div>
+]]>
+</description>
+</item>
+
+<item>
 <pubDate>Wed, 09 Aug 23 03:36:46 +0300</pubDate>
 <title><![CDATA[SVG Spinning House  ]]></title>
 <link><![CDATA[https://codepen.io/jkantner/pen/WNYBQQp]]></link>
@@ -150,19 +163,6 @@ A mushroom sitting in the grass on a sunny day photo – Free Fungus Image on Un
 <![CDATA[
 <div class="post border2">
 Aerial view of pine trees in mist photo – Free Forest Image on Unsplash <a class="brand" target="_blank" href="https://unsplash.com/photos/OYFHT4X5isg"><img class="ico op" src="https://www.google.com/s2/favicons?domain_url=unsplash.com" width="14px" alt="ico"> https://unsplash.com/photos/OYFHT4X5isg</a><a target="_blank" href="https://unsplash.com/photos/OYFHT4X5isg"><img class="img border3" src="https://unsplash.com/photos/OYFHT4X5isg/download" width=""></a>
-</div>
-]]>
-</description>
-</item>
-
-<item>
-<pubDate>Sat, 05 Aug 23 06:32:02 +0300</pubDate>
-<title><![CDATA[A view of a mountain with a road going through it photo – Free Nature Image on Unsplash  ]]></title>
-<link><![CDATA[https://unsplash.com/photos/tevq6l3Niv0]]></link>
-<description>
-<![CDATA[
-<div class="post border2">
-A view of a mountain with a road going through it photo – Free Nature Image on Unsplash <a class="brand" target="_blank" href="https://unsplash.com/photos/tevq6l3Niv0"><img class="ico op" src="https://www.google.com/s2/favicons?domain_url=unsplash.com" width="14px" alt="ico"> https://unsplash.com/photos/tevq6l3Niv0</a><a target="_blank" href="https://unsplash.com/photos/tevq6l3Niv0"><img class="img border3" src="https://unsplash.com/photos/tevq6l3Niv0/download" width=""></a>
 </div>
 ]]>
 </description>
