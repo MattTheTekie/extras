@@ -1,4 +1,4 @@
-/* v.12.32.3 */
+/* v.12.32.4 */
 
 * {  color-scheme: light dark; } /* view-source:about:blank */ /* fixed #fff blink */
 
@@ -136,7 +136,7 @@ iframe, .pre iframe, .pre video, .pre audio { display: block; margin-top: 15px; 
 
 
 
-.op { opacity: 0.75; } 
+.op { opacity: 0.85; } 
 .op:hover { opacity: 1; }
 .op2 { opacity: 0.25; }
 .op2:hover { opacity: 1; }
