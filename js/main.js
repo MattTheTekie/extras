@@ -786,7 +786,7 @@ window.onload = function(){
 // analytics
 //<!-- Google tag (gtag.js) -->
 var scriptStat = document.createElement('script');
-//scriptStat.async = true;
+scriptStat.async = 'async';
 scriptStat.type ='text/javascript';
 scriptStat.src = `https://www.googletagmanager.com/gtag/js?id=${confGoogleAnalyticsId}`;
 document.getElementsByTagName('head')[0].appendChild(scriptStat);
