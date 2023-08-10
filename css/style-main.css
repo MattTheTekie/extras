@@ -1,4 +1,4 @@
-/* v.12.32.0 */
+/* v.12.32.1 */
 
 * {  color-scheme: light dark; } /* view-source:about:blank */ /* fixed #fff blink */
 
@@ -374,7 +374,7 @@ scroll-padding-top: 16px;
 
 h1, h2, h3, h4, h5, h6 {
 word-break: break-all;
-margin-bottom: 25px 0;
+margin: 25px 0;
 }
 h1, h2, h3, h4, h5, h6, .bold, .b, b { letter-spacing: 0.2px; }
 
