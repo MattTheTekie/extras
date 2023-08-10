@@ -144,7 +144,7 @@ document.getElementById(printId).innerHTML = `
 <a class="tag padding light border3 margin" onclick="reload()"  style="display: block; text-align: center;" href="#">reload</a>
 <!-- // post -->
 
-<!--<div class="xSmall tRight block margin padding op">total: ${jsonVar.length}</div>-->
+<!--<div class="small tRight block margin padding op">total: ${jsonVar.length}</div>-->
 </div>
 
 
@@ -587,7 +587,7 @@ document.getElementById(printId).innerHTML +=  `
 
 <div id="form" class="wrapperL">
 <form method="GET" style="margin-top: 0px;" action="?">
-<label id="search" class="op block tLeft xSmall">search and tag:</label>
+<label id="search" class="op block tLeft x-small">search and tag:</label>
 <input id="input" class="padding op" type="search" style="text-align: center;" name="q"  autocomplete="off" placeholder="" value="${q}">
 
 <input class="op" style="padding: 0; min-height: 1px; height: 24px; font-size: 12px;" type="submit" value="go">
@@ -595,7 +595,7 @@ document.getElementById(printId).innerHTML +=  `
 </form>
 
 <br>
-<span class="xSmall op block tCenter margin padding">total: ${jsonVar.length}</span>
+<span class="x-small op block tCenter margin padding">total: ${jsonVar.length}</span>
 </div>
 `;
 

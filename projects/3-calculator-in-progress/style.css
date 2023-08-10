@@ -1,4 +1,4 @@
-/* v.1.0.2 */
+/* v.1.0.3 */
 /* inspired by Bing Web Calculator, Google Web Calculator, Google Calculator App and other
  */
 
@@ -16,7 +16,7 @@ border-radius: 7px;
 
 .grid {
 display: grid;
-grid-template-columns: 20% 80%;
+grid-template-columns: repeat(4, 1fr);
 grid-gap: 5px;
 margin: 0 auto;
 margin-top: 15px;

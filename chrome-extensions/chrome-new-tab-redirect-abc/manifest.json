@@ -1,12 +1,12 @@
 {
 
   "manifest_version": 3,
-  "name": "New Tab Redirect ABC",
-  "version": "1.29",
+  "name": "New Tab Redirect Abc",
+  "version": "1.30",
   "description": "Your own URL website will open in a New Tab",
 
 "icons": {
-  "96": "icon96x96.png"
+  "512": "icon512x512.png"
 },
 
 "permissions":
@@ -18,7 +18,7 @@
 
 "action": {
     "default_icon": {              // optional
-      "96": "icon96x96.png"
+      "512": "icon512x512.png"
     },
     "default_title": "options",   // optional, shown in tooltip
     "default_popup": "/options.html"  // optional

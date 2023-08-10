@@ -372,7 +372,10 @@ scroll-padding-top: 16px;
 
 /* fixed */
 
-h1, h2, h3, h4, h5, h6 { word-break: break-all; }
+h1, h2, h3, h4, h5, h6 {
+word-break: break-all;
+margin-bottom: 25px 0;
+}
 h1, h2, h3, h4, h5, h6, .bold, .b, b { letter-spacing: 0.2px; }
 
 @media(max-width: 200px) { div, input, textarea, a{ word-break: break-all; } }

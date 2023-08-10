@@ -17,10 +17,8 @@ Notice:
 
 Example:  
 key and URL:  
-"!", "https://twitter.com/%blank"  
-"@", "https://reddit.com/%blank"  
+"!", "https://twitter.com/%blank"   
 "Control1", "https://google.com/?q=%input%blank"  
-"Control2", "https://bing.com/?q=%input%blank"  
 
 
 Screenshots:  
