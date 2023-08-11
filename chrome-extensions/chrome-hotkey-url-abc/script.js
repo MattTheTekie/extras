@@ -1,6 +1,11 @@
 // v.1.1.0
 // chrome
 
+// run after page load
+window.onload = function(){
+
+
+
 let hotKeyCancelStatus = ''; // if input cancel, not open URL
 
 
@@ -154,3 +159,5 @@ const getting = chrome.storage.sync.get("hotkey");
 getting.then(onGot, onError);
 
 
+
+}

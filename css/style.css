@@ -62,13 +62,17 @@ justify-content: center;
 
 
 .menu a{
-display:flex;
+text-wrap: balance;
+display: flex;
 justify-content: center;
 align-content: center;
 text-transform: lowercase;
+padding: 10px 4px; margin:0;
 }
-.menu a { padding: 9px; margin:0; }
 
+.menu a::first-letter {
+font-weight: bold;
+}
 
 
 /*list*/

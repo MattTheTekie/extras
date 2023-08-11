@@ -1,6 +1,9 @@
 // v.1.1.0
 // firefox
 
+// run after page load
+window.onload = function(){
+
 let hotKeyCancelStatus = ''; // if input cancel, not open URL
 
 
@@ -151,4 +154,4 @@ const getting = browser.storage.sync.get("hotkey");
 //const getting = browser.storage.local.get("rUrl");
 getting.then(onGot, onError);
 
-
+}

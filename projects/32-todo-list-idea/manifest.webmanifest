@@ -1,16 +1,17 @@
 {
-"name": "Todo List",
-"short_name": "Todo List",
+"name": "Todo List Idea",
+"short_name": "Todo List Idea",
 
 "background_color": "#FCF7ED",
 "description": "no description",
 "display":"minimal-ui",
   "icons": [
-    {
-      "src": "/img/logo.png",
-      "sizes": "512x512",
-      "type": "image/png"
-    }
+{
+"src": "/img/maskable_icon_x512.png",
+"sizes": "512x512",
+"type": "image/png",
+"purpose": "any maskable"
+}
   ],
 "start_url": "index.html"
 }

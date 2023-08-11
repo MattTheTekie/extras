@@ -117,11 +117,6 @@
 </url>
 
 <url>
-<loc>https://inonehp.pages.dev/img-test.html</loc>
-
-</url>
-
-<url>
 <loc>https://inonehp.pages.dev/index.html</loc>
 
 </url>
@@ -497,11 +492,6 @@
 </url>
 
 <url>
-<loc>https://inonehp.pages.dev/sitemap.html</loc>
-
-</url>
-
-<url>
 <loc>https://inonehp.pages.dev/templates/0-start_end/index.html</loc>
 
 </url>
@@ -638,6 +628,11 @@
 
 <url>
 <loc>https://inonehp.pages.dev/templates.html</loc>
+
+</url>
+
+<url>
+<loc>https://inonehp.pages.dev/test-img.html</loc>
 
 </url>
 

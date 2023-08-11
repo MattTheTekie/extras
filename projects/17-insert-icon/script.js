@@ -1,4 +1,4 @@
-// v.1.5.2
+// v.1.6.0
 // Inspired by GitHub profile
 
 async function insertIcon(classNameForInsert, mode){
@@ -105,32 +105,32 @@ let icons = {
 "violet":"🟪",
 "blue":"🟦",
 
-"behance":`<img src="/img/icons/behance-48x48.png" alt="ico" width="16" height="16">`,
-"php":`<img src="/img/icons/php-48x48.png" alt="ico" width="16" height="16">`,
-"apache":`<img src="/img/icons/apache-48x48.png" alt="ico" width="16" height="16">`,
-"gimp":`<img src="/img/icons/gimp-48x48.png" alt="ico" width="16" height="16">`,
-"chrome":`<img src="/img/icons/google-chrome-48x48.png" alt="ico" width="16" height="16">`,
-"dribbble":`<img src="/img/icons/dribbble-48x48.png" alt="ico" width="16" height="16">`,
-"inkscape":`<img src="/img/icons/inkscape-48x48.png" alt="ico" width="16" height="16">`,
-"krita":`<img src="/img/icons/krita-48x48.png" alt="ico" width="16" height="16">`,
-"mysql":`<img src="/img/icons/mysql-48x48.png" alt="ico" width="16" height="16">`,
-"mariadb":`<img src="/img/icons/mariadb-48x48.png" alt="ico" width="16" height="16">`,
-"css3":`<img src="/img/icons/css3-48x48.png" alt="ico" width="16" height="16">`,
-"html5":`<img src="/img/icons/html5-48x48.png" alt="ico" width="16" height="16">`,
-"javascript":`<img src="/img/icons/javascript-48x48.png" alt="ico" width="16" height="16">`,
-"geany":`<img src="/img/icons/geany-48x48.png" alt="ico" width="16" height="16">`,
-"firefox":`<img src="/img/icons/firefox-48x48.png" alt="ico" width="16" height="16">`,
-"chrome":`<img src="/img/icons/chrome-48x48.png" alt="ico" width="16" height="16">`,
-"github":`<img src="/img/icons/github-48x48.png" alt="ico" width="16" height="16">`,
-"codepen":`<img src="/img/icons/codepen-48x48.png" alt="ico" width="16" height="16">`,
-"deviantart":`<img src="/img/icons/deviantart-48x48.png" alt="ico" width="16" height="16">`,
-"pinterest":`<img src="/img/icons/pinterest-48x48.png" alt="ico" width="16" height="16">`,
-"unsplash":`<img src="/img/icons/unsplash-48x48.png" alt="ico" width="16" height="16">`,
-"instagram":`<img src="/img/icons/instagram-48x48.png" alt="ico" width="16" height="16">`,
-//"twitter":`<img src="/img/icons/twitter-48x48.png" alt="ico" width="16" height="16">`,
-"x":`<img src="/img/icons/x-48x48.png" alt="ico" width="16" height="16">`,
-"twitter":`<img src="/img/icons/x-48x48.png" alt="ico" width="16" height="16">`,
-"xampp":`<img src="/img/icons/xampp-48x48.png" alt="ico" width="16" height="16">`
+"behance":`<img src="/img/icons/behance-48x48.png" alt="ico" width="12" height="12">`,
+"php":`<img src="/img/icons/php-48x48.png" alt="ico" width="12" height="12">`,
+"apache":`<img src="/img/icons/apache-48x48.png" alt="ico" width="12" height="12">`,
+"gimp":`<img src="/img/icons/gimp-48x48.png" alt="ico" width="12" height="12">`,
+"chrome":`<img src="/img/icons/google-chrome-48x48.png" alt="ico" width="12" height="12">`,
+"dribbble":`<img src="/img/icons/dribbble-48x48.png" alt="ico" width="12" height="12">`,
+"inkscape":`<img src="/img/icons/inkscape-48x48.png" alt="ico" width="12" height="12">`,
+"krita":`<img src="/img/icons/krita-48x48.png" alt="ico" width="12" height="12">`,
+"mysql":`<img src="/img/icons/mysql-48x48.png" alt="ico" width="12" height="12">`,
+"mariadb":`<img src="/img/icons/mariadb-48x48.png" alt="ico" width="12" height="12">`,
+"css3":`<img src="/img/icons/css3-48x48.png" alt="ico" width="12" height="12">`,
+"html5":`<img src="/img/icons/html5-48x48.png" alt="ico" width="12" height="12">`,
+"javascript":`<img src="/img/icons/javascript-48x48.png" alt="ico" width="12" height="12">`,
+"geany":`<img src="/img/icons/geany-48x48.png" alt="ico" width="12" height="12">`,
+"firefox":`<img src="/img/icons/firefox-48x48.png" alt="ico" width="12" height="12">`,
+"chrome":`<img src="/img/icons/chrome-48x48.png" alt="ico" width="12" height="12">`,
+"github":`<img src="/img/icons/github-48x48.png" alt="ico" width="12" height="12">`,
+"codepen":`<img src="/img/icons/codepen-48x48.png" alt="ico" width="12" height="12">`,
+"deviantart":`<img src="/img/icons/deviantart-48x48.png" alt="ico" width="12" height="12">`,
+"pinterest":`<img src="/img/icons/pinterest-48x48.png" alt="ico" width="12" height="12">`,
+"unsplash":`<img src="/img/icons/unsplash-48x48.png" alt="ico" width="12" height="12">`,
+"instagram":`<img src="/img/icons/instagram-48x48.png" alt="ico" width="12" height="12">`,
+//"twitter":`<img src="/img/icons/twitter-48x48.png" alt="ico" width="12" height="12">`,
+"x":`<img src="/img/icons/x-48x48.png" alt="ico" width="12" height="12">`,
+"twitter":`<img src="/img/icons/x-48x48.png" alt="ico" width="12" height="12">`,
+"xampp":`<img src="/img/icons/xampp-48x48.png" alt="ico" width="12" height="12">`
 
 };
 
@@ -145,9 +145,17 @@ allLinks.forEach((item, index) => {
 
 
 let linkText = item.innerHTML;
+
+
+
+let linkURL = item.href;
+if(item.href != undefined){
+linkURL = item.href;
+}else{ linkURL = 'ldskjlf'; }
+
 let check = '';
 let icArr = [];
-
+let counter = 0; // for only be 1 icon
 
 iconsArr.forEach((item) => {
 
@@ -157,41 +165,77 @@ let icon = icons[textIcon];
 //console.log((linkText.toLowerCase()+'').indexOf((icon+' ')));
 
 
-// if link
-if(linkText.toLowerCase().slice(0, 4) == 'http'&&linkText.toLowerCase().search("http|://|www.") != -1){
-var iconHTTP = `https://www.google.com/s2/favicons?domain_url=${linkText}`;
-//var ico = `https://api.statvoo.com/favicon/?url=${host[2]}`;
-//var ico = `https://api.faviconkit.com/${host[2]}/16`;
-iconHTTP = `<img  src="${iconHTTP}" alt="ico" width="16" height="16">`;
-icArr.push(iconHTTP+'');
-check = 'exit';
-}
+
+
 
 
 
 if(mode != 'strict'){
 // main, not strict
 
-//https://stackoverflow.com/questions/4993764/how-to-remove-numbers-from-a-string
-if(linkText.replace(/\d+/g, '').toLowerCase().search(textIcon.replace(/\d+/g, '')) != -1&&linkText.replace(/\d+/g, '').toLowerCase().search(icon.replace(/\d+/g, '')) == -1&&linkText != ' '){
+//https://stackoverflow.com/questions/412123764/how-to-remove-numbers-from-a-string
+if(linkText.replace(/\d+/g, '').toLowerCase().search(textIcon.replace(/\d+/g, '')) != -1&&linkText.replace(/\d+/g, '').toLowerCase().search(icon.replace(/\d+/g, '')) == -1&&linkText != ' '&&counter == 0){
 icArr.push(icon+'');
 check = 'exit';
+counter++;
 }
-}else{
+}else if(counter == 0){
 // main, strict word
 if((' '+linkText.replace(/\d+/g, '').toLowerCase()+' ').indexOf((' '+textIcon.replace(/\d+/g, '')+' ')) >= 0&&(linkText.replace(/\d+/g, '').toLowerCase()+'').indexOf((icon.replace(/\d+/g, '')+'')) == -1){
 icArr.push(icon+'');
 check = 'exit';
+counter++
 }
 }
 
 });
 
+
+
+// if link
+if(linkText.toLowerCase().slice(0, 4) == 'http'&&linkText.toLowerCase().search("http|://|www.") != -1&&counter == 0){
+let linkTextURL = linkText;
+let host = linkTextURL.split('/');
+if(host[2] != undefined){
+linkTextURL = host[2];
+}
+var iconHTTP = `https://www.google.com/s2/favicons?domain_url=${linkTextURL}`;
+//var ico = `https://api.statvoo.com/favicon/?url=${host[2]}`;
+//var ico = `https://api.faviconkit.com/${host[2]}/16`;
+iconHTTP = `<img src="${iconHTTP}" alt="ico" width="12" height="12">`;
+icArr.push(iconHTTP+'');
+check = 'exit';
+counter++;
+}
+
+
+// if link2
+if(linkURL.toLowerCase().search(location.host) == -1&&linkURL.toLowerCase().slice(0, 4) == 'http'&&linkURL.toLowerCase().search("http|://|www.") != -1&&counter == 0){
+let linkTextURL = linkURL;
+let host = linkTextURL.split('/');
+if(host[2] != undefined){
+linkTextURL = host[2];
+}
+var iconHTTP = `https://www.google.com/s2/favicons?domain_url=${linkTextURL}`;
+//var ico = `https://api.statvoo.com/favicon/?url=${host[2]}`;
+//var ico = `https://api.faviconkit.com/${host[2]}/16`;
+iconHTTP = `<img src="${iconHTTP}" alt="ico" width="12" height="12">`;
+icArr.push(iconHTTP+'');
+check = 'exit';
+counter++;
+}
+
+
+
+
+
+
+
 if(check == 'exit'){
 icArr = [...new Set(icArr)];
 //icon = icArr.toString();
 icon = icArr.join('');
-linkText = '<span class="ico2 pre">'+icon+'</span><span class="pre"> </span>'+linkText;
+linkText = '<span class="" style="font-size: 12px">'+icon+'</span><span class="pre"> </span>'+linkText;
 document.getElementsByClassName(classNameForInsert)[index].innerHTML = linkText;
 }else{
 //linkText = '<span class="op pre">📄 </span>'+linkText;
@@ -199,6 +243,7 @@ document.getElementsByClassName(classNameForInsert)[index].innerHTML = linkText;
 divId.getElementsByTagName("a")[index].innerHTML = linkText;*/
 }
 
+counter = 0;
 ckeck = '';
 icArr = [];
 });

@@ -1,11 +1,18 @@
 /* v.1.0.0 */
 
-html, body { position: relative; margin: 0; }
+
+
 
 .content {
-display: block;
-padding-top: 30vh;
-text-align: center;
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: safe-center;
+align-self: safe-center;
+box-sizing: border-box;
+margin: 0 auto;
+margin-bottom: 0;
+overflow: hidden;
 }
 
 .localBg {

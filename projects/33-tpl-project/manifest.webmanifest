@@ -1,4 +1,7 @@
 {
+"name": "TPL",
+"short_name": "TPL",
+
 "background_color": "#FCF7ED",
 "description": "no description",
 "display":"minimal-ui",
@@ -10,7 +13,5 @@
 "purpose": "any maskable"
 }
   ],
-"name": "PWA test",
-"short_name": "PWAt",
-"start_url": "./"
+"start_url": "index.html"
 }

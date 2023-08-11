@@ -175,7 +175,7 @@ border-radius: 50%;
 display: inline-block;
 vertical-align: middle;
 width: 16px;
-max-height: 16px;
+height: 16px;
 filter:grayscale(56%);
 font-size: xx-small;
 }

@@ -7,7 +7,7 @@
    width="512"
    height="512"
    viewBox="0 0 512 512"
-   sodipodi:docname="pc512x512.svg"
+   sodipodi:docname="icon512x512.svg"
    inkscape:version="1.1.2 (0a00cf5339, 2022-02-04)"
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
    xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
@@ -97,9 +97,9 @@
      inkscape:pagecheckerboard="0"
      showgrid="false"
      width="512px"
-     inkscape:zoom="0.41757067"
-     inkscape:cx="-205.95316"
-     inkscape:cy="613.06987"
+     inkscape:zoom="1.0549006"
+     inkscape:cx="361.64543"
+     inkscape:cy="279.64719"
      inkscape:window-width="1920"
      inkscape:window-height="1011"
      inkscape:window-x="0"
@@ -111,7 +111,7 @@
      inkscape:label="Image"
      id="g8">
     <rect
-       style="fill:#eeeeec;fill-opacity:0.823529;stroke:#000000;stroke-width:19.2481;stroke-opacity:1"
+       style="fill:#ffffff;fill-opacity:0.823529;stroke:#000000;stroke-width:19.2481;stroke-opacity:1;opacity:0.9"
        id="rect849"
        width="492.75186"
        height="492.75189"
@@ -119,7 +119,8 @@
        y="9.6240501" />
     <g
        id="g1963"
-       transform="translate(26.735404,2.8900644)">
+       transform="translate(26.735404,2.8900644)"
+       style="opacity:0.9">
       <g
          id="g1547"
          transform="translate(-50.325886,-13.351456)">
