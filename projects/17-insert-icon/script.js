@@ -105,6 +105,7 @@ let icons = {
 "violet":"🟪",
 "blue":"🟦",
 
+/* rmme
 "behance":`<img src="/img/icons/behance-48x48.png" alt="ico" width="12" height="12">`,
 "php":`<img src="/img/icons/php-48x48.png" alt="ico" width="12" height="12">`,
 "apache":`<img src="/img/icons/apache-48x48.png" alt="ico" width="12" height="12">`,
@@ -131,7 +132,7 @@ let icons = {
 "x":`<img src="/img/icons/x-48x48.png" alt="ico" width="12" height="12">`,
 "twitter":`<img src="/img/icons/x-48x48.png" alt="ico" width="12" height="12">`,
 "xampp":`<img src="/img/icons/xampp-48x48.png" alt="ico" width="12" height="12">`
-
+*/
 };
 
 let iconsArr = Object.getOwnPropertyNames(icons);

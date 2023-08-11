@@ -1,4 +1,4 @@
-// v.1.17.17
+// v.1.17.18
 
 // inspired by Twitter, Fediverse
 // not for large Json files
@@ -1211,15 +1211,6 @@ embed = `<style>.fb-post{ width: 100%; background: whitesmoke;  }
 embedServiceList += 'facebook';
 break;
 
-case 'unsplash.com':
-play = item.split('/');
-play = play[play.length - 1];
-play = play.split('-');
-play = play[play.length - 1];
-if(play == ''){ play = play[play.length - 2]; }
-embed = `<a target="_blank" href="${item}"><img class="img border3" src="https://unsplash.com/photos/${play}/download" width=""></a>`;
-embedServiceList += 'twitch';
-break;
 
 
 
@@ -1690,15 +1681,7 @@ embed = `<style>.fb-post{ width: 100%; background: whitesmoke;  }
 embedServiceList += 'facebook';
 break;
 
-case 'unsplash.com':
-play = item.split('/');
-play = play[play.length - 1];
-play = play.split('-');
-play = play[play.length - 1];
-if(play == ''){ play = play[play.length - 2]; }
-embed = `<a target="_blank" href="${item}"><img class="img border3" src="https://unsplash.com/photos/${play}/download" width=""></a>`;
-embedServiceList += 'twitch';
-break;
+
 
 
 //default:
