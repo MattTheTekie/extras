@@ -1,6 +1,15 @@
 var blogJsonVar = 
 [
     {
+        "id": "156",
+        "text": "update: removed AI image.",
+        "text2": "",
+        "text3": "",
+        "url": "",
+        "tag": "#update",
+        "time": 1691770595
+    },
+    {
         "id": "154",
         "text": "\"Have no fear of perfection -- you\u2019ll never reach it.\" -- Salvador Dali, artist",
         "text2": "",

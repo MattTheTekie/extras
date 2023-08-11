@@ -2,7 +2,7 @@
 
   "manifest_version": 2,
   "name": "Hotkey URL Abc",
-  "version": "2.5.15",
+  "version": "2.5.19",
   "description": "Assign keys to a specific website.",
 
 "icons": {
