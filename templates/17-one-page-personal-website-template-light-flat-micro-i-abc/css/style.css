@@ -13,6 +13,7 @@ box-sizing: border-box;
 margin: 0 auto;
 margin-bottom: 0;
 overflow: hidden;
+text-align: center;
 }
 
 .localBg {
@@ -28,7 +29,7 @@ z-index: -3;
 background-image: url('../img/flower-bing-ai.png');
 background-size: 15vh;
 background-repeat: no-repeat;
-background-position: left 10% top 5%;
+background-position: left 10% top 10%;
 
 
 -webkit-transform: scaleX(-1);
@@ -48,9 +49,24 @@ z-index: -2;
 
 background-image: url('../img/flower-bing-ai.png');
 background-size: 27vh;
-background-position: left 5% bottom 5%;
+background-position: left 5% bottom 10%;
 background-repeat: no-repeat;
 }
+
+/* fix */
+
+html, body { max-width: 1100px; }
+
+
+
+
+
+
+
+
+
+
+
 
 
 

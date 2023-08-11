@@ -63,8 +63,7 @@ align-self: center;
 display: grid;
 grid-template-columns: var(--moviePosterImgW) calc(100% - var(--moviePosterImgW) - 15px);
 justify-content: center;
-grid-gap: 15px;
-justify-content: center;
+grid-gap: 15px;;
 }
 
 .movieIdVideo {

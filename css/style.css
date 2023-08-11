@@ -114,8 +114,8 @@ border: 2px solid var(--orange);
 
 
 
-/* start menu */
-/* dropdown menu */
+
+/* start dropdown menu */
 #dropdownMenuButton { cursor: pointer; background: transparent; border: none; }
 .dropdownMenuWrapper { position: relative; }
 .dropdownMenuContent {
@@ -143,14 +143,14 @@ padding-bottom: 5px;
 
 /* hide one menu when small width ans show dropdownMenuButton */
 .menuTop { display: inline-block; }
-.menuTop br { content: ' '; display: none; }
+.menuTop br { content: ''; display: none; }
 #dropdownMenuButton { display: none; }
 
-@media(max-width: 820px) { /* manually measure current menu width */
+@media(max-width: 395px) { /* manually measure current menu width */
 .menuTop { display: none; }
 #dropdownMenuButton { display: inline-block; }
 }
-/* end menu */
+/* end dropdown menu */
 
 
 
