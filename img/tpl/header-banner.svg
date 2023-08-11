@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="1500"
+   height="500"
+   viewBox="0 0 1500 500"
+   version="1.1"
+   id="svg5"
+   inkscape:version="1.1.2 (0a00cf5339, 2022-02-04)"
+   sodipodi:docname="header-banner.svg"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview7"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:document-units="px"
+     showgrid="false"
+     inkscape:zoom="0.4048027"
+     inkscape:cx="725.04457"
+     inkscape:cy="419.95767"
+     inkscape:window-width="1920"
+     inkscape:window-height="1011"
+     inkscape:window-x="0"
+     inkscape:window-y="0"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="layer2" />
+  <defs
+     id="defs2">
+    <linearGradient
+       id="linearGradient932"
+       inkscape:swatch="solid">
+      <stop
+         style="stop-color:#d3d7cf;stop-opacity:1;"
+         offset="0"
+         id="stop930" />
+    </linearGradient>
+    <rect
+       x="431.04541"
+       y="12.922381"
+       width="165.65886"
+       height="424.72681"
+       id="rect15640" />
+    <rect
+       x="275.12827"
+       y="63.487175"
+       width="125.47808"
+       height="90.347405"
+       id="rect65638" />
+    <rect
+       x="274.66911"
+       y="83.016854"
+       width="125.01892"
+       height="70.817726"
+       id="rect62530" />
+    <rect
+       x="10.947174"
+       y="14.715694"
+       width="1221.7237"
+       height="487.93166"
+       id="rect43298" />
+  </defs>
+  <g
+     inkscape:groupmode="layer"
+     id="layer2"
+     inkscape:label="Layer 2">
+    <text
+       xml:space="preserve"
+       id="text62528"
+       style="font-style:normal;font-weight:normal;font-size:40px;line-height:1.25;font-family:sans-serif;white-space:pre;shape-inside:url(#rect62530);fill:#000000;fill-opacity:1;stroke:none" />
+    <text
+       xml:space="preserve"
+       id="text65636"
+       style="font-style:normal;font-weight:normal;font-size:40px;line-height:1.25;font-family:sans-serif;white-space:pre;shape-inside:url(#rect65638);fill:#000000;fill-opacity:1;stroke:none" />
+    <text
+       xml:space="preserve"
+       id="text15638"
+       style="font-style:normal;font-weight:normal;font-size:40px;line-height:1.25;font-family:sans-serif;white-space:pre;shape-inside:url(#rect15640);fill:#000000;fill-opacity:1;stroke:none" />
+    <circle
+       style="opacity:1;fill:#babdb6;fill-opacity:1;stroke:#000000;stroke-width:1;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       id="path865"
+       cx="1316.5649"
+       cy="162.53563"
+       r="125.09123" />
+    <circle
+       style="fill:#888a85;fill-opacity:1;stroke:#000000;stroke-width:0.617041;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       id="path865-2"
+       cx="181.51157"
+       cy="364.40634"
+       r="77.186371" />
+    <circle
+       style="fill:#d3d7cf;fill-opacity:1;stroke:#000000;stroke-width:0.486631;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       id="path865-9"
+       cx="84.378151"
+       cy="83.219124"
+       r="60.873253" />
+    <circle
+       style="fill:#555753;fill-opacity:1;stroke:#000000;stroke-width:0.671174;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       id="path865-3"
+       cx="1046.6523"
+       cy="369.95935"
+       r="83.957939" />
+    <circle
+       style="fill:#d3d7cf;fill-opacity:1;stroke:#000000;stroke-width:0.813251;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       id="path865-90"
+       cx="512.22217"
+       cy="131.8145"
+       r="101.73052" />
+  </g>
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1" />
+</svg>

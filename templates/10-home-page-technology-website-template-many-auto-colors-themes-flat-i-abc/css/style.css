@@ -1,7 +1,7 @@
 
 .headerBannerImg {
 height: 120px;
-background-image: url('/img/ai/banner.png');
+background-image: url('/img/tpl/header-banner.svg');
 background-size: contain;
 background-position: center;
 background-repeat: no-repeat;

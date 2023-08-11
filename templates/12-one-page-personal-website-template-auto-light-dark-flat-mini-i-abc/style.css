@@ -10,7 +10,7 @@ body, html { margin: 0; padding: 0; }
 display: block;
 height: 60vh;
 width: 100%;
-background-image: url('/img/ai/woman-laptop.png');
+background-image: url('/img/tpl/girl-laptop-512x512.svg');
 background-size: 60vh;
 background-position: center; /*background-position: center;*/
 background-repeat: no-repeat;
