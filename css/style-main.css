@@ -1,4 +1,4 @@
-/* v.12.32.6 */
+/* v.12.32.7 */
 
 * {  color-scheme: light dark; } /* view-source:about:blank */ /* fixed #fff blink */
 
@@ -431,4 +431,26 @@ margin: 0 auto;
 justify-content: center;
 align-items: center;
 }
-@media(max-width: 395px) { .topNav nav { display: block; text-align: left;  }}
+
+@media(max-width: 500px) {
+.topNav nav {
+justify-content: left;
+align-items: center;}
+}
+
+@media(max-width: 395px) {
+.topNav nav {
+display: block;
+text-align: left;}
+}
+
+
+
+
+
+
+
+
+
+
+
