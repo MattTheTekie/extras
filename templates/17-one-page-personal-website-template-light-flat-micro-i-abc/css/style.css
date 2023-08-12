@@ -26,8 +26,8 @@ top: 0;
 
 z-index: -3;
 
-background-image: url('../../../drawing-gallery/2023/4-star-inkscape.svg');
-background-size: 15vh;
+background-image: url('/img/tpl/flower.svg');
+background-size: 25vh;
 background-repeat: no-repeat;
 background-position: left 10% top 10%;
 
@@ -47,8 +47,8 @@ overflow: hidden;
 
 z-index: -2;
 
-background-image: url('../../../drawing-gallery/2023/4-star-inkscape.svg');
-background-size: 27vh;
+background-image: url('/img/tpl/flower.svg');
+background-size: 35vh;
 background-position: left 5% bottom 10%;
 background-repeat: no-repeat;
 }

@@ -1,4 +1,6 @@
-// v.2.0.0
+// v.2.0.1
+// About: insert icon using class name. Current js using: google fonts, costum text name and insert image or symbol, and inster by url favicon site
+// icons fonts now in header, for more info: https://fonts.google.com/icons
 
 async function insertIcon(classNameForInsert, mode){
 // mode: "strict" by word or not sctirct, example: insertIcon(idDivWrapper, 'strict');
@@ -86,8 +88,8 @@ let icons = {
  "dark":"dark_mode"
 
 /*for blank
-"instagram":`<img src="/img/icons/instagram-48x48.png" alt="ico" width="12" height="12">`,
-"twitter":`<img src="/img/icons/x-48x48.png" alt="ico" width="12" height="12">`,
+"instagram":`<img src="/img/icons/instagram-48x48.png" alt="ico" width="16" height="16">`,
+"twitter":`<img src="/img/icons/x-48x48.png" alt="ico" width="16" height="16">`,
 */
 
 };
@@ -132,14 +134,14 @@ if(mode != 'strict'){
 // main, not strict
 
 //https://stackoverflow.com/questions/412123764/how-to-remove-numbers-from-a-string
-if(linkText.toLowerCase() == textIcon.toLowerCase()||linkText.replace(/\d+/g, '').toLowerCase().search(textIcon.replace(/\d+/g, '')) != -1&&linkText.replace(/\d+/g, '').toLowerCase().search(icon.replace(/\d+/g, '')) == -1&&linkText != ' '&&counter == 0){
+if(linkText.toLowerCase().trim() == textIcon.toLowerCase()||linkText.replace(/\d+/g, '').toLowerCase().trim().search(textIcon.replace(/\d+/g, '')) != -1&&linkText.replace(/\d+/g, '').toLowerCase().trim().search(icon.replace(/\d+/g, '')) == -1&&linkText != ' '&&counter == 0){
 icArr.push(icon+'');
 check = 'exit';
 counter++;
 }
 }else if(counter == 0){
 // main, strict word
-if(linkText.toLowerCase() == textIcon.toLowerCase()||(' '+linkText.replace(/\d+/g, '').toLowerCase()+' ').indexOf((' '+textIcon.replace(/\d+/g, '')+' ')) >= 0&&(linkText.replace(/\d+/g, '').toLowerCase()+'').indexOf((icon.replace(/\d+/g, '')+'')) == -1){
+if(linkText.toLowerCase().trim() == textIcon.toLowerCase()||(' '+linkText.replace(/\d+/g, '').toLowerCase().trim()+' ').indexOf((' '+textIcon.replace(/\d+/g, '')+' ')) >= 0&&(linkText.replace(/\d+/g, '').toLowerCase().trim()+'').indexOf((icon.replace(/\d+/g, '')+'')) == -1){
 icArr.push(icon+'');
 check = 'exit';
 counter++
@@ -151,7 +153,7 @@ counter++
 
 
 // if link
-if(linkText.toLowerCase().slice(0, 4) == 'http'&&linkText.toLowerCase().search("http|://|www.") != -1&&counter == 0){
+if(linkText.toLowerCase().trim().slice(0, 4) == 'http'&&linkText.toLowerCase().trim().search("http|://|www.") != -1&&counter == 0){
 let linkTextURL = linkText;
 let host = linkTextURL.split('/');
 if(host[2] != undefined){
@@ -168,7 +170,7 @@ counter++;
 
 
 // if link2
-if(linkURL.toLowerCase().search(location.host) == -1&&linkURL.toLowerCase().slice(0, 4) == 'http'&&linkURL.toLowerCase().search("http|://|www.") != -1&&counter == 0){
+if(linkURL.toLowerCase().trim().search(location.host) == -1&&linkURL.toLowerCase().trim().slice(0, 4) == 'http'&&linkURL.toLowerCase().trim().search("http|://|www.") != -1&&counter == 0){
 let linkTextURL = linkURL;
 let host = linkTextURL.split('/');
 if(host[2] != undefined){
@@ -188,19 +190,15 @@ counter++;
 
 
 
-
+// main insert icons if rule bellow true and text icon == text from link
 if(check == 'exit'){
 icArr = [...new Set(icArr)];
 //icon = icArr.toString();
 icon = icArr.join('');
-linkText = `<span class="material-icons" style="font-size: 100%;">
+linkText = `<span class="material-icons" style="font-size: 16px;">
 ${icon}
 </span>`+'<span class="pre"> </span>'+linkText;
 document.getElementsByClassName(classNameForInsert)[index].innerHTML = linkText;
-}else{
-//linkText = '<span class="op pre">📄 </span>'+linkText;
-/*linkText = '<span class="pre"> </span>' +linkText+'<span class="pre"> </span>';
-divId.getElementsByTagName("a")[index].innerHTML = linkText;*/
 }
 
 counter = 0;
