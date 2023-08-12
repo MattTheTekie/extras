@@ -1,14 +1,95 @@
-// v.1.7.0
-// Inspired by GitHub profile
+// v.2.0.0
 
 async function insertIcon(classNameForInsert, mode){
 // mode: "strict" by word or not sctirct, example: insertIcon(idDivWrapper, 'strict');
 if(mode != 'strict'){ mode = ''; }
 
 let icons = {
-/*
-"name blank":`<img src="/img/icons/name blank-48x48.png" alt="ico" width="12" height="12">`
+"angel":"flutter_dash", "bird":"flutter_dash", "twitter":"flutter_dash",
+"angle":"change_history",
+"antilope":"align_vertical_bottom", "gnu":"align_vertical_bottom",
+"balloon":"lens",
+"blog":"description", "todo":"edit_note", "task":"edit_note", "note":"edit_note", "reminde":"event", "paper":"description",
+"book":"menu_book", "quiz":"menu_book",
+"bookmark":"bookmark_border",
+"brain":"psychology", "memory":"psychology",
+"calculator":"calculate", "abacus":"calculate",
+"circle":"lens", "round":"lens",
+"cookie":"cookie",
+"cut":"content_cut",
+"clock":"schedule",
+"cofee":"local_cafe", "coffee":"local_cafe",
+"copyright":"copyright",
+"comment":"question_answer","talk":"talk","chat":"chat",
+"php":"computer", "java":"computer", "code":"code", "unicorn":"align_vertical_bottom",
+"db":"save", "data":"file_present", "database":"save", "keep":"save", "save":"save",
+"dir":"folder️", "folder":"folder",
+"dev":"computerwork",
+"document":"description", "page":"description",
+"draw":"brush", "drawing":"brush",
+"earth":"public",
+"file":"perm_media",
+"game":"sports_esports",
+"teacup":"emoji_food_beverage",
+"hello":"waving_hand",
+"hot":"local_fire_department", "fire":"local_fire_department",
+"info":"info", "faq":"contact_support", "about":"info", 
+"insert":"content_paste", "paste":"content_paste",
+"keyboard":"keyboard","typing":"keyboard",
+"mark":"check", "check":"check",
+"label":"label", "tag":"label️",
+"laptop":"laptop", "notebook":"laptop",
+"live":"fiber_manual_record", "online":"fiber_manual_record",
+"like":"favorite","love":"favorite","fav":"favorite",
+"map":"map", "sitemap":"map",
+"mail":"email",
+"menu":"menu",
+"movie":"movie",
+"music": "music_note",
+"network":"public", "wifi":"public",
+"news":"rss_feed",
+"pc":"desktop_windows",
+"project":"next_week", "tpl":"description", "template":"description", "templates":"description", "iframe":"description",
+"radio":"radio",
+"random":"shuffle","rnd":"shuffle", "rand":"shuffle", "dice":"shuffle",
+"robot":"smart_toy", "auto":"smart_toy",
+"share":"share",
+"script":"code", "code":"code", "coding":"code", "history":"code",
+"search": "search",
+"sleep":"hotel", "bed":"hotel",
+"store":"store","shop":"store", "extension":"store", "extensions":"store",
+"style":"palette", "color":"palette", "theme":"palette", "palette":"palette", "design":"palette", "webdesign":"palette",
+"time":"alarm_on", "timer":"alarm_on",
+"tmp":"alarm_on", "temporary":"alarm_on",
+"training":"directions_run", "run":"directions_run",
+"test":"science", "demo":"science", 
+"play":"play_arrow️",
+"progress":"█░░",
+"quote":"format_quote", "quotes":"format_quote",
+"rain":"water_drop",
+"smoking":"smoke_free",
+"sun":"light_mode",
+"tool":"build",
+"tv":"live_tv",
+"url":"link","link":"link","www":"link", "popup":"link",
+"setting":"settings", "custom":"settings",
+"snow":"ac_unit", "cold":"ac_unit", "winter":"ac_unit",
+"star":"star",
+"stopwatch":"timer",
+"user":"person", "followers":"person",
+"weather":"sunny",
+"web":"public", "internet":"public", "browser":"public",
+"wallpaper":"image", "picture":"image", "image":"image", "photo":"photo_camera", "img":"image", "pixel":"🖼","instagram":"picture",
+"window":"window",
+"question":"help",
+"light":"light_mode",
+ "dark":"dark_mode"
+
+/*for blank
+"instagram":`<img src="/img/icons/instagram-48x48.png" alt="ico" width="12" height="12">`,
+"twitter":`<img src="/img/icons/x-48x48.png" alt="ico" width="12" height="12">`,
 */
+
 };
 
 let iconsArr = Object.getOwnPropertyNames(icons);
@@ -51,14 +132,14 @@ if(mode != 'strict'){
 // main, not strict
 
 //https://stackoverflow.com/questions/412123764/how-to-remove-numbers-from-a-string
-if(linkText.replace(/\d+/g, '').toLowerCase().search(textIcon.replace(/\d+/g, '')) != -1&&linkText.replace(/\d+/g, '').toLowerCase().search(icon.replace(/\d+/g, '')) == -1&&linkText != ' '&&counter == 0){
+if(linkText.toLowerCase() == textIcon.toLowerCase()||linkText.replace(/\d+/g, '').toLowerCase().search(textIcon.replace(/\d+/g, '')) != -1&&linkText.replace(/\d+/g, '').toLowerCase().search(icon.replace(/\d+/g, '')) == -1&&linkText != ' '&&counter == 0){
 icArr.push(icon+'');
 check = 'exit';
 counter++;
 }
 }else if(counter == 0){
 // main, strict word
-if((' '+linkText.replace(/\d+/g, '').toLowerCase()+' ').indexOf((' '+textIcon.replace(/\d+/g, '')+' ')) >= 0&&(linkText.replace(/\d+/g, '').toLowerCase()+'').indexOf((icon.replace(/\d+/g, '')+'')) == -1){
+if(linkText.toLowerCase() == textIcon.toLowerCase()||(' '+linkText.replace(/\d+/g, '').toLowerCase()+' ').indexOf((' '+textIcon.replace(/\d+/g, '')+' ')) >= 0&&(linkText.replace(/\d+/g, '').toLowerCase()+'').indexOf((icon.replace(/\d+/g, '')+'')) == -1){
 icArr.push(icon+'');
 check = 'exit';
 counter++
@@ -112,7 +193,9 @@ if(check == 'exit'){
 icArr = [...new Set(icArr)];
 //icon = icArr.toString();
 icon = icArr.join('');
-linkText = '<span class="" style="font-size: 12px">'+icon+'</span><span class="pre"> </span>'+linkText;
+linkText = `<span class="material-icons" style="font-size: 100%;">
+${icon}
+</span>`+'<span class="pre"> </span>'+linkText;
 document.getElementsByClassName(classNameForInsert)[index].innerHTML = linkText;
 }else{
 //linkText = '<span class="op pre">📄 </span>'+linkText;
