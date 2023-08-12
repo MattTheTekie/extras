@@ -23,7 +23,7 @@
 <meta http-equiv="Expires" content="-1">
 -->
 
-<meta http-equiv="Cache-Control" content="max-age=300, must-revalidate">
+<meta http-equiv="Cache-Control" content="max-age=900, must-revalidate">
 
 
 <!--<meta name="referrer" content="no-referrer" />--><!-- something breaks -->
@@ -57,7 +57,6 @@
 
 
 
-<div id="cookiePopup"></div>
 
 <header class="wrapper3 topNav capitalize tLeft">
 <nav>
@@ -180,13 +179,16 @@ document.getElementById("adsStatus").innerHTML = 'null, not selected (on)';
 <footer>
 
 
-<span id="footer"></span>
+<div id="footer"></div>
+
 </footer>
 
 <script src="/js/main.js"></script>
 <script src="/data/adsJsonVar.js"></script>
-<script async src="/js/ad.js" onload="fuAds('', 'ads2', '')"></script>
-
+<script src="/js/ad.js"></script>
+<script>
+fuAds('', 'ads2', '');
+</script>
 <script async src="/js/ad.js" onload="fuAds('', 'result', 'all')"></script>
 </body>
 </html>

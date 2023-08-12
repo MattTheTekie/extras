@@ -5,7 +5,9 @@
 <title>Page</title>
 
 
-<link rel="alternate" type="application/rss+xml" title="Blog RSS" href="/rss.xml">
+<link rel="alternate" type="application/rss+xml" title="<br />
+<b>Warning</b>:  Undefined variable $confSiteName in <b>/mnt/d/Sync/htdocs/github/page/top.php</b> on line <b>43</b><br />
+ Blog RSS" href="/rss.xml">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <!--<meta name="title" content="">-->
@@ -16,9 +18,13 @@
 <!--<meta http-equiv="Content-Security-Policy" content="upgrade-insecure-requests">-->
 <meta name="generator" content="">
 
+<!--
 <meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate">
 <meta http-equiv="Pragma" content="no-cache">
 <meta http-equiv="Expires" content="-1">
+-->
+
+<meta http-equiv="Cache-Control" content="max-age=900, must-revalidate">
 
 <!--<meta name="referrer" content="no-referrer" />--><!-- YouTube embed video not playing -->
 <meta name="theme-color" media="(prefers-color-scheme: light)" content="#F2F2F2"><!-- comment for validator -->

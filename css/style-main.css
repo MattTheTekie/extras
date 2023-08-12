@@ -1,4 +1,4 @@
-/* v.12.32.7 */
+/* v.12.32.8 */
 
 * {  color-scheme: light dark; } /* view-source:about:blank */ /* fixed #fff blink */
 
@@ -63,11 +63,10 @@ width: 100%;
 header{ margin: 0 auto; }
 /*nav a::first-letter{ font-size: 1rem; font-weight: bold;}*/
 
-header, footer { padding: 14px 0; }
+header { padding: 15px 0; }
 nav, footer { text-align: center; max-width: 100%; }
-nav a, nav button, footer span { display: inline-block; padding: 5px; }
-
-footer { padding: 15px 0; }
+nav a, nav button, footer span { display: inline-block; padding: 4px 5px; }
+footer { padding: 25px 0; }
 footer span::first-letter { text-transform: capitalize; }
 nav button:hover { background: none;  }
 
