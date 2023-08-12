@@ -27,13 +27,26 @@ document.head.innerHTML += `
 </image>
 
 <item>
+<pubDate>Sat, 12 Aug 23 09:47:39 +0300</pubDate>
+<title><![CDATA[update: new photos and wallpapers ]]></title>
+<link><![CDATA[http://inonehp.github.io/blog.html?id=157#157]]></link>
+<description>
+<![CDATA[
+<div class="post border2">
+update: new photos and wallpapers 
+</div>
+]]>
+</description>
+</item>
+
+<item>
 <pubDate>Fri, 11 Aug 23 19:16:35 +0300</pubDate>
-<title><![CDATA[update: removed AI image. ]]></title>
+<title><![CDATA[update: removed AI images, change on new in progress. ]]></title>
 <link><![CDATA[http://inonehp.github.io/blog.html?id=156#156]]></link>
 <description>
 <![CDATA[
 <div class="post border2">
-update: removed AI image. 
+update: removed AI images, change on new in progress. 
 </div>
 ]]>
 </description>
@@ -150,23 +163,6 @@ document.getElementById("embed148").innerHTML = twiStyle+'<div style="display: b
 <![CDATA[
 <div class="post border2">
 CAKE - I Will Survive (Official HD Video) - YouTube <a class="brand" target="_blank" href="https://www.youtube.com/watch?v=f9rCUQjmkxU"><img class="ico op" src="https://www.google.com/s2/favicons?domain_url=www.youtube.com" width="14px" alt="ico"> https://www.youtube.com/watch?v=f9rCUQjmkxU</a><!--<iframe id="player" style="border:0;" height="190px" width="100%" src="https://www.youtube.com/embed/f9rCUQjmkxU"></iframe>--><iframe width="100%" height="190px" src="https://www.youtube.com/embed/f9rCUQjmkxU" title="YouTube video player" frameborder="0" allow="autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-</div>
-]]>
-</description>
-</item>
-
-<item>
-<pubDate>Fri, 04 Aug 23 03:57:15 +0300</pubDate>
-<title><![CDATA[Update:
-- projects directories renamed
-- few new template and updated ]]></title>
-<link><![CDATA[http://inonehp.github.io/blog.html?id=139#139]]></link>
-<description>
-<![CDATA[
-<div class="post border2">
-Update:
-- projects directories renamed
-- few new template and updated 
 </div>
 ]]>
 </description>

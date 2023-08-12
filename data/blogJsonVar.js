@@ -1,8 +1,17 @@
 var blogJsonVar = 
 [
     {
+        "id": "157",
+        "text": "update: new photos and wallpapers",
+        "text2": "",
+        "text3": "",
+        "url": "",
+        "tag": "#update",
+        "time": 1691822859
+    },
+    {
         "id": "156",
-        "text": "update: removed AI image.",
+        "text": "update: removed AI images, change on new in progress.",
         "text2": "",
         "text3": "",
         "url": "",
