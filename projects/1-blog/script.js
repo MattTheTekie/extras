@@ -1,4 +1,4 @@
-// v.1.17.19
+// v.1.17.20
 
 // inspired by Twitter, Fediverse
 // not for large Json files
@@ -1304,9 +1304,9 @@ var ico = `https://www.google.com/s2/favicons?domain_url=${host[2]}`;
 
 
 if(targetOption == 'blank'){
-item = `<a class="brand" target="_blank" href="${item}"><img class="ico op" src="${ico}" width="18px" alt="ico"> ${item}</a>`;
+item = `<a class="brand" target="_blank" href="${item}"><img class="ico op" src="${ico}" width="16px" alt="ico"> ${item}</a>`;
 }else{
-item = `<a class="brand" href="${item}"><img class="ico op" src="${ico}" width="18px" alt="ico"> ${item}</a>`;
+item = `<a class="brand" href="${item}"><img class="ico op" src="${ico}" width="16px" alt="ico"> ${item}</a>`;
 }
 
 }else{
@@ -1768,9 +1768,9 @@ var ico = `https://www.google.com/s2/favicons?domain_url=${host[2]}`;
 //var ico = `https://api.faviconkit.com/${host[2]}/16`;
 
 if(targetOption == 'blank'){
-item = `<a class="brand" target="_blank" href="${item}"><img class="ico op" src="${ico}" width="18px" alt="ico"> ${item}</a>`;
+item = `<a class="brand" target="_blank" href="${item}"><img class="ico op" src="${ico}" width="16px" alt="ico"> ${item}</a>`;
 }else{
-item = `<a class="brand" href="${item}"><img class="ico op" src="${ico}" width="18px" alt="ico"> ${item}</a>`;
+item = `<a class="brand" href="${item}"><img class="ico op" src="${ico}" width="16px" alt="ico"> ${item}</a>`;
 }
 
 

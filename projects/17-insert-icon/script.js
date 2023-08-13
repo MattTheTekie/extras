@@ -1,7 +1,6 @@
 // v.2.1.1
 // About: insert icon using class name. Current js using: google fonts, costum text name and insert image or symbol, and inster by url favicon site
 // icons fonts in header
-// fixme instagram
 
 
 async function insertIcon(classNameForInsert, mode){
@@ -88,7 +87,7 @@ let icons = {
 "question":"help",
 "light":"light_mode",
 "dark":"dark_mode",
-"Instagram":"picture"
+"Instagram":"photo_camera"
 /*for blank
 "instagram":`<img src="/img/icons/instagram-48x48.png" alt="ico" width="16" height="16">`,
 "twitter":`<img src="/img/icons/x-48x48.png" alt="ico" width="16" height="16">`,
@@ -171,7 +170,7 @@ linkTextURL = host[2];
 var iconHTTP = `https://www.google.com/s2/favicons?domain_url=${linkTextURL}`;
 //var ico = `https://api.statvoo.com/favicon/?url=${host[2]}`;
 //var ico = `https://api.faviconkit.com/${host[2]}/16`;
-iconHTTP = `<img src="${iconHTTP}" alt="ico" width="18" height="18">`;
+iconHTTP = `<img src="${iconHTTP}" alt="ico" width="16" height="16">`;
 icArr.push(iconHTTP);
 check = 'exit';
 counter++;
@@ -190,7 +189,7 @@ linkTextURL = host[2];
 var iconHTTP = `https://www.google.com/s2/favicons?domain_url=${linkTextURL}`;
 //var ico = `https://api.statvoo.com/favicon/?url=${host[2]}`;
 //var ico = `https://api.faviconkit.com/${host[2]}/16`;
-iconHTTP = `<img src="${iconHTTP}" alt="ico" width="18" height="18">`;
+iconHTTP = `<img src="${iconHTTP}" alt="ico" width="16" height="16">`;
 icArr.push(iconHTTP);
 check = 'exit';
 counter++;
