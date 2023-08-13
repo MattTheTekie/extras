@@ -1,8 +1,4 @@
-/* v.1.3.1 */
-
-
-
-
+/* v.1.3.3 */
 
 /* https://developers.google.com/fonts/docs/material_icons */
 
@@ -13,8 +9,7 @@
   font-style: normal;
   font-weight: 400;
   src:
-url(/font/MaterialIcons-Regular.woff2) format('woff2')/*,
-url(/font/MaterialIcons-Regular.ttf) format('truetype')*/;
+url(/font/MaterialIcons-Regular.woff2) format('woff2');
 font-display: swap;
 }
 
@@ -64,7 +59,6 @@ z-index: -2;
 }
 */
 
-}*/
 
 
 
@@ -72,8 +66,7 @@ z-index: -2;
 
 
 
-
-nav form { display: inline-block; max-width: 130px; }
+nav form { display: inline-block;  max-width: 130px; }
 nav input[type=search] { padding: 5px; min-height: 10px; }
 
 .headerBannerImg {
@@ -97,9 +90,6 @@ justify-content: center;
 }
 
 @media(max-width: 150px) { .menu { display: block; width: 100%; }}
-
-
-
 
 .menu a{
 display: flex;
@@ -154,7 +144,34 @@ border: 2px solid var(--orange);
 
 
 
+
+
+/************/
+.topNav nav {
+display: grid;
+grid-template-columns: repeat(auto-fill, minmax(0, auto));
+margin: 0 auto;
+justify-content: center;
+align-items: center;
+}
+
+@media(max-width: 500px) {
+.topNav nav {
+justify-content: left;
+align-items: center;}
+}
+
+@media(max-width: 500px) {
+.topNav nav {
+display: block;
+text-align: left;}
+}
+
+
+
+
 /* start dropdown menu */
+
 #dropdownMenuButton { cursor: pointer; background: transparent; border: none; }
 .dropdownMenuWrapper { position: relative; }
 .dropdownMenuContent {
@@ -185,7 +202,7 @@ padding-bottom: 5px;
 .menuTop br { content: ''; display: none; }
 #dropdownMenuButton { display: none; }
 
-@media(max-width: 395px) { /* manually measure current menu width */
+@media(max-width: 500px) { /* manually measure current menu width */
 .menuTop { display: none; }
 #dropdownMenuButton { display: inline-block; }
 }
