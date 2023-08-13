@@ -1,4 +1,4 @@
-/* v.4.0.0 */
+/* v.4.0.2 */
 
 var result = '';
 
@@ -15,9 +15,9 @@ if(element == 'rand-l'){ result += '</div></div><p>Random mode:<p>'; }
 if(element == 'auto'){ result += '<p>Auto mode:<p>'; }
 
 if(element == theme){
-result += '<bbb id="'+element+'" class="light4 margin padding border3" style="font-size: 100%; padding: 6px;">'+element+'</bbb>';
+result += '<span id="'+element+'" class="tehemeListItem light4 margin padding border3List" style="font-size: 100%; padding: 6px;">'+element+'</span>';
 }else{
-result += '<bbb id="'+element+'" class="light margin padding border3" style="font-size: 100%; padding: 6px;">'+element+'</bbb>';
+result += '<span id="'+element+'" class="tehemeListItem light margin padding border3List" style="font-size: 100%; padding: 6px;">'+element+'</span>';
 }
 
 });
@@ -46,21 +46,22 @@ justify-content: center;
 
 @media(max-width: 90px) { .tehemeList { display: block; width: 100%; }}
 
-bbb{
+.tehemeListItem {
 display: inline-block;
 justify-content: center;
 align-content: center;
 text-transform: lowercase;
 padding: 10px 4px; margin:0;
 cursor: pointer;
+border-radius: 5px;
 }
 
-.tehemeList bbb { display: flex; }
+.tehemeList .tehemeListItem { display: flex; }
 
 .tehemeListWrappaer { display: inline-block; }
 </style>
 
-<div class="block tCenter">
+<div class="block tCenter small">
 <div class="tehemeListWrappaer">
 <div class="tehemeList">
 ${result}

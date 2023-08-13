@@ -1,7 +1,6 @@
-/* v.4.0.0 */
+/* v.4.0.12 */
 
 var result = '';
-
 
 
 themeListOption.forEach((element) => {
@@ -15,9 +14,9 @@ if(element == 'rand-l'){ result += '</div></div><p>Random mode:<p>'; }
 if(element == 'auto'){ result += '<p>Auto mode:<p>'; }
 
 if(element == theme){
-result += '<bbb id="'+element+'" class="light4 margin padding border3" style="font-size: 100%; padding: 6px;">'+element+'</bbb>';
+result += '<span id="'+element+'" class="tehemeListItem light4 margin padding border3List" style="font-size: 100%; padding: 6px;">'+element+'</span>';
 }else{
-result += '<bbb id="'+element+'" class="light margin padding border3" style="font-size: 100%; padding: 6px;">'+element+'</bbb>';
+result += '<span id="'+element+'" class="tehemeListItem light margin padding border3List" style="font-size: 100%; padding: 6px;">'+element+'</span>';
 }
 
 });
@@ -97,7 +96,7 @@ document.getElementById("fTheme").innerHTML =  item;
 
 setTheme(item);
 light(item);
-localStorage.setItem('themeMain', item);
+localStorage.setItem('themeTpl', item);
 });
 
 }
