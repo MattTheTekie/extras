@@ -1,4 +1,4 @@
-/* v.12.35.0 */
+/* v.12.35.1 */
 
 * {  color-scheme: light dark; } /* view-source:about:blank */ /* fixed #fff blink */
 
@@ -62,7 +62,7 @@ text-align: center;
 width: 100%;
 }
 header{ margin: 0 auto; }
-/*nav a::first-letter{ font-size: 1rem; font-weight: bold;}*/
+/*nav a::first-letter{ font-size: 1rem; font-weight: 600;}*/
 
 header { padding: 15px 0; }
 nav, footer { text-align: center; max-width: 100%; }
@@ -344,8 +344,8 @@ td { background-color: var(--l2); }
 .tRight { text-align: right; }
 .capitalize { text-transform: capitalize; }
 .lowercase { text-transform: lowercase; }
-.b, .b a { font-weight: bold; }
-.bold, .bold a { font-weight: bold; }
+.b, .b a { font-weight: 600; }
+.bold, .bold a { font-weight: 600; }
 .medium, .medium a { font-size: medium; }
 .large, .large a { font-size: large; }
 .small, .small a { font-size: small; }
@@ -389,7 +389,7 @@ h1, h2, h3, h4, h5, h6, .bold, .b, b { letter-spacing: 0.2px; }
 
 div, input, textarea, img, header, footer { box-sizing: border-box; }
 
-.sup { vertical-align: super; vertical-align: top; font-weight: bold; }
+.sup { vertical-align: super; vertical-align: top; font-weight: 600; }
 .pre{ white-space: pre-wrap; word-wrap: break-word; line-height: normal; }
 
 button { cursor: pointer; }

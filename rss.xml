@@ -1,15 +1,4 @@
-
-
-<script>
-document.head.innerHTML += `
-
-<meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate">
-<meta http-equiv="Pragma" content="no-cache">
-<meta http-equiv="Expires" content="-1">
-
-`;
-
-</script><?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="UTF-8"?>
 
 <rss version="2.0">
 <channel>
