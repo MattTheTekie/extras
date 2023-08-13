@@ -180,13 +180,15 @@ padding: 2px;
 .ico {
 display: inline-block;
 vertical-align: middle;
-filter:grayscale(56%);
+filter: brightness(90%);
+opacity: 0.9;
 font-size: xx-small;
 }
 .ico2 { /* emoji ico */
 vertical-align: middle;
 display: inline-block;
-filter:grayscale(36%);
+filter: brightness(90%);
+opacity: 0.9;
 font-size: calc(100% - 20%);
 }
 .ico:hover, .ico2:hover { filter: grayscale(0%); }

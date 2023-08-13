@@ -328,8 +328,8 @@ themeListOD.push(...themeListOther);
 
 var themeList = [];
 themeList.push(...themeListLight);
-themeList.push(...themeListDark);
 themeList.push(...themeListOther);
+themeList.push(...themeListDark);
 themeList.push(...themeListOtherDark);
 
 

@@ -14,7 +14,7 @@ margin-bottom: -30px;
 display: grid;
 /*grid-template-areas: "a a a a a";*/
 /*grid-template-columns: repeat(4, 1fr);*/
-grid-template-columns: repeat(auto-fill, 130px);
+grid-template-columns: repeat(auto-fill, minmax(130px, max-content));
 /*grid-auto-columns: 1fr;*/
 grid-gap: 5px;
 margin: 0 auto;

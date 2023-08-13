@@ -1,22 +1,75 @@
-/* v.3.1.3 */
+/* v.4.0.0 */
 
 var result = '';
+
+
+
 themeListOption.forEach((element) => {
-if(element == ''){ result += '<br>'; }
+if(element == ''){ result += ''; }
 //if(element == 'light'){ result += '<hr>'; }
-if(element == 'dark'){ result += '<br>'; }
-if(element == 'o-blue'){ result += '<br>'; }
-if(element == 'od-blue'){ result += '<br>'; }
-if(element == 'rand-l'){ result += '<br><hr>'; }
-if(element == 'auto'){ result += '<br>'; }
+if(element == 'light'){ result += '<div><p>Light:<p>'; }
+if(element == 'dark'){ result += '</div><div><p>Dark:<p>'; }
+if(element == 'o-blue'){ result += '</div><div><p>Other light:<p>'; }
+if(element == 'od-blue'){ result += '</div><div><p>Other dark:<p>'; }
+if(element == 'rand-l'){ result += '</div></div><p>Random mode:<p>'; }
+if(element == 'auto'){ result += '<p>Auto mode:<p>'; }
 
 if(element == theme){
-result += '<button id="'+element+'" class="m tag light4 bold margin padding" style="font-size: 100%; padding: 6px;">'+element+'</button>';
+result += '<bbb id="'+element+'" class="light4 margin padding border3" style="font-size: 100%; padding: 6px;">'+element+'</bbb>';
 }else{
-result += '<button id="'+element+'" class="m tag light margin padding" style="font-size: 100%; padding: 6px;">'+element+'</button>';
+result += '<bbb id="'+element+'" class="light margin padding border3" style="font-size: 100%; padding: 6px;">'+element+'</bbb>';
 }
 
 });
+
+result = `
+
+
+
+
+
+<style>
+
+.tehemeList {
+display: grid;
+/*grid-template-areas: "a a a a a";*/
+grid-template-columns: repeat(auto-fill, minmax(100px, max-content));
+/*grid-auto-columns: 1fr;*/
+grid-gap: 5px;
+
+grid-gap: 5px;
+
+margin: 0 auto;
+justify-content: center;
+
+}
+
+@media(max-width: 90px) { .tehemeList { display: block; width: 100%; }}
+
+bbb{
+display: inline-block;
+justify-content: center;
+align-content: center;
+text-transform: lowercase;
+padding: 10px 4px; margin:0;
+cursor: pointer;
+}
+
+.tehemeList bbb { display: flex; }
+
+.tehemeListWrappaer { display: inline-block; }
+</style>
+
+<div class="block tCenter">
+<div class="tehemeListWrappaer">
+<div class="tehemeList">
+${result}
+</div>
+</div>
+</div>
+
+`;
+
 document.getElementById("themeOption").innerHTML = result;
 
 //document.getElementById("themeselect").innerHTML = theme;
@@ -28,16 +81,13 @@ if(e == element){
 //document.getElementById(e).innerHTML = 'test';
 var element = document.getElementById(e);
 element.classList.add("light4");
-element.classList.add("bold");
 }else{
 var el = document.getElementById(element);
 el.classList.remove("light4");
-el.classList.remove("bold");
 //document.getElementById(element).innerHTML = element;
 }
 });
 }
-
 
 function myFunction(item, index) {
 document.getElementById(item).addEventListener("click", function() {
@@ -47,7 +97,7 @@ document.getElementById("fTheme").innerHTML =  item;
 
 setTheme(item);
 light(item);
-localStorage.setItem('themeTpl', item);
+localStorage.setItem('themeMain', item);
 });
 
 }
