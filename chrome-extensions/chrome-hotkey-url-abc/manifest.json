@@ -2,8 +2,9 @@
 
   "manifest_version": 3,
   "name": "Hotkey URL Abc",
-  "version": "2.5.8",
+  "version": "2.5.9",
   "description": "Assign keys to a specific website.",
+"key":"dmoajnjidbkclepenbaiekpnljocgkka",
 
 "icons": {
   "512": "icon512x512.png"
@@ -15,11 +16,7 @@
 "activeTab"
 ],
  
-"browser_specific_settings": {
-  "gecko": {
-    "id": "addon@example.com"
-  }
-},
+
 
 "options_ui": {
   "page": "options.html"

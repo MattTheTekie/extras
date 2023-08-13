@@ -1,8 +1,7 @@
-// v.1.1.0
+// v.1.1.1
 // chrome
 
-// run after page load
-window.onload = function(){
+
 
 
 
@@ -160,4 +159,4 @@ getting.then(onGot, onError);
 
 
 
-}
+

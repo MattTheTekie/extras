@@ -1,11 +1,11 @@
-// v.2.1.0
+// v.2.1.1
 // About: insert icon using class name. Current js using: google fonts, costum text name and insert image or symbol, and inster by url favicon site
 // icons fonts in header
 // fixme instagram
 
 
 async function insertIcon(classNameForInsert, mode){
-// mode: "strict" by word or not sctirct, example: insertIcon(idDivWrapper, 'strict');
+// mode: "strict" - for full word no part, like firefox and insert fire
 if(mode != 'strict'){ mode = ''; }
 
 let icons = {

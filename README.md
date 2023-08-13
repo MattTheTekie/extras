@@ -6,6 +6,8 @@ README.md
 · Themes Abc for Firefox, Geany IDE Color  
 · JavaScript Games: Typing Speed, Snake, Memory Symbol, Tic Tac Toe  
 · Todo list  
+  
+· Some copyright and other license in About page on website.
 ...  
 
 
