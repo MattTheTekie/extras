@@ -62,7 +62,7 @@ mainPrintMsg('footer', `
 <span><a href="/rss.xml">RSS</a></span>
 
 <span><a rel="license" title="license" href="https://creativecommons.org/licenses/by-sa/4.0/">license: CC BY-SA 4.0</a></span>
-<span><a rel="license" title="license 2" href="/copyright.${confExt}">Some ©</a></span>
+<span><a rel="license" title="license 2" href="/about.${confExt}#copyright">Some ©</a></span>
 </div>
 
 

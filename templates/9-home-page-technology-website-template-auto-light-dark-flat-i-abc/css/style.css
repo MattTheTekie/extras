@@ -116,14 +116,14 @@ display: grid;
 /*grid-template-columns: repeat(4, 1fr);*/
 grid-template-columns: repeat(auto-fill, 130px);
 /*grid-auto-columns: 1fr;*/
-grid-gap: 4px;
+grid-gap: 5px;
 margin: 0 auto;
 justify-content: center;
 }
 
-@media(max-width: 540px) { .menu { grid-template-columns: repeat(3, 1fr); }}
-@media(max-width: calc(540px - 130px)) { .menu { grid-template-columns: repeat(2, 1fr); }}
-@media(max-width: calc(540px - 260px)) { .menu { grid-template-columns: repeat(1, 1fr); }}
+@media(max-width: 150px) { .menu { display: block; width: 100%; }}
+
+
 
 .menu a{
 display:flex;

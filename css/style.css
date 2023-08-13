@@ -1,4 +1,53 @@
-/* v.1.2.9 */
+/* v.1.3.1 */
+
+
+
+
+
+/* https://developers.google.com/fonts/docs/material_icons */
+
+/* fallback */
+
+@font-face {
+  font-family: 'Material Icons';
+  font-style: normal;
+  font-weight: 400;
+  src:
+url(/font/MaterialIcons-Regular.woff2) format('woff2')/*,
+url(/font/MaterialIcons-Regular.ttf) format('truetype')*/;
+font-display: swap;
+}
+
+
+.material-icons {
+  font-family: 'Material Icons';
+  font-weight: normal;
+  font-style: normal;
+  font-size: 16px;  /* Preferred icon size */
+  display: inline-block;
+  line-height: 1;
+  text-transform: none;
+  letter-spacing: normal;
+  word-wrap: normal;
+  white-space: nowrap;
+  direction: ltr;
+
+  /* Support for all WebKit browsers. */
+  -webkit-font-smoothing: antialiased;
+  /* Support for Safari and Chrome. */
+  text-rendering: optimizeLegibility;
+
+  /* Support for Firefox. */
+  -moz-osx-font-smoothing: grayscale;
+
+  /* Support for IE. */
+  font-feature-settings: 'liga';
+
+}
+
+
+
+
 
 /*
 html::before {
@@ -7,8 +56,7 @@ height: calc(100vh);
 content: "";
 opacity: 0.25;
 position: fixed;
-bottom: 0;
-right: 0;
+
 background: url('/img/header-banner.png') no-repeat center center fixed;
 background-size: 23vh;
 background-position: right 23px bottom 23px;
@@ -16,20 +64,13 @@ z-index: -2;
 }
 */
 
-/*html::before {
-width: calc(200vw);
-height: calc(200vh);
-content: "";
-opacity: 0.08;
-position: fixed;
-left: 0;
-top: 0;
-background: url('/img/bg.svg') repeat center center fixed;
-background-size: 100vw 100vh;
-background-size: cover;
-background-size: 300px 300px;
-z-index: -2;
 }*/
+
+
+
+
+
+
 
 
 nav form { display: inline-block; max-width: 130px; }
@@ -55,14 +96,12 @@ margin: 0 auto;
 justify-content: center;
 }
 
-@media(max-width: 540px) { .menu { grid-template-columns: repeat(3, 1fr); }}
-@media(max-width: calc(540px - 130px)) { .menu { grid-template-columns: repeat(2, 1fr); }}
-@media(max-width: calc(540px - 260px)) { .menu { grid-template-columns: repeat(1, 1fr); }}
+@media(max-width: 150px) { .menu { display: block; width: 100%; }}
+
 
 
 
 .menu a{
-text-wrap: balance;
 display: flex;
 justify-content: center;
 align-content: center;

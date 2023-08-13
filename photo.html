@@ -52,11 +52,13 @@
 <link rel="preload" href="/projects/1-blog/script.js" as="script"> 
 
 <!-- for icons -->
+<!--
 <link rel="preconnect" href="https://fonts.gstatic.com/" crossorigin>
-<link rel="preload" href="https://fonts.googleapis.com/icon?family=Material+Icons" as="style">
+<link rel="preload" href="https://fonts.googleapis.com/icon?family=Material+Icons" as="style" crossorigin>
 <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+-->
 
-
+<link rel="preload" href="/font/MaterialIcons-Regular.woff2" as="font" type="font/woff2" crossorigin>
 
 </head>
 <body>
@@ -149,6 +151,13 @@
 <script>
 var blogJsonVar = [
     {
+        "id": "202312",
+        "text": "Stone  ",
+        "url": ".\/photo\/2023\/12-stone.jpg",
+        "tag": " #stone",
+        "time": "1691857458"
+    },
+    {
         "id": "202311",
         "text": "Frog  ",
         "url": ".\/photo\/2023\/11-frog.jpg",
@@ -209,7 +218,7 @@ var blogJsonVar = [
         "text": "Drop branch  ",
         "url": ".\/photo\/2023\/3-drop-branch.jpg",
         "tag": " #drop #branch",
-        "time": "1691819279"
+        "time": "1691857307"
     },
     {
         "id": "20232",

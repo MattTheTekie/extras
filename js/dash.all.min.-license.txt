@@ -1,0 +1,1 @@
+BSD License Agreement https://github.com/Dash-Industry-Forum/dash.js/blob/development/LICENSE.md

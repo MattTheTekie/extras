@@ -52,11 +52,13 @@
 <link rel="preload" href="/projects/17-insert-icon/script.js" as="script">  
 
 <!-- for icons -->
+<!--
 <link rel="preconnect" href="https://fonts.gstatic.com/" crossorigin>
-<link rel="preload" href="https://fonts.googleapis.com/icon?family=Material+Icons" as="style">
+<link rel="preload" href="https://fonts.googleapis.com/icon?family=Material+Icons" as="style" crossorigin>
 <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+-->
 
-
+<link rel="preload" href="/font/MaterialIcons-Regular.woff2" as="font" type="font/woff2" crossorigin>
 
 </head>
 <body>
@@ -165,7 +167,7 @@
 <a class="yellow" href="#about"><h3 class="block padding margin">About:</h3></a>
 
 
-<!-- work -->
+<!-- * -->
 <div class="block padding tLeft listBlock">
 <div class="listItem">· Home page and other projects.</div>
 <div class="listItem">· I'm trying to create website templates and then sites.</div>
@@ -238,6 +240,29 @@
 </div>
 </span>
 
+
+
+
+<span id="copyright" class="block padding bg3 border4 margin">
+<div>
+
+<span class="block margin ">
+<span class="block padding margin bold"><a class="yellow" href="#copyright">Some copyright and license:</a></span>
+
+</span>
+
+<!-- * -->
+<div class="block padding tLeft listBlock">
+<div class="listItem">Material Icons font in /font. <a class="brand" href="https://www.apache.org/licenses/LICENSE-2.0.txt">Apache License Version 2.0.</a></div>
+<div class="listItem">Books in /data: have own license, <a class="brand" href="https://gutenberg.org/policy/license.html">The Project Gutenberg License</a></div>
+<div class="listItem">dash.all.min.js in /js: <a class="brand" href="https://github.com/Dash-Industry-Forum/dash.js/blob/development/LICENSE.md">BSD License Agreement</a></div>
+<div class="listItem">/video/bbb.mp4: <a class="brand"  href="https://creativecommons.org/licenses/by/3.0/">Creative Commons Attribution 3.0</a></div>
+</div>
+<!-- // -->
+
+
+</div>
+</span>
 
 
 
@@ -324,6 +349,7 @@ insertIcon("insertIcon", 'strict');
 https://stackoverflow.com/questions/11142125/css-highlight-a-div-when-the-id-is-linked-to-using-an-anchor
 */
 
+
 #about:target,
 #webdesign:target,
 #tools:target,
@@ -332,7 +358,8 @@ https://stackoverflow.com/questions/11142125/css-highlight-a-div-when-the-id-is-
 #contact:target,
 #donate:target,
 #counter:target,
-#other:target
+#other:target,
+#copyright:target
 {
 border-bottom: 4px solid var(--orange);
 min-height: 100vh;

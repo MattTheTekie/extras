@@ -1,13 +1,15 @@
-// v.2.0.1
+// v.2.1.0
 // About: insert icon using class name. Current js using: google fonts, costum text name and insert image or symbol, and inster by url favicon site
-// icons fonts now in header, for more info: https://fonts.google.com/icons
+// icons fonts in header
+// fixme instagram
+
 
 async function insertIcon(classNameForInsert, mode){
 // mode: "strict" by word or not sctirct, example: insertIcon(idDivWrapper, 'strict');
 if(mode != 'strict'){ mode = ''; }
 
 let icons = {
-"angel":"flutter_dash", "bird":"flutter_dash", "twitter":"flutter_dash",
+"angel":"flutter_dash", "bird":"flutter_dash",
 "angle":"change_history",
 "antilope":"align_vertical_bottom", "gnu":"align_vertical_bottom",
 "balloon":"lens",
@@ -81,12 +83,12 @@ let icons = {
 "user":"person", "followers":"person",
 "weather":"sunny",
 "web":"public", "internet":"public", "browser":"public",
-"wallpaper":"image", "picture":"image", "image":"image", "photo":"photo_camera", "img":"image", "pixel":"🖼","instagram":"picture",
+"wallpaper":"image", "picture":"image", "image":"image", "photo":"photo_camera", "img":"image", "pixel":"picture", 
 "window":"window",
 "question":"help",
 "light":"light_mode",
- "dark":"dark_mode"
-
+"dark":"dark_mode",
+"Instagram":"picture"
 /*for blank
 "instagram":`<img src="/img/icons/instagram-48x48.png" alt="ico" width="16" height="16">`,
 "twitter":`<img src="/img/icons/x-48x48.png" alt="ico" width="16" height="16">`,
@@ -96,7 +98,7 @@ let icons = {
 
 let iconsArr = Object.getOwnPropertyNames(icons);
 // links
-
+iconsArr = iconsArr.sort();
 
 const allLinks = document.querySelectorAll('.'+classNameForInsert);
 allLinks.forEach((item, index) => {
@@ -105,7 +107,6 @@ allLinks.forEach((item, index) => {
 
 
 let linkText = item.innerHTML;
-
 
 
 let linkURL = item.href;
@@ -120,38 +121,46 @@ let counter = 0; // for only be 1 icon
 iconsArr.forEach((item) => {
 
 
-let textIcon = item;
-let icon = icons[textIcon];
-//console.log((linkText.toLowerCase()+'').indexOf((icon+' ')));
+let textIcon = String(item).toLowerCase();
+let icon = String(icons[item]).toLowerCase();
+//console.log((linkText.toLowerCase()+'')+((icon+' ')));
 
 
 
 
 
+//counter == 0 - only one icon insert
 
 
-if(mode != 'strict'){
+if(mode != 'strict'/*&&counter == 0*/){
 // main, not strict
 
 //https://stackoverflow.com/questions/412123764/how-to-remove-numbers-from-a-string
-if(linkText.toLowerCase().trim() == textIcon.toLowerCase()||linkText.replace(/\d+/g, '').toLowerCase().trim().search(textIcon.replace(/\d+/g, '')) != -1&&linkText.replace(/\d+/g, '').toLowerCase().trim().search(icon.replace(/\d+/g, '')) == -1&&linkText != ' '&&counter == 0){
-icArr.push(icon+'');
+if(
+(''+linkText.replace(/\d+/g, '').toLowerCase()).indexOf((''+textIcon.replace(/\d+/g, '')+'')) >= 0
+||linkText.replace(/\d+/g, '').toLowerCase().trim().search(textIcon.replace(/\d+/g, '')) != -1
+&&linkText.replace(/\d+/g, '').toLowerCase().trim().search(icon.replace(/\d+/g, '')) == -1){
+icArr.push(icon+' ');
 check = 'exit';
 counter++;
 }
-}else if(counter == 0){
+}else if(check != 'exit'/*&&counter == 0*/){
 // main, strict word
-if(linkText.toLowerCase().trim() == textIcon.toLowerCase()||(' '+linkText.replace(/\d+/g, '').toLowerCase().trim()+' ').indexOf((' '+textIcon.replace(/\d+/g, '')+' ')) >= 0&&(linkText.replace(/\d+/g, '').toLowerCase().trim()+'').indexOf((icon.replace(/\d+/g, '')+'')) == -1){
-icArr.push(icon+'');
+if(
+(' '+linkText.replace(/\d+/g, '').toLowerCase()).indexOf((' '+textIcon.replace(/\d+/g, '')+'')) >= 0
+||(' '+linkText.replace(/\d+/g, '').toLowerCase()+' ').indexOf((' '+textIcon.replace(/\d+/g, '')+' ')) >= 0
+&&(linkText.replace(/\d+/g, '').toLowerCase()+'').indexOf((textIcon.replace(/\d+/g, '')+'')) == -1){
+icArr.push(icon+' ');
 check = 'exit';
 counter++
+
 }
 }
 
 });
 
-
-
+// insert favicon url
+if(check != 'exit'&&counter == 0){
 // if link
 if(linkText.toLowerCase().trim().slice(0, 4) == 'http'&&linkText.toLowerCase().trim().search("http|://|www.") != -1&&counter == 0){
 let linkTextURL = linkText;
@@ -162,13 +171,15 @@ linkTextURL = host[2];
 var iconHTTP = `https://www.google.com/s2/favicons?domain_url=${linkTextURL}`;
 //var ico = `https://api.statvoo.com/favicon/?url=${host[2]}`;
 //var ico = `https://api.faviconkit.com/${host[2]}/16`;
-iconHTTP = `<img src="${iconHTTP}" alt="ico" width="12" height="12">`;
-icArr.push(iconHTTP+'');
+iconHTTP = `<img src="${iconHTTP}" alt="ico" width="18" height="18">`;
+icArr.push(iconHTTP);
 check = 'exit';
 counter++;
 }
+}
 
-
+// insert favicon text
+if(check != 'exit'&&counter == 0){
 // if link2
 if(linkURL.toLowerCase().trim().search(location.host) == -1&&linkURL.toLowerCase().trim().slice(0, 4) == 'http'&&linkURL.toLowerCase().trim().search("http|://|www.") != -1&&counter == 0){
 let linkTextURL = linkURL;
@@ -179,27 +190,31 @@ linkTextURL = host[2];
 var iconHTTP = `https://www.google.com/s2/favicons?domain_url=${linkTextURL}`;
 //var ico = `https://api.statvoo.com/favicon/?url=${host[2]}`;
 //var ico = `https://api.faviconkit.com/${host[2]}/16`;
-iconHTTP = `<img src="${iconHTTP}" alt="ico" width="12" height="12">`;
-icArr.push(iconHTTP+'');
+iconHTTP = `<img src="${iconHTTP}" alt="ico" width="18" height="18">`;
+icArr.push(iconHTTP);
 check = 'exit';
 counter++;
+}
 }
 
 
 
 
-
+// in progressssssssssssssssssssssssssss
 
 // main insert icons if rule bellow true and text icon == text from link
 if(check == 'exit'){
 icArr = [...new Set(icArr)];
 //icon = icArr.toString();
 icon = icArr.join('');
-linkText = `<span class="material-icons" style="font-size: 16px;">
+
+linkText = `<span class="material-icons ico" style="font-size: 16px;">
 ${icon}
 </span>`+'<span class="pre"> </span>'+linkText;
 document.getElementsByClassName(classNameForInsert)[index].innerHTML = linkText;
 }
+
+
 
 counter = 0;
 ckeck = '';
