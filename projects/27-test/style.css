@@ -1,7 +1,14 @@
 /* v.1.0.0 */
 
 
+body {
+zoom: 290%;
+}
 
+
+
+
+/******************/
 
 
 img { display: block; margin: 0 auto; width: 50px; height: 50px; }
@@ -189,7 +196,7 @@ min-height: 100vh;
 
 /* fixme wrong position */
 .cursorHl, a:hover {
-cursor: url("/img/cursor-hl.png"), pointer;
+cursor: url("cursor-hl.png"), pointer;
 
 }
 
