@@ -37,10 +37,10 @@ font-display: swap;
 
   /* Support for IE. */
   font-feature-settings: 'liga';
-
 }
 
-
+/* fix cancel icon */
+.material-icons * { font-family: Arial, Sans-Serif; }
 
 
 

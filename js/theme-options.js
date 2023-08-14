@@ -1,4 +1,4 @@
-/* v.4.0.2 */
+/* v.4.0.3 */
 
 var result = '';
 
@@ -15,9 +15,9 @@ if(element == 'rand-l'){ result += '</div></div><p>Random mode:<p>'; }
 if(element == 'auto'){ result += '<p>Auto mode:<p>'; }
 
 if(element == theme){
-result += '<span id="'+element+'" class="tehemeListItem light4 margin padding border3List" style="font-size: 100%; padding: 6px;">'+element+'</span>';
+result += '<div id="'+element+'" class="tehemeListItem light4 margin padding border3List" style="font-size: 100%; padding: 6px;">'+element+'</div>';
 }else{
-result += '<span id="'+element+'" class="tehemeListItem light margin padding border3List" style="font-size: 100%; padding: 6px;">'+element+'</span>';
+result += '<div id="'+element+'" class="tehemeListItem light margin padding border3List" style="font-size: 100%; padding: 6px;">'+element+'</div>';
 }
 
 });
