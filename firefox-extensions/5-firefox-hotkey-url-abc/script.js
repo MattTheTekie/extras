@@ -1,9 +1,7 @@
-// v.1.1.1
+// v.1.1.2
 // firefox
 
 
-
-console.log('test2');
 let hotKeyCancelStatus = ''; // if input cancel, not open URL
 
 

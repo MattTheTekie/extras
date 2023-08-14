@@ -87,7 +87,8 @@ let icons = {
 "question":"help",
 "light":"light_mode",
 "dark":"dark_mode",
-"Instagram":"photo_camera"
+"Instagram":"photo_camera",
+"twitter":'<div style="padding: 0; margin: 0;">𝕏</div>'
 /*for blank
 "instagram":`<img src="/img/icons/instagram-48x48.png" alt="ico" width="16" height="16">`,
 "twitter":`<img src="/img/icons/x-48x48.png" alt="ico" width="16" height="16">`,

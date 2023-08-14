@@ -1,3 +1,7 @@
+/* v.1.0.2 */
+
+
+
 
 .headerBannerImg {
 height: 120px;
@@ -29,8 +33,9 @@ display:flex;
 justify-content: center;
 align-content: center;
 text-transform: lowercase;
+padding: 10px 5px;
+margin:0;
 }
-.menu a { padding: 9px; margin:0; }
 
 .logo, .logo2 {
 transition: transform 1.8s ease-in-out;
