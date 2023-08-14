@@ -1,6 +1,24 @@
 var blogJsonVar = 
 [
     {
+        "id": "159",
+        "text": "Haikei",
+        "text2": "",
+        "text3": "",
+        "url": "https:\/\/app.haikei.app\/",
+        "tag": "#bookmark #tools #svg #png #webdesign",
+        "time": 1691995562
+    },
+    {
+        "id": "158",
+        "text": "National Geographic on Twitter: \"A lion cub rests on a tree branch in Serengeti National Park, Tanzania https:\/\/t.co\/CaOZ7eyEFb\" \/ X",
+        "text2": "",
+        "text3": "",
+        "url": "https:\/\/twitter.com\/NatGeo\/status\/1689309323053211652",
+        "tag": "#photo",
+        "time": 1691972991
+    },
+    {
         "id": "157",
         "text": "update: new photos and wallpapers",
         "text2": "",

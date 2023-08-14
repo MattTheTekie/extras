@@ -1,4 +1,4 @@
-// v.2.1.1
+// v.2.1.2
 // About: insert icon using class name. Current js using: google fonts, costum text name and insert image or symbol, and inster by url favicon site
 // icons fonts in header
 
@@ -74,7 +74,7 @@ let icons = {
 "sun":"light_mode",
 "tool":"build",
 "tv":"live_tv",
-"url":"link","link":"link","www":"link", "popup":"link",
+"url":"link","link":"link","www":"link", "popup":"link", "http":"link",
 "setting":"settings", "custom":"settings",
 "snow":"ac_unit", "cold":"ac_unit", "winter":"ac_unit",
 "star":"star",
@@ -171,6 +171,7 @@ var iconHTTP = `https://www.google.com/s2/favicons?domain_url=${linkTextURL}`;
 //var ico = `https://api.statvoo.com/favicon/?url=${host[2]}`;
 //var ico = `https://api.faviconkit.com/${host[2]}/16`;
 iconHTTP = `<img src="${iconHTTP}" alt="ico" width="16" height="16">`;
+if(localStorage.getItem('confDataCollection') == 'off'){ iconHTTP = 'link'; }
 icArr.push(iconHTTP);
 check = 'exit';
 counter++;
@@ -190,6 +191,7 @@ var iconHTTP = `https://www.google.com/s2/favicons?domain_url=${linkTextURL}`;
 //var ico = `https://api.statvoo.com/favicon/?url=${host[2]}`;
 //var ico = `https://api.faviconkit.com/${host[2]}/16`;
 iconHTTP = `<img src="${iconHTTP}" alt="ico" width="16" height="16">`;
+if(localStorage.getItem('confDataCollection') == 'off'){ iconHTTP = 'link'; }
 icArr.push(iconHTTP);
 check = 'exit';
 counter++;
