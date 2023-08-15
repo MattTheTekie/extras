@@ -1,9 +1,12 @@
-README.md
+
+
+
+
 
 · Projects:  
 · Website Templates  
-· Extensions: New Tab Redirect Abc, Hotkey URL Abc 
-· Themes Abc for Firefox, Geany IDE Color  
+· Extensions: New Tab Redirect, Hotkey URL  
+· Themes for Firefox, Geany IDE Color Theme  
 · JavaScript Games: Typing Speed, Snake, Memory Symbol, Tic Tac Toe  
 · Todo list  
   
