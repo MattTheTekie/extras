@@ -1,6 +1,5 @@
-// v.2.1.6
-// About: insert icon using class name. Current js using: google fonts, costum text name and insert image or symbol, and inster by url favicon site
-// icons fonts in header
+// v.2.1.7
+// About: insert icon using class name. Current js using: google fonts icon, costum <div>sbymol</div>  or code with image, or insert by url favicon site
 
 
 async function insertIcon(classNameForInsert, mode){
@@ -132,7 +131,7 @@ let icon = String(icons[item]).toLowerCase();
 //counter == 0 - only one icon insert
 
 
-if(mode != 'strict'/*&&counter == 0*/){
+if(mode != 'strict'&&counter == 0){
 // main, not strict
 
 //https://stackoverflow.com/questions/412123764/how-to-remove-numbers-from-a-string
@@ -144,7 +143,7 @@ icArr.push(icon+' ');
 check = 'exit';
 counter++;
 }
-}else if(check != 'exit'/*&&counter == 0*/){
+}else if(check != 'exit'&&counter == 0){
 // main, strict word
 if(
 (' '+linkText.replace(/\d+/g, '').toLowerCase()).indexOf((' '+textIcon.replace(/\d+/g, '')+'')) >= 0
