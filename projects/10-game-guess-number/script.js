@@ -1,4 +1,4 @@
-// v.1.2.2
+// v.1.2.3
 
 var limit = 10;
 var rangeValue = 0;
@@ -89,11 +89,10 @@ var print = `
 <label class="op block tLeft xSmall">input number:</label>
 
 <div id="number2"></div>
-
-<a href="#" id="prev" class="button light border3" style="width: 49%;" onclick="submitButtonPrev()" >-</a>
-<a href="#" id="next" class="button light border3" style="width: 49%;" onclick="submitButtonNext()" >+</a>
-
-
+<div class="buttonPlusMinus">
+<a href="#" id="prev" class="light border3" onclick="submitButtonPrev()" >-</a>
+<a href="#" id="next" class="light border3" onclick="submitButtonNext()" >+</a>
+</div>
 <div id="range2"></div>
 
 <a class="block tCenter button border light h3 op" style="cursor: pointer;" onclick="start()" href="#">start</a>

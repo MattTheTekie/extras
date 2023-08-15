@@ -109,6 +109,17 @@ mainPrintMsg('fApp', `<a href="/app.${confExt}">app: ${confWorkerStatus}</a>`);
 
 
 
+
+
+
+
+
+
+
+
+
+
+
 // cookie agree
 var confDataCollection = 'not selected';
 
@@ -686,7 +697,7 @@ function reload(){ location.reload(true); }
 
 function mainPrintMsg(id, PrintMsg){
 if(document.getElementById(id) != null){
-document.getElementById(id).innerHTML = PrintMsg;
+document.getElementById(id).innerHTML += PrintMsg;
 }else{
 // console.log(id+' not fount');
 }
@@ -815,5 +826,25 @@ gtag('config', confGoogleAnalyticsId);
 }
 
 };
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 

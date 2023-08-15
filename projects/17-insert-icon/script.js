@@ -1,4 +1,4 @@
-// v.2.1.3
+// v.2.1.5
 // About: insert icon using class name. Current js using: google fonts, costum text name and insert image or symbol, and inster by url favicon site
 // icons fonts in header
 
@@ -54,7 +54,7 @@ let icons = {
 "pc":"desktop_windows",
 "project":"next_week", "tpl":"description", "template":"description", "templates":"description", "iframe":"description",
 "radio":"radio",
-"random":"shuffle","rnd":"shuffle", "rand":"shuffle", "dice":"shuffle",
+"random":"casino","rnd":"casino", "rand":"casino", "dice":"casino",
 "robot":"smart_toy", "auto":"smart_toy",
 "share":"share",
 "script":"code", "code":"code", "coding":"code", "history":"code",
@@ -230,11 +230,52 @@ icArr = [];
 }
 
 
-if(navigator.onLine != true){
-document.body.innerHTML += `
+/* fix no font */
+//document.body.onload = function(){}; 
+
+mainPrintMsg('footer', `
 <style>
 .material-icons { display: none; }
 </style>
-`;
+`);
+
+
+//https://developer.mozilla.org/en-US/docs/Web/API/FontFaceSet/check
+const font = new FontFace(
+  "Material Icons",
+  "url(/font/MaterialIcons-Regular.woff2)",
+  {
+    style: "normal",
+    weight: "400"
+  },
+);
+document.fonts.add(font);
+
+async function check() {
+  await font.load();
+  console.log(font.status);
+if(font.status == 'loaded'){
+mainPrintMsg('footer', `
+<style>
+.material-icons { display: inline-block; }
+</style>
+`);
 }
+  // "loaded"
+}
+
+check();
+
+
+
+
+
+
+
+
+
+
+
+
+
 
