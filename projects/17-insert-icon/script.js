@@ -1,4 +1,4 @@
-// v.2.1.5
+// v.2.1.6
 // About: insert icon using class name. Current js using: google fonts, costum text name and insert image or symbol, and inster by url favicon site
 // icons fonts in header
 
@@ -212,6 +212,11 @@ ${icon}
 </span>`+'<span class="pre"> </span>'+linkText;
 document.getElementsByClassName(classNameForInsert)[index].innerHTML = linkText;
 
+}else{
+linkText = `<span class="material-icons ico" style="font-size: 16px; color: var(--b3);">
+<div>●</div>
+</span>`+'<span class="pre"> </span>'+linkText;
+document.getElementsByClassName(classNameForInsert)[index].innerHTML = linkText;
 }
 
 
@@ -235,6 +240,51 @@ icArr = [];
 
 mainPrintMsg('footer', `
 <style>
+/* https://developers.google.com/fonts/docs/material_icons */
+
+/* fallback */
+
+@font-face {
+font-family: 'Material Icons';
+font-style: normal;
+font-weight: 400;
+
+src: url(/font/MaterialIcons-Regular.woff2) format('woff2');
+font-display: swap;
+}
+
+
+.material-icons {
+  font-family: 'Material Icons';
+  font-weight: normal;
+  font-style: normal;
+  font-size: 16px;  /* Preferred icon size */
+  display: inline-block;
+  line-height: 1;
+  text-transform: none;
+  letter-spacing: normal;
+  word-wrap: normal;
+  white-space: nowrap;
+  direction: ltr;
+
+  /* Support for all WebKit browsers. */
+  -webkit-font-smoothing: antialiased;
+  /* Support for Safari and Chrome. */
+  text-rendering: optimizeLegibility;
+
+  /* Support for Firefox. */
+  -moz-osx-font-smoothing: grayscale;
+
+  /* Support for IE. */
+  font-feature-settings: 'liga';
+padding: 0;
+margin: 0;
+}
+
+/* fix cancel for subelement icon */
+.material-icons * { font-family: Arial, Sans-Serif; }
+
+
 .material-icons { display: none; }
 </style>
 `);

@@ -1,4 +1,4 @@
-/* v.1.0.4 */
+/* v.1.0.5 */
 
 
 
@@ -31,11 +31,15 @@ display: flex;
 justify-content: start;
 align-content: center;
 text-transform: lowercase;
-padding: 7px 12px;
+padding: 12px;
 margin:0;
 text-wrap: balance;
 text-align: left;
 }
+
+/*.menu a::first-letter {
+font-weight: bold;
+}*/
 
 .logo, .logo2 {
 transition: transform 1.8s ease-in-out;
