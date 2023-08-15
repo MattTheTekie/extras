@@ -1,4 +1,4 @@
-/* v.1.0.2 */
+/* v.1.0.3 */
 
 
 
@@ -11,7 +11,6 @@ background-position: center;
 background-repeat: no-repeat;
 margin-bottom: -30px;
 }
-
 
 
 .menu {
@@ -27,14 +26,14 @@ justify-content: center;
 
 @media(max-width: 150px) { .menu { display: block; width: 100%; }}
 
-
 .menu a{
-display:flex;
-justify-content: center;
+display: flex;
+justify-content: start;
 align-content: center;
 text-transform: lowercase;
-padding: 10px 5px;
+padding: 7px 12px;
 margin:0;
+text-wrap: balance;
 }
 
 .logo, .logo2 {

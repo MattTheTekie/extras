@@ -48,12 +48,13 @@ justify-content: center;
 
 .tehemeListItem {
 display: inline-block;
-justify-content: center;
+justify-content: start;
 align-content: center;
 text-transform: lowercase;
 padding: 10px 4px; margin:0;
 cursor: pointer;
 border-radius: 5px;
+text-wrap: balance;
 }
 
 .tehemeList .tehemeListItem { display: flex; }
