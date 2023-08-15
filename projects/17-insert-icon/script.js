@@ -1,4 +1,4 @@
-// v.2.1.2
+// v.2.1.3
 // About: insert icon using class name. Current js using: google fonts, costum text name and insert image or symbol, and inster by url favicon site
 // icons fonts in header
 
@@ -201,19 +201,17 @@ counter++;
 
 
 
-
-// in progressssssssssssssssssssssssssss
-
 // main insert icons if rule bellow true and text icon == text from link
 if(check == 'exit'){
 icArr = [...new Set(icArr)];
 //icon = icArr.toString();
 icon = icArr.join('');
 
-linkText = `<span class="material-icons ico" style="font-size: 16px;">
+linkText = `<span class="material-icons ico" style="font-size: 16px; color: var(--b3);">
 ${icon}
 </span>`+'<span class="pre"> </span>'+linkText;
 document.getElementsByClassName(classNameForInsert)[index].innerHTML = linkText;
+
 }
 
 
@@ -226,6 +224,17 @@ icArr = [];
 
 
 
+
+
+
 }
 
+
+if(navigator.onLine != true){
+document.body.innerHTML += `
+<style>
+.material-icons { display: none; }
+</style>
+`;
+}
 

@@ -1,4 +1,4 @@
-// v.3.4.0
+// v.3.4.1
 
 // conf
 var symbolForSplit = 'pwxortuzqu'; // for split
@@ -24,9 +24,10 @@ document.getElementById('theme').id = 'themeDisable';
 }
 
 
+document.fonts.ready.then(function() {
 
 
-
+});
 
 
 
@@ -73,7 +74,7 @@ mainPrintMsg('footer', `
 
 
 
-/*
+
 // adding link to footer if project: script.js and style.css
 if((window.location.href).indexOf(('/projects/')) >= 0||(window.location.href).indexOf(('/mini-projects/')) >= 0){
 fetch('script.js').then(function(response) {
@@ -88,7 +89,7 @@ if (response.status != '404') {  mainPrintMsg('fStyle', `<span><a class="orange"
 }
 });
 }
-*/
+
 
 //mainPrintMsg('fCode', `<span>`+window.location.href+`</span>`); 
 
@@ -814,4 +815,5 @@ gtag('config', confGoogleAnalyticsId);
 }
 
 };
+
 
