@@ -1,4 +1,4 @@
-// v.3.4.1
+// v.3.4.2
 
 // conf
 var symbolForSplit = 'pwxortuzqu'; // for split
@@ -30,7 +30,17 @@ document.fonts.ready.then(function() {
 });
 
 
-
+function mainPrintMsg(id, PrintMsg, option){
+if(document.getElementById(id) != null){
+if(option == 'plus'||option == '+'){
+document.getElementById(id).innerHTML += PrintMsg;
+}else{
+document.getElementById(id).innerHTML = PrintMsg;
+}
+}else{
+// console.log(id+' not fount');
+}
+}
 
 // start footer
 mainPrintMsg('footer', `
@@ -51,7 +61,7 @@ mainPrintMsg('footer', `
 <span id="fTheme"><a href="/theme.${confExt}">Themes</a></span>
 <span><a href="https://x.com/inonehp">Twi / X</a></span>
 
-<span id="fPrivacy"><a href="/privacy.${confExt}">cookie: status</a></span>
+<span id="fPrivacy"><a href="/privacy.${confExt}">Cookie</a></span>
 <span id="fAds"><a href="/ads.${confExt}">ads: ${localStorage.getItem('confAdsStatus')}</a></span>
 <span id="fApp"><a href="/app.${confExt}"></a></span>
 
@@ -149,7 +159,7 @@ confDataCollection = 'on';
 if(localStorage.getItem('confDataCollection') != null){
 confDataCollection = localStorage.getItem('confDataCollection');
 }
-mainPrintMsg('fPrivacy', `<a href="/privacy.${confExt}">cookies: ${confDataCollection}</a>`); 
+mainPrintMsg('fPrivacy', `<a href="/privacy.${confExt}">cookie: ${confDataCollection}</a>`); 
 
 
 
@@ -695,13 +705,7 @@ function fuReload(){ location.reload(true); }
 function reload(){ location.reload(true); }
 
 
-function mainPrintMsg(id, PrintMsg){
-if(document.getElementById(id) != null){
-document.getElementById(id).innerHTML += PrintMsg;
-}else{
-// console.log(id+' not fount');
-}
-}
+
 
 
 
@@ -778,7 +782,7 @@ z-index: 2;
 
 <div class="wrapperL">
 <div class="wrapperL cookiePopup post bg3 border margin tCenter shadow">
-<h3>🍪 Allow Cookies for third parties?</h3>
+<p class="h3 bold">Allow Cookie for third parties?</p>
 This is necessary to improve the site.
 (for relevant Ads, Statistics)
 <p>
@@ -798,7 +802,7 @@ function cookiePopup(option){
 localStorage.setItem('confDataCollection', option);
 if(document.getElementById("cookiePopup") != null){
 document.getElementById("cookiePopup").style.display = "none";
-mainPrintMsg('fPrivacy', `<a href="/privacy.${confExt}">cookies: ${option}</a>`); 
+mainPrintMsg('fPrivacy', `<a href="/privacy.${confExt}">cookie: ${option}</a>`); 
 }
 }
 // end 
