@@ -1,4 +1,4 @@
-// v.2.1.9
+// v.2.1.10
 // About: insert icon using class name. Current js using: google fonts icon, costum <div>sbymol</div>  or code with image, or insert by url favicon site
 
 function mainPrintMsg(id, PrintMsg, option){
@@ -261,7 +261,7 @@ counter = 0;
 }
 
 
-/* fix no font */
+// fix no font
 //document.body.onload = function(){}; 
 
 
@@ -276,6 +276,7 @@ font-family: 'Material Icons';
 font-style: normal;
 font-weight: 400;
 
+src: local('Material Icons');
 /*src: url(/font/MaterialIcons-Regular.woff2) format('woff2');*/
 font-display: swap;
 }
@@ -316,6 +317,9 @@ margin: 0;
 </style>
 `, '+');
 
+
+
+
 document.body.onload = function(){
 //https://developer.mozilla.org/en-US/docs/Web/API/FontFaceSet/check
 const font = new FontFace(
@@ -344,9 +348,8 @@ mainPrintMsg('footer', `
 
 check();
 
+
 }; 
-
-
 
 
 
