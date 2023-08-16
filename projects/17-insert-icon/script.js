@@ -1,6 +1,18 @@
 // v.2.1.7
 // About: insert icon using class name. Current js using: google fonts icon, costum <div>sbymol</div>  or code with image, or insert by url favicon site
 
+function mainPrintMsg(id, PrintMsg, option){
+if(document.getElementById(id) != null){
+if(option == 'plus'||option == '+'){
+document.getElementById(id).innerHTML += PrintMsg;
+}else{
+document.getElementById(id).innerHTML = PrintMsg;
+}
+}else{
+// console.log(id+' not fount');
+}
+}
+
 
 async function insertIcon(classNameForInsert, mode){
 // mode: "strict" - for full word no part, like firefox and insert fire
@@ -302,7 +314,7 @@ document.fonts.add(font);
 
 async function check() {
   await font.load();
-  console.log(font.status);
+// console.log(font.status);
 if(font.status == 'loaded'){
 mainPrintMsg('footer', `
 <style>
