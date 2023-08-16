@@ -286,7 +286,7 @@ margin: 0;
 
 .material-icons { display: none; }
 </style>
-`,'+');
+`, '+');
 
 
 //https://developer.mozilla.org/en-US/docs/Web/API/FontFaceSet/check
@@ -308,7 +308,7 @@ mainPrintMsg('footer', `
 <style>
 .material-icons { display: inline-block; }
 </style>
-`,'+');
+`, '+');
 }
   // "loaded"
 }

@@ -1,4 +1,4 @@
-// v.1.0.1
+// v.1.0.2
 
 
 
@@ -23,7 +23,6 @@ let key = document.getElementsByClassName("classHotkeyId")[index].value;
 let url = document.getElementsByClassName("classHotkeyIdUrl")[index].value;
 dataHotkeySettingArr.push({key:key, url:url});
 });
-}
 
 //https://stackoverflow.com/questions/23728626/localstorage-and-json-stringify-json-parse
 browser.storage.sync.set({
@@ -31,6 +30,10 @@ browser.storage.sync.set({
     hotkey: JSON.stringify(dataHotkeySettingArr)
   });
 //document.querySelector("#msg").innerHTML = 'status: '+document.querySelector("#q").value;
+
+}
+
+
 
 
 }
@@ -60,8 +63,8 @@ document.getElementsByClassName("classHotkeyIdUrl")[index].value =  getData[inde
 }
 
 function onError(error) {
-    console.log(`Error: ${error}`);
-  }
+console.log(`Error: ${error}`);
+}
 
 let getting = browser.storage.sync.get("hotkey");
 //let getting = browser.storage.local.get("rUrl");

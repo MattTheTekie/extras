@@ -23,7 +23,6 @@ let key = document.getElementsByClassName("classHotkeyId")[index].value;
 let url = document.getElementsByClassName("classHotkeyIdUrl")[index].value;
 dataHotkeySettingArr.push({key:key, url:url});
 });
-}
 
 //https://stackoverflow.com/questions/23728626/localstorage-and-json-stringify-json-parse
 //browser.storage.sync.set({
@@ -33,7 +32,7 @@ chrome.storage.sync.set({
   });
 //document.querySelector("#msg").innerHTML = 'status: '+document.querySelector("#q").value;
 
-
+}
 }
 
 
