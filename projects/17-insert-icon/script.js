@@ -1,7 +1,7 @@
 // v.2.1.10
 // About: insert icon using class name. Current js using: google fonts icon, costum <div>sbymol</div>  or code with image, or insert by url favicon site
 
-function mainPrintMsg(id, PrintMsg, option){
+async function mainPrintMsg(id, PrintMsg, option){
 if(document.getElementById(id) != null){
 if(option == 'plus'||option == '+'){
 document.getElementById(id).innerHTML += PrintMsg;
@@ -256,11 +256,6 @@ counter = 0;
 
 
 
-
-
-}
-
-
 // fix no font
 //document.body.onload = function(){}; 
 
@@ -350,6 +345,18 @@ check();
 
 
 }; 
+
+
+
+
+
+
+
+
+
+}
+
+
 
 
 
