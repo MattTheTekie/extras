@@ -3,13 +3,27 @@
 
 
 
+/*rmme
 .headerBannerImg {
 height: 120px;
-background-image: url('/img/tpl/header-banner.svg');
+background-image: url('/img/header-banner.svg');
 background-size: contain;
 background-position: center;
 background-repeat: no-repeat;
 margin-bottom: -30px;
+}
+
+
+*/
+
+.headerBannerImg {
+padding-top: 10px;
+display: block;
+margin: 0 auto;
+max-height: 120px;
+margin-bottom: -30px;
+position: relative;
+z-index: -1;
 }
 
 

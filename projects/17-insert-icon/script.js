@@ -1,4 +1,4 @@
-// v.2.1.7
+// v.2.1.9
 // About: insert icon using class name. Current js using: google fonts icon, costum <div>sbymol</div>  or code with image, or insert by url favicon site
 
 function mainPrintMsg(id, PrintMsg, option){
@@ -14,7 +14,7 @@ document.getElementById(id).innerHTML = PrintMsg;
 }
 
 
-async function insertIcon(classNameForInsert, mode){
+function insertIcon(classNameForInsert, mode){
 // mode: "strict" - for full word no part, like firefox and insert fire
 if(mode != 'strict'){ mode = ''; }
 
@@ -38,7 +38,6 @@ let icons = {
 "php":"computer", "java":"computer", "code":"code", "unicorn":"align_vertical_bottom",
 "db":"save", "data":"file_present", "database":"save", "keep":"save", "save":"save",
 "dir":"folder️", "folder":"folder",
-"dev":"computerwork",
 "document":"description", "page":"description",
 "draw":"brush", "drawing":"brush",
 "earth":"public",
@@ -98,8 +97,14 @@ let icons = {
 "question":"help",
 "light":"light_mode",
 "dark":"dark_mode",
-"Instagram":"photo_camera",
-"twitter":"<div>𝕏</div>"
+"instagram":"photo_camera",
+"twitter":"<div>𝕏</div>",
+"behance":"cases",
+"dribbble":"cases",
+"pinterest":"photo",
+"deviantart":"photo",
+"github":"code",
+"gitlab":"code"
 /*for blank
 "instagram":`<img src="/img/icons/instagram-48x48.png" alt="ico" width="16" height="16">`,
 "twitter":`<img src="/img/icons/x-48x48.png" alt="ico" width="16" height="16">`,
@@ -111,9 +116,12 @@ let iconsArr = Object.getOwnPropertyNames(icons);
 // links
 iconsArr = iconsArr.sort();
 
+var counter = 0; // for only be 1 icon
+
 const allLinks = document.querySelectorAll('.'+classNameForInsert);
 allLinks.forEach((item, index) => {
 
+if(counter == 0){
 
 
 
@@ -127,23 +135,19 @@ linkURL = item.href;
 
 let check = '';
 let icArr = [];
-let counter = 0; // for only be 1 icon
+counter = 0;
 
-iconsArr.forEach((item) => {
+iconsArr.forEach((item, index) => {
 
-
-let textIcon = String(item).toLowerCase();
-let icon = String(icons[item]).toLowerCase();
+let textIcon = String(item);
+let icon = String(icons[item]);
 //console.log((linkText.toLowerCase()+'')+((icon+' ')));
-
-
-
 
 
 //counter == 0 - only one icon insert
 
 
-if(mode != 'strict'&&counter == 0){
+if(mode != 'strict'&&check != 'exit'&&counter == 0){
 // main, not strict
 
 //https://stackoverflow.com/questions/412123764/how-to-remove-numbers-from-a-string
@@ -151,24 +155,28 @@ if(
 (''+linkText.replace(/\d+/g, '').toLowerCase()).indexOf((''+textIcon.replace(/\d+/g, '')+'')) >= 0
 ||linkText.replace(/\d+/g, '').toLowerCase().trim().search(textIcon.replace(/\d+/g, '')) != -1
 &&linkText.replace(/\d+/g, '').toLowerCase().trim().search(icon.replace(/\d+/g, '')) == -1){
-icArr.push(icon+' ');
+icArr.push(icon);
 check = 'exit';
 counter++;
 }
-}else if(check != 'exit'&&counter == 0){
+
+}
+
+if(mode == 'strict'&&check != 'exit'&&counter == 0){
 // main, strict word
 if(
 (' '+linkText.replace(/\d+/g, '').toLowerCase()).indexOf((' '+textIcon.replace(/\d+/g, '')+'')) >= 0
 ||(' '+linkText.replace(/\d+/g, '').toLowerCase()+' ').indexOf((' '+textIcon.replace(/\d+/g, '')+' ')) >= 0
 &&(linkText.replace(/\d+/g, '').toLowerCase()+'').indexOf((textIcon.replace(/\d+/g, '')+'')) == -1){
-icArr.push(icon+' ');
+icArr.push(icon);
 check = 'exit';
-counter++
+counter++;
 
 }
 }
 
 });
+
 
 // insert favicon url
 if(check != 'exit'&&counter == 0){
@@ -213,28 +221,35 @@ counter++;
 
 
 // main insert icons if rule bellow true and text icon == text from link
-if(check == 'exit'){
+if(check == 'exit'&&counter == 1){
 icArr = [...new Set(icArr)];
 //icon = icArr.toString();
 icon = icArr.join('');
 
-linkText = `<span class="material-icons ico" style="font-size: 16px; color: var(--b3);">
+linkText = `<span class="material-icons ico brand" style="font-size: 16px;">
 ${icon}
 </span>`+'<span class="pre"> </span>'+linkText;
 document.getElementsByClassName(classNameForInsert)[index].innerHTML = linkText;
 
+
 }else{
-linkText = `<span class="material-icons ico" style="font-size: 16px; color: var(--b3);">
+linkText = `<span class="material-icons ico brand" style="font-size: 16px;">
 <div>●</div>
 </span>`+'<span class="pre"> </span>'+linkText;
 document.getElementsByClassName(classNameForInsert)[index].innerHTML = linkText;
+
+
 }
 
 
 
-counter = 0;
+}
+
+
 ckeck = '';
 icArr = [];
+
+counter = 0;
 });
 
 
@@ -249,6 +264,7 @@ icArr = [];
 /* fix no font */
 //document.body.onload = function(){}; 
 
+
 mainPrintMsg('footer', `
 <style>
 /* https://developers.google.com/fonts/docs/material_icons */
@@ -260,7 +276,7 @@ font-family: 'Material Icons';
 font-style: normal;
 font-weight: 400;
 
-src: url(/font/MaterialIcons-Regular.woff2) format('woff2');
+/*src: url(/font/MaterialIcons-Regular.woff2) format('woff2');*/
 font-display: swap;
 }
 
@@ -270,7 +286,7 @@ font-display: swap;
   font-weight: normal;
   font-style: normal;
   font-size: 16px;  /* Preferred icon size */
-  display: inline-block;
+  display: none;
   line-height: 1;
   text-transform: none;
   letter-spacing: normal;
@@ -300,7 +316,7 @@ margin: 0;
 </style>
 `, '+');
 
-
+document.body.onload = function(){
 //https://developer.mozilla.org/en-US/docs/Web/API/FontFaceSet/check
 const font = new FontFace(
   "Material Icons",
@@ -310,10 +326,11 @@ const font = new FontFace(
     weight: "400"
   },
 );
+
 document.fonts.add(font);
 
 async function check() {
-  await font.load();
+await font.load();
 // console.log(font.status);
 if(font.status == 'loaded'){
 mainPrintMsg('footer', `
@@ -327,7 +344,7 @@ mainPrintMsg('footer', `
 
 check();
 
-
+}; 
 
 
 

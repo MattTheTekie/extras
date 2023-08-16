@@ -69,7 +69,7 @@ var blogJsonVar =
         "text2": "",
         "text3": "",
         "url": "https:\/\/developer.mozilla.org\/en-US\/blog\/",
-        "tag": "#bookmark #dev",
+        "tag": "#bookmark #dev #inspiration",
         "time": 1691471170
     },
     {

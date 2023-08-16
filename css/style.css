@@ -15,16 +15,52 @@ z-index: -2;
 }
 */
 
+/* icon */
+/* https://developers.google.com/fonts/docs/material_icons */
+@font-face {
+  font-family: 'Material Icons';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Material Icons'),
+    local('MaterialIcons-Regular'),
+    url(/font/MaterialIcons-Regular.woff2) format('woff2');
+}
 
+.material-icons {
+  font-family: 'Material Icons';
+  font-weight: normal;
+  font-style: normal;
+  font-size: 24px;  /* Preferred icon size */
+  display: inline-block;
+  display: none;
+  line-height: 1;
+  text-transform: none;
+  letter-spacing: normal;
+  word-wrap: normal;
+  white-space: nowrap;
+  direction: ltr;
 
+  /* Support for all WebKit browsers. */
+  -webkit-font-smoothing: antialiased;
+  /* Support for Safari and Chrome. */
+  text-rendering: optimizeLegibility;
 
+  /* Support for Firefox. */
+  -moz-osx-font-smoothing: grayscale;
 
+  /* Support for IE. */
+  font-feature-settings: 'liga';
+}
+
+/* rm icon for sub element */
+.material-icons * { font-family: 'Noto Sans', 'Roboto', Arial, Sans-Serif; }
 
 
 
 nav form { display: inline-block;  max-width: 130px; }
 nav input[type=search] { padding: 5px; min-height: 10px; }
 
+/*rmme
 .headerBannerImg {
 height: 120px;
 background-image: url('/img/header-banner.svg');
@@ -32,6 +68,19 @@ background-size: contain;
 background-position: center;
 background-repeat: no-repeat;
 margin-bottom: -30px;
+}
+
+
+*/
+
+.headerBannerImg {
+padding-top: 10px;
+display: block;
+margin: 0 auto;
+max-height: 120px;
+margin-bottom: -30px;
+position: relative;
+z-index: -1;
 }
 
 .menu {
