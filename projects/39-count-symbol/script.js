@@ -9,7 +9,7 @@ var print = `
 <div class="center2">
 <div class="wrapper">
 
-<div style="min-height: 30vh;">
+<div>
 <div id="result3" class="block tCenter padding"></div>
 <div id="result2"></div>
 </div>
@@ -22,6 +22,14 @@ var print = `
 <input type="submit">
 </form>
 
+<div class="padding pre">
+<ul>
+<li>Description length: 150-160 characters.</li>
+<li>Title length: 30 and 60 characters.</li>
+<li>keyword: less than 10% of the total words of a page.</li>
+
+</ul>
+</div>
 
 </div>
 </div>
