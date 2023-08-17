@@ -90,7 +90,7 @@ arrListForRandom.push(key);
 
 i++;
 total = i;
-comMessagePrint = `<b class="tCenter"><h3 class="op">Random Radio</h3>${q2} ${i}</b>`;
+comMessagePrint = `<b class="tCenter"><h1 class="op">Random Radio</h1>${q2} ${i}</b>`;
 document.getElementsByTagName('title')[0].innerHTML = `Random Radio ${q2}`;
 document.getElementsByTagName('title')[0].innerHTML += ' | '+domainNameToTitle;
 }

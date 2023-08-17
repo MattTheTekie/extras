@@ -16,6 +16,38 @@
 </image>
 
 <item>
+<pubDate>Thu, 17 Aug 23 12:00:03 +0300</pubDate>
+<title><![CDATA[Chandra Observatory on X: "Today Chandra is studying a galaxy cluster in Lyra. Nearby in the sky is NGC 6745. Shaped like the head of a bird about to grab a tasty bite of food, the galaxy's spiral shape has been distorted by a collision with a smaller galaxy located almost out of view on the lower r]]></title>
+<link><![CDATA[https://twitter.com/chandraxray/status/1691917757775003992]]></link>
+<description>
+<![CDATA[
+<div class="post border2">
+Chandra Observatory on X: &quot;Today Chandra is studying a galaxy cluster in Lyra. Nearby in the sky is NGC 6745. Shaped like the head of a bird about to grab a tasty bite of food, the galaxy&#039;s spiral shape has been distorted by a collision with a smaller galaxy located almost out of view on the lower right. <a class="brand" target="_blank" href="https://t.co/ducoqNq6uI&quot;"><img class="ico op" src="https://www.google.com/s2/favicons?domain_url=t.co" width="14px" alt="ico"> https://t.co/ducoqNq6uI&quot;</a> / X <a class="brand" target="_blank" href="https://twitter.com/chandraxray/status/1691917757775003992"><img class="ico op" src="https://www.google.com/s2/favicons?domain_url=twitter.com" width="14px" alt="ico"> https://twitter.com/chandraxray/status/1691917757775003992</a><div id="embed161"></div><script>
+twiStyle = `<style>.twitter-tweet { margin-top: 0px !important; }</style>`;
+if(confThemeEmbed == 'dark'){
+//twiStyle += `<style>.twitter-tweet iframe { border-radius: 15px; }</style>`;
+}
+
+document.getElementById("embed161").innerHTML = twiStyle+'<div style="display: block; width: 100%; max-width: 550px; margin: 0 auto;"><blockquote class="twitter-tweet" data-lang="en" data-theme="'+confThemeEmbed+'"><a href="https://twitter.com/chandraxray/status/1691917757775003992"></a></blockquote></div>'; </script><script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+</div>
+]]>
+</description>
+</item>
+
+<item>
+<pubDate>Thu, 17 Aug 23 11:59:34 +0300</pubDate>
+<title><![CDATA[CSS Art Teenage Engineering Op-1 Synthesizer  ]]></title>
+<link><![CDATA[https://codepen.io/kassandrasanch/pen/WNYqqLp]]></link>
+<description>
+<![CDATA[
+<div class="post border2">
+CSS Art Teenage Engineering Op-1 Synthesizer <a class="brand" target="_blank" href="https://codepen.io/kassandrasanch/pen/WNYqqLp"><img class="ico op" src="https://www.google.com/s2/favicons?domain_url=codepen.io" width="14px" alt="ico"> https://codepen.io/kassandrasanch/pen/WNYqqLp</a><p class="codepen" data-height="420" data-default-tab="result" data-theme-id="" data-slug-hash="WNYqqLp" data-user="" style="height: 420px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;"></p><script async src="https://cpwebassets.codepen.io/assets/embed/ei.js"></script>
+</div>
+]]>
+</description>
+</item>
+
+<item>
 <pubDate>Mon, 14 Aug 23 09:46:02 +0300</pubDate>
 <title><![CDATA[Haikei  ]]></title>
 <link><![CDATA[https://app.haikei.app/]]></link>
@@ -126,32 +158,6 @@ document.getElementById("embed152").innerHTML = twiStyle+'<div style="display: b
 <![CDATA[
 <div class="post border2">
 MDN Blog <a class="brand" target="_blank" href="https://developer.mozilla.org/en-US/blog/"><img class="ico op" src="https://www.google.com/s2/favicons?domain_url=developer.mozilla.org" width="14px" alt="ico"> https://developer.mozilla.org/en-US/blog/</a>
-</div>
-]]>
-</description>
-</item>
-
-<item>
-<pubDate>Mon, 07 Aug 23 22:49:36 +0300</pubDate>
-<title><![CDATA[Behance :: For You  ]]></title>
-<link><![CDATA[https://www.behance.net/]]></link>
-<description>
-<![CDATA[
-<div class="post border2">
-Behance :: For You <a class="brand" target="_blank" href="https://www.behance.net/"><img class="ico op" src="https://www.google.com/s2/favicons?domain_url=www.behance.net" width="14px" alt="ico"> https://www.behance.net/</a>
-</div>
-]]>
-</description>
-</item>
-
-<item>
-<pubDate>Mon, 07 Aug 23 22:04:26 +0300</pubDate>
-<title><![CDATA[New Browser extension: Hotkey URL ]]></title>
-<link><![CDATA[http://inonehp.github.io/blog.html?id=149#149]]></link>
-<description>
-<![CDATA[
-<div class="post border2">
-New Browser extension: Hotkey URL 
 </div>
 ]]>
 </description>
