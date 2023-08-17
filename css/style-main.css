@@ -76,12 +76,12 @@ nav button:hover { background: none;  }
 nav a:first-child, footer a:first-child, footer span:first-child, nav a:not(.dropdownMenuContent) { padding-left: 0; }
 footer span:last-child { padding-right: 0; }
 
-h1, .h1 { font-size: calc(100% + 30%); }
-h2, .h2 { font-size: calc(100% + 25%); }
-h3, .h3 { font-size: calc(100% + 20%); }
-h4, .h4 { font-size: calc(100% + 15%); }
-h5, .h5 { font-size: calc(100% + 10%); }
-h6, .h6 { font-size: calc(100% + 5%); }
+h1, .h1 { font-size: 1.30em; }
+h2, .h2 { font-size: 1.25em; }
+h3, .h3 { font-size: 1.20em; }
+h4, .h4 { font-size: 1.10em; }
+h5, .h5 { font-size: 1.05em; }
+h6, .h6 { font-size: 1em; }
 
 input[type=text], input[type=search], textarea, input[type=submit]{
 width: 100%;

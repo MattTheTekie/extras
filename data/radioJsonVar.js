@@ -331,7 +331,7 @@ var radioJsonVar =
     },
     {
         "text": "freeCodeCamp.org Code Radio",
-        "text2": "https:\/\/coderadio-relay-ffm.freecodecamp.org\/radio\/8010\/low.mp3",
+        "text2": "https:\/\/coderadio-admin-v2.freecodecamp.org\/listen\/coderadio\/low.mp3",
         "text3": "mp3",
         "url": "https:\/\/coderadio.freecodecamp.org\/",
         "tag": "#radio #RadioMusic #chill #code #coding"
