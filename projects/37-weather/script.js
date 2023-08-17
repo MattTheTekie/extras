@@ -66,7 +66,7 @@ async function logJSONData() {
   const jsonData = await response.json();
 
 //console.log(jsonData);
-if(logJSONData != ""){ result[0] += '<h3>'+jsonData['current_weather']['temperature']+'°C, '+jsonData['current_weather']['windspeed']+'Km/h </h3>'+`
+if(logJSONData != ""){ result[0] += '<h1>'+jsonData['current_weather']['temperature']+'°C, '+jsonData['current_weather']['windspeed']+'Km/h </h1>'+`
 <b><!--${jsonData['current_weather']['weathercode']} -->${weatherCode[jsonData['current_weather']['weathercode']]}</b>
 `; printWeather(jsonData); }
 }

@@ -4,9 +4,13 @@
 <meta charset="UTF-8">
 <title>Page</title>
 
+<!--<meta name="title" content="">-->
+<!--<meta name="author" content="">-->
+<meta name="description" content="desc blank">
+<meta name="keywords" content="keyword blank">
 
 <link rel="alternate" type="application/rss+xml" title="<br />
-<b>Warning</b>:  Undefined variable $confSiteName in <b>/mnt/d/Sync/htdocs/github/page/top.php</b> on line <b>43</b><br />
+<b>Warning</b>:  Undefined variable $confSiteName in <b>/mnt/d/Sync/htdocs/github/page/top.php</b> on line <b>47</b><br />
  Blog RSS" href="/rss.xml">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
