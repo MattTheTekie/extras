@@ -1,4 +1,4 @@
-// v.3.4.2
+// v.3.5.0
 
 // conf
 var symbolForSplit = 'pwxortuzqu'; // for split
@@ -714,35 +714,6 @@ function reload(){ location.reload(true); }
 
 
 
-// v.1.1.2
-// dropdown Menu
-//https://www.w3schools.com/howto/howto_js_dropdown.asp
-// menu click
-async function dropdownMenuFunction() {
-  var x = document.getElementById("dropdownMenu");
- // alert(x.style.display);
-  if (x.style.display === "none"||x.style.display === "") {
-document.getElementById("dropdownMenuButton").innerHTML = '☶ Menu'; 
-x.style.display = "block";
-  } else {
-x.style.display = "none";
-document.getElementById("dropdownMenuButton").innerHTML = '☰ Menu'; 
-  }
-
-// out area hide
-var getclick = document.getElementById('dropdownMenuButton');
-document.addEventListener('click', function(event) {
-// hide and make posible text selected
-if (!getclick.contains(event.target)&&document.getSelection().toString() == '') {
-//alert('out');
-var x = document.getElementById("dropdownMenu");
-x.style.display = "none";
-document.getElementById("dropdownMenuButton").innerHTML = '☰ Menu'; 
-    }
-});
-
-}
-
 
 
 
@@ -835,8 +806,68 @@ gtag('config', confGoogleAnalyticsId);
 
 
 
+// v.1.1.2
+// dropdown Menu
+//https://www.w3schools.com/howto/howto_js_dropdown.asp
+// menu click
+function dropdownMenuFunction() {
+  var x = document.getElementById("dropdownMenu");
+ // alert(x.style.display);
+  if (x.style.display === "none"||x.style.display === "") {
+document.getElementById("dropdownMenuButton").innerHTML = '☶ Menu'; 
+x.style.display = "block";
+  } else {
+x.style.display = "none";
+document.getElementById("dropdownMenuButton").innerHTML = '☰ Menu'; 
+  }
+
+// out area hide
+var getclick = document.getElementById('dropdownMenuButton');
+document.addEventListener('click', function(event) {
+// hide and make posible text selected
+if (!getclick.contains(event.target)&&document.getSelection().toString() == '') {
+//alert('out');
+var x = document.getElementById("dropdownMenu");
+x.style.display = "none";
+document.getElementById("dropdownMenuButton").innerHTML = '☰ Menu'; 
+    }
+});
+
+}
 
 
+// fix, prevent adaptive menu if there not many links.
+let countMenuItem = document.querySelectorAll('.countMenuItem');
+if((countMenuItem.length / 2) >= 6){ // 6 links
+if(document.getElementById("footer") != null){
+
+mainPrintMsg('footer', `
+
+<style>
+
+/* mobile dropdown menu */
+
+@media(max-width: 500px) {
+.topNav nav { display: block; }
+.menuTop { display: none; }
+#dropdownMenuButton { display: inline-block; }
+}
+
+/*fix*/
+@media(min-width: 500px) {
+.dropdownMenuContentColumn, .dropdownMenuContent {
+display: none !important;
+}
+}
+</style>
+
+`, '+');
+
+
+}
+}
+
+console.log(document.getElementsByTagName("header")[0]);
 
 
 
