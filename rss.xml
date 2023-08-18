@@ -16,6 +16,32 @@
 </image>
 
 <item>
+<pubDate>Fri, 18 Aug 23 03:41:20 +0300</pubDate>
+<title><![CDATA[css GIF - Find & Share on GIPHY  ]]></title>
+<link><![CDATA[https://giphy.com/gifs/css-13FrpeVH09Zrb2]]></link>
+<description>
+<![CDATA[
+<div class="post border2">
+css GIF - Find &amp; Share on GIPHY <a class="brand" target="_blank" href="https://giphy.com/gifs/css-13FrpeVH09Zrb2"><img class="ico op" src="https://www.google.com/s2/favicons?domain_url=giphy.com" width="14px" alt="ico"> https://giphy.com/gifs/css-13FrpeVH09Zrb2</a><iframe src="https://giphy.com/embed/13FrpeVH09Zrb2" width="480" height="360" frameBorder="0" class="giphy-embed" allowFullScreen></iframe><p><a href="https://giphy.com/gifs/13FrpeVH09Zrb2">via GIPHY</a></p>
+</div>
+]]>
+</description>
+</item>
+
+<item>
+<pubDate>Fri, 18 Aug 23 00:49:33 +0300</pubDate>
+<title><![CDATA[A Pure CSS Game - You Must Build a Lighthouse.  ]]></title>
+<link><![CDATA[https://codepen.io/ivorjetski/pen/OJXbvdL]]></link>
+<description>
+<![CDATA[
+<div class="post border2">
+A Pure CSS Game - You Must Build a Lighthouse. <a class="brand" target="_blank" href="https://codepen.io/ivorjetski/pen/OJXbvdL"><img class="ico op" src="https://www.google.com/s2/favicons?domain_url=codepen.io" width="14px" alt="ico"> https://codepen.io/ivorjetski/pen/OJXbvdL</a><p class="codepen" data-height="420" data-default-tab="result" data-theme-id="" data-slug-hash="OJXbvdL" data-user="" style="height: 420px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;"></p><script async src="https://cpwebassets.codepen.io/assets/embed/ei.js"></script>
+</div>
+]]>
+</description>
+</item>
+
+<item>
 <pubDate>Thu, 17 Aug 23 12:00:03 +0300</pubDate>
 <title><![CDATA[Chandra Observatory on X: "Today Chandra is studying a galaxy cluster in Lyra. Nearby in the sky is NGC 6745. Shaped like the head of a bird about to grab a tasty bite of food, the galaxy's spiral shape has been distorted by a collision with a smaller galaxy located almost out of view on the lower r]]></title>
 <link><![CDATA[https://twitter.com/chandraxray/status/1691917757775003992]]></link>
@@ -126,38 +152,6 @@ update: removed AI images, change on new in progress.
 <![CDATA[
 <div class="post border2">
 SVG Spinning House <a class="brand" target="_blank" href="https://codepen.io/jkantner/pen/WNYBQQp"><img class="ico op" src="https://www.google.com/s2/favicons?domain_url=codepen.io" width="14px" alt="ico"> https://codepen.io/jkantner/pen/WNYBQQp</a><p class="codepen" data-height="420" data-default-tab="result" data-theme-id="" data-slug-hash="WNYBQQp" data-user="" style="height: 420px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;"></p><script async src="https://cpwebassets.codepen.io/assets/embed/ei.js"></script>
-</div>
-]]>
-</description>
-</item>
-
-<item>
-<pubDate>Tue, 08 Aug 23 10:34:01 +0300</pubDate>
-<title><![CDATA[New Scientist on Twitter: "A glorious image of the Ring nebula taken by the James Webb Space Telescope is giving astronomers a more detailed look than ever before at its internal structure.  " / X  ]]></title>
-<link><![CDATA[https://twitter.com/newscientist/status/1688808584233054208]]></link>
-<description>
-<![CDATA[
-<div class="post border2">
-New Scientist on Twitter: &quot;A glorious image of the Ring nebula taken by the James Webb Space Telescope is giving astronomers a more detailed look than ever before at its internal structure. <a class="brand" target="_blank" href="https://t.co/AsVBux7MzG&quot;"><img class="ico op" src="https://www.google.com/s2/favicons?domain_url=t.co" width="14px" alt="ico"> https://t.co/AsVBux7MzG&quot;</a> / X <a class="brand" target="_blank" href="https://twitter.com/newscientist/status/1688808584233054208"><img class="ico op" src="https://www.google.com/s2/favicons?domain_url=twitter.com" width="14px" alt="ico"> https://twitter.com/newscientist/status/1688808584233054208</a><div id="embed152"></div><script>
-twiStyle = `<style>.twitter-tweet { margin-top: 0px !important; }</style>`;
-if(confThemeEmbed == 'dark'){
-//twiStyle += `<style>.twitter-tweet iframe { border-radius: 15px; }</style>`;
-}
-
-document.getElementById("embed152").innerHTML = twiStyle+'<div style="display: block; width: 100%; max-width: 550px; margin: 0 auto;"><blockquote class="twitter-tweet" data-lang="en" data-theme="'+confThemeEmbed+'"><a href="https://twitter.com/newscientist/status/1688808584233054208"></a></blockquote></div>'; </script><script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
-</div>
-]]>
-</description>
-</item>
-
-<item>
-<pubDate>Tue, 08 Aug 23 08:06:10 +0300</pubDate>
-<title><![CDATA[MDN Blog  ]]></title>
-<link><![CDATA[https://developer.mozilla.org/en-US/blog/]]></link>
-<description>
-<![CDATA[
-<div class="post border2">
-MDN Blog <a class="brand" target="_blank" href="https://developer.mozilla.org/en-US/blog/"><img class="ico op" src="https://www.google.com/s2/favicons?domain_url=developer.mozilla.org" width="14px" alt="ico"> https://developer.mozilla.org/en-US/blog/</a>
 </div>
 ]]>
 </description>

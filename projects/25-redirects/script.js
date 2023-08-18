@@ -118,7 +118,7 @@ q = encodeURIComponent(q);
 urlList = [
 "https://x.com/search?q="+q,
 "https://www.reddit.com/search/?q="+q+"&t=day&type=link",
-//"https://www.tumblr.com/search/"+q+"?t=1",
+"https://www.tumblr.com/search/"+q+"?t=1",
 "https://medium.com/tag/"+encodeURIComponent(decodeURIComponent(q.toLowerCase()).replaceAll(' ', '-'))+"/latest"
 ];
 random = Math.floor(Math.random() * urlList.length);
@@ -126,7 +126,7 @@ url = urlList[random];
 if(q == ''){
 urlList = [
 "https://x.com/explore",
-//"https://www.tumblr.com/explore/",
+"https://www.tumblr.com/explore/",
 "https://medium.com/"
 ];
 random = Math.floor(Math.random() * urlList.length);
@@ -143,6 +143,7 @@ q = q.trim();
 q = encodeURIComponent(q);
 urlList = [
 "https://x.com/search?q="+q,
+"https://www.tumblr.com/search/"+q,
 "https://www.reddit.com/search/?q="+q+"&t=day&type=link",
 "https://medium.com/tag/"+encodeURIComponent(decodeURIComponent(q.toLowerCase()).replaceAll(' ', '-'))+"/latest"
 ];
@@ -151,7 +152,7 @@ url = urlList[random];
 if(q == ''){
 urlList = [
 "https://x.com/explore",
-//"https://www.tumblr.com/explore/",
+"https://www.tumblr.com/explore/",
 "https://medium.com/"
 ];
 random = Math.floor(Math.random() * urlList.length);

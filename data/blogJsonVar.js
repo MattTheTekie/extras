@@ -1,6 +1,24 @@
 var blogJsonVar = 
 [
     {
+        "id": "163",
+        "text": "css GIF - Find & Share on GIPHY",
+        "text2": "",
+        "text3": "",
+        "url": "https:\/\/giphy.com\/gifs\/css-13FrpeVH09Zrb2",
+        "tag": "#gif #CSS",
+        "time": 1692319280
+    },
+    {
+        "id": "162",
+        "text": "A Pure CSS Game - You Must Build a Lighthouse.",
+        "text2": "",
+        "text3": "",
+        "url": "https:\/\/codepen.io\/ivorjetski\/pen\/OJXbvdL",
+        "tag": "#HTML #CSS",
+        "time": 1692308973
+    },
+    {
         "id": "161",
         "text": "Chandra Observatory on X: \"Today Chandra is studying a galaxy cluster in Lyra. Nearby in the sky is NGC 6745. Shaped like the head of a bird about to grab a tasty bite of food, the galaxy's spiral shape has been distorted by a collision with a smaller galaxy located almost out of view on the lower right. https:\/\/t.co\/ducoqNq6uI\" \/ X",
         "text2": "",
