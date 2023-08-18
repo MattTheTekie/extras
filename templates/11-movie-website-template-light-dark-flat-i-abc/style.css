@@ -1,4 +1,4 @@
-/* v.1.5.0 */
+/* v.1.5.1 */
 /* inspired by IMDB and other */
 
 
@@ -17,7 +17,8 @@ margin: 0 auto;
 /***************/
 .movieList {
 display: grid;
-grid-template-columns: repeat(auto-fill, var(--moviePosterImgW));
+/*grid-template-columns: repeat(auto-fill, var(--moviePosterImgW));*/
+grid-template-columns: repeat(auto-fill, minmax(var(--moviePosterImgW), 1fr));
 grid-gap: 15px;
 width: 100%;
 max-width: calc(var(--moviePosterImgW) * 4 + (4 * 15px));
@@ -25,9 +26,13 @@ margin: 0 auto;
 justify-content: center;
 }
 
+
+
 .movieItem {
 width: 100%;
-max-width: 150px;min-height: 0px;
+max-width: var(--moviePosterImgW);
+min-height: 0px;
+margin: 0 auto;
 }
 
 .moviePosterImg {

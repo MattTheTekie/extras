@@ -1,4 +1,4 @@
-/* v.1.4.0 */
+/* v.1.4.2 */
 
 /*
 html::before {
@@ -45,16 +45,15 @@ z-index: -1;
 
 .menu {
 display: grid;
-/*grid-template-areas: "a a a a a";*/
-/*grid-template-columns: repeat(4, 1fr);*/
-grid-template-columns: repeat(auto-fill, minmax(130px, max-content));
+grid-template-columns: repeat(auto-fill, minmax(130px, 1fr));
+/*grid-template-columns: repeat(auto-fill, minmax(130px, max-content));*/
 /*grid-auto-columns: 1fr;*/
 grid-gap: 5px;
 margin: 0 auto;
 justify-content: center;
 }
 
-@media(max-width: 150px) { .menu { display: block; width: 100%; }}
+/*rmme @media(max-width: 280px) { .menu { display: block; width: 100%; }}*/
 
 .menu a{
 display: flex;
@@ -123,9 +122,6 @@ justify-content: center;
 align-items: center;
 }
 
-@media(max-width: 500px) {
-
-}
 
 
 /* start dropdown menu */
