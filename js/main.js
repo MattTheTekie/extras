@@ -851,6 +851,14 @@ mainPrintMsg('footer', `
 .topNav nav { display: block; }
 .menuTop { display: none; }
 #dropdownMenuButton { display: inline-block; }
+
+.topNav nav {
+justify-content: left;
+align-items: center;
+display: block;
+text-align: left;
+}
+
 }
 
 /*fix*/
