@@ -431,6 +431,8 @@ input:focus{ outline: none }
 footer { margin-top: 10vh; }
 
 
+.logo2, .nav a:last-child { margin-right: 5px; }
+.topNav form { padding-left: 5px; }
 
 
 
