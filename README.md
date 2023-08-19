@@ -3,14 +3,15 @@
 
 
 
-· Projects:  
-· Website Templates.  
-· Extensions: New Tab Redirect, Hotkey URL.  
-· Themes for Firefox, Geany IDE Color Theme.  
-· JavaScript Games: Typing Speed, Snake, Memory Symbol, Tic Tac Toe.  
+· Home page and rojects:
+· Micro blog (static)  
+· Website templates.  
+· Extensions: new tab redirect, hotkey URL.  
+· Themes for Firefox, Geany IDE, VSCode.  
+· JavaScript games: typing speed, snake, memory symbol, tic tac toe.  
 · Todo list.  
   
-· Some copyright and other license in About page on website.  
+· Some copyright and other license in about page on website.  
 ...  
 
 · Website: [https://inonehp.pages.dev](https://inonehp.pages.dev)  
