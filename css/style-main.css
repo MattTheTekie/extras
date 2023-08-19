@@ -1,4 +1,4 @@
-/* v.12.35.8 */
+/* v.12.35.10 */
 
 * {  color-scheme: light dark; } /* view-source:about:blank */ /* fixed #fff blink */
 
@@ -183,20 +183,25 @@ padding: 2px;
 }*/
 .ico {
 display: inline-block;
-vertical-align: middle;
+/*vertical-align: middle;*/
 filter: brightness(90%);
 opacity: 0.9;
-font-size: xx-small;
+font-size: small;
+padding-right: 5px;
 }
-.ico2 { /* emoji ico */
-vertical-align: middle;
+.ico2 {
 display: inline-block;
+vertical-align: middle;
 filter: brightness(90%);
 opacity: 0.9;
-font-size: calc(100% - 20%);
+font-size: small;
 }
-.ico:hover, .ico2:hover { filter: grayscale(0%); }
+.ico:hover, .ico2:hover {
+filter: grayscale(0%);
+filter: brightness(100%);
+}
 
+.ico2 { max-width: 12px; }
 .gray { filter:grayscale(56%); }
 
 .tagList {

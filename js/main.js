@@ -1,4 +1,4 @@
-// v.3.5.0
+// v.3.5.1
 
 // conf
 var symbolForSplit = 'pwxortuzqu'; // for split
@@ -771,7 +771,7 @@ mainPrintMsg('fPrivacy', `<a href="/privacy.${confExt}">cookie: ${option}</a>`);
 // privacy part
 if(confDataCollection == 'on'){
 
-window.onload = function(){
+document.body.onload = function(){
 
 // analytics
 //<!-- Google tag (gtag.js) -->

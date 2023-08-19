@@ -3,7 +3,7 @@
 
 
 
-function mainPrintMsg(id, PrintMsg, option){
+async function mainPrintMsg(id, PrintMsg, option){
 if(document.getElementById(id) != null){
 if(option == 'plus'||option == '+'){
 document.getElementById(id).innerHTML += PrintMsg;
@@ -242,16 +242,16 @@ icArr = [...new Set(icArr)];
 //icon = icArr.toString();
 icon = icArr.join('');
 
-linkText = `<span class="material-icons ico brand" style="font-size: 16px;">
+linkText = `<span class="material-icons ico brand">
 <div>${icon}</div>
-</span>`+'<span class="pre"> </span>'+linkText;
+</span>`+''+linkText;
 document.getElementsByClassName(classNameForInsert)[index].innerHTML = linkText;
 
 
 }else{
-linkText = `<span class="material-icons ico brand" style="font-size: 16px;">
+linkText = `<span class="material-icons ico brand">
 <div>●</div>
-</span>`+'<span class="pre"> </span>'+linkText;
+</span>`+''+linkText;
 document.getElementsByClassName(classNameForInsert)[index].innerHTML = linkText;
 
 
