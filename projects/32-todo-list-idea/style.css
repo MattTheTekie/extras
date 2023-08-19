@@ -18,7 +18,14 @@ align-self: safe center;
 word-break: break-all;
 }
 
-.taskItem { padding: 4px 10px; }
+.taskItem {
+padding: 4px 10px;
+display: flex;
+min-width: 100%;
+min-height: 37px;
+justify-content: start;
+align-content: center;
+}
 
 @media(max-width: 240px) {
 .task {
