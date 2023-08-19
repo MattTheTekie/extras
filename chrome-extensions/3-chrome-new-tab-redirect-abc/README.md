@@ -1,7 +1,7 @@
 README.md
 
 About:
-
+Another one New Tabg Redirect.
 Your own URL website will open in a New Tab.
 
 You need to enter your website URL address in the addon options, then this address will be opened every time when you press the "+" button for create New Tab (or Ctrl+T)

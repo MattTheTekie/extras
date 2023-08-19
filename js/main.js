@@ -754,8 +754,8 @@ z-index: 2;
 <div class="wrapperL">
 <div class="wrapperL cookiePopup post bg3 border margin tCenter shadow">
 <p class="h3 bold">Allow Cookie for third parties?</p>
-This is necessary to improve the site.
-(for relevant Ads, Statistics)
+This is necessary to improve the site 
+(for relevant ads, statistics).
 <p>
 <button class="button light3 border cookieBtnYes" onclick="cookiePopup('on')">Yes</button>
 <button class="button light3 border" onclick="cookiePopup('off')">No</button>
