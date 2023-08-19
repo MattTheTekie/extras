@@ -1301,12 +1301,13 @@ checkText = false;
 var ico = `https://www.google.com/s2/favicons?domain_url=${host[2]}`;
 //var ico = `https://api.statvoo.com/favicon/?url=${host[2]}`;
 //var ico = `https://api.faviconkit.com/${host[2]}/16`;
-
+ico = `<img class="ico2 op" src="${ico}" alt="icon">`;
+if(localStorage.getItem('confDataCollection') != 'on'){ ico = '🔗'; }
 
 if(targetOption == 'blank'){
-item = `<a class="brand" target="_blank" href="${item}"><img class="ico2 op" src="${ico}" alt="ico"> ${item}</a>`;
+item = `<a class="brand" target="_blank" href="${item}">${ico} ${item}</a>`;
 }else{
-item = `<a class="brand" href="${item}"><img class="ico2 op" src="${ico}" alt="ico"> ${item}</a>`;
+item = `<a class="brand" href="${item}">${ico} ${item}</a>`;
 }
 
 }else{
@@ -1766,11 +1767,13 @@ if(embedStatus == 'on'&&host != undefined){
 var ico = `https://www.google.com/s2/favicons?domain_url=${host[2]}`;
 //var ico = `https://api.statvoo.com/favicon/?url=${host[2]}`;
 //var ico = `https://api.faviconkit.com/${host[2]}/16`;
+ico = `<img class="ico2 op" src="${ico}" alt="icon">`;
+if(localStorage.getItem('confDataCollection') != 'on'){ ico = '🔗'; }
 
 if(targetOption == 'blank'){
-item = `<a class="brand" target="_blank" href="${item}"><img class="ico2 op" src="${ico}" alt="ico"> ${item}</a>`;
+item = `<a class="brand" target="_blank" href="${item}">${ico} ${item}</a>`;
 }else{
-item = `<a class="brand" href="${item}"><img class="ico op" src="${ico2}"alt="ico"> ${item}</a>`;
+item = `<a class="brand" href="${item}">${ico} ${item}</a>`;
 }
 
 

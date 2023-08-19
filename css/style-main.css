@@ -83,7 +83,7 @@ h4, .h4 { font-size: 1.12em; }
 h5, .h5 { font-size: 1.10em; }
 h6, .h6 { font-size: 1.05em; }
 
-ul li { line-height: 0; padding-bottom: 5px; }
+ul li { line-height: 1; padding-bottom: 5px; }
 
 input[type=text], input[type=search], textarea, input[type=submit]{
 width: 100%;
@@ -194,14 +194,15 @@ display: inline-block;
 vertical-align: middle;
 filter: brightness(90%);
 opacity: 0.9;
-font-size: small;
+font-size: xx-small;
+width: 16px;
+padding-right: 5px;
 }
 .ico:hover, .ico2:hover {
 filter: grayscale(0%);
 filter: brightness(100%);
 }
 
-.ico2 { max-width: 12px; }
 .gray { filter:grayscale(56%); }
 
 .tagList {

@@ -1,4 +1,4 @@
-/* v.1.0.0 */
+/* v.1.0.1 */
 
 
 
@@ -27,7 +27,7 @@ top: 0;
 z-index: -3;
 
 background-image: url('../flower.svg');
-background-size: 10vw;
+background-size: 16vh;
 background-repeat: no-repeat;
 background-position: left 10% top 10%;
 
@@ -48,7 +48,7 @@ overflow: hidden;
 z-index: -2;
 
 background-image: url('../flower.svg');
-background-size: 17vw;
+background-size: 25vh;
 background-position: left 5% bottom 10%;
 background-repeat: no-repeat;
 }

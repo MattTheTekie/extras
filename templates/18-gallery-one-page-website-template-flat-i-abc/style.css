@@ -31,6 +31,9 @@ padding: 5px;
 border-radius: 15px;
 }
 
+
+
+
 @media(max-width: 180px) { .tplGallery { display: block; width: 100%; }}
 
  .tplGalleryItem img, .tplGalleryItem svg {

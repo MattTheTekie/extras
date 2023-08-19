@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+<meta charset="UTF-8">
+<title>Settings</title>
+<!--<meta name="title" content="">-->
+<!--<meta name="author" content="">-->
+
+<meta name="description" content="List of pages with site settings: themes, cookies, display of ads, app">
+<meta name="keywords" content="setting,settings">
+
+<link rel="alternate" type="application/rss+xml" title="Inonehp Blog RSS" href="/rss.xml">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<meta name="color-scheme" content="light dark">
+<!--<meta http-equiv="Content-Security-Policy" content="upgrade-insecure-requests">-->
+<meta name="generator" content="Geany, Mozilla Firefox, PHP, MySQL, Inkscape">
+
+<!--
+<meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate">
+<meta http-equiv="Pragma" content="no-cache">
+<meta http-equiv="Expires" content="-1">
+-->
+
+<meta http-equiv="Cache-Control" content="max-age=86400, must-revalidate">
+
+
+<!--<meta name="referrer" content="no-referrer" />--><!-- something breaks -->
+<!--<meta name="theme-color" media="(prefers-color-scheme: light)" content="#F2F2F2">
+<meta name="theme-color" media="(prefers-color-scheme: dark)" content="#3E3E3E">--><!-- generated in main js -->
+
+<link rel="icon" sizes="512x512" href="/img/logo.png" type="image/png">
+
+
+<!-- start main css -->
+<link rel="preload" href="/js/main.js" as="script"> 
+<link rel="preload" href="/data/adsJsonVar.js" as="script">
+<link rel="preload" href="/js/ad.js" as="script"> 
+
+<link rel="preload" href="/css/style-main.css" as="style">
+<link rel="stylesheet" href="/css/style-main.css" type="text/css">
+
+<link rel="preload" href="/css/style.css" as="style">
+<link rel="stylesheet" href="/css/style.css" type="text/css">
+
+<link rel="stylesheet" type="text/css" href="/css/style-main.css" id="theme">
+<noscript><link rel="stylesheet" type="text/css" href="/css/light.css"></noscript>
+<!-- and main css -->
+
+
+<!-- for icons -->
+<!--
+<link rel="preconnect" href="https://fonts.gstatic.com/" crossorigin>
+<link rel="preload" href="https://fonts.googleapis.com/icon?family=Material+Icons" as="style" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+-->
+
+</head>
+<body>
+
+
+
+
+
+<!-- only edit: menu and dublicate this in "menu dublicate -->
+<header class="wrapper3 topNav capitalize tLeft">
+<nav>
+
+<a href="../"><img class="logo2" src="/img/logo.png" alt="i"></a>
+
+<!-- start menuTop for Desktop -->
+<div class="menuTop">
+
+<!-- menu -->
+<a class="countMenuItem brand" href="blog.html">blog</a><br>
+<a class="countMenuItem brand" href="templates.html">templates</a><br>
+<a class="countMenuItem brand" href="projects.html">projects</a><br>
+<a class="countMenuItem brand" href="mini-projects.html">mini-projects</a><br>
+<a class="countMenuItem brand" href="about.html">about</a><br>
+<!-- //menu -->
+
+</div>
+<!-- end menuTop -->
+
+<!-- start menuTOp dropdown menu, for mobile -->
+
+<!-- https://www.w3schools.com/howto/howto_js_dropdown.asp -->
+
+<button onclick="dropdownMenuFunction();" class="brand" id="dropdownMenuButton">☰ Menu</button>
+
+
+<div id="dropdownMenu" class="dropdownMenuContent shadow bg2 padding wrapper">
+<div class="dropdownMenuWrapper">
+<!--<div class="padding">section</div>-->
+<div class="dropdownMenuContentColumn">
+
+<!-- menu dublicate -->
+<a class="countMenuItem brand" href="blog.html">blog</a><br>
+<a class="countMenuItem brand" href="templates.html">templates</a><br>
+<a class="countMenuItem brand" href="projects.html">projects</a><br>
+<a class="countMenuItem brand" href="mini-projects.html">mini-projects</a><br>
+<a class="countMenuItem brand" href="about.html">about</a><br>
+<!-- //menu dublicate -->
+
+</div>
+
+<!--
+<div class="padding">section</div>
+<div class="dropdownMenuContentColumn">
+<a class="brand" href="#">link</a><br>
+<a class="brand" href="#">link</a><br>
+<a class="brand" href="#">link</a><br>
+</div>
+-->
+
+</div>
+</div>
+</div>
+<!--<hr />-->
+
+<!-- // end dropdown menu -->
+
+
+<form action="/sitemap.html" role="search">
+<input type="search" placeholder="search on site" name="q" autocomplete="off">
+</form>
+
+<!-- uncomment if fot not support script, tested only on old version menu
+<noscript>
+<style>
+.dropdownMenuContent, #dropdownMenu { display: block; position: relative; }
+</style>
+</noscript>
+-->
+
+<!--<hr />-->
+
+ </nav>
+</header>
+
+
+
+
+
+<!-- content -->
+<div class="content">
+
+<div class="center2">
+<div class="wrapperL">
+<ul>
+
+<li><a class="brand" href="/theme.html">Theme: [ <span id="fTheme"></span>]</a></li>
+<li><a class="brand" href="/privacy.html">Privacy: [<span id="fPrivacy"></span> ]</a></li>
+<li><a class="brand" href="/ads.html">Ads: [ <span id="fAds"></span> ]</a></li>
+<li><a class="brand" href="/app.html">App: [ <span id="fApp"></span> ]</a></li>
+
+
+<script>
+function mainPrintMsg(id, PrintMsg, option){
+if(document.getElementById(id) != null){
+if(option == 'plus'||option == '+'){
+document.getElementById(id).innerHTML += PrintMsg;
+}else{
+document.getElementById(id).innerHTML = PrintMsg;
+}
+}else{
+// console.log(id+' not fount');
+}
+}
+
+
+mainPrintMsg('fAds', localStorage.getItem('confAdsStatus')); 
+
+
+
+</script>
+
+
+</ul>
+</div>
+</div>
+
+
+
+
+
+
+
+
+</div>
+
+
+
+<footer>
+
+
+<div id="footer"></div>
+
+</footer>
+
+<script src="/js/main.js"></script>
+<script src="/data/adsJsonVar.js"></script>
+<script src="/js/ad.js"></script>
+<script>
+fuAds('', 'ads2', '');
+</script>
+
+<script async src="/projects/17-insert-icon/script.js" onload="insertIcon('insertIcon', '')"></script>
+
+</body>
+</html>

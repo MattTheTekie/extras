@@ -1,4 +1,4 @@
-// v.2.2.0
+// v.2.2.1
 // About: insert icon using class name.
 
 
@@ -207,7 +207,7 @@ var iconHTTP = `https://www.google.com/s2/favicons?domain_url=${linkTextURL}`;
 //var ico = `https://api.statvoo.com/favicon/?url=${host[2]}`;
 //var ico = `https://api.faviconkit.com/${host[2]}/16`;
 iconHTTP = `<img src="${iconHTTP}" alt="ico" width="16" height="16">`;
-if(localStorage.getItem('confDataCollection') == 'off'){ iconHTTP = '🔗'; }
+if(localStorage.getItem('confDataCollection') != 'on'){ iconHTTP = '🔗'; }
 icArr.push(iconHTTP);
 check = 'exit';
 counter++;
@@ -227,7 +227,7 @@ var iconHTTP = `https://www.google.com/s2/favicons?domain_url=${linkTextURL}`;
 //var ico = `https://api.statvoo.com/favicon/?url=${host[2]}`;
 //var ico = `https://api.faviconkit.com/${host[2]}/16`;
 iconHTTP = `<img src="${iconHTTP}" alt="ico" width="16" height="16">`;
-if(localStorage.getItem('confDataCollection') == 'off'){ iconHTTP = '🔗'; }
+if(localStorage.getItem('confDataCollection') != 'on'){ iconHTTP = '🔗'; }
 icArr.push(iconHTTP);
 check = 'exit';
 counter++;
