@@ -1,4 +1,4 @@
-/* v.4.0.3 */
+/* v.4.0.4 */
 
 var result = '';
 
@@ -15,9 +15,9 @@ if(element == 'rand-l'){ result += '</div></div><p>Random mode:<p>'; }
 if(element == 'auto'){ result += '<p>Auto mode:<p>'; }
 
 if(element == theme){
-result += '<div id="'+element+'" class="tehemeListItem light4 margin padding border3List" style="font-size: 100%; padding: 6px;">'+element+'</div>';
+result += '<div id="'+element+'" class="tehemeListItem light4 margin border3List">'+element+'</div>';
 }else{
-result += '<div id="'+element+'" class="tehemeListItem light margin padding border3List" style="font-size: 100%; padding: 6px;">'+element+'</div>';
+result += '<div id="'+element+'" class="tehemeListItem light margin border3List">'+element+'</div>';
 }
 
 });
@@ -34,14 +34,12 @@ result = `
 display: grid;
 /*grid-template-areas: "a a a a a";*/
 grid-template-columns: repeat(auto-fill, minmax(100px, max-content));
+grid-template-columns: repeat(auto-fill, minmax(100px, 1fr));
 /*grid-auto-columns: 1fr;*/
 grid-gap: 5px;
-
-grid-gap: 5px;
-
+width: 100%;
+max-width: 450px;
 margin: 0 auto;
-justify-content: center;
-
 }
 
 @media(max-width: 90px) { .tehemeList { display: block; width: 100%; }}
@@ -51,7 +49,7 @@ display: inline-block;
 justify-content: start;
 align-content: center;
 text-transform: lowercase;
-padding: 10px 4px; margin:0;
+padding: 5px 15px; margin:0;
 cursor: pointer;
 border-radius: 5px;
 text-wrap: balance;
@@ -59,15 +57,12 @@ text-wrap: balance;
 
 .tehemeList .tehemeListItem { display: flex; }
 
-.tehemeListWrappaer { display: inline-block; }
+
 </style>
 
-<div class="block tCenter small">
-<div class="tehemeListWrappaer">
+<div class="block small tCenter">
 <div class="tehemeList">
 ${result}
-</div>
-</div>
 </div>
 
 `;

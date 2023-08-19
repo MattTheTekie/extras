@@ -391,18 +391,20 @@ h1, h2, h3, h4, h5, h6, .bold, .b, b { letter-spacing: 0.2px; }
 
 @media(max-width: 200px) { div, input, textarea, a{ word-break: break-all; } }
 
-div, input, textarea, img, header, footer { box-sizing: border-box; }
+div, input, textarea, img, svg, header, footer { box-sizing: border-box; }
 
 .sup { vertical-align: super; vertical-align: top; font-weight: 600; }
 .pre{ white-space: pre-wrap; word-wrap: break-word; line-height: normal; }
 
 button { cursor: pointer; }
+
+
+
 /*textarea:focus {outline: none;}*/
 form { margin: 0 auto; padding: 0; width: 100%; box-sizing: border-box; }
 /*br, hr { clear: both; }*/
-form, iframe, video, audio, img, hr, table{ max-width:100%; }
-img { height: auto; }
-
+svg, form, iframe, video, audio, img, hr, table{ max-width:100%; }
+svg, img { height: auto;  display: inline-block; }
 
 input, textarea { display: block; }
 
