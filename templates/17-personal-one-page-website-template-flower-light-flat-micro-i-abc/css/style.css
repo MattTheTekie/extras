@@ -27,7 +27,7 @@ top: 0;
 z-index: -3;
 
 background-image: url('../flower.svg');
-background-size: 25vh;
+background-size: 10vw;
 background-repeat: no-repeat;
 background-position: left 10% top 10%;
 
@@ -48,7 +48,7 @@ overflow: hidden;
 z-index: -2;
 
 background-image: url('../flower.svg');
-background-size: 35vh;
+background-size: 17vw;
 background-position: left 5% bottom 10%;
 background-repeat: no-repeat;
 }

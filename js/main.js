@@ -630,20 +630,6 @@ console.error(`Service worker registration failed: ${error}`);
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 // install app button
 
 //https://github.com/mdn/pwa-examples
@@ -779,6 +765,8 @@ mainPrintMsg('fPrivacy', `<a href="/privacy.${confExt}">cookie: ${option}</a>`);
 // end 
 
 
+
+
 // Google Analytics 
 // privacy part
 if(confDataCollection == 'on'){
@@ -836,7 +824,7 @@ document.getElementById("dropdownMenuButton").innerHTML = '☰ Menu';
 }
 
 
-// fix, prevent adaptive menu if there not many links.
+// enable dropdown menu only if links >= 6
 let countMenuItem = document.querySelectorAll('.countMenuItem');
 if((countMenuItem.length / 2) >= 6){ // 6 links
 if(document.getElementById("footer") != null){

@@ -1,4 +1,4 @@
-/* v.12.35.7 */
+/* v.12.35.8 */
 
 * {  color-scheme: light dark; } /* view-source:about:blank */ /* fixed #fff blink */
 
@@ -76,12 +76,12 @@ nav button:hover { background: none;  }
 nav a:first-child, footer a:first-child, footer span:first-child, nav a:not(.dropdownMenuContent) { padding-left: 0; }
 footer span:last-child { padding-right: 0; }
 
-h1, .h1 { font-size: 1.30em; }
-h2, .h2 { font-size: 1.25em; }
-h3, .h3 { font-size: 1.20em; }
-h4, .h4 { font-size: 1.10em; }
-h5, .h5 { font-size: 1.05em; }
-h6, .h6 { font-size: 1em; }
+h1, .h1 { font-size: 1.20em; }
+h2, .h2 { font-size: 1.18em; }
+h3, .h3 { font-size: 1.15em; }
+h4, .h4 { font-size: 1.12em; }
+h5, .h5 { font-size: 1.10em; }
+h6, .h6 { font-size: 1.05em; }
 
 ul li { line-height: 0; padding-bottom: 5px; }
 

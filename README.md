@@ -3,7 +3,7 @@
 
 
 
-· Home page and rojects:
+· Home page and rojects:  
 · Micro blog (static)  
 · Website templates.  
 · Extensions: new tab redirect, hotkey URL.  
