@@ -1,4 +1,4 @@
-/* v.1.4.3 */
+/* v.1.4.4 */
 
 /*
 html::before {
@@ -160,7 +160,7 @@ padding-bottom: 5px;
 #dropdownMenuButton { display: none; }
 
 
-
+/* continuation in main js, where counter hide menu, show dropdown */
 
 /* end dropdown menu */
 
