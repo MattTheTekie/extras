@@ -1,4 +1,4 @@
-// v.3.5.3
+// v.3.5.4
 
 // conf
 var symbolForSplit = 'pwxortuzqu'; // for split
@@ -835,8 +835,8 @@ if((countMenuItem.length / 2) >= 6){ // 6 links
 
 //mainPrintMsg('footer', ``, '+');
 
-if(document.getElementsByTagName("head")[0] != null){
-document.getElementsByTagName("head")[0].innerHTML += `
+if(document.getElementsByTagName("body")[0] != null){
+document.getElementsByTagName("body")[0].innerHTML += `
 
 <style>
 
@@ -865,9 +865,8 @@ display: none !important;
 </style>
 
 `;
-
-
 }
+
 }
 
 //console.log(document.getElementsByTagName("header")[0]);
