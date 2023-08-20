@@ -34,7 +34,7 @@
 <meta name="theme-color" media="(prefers-color-scheme: light)" content="#F2F2F2"><!-- comment for validator -->
 <meta name="theme-color" media="(prefers-color-scheme: dark)" content="#3E3E3E">
 
-<link rel="icon" sizes="512x512" href="/img/logo.png" type="image/png">
+<link rel="icon" sizes="512x512" href="/img/logo.png" type="image/png" crossorigin>
 <!--<link rel="shortcut icon" href="favicon.ico" type="image/x-icon" />-->
 
 

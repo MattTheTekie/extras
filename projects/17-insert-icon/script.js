@@ -1,4 +1,4 @@
-// v.2.2.4
+// v.2.2.5
 // About: insert icon using class name.
 
 
@@ -106,7 +106,7 @@ let icons = {
 "tool":"🔨",
 "tv":"📺",
 "url":"🔗","link":"🔗","www":"🔗", "popup":"🔗",
-"setting":"⚙️", "custom":"⚙️",
+"setting":"⚙️", "settings":"⚙️", "custom":"⚙️",
 "user":"👤", "followers":"👤",
 "weather":"🌤️",
 "web":"🕸️", "internet":"🕸️", "browser":"🕸️",

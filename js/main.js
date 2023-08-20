@@ -1,4 +1,4 @@
-// v.3.5.1
+// v.3.5.2
 
 // conf
 var symbolForSplit = 'pwxortuzqu'; // for split
@@ -64,20 +64,17 @@ mainPrintMsg('footer', `
 
 <!--
 <span id="fAds"><a href="/ads.${confExt}">ads: ${localStorage.getItem('confAdsStatus')}</a></span>
-<span id="fApp"><a href="/app.${confExt}"></a></span>-->
+-->
 
 <!--
 <span id="fDonate"><a href="/about.${confExt}#donate">donate</a></span>-->
-
-<span id="fDownload"><a href="https://github.com/inonehp/inonehp.pages.dev">download</a></span>
-
-<span><a href="/rss.xml">RSS</a></span>
-
-<span><a href="/settings.${confExt}">Settings</a></span>
+<span id="fApp"><a href="/app.${confExt}"></a></span>
 <span id="fPrivacy"><a href="/privacy.${confExt}">Cookie</a></span>
-
+<!--<span><a href="/settings.${confExt}">Settings</a></span>-->
+<span id="fDownload"><a href="https://github.com/inonehp/inonehp.pages.dev">download</a></span>
+<span><a href="/rss.xml">RSS</a></span>
 <span><a rel="license" title="license" href="https://creativecommons.org/licenses/by-sa/4.0/">license: CC BY-SA 4.0</a></span>
-<span><a rel="license" title="license 2" href="/about.${confExt}#copyright">Some ©</a></span>
+<span><a rel="license" title="license 2" href="/about.${confExt}#copyright">*</a></span>
 </div>
 
 
@@ -834,9 +831,12 @@ document.getElementById("dropdownMenuButton").innerHTML = '☰ Menu';
 // enable dropdown menu only if links >= 6
 let countMenuItem = document.querySelectorAll('.countMenuItem');
 if((countMenuItem.length / 2) >= 6){ // 6 links
-if(document.getElementById("footer") != null){
+//if(document.getElementById("footer") != null){}
 
-mainPrintMsg('footer', `
+//mainPrintMsg('footer', ``, '+');
+
+if(document.getElementsByTagName("head")[0] != null){
+document.getElementsByTagName("head")[0].innerHTML += `
 
 <style>
 
@@ -864,19 +864,32 @@ display: none !important;
 }
 </style>
 
-`, '+');
+`;
 
 
 }
 }
 
-console.log(document.getElementsByTagName("header")[0]);
+//console.log(document.getElementsByTagName("header")[0]);
 
 
 
 
 
-
+// serverTiming entries can live on 'navigation' and 'resource' entries
+for (const entryType of ['navigation', 'resource']) {
+  for (const {name: url, serverTiming} of performance.getEntriesByType(entryType)) {
+    // iterate over the serverTiming array
+    for (const {name, duration, description} of serverTiming) {
+      // we only care about "slow" ones
+console.log(duration);
+      if (duration > 200) {
+        console.info('Slow server-timing entry =',
+          JSON.stringify({url, entryType, name, duration, description}, null, 2))
+      }
+    }
+  }
+}
 
 
 
