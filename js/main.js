@@ -1,4 +1,4 @@
-// v.3.5.2
+// v.3.5.3
 
 // conf
 var symbolForSplit = 'pwxortuzqu'; // for split
@@ -829,7 +829,7 @@ document.getElementById("dropdownMenuButton").innerHTML = '☰ Menu';
 
 
 // enable dropdown menu only if links >= 6
-let countMenuItem = document.querySelectorAll('.countMenuItem');
+var countMenuItem = document.querySelectorAll('.countMenuItem');
 if((countMenuItem.length / 2) >= 6){ // 6 links
 //if(document.getElementById("footer") != null){}
 
@@ -871,25 +871,6 @@ display: none !important;
 }
 
 //console.log(document.getElementsByTagName("header")[0]);
-
-
-
-
-
-// serverTiming entries can live on 'navigation' and 'resource' entries
-for (const entryType of ['navigation', 'resource']) {
-  for (const {name: url, serverTiming} of performance.getEntriesByType(entryType)) {
-    // iterate over the serverTiming array
-    for (const {name, duration, description} of serverTiming) {
-      // we only care about "slow" ones
-console.log(duration);
-      if (duration > 200) {
-        console.info('Slow server-timing entry =',
-          JSON.stringify({url, entryType, name, duration, description}, null, 2))
-      }
-    }
-  }
-}
 
 
 
