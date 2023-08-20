@@ -151,12 +151,27 @@ html{ scrollbar-color: var(--l4) var(--d2); }
 }
 
 
+
 /* colors */
-/* codepen, no main.css */
+/* for codepen, no main.css */
 body{ background: var(--bg); color :var(--c3); }
 
 a { color: var(--c2); }
 a:hover{ color: var(--c4); } 
+
+
+svg, img { max-width: 100%; height: auto;  display: inline-block; }
+
+h1, p {
+display: block;
+text-align: center;
+}
+
+footer {
+  display: block;
+  text-align: center;
+padding: 25px 0;
+}
 
 
 

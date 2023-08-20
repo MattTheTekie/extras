@@ -17,15 +17,16 @@ document.getElementById(id).innerHTML = PrintMsg;
 
 
 function insertIcon(classNameForInsert, mode){
-// mode: "strict" - for full word no part, like firefox and insert fire
+// mode: "strict" - for full word
 if(mode != 'strict'){ mode = ''; }
 
 let icons = {
-
+"angle":"◀", "angled":"◀",
 "angel":"😇",
 "angle":"🔺",
 "antilope":"🦌", "gnu":"🦌",
 "balloon":"🎈",
+"button":"▬",
 "bird":"🐦", "twitter":"🐦",
 "blog":"📝", "todo":"📝", "task":"📝", "note":"📝", "reminde":"📝", "paper":"📝",
 "book":"📚", "quiz":"📚",
@@ -44,7 +45,7 @@ let icons = {
 "dir":"📁️",
 "developer":"💻",
 "document":"📄", "page":"📄",
-"draw":"✏️", "drawing":"✏️",
+"draw":"✏️", "drawing":"✏️", "art":"🎨",
 "earth":"🌍",
 "file":"🗃️",
 "game":"🎮",
@@ -56,7 +57,7 @@ let icons = {
 "info":"⚪", "faq":"ℹ️", "about":"⚪", 
 "insert":"📋", "paste":"📋",
 "joystick":"🕹",
-"keyboard":"⌨️","typing":"⌨️",
+"keyboard":"⌨️", "typing":"⌨️", "input":"⌨️",
 "mark":"✔️", "check":"✅",
 "label":"🏷️", "tag":"🏷️",
 "laptop":"💻", "notebook":"💻",
@@ -66,6 +67,7 @@ let icons = {
 "mammoth ":"🦣", "mastodon":"🦣",
 "mail":"📧",
 "@":"📧",
+"matrix":"💊",
 "menu":"☰",
 "movie":"🎥",
 "music": "🎶",
@@ -91,18 +93,20 @@ let icons = {
 "play":"▶️",
 "pleroma":"🟧️",
 "progress":"█░░",
-"quote":"❝❞", "quotes":"❝❞",
+"quote":"❝❞", "quotes":"❝❞", "blockquotes":"❝❞", 
 "rain":"💧",
 "smoking":"🚭",
 "sun":"🌞",
-"tool":"🔨",
-"tv":"📺",
-"url":"🔗","link":"🔗","www":"🔗", "popup":"🔗",
-"setting":"⚙️", "custom":"⚙️",
 "snake":"🐍",
 "snow":"❄️", "cold":"❄️", "winter":"❄️",
 "star":"⭐",
 "stopwatch":"⏱️",
+"textarea":"◻",
+"texture":"ᚙ", "textures":"ᚙ", "grid":"ᚙ",
+"tool":"🔨",
+"tv":"📺",
+"url":"🔗","link":"🔗","www":"🔗", "popup":"🔗",
+"setting":"⚙️", "custom":"⚙️",
 "user":"👤", "followers":"👤",
 "weather":"🌤️",
 "web":"🕸️", "internet":"🕸️", "browser":"🕸️",
@@ -111,7 +115,7 @@ let icons = {
 
 
 "question":"❓",
-"light":"⬜️", "white":"⬜️",
+"light":"⬜️", "highlight":"⬜️", "white":"⬜️",
  "dark":"⬛", "black":"⬛",
 "red":"🟥",
 "orange":"🟧",
@@ -190,14 +194,12 @@ check = 'exit';
 counter++;
 }
 
-}
-
-if(mode == 'strict'&&check != 'exit'&&counter == 0){
+}else if(mode == 'strict'&&check != 'exit'&&counter == 0){
 // main, strict word
 if(
-(' '+linkText.replace(/\d+/g, '').toLowerCase()).indexOf((' '+textIcon.replace(/\d+/g, '')+'')) >= 0
+(' '+linkText.replace(/\d+/g, '').toLowerCase()+' ').indexOf((' '+textIcon.replace(/\d+/g, '')+' ')) >= 0
 ||(' '+linkText.replace(/\d+/g, '').toLowerCase()+' ').indexOf((' '+textIcon.replace(/\d+/g, '')+' ')) >= 0
-&&(linkText.replace(/\d+/g, '').toLowerCase()+'').indexOf((textIcon.replace(/\d+/g, '')+'')) == -1){
+&&linkText.replace(/\d+/g, '').toLowerCase().trim().search(icon.replace(/\d+/g, '')) == -1){
 icArr.push(icon);
 check = 'exit';
 counter++;
