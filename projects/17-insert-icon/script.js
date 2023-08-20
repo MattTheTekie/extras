@@ -1,4 +1,4 @@
-// v.2.2.2
+// v.2.2.3
 // About: insert icon using class name.
 
 
@@ -39,7 +39,7 @@ let icons = {
 "cofee":"☕", "coffee":"☕",
 "copyright":"©",
 "comment":"💬","talk":"💬","chat":"💬",
-"css":"🖥️", "php":"🖥️", "java":"🖥️", "code":"🖥️", "unicorn":"🦄",
+"css":"🖥️", "php":"🖥️", "java":"🖥️", "unicorn":"🦄",
 "db":"💾", "data":"💾", "database":"💾", "keep":"💾", "save":"💾",
 "dir":"📁️",
 "developer":"💻",
@@ -50,12 +50,10 @@ let icons = {
 "game":"🎮",
 "teapot":"🫖",
 "teacup":"🍵",
-"friendica":"🇫",
-"fox":"🦊", "firefox":"🦊",
-"github":"🐱",
+"fox":"🦊",
 "hello":"👋",
 "hot":"🔥", "fire":"🔥",
-"info":"ℹ️", "faq":"ℹ️", "about":"ℹ️", 
+"info":"⚪", "faq":"ℹ️", "about":"⚪", 
 "insert":"📋", "paste":"📋",
 "joystick":"🕹",
 "keyboard":"⌨️","typing":"⌨️",
@@ -67,6 +65,7 @@ let icons = {
 "map":"📍", "sitemap":"📍",
 "mammoth ":"🦣", "mastodon":"🦣",
 "mail":"📧",
+"@":"📧",
 "menu":"☰",
 "movie":"🎥",
 "music": "🎶",
@@ -106,7 +105,7 @@ let icons = {
 "user":"👤", "followers":"👤",
 "weather":"🌤️",
 "web":"🕸️", "internet":"🕸️", "browser":"🕸️",
-"wallpaper":"🖼", "picture":"🖼", "image":"🖼", "img":"🖼", "pixel":"🖼","instagram":"🖼","pxlmo":"🖼",
+"wallpaper":"🖼", "picture":"🖼", "image":"🖼", "img":"🖼", "pixel":"🖼",
 "window":"🪟",
 
 
@@ -119,7 +118,21 @@ let icons = {
 "green":"🟩",
 "indigo":"🟪",
 "violet":"🟪",
-"blue":"🟦"
+"blue":"🟦",
+
+"cloudflare pages":"⚡",
+"behance":"🎨",
+"dribbble":"🎨",
+"codepen":"📜",
+"github":"🐱",
+"gitlab":"📜",
+"codepen":"📜",
+"friendica":"🇫",
+"firefox":"🦊",
+"pxlmo":"🖼",
+"deviantart":"🖼",
+"pinterest":"🖼",
+"instagram":"📸"
 
 /* img ico
 "instagram":`<img src="/img/icons/instagram-48x48.png" alt="ico" width="16" height="16">`,
