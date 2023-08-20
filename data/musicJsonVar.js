@@ -10578,6 +10578,13 @@ var musicJsonVar =
         "tag": "#music"
     },
     {
+        "text": "salt 'n pepa - none of your business (original video) - YouTube",
+        "text2": "",
+        "text3": "",
+        "url": "https:\/\/www.youtube.com\/watch?v=_Q96-e042bk",
+        "tag": "#music"
+    },
+    {
         "text": "Salt N Pepa - Big Girls (Dee Wiz Mix) f.\/ Pretty Big Movement - YouTube",
         "text2": "",
         "text3": "",
@@ -10603,6 +10610,27 @@ var musicJsonVar =
         "text2": "",
         "text3": "",
         "url": "https:\/\/www.youtube.com\/watch?v=8tbclCgeE78",
+        "tag": "#music"
+    },
+    {
+        "text": "Salt-N-Pepa - Expression - YouTube",
+        "text2": "",
+        "text3": "",
+        "url": "https:\/\/www.youtube.com\/watch?v=ej6pQFfA_fo",
+        "tag": "#music"
+    },
+    {
+        "text": "Salt-N-Pepa - Gitty Up (Official Music Video) - YouTube",
+        "text2": "",
+        "text3": "",
+        "url": "https:\/\/www.youtube.com\/watch?v=VGKAk7djRkk",
+        "tag": "#music"
+    },
+    {
+        "text": "Salt-N-Pepa - Let's Talk About Sex (Official Music Video) - YouTube",
+        "text2": "",
+        "text3": "",
+        "url": "https:\/\/www.youtube.com\/watch?v=ydrtF45-y-g",
         "tag": "#music"
     },
     {
