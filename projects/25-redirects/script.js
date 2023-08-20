@@ -286,7 +286,8 @@ random = Math.floor(Math.random() * urlList.length);
 random = urlList[random];
 sRedirUrl= random;
 if(q == ''){
-sRedirUrl = "https://app.grammarly.com/"
+//sRedirUrl = "https://app.grammarly.com/";
+sRedirUrl = "https://www.grammarly.com/grammar-check";
 }
 break;
 

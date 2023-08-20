@@ -1,4 +1,4 @@
-// v.2.2.1
+// v.2.2.2
 // About: insert icon using class name.
 
 
@@ -42,7 +42,7 @@ let icons = {
 "css":"🖥️", "php":"🖥️", "java":"🖥️", "code":"🖥️", "unicorn":"🦄",
 "db":"💾", "data":"💾", "database":"💾", "keep":"💾", "save":"💾",
 "dir":"📁️",
-"dev":"💻",
+"developer":"💻",
 "document":"📄", "page":"📄",
 "draw":"✏️", "drawing":"✏️",
 "earth":"🌍",

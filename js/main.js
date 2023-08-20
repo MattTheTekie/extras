@@ -61,8 +61,8 @@ mainPrintMsg('footer', `
 <span id="fTheme"><a href="/theme.${confExt}">Themes</a></span>
 <span><a href="https://x.com/inonehp">Twi / X</a></span>
 
-<span><a href="/settings.${confExt}">Settings</a></span>
-<!--<span id="fPrivacy"><a href="/privacy.${confExt}">Cookie</a></span>
+
+<!--
 <span id="fAds"><a href="/ads.${confExt}">ads: ${localStorage.getItem('confAdsStatus')}</a></span>
 <span id="fApp"><a href="/app.${confExt}"></a></span>-->
 
@@ -73,9 +73,14 @@ mainPrintMsg('footer', `
 
 <span><a href="/rss.xml">RSS</a></span>
 
+<span><a href="/settings.${confExt}">Settings</a></span>
+<span id="fPrivacy"><a href="/privacy.${confExt}">Cookie</a></span>
+
 <span><a rel="license" title="license" href="https://creativecommons.org/licenses/by-sa/4.0/">license: CC BY-SA 4.0</a></span>
 <span><a rel="license" title="license 2" href="/about.${confExt}#copyright">Some ©</a></span>
 </div>
+
+
 
 
 `);
