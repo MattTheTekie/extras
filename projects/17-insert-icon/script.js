@@ -1,4 +1,4 @@
-// v.2.2.3
+// v.2.2.4
 // About: insert icon using class name.
 
 
@@ -31,7 +31,7 @@ let icons = {
 "book":"📚", "quiz":"📚",
 "bookmark":"🔖",
 "brain":"🧠", "memory":"🧠",
-"calculator":"🧮", "abacus":"🧮",
+"calculator":"🧮", "abacus":"🧮", "count":"🧮",
 "circle":"⭕", "round":"⭕",
 "cookie":"🍪",
 "cut":"✂️",
@@ -73,6 +73,7 @@ let icons = {
 "news":"📰",
 "pumpkin":"🎃", "halloween":"🎃",
 "pc":"🖥",
+"photo":"📷",
 "project":"📄", "tpl":"📄", "template":"📄", "templates":"📄", "iframe":"📄",
 "radio":"📻",
 "random":"🎲","rnd":"🎲", "rand":"🎲", "dice":"🎲",
