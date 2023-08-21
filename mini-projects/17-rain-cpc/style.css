@@ -92,7 +92,6 @@ transform: scaleY(1);
 .window {
 display: block;
 position: relative;
-top: 15vh;
 width: 55vw;
 height: 35vw;
 max-width: 55vh;
