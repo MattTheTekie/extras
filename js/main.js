@@ -55,8 +55,8 @@ mainPrintMsg('footer', `
 <span><a href="/">home</a></span>
 <!--<span><a href="../">up</a></span>-->
 
-<asdf id="fScript"></asdf>
-<asdf id="fStyle"></asdf>
+<div id="fScript"></div>
+<div id="fStyle"></div>
 
 <span id="fTheme"><a href="/theme.${confExt}">Themes</a></span>
 <span><a href="https://x.com/inonehp">Twi / X</a></span>

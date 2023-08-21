@@ -2115,6 +2115,13 @@ var musicJsonVar =
         "tag": "#music"
     },
     {
+        "text": "Bullet Charm \u00b7 Pretty Girls Make Graves",
+        "text2": "",
+        "text3": "",
+        "url": "https:\/\/www.youtube.com\/watch?v=i0ej2A1SziA",
+        "tag": "#music"
+    },
+    {
         "text": "Burak Yeter - Tuesday (Official Music Video) ft. Danelle Sandoval - YouTube",
         "text2": "",
         "text3": "",
@@ -3715,6 +3722,13 @@ var musicJsonVar =
         "text2": "",
         "text3": "",
         "url": "https:\/\/www.youtube.com\/watch?v=539GeTDGGKg",
+        "tag": "#music"
+    },
+    {
+        "text": "Domino \u00b7 Pretty Girls Make Graves",
+        "text2": "",
+        "text3": "",
+        "url": "https:\/\/www.youtube.com\/watch?v=uzEjdzXB-C8",
         "tag": "#music"
     },
     {
@@ -7596,6 +7610,13 @@ var musicJsonVar =
         "tag": "#music"
     },
     {
+        "text": "Liquid Courage \u00b7 Pretty Girls Make Graves",
+        "text2": "",
+        "text3": "",
+        "url": "https:\/\/www.youtube.com\/watch?v=eU_31bANdq8",
+        "tag": "#music"
+    },
+    {
         "text": "Lisa Mitchell - Neopolitan Dreams (Niklas Ibach Remix) by Niklas Ibach",
         "text2": "",
         "text3": "",
@@ -9584,6 +9605,13 @@ var musicJsonVar =
         "tag": "#music"
     },
     {
+        "text": "Parade \u00b7 Pretty Girls Make Graves",
+        "text2": "",
+        "text3": "",
+        "url": "https:\/\/www.youtube.com\/watch?v=dOiL5e5Px3A",
+        "tag": "#music"
+    },
+    {
         "text": "Paradise Circus \u00b7 Massive Attack",
         "text2": "",
         "text3": "",
@@ -10015,6 +10043,13 @@ var musicJsonVar =
         "text2": "",
         "text3": "",
         "url": "https:\/\/www.youtube.com\/watch?v=lcgdnfzLup4",
+        "tag": "#music"
+    },
+    {
+        "text": "Pyrite Pedestal \u00b7 Pretty Girls Make Graves",
+        "text2": "",
+        "text3": "",
+        "url": "https:\/\/www.youtube.com\/watch?v=wiprtNuanfs",
         "tag": "#music"
     },
     {
@@ -10862,6 +10897,13 @@ var musicJsonVar =
         "text2": "",
         "text3": "",
         "url": "https:\/\/www.youtube.com\/watch?v=FIs9_R9SGcU",
+        "tag": "#music"
+    },
+    {
+        "text": "Selling The Wind \u00b7 Pretty Girls Make Graves",
+        "text2": "",
+        "text3": "",
+        "url": "https:\/\/www.youtube.com\/watch?v=roXlr8FJAqo",
         "tag": "#music"
     },
     {
@@ -12363,6 +12405,13 @@ var musicJsonVar =
         "tag": "#music"
     },
     {
+        "text": "The Lament of St. Bernadette \u00b7 Pretty Girls Make Graves",
+        "text2": "",
+        "text3": "",
+        "url": "https:\/\/www.youtube.com\/watch?v=vyayYDCmlbw",
+        "tag": "#music"
+    },
+    {
         "text": "The Limit \u00b7 DARKSIDE",
         "text2": "",
         "text3": "",
@@ -12374,6 +12423,13 @@ var musicJsonVar =
         "text2": "",
         "text3": "",
         "url": "https:\/\/www.youtube.com\/watch?v=1Th97szUOM0",
+        "tag": "#music"
+    },
+    {
+        "text": "The Magic Hour \u00b7 Pretty Girls Make Graves",
+        "text2": "",
+        "text3": "",
+        "url": "https:\/\/www.youtube.com\/watch?v=ex3q1SeoLfw",
         "tag": "#music"
     },
     {
@@ -12395,6 +12451,13 @@ var musicJsonVar =
         "text2": "",
         "text3": "",
         "url": "https:\/\/www.youtube.com\/watch?v=l1d9l7UB22Y",
+        "tag": "#music"
+    },
+    {
+        "text": "The Number \u00b7 Pretty Girls Make Graves",
+        "text2": "",
+        "text3": "",
+        "url": "https:\/\/www.youtube.com\/watch?v=tKBK0Z3TALQ",
         "tag": "#music"
     },
     {

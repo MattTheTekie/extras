@@ -25,6 +25,10 @@
 [#extension](https://github.com/topics/extension?s=updated)
 [#theme](https://github.com/topics/theme?s=updated)
 [#game](https://github.com/topics/game?s=updated)
+[#art](https://github.com/topics/art?s=updated)
+[#code-art](https://github.com/topics/code-art?s=updated)
+[#photos](https://github.com/topics/photos?s=updated)
+[#drawing](https://github.com/topics/drawing?s=updated)
 
   
 · 🖼️ Screenshot:  
