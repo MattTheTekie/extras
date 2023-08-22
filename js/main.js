@@ -826,7 +826,7 @@ document.getElementById("dropdownMenuButton").innerHTML = '☰ Menu';
 
 // enable dropdown menu only if links >= 6
 var countMenuItem = document.querySelectorAll('.countMenuItem');
-if((countMenuItem.length / 2) >= 6){ // 6 links
+if((countMenuItem.length / 2) >= 7){ // 7 links
 //if(document.getElementById("footer") != null){}
 
 //mainPrintMsg('footer', ``, '+');
