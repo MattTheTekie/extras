@@ -7,10 +7,9 @@
 "display":"minimal-ui",
   "icons": [
 {
-"src": "/img/maskable_icon_x512.png",
+"src": "/img/logo.png",
 "sizes": "512x512",
-"type": "image/png",
-"purpose": "any maskable"
+"type": "image/png"
 }
   ],
 "start_url": "index.html"

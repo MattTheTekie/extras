@@ -1,16 +1,15 @@
 {
-"name": "TPL",
-"short_name": "TPL",
+"name": "Templae",
+"short_name": "Template",
 
 "background_color": "#FCF7ED",
 "description": "no description",
 "display":"minimal-ui",
   "icons": [
 {
-"src": "/img/maskable_icon_x512.png",
+"src": "/img/logo.png",
 "sizes": "512x512",
-"type": "image/png",
-"purpose": "any maskable"
+"type": "image/png"
 }
   ],
 "start_url": "index.html"

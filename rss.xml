@@ -16,6 +16,25 @@
 </image>
 
 <item>
+<pubDate>Wed, 23 Aug 23 01:42:32 +0300</pubDate>
+<title><![CDATA[NASA Webb Telescope on X: "There’s just one Ring Nebula to rule them all. Now Webb has turned its eye on this popular target, revealing the complexity of its structure in unprecedented detail — and the possibility that the dying star at its center has a companion:    " / X  ]]></title>
+<link><![CDATA[https://twitter.com/NASAWebb/status/1693625978654777552]]></link>
+<description>
+<![CDATA[
+<div class="post border2">
+NASA Webb Telescope on X: &quot;There’s just one Ring Nebula to rule them all. Now Webb has turned its eye on this popular target, revealing the complexity of its structure in unprecedented detail - and the possibility that the dying star at its center has a companion: <a class="brand" target="_blank" href="https://t.co/wfcaLkQNAe"><img class="ico op" src="https://www.google.com/s2/favicons?domain_url=t.co" width="14px" alt="ico"> https://t.co/wfcaLkQNAe</a> <a class="brand" target="_blank" href="https://t.co/aA3pMDQArY&quot;"><img class="ico op" src="https://www.google.com/s2/favicons?domain_url=t.co" width="14px" alt="ico"> https://t.co/aA3pMDQArY&quot;</a> / X <a class="brand" target="_blank" href="https://twitter.com/NASAWebb/status/1693625978654777552"><img class="ico op" src="https://www.google.com/s2/favicons?domain_url=twitter.com" width="14px" alt="ico"> https://twitter.com/NASAWebb/status/1693625978654777552</a><div id="embed164"></div><script>
+twiStyle = `<style>.twitter-tweet { margin-top: 0px !important; }</style>`;
+if(confThemeEmbed == 'dark'){
+//twiStyle += `<style>.twitter-tweet iframe { border-radius: 15px; }</style>`;
+}
+
+document.getElementById("embed164").innerHTML = twiStyle+'<div style="display: block; width: 100%; max-width: 550px; margin: 0 auto;"><blockquote class="twitter-tweet" data-lang="en" data-theme="'+confThemeEmbed+'"><a href="https://twitter.com/NASAWebb/status/1693625978654777552"></a></blockquote></div>'; </script><script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+</div>
+]]>
+</description>
+</item>
+
+<item>
 <pubDate>Fri, 18 Aug 23 03:41:20 +0300</pubDate>
 <title><![CDATA[css GIF - Find & Share on GIPHY  ]]></title>
 <link><![CDATA[https://giphy.com/gifs/css-13FrpeVH09Zrb2]]></link>
@@ -139,19 +158,6 @@ update: removed AI images, change on new in progress.
 <![CDATA[
 <div class="post border2">
 &quot;Have no fear of perfection -- you’ll never reach it.&quot; -- Salvador Dali, artist <a class="brand" target="_blank" href="https://blog.hubspot.com/marketing/design-quotes"><img class="ico op" src="https://www.google.com/s2/favicons?domain_url=blog.hubspot.com" width="14px" alt="ico"> https://blog.hubspot.com/marketing/design-quotes</a>
-</div>
-]]>
-</description>
-</item>
-
-<item>
-<pubDate>Wed, 09 Aug 23 03:36:46 +0300</pubDate>
-<title><![CDATA[SVG Spinning House  ]]></title>
-<link><![CDATA[https://codepen.io/jkantner/pen/WNYBQQp]]></link>
-<description>
-<![CDATA[
-<div class="post border2">
-SVG Spinning House <a class="brand" target="_blank" href="https://codepen.io/jkantner/pen/WNYBQQp"><img class="ico op" src="https://www.google.com/s2/favicons?domain_url=codepen.io" width="14px" alt="ico"> https://codepen.io/jkantner/pen/WNYBQQp</a><p class="codepen" data-height="420" data-default-tab="result" data-theme-id="" data-slug-hash="WNYBQQp" data-user="" style="height: 420px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;"></p><script async src="https://cpwebassets.codepen.io/assets/embed/ei.js"></script>
 </div>
 ]]>
 </description>

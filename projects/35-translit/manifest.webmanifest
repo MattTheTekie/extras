@@ -7,9 +7,9 @@
 "display":"minimal-ui",
   "icons": [
     {
-      "src": "/img/logo.png",
-      "sizes": "512x512",
-      "type": "image/png"
+"src": "/img/logo.png",
+"sizes": "512x512",
+"type": "image/png"
     }
   ],
 "start_url": "index.html"

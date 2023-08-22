@@ -1,6 +1,15 @@
 var blogJsonVar = 
 [
     {
+        "id": "164",
+        "text": "NASA Webb Telescope on X: \"There\u2019s just one Ring Nebula to rule them all. Now Webb has turned its eye on this popular target, revealing the complexity of its structure in unprecedented detail \u2014 and the possibility that the dying star at its center has a companion: https:\/\/t.co\/wfcaLkQNAe https:\/\/t.co\/aA3pMDQArY\" \/ X",
+        "text2": "",
+        "text3": "",
+        "url": "https:\/\/twitter.com\/NASAWebb\/status\/1693625978654777552",
+        "tag": "#photo #space",
+        "time": 1692744152
+    },
+    {
         "id": "163",
         "text": "css GIF - Find & Share on GIPHY",
         "text2": "",
