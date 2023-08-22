@@ -54,7 +54,7 @@ echo <<<e
 <label class="xSmall op" for="text">text:</label>
 <textarea id="text" name="text" rows="4" cols="50">$text</textarea> 
 
-<input class="xxSmall" style="padding: 0; min-height: 1px; height: 24px;" type="submit">
+<input type="submit">
 
 
 </form>
