@@ -188,7 +188,6 @@ GitHub Pages
 
 
 
-<!-- only edit: menu and dublicate this in "menu dublicate -->
 <header class="wrapper3 topNav capitalize tLeft">
 <nav>
 
@@ -196,16 +195,12 @@ GitHub Pages
 
 <!-- start menuTop for Desktop -->
 <div class="menuTop">
-
-<!-- menu -->
 <a class="countMenuItem brand" href="art.html">art</a><br>
 <a class="countMenuItem brand" href="blog.html">blog</a><br>
 <a class="countMenuItem brand" href="templates.html">templates</a><br>
 <a class="countMenuItem brand" href="projects.html">projects</a><br>
 <a class="countMenuItem brand" href="mini-projects.html">mini-projects</a><br>
 <a class="countMenuItem brand" href="about.html">about</a><br>
-<!-- //menu -->
-
 </div>
 <!-- end menuTop -->
 
@@ -227,16 +222,6 @@ GitHub Pages
 <!-- //menu dublicate -->
 
 </div>
-
-<!--
-<div class="padding">section</div>
-<div class="dropdownMenuContentColumn">
-<a class="brand" href="#">link</a><br>
-<a class="brand" href="#">link</a><br>
-<a class="brand" href="#">link</a><br>
-</div>
--->
-
 </div>
 </div>
 <!--<hr />-->
@@ -348,13 +333,10 @@ return a;
 
 
 <div  class="center" style="margin-top: 7px;">
-
-<div class="wrapper tCenter op" id="hotLinks"><!--if scrollX horizontal class rm tagList)-->
+<div class="wrapper tCenter op"><!--if scrollX horizontal class rm tagList)-->
+<div id="hotLinks">
 
 <div class="tagList">
-<!--<a class="tag light border2" href="/sitemap.html" title="ss or qq">site</a>
-<a class="tag light border2" href="/blog.html" title="bb">blog</a>-->
-
 <a class="tag light border2" href="https://google.com/">goo</a>
 <a class="tag light border2" href="https://bing.com/">bin</a>
 <a class="tag light border2" href="/projects/25-redirects/?q=o">o</a>
@@ -373,6 +355,7 @@ return a;
 
 </div>
 </div>
+</div>
 
 
 <script>
@@ -384,24 +367,23 @@ inputA.addEventListener('input', updateValueIn);
 }
 
 if(document.querySelectorAll('input').length > 1){ 
-var inputA = document.querySelectorAll('input')[1];
-inputA.addEventListener('input', updateValueIn);
+var inputB = document.querySelectorAll('input')[1];
+inputB.addEventListener('input', updateValueIn);
 }
 
 //alert(document.querySelectorAll('input').length);
 if(document.querySelectorAll('input').length >= 4){ 
-var inputB = document.querySelectorAll('input')[3];
-inputB.addEventListener('input', updateValueIn);
+var inputC = document.querySelectorAll('input')[3];
+inputC.addEventListener('input', updateValueIn);
 }
 
-async function updateValueIn(e) {
+
+function updateValueIn(e) {
 var text = encodeURIComponent(e.target.value);
 
 var a = `
-<div class="tagList">
-<!--<a class="tag light border2" href="/projects/25-redirects/?q=`+text+` qq" title="ss or qq">site</a>
-<a class="tag light border2" href="/projects/25-redirects/?q=`+text+` bb" title="bb">blog</a>-->
 
+<div class="tagList">
 <a class="tag light border2" href="/projects/25-redirects/?q=`+text+` goo">goo</a>
 <a class="tag light border2" href="/projects/25-redirects/?q=`+text+` bin">bin</a>
 <a class="tag light border2" href="/projects/25-redirects/?q=`+text+` o">o</a>
@@ -417,6 +399,7 @@ var a = `
 <a class="tag light border2" href="/projects/25-redirects/?q=`+text+` mus">mus</a>
 <a class="tag light border2" href="/projects/25-redirects/?q=`+text+` we">we</a>
 </div>
+
 `;
 document.getElementById("hotLinks").innerHTML = a; 
 }

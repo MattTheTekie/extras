@@ -1,4 +1,4 @@
-// v.3.5.4
+// v.3.5.5
 
 // conf
 var symbolForSplit = 'pwxortuzqu'; // for split
@@ -83,10 +83,10 @@ mainPrintMsg('footer', `
 
 
 
-async function linkForFile(){
+function linkForFile(){
 // adding link to footer if project: script.js and style.css
 if((window.location.href).indexOf(('/projects/')) >= 0||(window.location.href).indexOf(('/mini-projects/')) >= 0){
-await fetch('script.js').then(function(response) {
+fetch('script.js').then(function(response) {
 //console.log(response);
 if (response.status != '404') {
 mainPrintMsg('fScript', `<span><a class="green" href="script.js">script.js</a></span>`);
@@ -571,14 +571,16 @@ setTheme(localStorage.getItem('themeMain')); //alert('not');
 */
 // end theme
 
-
+// print theme mode and name in footer
+if(document.getElementById('fTheme') != null){
+document.getElementById("fTheme").innerHTML = '<a href="/theme.'+confExt+'">theme: '+theme+' ('+confRealTmpTheme+')</a>';
 
 
 
 
 
 // serviceWorker (for webpage in offline mode or insall app from page, not for all)
-
+document.body.onload = function(){
 function fuWorker(fuSWstatus){
 
 
@@ -637,7 +639,7 @@ console.error(`Service worker registration failed: ${error}`);
 //https://github.com/mdn/pwa-examples
 //https://developer.mozilla.org/docs/Web/Progressive_web_apps/Add_to_home_screen
 // Code to handle install prompt on desktop
-async function printInstallAppLink(){
+function printInstallAppLink(){
 if(document.getElementById('fApp') != null){
 
 let deferredPrompt;
@@ -683,10 +685,10 @@ printInstallAppLink();
 
 }
 }
+}
+// end worker
 
-// print theme mode and name in footer
-if(document.getElementById('fTheme') != null){
-document.getElementById("fTheme").innerHTML = '<a href="/theme.'+confExt+'">theme: '+theme+' ('+confRealTmpTheme+')</a>';
+
 }
 
 function fuReload(){ location.reload(true); }
@@ -778,7 +780,7 @@ document.body.onload = function(){
 // analytics
 //<!-- Google tag (gtag.js) -->
 var scriptStat = document.createElement('script');
-scriptStat.async = 'async';
+//scriptStat.async = 'async';
 scriptStat.type ='text/javascript';
 scriptStat.src = `https://www.googletagmanager.com/gtag/js?id=${confGoogleAnalyticsId}`;
 document.getElementsByTagName('head')[0].appendChild(scriptStat);
@@ -790,7 +792,7 @@ gtag('config', confGoogleAnalyticsId);
 
 }
 
-};
+}
 
 
 
@@ -833,8 +835,9 @@ if((countMenuItem.length / 2) >= 6){
 
 //mainPrintMsg('footer', ``, '+');
 
-if(document.getElementsByTagName("body")[0] != null){
-document.getElementsByTagName("body")[0].innerHTML += `
+
+if(document.getElementsByTagName("nav")[0] != null){
+document.getElementsByTagName("nav")[0].innerHTML += `
 
 <style>
 
