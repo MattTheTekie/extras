@@ -1,6 +1,5 @@
 // v.1.0.0
 
-
 var print = `
 
 
@@ -10,7 +9,7 @@ var print = `
 <div class="wrapper">
 
 <div>
-<div id="result3" class="block tCenter padding"></div>
+<div id="result3"></div>
 <div id="result2"></div>
 </div>
 
@@ -52,14 +51,20 @@ function updateValueInput(e) {
 //q = encodeURIComponent(e.target.value);
 q = e.target.value;
 document.getElementById("result2").innerHTML = '<div class="result pre scroll padding border bg">'+(q).trim()+'</div><span id="scrollTo"></span>';
-document.getElementById("scrollTo").scrollIntoView(true);
+//document.getElementById("scrollTo").scrollIntoView(true);
 
 
 let countSymbol = '';
 countSymbol = q.length;
-document.getElementById("result3").innerHTML = `<h3>${countSymbol}</h3>`;
-countSymbol = '';
 
+//https://stackoverflow.com/questions/14430633/how-to-convert-text-to-binary-code-in-javascript
+for (var i = 0; i < q.length; i++) {
+countSymbol += q[i].charCodeAt(0).toString(2) + " ";
+  }
+
+document.getElementById("result3").innerHTML = `<div class="tLeft block border light padding"><b>${countSymbol}</b></div>`;
+
+countSymbol = '';
 }
 
 

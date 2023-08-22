@@ -61,14 +61,10 @@ mainPrintMsg('footer', `
 <span id="fTheme"><a href="/theme.${confExt}">Themes</a></span>
 <span><a href="https://x.com/inonehp">Twi / X</a></span>
 
-
-<!--
-<span id="fAds"><a href="/ads.${confExt}">ads: ${localStorage.getItem('confAdsStatus')}</a></span>
--->
-
 <!--
 <span id="fDonate"><a href="/about.${confExt}#donate">donate</a></span>-->
 <span id="fApp"><a href="/app.${confExt}"></a></span>
+<span id="fAds"><a href="/ads.${confExt}">ads: ${localStorage.getItem('confAdsStatus')}</a></span>
 <span id="fPrivacy"><a href="/privacy.${confExt}">Cookie</a></span>
 <!--<span><a href="/settings.${confExt}">Settings</a></span>-->
 <span id="fDownload"><a href="https://github.com/inonehp/inonehp.pages.dev">download</a></span>
