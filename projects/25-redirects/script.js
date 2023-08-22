@@ -1,4 +1,4 @@
-// v.1.1.65
+// v.1.1.67
 
 
 
@@ -650,14 +650,17 @@ case 'mus#':
 q = q3.replace(q2, '');
 q = q.trim();
 q = encodeURIComponent(q);
-
 sRedirUrl = "/projects/22-radio/";
-
 if(q != ''){
 url = "/?q="+q+' m';
 sRedirUrl = url;
 }
 break;
+
+case 'no#':
+sRedirUrl = "/mini-projects/12-not-sleep-pc/";
+break;
+
 
 case 'ti#':
 sRedirUrl = "/projects/30-time-stopwatch/";
