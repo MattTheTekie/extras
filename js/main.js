@@ -1,4 +1,4 @@
-// v.3.5.10
+// v.3.5.11
 
 // conf
 var symbolForSplit = 'pwxortuzqu'; // for split
@@ -775,12 +775,14 @@ mainPrintMsg('fPrivacy', `<a href="/privacy.${confExt}">cookie: ${option}</a>`);
 // privacy part
 if(confDataCollection == 'on'){
 
-document.body.onload = function(){
+//document.body.onload = function(){}
+//document.addEventListener("DOMContentLoaded", (event) => {});
 
+async function analytics(){
 // analytics
 //<!-- Google tag (gtag.js) -->
 var scriptStat = document.createElement('script');
-scriptStat.async = 'async';
+//scriptStat.async = 'async';
 scriptStat.type ='text/javascript';
 scriptStat.src = `https://www.googletagmanager.com/gtag/js?id=${confGoogleAnalyticsId}`;
 document.getElementsByTagName('head')[0].appendChild(scriptStat);
@@ -791,7 +793,10 @@ gtag('js', new Date());
 gtag('config', confGoogleAnalyticsId);
 
 }
+analytics();
 }
+
+
 
 
 

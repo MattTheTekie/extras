@@ -1,9 +1,8 @@
-// v.2.2.6
-// About: insert icon using class name.
+// v.2.2.8 insert icon using class name.
 
 
 
-function mainPrintMsg(id, PrintMsg, option){
+async function mainPrintMsg(id, PrintMsg, option){
 if(document.getElementById(id) != null){
 if(option == 'plus'||option == '+'){
 document.getElementById(id).innerHTML += PrintMsg;
@@ -27,7 +26,7 @@ let icons = {
 "antilope":"🦌", "gnu":"🦌",
 "balloon":"🎈",
 "button":"▬",
-"bird":"🐦", "twitter":"🐦",
+"bird":"🐦",
 "binary":"010",
 "blog":"📝", "todo":"📝", "task":"📝", "note":"📝", "reminde":"📝", "paper":"📝",
 "book":"📚", "quiz":"📚",
@@ -51,12 +50,12 @@ let icons = {
 "embed":"▣",
 "file":"🗃️",
 "game":"🎮",
+"fire":"🔥",
 "teapot":"🫖",
 "teacup":"🍵",
 "translit":"⇄", "convert":"⇄",
 "fox":"🦊",
 "hello":"👋",
-"hot":"🔥", "fire":"🔥",
 "info":"⚪", "faq":"ℹ️", "about":"⚪", 
 "insert":"📋", "paste":"📋",
 "joystick":"🕹",
@@ -78,7 +77,7 @@ let icons = {
 "news":"📰",
 "pumpkin":"🎃", "halloween":"🎃",
 "pc":"🖥",
-"photo":"📷",
+"photo":"📷", "camera":"📷",
 "project":"📄", "tpl":"📄", "template":"📄", "templates":"📄", "iframe":"📄",
 "radio":"📻",
 "random":"🎲","rnd":"🎲", "rand":"🎲", "dice":"🎲",
@@ -98,6 +97,7 @@ let icons = {
 "progress":"█░░",
 "quote":"❝❞", "quotes":"❝❞", "blockquotes":"❝❞", 
 "rain":"💧",
+"redirect":"⬈", "redirects":"⬈",
 "smoking":"🚭",
 "sun":"🌞",
 "snake":"🐍",
@@ -129,6 +129,7 @@ let icons = {
 "violet":"🟪",
 "blue":"🟦",
 
+"twitter":"𝕏",
 "cloudflare pages":"⚡",
 "behance":"🎨",
 "dribbble":"🎨",
@@ -183,6 +184,7 @@ let icon = String(icons[item]);
 
 
 //counter == 0 - only one icon insert
+var linkText2 = linkText.replaceAll("@", " @ ");
 
 
 if(mode != 'strict'&&check != 'exit'&&counter == 0){
@@ -190,9 +192,9 @@ if(mode != 'strict'&&check != 'exit'&&counter == 0){
 
 //https://stackoverflow.com/questions/412123764/how-to-remove-numbers-from-a-string
 if(
-(''+linkText.replace(/\d+/g, '').toLowerCase()).indexOf((''+textIcon.replace(/\d+/g, '')+'')) >= 0
-||linkText.replace(/\d+/g, '').toLowerCase().trim().search(textIcon.replace(/\d+/g, '')) != -1
-&&linkText.replace(/\d+/g, '').toLowerCase().trim().search(icon.replace(/\d+/g, '')) == -1){
+(''+linkText2.replace(/\d+/g, '').toLowerCase()).indexOf((''+textIcon.replace(/\d+/g, '')+'')) >= 0
+||linkText2.replace(/\d+/g, '').toLowerCase().trim().search(textIcon.replace(/\d+/g, '')) != -1
+&&linkText2.replace(/\d+/g, '').toLowerCase().trim().search(icon.replace(/\d+/g, '')) == -1){
 icArr.push(icon);
 check = 'exit';
 counter++;
@@ -201,9 +203,9 @@ counter++;
 }else if(mode == 'strict'&&check != 'exit'&&counter == 0){
 // main, strict word
 if(
-(' '+linkText.replace(/\d+/g, '').toLowerCase()+' ').indexOf((' '+textIcon.replace(/\d+/g, '')+' ')) >= 0
-||(' '+linkText.replace(/\d+/g, '').toLowerCase()+' ').indexOf((' '+textIcon.replace(/\d+/g, '')+' ')) >= 0
-&&linkText.replace(/\d+/g, '').toLowerCase().trim().search(icon.replace(/\d+/g, '')) == -1){
+(' '+linkText2.replace(/\d+/g, '').toLowerCase()+' ').indexOf((' '+textIcon.replace(/\d+/g, '')+' ')) >= 0
+||(' '+linkText2.replace(/\d+/g, '').toLowerCase()+' ').indexOf((' '+textIcon.replace(/\d+/g, '')+' ')) >= 0
+&&linkText2.replace(/\d+/g, '').toLowerCase().trim().search(icon.replace(/\d+/g, '')) == -1){
 icArr.push(icon);
 check = 'exit';
 counter++;
