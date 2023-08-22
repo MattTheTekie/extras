@@ -45,6 +45,9 @@ z-index: -1;
 
 .menu {
 display: grid;
+/*grid-template-areas: "a a a a a";*/
+/*grid-template-columns: repeat(4, 1fr);*/
+/*grid-template-columns: repeat(auto-fill, minmax(130px, max-content));*/
 grid-template-columns: repeat(auto-fill, minmax(130px, 1fr));
 /*grid-template-columns: repeat(auto-fill, minmax(130px, max-content));*/
 /*grid-auto-columns: 1fr;*/
