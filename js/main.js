@@ -1,4 +1,4 @@
-// v.3.5.8
+// v.3.5.9
 
 // conf
 var symbolForSplit = 'pwxortuzqu'; // for split
@@ -835,8 +835,8 @@ if((countMenuItem.length / 2) >= 6){
 
 //mainPrintMsg('footer', ``, '+');
 
-if(document.getElementsByTagName("body")[0] != null){ // not body, id not found
-document.getElementsByTagName("body")[0].innerHTML += `
+if(document.getElementsByTagName("nav")[0] != null){ // not body, id not found
+document.getElementsByTagName("nav")[0].innerHTML += `
 
 <style>
 
