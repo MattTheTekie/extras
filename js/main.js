@@ -1,4 +1,4 @@
-// v.3.5.9
+// v.3.5.10
 
 // conf
 var symbolForSplit = 'pwxortuzqu'; // for split
@@ -780,7 +780,7 @@ document.body.onload = function(){
 // analytics
 //<!-- Google tag (gtag.js) -->
 var scriptStat = document.createElement('script');
-//scriptStat.async = 'async';
+scriptStat.async = 'async';
 scriptStat.type ='text/javascript';
 scriptStat.src = `https://www.googletagmanager.com/gtag/js?id=${confGoogleAnalyticsId}`;
 document.getElementsByTagName('head')[0].appendChild(scriptStat);

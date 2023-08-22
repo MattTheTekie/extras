@@ -55,7 +55,7 @@ document.getElementById("result2").innerHTML = '<div class="result pre scroll pa
 
 
 let countSymbol = '';
-countSymbol = q.length;
+//countSymbol = q.length;
 
 //https://stackoverflow.com/questions/14430633/how-to-convert-text-to-binary-code-in-javascript
 for (var i = 0; i < q.length; i++) {
