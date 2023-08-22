@@ -13,8 +13,6 @@ function fuAds(none, idAds, comAds){
 
 
 
-
-
 var adsStatus = '';
 
 

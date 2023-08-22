@@ -1,9 +1,9 @@
-// v.2.2.5
+// v.2.2.6
 // About: insert icon using class name.
 
 
 
-async function mainPrintMsg(id, PrintMsg, option){
+function mainPrintMsg(id, PrintMsg, option){
 if(document.getElementById(id) != null){
 if(option == 'plus'||option == '+'){
 document.getElementById(id).innerHTML += PrintMsg;
@@ -28,6 +28,7 @@ let icons = {
 "balloon":"🎈",
 "button":"▬",
 "bird":"🐦", "twitter":"🐦",
+"binary":"010",
 "blog":"📝", "todo":"📝", "task":"📝", "note":"📝", "reminde":"📝", "paper":"📝",
 "book":"📚", "quiz":"📚",
 "bookmark":"🔖",
@@ -47,10 +48,12 @@ let icons = {
 "document":"📄", "page":"📄",
 "draw":"✏️", "drawing":"✏️", "art":"🎨",
 "earth":"🌍",
+"embed":"▣",
 "file":"🗃️",
 "game":"🎮",
 "teapot":"🫖",
 "teacup":"🍵",
+"translit":"⇄", "convert":"⇄",
 "fox":"🦊",
 "hello":"👋",
 "hot":"🔥", "fire":"🔥",
@@ -101,6 +104,7 @@ let icons = {
 "snow":"❄️", "cold":"❄️", "winter":"❄️",
 "star":"⭐",
 "stopwatch":"⏱️",
+"text":"📄",
 "textarea":"◻",
 "texture":"ᚙ", "textures":"ᚙ", "grid":"ᚙ",
 "tool":"🔨",
@@ -266,7 +270,7 @@ document.getElementsByClassName(classNameForInsert)[index].innerHTML = linkText;
 
 }else{
 linkText = `<span class="material-icons ico brand">
-<div>●</div>
+<div>🦝</div>
 </span>`+''+linkText;
 document.getElementsByClassName(classNameForInsert)[index].innerHTML = linkText;
 

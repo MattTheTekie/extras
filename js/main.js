@@ -55,8 +55,8 @@ mainPrintMsg('footer', `
 <span><a href="/">home</a></span>
 <!--<span><a href="../">up</a></span>-->
 
-<div id="fScript"></div>
-<div id="fStyle"></div>
+<em id="fScript"></em>
+<em id="fStyle"></em>
 
 <span id="fTheme"><a href="/theme.${confExt}">Themes</a></span>
 <span><a href="https://x.com/inonehp">Twi / X</a></span>
@@ -83,10 +83,10 @@ mainPrintMsg('footer', `
 
 
 
-
+async function linkForFile(){
 // adding link to footer if project: script.js and style.css
 if((window.location.href).indexOf(('/projects/')) >= 0||(window.location.href).indexOf(('/mini-projects/')) >= 0){
-fetch('script.js').then(function(response) {
+await fetch('script.js').then(function(response) {
 //console.log(response);
 if (response.status != '404') {
 mainPrintMsg('fScript', `<span><a class="green" href="script.js">script.js</a></span>`);
@@ -98,7 +98,7 @@ if (response.status != '404') {  mainPrintMsg('fStyle', `<span><a class="orange"
 }
 });
 }
-
+}
 
 //mainPrintMsg('fCode', `<span>`+window.location.href+`</span>`); 
 
@@ -403,6 +403,13 @@ mainPrintTheme(confRealTmpTheme);
 }
 
 function setTheme(mode){
+
+if (window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches) {
+document.cookie = "theme=dark; SameSite=None; Secure; path=/";
+}else{
+document.cookie = "theme=light; SameSite=None; Secure; path=/";
+}
+
 /*themeList.forEach((element) => {
 if(mode == element){
 //document.getElementById('theme').href = '/css/'+mode+'.css';
@@ -551,13 +558,8 @@ confThemeEmbed = 'light';
 //console.log(confThemeEmbed);
 }
 
-/*
-if (window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches) {
-document.cookie = "theme=dark; SameSite=None; Secure; path=/";
-}else{
-document.cookie = "theme=light; SameSite=None; Secure; path=/";
-}
-*/
+
+
 setTheme(theme);
 
 /* // disabled for if not theme, Unexpected behavior
@@ -826,7 +828,7 @@ document.getElementById("dropdownMenuButton").innerHTML = '☰ Menu';
 
 // enable dropdown menu only if links >= 6
 var countMenuItem = document.querySelectorAll('.countMenuItem');
-if((countMenuItem.length / 2) >= 7){ // 7 links
+if((countMenuItem.length / 2) >= 6){
 //if(document.getElementById("footer") != null){}
 
 //mainPrintMsg('footer', ``, '+');
