@@ -1,4 +1,4 @@
-// v.3.5.5
+// v.3.5.8
 
 // conf
 var symbolForSplit = 'pwxortuzqu'; // for split
@@ -31,7 +31,9 @@ document.fonts.ready.then(function() {
 
 
 function mainPrintMsg(id, PrintMsg, option){
+
 if(document.getElementById(id) != null){
+
 if(option == 'plus'||option == '+'){
 document.getElementById(id).innerHTML += PrintMsg;
 }else{
@@ -76,7 +78,7 @@ mainPrintMsg('footer', `
 
 
 
-`);
+`,'');
 // end footer
 
 
@@ -574,13 +576,12 @@ setTheme(localStorage.getItem('themeMain')); //alert('not');
 // print theme mode and name in footer
 if(document.getElementById('fTheme') != null){
 document.getElementById("fTheme").innerHTML = '<a href="/theme.'+confExt+'">theme: '+theme+' ('+confRealTmpTheme+')</a>';
-
+}
 
 
 
 
 // serviceWorker (for webpage in offline mode or insall app from page, not for all)
-document.body.onload = function(){
 function fuWorker(fuSWstatus){
 
 
@@ -685,11 +686,10 @@ printInstallAppLink();
 
 }
 }
-}
 // end worker
 
 
-}
+
 
 function fuReload(){ location.reload(true); }
 function reload(){ location.reload(true); }
@@ -791,8 +791,8 @@ gtag('js', new Date());
 gtag('config', confGoogleAnalyticsId);
 
 }
-
 }
+
 
 
 
@@ -835,9 +835,8 @@ if((countMenuItem.length / 2) >= 6){
 
 //mainPrintMsg('footer', ``, '+');
 
-
-if(document.getElementsByTagName("nav")[0] != null){
-document.getElementsByTagName("nav")[0].innerHTML += `
+if(document.getElementsByTagName("body")[0] != null){ // not body, id not found
+document.getElementsByTagName("body")[0].innerHTML += `
 
 <style>
 
@@ -867,6 +866,7 @@ display: none !important;
 
 `;
 }
+
 
 }
 
