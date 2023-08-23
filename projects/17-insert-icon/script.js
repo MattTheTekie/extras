@@ -1,4 +1,4 @@
-// v.2.2.8 insert icon using class name.
+// v.2.2.9 insert icon using class name.
 
 
 

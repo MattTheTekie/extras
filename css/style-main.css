@@ -1,4 +1,4 @@
-/* v.12.35.12 */
+/* v.12.35.14 */
 
 * {  color-scheme: light dark; } /* view-source:about:blank */ /* fixed #fff blink */
 
@@ -349,6 +349,7 @@ td { background-color: var(--l2); }
 
 /* other */
 .padding { padding: 9px; }
+.padding-bottom { padding-bottom: 9px; }
 .block { display: block; box-sizing: border-box; }
 .inline-block { display: inline-block; }
 .none { display: none; }

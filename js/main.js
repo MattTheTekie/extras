@@ -1,4 +1,4 @@
-// v.3.5.12
+// v.3.5.14
 
 // conf
 var symbolForSplit = 'pwxortuzqu'; // for split
@@ -23,11 +23,6 @@ if(String(window.location.href).slice(0, 4) != 'http'){
 document.getElementById('theme').id = 'themeDisable';
 }
 
-
-document.fonts.ready.then(function() {
-
-
-});
 
 
 function mainPrintMsg(id, PrintMsg, option){

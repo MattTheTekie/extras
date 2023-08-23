@@ -1,4 +1,4 @@
-// v.1.17.22
+// v.1.17.23
 
 // inspired by Twitter, Fediverse
 // not for large Json files
@@ -904,10 +904,14 @@ post = highlightText2(post, 'out');
 post = highlightText(post, 'out'); // embed without autoplay
 }
 
+var username = confHost.split('.');
+username = username[0];
+
 return `
 
 <!-- post -->
 <div class="`+postClass+` bgList border3List" id="`+id+`">
+<div class="block padding-bottom"><img class="logo2" src="/img/logo.png" width="16" alt="logo"> ${username}</div>
 <span class="pre">`+post+`</span>
 <div class="postFooter">
 <span class="postTagList">`+tag+`</span>

@@ -79,7 +79,7 @@ font-weight: bold;
 /*list*/
 .listBlock { padding: 0 5%; margin-bottom: 10px; }
 .listItem {
-padding: 4px 0;
+padding: 5px 0;
 border-bottom: 2px dotted var(--d3);
 }
 .listBlock ul li { list-style-type:none }
