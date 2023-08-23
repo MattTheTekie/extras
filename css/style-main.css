@@ -186,22 +186,18 @@ border-radius: 50%;
 border: 1px solid var(--d);
 padding: 2px;
 }*/
-.ico {
+.ico, .ico2 {
 display: inline-block;
-/*vertical-align: middle;*/
-filter: brightness(90%);
+vertical-align: middle;
+/*filter: brightness(90%);*/
 opacity: 0.9;
 font-size: small;
 padding-right: 5px;
+text-align: center;
 }
 .ico2 {
-display: inline-block;
-vertical-align: middle;
-filter: brightness(90%);
-opacity: 0.9;
+/*filter: brightness(90%);*/
 font-size: xx-small;
-width: 16px;
-padding-right: 5px;
 }
 .ico:hover, .ico2:hover {
 filter: grayscale(0%);
