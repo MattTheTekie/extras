@@ -1,4 +1,4 @@
-/* v.12.35.14 */
+/* v.12.35.15 */
 
 * {  color-scheme: light dark; } /* view-source:about:blank */ /* fixed #fff blink */
 
@@ -68,7 +68,7 @@ header{ margin: 0 auto; }
 
 header { padding: 15px 0; }
 nav, footer { text-align: center; max-width: 100%; }
-nav a, nav button, footer span { display: inline-block; padding: 5px 6px; }
+nav a, nav button, footer span { display: inline-block; padding: 5px; }
 footer { padding: 25px 0; }
 footer span::first-letter { text-transform: capitalize; }
 nav button:hover { background: none;  }
@@ -442,7 +442,7 @@ footer { margin-top: 10vh; }
 
 
 .logo2 { margin-right: 5px; }
-.topNav form { padding-left: 6px; }
+.topNav form { padding-left: 10px; }
 
 
 

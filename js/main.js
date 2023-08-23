@@ -1,4 +1,4 @@
-// v.3.5.14
+// v.3.5.15
 
 // conf
 var symbolForSplit = 'pwxortuzqu'; // for split
@@ -830,7 +830,7 @@ document.getElementById("dropdownMenuButton").innerHTML = '☰ Menu';
 
 // count links
 var countMenuItem = document.querySelectorAll('.countMenuItem');
-if((countMenuItem.length / 2) >= 7){
+if((countMenuItem.length / 2) >= 4){
 //if(document.getElementById("footer") != null){}
 
 //mainPrintMsg('footer', ``, '+');
