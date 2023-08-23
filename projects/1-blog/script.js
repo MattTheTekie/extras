@@ -570,8 +570,8 @@ if(mode == 'search'){
 print += `
 <div class="wrapper">
 <div class="block tRight padding">
-<a class="op border2 button light" href="#" onclick="history.back()" title="history back">back</a>
-<a class="op border2 button light" href="?">main</a>
+<a class="op border3 button light" href="#" onclick="history.back()" title="history back">back</a>
+<a class="op border3 button light" href="?">main</a>
 </div>
 </div>
 `;
@@ -829,7 +829,7 @@ hlClassList2.forEach(function(item){
 let hlClass = 'hlClass'+item;
 item = item.toUpperCase();
 hlClassList += `
-<a class="tag light border2 ${hlClass}" onmouseover="hlwClassAdd('${hlClass}')" onmouseout="hlwClassRemove('${hlClass}')" href="#id${hlClass}" id="${hlClass}">${item}</a>
+<a class="tag light border3 ${hlClass}" onmouseover="hlwClassAdd('${hlClass}')" onmouseout="hlwClassRemove('${hlClass}')" href="#id${hlClass}" id="${hlClass}">${item}</a>
 `;
 });
 
@@ -1962,7 +1962,7 @@ nav2Print = `
 <div class="tRight">
 <!--<a rel="nofollow" class="op borderList button light" href="?id=">random</a>-->
 </div>
-<!--<a rel="nofollow" class="op border2 button light" style="width: 49%;" href="#" onclick="history.back()">back</a>-->
+<!--<a rel="nofollow" class="op border3 button light" style="width: 49%;" href="#" onclick="history.back()">back</a>-->
 `;
 break;
 
@@ -1974,7 +1974,7 @@ nav2Print = `
 <div class="tRight">
 <!--<a rel="nofollow" class="op borderList button light" href="?id=">random</a>-->
 
-<!--<a rel="nofollow" class="op border2 button light" style="width: 49%;" href="#" onclick="history.back()">back</a>-->
+<!--<a rel="nofollow" class="op border3 button light" style="width: 49%;" href="#" onclick="history.back()">back</a>-->
 </div>
 `;
 

@@ -156,7 +156,7 @@ if(localStorage.getItem('confDataCollection') != null){
 confDataCollection = localStorage.getItem('confDataCollection');
 }
 mainPrintMsg('fPrivacy', `<a href="/privacy.${confExt}">cookie: ${confDataCollection}</a>`); 
-
+document.cookie = "confDataCollection="+confDataCollection+"n; SameSite=None; Secure; path=/";
 
 
 
