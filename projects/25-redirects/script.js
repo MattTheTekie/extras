@@ -528,7 +528,7 @@ urlList = [
 'https://www.w3schools.com/',
 'https://developer.mozilla.org/docs/',
 'https://web.dev/',
-'https://www.php.net/docs.php'
+'https://www.php.net/manual/en/'
 
 /*
 'https://www.w3.org/',
