@@ -41,7 +41,7 @@ tag = tag.trim();
 
 
 if(q == null){ q = localStorage.getItem('randomRadioQ'); }
-if(q == null) { q = '#RadioMusic'; tag = q; }
+if(q == null) { q = '#radio'; tag = q; }
 var q2 = q;
 
 
