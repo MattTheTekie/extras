@@ -1,8 +1,8 @@
 {
-	"version": "1.4.0",
+	"version": "1.4.4",
 	"name": "theme-abc",
-	"displayName": "Light and Dark Theme",
-	"description": "Light and Dark Theme. (Inspired by Github, Sublime Text, Geany)",
+	"displayName": "Light and Dark Theme.",
+	"description": "Light and Dark Theme.",
 	"publisher": "inonehp",
 
 	"engines": {
@@ -29,12 +29,12 @@
 			{
 				"label": "Light Theme Abc",
 				"uiTheme": "vs",
-				"path": "light-theme-color-theme.json"
+				"path": "light-theme-color.json"
 			},
 			{
 				"label": "Dark Theme Abc",
 				"uiTheme": "vs-dark",
-				"path": "dark-theme-color-theme.json"
+				"path": "dark-theme-color.json"
 			}
 
 		]
