@@ -8,8 +8,8 @@
 · 📄 Website Templates.  
 · 🛍 Extensions: New Tab Redirect, Hotkey URL.  
 · 🎨 Themes for Firefox, Geany IDE.  
-· 🎮 JavaScript Games: Typing Speed, Snake, Memory Symbol, Tic Tac Toe. 
-· ⌨️ Typing Speed. 
+· 🎮 JavaScript Games: Snake, Memory Symbol, Tic Tac Toe.  
+· ⌨️ Typing Speed (WPM).  
 · 📝 Todo List.  
 · 🦝 Photo, Art, etc ...  
 · ⚪ Some copyright and other license in about page on website.  
