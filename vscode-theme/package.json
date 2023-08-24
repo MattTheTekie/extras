@@ -1,5 +1,5 @@
 {
-	"version": "1.3.57",
+	"version": "1.4.0",
 	"name": "theme-abc",
 	"displayName": "Light and Dark Theme",
 	"description": "Light and Dark Theme. (Inspired by Github, Sublime Text, Geany)",
@@ -27,12 +27,12 @@
 	"contributes": {
 		"themes": [
 			{
-				"label": "Light Theme",
+				"label": "Light Theme Abc",
 				"uiTheme": "vs",
 				"path": "light-theme-color-theme.json"
 			},
 			{
-				"label": "Dark Theme",
+				"label": "Dark Theme Abc",
 				"uiTheme": "vs-dark",
 				"path": "dark-theme-color-theme.json"
 			}
