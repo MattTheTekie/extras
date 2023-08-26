@@ -1,4 +1,4 @@
-/* v.1.4.5 */
+/* v.1.4.6 */
 
 /*
 html::before {
@@ -17,7 +17,8 @@ z-index: -2;
 
 
 
-nav form, nav input[type=search] { display: inline-block;  max-width: 130px; }
+nav form, nav input[type=search] { display: inline-block; }
+nav form { width: 100%; max-width: 130px; }
 nav input[type=search] { padding: 5px; min-height: 10px; }
 
 /*rmme
@@ -190,9 +191,10 @@ to { transform: rotate(360deg); }
 }
 
 
+/* fix */
 
 
-
+nav form { margin: 0 12px; }
 
 
 
