@@ -1,4 +1,4 @@
-// v.3.5.15
+// v.3.5.16
 
 // conf
 var symbolForSplit = 'pwxortuzqu'; // for split
@@ -46,7 +46,7 @@ mainPrintMsg('footer', `
 <div id="ads2"></div>
 
 
-<br>
+<br><br>
 <div class="wrapper3">
 
 <span><a href="/">home</a></span>
