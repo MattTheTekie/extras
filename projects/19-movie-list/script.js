@@ -1,4 +1,4 @@
-// v.1.1.0
+// v.1.1.1
 // parse IMDB WATCHLIST.csv
 
 parseList("result", "/data2/WATCHLIST.csv");
@@ -94,13 +94,12 @@ randomMovie = movieList[randomMovie]['data'];
 randomMovie2 = movieList[randomMovie2]['data'];
 randomMovie3 = movieList[randomMovie3]['data'];
 print = `
-<h3 class="op">Random movie:</h3>
+<b class="block padding-bottom">Random:</b>
 ${randomMovie}
 ${randomMovie2}
 ${randomMovie3}<br>
 <a class="op" href="#" onclick="reload()">[ reload ]</a>
-<hr>
-<span class="op">List (total: ${movieList.length}):</span><br><br>
+<br><br><span class="block padding-bottom bold">List (total: ${movieList.length}):</span>
 ${print}
 `;
 
