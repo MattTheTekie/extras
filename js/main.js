@@ -56,7 +56,7 @@ mainPrintMsg('footer', `
 <em id="fStyle"></em>
 
 <span id="fTheme"><a href="/theme.${confExt}">Themes</a></span>
-<span><a href="https://x.com/inonehp">Twi / X</a></span>
+<span><a href="https://x.com/inonehp">𝕏 / Twi</a></span>
 
 <!--
 <span id="fDonate"><a href="/about.${confExt}#donate">donate</a></span>-->

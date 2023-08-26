@@ -1925,7 +1925,7 @@
     "editorWhitespace.foreground": "#595959",
     "editor.selectionHighlightBackground": "#dacbb8",
     "editor.selectionHighlightBorder": "#dacbb8",
-    "editor.findMatchBackground": "#ffedd6",
+    "editor.findMatchBackground": "#dacbb8",
     "editor.findMatchBorder": "#dacbb8",
     "editor.findMatchHighlightBackground": "#dacbb8",
     "editor.findMatchHighlightBorder": "#dacbb8",

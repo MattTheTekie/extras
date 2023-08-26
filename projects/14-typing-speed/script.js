@@ -410,6 +410,7 @@ text = letters.join("");
 
 //console.log(letters);
 var a = {
+"ˈ":"'", "ː":":",
 "×":"x",
 "‐":"-",
 "½":"1/2", "―":"-", 

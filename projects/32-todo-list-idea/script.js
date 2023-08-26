@@ -1,5 +1,5 @@
 // Todo
-// v.1.3.0
+// v.1.3.1
 // comments
 // https://developer.mozilla.org/en-US/docs/Web/API/IDBCursor/continue
 
@@ -652,7 +652,7 @@ randomTask = `${randomTodoListArray[Math.floor(Math.random() * randomTodoListArr
 
 if(randomTask != 'undefined'){
 randomTask = `
-<span class="op">random:</span>
+<span class="op block" style="padding-bottom: 3px;">random:</span>
 <div class="block paddingL"></div>
 ${randomTask}
 `;
@@ -662,13 +662,13 @@ ${randomTask}
 var allOtherTaskMsg = '';
 if(printDaily != ''){
 printDaily = `
-<span class="op">pined or daily:</span>
+<span class="op block" style="padding-bottom: 3px;">pined or daily:</span>
 <div class="block paddingL"></div>
 ${printDaily}
 `;
 if(print != ''){
 allOtherTaskMsg = `
-<span class="op">other:</span>
+<span class="op block" style="padding-bottom: 3px;">other:</span>
 <div class="block paddingL"></div>
 `;
 }

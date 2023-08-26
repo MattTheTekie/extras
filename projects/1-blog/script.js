@@ -911,7 +911,7 @@ return `
 
 <!-- post -->
 <div class="`+postClass+` bgList border3List" id="`+id+`">
-<div class="block padding-bottom bold"><a href="/"><img class="ico" src="/img/logo.png" width="28" alt="logo">${username}</a></div>
+<div class="block padding-bottom2 bold"><a href="/"><img class="ico" src="/img/logo.png" width="28" alt="logo">${username}</a></div>
 <span class="pre">`+post+`</span>
 <div class="postFooter">
 <span class="postTagList">`+tag+`</span>
