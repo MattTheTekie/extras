@@ -1173,7 +1173,8 @@ document.getElementById("text").style.borderTop = "9px solid var(--d2)";
 
 
 document.getElementsByClassName("msg2")[0].innerHTML = `
-<div class="block wrapper2 op small tRight padding">* word - ${wordLengthLimit} symbol, Average WPM - average last ${wmpAverageLimit} WPM</div>
+<div class="block padding"></div>
+<div class="block wrapper2 op small tRight padding2">* word - ${wordLengthLimit} symbol, Average WPM - average last ${wmpAverageLimit} WPM</div>
 `;
 
 }

@@ -1,10 +1,4 @@
-// v.1.2.0
-
-
-/*
-var x = 200;
-var y = 200;
-*/
+// v.1.2.1
 
 var msg = '';
 
@@ -346,22 +340,42 @@ if(findDuplicates(snakeArr).length >= 1){ currentDirection[0] = 'stop'; }
 //https://developer.mozilla.org/en-US/docs/Web/API/Element/keypress_event
 const input = document.querySelector("html");
 
-input.addEventListener("keypress", logKey);
+//input.addEventListener("keypress", keyPressed);
+input.addEventListener("keydown", keyPressed);
 
-function logKey(e) {
+
+function keyPressed(e) {
+//console.log(e.code);
 //console.log(` ${e.code}`)
 if(currentDirection[0] != 'stop'){
-if(e.code == 'KeyW'&&currentDirection[0] != 'down'||e.code == 'KeyI'&&currentDirection[0] != 'down'){ currentDirection[0] = 'up'; }
-if(e.code == 'KeyS'&&currentDirection[0] != 'up'||e.code == 'KeyK'&&currentDirection[0] != 'up'){ currentDirection[0] = 'down'; }
-if(e.code == 'KeyA'&&currentDirection[0] != 'right'||e.code == 'KeyJ'&&currentDirection[0] != 'right'){ currentDirection[0] = 'left'; }
-if(e.code == 'KeyD'&&currentDirection[0] != 'left'||e.code == 'KeyL'&&currentDirection[0] != 'left'){ currentDirection[0] = 'right'; }
+
+if(
+e.code == 'Numpad8'&&currentDirection[0] != 'down'||
+e.code == 'ArrowUp'&&currentDirection[0] != 'down'||
+e.code == 'KeyW'&&currentDirection[0] != 'down'||
+e.code == 'KeyI'&&currentDirection[0] != 'down'){ currentDirection[0] = 'up'; }
+if(
+e.code == 'Numpad5'&&currentDirection[0] != 'up'||
+e.code == 'Numpad2'&&currentDirection[0] != 'up'||
+e.code == 'ArrowDown'&&currentDirection[0] != 'up'||
+e.code == 'KeyS'&&currentDirection[0] != 'up'||
+e.code == 'KeyK'&&currentDirection[0] != 'up'){ currentDirection[0] = 'down'; }
+if(
+e.code == 'Numpad4'&&currentDirection[0] != 'right'||
+e.code == 'ArrowLeft'&&currentDirection[0] != 'right'||
+e.code == 'KeyA'&&currentDirection[0] != 'right'||
+e.code == 'KeyJ'&&currentDirection[0] != 'right'){ currentDirection[0] = 'left'; }
+if(
+e.code == 'Numpad6'&&currentDirection[0] != 'left'||
+e.code == 'ArrowRight'&&currentDirection[0] != 'left'||
+e.code == 'KeyD'&&currentDirection[0] != 'left'||
+e.code == 'KeyL'&&currentDirection[0] != 'left'){ currentDirection[0] = 'right'; }
 }
 }
 
 
 
 function control(e) {
-
 if(currentDirection[0] != 'stop'){
 if(e == 'up'&&currentDirection[0] != 'down'){ currentDirection[0] = 'up'; }
 if(e == 'down'&&currentDirection[0] != 'up'){ currentDirection[0] = 'down'; }

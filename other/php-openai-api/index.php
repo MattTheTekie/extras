@@ -1,4 +1,7 @@
 <?php
+//v.1.0.3
+
+
 if(php_uname('s') == 'Windows NT'){
 $dirname = explode("\\", getcwd());
 $dirname = $dirname[count(explode('\\', getcwd()))-1];

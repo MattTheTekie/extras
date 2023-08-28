@@ -4747,6 +4747,13 @@ var musicJsonVar =
         "tag": "#music"
     },
     {
+        "text": "Foxtails Brigade - \"Control\" (Full Band) - YouTube",
+        "text2": "",
+        "text3": "",
+        "url": "https:\/\/www.youtube.com\/watch?v=f2OXoqi4o0U",
+        "tag": "#music"
+    },
+    {
         "text": "Foxtails Brigade - \"Far Away and Long Ago\" Official Music Video - YouTube",
         "text2": "",
         "text3": "",

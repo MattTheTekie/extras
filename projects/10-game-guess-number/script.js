@@ -1,4 +1,4 @@
-// v.1.2.3
+// v.1.2.4
 
 var limit = 10;
 var rangeValue = 0;
@@ -56,19 +56,19 @@ task[0] = Math.floor(Math.random() * mode[0]);
 
 if(task[0] == answer[0]){
 document.getElementById("gameResult").innerHTML = `
-<h3>
+<div class="h3">
 <span class="padding h3 orange bold">win</span><br><br>
-<span class="orange bold">${task[0]}</span> <span class="bold">==</span> <span class="green bold">${answer[0]}</span>
-</h3>
+<span class="green bold">${answer[0]}</span> <span class="bold">==</span> <span class="orange bold">${task[0]}</span>
+</div>
 <span class="op padding margin">(mode: 0-${mode[0]})</span>
 <audio style="display:none" autoplay="false" src="/audio/win.ogg">
 `;;
 }else{
 document.getElementById("gameResult").innerHTML = `
-<h3>
+<div class="h3">
 <span class="padding h3 red bold">end</span><br><br>
-<span class="orange bold">${task[0]}</span> <span class="bold">!=</span> <span class="red bold">${answer[0]}</span>
-</h3>
+<span class="red bold">${answer[0]}</span> <span class="bold">!=</span> <span class="orange bold">${task[0]}</span>
+</div>
 <span class="op padding margin">(mode: 0-${mode[0]})</span>
 <audio style="display:none" autoplay="false" src="/audio/error.ogg">
 `;
@@ -86,7 +86,7 @@ var print = `
 
 <form id="form">
 
-<label class="op block tLeft xSmall">input number:</label>
+<label class="op block tLeft x-small">input number:</label>
 
 <div id="number2"></div>
 <div class="buttonPlusMinus">

@@ -1,4 +1,4 @@
-// v.1.2.2
+// v.1.2.3
 
 function fuClock(id){
 
@@ -162,8 +162,8 @@ val = `
 `;
 
 //https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/String/replace
-val = val.replaceAll('0', '0️⃣');
-val = val.replaceAll('1', '🐈');
+val = val.replaceAll('0', '<div class="block0"></div>');
+val = val.replaceAll('1', '<div class="block1"></div>');
 return val;
 }
 
