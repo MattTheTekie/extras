@@ -1,4 +1,4 @@
-// v.1.17.24
+// v.1.17.25
 
 // inspired by Twitter, Fediverse
 // not for large Json files
@@ -201,7 +201,7 @@ if(mode == 'auto-random'){ mode = 'auto-random'; getP2 = Math.floor(Math.random(
 
 if(mode == 'list'&&tagListStatus == 'on'){
 print += `
-<!--<div class="block tCenter padding">
+<!--<div class="block tCenter padding2">
 com:${mode} id:${id} q:${q} p:${getP} p2:${getP2}
 <a href="?id=">random</a>
 </div>-->
@@ -286,7 +286,7 @@ comMessage = 'found';
 
 
 
-if(comMessagePrint == '') { comMessagePrint = `<b>${q}</b> <div class="bold red block padding">Probably not found</div>`; }
+if(comMessagePrint == '') { comMessagePrint = `<b>${q}</b> <div class="bold red block padding2 h1">Probably not found</div>`; }
 break;
 
 case 'id':
@@ -309,7 +309,7 @@ i++;
 getP = key;
 }
 }
-if(comMessagePrint == '') { comMessagePrint = `<b>${q}</b> <div class="bold red block padding">Probably not found</div>`; }
+if(comMessagePrint == '') { comMessagePrint = `<b>${q}</b> <div class="bold red block padding2 h3">Probably not found</div>`; }
 break;
 
 
@@ -472,7 +472,7 @@ sRelevantPoint++
 
 
 
-if(mode == 'search'&&comMessage != 'found') { comMessagePrint = `<b>${q}</b> <div class="bold red block padding">Probably not found</div>`; }
+if(mode == 'search'&&comMessage != 'found') { comMessagePrint = `<b>${q}</b> <div class="bold red block padding2 h3">Probably not found</div>`; }
 // end Search 2
 
 
@@ -547,7 +547,7 @@ checkDublicateId[0] = postId;
 
 
 
-if(mode == 'search'&&comMessage != 'found') { comMessagePrint = `<b>${q}</b> <div class="bold red block padding">Probably not found</div>`; }
+if(mode == 'search'&&comMessage != 'found') { comMessagePrint = `<b>${q}</b> <div class="bold red block padding2 h3">Probably not found</div>`; }
 // end Search 3
 
 
@@ -569,7 +569,7 @@ print += `<div class="${postClass}">`+blogNav(mode)+`</div>`;
 if(mode == 'search'){
 print += `
 <div class="wrapper">
-<div class="block tRight padding">
+<div class="block tRight padding2">
 <a class="op border3 button light" href="#" onclick="history.back()" title="history back">back</a>
 <a class="op border3 button light" href="?">main</a>
 </div>
@@ -588,14 +588,14 @@ print += `
 <div id="form" class="wrapperL">
 <form method="GET" style="margin-top: 0px;" action="?">
 <label id="search" class="op block tLeft x-small" for="input">search:</label>
-<input id="input" class="padding op" type="search" style="text-align: center;" name="q"  autocomplete="off" placeholder="" value="${q}">
+<input id="input" class="padding2 op" type="search" style="text-align: center;" name="q"  autocomplete="off" placeholder="" value="${q}">
 
-<input class="op" style="padding: 0; min-height: 1px; height: 28px; font-size: 12px;" type="submit" value="search">
+<input class="op" style="padding: 0; min-height: 1px; font-size: 12px;" type="submit" value="search">
 
 </form>
 
 <br>
-<div class="block padding">
+<div class="block padding2">
 <span class="op block tCenter margin  small">total post: ${jsonVar.length}</span>
 <span class="op block tCenter margin padding">${bottomMsg}</span>
 </div>
@@ -619,7 +619,7 @@ document.getElementById(printId).innerHTML += print;
 
 comMessagePrint = `mode: ${mode} `+comMessagePrint;
 if(comMessagePrint != ''){
-document.getElementById('comMsg').innerHTML += `<div class="wrapper op tCenter padding">${comMessagePrint}</div>`;
+document.getElementById('comMsg').innerHTML += `<div class="wrapper op tCenter padding2">${comMessagePrint}</div>`;
 }
 
 //if(q != null){ document.getElementById("input").value = q; }
@@ -911,7 +911,7 @@ return `
 
 <!-- post -->
 <div class="`+postClass+` bgList border3List" id="`+id+`">
-<div class="block padding-bottom2 bold"><a href="/"><img class="ico" src="/img/logo.png" width="28" alt="logo">${username}</a></div>
+<div class="block padding-bottom2 bold text-transform-capitalize"><a href="/"><img class="ico" src="/img/logo.png" width="20" alt="logo">${username}</a></div>
 <span class="pre">`+post+`</span>
 <div class="postFooter">
 <span class="postTagList">`+tag+`</span>

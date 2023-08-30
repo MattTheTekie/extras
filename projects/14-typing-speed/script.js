@@ -1,4 +1,4 @@
-// v.3.10.18
+// v.3.10.19
 
 
 
@@ -489,7 +489,7 @@ letters = letters.replaceAll(/  +/g, ' ');
 letters = transliterate(letters);
 
 
-letters = encodeURIComponent(letters); // error url
+//letters = encodeURIComponent(letters); // error url
 
 //https://www.charset.org/utf-8/66
 //Variation Selector
@@ -568,7 +568,7 @@ letters = letters.replaceAll(/E2%80%8A/g, " "); // end of line
 letters = letters.replaceAll(/%E2%81%A6/g, ""); // Left-to-Right Isolate
 letters = letters.replaceAll(/%E2%81%A9/g, "");
 
-letters = decodeURIComponent(letters); // error
+//letters = decodeURIComponent(letters); // error
 
 letters = letters.replaceAll(/  /g, " ");
 //letters = letters.replace(/\r\n/g, "\n");

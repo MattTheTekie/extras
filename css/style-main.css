@@ -190,8 +190,9 @@ vertical-align: middle;
 /*filter: brightness(90%);*/
 opacity: 0.9;
 font-size: small;
-padding-right: 5px;
+margin-right: 5px;
 text-align: center;
+height: auto;
 }
 .ico2 {
 /*filter: brightness(90%);*/
@@ -346,7 +347,12 @@ td { background-color: var(--l2); }
 .padding2 { padding: 9px; }
 .padding-bottom { padding-bottom: 5px; }
 .padding-bottom2 { padding-bottom: 9px; }
-.capitalize { text-transform: capitalize; }
+.text-transform-capitalize { text-transform: capitalize; }
+.text-transform-uppercase { text-transform: uppercase; }
+.text-transform-lowercase { text-transform: lowercase; }
+.text-transform-none { text-transform: none; }
+.text-transform-full-width { text-transform: full-width; }
+.text-transform-full-size-kana { text-transform: full-size-kana; }
 .block { display: block; box-sizing: border-box; }
 .inline-block { display: inline-block; }
 .none { display: none; }
@@ -395,6 +401,7 @@ scroll-padding-top: 16px;
 h1, h2, h3, h4, h5, h6 {
 word-break: break-all;
 margin: 25px 0;
+text-transform: capitalize;
 }
 h1, h2, h3, h4, h5, h6, .bold, .b, b { letter-spacing: 0.2px; }
 
